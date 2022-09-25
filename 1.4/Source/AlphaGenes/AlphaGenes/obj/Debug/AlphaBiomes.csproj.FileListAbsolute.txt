@@ -1,0 +1,19 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\Assemblies\AlphaBiomes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csproj.CopyComplete
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\Assemblies\AlphaBiomes.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csproj.CopyComplete
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\v1.1\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\v1.1\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\v1.1\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\v1.1\Assemblies\AlphaBiomes.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaBiomes\v1.1\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\1.1\Assemblies\AlphaBiomes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\1.1\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\1.1\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaBiomes\1.1\Source\AlphaBiomes\AlphaBiomes\obj\Debug\AlphaBiomes.dll
