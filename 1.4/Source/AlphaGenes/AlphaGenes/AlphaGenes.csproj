@@ -294,9 +294,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GraphicsCache.cs" />
-    <Compile Include="Harmony\Class1.cs" />
-    <Compile Include="Harmony\HarmonyPatchers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

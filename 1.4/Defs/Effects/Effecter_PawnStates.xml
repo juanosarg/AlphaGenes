@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<EffecterDef>
+		<defName>AG_ElectrifiedEffecter</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+				<scale>
+					<min>3</min>
+					<max>3</max>
+				</scale>
+				<chancePerTick>0.025</chancePerTick>
+				<positionRadius>0.3</positionRadius>
+				<moteDef>AG_ElectrifiedMote</moteDef>
+				<speed>
+					<min>0.25</min>
+					<max>0.3</max>
+				</speed>
+				<angle>
+					<min>10</min>
+					<max>80</max>
+				</angle>
+			</li>
+		</children>
+	</EffecterDef> 
+
+	<ThingDef ParentName="MoteBase">
+		<defName>AG_ElectrifiedMote</defName>
+		<label>electrical sparks</label>
+
+		<graphicData>
+			<texPath>Things/Mote/AG_MicroSparks</texPath>
+			<drawSize>1</drawSize>
+
+		</graphicData>
+		<thingClass>MoteThrownAttached</thingClass>
+		<altitudeLayer>MetaOverlays</altitudeLayer>
+		<mote>
+			<fadeInTime>0.50</fadeInTime>
+			<solidTime>1.5</solidTime>
+			<fadeOutTime>2</fadeOutTime>
+			<attachedDrawOffset>(0.2, 0, 0.2)</attachedDrawOffset>
+		</mote>
+	</ThingDef>
+
+</Defs>
