@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <AbilityDef>
+    <defName>AG_WingPoweredJump</defName>
+    <label>wing-powered jump</label>
+    <description>Flap wings to jump a short distance.</description>
+    <iconPath>UI/Abilities/AG_WingPoweredJump</iconPath>
+    <cooldownTicksRange>2400</cooldownTicksRange>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <label>flap wings</label>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <warmupTime>0.5</warmupTime>
+      <range>6.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>AG_WingsFlapping</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <flyWithCarriedThing>true</flyWithCarriedThing>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    
+  </AbilityDef>
+
+ 
+</Defs>

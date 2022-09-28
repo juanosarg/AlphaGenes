@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneCategoryDef>
+		<defName>AG_SpecialEffectsCategory</defName>
+		<label>special effects</label>
+		<displayPriorityInXenotype>515.69</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>AG_Cosmetic_Horns</defName>
+		<label>cosmetic - horns</label>
+		<displayPriorityInXenotype>295.69</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>AG_Wings</defName>
+		<label>functional wings</label>
+		<displayPriorityInXenotype>315.69</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
+	</GeneCategoryDef>
+</Defs>

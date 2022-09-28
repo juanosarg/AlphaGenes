@@ -21,10 +21,10 @@
 		</comps>
 	</HediffDef>
 
-<!--	<HediffDef ParentName="PsycastHediffBase">
-		<defName>AAVPE_Hover</defName>
+	<HediffDef>
+		<defName>AG_Hover</defName>
 		<label>hover</label>
-		<description>Limited psychic flight that allows this colonist or animal to hop and glide small distances over terrain. They will ignore terrain movement costs for the duration of the ability.</description>
+		<description>Limited flight that allows this colonist to hop and glide small distances over terrain. They will ignore terrain movement costs when moving.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -36,7 +36,7 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef ParentName="PsycastHediffBase">
+<!--	<HediffDef ParentName="PsycastHediffBase">
 		<defName>AAVPE_FungalSkin</defName>
 		<label>fungal skin</label>
 		<description>Several giant fungi are sprouting from this person or animal's skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire.</description>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_Stalks</defName>
 		<label>eye stalks</label>
@@ -20,23 +19,145 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
+	<!-- Horns -->
 	<GeneDef ParentName="GeneHeadboneBase">
-		<defName>AG_BoomNodules</defName>
-		<label>chemfuel nodules</label>
-		<description>Huge pustules filled with chemfuel make this person quite disgusting to look at. The nodules will explode if the person dies.\n\n&lt;color=#E5E54C&gt;Special effects:&lt;/color&gt;\n - Colonist will explode on death in a flame explosion with 2 tiles radius</description>
-		<iconPath>UI/Icons/Genes/AG_NodulesIcon</iconPath>
+		<defName>AG_ChameleonYakHorns</defName>
+		<label>chameleon yak horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two curved horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_YakHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
 		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</graphicPath>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_YakHorns/AG_YakHorns</graphicPath>
 			<color>(255, 255, 255)</color>
 			<layer>PostHeadgear</layer>
 		</graphicData>
-		<biostatCpx>1</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<hediff>AG_Exploder</hediff>
-		<forcedHair>Bald</forcedHair>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>chameleon yak</symbol>
+				</li>
+				<li>
+					<symbol>yak</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>horn</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_DevilsheepHorns</defName>
+		<label>devilsheep horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two short sheep horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_DevilsheepHornsIcon</iconPath>
 		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DevilsheepHorns/AG_DevilsheepHorns</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>devilsheep</symbol>
+				</li>
+				<li>
+					<symbol>sheep</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>horn</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_BullHorns</defName>
+		<label>bull horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large bull horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_BullHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BullHorns/AG_BullHorns</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>bull</symbol>
+				</li>
+				<li>
+					<symbol>uro</symbol>
+				</li>
+				<li>
+					<symbol>oxen</symbol>
+				</li>
+				<li>
+					<symbol>longhorn</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>horn</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_AntlerHorns</defName>
+		<label>antlers</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large antlers protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_AntlerHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_AntlerHorns/AG_AntlerHorns</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>antler</symbol>
+				</li>
+				<li>
+					<symbol>cervid</symbol>
+				</li>
+				<li>
+					<symbol>deer</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>antler</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -46,24 +167,62 @@
 	</GeneDef>
 	
 	<GeneDef ParentName="GeneHeadboneBase">
-		<defName>AG_TetraCoils</defName>
-		<label>tetra coils</label>
-		<description>.\n\n&lt;color=#E5E54C&gt;Special effects:&lt;/color&gt;\n - Colonist will recharge nearby batteries. Most modded batteries are supported</description>
-		<iconPath>UI/Icons/Genes/AG_TetraCoilsIcon</iconPath>
+		<defName>AG_MothAntennae</defName>
+		<label>moth antennae</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large antennae protruding from the nose.</description>
+		<iconPath>UI/Icons/Genes/AG_MothAntennaeIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
 		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_TetraCoils/AG_TetraCoils</graphicPath>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_MothAntennae/AG_MothAntennae</graphicPath>
 			<color>(255, 255, 255)</color>
 			<layer>PostHeadgear</layer>
 		</graphicData>
-		<biostatCpx>1</biostatCpx>
-		<biostatMet>-1</biostatMet>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<hediff>AG_Electrified</hediff>
-		<forcedHair>Bald</forcedHair>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>moth</symbol>
+				</li>
+				<li>
+					<symbol>butterfly</symbol>
+				</li>
+				<li>
+					<symbol>lepidopt</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_RayHoundTentacles</defName>
+		<label>rayhound tentacles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large rayhound tentacles protruding from the nose.</description>
+		<iconPath>UI/Icons/Genes/AG_RayHoundTentaclesIcon</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<statOffsets>
-			<MentalBreakThreshold>0.2</MentalBreakThreshold>
-		</statOffsets>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_RayHoundTentacles/AG_RayHoundTentacles</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>tentacle</symbol>
+				</li>
+				<li>
+					<symbol>tenta</symbol>
+				</li>
+				<li>
+					<symbol>c't</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -72,39 +231,84 @@
 		</modExtensions>
 	</GeneDef>
 	
-	 <GeneDef ParentName="GeneTailBase">
-    <defName>AG_RainbowWings</defName>
-    <label>rainbow wings</label>
-    <description>Carriers of this gene grow a slender tail that can act as a dexterous fifth limb.</description>
-    <iconPath>UI/Icons/Genes/Gene_TailSmooth</iconPath>
-    <iconColor>(0.75, 0.75, 0.75)</iconColor>
-    <displayOrderInCategory>1000</displayOrderInCategory>
-    <capMods>
-      <li>
-        <capacity>Manipulation</capacity>
-        <offset>0.05</offset>
-      </li>
-    </capMods>
-    <biostatCpx>1</biostatCpx>
-    <biostatMet>-1</biostatMet>
-	<selectionWeight>0</selectionWeight>
-    <graphicData>
-      <graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_RainbowWings/AG_RainbowWings</graphicPath>
-      <drawScale>2</drawScale>
-      <drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
-      <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-      <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-    </graphicData>
-	<modExtensions>
+	<!-- Tusks -->
+	<GeneDef Name="AG_GeneTuskBase" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<endogeneCategory>Headbone</endogeneCategory>
+		<displayCategory>Cosmetic</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<exclusionTags>
+			<li>Tusk</li>
+			<li>Tusks</li>
+		</exclusionTags>
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_Tusks</defName>
+		<label>tusks</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large tusks protruding from the jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_TusksIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Tusks/AG_Tusks</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>tusk</symbol>
+				</li>
+				<li>
+					<symbol>tusken</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
 		</modExtensions>
-  </GeneDef>
-
-
-
-
-
+	</GeneDef>
+	<!-- Ears -->
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>AG_RadYakEars</defName>
+		<label>radyak ears</label>
+		<selectionWeight>0</selectionWeight>
+		<description>Carriers of this gene will grow pointed radyak ears.</description>
+		<iconPath>UI/Icons/Genes/AG_RadYakEarsIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_RadYakEars/AG_RadYakEars</graphicPath>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>radyak</symbol>
+				</li>
+				<li>
+					<symbol>rad</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>yak</symbol>
+				</li>
+				<li>
+					<symbol>ear</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

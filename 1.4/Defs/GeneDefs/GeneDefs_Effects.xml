@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_BoomNodules</defName>
+		<label>chemfuel nodules</label>
+		 <displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>Huge pustules filled with chemfuel make this person quite disgusting to look at. The nodules will explode if the person dies.\n\n&lt;color=#E5E54C&gt;Special effects:&lt;/color&gt;\n - Colonist will explode on death in a flame explosion with 2 tiles radius</description>
+		<iconPath>UI/Icons/Genes/AG_NodulesIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<biostatCpx>1</biostatCpx>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<hediff>AG_Exploder</hediff>
+		<forcedHair>Bald</forcedHair>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_TetraCoils</defName>
+		<label>tetra coils</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>.\n\n&lt;color=#E5E54C&gt;Special effects:&lt;/color&gt;\n - Colonist will recharge nearby batteries. Most modded batteries are supported</description>
+		<iconPath>UI/Icons/Genes/AG_TetraCoilsIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_TetraCoils/AG_TetraCoils</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<hediff>AG_Electrified</hediff>
+		<forcedHair>Bald</forcedHair>
+		<selectionWeight>0</selectionWeight>
+		<statOffsets>
+			<MentalBreakThreshold>0.2</MentalBreakThreshold>
+		</statOffsets>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+
+
+
+
+</Defs>
