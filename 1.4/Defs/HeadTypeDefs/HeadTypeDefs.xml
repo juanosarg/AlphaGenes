@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Aerofleet -->
+
+ <!-- <HeadTypeDef ParentName="AverageBase">
+    <defName>AG_AerofleetHead</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <requiredGenes>
+      <li>AG_AerofleetHead</li>
+    </requiredGenes>
+  </HeadTypeDef>-->
+
+
+
+</Defs>

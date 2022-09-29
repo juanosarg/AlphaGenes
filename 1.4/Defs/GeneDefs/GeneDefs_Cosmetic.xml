@@ -165,7 +165,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_MothAntennae</defName>
 		<label>moth antennae</label>
@@ -230,7 +229,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<!-- Tusks -->
 	<GeneDef Name="AG_GeneTuskBase" Abstract="True">
 		<biostatCpx>0</biostatCpx>
@@ -304,6 +302,57 @@
 				</li>
 			</suffixSymbols>
 		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<!-- Heads -->
+	
+	<GeneDef Name="AG_GeneHeadBase" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_AerofleetHead</defName>
+		<label>aerofleet hood</label>
+		<selectionWeight>0</selectionWeight>
+		<description>.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		
+		<iconPath>UI/Icons/Genes/AG_AerofleetHeadIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</graphicPath>
+		</graphicData>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		
+		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

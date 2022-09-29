@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef Name="AG_BodyBase" Abstract="True">
+		<displayCategory>Miscellaneous</displayCategory>
+		<exclusionTags>
+			<li>AG_Bodies</li>
+			<li>Bodies</li>
+			<li>Body</li>
+		</exclusionTags>
+		<graphicData>
+			<drawLoc>Tailbone</drawLoc>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_SlimeBody</defName>
+		<label>slime body</label>
+		<labelShortAdj>slime bodied</labelShortAdj>
+		<description>.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/Bodies/AG_Slimy</graphicPath>
+			<drawWhileDessicated>true</drawWhileDessicated>
+			<drawOffsetNorth>(0, 0.01, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.01, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.01, 0)</drawOffsetEast>
+			<tattoosVisible>false</tattoosVisible>
+			
+		</graphicData>
+		
+		<displayOrderInCategory>400</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_SlimeBodyIcon</iconPath>
+		<iconColor>(157, 188, 200)</iconColor>
+		<skinColorOverride>(157, 188, 200)</skinColorOverride>
+		
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

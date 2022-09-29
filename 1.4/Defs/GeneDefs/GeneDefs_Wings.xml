@@ -38,4 +38,88 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="AG_WingBase">
+		<defName>AG_BatWings</defName>
+		<label>bat wings</label>
+		<description>.</description>
+		<iconPath>UI/Icons/Genes/AG_BatWingsIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_Wings</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<hediff>AG_Hover</hediff>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BatWings/AG_BatWings</graphicPath>
+			<drawScale>2</drawScale>
+			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+		</graphicData>
+		<abilities>
+			<li>AG_WingPoweredJump</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_WingBase">
+		<defName>AG_PegasusWings</defName>
+		<label>pegasus wings</label>
+		<description>.</description>
+		<iconPath>UI/Icons/Genes/AG_PegasusWingsIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_Wings</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<hediff>AG_Hover</hediff>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_PegasusWings/AG_PegasusWings</graphicPath>
+			<drawScale>2</drawScale>
+			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+		</graphicData>
+		<abilities>
+			<li>AG_WingPoweredJump</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_WingBase">
+		<defName>AG_MothWings</defName>
+		<label>moth wings</label>
+		<description>.</description>
+		<iconPath>UI/Icons/Genes/AG_MothWingsIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_Wings</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<hediff>AG_Hover</hediff>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings</graphicPath>
+			<drawScale>2</drawScale>
+			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+		</graphicData>
+		<abilities>
+			<li>AG_WingPoweredJump</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
