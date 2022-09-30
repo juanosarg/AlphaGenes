@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Genetics -->
+
+
+  <WorkGiverDef>
+    <defName>AG_HaulToAlphaGeneBank</defName>
+    <label>bank alphapack</label>
+    <giverClass>AlphaGenes.WorkGiver_HaulToGeneBank</giverClass>
+    <workType>Hauling</workType>
+    <verb>bank</verb>
+    <gerund>banking</gerund>
+    <priorityInType>111</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+
+
+</Defs>
