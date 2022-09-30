@@ -310,13 +310,13 @@
 		</modExtensions>
 	</GeneDef>
 	<!-- Heads -->
-	
+
 	<GeneDef Name="AG_GeneHeadBase" Abstract="True">
 		<biostatCpx>0</biostatCpx>
-		
+
 		<displayCategory>Miscellaneous</displayCategory>
 		<displayOrderInCategory>110</displayOrderInCategory>
-		
+
 		<exclusionTags>
 			<li>AG_Heads</li>
 			<li>Heads</li>
@@ -334,10 +334,14 @@
 		<description>.</description>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
-		
+
 		<iconPath>UI/Icons/Genes/AG_AerofleetHeadIcon</iconPath>
 		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</graphicPath>
+			<graphicPaths>
+				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</li>
+				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead2</li>
+				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead3</li>
+			</graphicPaths>
 		</graphicData>
 		<beardTagFilter>
 			<whitelist>true</whitelist>
@@ -351,8 +355,8 @@
 				<li>Bald</li>
 			</tags>
 		</hairTagFilter>
-		
-		
+
+
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
