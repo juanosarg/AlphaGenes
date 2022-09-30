@@ -35,6 +35,21 @@
 			</li>
 		</comps>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_Asexual</defName>
+		<label>fission</label>
+		<description>todo.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_AsexualReproduction">
+
+			</li>
+		</comps>
+	</HediffDef>
 
 <!--	<HediffDef ParentName="PsycastHediffBase">
 		<defName>AAVPE_FungalSkin</defName>
