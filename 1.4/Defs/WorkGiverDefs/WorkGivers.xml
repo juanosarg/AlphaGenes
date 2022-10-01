@@ -16,6 +16,19 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
+  
+   <WorkGiverDef>
+    <defName>AG_HaulToMixedGeneBank</defName>
+    <label>bank mixedpack</label>
+    <giverClass>AlphaGenes.WorkGiver_HaulToGeneBankMixed</giverClass>
+    <workType>Hauling</workType>
+    <verb>bank</verb>
+    <gerund>banking</gerund>
+    <priorityInType>111</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
 
 
 

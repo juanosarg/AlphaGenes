@@ -30,7 +30,37 @@ namespace AlphaGenes
 				{				
 						geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_")).RandomElement());				
 				}
-				GenerateName(geneSet);
+				GenerateName(geneSet, InternalDefOf.AG_NamerAlphapack);
+				Rand.PopState();
+				if (geneSet.Empty)
+				{
+					Log.Error("Generated gene pack with no genes.");
+				}
+				geneSet.SortGenes();
+				___geneSet = geneSet;
+			}else if (__instance.def == InternalDefOf.AG_Mixedpack)
+			{
+				GeneSet geneSet = new GeneSet();
+				IntRange rangeNormalGenes = new IntRange(1, 3);
+				Rand.PushState(GenTicks.TicksGame);
+				int normalGenes = rangeNormalGenes.RandomInRange;
+				IntRange rangeAlphaGenes = new IntRange(1, 4 - normalGenes);
+				Rand.PushState(GenTicks.TicksGame);
+				int alphaGenes = rangeAlphaGenes.RandomInRange;
+
+				for (int j = 0; j < normalGenes; j++)
+				{
+					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc == 0 && geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out var result1))
+					{
+						geneSet.AddGene(result1);
+					}
+				}
+
+				for (int j = 0; j < alphaGenes; j++)
+				{
+					geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_")).RandomElement());
+				}
+				GenerateName(geneSet, InternalDefOf.AG_NamerMixedpack);
 				Rand.PopState();
 				if (geneSet.Empty)
 				{
@@ -41,14 +71,14 @@ namespace AlphaGenes
 			}
 
 
-        }
+		}
 
-		public static void GenerateName(GeneSet geneSet)
+		public static void GenerateName(GeneSet geneSet, RulePackDef rule)
 		{
 			if (ModsConfig.BiotechActive && geneSet.GenesListForReading.Any())
 			{
 				GrammarRequest request = default(GrammarRequest);
-				request.Includes.Add(InternalDefOf.AG_NamerAlphapack);
+				request.Includes.Add(rule);
 				request.Rules.Add(new Rule_String("geneWord", geneSet.Label));
 				request.Rules.Add(new Rule_String("geneCountMinusOne", (geneSet.GenesListForReading.Count - 1).ToString()));
 				request.Constants.Add("geneCount", geneSet.GenesListForReading.Count.ToString());

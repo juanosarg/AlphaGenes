@@ -13,6 +13,18 @@
       </rulesStrings>
     </rulePack>
   </RulePackDef>
+  
+  <RulePackDef>
+    <defName>AG_NamerMixedpack</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->mixedpack ([geneWord][otherGenesInfo])</li>
+
+        <li>otherGenesInfo(geneCount==1)-></li>
+        <li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
 
  
 

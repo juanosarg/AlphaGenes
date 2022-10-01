@@ -295,6 +295,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBank.cs" />
+    <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBankMixed.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
