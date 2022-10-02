@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneMoodBase">
+    <defName>AG_Mood_Unfeeling</defName>
+    <label>unfeeling</label>
+    <description>todo.</description>
+    <iconPath>UI/Icons/Genes/AG_MoodUnfeeling</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    
+    <biostatMet>-8</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>robot</symbol></li>
+        <li><symbol>hard</symbol></li>
+        <li><symbol>heartless</symbol></li>
+      
+      </prefixSymbols>
+    </symbolPack>
+	 <disablesNeeds>
+      <li>Mood</li>
+    </disablesNeeds>
+	<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+  </GeneDef>
+</Defs>

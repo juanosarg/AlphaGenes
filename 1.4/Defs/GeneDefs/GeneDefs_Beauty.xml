@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>GR_Beauty_VeryVeryUgly</defName>
+		<label>repulsive</label>
+		<labelShortAdj>repulsive</labelShortAdj>
+		<description>Carriers of this gene are so unfathomably ugly and grotesque that merely looking at them is enough to make other people nauseous.</description>
+		<iconPath>UI/Icons/Genes/AG_UnfathomablyUgly</iconPath>
+		<displayOrderInCategory>-10</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Any other colonist coming nearby will be subject to a negative mood impact due to sheer disgust.</li>
+		</customEffectDescriptions>
+		<forcedTraits>
+			<li>
+				<def>AG_Beauty</def>
+				<degree>-2</degree>
+			</li>
+		</forcedTraits>
+		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
+		<biostatMet>3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>grim</symbol>
+				</li>
+				<li>
+					<symbol>macabr</symbol>
+				</li>
+				<li>
+					<symbol>grote</symbol>
+				</li>
+				<li>
+					<symbol>misshappen</symbol>
+				</li>
+				<li>
+					<symbol>monst</symbol>
+				</li>
+				<li>
+					<symbol>ghast</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Disgust</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>GR_Beauty_Angelic</defName>
+		<label>angelic beauty</label>
+		<labelShortAdj>angelic</labelShortAdj>
+		<description>Carriers of this gene possess an unnatural, almost pristine beauty that makes them stand out among others of their kind.</description>
+		<iconPath>UI/Icons/Genes/AG_AngelicBeauty</iconPath>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Any other colonist coming nearby will be subject to a positive mood impact due to basking in their uncanny beauty.</li>
+		</customEffectDescriptions>
+		<forcedTraits>
+			<li>
+				<def>AG_Beauty</def>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+		
+		<biostatMet>-3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li><symbol>angel</symbol></li>
+        <li><symbol>saint</symbol></li>
+        <li><symbol>holy</symbol></li>
+        <li><symbol>star</symbol></li>
+        <li><symbol>seraph</symbol></li>
+        <li><symbol>divine</symbol></li>
+      
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Awe</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

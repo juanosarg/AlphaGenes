@@ -50,6 +50,40 @@
 			</li>
 		</comps>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_Disgust</defName>
+		<label>unfathomably ugly</label>
+		<description>todo.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ThoughtEffecter">
+				<radius>6</radius>
+				<tickInterval>500</tickInterval>
+				<thoughtDef>AG_Disgust</thoughtDef>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_Awe</defName>
+		<label>angelic beauty</label>
+		<description>todo.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ThoughtEffecter">
+				<radius>6</radius>
+				<tickInterval>500</tickInterval>
+				<thoughtDef>AG_Awe</thoughtDef>
+			</li>
+		</comps>
+	</HediffDef>
 
 <!--	<HediffDef ParentName="PsycastHediffBase">
 		<defName>AAVPE_FungalSkin</defName>

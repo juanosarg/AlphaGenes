@@ -17,13 +17,14 @@
 		</graphicData>
 		<biostatCpx>1</biostatCpx>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<hediff>AG_Exploder</hediff>
+		
 		<forcedHair>Bald</forcedHair>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Exploder</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -42,7 +43,7 @@
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<hediff>AG_Electrified</hediff>
+		
 		<forcedHair>Bald</forcedHair>
 		<selectionWeight>0</selectionWeight>
 		<statOffsets>
@@ -52,6 +53,7 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Electrified</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>

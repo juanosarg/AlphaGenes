@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <TraitDef>
+    <defName>AG_Beauty</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>angelic beauty</label>
+        <description>[PAWN_nameDef] possesses an unnatural, almost pristine beauty that makes [PAWN_objective] stand out among others of [PAWN_possessive] kind.</description>
+        <degree>2</degree>
+        <statOffsets>
+          <PawnBeauty>3</PawnBeauty>
+        </statOffsets>
+      </li>
+     
+      <li>
+        <label>repulsive</label>
+        <description>[PAWN_nameDef] is so unfathomably ugly and grotesque that merely looking at [PAWN_objective] is enough to make other people nauseous.</description>
+        <degree>-2</degree>
+        <statOffsets>
+          <PawnBeauty>-3</PawnBeauty>
+        </statOffsets>
+      </li>      
+    </degreeDatas>
+  </TraitDef>
+
+ 
+
+</Defs>

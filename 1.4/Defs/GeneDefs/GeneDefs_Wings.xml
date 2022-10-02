@@ -20,7 +20,7 @@
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<hediff>AG_Hover</hediff>
+		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_RainbowWings/AG_RainbowWings</graphicPath>
 			<drawScale>2</drawScale>
@@ -35,6 +35,7 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Hover</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -48,7 +49,7 @@
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<hediff>AG_Hover</hediff>
+		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BatWings/AG_BatWings</graphicPath>
 			<drawScale>2</drawScale>
@@ -63,6 +64,7 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Hover</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -76,7 +78,7 @@
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<hediff>AG_Hover</hediff>
+		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_PegasusWings/AG_PegasusWings</graphicPath>
 			<drawScale>2</drawScale>
@@ -91,6 +93,7 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Hover</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -104,7 +107,7 @@
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<hediff>AG_Hover</hediff>
+		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings</graphicPath>
 			<drawScale>2</drawScale>
@@ -119,6 +122,7 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Hover</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
