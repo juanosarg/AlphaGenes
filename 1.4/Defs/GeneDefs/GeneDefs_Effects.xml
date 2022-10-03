@@ -8,8 +8,12 @@
 		<defName>AG_BoomNodules</defName>
 		<label>chemfuel nodules</label>
 		 <displayCategory>AG_SpecialEffectsCategory</displayCategory>
-		<description>Huge pustules filled with chemfuel make this person quite disgusting to look at. The nodules will explode if the person dies.\n\n&lt;color=#E5E54C&gt;Special effects:&lt;/color&gt;\n - Colonist will explode on death in a flame explosion with 2 tiles radius</description>
+		<description>Huge pustules filled with chemfuel make this person quite disgusting to look at. The nodules will explode if the person dies.</description>
 		<iconPath>UI/Icons/Genes/AG_NodulesIcon</iconPath>
+		<customEffectDescriptions>
+			<li>Colonist will explode on death in a flame explosion with 2 tiles radius</li>
+			
+		</customEffectDescriptions>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</graphicPath>
 			<color>(255, 255, 255)</color>
@@ -17,7 +21,21 @@
 		</graphicData>
 		<biostatCpx>1</biostatCpx>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>boom</symbol>
+				</li>
+				<li>
+					<symbol>chem</symbol>
+				</li>
+				<li>
+					<symbol>wart</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
 		<forcedHair>Bald</forcedHair>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
@@ -33,17 +51,35 @@
 		<defName>AG_TetraCoils</defName>
 		<label>tetra coils</label>
 		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
-		<description>.\n\n&lt;color=#E5E54C&gt;Special effects:&lt;/color&gt;\n - Colonist will recharge nearby batteries. Most modded batteries are supported</description>
+		<description>Techno-organic coils of wireless energy are wired into the carrier's genome, allowing them to recharge batteries nearby.</description>
 		<iconPath>UI/Icons/Genes/AG_TetraCoilsIcon</iconPath>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_TetraCoils/AG_TetraCoils</graphicPath>
 			<color>(255, 255, 255)</color>
 			<layer>PostHeadgear</layer>
 		</graphicData>
+		<customEffectDescriptions>
+			<li>Colonist will recharge nearby batteries. Most modded batteries are supported</li>
+			
+		</customEffectDescriptions>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>electr</symbol>
+				</li>
+				<li>
+					<symbol>volta</symbol>
+				</li>
+				<li>
+					<symbol>charge</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
 		<forcedHair>Bald</forcedHair>
 		<selectionWeight>0</selectionWeight>
 		<statOffsets>

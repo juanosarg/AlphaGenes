@@ -17,7 +17,7 @@
 		<defName>AG_SlimeBody</defName>
 		<label>slime body</label>
 		<labelShortAdj>slime bodied</labelShortAdj>
-		<description>.</description>
+		<description>Carriers of this gene have gelatinous, constantly dripping blue skin.</description>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		
@@ -35,7 +35,23 @@
 		<iconPath>UI/Icons/Genes/AG_SlimeBodyIcon</iconPath>
 		<iconColor>(157, 188, 200)</iconColor>
 		<skinColorOverride>(157, 188, 200)</skinColorOverride>
-		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>slim</symbol>
+				</li>
+				<li>
+					<symbol>slimy</symbol>
+				</li>
+				<li>
+					<symbol>much</symbol>
+				</li>
+				<li>
+					<symbol>gelat</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
 		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

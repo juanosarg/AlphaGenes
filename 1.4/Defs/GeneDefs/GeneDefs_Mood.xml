@@ -3,7 +3,7 @@
 	<GeneDef ParentName="GeneMoodBase">
     <defName>AG_Mood_Unfeeling</defName>
     <label>unfeeling</label>
-    <description>todo.</description>
+    <description>Carriers of this gene have no emotions.</description>
     <iconPath>UI/Icons/Genes/AG_MoodUnfeeling</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     

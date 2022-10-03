@@ -3,7 +3,7 @@
 
 
 
-	
+
 
 	<HediffDef>
 		<defName>AG_Exploder</defName>
@@ -35,7 +35,7 @@
 			</li>
 		</comps>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AG_Asexual</defName>
 		<label>fission</label>
@@ -50,7 +50,7 @@
 			</li>
 		</comps>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AG_Disgust</defName>
 		<label>unfathomably ugly</label>
@@ -67,7 +67,7 @@
 			</li>
 		</comps>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AG_Awe</defName>
 		<label>angelic beauty</label>
@@ -85,7 +85,127 @@
 		</comps>
 	</HediffDef>
 
-<!--	<HediffDef ParentName="PsycastHediffBase">
+	<HediffDef>
+		<defName>AG_Sensitivity_Vicious_Hediff</defName>
+		<label>vicious UV sensitivity</label>
+		<description>This person will be knocked unconscious under direct sunlight.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_StageBySunlight">
+				<sunlightStageIndex>1</sunlightStageIndex>
+				<sunlessStageIndex>0.1</sunlessStageIndex>
+			</li>
+		</comps>
+		<stages>
+
+			<li>
+
+				<minSeverity>0.1</minSeverity>					
+
+
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+
+				</capMods>
+
+			</li>
+		</stages>
+	</HediffDef>
+
+
+	<HediffDef>
+		<defName>AG_Sensitivity_Lethal_Hediff</defName>
+		<label>lethal UV sensitivity</label>
+		<description>This person will quickly burn to death under direct sunlight.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_HighlyFlammable">
+				<damageToInflict>VEF_PermanentBurn</damageToInflict>
+				<damageAmount>15</damageAmount>
+				<tickInterval>500</tickInterval>
+				<sunlightBurns>true</sunlightBurns>
+			</li>
+		</comps>
+
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AG_HornAttack</defName>
+		<label>oversized horns</label>
+		<description>These horns can be used in melee attacks.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>horns</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>16</power>
+						<cooldownTime>2</cooldownTime>
+
+					</li>
+				</tools>
+			</li>
+		</comps>
+
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AG_HeatRadiating</defName>
+		<label>heat radiating</label>
+		<description>Generates intense heat up to 80ºC. Bear in mind this condition itself doesn't make the carrier heat resistant.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_HeatPusher">
+				<tickCounter>250</tickCounter>
+				<heatPushMaxTemperature>80</heatPushMaxTemperature> 
+
+				<heatPerSecond>60</heatPerSecond>
+			</li>
+		</comps>
+
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_ColdRadiating</defName>
+		<label>cold radiating</label>
+		<description>Generates intense cold up to -20ºC. Bear in mind this condition itself doesn't make the carrier cold resistant.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_HeatPusher">
+				<tickCounter>250</tickCounter>
+				<heatPushMinTemperature>-20</heatPushMinTemperature>
+
+				<heatPerSecond>-60</heatPerSecond>
+			</li>
+		</comps>
+
+	</HediffDef>
+
+	<!--	<HediffDef ParentName="PsycastHediffBase">
 		<defName>AAVPE_FungalSkin</defName>
 		<label>fungal skin</label>
 		<description>Several giant fungi are sprouting from this person or animal's skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire.</description>
@@ -147,7 +267,7 @@
 		<maxSeverity>1.0</maxSeverity>
 
 		<isBad>false</isBad>	
-		
+
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_Electrified">
 				<electroRate>40</electroRate>
@@ -181,12 +301,12 @@
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>AG_ElectrifiedEffecter</stateEffecter>
-				
+
 			</li>
 		</comps>
 	</HediffDef>
-	
-<!--	<HediffDef ParentName="PsycastHediffBase">
+
+	<!--	<HediffDef ParentName="PsycastHediffBase">
 		<defName>AAVPE_Regeneration</defName>
 		<label>regeneration</label>
 		<description>This colonist or animal has a psychically active field of regeneration, allowing them to heal their wounds much faster than usual.</description>

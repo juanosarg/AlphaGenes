@@ -20,7 +20,7 @@
 		<biostatMet>3</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		
+
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -67,20 +67,32 @@
 				<degree>2</degree>
 			</li>
 		</forcedTraits>
-		
+
 		<biostatMet>-3</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		
+
 		<symbolPack>
 			<prefixSymbols>
-				<li><symbol>angel</symbol></li>
-        <li><symbol>saint</symbol></li>
-        <li><symbol>holy</symbol></li>
-        <li><symbol>star</symbol></li>
-        <li><symbol>seraph</symbol></li>
-        <li><symbol>divine</symbol></li>
-      
+				<li>
+					<symbol>angel</symbol>
+				</li>
+				<li>
+					<symbol>saint</symbol>
+				</li>
+				<li>
+					<symbol>holy</symbol>
+				</li>
+				<li>
+					<symbol>star</symbol>
+				</li>
+				<li>
+					<symbol>seraph</symbol>
+				</li>
+				<li>
+					<symbol>divine</symbol>
+				</li>
+
 			</prefixSymbols>
 		</symbolPack>
 		<modExtensions>

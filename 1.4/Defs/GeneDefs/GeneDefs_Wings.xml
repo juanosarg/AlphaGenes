@@ -13,14 +13,34 @@
 	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_RainbowWings</defName>
 		<label>rainbow wings</label>
-		<description>.</description>
+		<description>Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back.</description>
 		<iconPath>UI/Icons/Genes/AG_RainbowWingsIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>AG_Wings</displayCategory>
+		<customEffectDescriptions>
+			<li>Colonist will ignore terrain movement costs</li>
+			
+		</customEffectDescriptions>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>wing</symbol>
+				</li>
+				<li>
+					<symbol>butterf</symbol>
+				</li>
+				<li>
+					<symbol>colour</symbol>
+				</li>
+				<li>
+					<symbol>rainb</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_RainbowWings/AG_RainbowWings</graphicPath>
 			<drawScale>2</drawScale>
@@ -42,12 +62,16 @@
 	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_BatWings</defName>
 		<label>bat wings</label>
-		<description>.</description>
+		<description>Carriers of this gene have a pair of chiropteran giant wings sprouting from their back.</description>
 		<iconPath>UI/Icons/Genes/AG_BatWingsIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Colonist will ignore terrain movement costs</li>
+			
+		</customEffectDescriptions>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
 		
 		<graphicData>
@@ -57,6 +81,18 @@
 			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
 		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>bat</symbol>
+				</li>
+				<li>
+					<symbol>winged</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -70,15 +106,30 @@
 	</GeneDef>
 	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_PegasusWings</defName>
-		<label>pegasus wings</label>
-		<description>.</description>
+		<label>feathered wings</label>
+		<description>Carriers of this gene have a pair of feathered giant wings sprouting from their back.</description>
 		<iconPath>UI/Icons/Genes/AG_PegasusWingsIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-1</biostatMet>
+		<customEffectDescriptions>
+			<li>Colonist will ignore terrain movement costs</li>
+			
+		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>feather</symbol>
+				</li>
+				<li>
+					<symbol>winged</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_PegasusWings/AG_PegasusWings</graphicPath>
 			<drawScale>2</drawScale>
@@ -100,14 +151,29 @@
 	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_MothWings</defName>
 		<label>moth wings</label>
-		<description>.</description>
+		<description>Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back.</description>
 		<iconPath>UI/Icons/Genes/AG_MothWingsIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>moth</symbol>
+				</li>
+				<li>
+					<symbol>lepidopter</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>Colonist will ignore terrain movement costs</li>
+			
+		</customEffectDescriptions>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings</graphicPath>
 			<drawScale>2</drawScale>

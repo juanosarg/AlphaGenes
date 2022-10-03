@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="UVSensitivityBase">
+		<defName>AG_Sensitivity_Vicious</defName>
+		<label>vicious UV sensitivity</label>
+		<labelShortAdj>UV-hypersensitive</labelShortAdj>
+		<description>Carriers of this gene have biological compounds in their skin that react viciously to UV radiation. They are so sensitive to sunlight that standing under the sun will knock them  unconscious.</description>
+		<iconPath>UI/Icons/Genes/AG_SolarUnconscious</iconPath>
+		<displayOrderInCategory>59.1</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Will be knocked unconscious under direct sunlight</li>
+			<li>Bear in mind that adding this gene at game start will mean the colonist will fall unconscious as soon as it lands, and remain so until night</li>
+		</customEffectDescriptions>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>8</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>dark</symbol>
+				</li>
+				<li>
+					<symbol>tunnel</symbol>
+				</li>
+				<li>
+					<symbol>under</symbol>
+				</li>
+				<li>
+					<symbol>cave</symbol>
+				</li>
+				<li>
+					<symbol>crypt</symbol>
+				</li>
+				<li>
+					<symbol>dim</symbol>
+				</li>
+				<li>
+					<symbol>night</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Sensitivity_Vicious_Hediff</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="UVSensitivityBase">
+		<defName>AG_Sensitivity_Lethal</defName>
+		<label>lethal UV sensitivity</label>
+		<labelShortAdj>UV-hypersensitive</labelShortAdj>
+		<description>Carriers of this gene have biological compounds in their skin that react lethally to UV radiation. They are so sensitive to sunlight that standing under the sun will burn them and kill them in a few minutes.</description>
+		<iconPath>UI/Icons/Genes/AG_SolarAnnihilation</iconPath>
+		<displayOrderInCategory>59.2</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Will be burned to death under direct sunlight</li>
+			<li>Bear in mind that adding this gene at game start might mean the colonist will just burn to death when landing unless you can IMMEDIATELY find or build cover</li>
+		</customEffectDescriptions>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<skinColorOverride>(250, 240, 240)</skinColorOverride>
+		<randomBrightnessFactor>0</randomBrightnessFactor>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>9</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>dark</symbol>
+				</li>
+				<li>
+					<symbol>tunnel</symbol>
+				</li>
+				<li>
+					<symbol>under</symbol>
+				</li>
+				<li>
+					<symbol>cave</symbol>
+				</li>
+				<li>
+					<symbol>crypt</symbol>
+				</li>
+				<li>
+					<symbol>dim</symbol>
+				</li>
+				<li>
+					<symbol>night</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Sensitivity_Lethal_Hediff</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>
