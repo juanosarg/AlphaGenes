@@ -84,7 +84,7 @@
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
-			<li>Will produce newborns via asexual fission every 30 days</li>			
+			<li>Will produce newborns via asexual fission every 60 days</li>			
 		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

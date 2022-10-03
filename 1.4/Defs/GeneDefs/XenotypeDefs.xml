@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+
+  
+
+  <XenotypeDef>
+    <defName>AG_Fleetkind</defName>
+    <label>fleetkind</label>
+    <description>Fleetkind were a misguided attempt at creating a human xenotype capable of flourishing on their own, completely isolated from other external societies. A properly established fleetkind outpost can generate its own electricity and easily replenish its numbers.\n\nFleetkind deviate greatly from baseline humans, and they are often seen as too strange to interact with.</description>
+    <descriptionShort>A misguided attempt at creating a human xenotype capable of flourishing on their own. They deviate greatly from baseline humans, and they are often seen as too strange to interact with.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/AG_Fleetkind</iconPath>
+    <combatPowerFactor>0.8</combatPowerFactor>
+	<inheritable>true</inheritable>
+    <genes>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>AG_AerofleetHead</li>
+      <li>AG_GasBags</li>
+      <li>AG_AsexualFission</li>
+      <li>AG_SlimeBody</li>
+      <li>AptitudeTerrible_Social</li>   
+      <li>Delicate</li>
+	  <li>AptitudeStrong_Animals</li>
+   
+    </genes>
+  </XenotypeDef>
+
+
+
+</Defs>

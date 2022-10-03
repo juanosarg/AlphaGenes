@@ -370,7 +370,7 @@
 		<defName>AG_AerofleetHead</defName>
 		<label>aerofleet hood</label>
 		<selectionWeight>0</selectionWeight>
-		<description>.</description>
+		<description>A gelatinous, translucent hood surrounds the carrier's head.</description>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 
@@ -381,6 +381,9 @@
 				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead2</li>
 				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead3</li>
 			</graphicPaths>
+			<drawOffsetNorth>(0, -0.01, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, -0.01, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, -0.01, 0)</drawOffsetEast>
 		</graphicData>
 		<beardTagFilter>
 			<whitelist>true</whitelist>

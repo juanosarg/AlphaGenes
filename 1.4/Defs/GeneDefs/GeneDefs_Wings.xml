@@ -192,4 +192,41 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="AG_WingBase">
+		<defName>AG_GasBags</defName>
+		<label>gas bags</label>
+		<description>Carriers of this gene have a an internal organ consisting of hydrogen filled gas bags, that allows them to hover over terrain, at the cost of being quite flammable and exploding on death.</description>
+		<iconPath>UI/Icons/Genes/AG_GasBags</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<displayCategory>AG_Wings</displayCategory>
+		<biostatMet>-2</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gas</symbol>
+				</li>
+				<li>
+					<symbol>hydrog</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>Colonist will ignore terrain movement costs</li>
+			<li>Colonist will explode on death in a flame explosion with 3 tiles radius</li>
+			
+		</customEffectDescriptions>
+		
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_HoverExploder</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
