@@ -11,22 +11,126 @@ using Verse.AI;
 
 namespace AlphaGenes
 {
-   
-    [HarmonyPatch(typeof(Genepack))]
-    [HarmonyPatch("PostMake")]
-    public static class AlphaGenes_Genepack_PostMake_Patch
-    {
-        [HarmonyPostfix]
+
+	[HarmonyPatch(typeof(Genepack))]
+	[HarmonyPatch("PostMake")]
+	public static class AlphaGenes_Genepack_PostMake_Patch
+	{
+
+		private static readonly AlphaGeneCount[] AlphaGeneCountProbabilities;
+		private static readonly MixedGeneCount[] MixedGeneCountProbabilities;
+
+		static AlphaGenes_Genepack_PostMake_Patch(){
+
+			AlphaGeneCount[] array = new AlphaGeneCount[6];
+			AlphaGeneCount geneCount = new AlphaGeneCount
+			{
+				alphaCount = 1,
+				chance = 0.66f
+			};
+			array[0] = geneCount;
+			geneCount = new AlphaGeneCount
+			{
+				alphaCount = 2,
+				chance = 0.2f
+			};
+			array[1] = geneCount;
+			geneCount = new AlphaGeneCount
+			{
+				alphaCount = 3,
+				chance = 0.05f
+			};
+			array[2] = geneCount;
+			geneCount = new AlphaGeneCount
+			{
+				alphaCount = 4,
+				chance = 0.02f
+			};
+			array[3] = geneCount;
+			geneCount = new AlphaGeneCount
+			{
+				alphaCount = 1,
+				architeCount = 1,
+				chance = 0.05f
+			};
+			array[4] = geneCount;
+			geneCount = new AlphaGeneCount
+			{
+				alphaCount = 2,
+				architeCount = 1,
+				chance = 0.02f
+			};
+			array[5] = geneCount;
+			AlphaGeneCountProbabilities = array;
+
+
+			MixedGeneCount[] array2 = new MixedGeneCount[6];
+			MixedGeneCount geneCount2 = new MixedGeneCount
+			{
+				alphaCount = 1,
+				nonArchiteCount = 1,
+				chance = 0.66f
+			};
+			array2[0] = geneCount2;
+			geneCount2 = new MixedGeneCount
+			{
+				alphaCount = 2,
+				nonArchiteCount = 1,
+				chance = 0.1f
+			};
+			array2[1] = geneCount2;
+			geneCount2 = new MixedGeneCount
+			{
+				alphaCount = 1,
+				nonArchiteCount = 2,
+				chance = 0.1f
+			};
+			array2[2] = geneCount2;
+			geneCount2 = new MixedGeneCount
+			{
+				alphaCount = 2,
+				nonArchiteCount = 2,
+				chance = 0.05f
+			};
+			array2[3] = geneCount2;
+			geneCount2 = new MixedGeneCount
+			{
+				alphaCount = 3,
+				nonArchiteCount = 1,
+				chance = 0.02f
+			};
+			array2[4] = geneCount2;
+			geneCount2 = new MixedGeneCount
+			{
+				alphaCount = 1,
+				nonArchiteCount = 1,
+				architeCount = 1,
+				chance = 0.07f
+			};
+			array2[5] = geneCount2;
+			MixedGeneCountProbabilities = array2;
+
+		}
+
+
+		[HarmonyPostfix]
         public static void ChangeForAlphaGenes(Genepack __instance, ref GeneSet ___geneSet)
 
         {
            if(__instance.def == InternalDefOf.AG_Alphapack)
             {
 				GeneSet geneSet = new GeneSet();
-				IntRange range = new IntRange(1,4);
+				
 				Rand.PushState(GenTicks.TicksGame);
-
-				for (int j = 0; j < range.RandomInRange; j++)
+				AlphaGeneCount geneCount = AlphaGeneCountProbabilities.RandomElementByWeight((AlphaGeneCount x) => x.chance);
+				for (int i = 0; i < geneCount.architeCount; i++)
+				{
+					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc > 0 && geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out GeneDef result))
+					{
+						geneSet.AddGene(result);
+					}
+				}
+				for (int j = 0; j < geneCount.alphaCount; j++)
 				{				
 						geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_")).RandomElement());				
 				}
@@ -41,14 +145,17 @@ namespace AlphaGenes
 			}else if (__instance.def == InternalDefOf.AG_Mixedpack)
 			{
 				GeneSet geneSet = new GeneSet();
-				IntRange rangeNormalGenes = new IntRange(1, 3);
+				
 				Rand.PushState(GenTicks.TicksGame);
-				int normalGenes = rangeNormalGenes.RandomInRange;
-				IntRange rangeAlphaGenes = new IntRange(1, 4 - normalGenes);
-				Rand.PushState(GenTicks.TicksGame);
-				int alphaGenes = rangeAlphaGenes.RandomInRange;
-
-				for (int j = 0; j < normalGenes; j++)
+				MixedGeneCount geneCount = MixedGeneCountProbabilities.RandomElementByWeight((MixedGeneCount x) => x.chance);
+				for (int i = 0; i < geneCount.architeCount; i++)
+				{
+					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc > 0 && geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out GeneDef result))
+					{
+						geneSet.AddGene(result);
+					}
+				}
+				for (int j = 0; j < geneCount.nonArchiteCount; j++)
 				{
 					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc == 0 && geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out var result1))
 					{
@@ -56,7 +163,7 @@ namespace AlphaGenes
 					}
 				}
 
-				for (int j = 0; j < alphaGenes; j++)
+				for (int j = 0; j < geneCount.alphaCount; j++)
 				{
 					geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_")).RandomElement());
 				}
@@ -89,6 +196,27 @@ namespace AlphaGenes
 
 			}
 			
+		}
+
+		private struct AlphaGeneCount
+		{			
+
+			public int alphaCount;
+
+			public int architeCount;
+
+			public float chance;
+		}
+
+		private struct MixedGeneCount
+		{
+			public int nonArchiteCount;
+
+			public int alphaCount;
+
+			public int architeCount;
+
+			public float chance;
 		}
 	}
 }

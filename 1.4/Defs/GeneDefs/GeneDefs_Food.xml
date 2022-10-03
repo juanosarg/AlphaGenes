@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef>
+		<defName>AG_CorpseFeeding</defName>
+		<label>corpse feeding</label>
+
+		<description>Carriers of this gene constantly secrete a foul-smelling, corrosive gas that produces an uncomfortable, itchy sensation in living beings. This gas is mostly harmless, unless it comes into contact with decaying organic matter: it greatly accelerates corpse rotting, liberating a black putrid liquid known as "purge fluid" or corpse bile. The carrier is fed through the skin by contacting the liquid sludge, although they can also feed on other organic matter if needed.</description>
+		<iconPath>UI/Icons/Genes/AG_CorpseFeeding</iconPath>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<displayCategory>AG_FoodConsumption</displayCategory>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<biostatCpx>4</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<makeImmuneTo>
+			<li>LungRot</li>
+		</makeImmuneTo>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>helix</symbol>
+				</li>
+				<li>
+					<symbol>rot</symbol>
+				</li>
+				<li>
+					<symbol>carrion</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Helixien</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+
+
+</Defs>

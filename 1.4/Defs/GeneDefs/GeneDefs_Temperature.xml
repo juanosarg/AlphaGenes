@@ -24,7 +24,7 @@
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>
-
+		<selectionWeight>0</selectionWeight>
 		<biostatMet>1</biostatMet>
 		<symbolPack>
 			<prefixSymbols>
@@ -59,7 +59,7 @@
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>
-
+		<selectionWeight>0</selectionWeight>
 		<biostatMet>-1</biostatMet>
 		<symbolPack>
 			<prefixSymbols>
@@ -94,7 +94,7 @@
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>
-
+		<selectionWeight>0</selectionWeight>
 		<biostatMet>1</biostatMet>
 		<symbolPack>
 			<prefixSymbols>
@@ -145,7 +145,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
+	<selectionWeight>0</selectionWeight>	
 	<GeneDef Name="AG_TempRadiatingBase" Abstract="True">
 		<displayCategory>Temperature</displayCategory>
 		<exclusionTags>
@@ -165,7 +165,7 @@
 		</customEffectDescriptions>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
 
-
+		<selectionWeight>0</selectionWeight>
 		<biostatMet>-3</biostatMet>
 		<symbolPack>
 			<prefixSymbols>
@@ -193,7 +193,7 @@
 			<li>Generates intense cold up to -20ºC. Bear in mind this gene itself doesn't make the carrier cold resistant.</li>			
 		</customEffectDescriptions>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-
+		<selectionWeight>0</selectionWeight>
 
 		<biostatMet>-3</biostatMet>
 		<symbolPack>

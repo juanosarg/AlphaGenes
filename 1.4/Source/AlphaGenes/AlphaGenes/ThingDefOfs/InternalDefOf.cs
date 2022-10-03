@@ -11,6 +11,7 @@ namespace AlphaGenes
 		public static ThingDef AG_Alphapack;
 		public static ThingDef AG_Mixedpack;
 
+		public static GeneDef AG_BrittleBones;
 
 		public static RulePackDef AG_NamerAlphapack;
 		public static RulePackDef AG_NamerMixedpack;

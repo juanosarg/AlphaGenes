@@ -12,7 +12,7 @@
 			<li>Bear in mind that adding this gene at game start will mean the colonist will fall unconscious as soon as it lands, and remain so until night</li>
 		</customEffectDescriptions>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-
+		<selectionWeight>0</selectionWeight>
 		<biostatCpx>3</biostatCpx>
 		<biostatMet>8</biostatMet>
 		<symbolPack>
@@ -56,6 +56,7 @@
 		<description>Carriers of this gene have biological compounds in their skin that react lethally to UV radiation. They are so sensitive to sunlight that standing under the sun will burn them and kill them in a few minutes.</description>
 		<iconPath>UI/Icons/Genes/AG_SolarAnnihilation</iconPath>
 		<displayOrderInCategory>59.2</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
 			<li>Will be burned to death under direct sunlight</li>
 			<li>Bear in mind that adding this gene at game start might mean the colonist will just burn to death when landing unless you can IMMEDIATELY find or build cover</li>

@@ -17,4 +17,11 @@
 		<displayPriorityInXenotype>315.69</displayPriorityInXenotype>
 		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
 	</GeneCategoryDef>
+	
+	<GeneCategoryDef>
+		<defName>AG_FoodConsumption</defName>
+		<label>food consumption</label>
+		<displayPriorityInXenotype>500.69</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
+	</GeneCategoryDef>
 </Defs>

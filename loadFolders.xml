@@ -1,0 +1,13 @@
+<loadFolders>
+	
+	
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+		<li IfModActive="sarg.alphabiomes">1.4/Mods/AlphaBiomes</li>	
+		<li IfModActive="sarg.alphabiomes_copy">1.4/Mods/AlphaBiomes</li>
+		
+	</v1.4>
+</loadFolders>
+
+

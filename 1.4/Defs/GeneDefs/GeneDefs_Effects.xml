@@ -14,6 +14,7 @@
 			<li>Colonist will explode on death in a flame explosion with 2 tiles radius</li>
 			
 		</customEffectDescriptions>
+		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</graphicPath>
 			<color>(255, 255, 255)</color>
@@ -58,6 +59,7 @@
 			<color>(255, 255, 255)</color>
 			<layer>PostHeadgear</layer>
 		</graphicData>
+		
 		<customEffectDescriptions>
 			<li>Colonist will recharge nearby batteries. Most modded batteries are supported</li>
 			
@@ -90,6 +92,84 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<hediffToWholeBody>AG_Electrified</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_Fogger</defName>
+		<label>fogger</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of influencing the humidity levels of the surrounding atmosphere, causing a deep, thick fog to coalesce around.</description>
+		<iconPath>UI/Icons/Genes/AG_Fogger</iconPath>
+		<customEffectDescriptions>
+			<li>Causes a foggy weather to be always present around this person</li>	
+			<li>Nanomachines, son!</li>			
+		</customEffectDescriptions>
+		
+		<biostatCpx>3</biostatCpx>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fog</symbol>
+				</li>
+				<li>
+					<symbol>fogger</symbol>
+				</li>
+				<li>
+					<symbol>humid</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Fogger</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_RainMaker</defName>
+		<label>rainmaker</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically lowering the atmospheric pressure around, causing constant precipitation.</description>
+		<iconPath>UI/Icons/Genes/AG_RainMaker</iconPath>
+		<customEffectDescriptions>
+			<li>Causes rainy weather to be always present around this person</li>	
+				
+		</customEffectDescriptions>
+		
+		<biostatCpx>3</biostatCpx>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>rainy</symbol>
+				</li>
+				<li>
+					<symbol>water</symbol>
+				</li>
+				<li>
+					<symbol>pluvio</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_RainMaker</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+	<HediffDef>
+		<defName>AG_RedFogger</defName>
+		<label>red fogger</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of warping space via a psychic pinhole, causing an extradimensional red fog to coalesce around the carrier.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<weatherDef>AB_RedFog</weatherDef>
+			</li>
+		</comps>
+
+	</HediffDef>
+
+	
+</Defs>

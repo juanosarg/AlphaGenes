@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>/Defs/GeneDef[defName = "StrongStomach"]/displayCategory</xpath>
+		<value><displayCategory>AG_FoodConsumption</displayCategory></value>
+		
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>/Defs/GeneDef[defName = "RobustDigestion"]/displayCategory</xpath>
+		<value><displayCategory>AG_FoodConsumption</displayCategory></value>
+		
+	</Operation>
+	
+	
+	
+</Patch>

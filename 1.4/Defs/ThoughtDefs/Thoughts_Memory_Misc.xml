@@ -16,6 +16,7 @@
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
+		<nullifyingGenes><li>GR_Beauty_VeryVeryUgly</li></nullifyingGenes>
 	</ThoughtDef>
 	
 	<ThoughtDef>
@@ -29,9 +30,22 @@
 				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>
+		
 	</ThoughtDef>
 	
-	
+	<ThoughtDef>
+		<defName>AG_CorpseFeeding</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>smell of corpse-rotting gas</label>
+				<description>The smell of putrid corpse bile and corpse-rotting gas is overpowering!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+		<nullifyingGenes><li>AG_CorpseFeeding</li></nullifyingGenes>
+	</ThoughtDef>
 
 
 

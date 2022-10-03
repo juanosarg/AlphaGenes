@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	
+	
+	
+	<GeneDef>
+		<defName>AG_RedFogger</defName>
+		<label>red fogger</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of warping space via a psychic pinhole, causing an extradimensional red fog to coalesce around the carrier.</description>
+		<iconPath>UI/Icons/Genes/AG_RedFogger</iconPath>
+		<customEffectDescriptions>
+			<li>Causes a red fog weather to be always present around this person</li>	
+				
+		</customEffectDescriptions>
+		
+		<biostatCpx>3</biostatCpx>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fog</symbol>
+				</li>
+				<li>
+					<symbol>fogger</symbol>
+				</li>
+				<li>
+					<symbol>humid</symbol>
+				</li>
+				
+				
+			</prefixSymbols>
+		</symbolPack>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_RedFogger</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+
+
+
+
+</Defs>
