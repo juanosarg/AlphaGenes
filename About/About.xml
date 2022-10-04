@@ -2,7 +2,6 @@
 	<name>Alpha Genes</name>
 	<author>Sarg</author>
 	<supportedVersions>
-
 		<li>1.4</li>
 	</supportedVersions>
 	<modDependencies>
@@ -26,9 +25,9 @@
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>brrainz.harmony</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-
+		<li>sarg.alphaanimals</li>
+		<li>sarg.alphabiomes</li>
 	</loadAfter>
-
 	<packageId>sarg.alphagenes</packageId>
 	<description>
 

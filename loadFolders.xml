@@ -6,6 +6,8 @@
 		<li>1.4</li>
 		<li IfModActive="sarg.alphabiomes">1.4/Mods/AlphaBiomes</li>	
 		<li IfModActive="sarg.alphabiomes_copy">1.4/Mods/AlphaBiomes</li>
+		<li IfModActive="sarg.alphaanimals">1.4/Mods/AlphaAnimals</li>	
+		<li IfModActive="sarg.alphaanimals_copy">1.4/Mods/AlphaAnimals</li>
 		
 	</v1.4>
 </loadFolders>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<GeneDef ParentName="GeneBeautyBase">
-		<defName>GR_Beauty_VeryVeryUgly</defName>
+		<defName>AG_Beauty_VeryVeryUgly</defName>
 		<label>repulsive</label>
 		<labelShortAdj>repulsive</labelShortAdj>
 		<description>Carriers of this gene are so unfathomably ugly and grotesque that merely looking at them is enough to make other people nauseous.</description>
@@ -52,7 +52,7 @@
 		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="GeneBeautyBase">
-		<defName>GR_Beauty_Angelic</defName>
+		<defName>AG_Beauty_Angelic</defName>
 		<label>angelic beauty</label>
 		<labelShortAdj>angelic</labelShortAdj>
 		<description>Carriers of this gene possess an unnatural, almost pristine beauty that makes them stand out among others of their kind.</description>
@@ -100,6 +100,51 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<hediffToWholeBody>AG_Awe</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>AG_UnsettlingAppearance</defName>
+		<label>unsettling appearance</label>
+		<labelShortAdj>unsettling</labelShortAdj>
+		<description>Going beyond mundane notions of beauty or ugliness, the carrier of this gene has such an unsettling appearance that it inspires a certain sense of unease on other people.</description>
+		<iconPath>UI/Icons/Genes/AG_UnsettlingAppearance</iconPath>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Any person without this gene will get a -60 social penalty towards people who have it.</li>
+		</customEffectDescriptions>
+		
+
+		<biostatMet>2</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>uncanny</symbol>
+				</li>
+				<li>
+					<symbol>disturb</symbol>
+				</li>
+				<li>
+					<symbol>monst</symbol>
+				</li>
+				<li>
+					<symbol>fiend</symbol>
+				</li>
+				<li>
+					<symbol>vile</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
 			</li>
 		</modExtensions>
 	</GeneDef>

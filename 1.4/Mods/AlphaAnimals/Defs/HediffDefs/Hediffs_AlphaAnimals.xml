@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>AG_BlueGel</defName>
+		<label>blue gel production</label>
+		<description>The skin of this person constantly exudes and produces globs of blue gel, which are very energy dense and can be used to power blue gel machinery.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_Spawner">
+				<thingToSpawn>AA_BlueGel</thingToSpawn>
+				<spawnCount>10</spawnCount>
+				<spawnIntervalRange>55000~65000</spawnIntervalRange>
+				<spawnMaxAdjacent>30</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<showMessageIfOwned>false</showMessageIfOwned>
+				
+			</li>
+		</comps>
+	</HediffDef>
+</Defs>

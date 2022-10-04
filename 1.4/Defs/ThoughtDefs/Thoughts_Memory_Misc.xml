@@ -16,7 +16,7 @@
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
-		<nullifyingGenes><li>GR_Beauty_VeryVeryUgly</li></nullifyingGenes>
+		<nullifyingGenes><li>AG_Beauty_VeryVeryUgly</li></nullifyingGenes>
 	</ThoughtDef>
 	
 	<ThoughtDef>
