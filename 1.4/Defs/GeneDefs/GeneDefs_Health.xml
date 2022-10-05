@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_LungRotImmunity</defName>
+		<label>lung rot immunity</label>
+		<description>Carriers of this gene have strengthened lungs that are immune to lung rot.</description>
+		<iconPath>UI/Icons/Genes/AG_LungRotImmunity</iconPath>
+		<exclusionTags>
+			<li>AG_LungRot</li>
+		</exclusionTags>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<makeImmuneTo>
+			<li>LungRot</li>
+		</makeImmuneTo>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_LungRotStrength</defName>
+		<label>lung rot strength</label>
+		<exclusionTags>
+			<li>AG_LungRot</li>
+		</exclusionTags>
+		<description>Carriers of this gene have special structures in their lungs that strengthen their bodies when they are affected by lung rot, making piles of corpses... a pleasant prospect.</description>
+		<iconPath>UI/Icons/Genes/AG_LungRotStrength</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>111</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<makeImmuneTo>
+			<li>LungRot</li>
+		</makeImmuneTo>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Regeneration</defName>
+		<label>regeneration</label>
+		<exclusionTags>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<description>Carriers of this gene have a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
+		<iconPath>UI/Icons/Genes/AG_Regeneration</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>112</displayOrderInCategory>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-4</biostatMet>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Regeneration</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_PassiveRegenerator</defName>
+		<label>passive regenerator</label>
+		<exclusionTags>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<description>Carriers of this gene constantly release an invisible cloud of specialized mechanites that periodically tend to the wounds of nearby people and animals, regenerating them without any need for rest.</description>
+		<iconPath>UI/Icons/Genes/AG_PassiveRegenerator</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>112</displayOrderInCategory>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-6</biostatMet>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_PassiveRegenerator</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_NearBlindness</defName>
+		<label>near blindness</label>
+		<iconPath>UI/Icons/Genes/AG_NearBlindness</iconPath>
+		<description>Carriers of this gene have almost completely useless eyes, with close to total blindness</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>51</displayOrderInCategory>
+		<biostatMet>2</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+			<li>EyeColor</li>
+		</exclusionTags>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>blind</symbol>
+				</li>
+				<li>
+					<symbol>blur</symbol>
+				</li>
+				<li>
+					<symbol>squint</symbol>
+				</li>
+				<li>
+					<symbol>peek</symbol>
+				</li>
+				<li>
+					<symbol>cross</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>sighter</symbol>
+				</li>
+				<li>
+					<symbol>peeker</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		
+		<graphicData>
+			<drawScale>0.28</drawScale>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_male</graphicPath>
+			<graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_female</graphicPathFemale>
+			<color>(255, 255, 255)</color>
+			<visibleNorth>false</visibleNorth>
+			<drawOnEyes>true</drawOnEyes>
+			<layer>PostTattoo</layer>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_NearBlindness</hediff>
+						<bodyparts>
+							<li>Eye</li>
+							<li>Eye</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+					
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

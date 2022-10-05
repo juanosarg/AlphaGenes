@@ -92,10 +92,54 @@
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_AsexualReproduction">
 				<reproductionIntervalDays>60</reproductionIntervalDays>
-				
+				<endogeneTransfer>true</endogeneTransfer>
 				<asexualHatchedMessage>AG_AsexualHatched</asexualHatchedMessage> 
 			</li>
 		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_LungRotStrengthHediff</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>lung rot strength</label>
+		<description>Special structures in this person's lungs strengthen their bodies when they are affected by lung rot, making piles of corpses... a pleasant prospect..</description>
+
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>					
+					<InjuryHealingFactor>0.15</InjuryHealingFactor>					
+
+				</statOffsets>
+				<painFactor>0.75</painFactor>
+				<capMods>
+
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.4</offset>
+					</li>
+
+				</capMods>
+			</li>
+		</stages>
 	</HediffDef>
 
 	<HediffDef>
@@ -167,6 +211,32 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_NearBlindness</defName>
+		<label>near blindness</label>
+		<description>This person has almost completely useless eyes, with close to total blindness.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		
+		<stages>
+
+		
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<setMax>0.1</setMax>
+					</li>
+
+				</capMods>
+
+			</li>
+		</stages>
+	</HediffDef>
 
 	<HediffDef>
 		<defName>AG_NoFood</defName>
@@ -181,7 +251,7 @@
 
 			<li>
 
-				<hungerRateFactorOffset>-.99</hungerRateFactorOffset>					
+				<hungerRateFactorOffset>-.9999</hungerRateFactorOffset>					
 
 
 			</li>
@@ -337,11 +407,11 @@
 			</li>
 		</comps>
 	</HediffDef>
-
+-->
 	<HediffDef>
-		<defName>AAVPE_LightSustenance</defName>
-		<label>reduced need to eat</label>
-		<description>This colonist or animal has had part of its skin replaced with plant material, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance. This change is permanent, and quite traumatic.</description>
+		<defName>AG_LightSustenance</defName>
+		<label>photosynthesis</label>
+		<description>This colonist has chlorophyll pigments in their skin that allows them to absorb nutrients from sunlight, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -350,10 +420,7 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
-				<statOffsets>
-					<HungerRateMultiplier>-1000</HungerRateMultiplier>			
-					<MentalBreakThreshold>0.2</MentalBreakThreshold>
-				</statOffsets>
+				<hungerRateFactorOffset>-.9999</hungerRateFactorOffset>		
 			</li>
 
 		</stages>				
@@ -362,7 +429,7 @@
 
 			</li>
 		</comps>
-	</HediffDef>-->
+	</HediffDef>
 
 	<HediffDef>
 		<defName>AG_Electrified</defName>
@@ -412,10 +479,10 @@
 		</comps>
 	</HediffDef>
 
-	<!--	<HediffDef ParentName="PsycastHediffBase">
-		<defName>AAVPE_Regeneration</defName>
+	<HediffDef>
+		<defName>AG_Regeneration</defName>
 		<label>regeneration</label>
-		<description>This colonist or animal has a psychically active field of regeneration, allowing them to heal their wounds much faster than usual.</description>
+		<description>This person has a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -427,7 +494,44 @@
 				<rateInTicks>10</rateInTicks>
 			</li>
 		</comps>
-	</HediffDef>-->
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_PassiveRegenerator</defName>
+		<label>passive regenerator</label>
+		<description>This person constantly releases an invisible cloud of specialized mechanites that periodically tend to the wounds of nearby people and animals, regenerating them without any need for rest.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+
+		<isBad>false</isBad>	
+			
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_PassiveRegenerator">
+				<radius>5</radius>
+				<needsToBeTamed>true</needsToBeTamed>
+				<tickInterval>300</tickInterval>
+			
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_LethalInstability</defName>
+		<label>lethal instability</label>
+		<description>This person needs considerably less metabolic energy to stay alive, at the cost of outrageously-reduced stability in their cell-replication machinery, and a very, VERY limited lifespan that can't be expanded in any way.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+
+		<isBad>false</isBad>	
+			
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_DieAfterPeriod">
+				<timeToDieInTicks>7200000</timeToDieInTicks>
+				<DescriptionLabel>AG_DeathIn</DescriptionLabel>
+			</li>
+		</comps>
+	</HediffDef>
 
 
 </Defs>

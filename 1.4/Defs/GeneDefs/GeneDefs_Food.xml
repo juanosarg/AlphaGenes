@@ -12,9 +12,10 @@
 		<displayOrderInCategory>40</displayOrderInCategory>
 		<biostatCpx>4</biostatCpx>
 		<biostatMet>-3</biostatMet>
-		<makeImmuneTo>
-			<li>LungRot</li>
-		</makeImmuneTo>
+		
+		<customEffectDescriptions>
+      <li>Can feed by standing next to corpses and rotting them. Doesn't provide lung rot immunity on its own.</li>
+    </customEffectDescriptions>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -34,6 +35,44 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<hediffToWholeBody>AG_Helixien</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_LightSustenance</defName>
+		<label>light sustenance</label>
+
+		<description>Carriers of this gene have chlorophyll pigments in their skin that allows them to absorb nutrients from sunlight, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance.</description>
+		<iconPath>UI/Icons/Genes/AG_LightSustenance</iconPath>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<displayCategory>AG_FoodConsumption</displayCategory>
+		<displayOrderInCategory>50</displayOrderInCategory>
+		<skinColorOverride>(108, 137, 89)</skinColorOverride>
+		<biostatCpx>4</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<customEffectDescriptions>
+      <li>Can feed by standing in sunlight. A prolonged lack of sunlight will kill the carrier.</li>
+    </customEffectDescriptions>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>photo</symbol>
+				</li>
+				<li>
+					<symbol>plant</symbol>
+				</li>
+				<li>
+					<symbol>chloro</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_LightSustenance</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>

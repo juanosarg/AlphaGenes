@@ -13,6 +13,9 @@ namespace AlphaGenes
 
 		public static GeneDef AG_BrittleBones;
 		public static GeneDef AG_UnsettlingAppearance;
+		public static GeneDef AG_LungRotStrength;
+
+		public static HediffDef AG_LungRotStrengthHediff;
 
 		public static RulePackDef AG_NamerAlphapack;
 		public static RulePackDef AG_NamerMixedpack;
