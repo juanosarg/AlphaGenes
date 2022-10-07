@@ -348,78 +348,64 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<!-- Heads -->
-
-	<GeneDef Name="AG_GeneHeadBase" Abstract="True">
-		<biostatCpx>0</biostatCpx>
-
+	
+	<!-- Eyes -->
+		<GeneDef>
+		<defName>AG_FeraliskEyes</defName>
+		<label>feralisk eyes</label>
+		<iconPath>UI/Icons/Genes/AG_FeraliskEyes</iconPath>
+		<description>Carriers of this gene have four eyes, with correspondingly better vision.</description>
 		<displayCategory>Miscellaneous</displayCategory>
-		<displayOrderInCategory>110</displayOrderInCategory>
-
+		<displayOrderInCategory>52</displayOrderInCategory>
+		<biostatMet>-2</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
 		<exclusionTags>
+			<li>ShootingAccuracy</li>
+			<li>EyeColor</li>
 			<li>AG_Heads</li>
 			<li>Heads</li>
 			<li>Head</li>
 		</exclusionTags>
+		<capMods>
+		<li>
+			<capacity>Sight</capacity>
+			<offset>0.2</offset>
+		</li>
+		</capMods>
+		<forcedHeadTypes>
+			<li>AG_Female_Eyeless_Average_Normal</li>
+			<li>AG_Female_Eyeless_Average_Pointy</li>
+			<li>AG_Female_Eyeless_Average_Wide</li>
+			<li>AG_Female_Eyeless_Narrow_Normal</li>
+			<li>AG_Female_Eyeless_Narrow_Pointy</li>
+			<li>AG_Female_Eyeless_Narrow_Wide</li>
+			<li>AG_Male_Eyeless_Average_Normal</li>
+			<li>AG_Male_Eyeless_Average_Pointy</li>
+			<li>AG_Male_Eyeless_Average_Wide</li>
+			<li>AG_Male_Eyeless_Narrow_Normal</li>
+			<li>AG_Male_Eyeless_Narrow_Pointy</li>
+			<li>AG_Male_Eyeless_Narrow_Wide</li>
+			
+		</forcedHeadTypes>
+		
 		<graphicData>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
+			<drawScale>0.28</drawScale>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_FeraliskEye/AG_FeraliskEye</graphicPath>
+			
+			<color>(255, 255, 255)</color>
+			<visibleNorth>false</visibleNorth>
+			<drawOnEyes>true</drawOnEyes>
+			<layer>PostTattoo</layer>
 		</graphicData>
-	</GeneDef>
-	<GeneDef ParentName="AG_GeneHeadBase">
-		<defName>AG_AerofleetHead</defName>
-		<label>aerofleet hood</label>
-		<selectionWeight>0</selectionWeight>
-		<description>A gelatinous, translucent hood surrounds the carrier's head.</description>
-		<biostatCpx>1</biostatCpx>
-		<biostatMet>-1</biostatMet>
-
-		<iconPath>UI/Icons/Genes/AG_AerofleetHeadIcon</iconPath>
-		<graphicData>
-			<graphicPaths>
-				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</li>
-				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead2</li>
-				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead3</li>
-			</graphicPaths>
-			<drawOffsetNorth>(0, -0.01, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, -0.01, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, -0.01, 0)</drawOffsetEast>
-		</graphicData>
-		<beardTagFilter>
-			<whitelist>true</whitelist>
-			<tags>
-				<li>NoBeard</li>
-			</tags>
-		</beardTagFilter>
-		<hairTagFilter>
-			<whitelist>true</whitelist>
-			<tags>
-				<li>Bald</li>
-			</tags>
-		</hairTagFilter>
-		<symbolPack>
-			<prefixSymbols>
-				<li>
-					<symbol>slim</symbol>
-				</li>
-				<li>
-					<symbol>slimy</symbol>
-				</li>
-				<li>
-					<symbol>much</symbol>
-				</li>
-				<li>
-					<symbol>gelat</symbol>
-				</li>
-				
-			</prefixSymbols>
-		</symbolPack>
-
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+					
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
 </Defs>

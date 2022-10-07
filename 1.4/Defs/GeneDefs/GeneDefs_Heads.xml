@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Heads -->
+	<GeneDef Name="AG_GeneHeadBase" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>AG_Cosmetic_Heads</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_AerofleetHead</defName>
+		<label>aerofleet hood</label>
+		<selectionWeight>0</selectionWeight>
+		<description>A gelatinous, translucent hood surrounds the carrier's head.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<iconPath>UI/Icons/Genes/AG_AerofleetHeadIcon</iconPath>
+		<graphicData>
+			<graphicPaths>
+				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</li>
+				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead2</li>
+				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead3</li>
+			</graphicPaths>
+			<drawOffsetNorth>(0, -0.01, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, -0.01, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, -0.01, 0)</drawOffsetEast>
+		</graphicData>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>slim</symbol>
+				</li>
+				<li>
+					<symbol>slimy</symbol>
+				</li>
+				<li>
+					<symbol>much</symbol>
+				</li>
+				<li>
+					<symbol>gelat</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_SlugFace</defName>
+		<label>slug head</label>
+		
+		<description>Both of the subject's eyes protrude from the skull in slug-like stalks. Slimy!</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		
+		<iconPath>UI/Icons/Genes/AG_SlugFace</iconPath>
+		
+		<forcedHeadTypes>
+			<li>AG_SlugFace_Narrow</li>
+			<li>AG_SlugFace_Normal</li>
+			<li>AG_SlugFace_Wide</li>
+			
+		</forcedHeadTypes>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
+</Defs>

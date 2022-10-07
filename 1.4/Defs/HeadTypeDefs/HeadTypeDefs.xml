@@ -1,18 +1,104 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <!-- Aerofleet -->
-
- <!-- <HeadTypeDef ParentName="AverageBase">
-    <defName>AG_AerofleetHead</defName>
-    <graphicPath>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</graphicPath>
-    <randomChosen>false</randomChosen>
-    <gender>None</gender>
-    <requiredGenes>
-      <li>AG_AerofleetHead</li>
-    </requiredGenes>
-  </HeadTypeDef>-->
-
-
-
+	<!-- Helixien -->
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SlugFace_Narrow</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_SlugFace/AG_SlugFace_Narrow</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>AG_SlugFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SlugFace_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_SlugFace/AG_SlugFace_Normal</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>AG_SlugFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SlugFace_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_SlugFace/AG_SlugFace_Wide</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>AG_SlugFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	
+	<!-- Eyeless -->
+	
+	<HeadTypeDef Name="AG_EyelessAverageBase" ParentName="AverageBase" Abstract="True">
+		<selectionWeight>100000</selectionWeight>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>AG_FeraliskEyes</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Female_Eyeless_Average_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Female_Eyeless_Average_Normal</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Female_Eyeless_Average_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Female_Eyeless_Average_Pointy</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Female_Eyeless_Average_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Female_Eyeless_Average_Wide</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Female_Eyeless_Narrow_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Female_Eyeless_Narrow_Normal</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Female_Eyeless_Narrow_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Female_Eyeless_Narrow_Pointy</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Female_Eyeless_Narrow_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Female_Eyeless_Narrow_Wide</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Male_Eyeless_Average_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Male_Eyeless_Average_Normal</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Male_Eyeless_Average_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Male_Eyeless_Average_Pointy</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Male_Eyeless_Average_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Male_Eyeless_Average_Wide</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Male_Eyeless_Narrow_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Male_Eyeless_Narrow_Normal</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Male_Eyeless_Narrow_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Male_Eyeless_Narrow_Pointy</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_EyelessAverageBase">
+		<defName>AG_Male_Eyeless_Narrow_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Male_Eyeless_Narrow_Wide</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
 </Defs>
