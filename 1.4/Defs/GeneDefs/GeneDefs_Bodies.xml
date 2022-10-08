@@ -2,7 +2,7 @@
 <Defs>
 
 	<GeneDef Name="AG_BodyBase" Abstract="True">
-		<displayCategory>Miscellaneous</displayCategory>
+		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
 		<exclusionTags>
 			<li>AG_Bodies</li>
 			<li>Bodies</li>
@@ -62,34 +62,50 @@
 		</modExtensions>
 	</GeneDef>
 	
-	<!--<GeneDef ParentName="AG_BodyBase">
-		<defName>AG_SerpentTail</defName>
-		<label>serpent tail</label>
-		<labelShortAdj>serpent tailed</labelShortAdj>
-		<description>.</description>
-		<biostatCpx>1</biostatCpx>
-		<biostatMet>-1</biostatMet>
-		
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_SerpentTail/AG_SerpentTail</graphicPath>
-			<drawWhileDessicated>true</drawWhileDessicated>
-			<drawOffsetNorth>(0, 0.01,-0.0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0.01, -0.0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0.01, 0)</drawOffsetEast>
-			<drawScale>1.5</drawScale>
-		</graphicData>
-		
-		<displayOrderInCategory>410</displayOrderInCategory>
-		<iconPath>UI/Icons/Genes/AG_SlimeBodyIcon</iconPath>
-		
-		
-		
-		<modExtensions>
+	<GeneDef ParentName="AG_BodyBase">
+    <defName>AG_SlugBody</defName>
+    <label>slug body</label>
+    <labelShortAdj>slug-like</labelShortAdj>
+    <description>Carriers of this gene have a thick, slimy tail growing from their tailbone. Their whole body is perpetually soft and moist.</description>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-1</biostatMet>
+   
+    <displayOrderInCategory>410</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/AG_SlugBody</iconPath>
+   
+   <symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>helix</symbol>
+				</li>
+				<li>
+					<symbol>slug</symbol>
+				</li>
+				<li>
+					<symbol>moist</symbol>
+				</li>
+				<li>
+					<symbol>snail</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
+   
+    <statOffsets>
+      <ComfyTemperatureMin>10</ComfyTemperatureMin>
+    </statOffsets>
+    <missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
+    <graphicData>
+      <fur>AG_SlugBody</fur>
+     
+      <tattoosVisible>false</tattoosVisible>
+    </graphicData>
+	<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
+				<useSkinColorForFur>true</useSkinColorForFur>
 			</li>
 		</modExtensions>
-	</GeneDef>-->
+  </GeneDef>
 </Defs>

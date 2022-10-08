@@ -349,63 +349,43 @@
 		</modExtensions>
 	</GeneDef>
 	
-	<!-- Eyes -->
-		<GeneDef>
-		<defName>AG_FeraliskEyes</defName>
-		<label>feralisk eyes</label>
-		<iconPath>UI/Icons/Genes/AG_FeraliskEyes</iconPath>
-		<description>Carriers of this gene have four eyes, with correspondingly better vision.</description>
-		<displayCategory>Miscellaneous</displayCategory>
-		<displayOrderInCategory>52</displayOrderInCategory>
-		<biostatMet>-2</biostatMet>
-		<biostatCpx>2</biostatCpx>
+	
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>AG_AnimusEars</defName>
+		<label>animus ears</label>
 		<selectionWeight>0</selectionWeight>
-		<exclusionTags>
-			<li>ShootingAccuracy</li>
-			<li>EyeColor</li>
-			<li>AG_Heads</li>
-			<li>Heads</li>
-			<li>Head</li>
-		</exclusionTags>
-		<capMods>
-		<li>
-			<capacity>Sight</capacity>
-			<offset>0.2</offset>
-		</li>
-		</capMods>
-		<forcedHeadTypes>
-			<li>AG_Female_Eyeless_Average_Normal</li>
-			<li>AG_Female_Eyeless_Average_Pointy</li>
-			<li>AG_Female_Eyeless_Average_Wide</li>
-			<li>AG_Female_Eyeless_Narrow_Normal</li>
-			<li>AG_Female_Eyeless_Narrow_Pointy</li>
-			<li>AG_Female_Eyeless_Narrow_Wide</li>
-			<li>AG_Male_Eyeless_Average_Normal</li>
-			<li>AG_Male_Eyeless_Average_Pointy</li>
-			<li>AG_Male_Eyeless_Average_Wide</li>
-			<li>AG_Male_Eyeless_Narrow_Normal</li>
-			<li>AG_Male_Eyeless_Narrow_Pointy</li>
-			<li>AG_Male_Eyeless_Narrow_Wide</li>
-			
-		</forcedHeadTypes>
-		
+		<description>Carriers of this gene will grow animus vox ears.</description>
+		<iconPath>UI/Icons/Genes/AG_AnimusEarsIcon</iconPath>
 		<graphicData>
-			<drawScale>0.28</drawScale>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_FeraliskEye/AG_FeraliskEye</graphicPath>
-			
-			<color>(255, 255, 255)</color>
-			<visibleNorth>false</visibleNorth>
-			<drawOnEyes>true</drawOnEyes>
-			<layer>PostTattoo</layer>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_AnimusEars/AG_AnimusEars</graphicPath>
+			<colorType>Skin</colorType>
 		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>animus</symbol>
+				</li>
+				<li>
+					<symbol>empath</symbol>
+				</li>
+				<li>
+					<symbol>telep</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol> vox</symbol>
+				</li>
+				
+			</suffixSymbols>
+		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
-					
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
 	
 </Defs>

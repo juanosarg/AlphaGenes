@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Eyes -->
+	<GeneDef>
+		<defName>AG_FeraliskEyes</defName>
+		<label>feralisk eyes</label>
+		<iconPath>UI/Icons/Genes/AG_FeraliskEyes</iconPath>
+		<description>Carriers of this gene have four eyes, with correspondingly better vision.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>52</displayOrderInCategory>
+		<biostatMet>-2</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+			<li>EyeColor</li>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		<capMods>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.2</offset>
+			</li>
+		</capMods>
+		<forcedHeadTypes>
+			<li>AG_Female_Eyeless_Average_Normal</li>
+			<li>AG_Female_Eyeless_Average_Pointy</li>
+			<li>AG_Female_Eyeless_Average_Wide</li>
+			<li>AG_Female_Eyeless_Narrow_Normal</li>
+			<li>AG_Female_Eyeless_Narrow_Pointy</li>
+			<li>AG_Female_Eyeless_Narrow_Wide</li>
+			<li>AG_Male_Eyeless_Average_Normal</li>
+			<li>AG_Male_Eyeless_Average_Pointy</li>
+			<li>AG_Male_Eyeless_Average_Wide</li>
+			<li>AG_Male_Eyeless_Narrow_Normal</li>
+			<li>AG_Male_Eyeless_Narrow_Pointy</li>
+			<li>AG_Male_Eyeless_Narrow_Wide</li>
+		</forcedHeadTypes>
+		<graphicData>
+			<drawScale>0.28</drawScale>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_FeraliskEye/AG_FeraliskEye</graphicPath>
+			<color>(255, 255, 255)</color>
+			<visibleNorth>false</visibleNorth>
+			<drawOnEyes>true</drawOnEyes>
+			<layer>PostTattoo</layer>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_NearBlindness</defName>
+		<label>near blindness</label>
+		<iconPath>UI/Icons/Genes/AG_NearBlindness</iconPath>
+		<description>Carriers of this gene have almost completely useless eyes, with close to total blindness</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>51</displayOrderInCategory>
+		<biostatMet>2</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+			<li>EyeColor</li>
+		</exclusionTags>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>blind</symbol>
+				</li>
+				<li>
+					<symbol>blur</symbol>
+				</li>
+				<li>
+					<symbol>squint</symbol>
+				</li>
+				<li>
+					<symbol>peek</symbol>
+				</li>
+				<li>
+					<symbol>cross</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>sighter</symbol>
+				</li>
+				<li>
+					<symbol>peeker</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<graphicData>
+			<drawScale>0.28</drawScale>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_male</graphicPath>
+			<graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_female</graphicPathFemale>
+			<color>(255, 255, 255)</color>
+			<visibleNorth>false</visibleNorth>
+			<drawOnEyes>true</drawOnEyes>
+			<layer>PostTattoo</layer>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_NearBlindness</hediff>
+						<bodyparts>
+							<li>Eye</li>
+							<li>Eye</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ChameleonVision</defName>
+		<label>chameleon vision</label>
+		<displayCategory>Miscellaneous</displayCategory>
+		<description>Carriers of this gene have protruding eyes that provide a panoramic sight, while also being able to move and focus independently. This allows the carrier to watch an approaching object while simultaneously scanning the rest of their environment.</description>
+		<iconPath>UI/Icons/Genes/AG_ChameleonVision</iconPath>
+		<displayOrderInCategory>53</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+		
+		</exclusionTags>
+		<capMods>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.2</offset>
+			</li>
+		</capMods>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

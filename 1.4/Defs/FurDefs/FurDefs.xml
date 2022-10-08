@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FurDef>
+    <defName>AG_SlugBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

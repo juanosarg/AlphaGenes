@@ -145,7 +145,7 @@
 	<HediffDef>
 		<defName>AG_Disgust</defName>
 		<label>unfathomably ugly</label>
-		<description>todo.</description>
+		<description>There are no words to describe how revolting this person is.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -162,7 +162,7 @@
 	<HediffDef>
 		<defName>AG_Awe</defName>
 		<label>angelic beauty</label>
-		<description>todo.</description>
+		<description>This person emanates an aura of preternatural beauty.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -492,6 +492,23 @@
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_Regeneration">
 				<rateInTicks>10</rateInTicks>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_RegenerationMinor</defName>
+		<label>regeneration, minor</label>
+		<description>This person has a faint distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+
+		<isBad>false</isBad>	
+			
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_Regeneration">
+				<rateInTicks>250</rateInTicks>
 			</li>
 		</comps>
 	</HediffDef>

@@ -38,11 +38,36 @@
 		<makeImmuneTo>
 			<li>LungRot</li>
 		</makeImmuneTo>
+		<customEffectDescriptions>
+			<li>Standing on rot stink strengthens the carrier for around two days after exposure, instead of causing lung rot.</li>
+		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_RegenerationMinor</defName>
+		<label>regeneration, minor</label>
+		<exclusionTags>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<description>Carriers of this gene have a faint distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
+		<iconPath>UI/Icons/Genes/AG_RegenerationMinor</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>111.5</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_RegenerationMinor</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -77,7 +102,7 @@
 		<description>Carriers of this gene constantly release an invisible cloud of specialized mechanites that periodically tend to the wounds of nearby people and animals, regenerating them without any need for rest.</description>
 		<iconPath>UI/Icons/Genes/AG_PassiveRegenerator</iconPath>
 		<displayCategory>Healing</displayCategory>
-		<displayOrderInCategory>112</displayOrderInCategory>
+		<displayOrderInCategory>113</displayOrderInCategory>
 		<biostatCpx>5</biostatCpx>
 		<biostatMet>-6</biostatMet>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
@@ -90,73 +115,5 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<GeneDef>
-		<defName>AG_NearBlindness</defName>
-		<label>near blindness</label>
-		<iconPath>UI/Icons/Genes/AG_NearBlindness</iconPath>
-		<description>Carriers of this gene have almost completely useless eyes, with close to total blindness</description>
-		<displayCategory>Miscellaneous</displayCategory>
-		<displayOrderInCategory>51</displayOrderInCategory>
-		<biostatMet>2</biostatMet>
-		<biostatCpx>2</biostatCpx>
-		<selectionWeight>0</selectionWeight>
-		<exclusionTags>
-			<li>ShootingAccuracy</li>
-			<li>EyeColor</li>
-		</exclusionTags>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		<symbolPack>
-			<prefixSymbols>
-				<li>
-					<symbol>blind</symbol>
-				</li>
-				<li>
-					<symbol>blur</symbol>
-				</li>
-				<li>
-					<symbol>squint</symbol>
-				</li>
-				<li>
-					<symbol>peek</symbol>
-				</li>
-				<li>
-					<symbol>cross</symbol>
-				</li>
-			</prefixSymbols>
-			<suffixSymbols>
-				<li>
-					<symbol>sighter</symbol>
-				</li>
-				<li>
-					<symbol>peeker</symbol>
-				</li>
-			</suffixSymbols>
-		</symbolPack>
-		
-		<graphicData>
-			<drawScale>0.28</drawScale>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_male</graphicPath>
-			<graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_female</graphicPathFemale>
-			<color>(255, 255, 255)</color>
-			<visibleNorth>false</visibleNorth>
-			<drawOnEyes>true</drawOnEyes>
-			<layer>PostTattoo</layer>
-		</graphicData>
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<hediffsToBodyParts>
-					<li>
-						<hediff>AG_NearBlindness</hediff>
-						<bodyparts>
-							<li>Eye</li>
-							<li>Eye</li>
-						</bodyparts>
-					</li>
-				</hediffsToBodyParts>
-					
-			</li>
-		</modExtensions>
-	</GeneDef>
+	
 </Defs>

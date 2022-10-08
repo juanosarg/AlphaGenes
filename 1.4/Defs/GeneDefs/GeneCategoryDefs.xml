@@ -18,6 +18,12 @@
 		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
 	</GeneCategoryDef>
 	<GeneCategoryDef>
+		<defName>AG_Cosmetic_Bodies</defName>
+		<label>cosmetic - bodies</label>
+		<displayPriorityInXenotype>294.59</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
 		<defName>AG_Wings</defName>
 		<label>functional wings</label>
 		<displayPriorityInXenotype>315.69</displayPriorityInXenotype>
