@@ -20,7 +20,7 @@
 		<description>Carriers of this gene have gelatinous, constantly dripping blue skin.</description>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
-		
+		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/Bodies/AG_Slimy</graphicPath>
 			<drawWhileDessicated>true</drawWhileDessicated>
@@ -28,9 +28,9 @@
 			<drawOffsetSouth>(0, 0.01, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0.01, 0)</drawOffsetEast>
 			<tattoosVisible>false</tattoosVisible>
-			
+
 		</graphicData>
-		
+
 		<displayOrderInCategory>400</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_SlimeBodyIcon</iconPath>
 		<iconColor>(157, 188, 200)</iconColor>
@@ -49,31 +49,31 @@
 				<li>
 					<symbol>gelat</symbol>
 				</li>
-				
+
 			</prefixSymbols>
 		</symbolPack>
-		
+
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
+
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
+
 	<GeneDef ParentName="AG_BodyBase">
-    <defName>AG_SlugBody</defName>
-    <label>slug body</label>
-    <labelShortAdj>slug-like</labelShortAdj>
-    <description>Carriers of this gene have a thick, slimy tail growing from their tailbone. Their whole body is perpetually soft and moist.</description>
-    <biostatCpx>3</biostatCpx>
-    <biostatMet>-1</biostatMet>
-   
-    <displayOrderInCategory>410</displayOrderInCategory>
-    <iconPath>UI/Icons/Genes/AG_SlugBody</iconPath>
-   
-   <symbolPack>
+		<defName>AG_SlugBody</defName>
+		<label>slug body</label>
+		<labelShortAdj>slug-like</labelShortAdj>
+		<description>Carriers of this gene have a thick, slimy tail growing from their tailbone. Their whole body is perpetually soft and moist.</description>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>410</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_SlugBody</iconPath>
+
+		<symbolPack>
 			<prefixSymbols>
 				<li>
 					<symbol>helix</symbol>
@@ -87,25 +87,25 @@
 				<li>
 					<symbol>snail</symbol>
 				</li>
-				
+
 			</prefixSymbols>
 		</symbolPack>
-   
-    <statOffsets>
-      <ComfyTemperatureMin>10</ComfyTemperatureMin>
-    </statOffsets>
-    <missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
-    <graphicData>
-      <fur>AG_SlugBody</fur>
-     
-      <tattoosVisible>false</tattoosVisible>
-    </graphicData>
-	<modExtensions>
+
+		<statOffsets>
+			<ComfyTemperatureMin>10</ComfyTemperatureMin>
+		</statOffsets>
+		<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
+		<graphicData>
+			<fur>AG_SlugBody</fur>
+
+			<tattoosVisible>false</tattoosVisible>
+		</graphicData>
+		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
 			</li>
 		</modExtensions>
-  </GeneDef>
+	</GeneDef>
 </Defs>

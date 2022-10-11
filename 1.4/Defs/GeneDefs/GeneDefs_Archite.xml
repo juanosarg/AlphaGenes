@@ -10,6 +10,7 @@
 		<iconPath>UI/Icons/Genes/AG_NoDigestion</iconPath>
 		<displayCategory>Archite</displayCategory>
 		<marketValueFactor>2</marketValueFactor>
+		<selectionWeight>0</selectionWeight>
 		<biostatCpx>7</biostatCpx>
 		<biostatArc>1</biostatArc>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
@@ -31,6 +32,7 @@
 		<iconPath>UI/Icons/Genes/AG_MoodUnfeeling</iconPath>
 		<biostatCpx>10</biostatCpx>
 		<displayCategory>Archite</displayCategory>
+		<selectionWeight>0</selectionWeight>
 		<marketValueFactor>2</marketValueFactor>
 		<biostatArc>1</biostatArc>
 		<symbolPack>
@@ -64,6 +66,7 @@
 		<biostatCpx>10</biostatCpx>
 		<displayCategory>Archite</displayCategory>
 		<marketValueFactor>2</marketValueFactor>
+		<selectionWeight>0</selectionWeight>
 		<biostatArc>2</biostatArc>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
 		<statFactors>

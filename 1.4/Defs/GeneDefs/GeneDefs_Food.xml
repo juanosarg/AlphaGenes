@@ -12,10 +12,10 @@
 		<displayOrderInCategory>40</displayOrderInCategory>
 		<biostatCpx>4</biostatCpx>
 		<biostatMet>-3</biostatMet>
-		
+
 		<customEffectDescriptions>
-      <li>Can feed by standing next to corpses and rotting them. Doesn't provide lung rot immunity on its own.</li>
-    </customEffectDescriptions>
+			<li>Can feed by standing next to corpses and rotting them. Doesn't provide lung rot immunity on its own.</li>
+		</customEffectDescriptions>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -38,7 +38,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
+
 	<GeneDef>
 		<defName>AG_LightSustenance</defName>
 		<label>light sustenance</label>
@@ -52,8 +52,8 @@
 		<biostatCpx>4</biostatCpx>
 		<biostatMet>-3</biostatMet>
 		<customEffectDescriptions>
-      <li>Can feed by standing in sunlight. A prolonged lack of sunlight will kill the carrier.</li>
-    </customEffectDescriptions>
+			<li>Can feed by standing in sunlight. A prolonged lack of sunlight will kill the carrier.</li>
+		</customEffectDescriptions>
 		<symbolPack>
 			<prefixSymbols>
 				<li>

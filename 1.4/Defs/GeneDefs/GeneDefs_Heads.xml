@@ -71,7 +71,7 @@
 	<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_SlugFace</defName>
 		<label>slug head</label>
-		
+		<selectionWeight>0</selectionWeight>
 		<description>Both of the subject's eyes protrude from the skull in slug-like stalks. Slimy!</description>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>

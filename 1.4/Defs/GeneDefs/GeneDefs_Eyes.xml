@@ -129,6 +129,7 @@
 		<displayOrderInCategory>53</displayOrderInCategory>
 		<biostatMet>-1</biostatMet>
 		<biostatCpx>1</biostatCpx>
+		<selectionWeight>0</selectionWeight>
 		<exclusionTags>
 			<li>ShootingAccuracy</li>
 		
