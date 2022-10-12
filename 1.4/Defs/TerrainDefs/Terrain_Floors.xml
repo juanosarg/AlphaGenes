@@ -23,7 +23,7 @@
     <defName>AG_CrackedConcrete</defName>
     <label>cracked concrete</label>
     <description>Rough concrete. Broken due to lack of maintenance.</description>
-    <texturePath>Terrain/Surfaces/GR_CrackedConcrete</texturePath>
+    <texturePath>Terrain/Surfaces/AG_CrackedConcrete</texturePath>
     <edgeType>Hard</edgeType>
     <renderPrecedence>71</renderPrecedence>
     <statBases>
