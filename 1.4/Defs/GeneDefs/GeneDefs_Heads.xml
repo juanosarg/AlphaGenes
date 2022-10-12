@@ -105,4 +105,55 @@
 		</modExtensions>
 		
 	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_FoxFace</defName>
+		<label>fox head</label>
+		
+		<description>Carriers of this gene possess an elongated snout with a round nose and slit-like eyes. Ears sold separately.</description>
+		<selectionWeight>0</selectionWeight>
+		<iconPath>UI/Icons/Genes/AG_FoxFaceIcon</iconPath>
+		
+		<forcedHeadTypes>
+			<li>AG_Male_Fox_Average_Normal</li>
+			<li>AG_Male_Fox_Average_Pointy</li>
+			<li>AG_Male_Fox_Average_Wide</li>
+			<li>AG_Female_Fox_Average_Normal</li>
+			<li>AG_Female_Fox_Average_Pointy</li>
+			<li>AG_Female_Fox_Average_Wide</li>
+			
+		</forcedHeadTypes>
+		<symbolPack>
+		<prefixSymbols>
+				<li>
+					<symbol>animus</symbol>
+				</li>
+				<li>
+					<symbol>empath</symbol>
+				</li>
+				<li>
+					<symbol>telep</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>-vox</symbol>
+				</li>
+				
+			</suffixSymbols>
+			</symbolPack>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
 </Defs>

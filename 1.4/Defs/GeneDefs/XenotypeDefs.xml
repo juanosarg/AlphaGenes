@@ -43,4 +43,28 @@
 			<li>AptitudeTerrible_Cooking</li>
 		</genes>
 	</XenotypeDef>
+	<XenotypeDef>
+		<defName>AG_Animusen</defName>
+		<label>animusen</label>
+		<description>Animusen were genetically spliced with Animus Vox genes to create a cold-thriving human xenotype with a much better -and less aggressive- disposition than Yttakin.\n\nAnimusen have strong psychic abilities, and they are very attuned to the feelings of others, often being valued as adept counsellors.</description>
+		<descriptionShort>A cold-thriving human xenotype with a much better -and less aggressive- disposition than Yttakin, and powerful psychic abilities.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Animusen</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Beard_NoBeardOnly</li>
+			<li>AG_AnimusEars</li>
+			<li>AG_FoxFace</li>
+			<li>AG_FoxTail</li>		
+			<li>AG_ColdSpeed</li>		
+			<li>MeleeDamage_Weak</li>
+			<li>Libido_High</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudeTerrible_Mining</li>
+			<li>AG_UVSensitivity_Minor</li>
+			<li>AG_PsychicAbility_Masterful</li>
+			<li>MaxTemp_SmallDecrease</li>
+			
+			
+		</genes>
+	</XenotypeDef>
 </Defs>

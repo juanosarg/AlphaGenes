@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneTailBase">
+		<defName>AG_FoxTail</defName>
+		<label>fox tail</label>
+		<description>Carriers of this gene grow a large fox tail which partially protects them from cold temperatures.</description>
+		<iconPath>UI/Icons/Genes/AG_FoxTailIcon</iconPath>
+		
+		<displayOrderInCategory>1001</displayOrderInCategory>
+		<statOffsets>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+		</statOffsets>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FoxTail/AG_FoxTail</graphicPath>
+			<colorType>Hair</colorType>
+			<drawScale>2</drawScale>
+			<drawOffsetNorth>(0.0, 0.2, -0.0)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.1, -0.0)</drawOffsetSouth>
+			<drawOffsetEast>(-0.0, -0.1, -0.0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

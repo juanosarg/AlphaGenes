@@ -175,6 +175,23 @@
 			</li>
 		</comps>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_PsychicDrone</defName>
+		<label>psychic drone</label>
+		<description>Being close to this person causes a soothing feeling.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ThoughtEffecter">
+				<radius>6</radius>
+				<tickInterval>500</tickInterval>
+				<thoughtDef>AG_PsychicDrone</thoughtDef>
+			</li>
+		</comps>
+	</HediffDef>
 
 	<HediffDef>
 		<defName>AG_Sensitivity_Vicious_Hediff</defName>
@@ -204,6 +221,42 @@
 					<li>
 						<capacity>Consciousness</capacity>
 						<setMax>0.1</setMax>
+					</li>
+
+				</capMods>
+
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_UVSensitivity_Minor_Hediff</defName>
+		<label>minor UV sensitivity</label>
+		<description>This person's eyes will hurt slightly under direct sunlight.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_StageBySunlight">
+				<sunlightStageIndex>1</sunlightStageIndex>
+				<sunlessStageIndex>0.1</sunlessStageIndex>
+			</li>
+		</comps>
+		<stages>
+
+			<li>
+
+				<minSeverity>0.1</minSeverity>					
+
+
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
 					</li>
 
 				</capMods>

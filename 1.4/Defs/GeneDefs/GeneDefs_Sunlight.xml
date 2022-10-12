@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<GeneDef ParentName="UVSensitivityBase">
+		<defName>AG_UVSensitivity_Minor</defName>
+		<label>minor UV sensitivity</label>
+		<labelShortAdj>UV-sensitive</labelShortAdj>
+		<description>Carriers of this gene have eyes that are sensitive to UV radiation, making them mildly unconfortable when in direct sunlight.</description>
+		<iconPath>UI/Icons/Genes/AG_SolarMinor</iconPath>
+		<displayOrderInCategory>39</displayOrderInCategory>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<biostatMet>2</biostatMet>
+		<customEffectDescriptions>
+			<li>-10% Sight when in direct sunlight.</li>
+			
+		</customEffectDescriptions>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>dark</symbol>
+				</li>
+				<li>
+					<symbol>tunnel</symbol>
+				</li>
+				<li>
+					<symbol>under</symbol>
+				</li>
+				<li>
+					<symbol>cave</symbol>
+				</li>
+				<li>
+					<symbol>crypt</symbol>
+				</li>
+				<li>
+					<symbol>dim</symbol>
+				</li>
+				<li>
+					<symbol>night</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_UVSensitivity_Minor_Hediff</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="UVSensitivityBase">
 		<defName>AG_Sensitivity_Vicious</defName>
 		<label>vicious UV sensitivity</label>
 		<labelShortAdj>UV-hypersensitive</labelShortAdj>
@@ -48,7 +94,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 	<GeneDef ParentName="UVSensitivityBase">
 		<defName>AG_Sensitivity_Lethal</defName>
 		<label>lethal UV sensitivity</label>

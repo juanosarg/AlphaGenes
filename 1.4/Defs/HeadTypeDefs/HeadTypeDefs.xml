@@ -101,4 +101,67 @@
 		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Eyeless/AG_Male_Eyeless_Narrow_Wide</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
+	
+	<!-- Fox -->
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_Male_Fox_Average_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Fox/AG_Male_Fox_Average_Normal</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_FoxFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_Male_Fox_Average_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Fox/AG_Male_Fox_Average_Pointy</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_FoxFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_Male_Fox_Average_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Fox/AG_Male_Fox_Average_Wide</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_FoxFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_Female_Fox_Average_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Fox/AG_Female_Fox_Average_Normal</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_FoxFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_Female_Fox_Average_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Fox/AG_Female_Fox_Average_Pointy</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_FoxFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_Female_Fox_Average_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Fox/AG_Female_Fox_Average_Wide</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_FoxFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
 </Defs>

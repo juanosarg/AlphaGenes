@@ -29,7 +29,18 @@
 		<displayPriorityInXenotype>315.69</displayPriorityInXenotype>
 		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
 	</GeneCategoryDef>
-	
+	<GeneCategoryDef>
+		<defName>AG_Cosmetic_Tails</defName>
+		<label>cosmetic - tails</label>
+		<displayPriorityInXenotype>314.59</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>AG_Cosmetic_Ears</defName>
+		<label>cosmetic - ears</label>
+		<displayPriorityInXenotype>313.59</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
+	</GeneCategoryDef>
 	<GeneCategoryDef>
 		<defName>AG_FoodConsumption</defName>
 		<label>food consumption</label>
