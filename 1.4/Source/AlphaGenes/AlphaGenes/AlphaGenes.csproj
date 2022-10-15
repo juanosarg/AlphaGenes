@@ -304,6 +304,10 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThingDefOfs\InternalDefOf.cs" />
+    <Compile Include="ThingSetMakers\ThingSetMaker_Ave.cs" />
+    <Compile Include="ThingSetMakers\ThingSetMaker_OcularJelly.cs" />
+    <Compile Include="ThingSetMakers\ThingSetMaker_Needleroll.cs" />
+    <Compile Include="ThingSetMakers\ThingSetMaker_FissionMouse.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_PolarBear.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Wolf.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Rats.cs" />
