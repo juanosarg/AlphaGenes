@@ -132,7 +132,7 @@ namespace AlphaGenes
 				}
 				for (int j = 0; j < geneCount.alphaCount; j++)
 				{				
-						geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_")).RandomElement());				
+						geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_") && !x.exclusionTags.Contains("AG_OnlyOnCharacterCreation")).RandomElement());				
 				}
 				GenerateName(geneSet, InternalDefOf.AG_NamerAlphapack);
 				Rand.PopState();
@@ -165,7 +165,7 @@ namespace AlphaGenes
 
 				for (int j = 0; j < geneCount.alphaCount; j++)
 				{
-					geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_")).RandomElement());
+					geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_") && !x.exclusionTags.Contains("AG_OnlyOnCharacterCreation")).RandomElement());
 				}
 				GenerateName(geneSet, InternalDefOf.AG_NamerMixedpack);
 				Rand.PopState();

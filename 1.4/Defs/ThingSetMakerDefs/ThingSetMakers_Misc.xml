@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+
+  
+    <ThingSetMakerDef>
+		<defName>AG_Rats</defName>
+		<root Class="AlphaGenes.ThingSetMaker_Rats" />
+	</ThingSetMakerDef>
+	
+	 <ThingSetMakerDef>
+		<defName>AG_Wolf</defName>
+		<root Class="AlphaGenes.ThingSetMaker_Wolf" />
+	</ThingSetMakerDef>
+	
+	 <ThingSetMakerDef>
+		<defName>AG_PolarBear</defName>
+		<root Class="AlphaGenes.ThingSetMaker_PolarBear" />
+	</ThingSetMakerDef>
+	
+	
+ 
+  
+</Defs>
