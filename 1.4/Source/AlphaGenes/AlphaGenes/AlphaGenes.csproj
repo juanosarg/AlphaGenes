@@ -306,6 +306,7 @@
     <Compile Include="Comps\CompTargetableHuman.cs" />
     <Compile Include="Comps\CompTargetEffect_RemoveGene.cs" />
     <Compile Include="ConditionalStatAffecters\ConditionalStatAffecter_Armor.cs" />
+    <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
@@ -313,6 +314,9 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowSpawnerRadius.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\AlphaGenes_Settings.cs" />
+    <Compile Include="Settings\AlphaGenes_SettingsController.cs" />
+    <Compile Include="Settings\SettingsHelper.cs" />
     <Compile Include="ThingDefOfs\InternalDefOf.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Ave.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_OcularJelly.cs" />
@@ -322,6 +326,7 @@
     <Compile Include="ThingSetMakers\ThingSetMaker_Wolf.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Rats.cs" />
     <Compile Include="ThoughtDefs\ThoughtWorker_UnsettlingAppearance.cs" />
+    <Compile Include="WorldComponents\WorldComponent_BiotechLabQuests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

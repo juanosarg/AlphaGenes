@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<SitePartDef>
+		<defName>AG_AbandonedBiotechLab</defName>
+		<label>abandoned biotech lab</label>
+		<description>A recently-discovered abandoned biotech lab.</description>
+		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+		<expandingIconTexture>World/AG_AncientBiotechLab</expandingIconTexture>
+		<tags>
+			<li>AG_AbandonedBiotechLab</li>
+		</tags>
+	</SitePartDef>
+	<GenStepDef>
+		<defName>AG_AbandonedBiotechLab</defName>
+		<linkWithSite>AG_AbandonedBiotechLab</linkWithSite>
+		<order>450</order>
+		<genStep Class="KCSG.GenStep_CustomStructureGen">
+			<structureLayoutDefs>
+				<li>AG_AbandonedBiotechLabAlpha</li>
+				
+			</structureLayoutDefs>
+		
+			<filthTypes>
+				<li>Filth_Dirt</li>
+				<li>Filth_Trash</li>
+				<li>Filth_RubbleBuilding</li>
+			</filthTypes>
+		</genStep>
+	</GenStepDef>
+</Defs>

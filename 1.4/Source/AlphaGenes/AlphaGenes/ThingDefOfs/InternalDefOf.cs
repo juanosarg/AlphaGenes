@@ -14,7 +14,7 @@ namespace AlphaGenes
 		public static PawnKindDef Wolf_Timber;
 		public static PawnKindDef Bear_Polar;
 
-
+		public static QuestScriptDef AG_OpportunitySite_AbandonedBiotechLab;
 
 		public static GeneDef AG_BrittleBones;
 		public static GeneDef AG_UnsettlingAppearance;
