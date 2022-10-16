@@ -62,6 +62,54 @@
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
   </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase" Name="AG_GeneToolBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.2</Mass>
+			<DeteriorationRate>2.0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>AG_GeneTools</li>
+		</thingCategories>
+		<techLevel>Ultra</techLevel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_GeneRemover</defName>
+		<label>gene remover</label>
+		<description>A genetic toolkit capable of removing a random gene from a human target. This removal is quite destructive, and will target a gene at random. As a result, the target will drop into a coma for a few days. Using the remover on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_GeneRemover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGeneRemover</useJob>
+				<useLabel>Use gene remover</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>	
+			<li Class="AlphaGenes.CompProperties_TargetEffect_RemoveGene">
+				
+			</li>
+		</comps>
+	</ThingDef>
 
   
 

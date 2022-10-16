@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <HediffDef>
+    <defName>AG_GeneRemovalComa</defName>
+    <label>gene removal coma</label>
+    <description>A gene was forcefully removed from this person. This is greatly taxing on the organism and it will put them into a coma for at least 15 days.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>0.001</initialSeverity>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>900000</disappearsAfterTicks> <!-- 15 days. -->
+        <showRemainingTime>true</showRemainingTime>
+        <canUseDecimalsShortForm>true</canUseDecimalsShortForm>
+      </li>
+    </comps>
+  </HediffDef>
+
+
+ 
+</Defs>

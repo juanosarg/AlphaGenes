@@ -563,4 +563,209 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 	</ThingDef>
+	
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientCorpse</defName>
+		<label>ancient corpse</label>
+		<description>This skeleton has seen better days.</description>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_Corpse</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			
+		</graphicData>
+		
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RandomGenepack</defName>
+		<label>random genepack</label>
+		<description>Spawn random genepack.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<clearBuildingArea>false</clearBuildingArea>
+		<graphicData>
+			<texPath>Things/Building/AG_RandomGenepack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_RandomItemSpawner">
+				<items>
+					<li>Genepack</li>
+					<li>AG_Alphapack</li>
+					<li>AG_Mixedpack</li>
+					
+
+				</items>
+
+			</li>
+
+		</comps>
+
+	</ThingDef>
+	
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RandomGeneTool</defName>
+		<label>random gene tool</label>
+		<description>Spawn random gene tool.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<clearBuildingArea>false</clearBuildingArea>
+		<graphicData>
+			<texPath>Things/Building/AG_GeneToolRandom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_RandomItemSpawner">
+				<items>
+					<li>AG_GeneRemover</li>
+					
+
+				</items>
+
+			</li>
+
+		</comps>
+
+	</ThingDef>
+	
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientFaultyLamp</defName>
+		<label>ancient faulty lamp</label>
+		<description>A metallic capsule filled with some bioluminescent compound. This one seems to still be producing some faint light.</description>
+		<size>(1,2)</size>
+
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_AncientFaultyLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.8,1.6)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(247,236,188,0)</glowColor>
+			</li>
+		</comps>
+		<costList>
+			<Steel>4</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>2</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RuinedLabLamp</defName>
+		<label>ancient lab lamp</label>
+		<description>A metallic post with a glass cilinder filled with some bioluminescent compound. This one seems to still be producing some faint light.</description>
+		<size>(1,2)</size>
+
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedLabLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.4,1.6)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(247,236,188,0)</glowColor>
+			</li>
+		</comps>
+		<costList>
+			<Steel>4</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>2</pathCost>
+	</ThingDef>
+	
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RaidSpawner</defName>
+		<label>ruined radio beacon</label>
+		<description>This device seems to be emitting weak radio waves.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedRadioBeacon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_RandomRaidSpawner">
+
+			</li>
+
+		</comps>
+		<placeWorkers>
+			<li>AlphaGenes.PlaceWorker_ShowSpawnerRadius</li>
+		</placeWorkers>
+	</ThingDef>
+	
 </Defs>

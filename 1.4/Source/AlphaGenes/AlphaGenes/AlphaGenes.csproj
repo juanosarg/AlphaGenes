@@ -294,14 +294,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AI\JobDrivers\JobDriver_UseGeneRemover.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBank.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBankMixed.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_RandomItemSpawner.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_RandomRaidSpawner.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TargetableHuman.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_RemoveGene.cs" />
+    <Compile Include="Comps\CompRandomItemSpawner.cs" />
+    <Compile Include="Comps\CompRandomRaidSpawner.cs" />
+    <Compile Include="Comps\CompTargetableHuman.cs" />
+    <Compile Include="Comps\CompTargetEffect_RemoveGene.cs" />
     <Compile Include="ConditionalStatAffecters\ConditionalStatAffecter_Armor.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
+    <Compile Include="PlaceWorkers\PlaceWorker_ShowSpawnerRadius.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThingDefOfs\InternalDefOf.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Ave.cs" />
