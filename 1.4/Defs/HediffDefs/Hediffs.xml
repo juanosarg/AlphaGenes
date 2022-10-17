@@ -602,6 +602,28 @@
 			</li>
 		</comps>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_UnstableMutation</defName>
+		<label>unstable mutation</label>
+		<description>Forces an unstable mutation on this person. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+
+		<isBad>false</isBad>	
+		
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>	
+			 <li Class="HediffCompProperties_DisappearsOnDeath"/>
+			 <li Class="AlphaGenes.HediffCompProperties_RandomMutation"/>
+		</comps>
+	</HediffDef>
+	
+	
 
 
 </Defs>

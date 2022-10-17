@@ -160,4 +160,32 @@
 		<defName>AG_AncientBandNode</defName>
 		<thing>AG_AncientBandNode</thing>
 	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+  <defName>AG_AncientBasicRecharger_North</defName>
+  <thing>AG_AncientBasicRecharger</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientGeneExtractor_South</defName>
+  <thing>AG_AncientGeneExtractor</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientVitalsMonitor_North</defName>
+  <thing>AG_AncientVitalsMonitor</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientWastepackAtomizer</defName>
+  <thing>AG_AncientWastepackAtomizer</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientLargeRecharger_North</defName>
+  <thing>AG_AncientLargeRecharger</thing>
+</KCSG.SymbolDef>
+
+
 </Defs>

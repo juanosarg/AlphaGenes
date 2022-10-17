@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+	<GeneDef>
+		<defName>AG_UnstableMutation</defName>
+		<label>unstable mutation</label>
+		<description>Carriers of this gene can force an unstable mutation on their bodies once per day. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_UnstableMutation</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_UnstableMutation</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-2</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+
+
+
+
+
+
+
+</Defs>

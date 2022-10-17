@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+	<GeneDef>
+		<defName>AG_Invisibility</defName>
+		<label>psychic camouflage</label>
+		<description>Carriers of this gene can psychically shift their skin tones to camouflage in almost any surroundings.</description>
+		<iconPath>UI/Icons/Genes/AG_Invisibility</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_Invisibility</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_Invisibility</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-3</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+
+
+
+
+
+
+
+</Defs>

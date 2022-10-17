@@ -8,6 +8,7 @@
 		<li IfModActive="sarg.alphabiomes_copy">1.4/Mods/AlphaBiomes</li>
 		<li IfModActive="sarg.alphaanimals">1.4/Mods/AlphaAnimals</li>	
 		<li IfModActive="sarg.alphaanimals_copy">1.4/Mods/AlphaAnimals</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.4/Mods/Royalty</li>	
 		
 	</v1.4>
 </loadFolders>

@@ -76,6 +76,42 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_TableResistance</defName>
+		<label>table resistance</label>
+
+		<description>Carriers of this gene have developed a GIGANTIC mental fortitude and are capable of withstanding the greatest torture of all time: eating without a table.</description>
+		<iconPath>UI/Icons/Genes/AG_TableResistance</iconPath>
+		
+		<displayCategory>AG_FoodConsumption</displayCategory>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		
+		<biostatMet>-1</biostatMet>
+
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>stander</symbol>
+				</li>
+				<li>
+					<symbol>unkneeler</symbol>
+				</li>
+				<li>
+					<symbol>table-less</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 
 

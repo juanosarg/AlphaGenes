@@ -3,7 +3,9 @@
 	<AG_AsexualHatched>{0} has reproduced asexually.</AG_AsexualHatched>
 	<AG_DeathIn>Death in {0}</AG_DeathIn>
 	<AG_StatsReport_Armoured>armoured</AG_StatsReport_Armoured>
+	<AG_StatsReport_NoSunlight>no sunlight</AG_StatsReport_NoSunlight>
 	<AG_QuestRate>Abandoned biotech labs multiplier (lower means getting the event more often)</AG_QuestRate>
 	<AG_QuestRateTooltip>The frequency of the abandoned biotech lab quest being offered is multiplied by this number (with a multiplier of 1, it is offered every between 15 and 30 days at random). Numbers below 1 decrease the time, while numbers above it increase it. Note that this event doesn't "replace" normal quests, it works independently.</AG_QuestRateTooltip>
 	<AG_Reset>Reset</AG_Reset>
+	<AG_RandomGeneGained>Unstable mutation gained: {0}</AG_RandomGeneGained>
 </LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>AG_Invisibility</defName>
+		<label>psychic invisibility</label>
+		<description>todo.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties">
+				<compClass>HediffComp_Invisibility</compClass>
+			</li>
+			<li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-6</severityPerDay>
+        <showDaysToRecover>true</showDaysToRecover>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+	</HediffDef>
+</Defs>

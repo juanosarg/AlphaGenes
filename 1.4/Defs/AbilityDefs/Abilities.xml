@@ -1,32 +1,69 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
+	<AbilityDef Abstract="True" Name="AG_NoTargetAbilities">
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		
+		<hotKey>Misc12</hotKey>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>0.5</warmupTime>
+			<drawAimPie>False</drawAimPie>
+			<requireLineOfSight>False</requireLineOfSight>
+			<targetParams>
+				<canTargetSelf>true</canTargetSelf>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetHumans>false</canTargetHumans>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_WingPoweredJump</defName>
+		<label>wing-powered jump</label>
+		<description>Flap wings to jump a short distance.</description>
+		<iconPath>UI/Abilities/AG_WingPoweredJump</iconPath>
+		<cooldownTicksRange>2400</cooldownTicksRange>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityJump</verbClass>
+			<label>flap wings</label>
+			<violent>false</violent>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<warmupTime>0.5</warmupTime>
+			<range>6.9</range>
+			<requireLineOfSight>true</requireLineOfSight>
+			<soundCast>AG_WingsFlapping</soundCast>
+			<soundLanding>Longjump_Land</soundLanding>
+			<flyWithCarriedThing>true</flyWithCarriedThing>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
 
- 
-  <AbilityDef>
-    <defName>AG_WingPoweredJump</defName>
-    <label>wing-powered jump</label>
-    <description>Flap wings to jump a short distance.</description>
-    <iconPath>UI/Abilities/AG_WingPoweredJump</iconPath>
-    <cooldownTicksRange>2400</cooldownTicksRange>
-    <verbProperties>
-      <verbClass>Verb_CastAbilityJump</verbClass>
-      <label>flap wings</label>
-      <violent>false</violent>
-      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-      <warmupTime>0.5</warmupTime>
-      <range>6.9</range>
-      <requireLineOfSight>true</requireLineOfSight>
-      <soundCast>AG_WingsFlapping</soundCast>
-      <soundLanding>Longjump_Land</soundLanding>
-      <flyWithCarriedThing>true</flyWithCarriedThing>
-      <targetParams>
-        <canTargetLocations>true</canTargetLocations>
-        <canTargetPawns>false</canTargetPawns>
-        <canTargetBuildings>false</canTargetBuildings>
-      </targetParams>
-    </verbProperties>
-    
-  </AbilityDef>
+	</AbilityDef>
+	<AbilityDef  ParentName="AG_NoTargetAbilities">
+		<defName>AG_UnstableMutation</defName>
+		<label>unstable mutation</label>
+		<description>Forces an unstable mutation on the caster's body. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_GiveHediff">
+				<hediffDef>AG_UnstableMutation</hediffDef>
+			</li>
+		</comps>
 
- 
+	</AbilityDef>
+
+
 </Defs>
