@@ -434,10 +434,10 @@
 
 	</HediffDef>
 
-	<!--	<HediffDef ParentName="PsycastHediffBase">
-		<defName>AAVPE_FungalSkin</defName>
+	<HediffDef>
+		<defName>AG_FungalSkin</defName>
 		<label>fungal skin</label>
-		<description>Several giant fungi are sprouting from this person or animal's skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire.</description>
+		<description>Several fungal clumps are sprouting from this person's skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -456,7 +456,7 @@
 		</stages>		
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_HighlyFlammable">
-				<damageToInflict>AA_PermanentBurn</damageToInflict>
+				<damageToInflict>VEF_PermanentBurn</damageToInflict>
 			</li>
 		</comps>
 	</HediffDef>

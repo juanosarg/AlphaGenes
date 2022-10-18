@@ -52,4 +52,10 @@
 		<displayPriorityInXenotype>500.69</displayPriorityInXenotype>
 		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
 	</GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>AG_Armour</defName>
+		<label>natural armour</label>
+		<displayPriorityInXenotype>490.69</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
+	</GeneCategoryDef>
 </Defs>

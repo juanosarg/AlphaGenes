@@ -48,6 +48,7 @@
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
 		<displayCategory>AG_FoodConsumption</displayCategory>
 		<displayOrderInCategory>50</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
 		<skinColorOverride>(108, 137, 89)</skinColorOverride>
 		<biostatCpx>4</biostatCpx>
 		<biostatMet>-3</biostatMet>

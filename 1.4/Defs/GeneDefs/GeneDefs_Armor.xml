@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<GeneDef Name="AG_ArmourBase" Abstract="True">
+		<displayCategory>AG_Armour</displayCategory>
+
+		<exclusionTags>
+			<li>AG_Armour</li>
+			<li>Armour</li>
+			<li>Armor</li>
+		</exclusionTags>
+	</GeneDef>
+	<GeneDef  ParentName="AG_ArmourBase">
+		<defName>AG_FungalSkin</defName>
+		<label>fungal skin</label>
+
+		<description>Carriers of this gene have several fungal clumps sprouting from their skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire.</description>
+		<iconPath>UI/Icons/Genes/AG_FungalSkin</iconPath>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<customEffectDescriptions>
+			<li>Fires will cause permanent wounds.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<skinColorOverride>(108, 137, 89)</skinColorOverride>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<suppressedTraits>
+			<li>
+				<def>Pyromaniac</def>
+			</li>
+		</suppressedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fungi</symbol>
+				</li>
+				<li>
+					<symbol>fungal</symbol>
+				</li>
+				<li>
+					<symbol>mushr</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_FungalSkin</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>
