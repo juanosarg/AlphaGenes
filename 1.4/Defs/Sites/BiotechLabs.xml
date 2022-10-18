@@ -17,6 +17,10 @@
 		<genStep Class="KCSG.GenStep_CustomStructureGen">
 			<structureLayoutDefs>
 				<li>AG_AbandonedBiotechLabAlpha</li>
+				<li>AG_AbandonedBiotechLabBeta</li>
+				<li>AG_AbandonedBiotechLabGamma</li>
+				<li>AG_AbandonedBiotechLabDelta</li>
+				<li>AG_AbandonedBiotechLabEpsilon</li>
 				
 			</structureLayoutDefs>
 		

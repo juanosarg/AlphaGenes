@@ -13,6 +13,9 @@
 		<abilities>
 			<li>AG_UnstableMutation</li>
 		</abilities>
+		<exclusionTags>
+			<li>AG_UnstableMutations</li>
+		</exclusionTags>
 		<selectionWeight>0</selectionWeight>
 		<descriptionHyperlinks>
 			<AbilityDef>AG_UnstableMutation</AbilityDef>

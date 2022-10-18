@@ -115,5 +115,27 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_UnstableMutationMajor</defName>
+		<label>unstable mutation, major</label>
+		<exclusionTags>
+			<li>AG_UnstableMutations</li>
+		</exclusionTags>
+		<description>Carriers of this gene will suffer an unstable mutation on their bodies once per day. This mutation will activate two new random genes for the whole day. Next day, the genes will deactivate and two new ones will take their place.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMutationMajor</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>114</displayOrderInCategory>
+		<biostatMet>-4</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_UnstableMutationMajor</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
 </Defs>

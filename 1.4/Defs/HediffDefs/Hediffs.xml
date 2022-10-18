@@ -615,11 +615,31 @@
 		
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-2</severityPerDay>
+				<severityPerDay>-1</severityPerDay>
 				<showDaysToRecover>true</showDaysToRecover>
 			</li>	
 			 <li Class="HediffCompProperties_DisappearsOnDeath"/>
 			 <li Class="AlphaGenes.HediffCompProperties_RandomMutation"/>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_UnstableMutationMajor</defName>
+		<label>unstable mutation, major</label>
+		<description>Forces an uncontrollable and unstable mutation on this person every day. This mutation will activate two new random genes for a whole day. Next day, the genes will deactivate and two new ones will take their place.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+
+		<isBad>false</isBad>	
+		
+		<comps>
+			 <li Class="HediffCompProperties_DisappearsOnDeath"/>
+			 <li Class="AlphaGenes.HediffCompProperties_RandomMutation">
+				<numberOfGenes>2</numberOfGenes>
+				<recurrent>true</recurrent>
+				<period>60000</period>
+			 </li>
 		</comps>
 	</HediffDef>
 	

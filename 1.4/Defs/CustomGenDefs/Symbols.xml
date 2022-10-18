@@ -187,5 +187,50 @@
   <thing>AG_AncientLargeRecharger</thing>
 </KCSG.SymbolDef>
 
+<KCSG.SymbolDef>
+  <defName>AG_AncientGeneBank_South</defName>
+  <thing>AG_AncientGeneBank</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientSubcoreRipscanner_South</defName>
+  <thing>AG_AncientSubcoreRipscanner</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientSubcoreRipscanner_East</defName>
+  <thing>AG_AncientSubcoreRipscanner</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientSubcoreRipscanner_West</defName>
+  <thing>AG_AncientSubcoreRipscanner</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientMechGestator_East</defName>
+  <thing>AG_AncientMechGestator</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientMechGestator_West</defName>
+  <thing>AG_AncientMechGestator</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientGeneExtractor_North</defName>
+  <thing>AG_AncientGeneExtractor</thing>
+</KCSG.SymbolDef>
+
+
+
+
+
 
 </Defs>

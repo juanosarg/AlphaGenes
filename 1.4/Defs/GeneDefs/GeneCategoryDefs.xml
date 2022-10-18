@@ -6,6 +6,11 @@
 		<displayPriorityInXenotype>515.69</displayPriorityInXenotype>
 	</GeneCategoryDef>
 	<GeneCategoryDef>
+		<defName>AG_Gender</defName>
+		<label>gender</label>
+		<displayPriorityInXenotype>516.69</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
 		<defName>AG_AnimalAffinity</defName>
 		<label>animal affinity</label>
 		<displayPriorityInXenotype>505.69</displayPriorityInXenotype>
