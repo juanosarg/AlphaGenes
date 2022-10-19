@@ -160,7 +160,7 @@
 					<MoveSpeed>1.2</MoveSpeed>
 				</statFactors>
 			</li>
-			<li Class="AlphaGenes.ConditionalStatAffecter_NoSunlight">
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_NoSunlight">
 				<statFactors>
 					<MoveSpeed>0.8</MoveSpeed>
 				</statFactors>
@@ -205,7 +205,7 @@
 					<RestFallRateFactor>0.8</RestFallRateFactor>
 				</statFactors>
 			</li>
-			<li Class="AlphaGenes.ConditionalStatAffecter_NoSunlight">
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_NoSunlight">
 				<statFactors>
 					<MoveSpeed>0.5</MoveSpeed>
 					<RestFallRateFactor>1.25</RestFallRateFactor>

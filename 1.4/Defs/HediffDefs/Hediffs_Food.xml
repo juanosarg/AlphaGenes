@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>AG_Helixien</defName>
+		<label>corpse feeding</label>
+		<description>Constantly secretes a foul-smelling, corrosive gas that produces an uncomfortable, itchy sensation in living beings. This gas is mostly harmless, unless it comes into contact with decaying organic matter: it greatly accelerates corpse rotting, liberating a black putrid liquid known as "purge fluid" or corpse bile. The carrier is fed through the skin by contacting the liquid sludge, although they can also feed on other organic matter if needed.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_CorpseDecayer">
+				<radius>5</radius>
+				<tickInterval>500</tickInterval>
+				<decayOnHitPoints>2</decayOnHitPoints>
+				<nutritionGained>0.1</nutritionGained>
+				<corpseSound>AG_HelixienCorpseSound</corpseSound>
+			</li>
+			<li Class="AnimalBehaviours.HediffCompProperties_ThoughtEffecter">
+				<radius>10</radius>
+				<tickInterval>500</tickInterval>
+				<thoughtDef>AG_CorpseFeeding</thoughtDef>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_NoFood</defName>
+		<label>extremely low hunger</label>
+		<description>This person doesn't feel hunger, only needing to eat every few weeks.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<hungerRateFactorOffset>-.9999</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_LightSustenance</defName>
+		<label>photosynthesis</label>
+		<description>This colonist has chlorophyll pigments in their skin that allows them to absorb nutrients from sunlight, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<hungerRateFactorOffset>-.9999</hungerRateFactorOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_LightSustenance">
+
+			</li>
+		</comps>
+	</HediffDef>
+</Defs>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<HediffDef>
+		<defName>AG_Fogger</defName>
+		<label>fogger</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of influencing the humidity levels of the surrounding atmosphere, causing a deep, thick fog to coalesce around.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ChangeWeather">
+
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_RainMaker</defName>
+		<label>rainmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically lowering the atmospheric pressure around, causing constant precipitation.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<isRandomWeathers>true</isRandomWeathers>
+				<randomWeathers>
+					<li>Rain</li>
+					<li>RainyThunderstorm</li>
+					<li>FoggyRain</li>
+				</randomWeathers>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	
+	
+</Defs>

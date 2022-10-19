@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<HediffDef>
+		<defName>AG_AsexualFission</defName>
+		<label>fission</label>
+		<description>Will periodically generate small clumps of organic matter on their backs that gradually develop into full human beings, and separate from their host / parent via a process of strobilation. This will provide an endless source of new colonists, at the risk of flooding the colony with newborns.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_AsexualReproduction">
+				<reproductionIntervalDays>60</reproductionIntervalDays>
+				<endogeneTransfer>true</endogeneTransfer>
+				<asexualHatchedMessage>AG_AsexualHatched</asexualHatchedMessage>
+			</li>
+		</comps>
+	</HediffDef>
+	
+</Defs>

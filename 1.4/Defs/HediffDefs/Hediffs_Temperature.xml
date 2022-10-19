@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>AG_HeatRadiating</defName>
+		<label>heat radiating</label>
+		<description>Generates intense heat up to 80ºC. Bear in mind this condition itself doesn't make the carrier heat resistant.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_HeatPusher">
+				<tickCounter>250</tickCounter>
+				<heatPushMaxTemperature>80</heatPushMaxTemperature>
+				<heatPerSecond>60</heatPerSecond>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_ColdRadiating</defName>
+		<label>cold radiating</label>
+		<description>Generates intense cold up to -20ºC. Bear in mind this condition itself doesn't make the carrier cold resistant.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_HeatPusher">
+				<tickCounter>250</tickCounter>
+				<heatPushMinTemperature>-20</heatPushMinTemperature>
+				<heatPerSecond>-60</heatPerSecond>
+			</li>
+		</comps>
+	</HediffDef>
+</Defs>

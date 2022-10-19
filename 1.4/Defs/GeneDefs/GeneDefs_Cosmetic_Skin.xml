@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_DeepGreen</defName>
+		<label>deep green skin</label>
+		<labelShortAdj>green</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that gives their skin a deep green color.</description>
+		<skinColorOverride>(2,91,19)</skinColorOverride>
+		<displayOrderInCategory>101</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_DeeperRed</defName>
+		<label>deeper red skin</label>
+		<labelShortAdj>red</labelShortAdj>
+		<description>Carriers of this gene produce a deeper-red pigment that gives their skin an almost bloody appearance.</description>
+		<skinColorOverride>(188, 0, 0)</skinColorOverride>
+		<displayOrderInCategory>103</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>red</symbol>
+				</li>
+				<li>
+					<symbol>crim</symbol>
+				</li>
+				<li>
+					<symbol>fire</symbol>
+				</li>
+				<li>
+					<symbol>rose</symbol>
+				</li>
+				<li>
+					<symbol>wine</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_DeepBlue</defName>
+		<label>deep blue skin</label>
+		<labelShortAdj>blue</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin a deep blue color.</description>
+		<skinColorOverride>(2, 49, 91)</skinColorOverride>
+		<displayOrderInCategory>102</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>blue</symbol>
+				</li>
+				<li>
+					<symbol>ice</symbol>
+				</li>
+				<li>
+					<symbol>sky</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_Silver</defName>
+		<label>Silver skin</label>
+		<labelShortAdj>Silver</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin an iridiscent silver color.</description>
+		<skinColorOverride>(255, 255, 255)</skinColorOverride>
+		<graphicData>
+			<fur>AG_SilverBody</fur>
+			<drawLoc>Tailbone</drawLoc>
+			<tattoosVisible>true</tattoosVisible>
+		</graphicData>
+		<displayOrderInCategory>104</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>argent</symbol>
+				</li>
+				<li>
+					<symbol>silver</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<forcedHeadTypes>
+			<li>AG_Female_Silver_Average_Normal</li>
+			<li>AG_Female_Silver_Average_Pointy</li>
+			<li>AG_Female_Silver_Average_Wide</li>
+			<li>AG_Female_Silver_Narrow_Normal</li>
+			<li>AG_Female_Silver_Narrow_Pointy</li>
+			<li>AG_Female_Silver_Narrow_Wide</li>
+			<li>AG_Male_Silver_Average_Normal</li>
+			<li>AG_Male_Silver_Average_Pointy</li>
+			<li>AG_Male_Silver_Average_Wide</li>
+			<li>AG_Male_Silver_Narrow_Normal</li>
+			<li>AG_Male_Silver_Narrow_Pointy</li>
+			<li>AG_Male_Silver_Narrow_Wide</li>
+			
+		</forcedHeadTypes>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>								
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_Gold</defName>
+		<label>golden skin</label>
+		<labelShortAdj>golden</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin an iridiscent golden color.</description>
+		<skinColorOverride>(0, 255, 255)</skinColorOverride>
+		
+		<graphicData>
+			<fur>AG_SilverBody</fur>
+			<drawLoc>Tailbone</drawLoc>
+			<tattoosVisible>true</tattoosVisible>
+		</graphicData>
+		<displayOrderInCategory>105</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>aurum</symbol>
+				</li>
+				<li>
+					<symbol>gold</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<forcedHeadTypes>
+			<li>AG_Female_Golden_Average_Normal</li>
+			<li>AG_Female_Golden_Average_Pointy</li>
+			<li>AG_Female_Golden_Average_Wide</li>
+			<li>AG_Female_Golden_Narrow_Normal</li>
+			<li>AG_Female_Golden_Narrow_Pointy</li>
+			<li>AG_Female_Golden_Narrow_Wide</li>
+			<li>AG_Male_Golden_Average_Normal</li>
+			<li>AG_Male_Golden_Average_Pointy</li>
+			<li>AG_Male_Golden_Average_Wide</li>
+			<li>AG_Male_Golden_Narrow_Normal</li>
+			<li>AG_Male_Golden_Narrow_Pointy</li>
+			<li>AG_Male_Golden_Narrow_Wide</li>
+			
+		</forcedHeadTypes>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>								
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+</Defs>

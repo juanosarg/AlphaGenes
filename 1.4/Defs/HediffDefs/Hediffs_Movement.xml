@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<HediffDef>
+		<defName>AG_Hover</defName>
+		<label>glide</label>
+		<description>Limited flight that allows this colonist to hop and glide small distances over terrain. They will ignore terrain movement costs when moving.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_Floating">
+
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_HoverExploder</defName>
+		<label>hydrogen hover</label>
+		<description>Limited flight that allows this colonist to hover over terrain. They will ignore terrain movement costs when moving. The hydrogen inside the gas bags will cause this person to blow up when killed.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_Floating">
+
+			</li>
+			<li Class="AnimalBehaviours.HediffCompProperties_Exploder">
+				<explosionForce>3</explosionForce>
+				<damageDef>Flame</damageDef>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	
+	
+</Defs>

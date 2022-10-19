@@ -9,7 +9,7 @@
 		<displayOrderInCategory>501</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
 		<conditionalStatAffecters>
-			<li Class="AlphaGenes.ConditionalStatAffecter_Armor">
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Armor">
 				<statOffsets>
 					<MoveSpeed>0.2</MoveSpeed>
 				</statOffsets>

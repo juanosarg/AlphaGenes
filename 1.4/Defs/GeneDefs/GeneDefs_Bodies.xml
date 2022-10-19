@@ -108,4 +108,58 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_ScalyBody</defName>
+		<label>scaly body</label>
+		<labelShortAdj>scaled</labelShortAdj>
+		<description>Carriers of this gene have wet scales over all their body.</description>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>420</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_ScalyBody</iconPath>
+		<customEffectDescriptions>
+			<li>Can move very fast across shallow water</li>
+			
+		</customEffectDescriptions>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>scaly</symbol>
+				</li>
+				<li>
+					<symbol>rept</symbol>
+				</li>
+				<li>
+					<symbol>herpet</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
+
+		<conditionalStatAffecters>
+			
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Water">
+				<statFactors>
+					<MoveSpeed>3</MoveSpeed>
+					
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		
+		<graphicData>
+			<fur>AG_ScalyBody</fur>
+
+			<tattoosVisible>false</tattoosVisible>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
