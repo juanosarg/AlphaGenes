@@ -307,8 +307,6 @@
     <Compile Include="Comps\CompRandomRaidSpawner.cs" />
     <Compile Include="Comps\CompTargetableHuman.cs" />
     <Compile Include="Comps\CompTargetEffect_RemoveGene.cs" />
-    <Compile Include="ConditionalStatAffecters\ConditionalStatAffecter_Armor.cs" />
-    <Compile Include="ConditionalStatAffecters\ConditionalStatAffecter_NoSunlight.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
