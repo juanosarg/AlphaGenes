@@ -128,8 +128,15 @@
 		<label>golden skin</label>
 		<labelShortAdj>golden</labelShortAdj>
 		<description>Carriers of this gene produce a pigment that turns their skin an iridiscent golden color.</description>
-		<skinColorOverride>(0, 255, 255)</skinColorOverride>
-		
+		<skinColorOverride>(198, 184, 134)</skinColorOverride>
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+			<li>AG_Bodies</li>
+			<li>Bodies</li>
+			<li>Body</li>
+		</exclusionTags>
 		<graphicData>
 			<fur>AG_SilverBody</fur>
 			<drawLoc>Tailbone</drawLoc>
@@ -159,6 +166,64 @@
 			<li>AG_Male_Golden_Narrow_Normal</li>
 			<li>AG_Male_Golden_Narrow_Pointy</li>
 			<li>AG_Male_Golden_Narrow_Wide</li>
+			
+		</forcedHeadTypes>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>								
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_TrueBlack</defName>
+		<label>deep black skin</label>
+		<labelShortAdj>golden</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin a very very deep black.</description>
+		<skinColorOverride>(255, 255, 255)</skinColorOverride>
+		<iconColor>(10,10,10)</iconColor>
+		<graphicData>
+			<fur>AG_TrueBlackBody</fur>
+			<drawLoc>Tailbone</drawLoc>
+			<tattoosVisible>true</tattoosVisible>
+		</graphicData>
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+			<li>AG_Bodies</li>
+			<li>Bodies</li>
+			<li>Body</li>
+		</exclusionTags>
+		<displayOrderInCategory>106</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>coal</symbol>
+				</li>
+				<li>
+					<symbol>void</symbol>
+				</li>
+				<li>
+					<symbol>pitch</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<forcedHeadTypes>
+			<li>AG_Female_TrueBlack_Average_Normal</li>
+			<li>AG_Female_TrueBlack_Average_Pointy</li>
+			<li>AG_Female_TrueBlack_Average_Wide</li>
+			<li>AG_Female_TrueBlack_Narrow_Normal</li>
+			<li>AG_Female_TrueBlack_Narrow_Pointy</li>
+			<li>AG_Female_TrueBlack_Narrow_Wide</li>
+			<li>AG_Male_TrueBlack_Average_Normal</li>
+			<li>AG_Male_TrueBlack_Average_Pointy</li>
+			<li>AG_Male_TrueBlack_Average_Wide</li>
+			<li>AG_Male_TrueBlack_Narrow_Normal</li>
+			<li>AG_Male_TrueBlack_Narrow_Pointy</li>
+			<li>AG_Male_TrueBlack_Narrow_Wide</li>
 			
 		</forcedHeadTypes>
 		<modExtensions>

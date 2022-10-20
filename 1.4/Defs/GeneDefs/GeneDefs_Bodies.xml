@@ -110,6 +110,35 @@
 	</GeneDef>
 	
 	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_MimeBody</defName>
+		<label>mime body</label>
+		<labelShortAdj>mime-like</labelShortAdj>
+		<description>Carriers of this gene have emaciated, ash black skin. Their torsos are caved in, and sickly looking bones protrude from the thoracic cavity.</description>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>430</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_MimeBody</iconPath>
+
+		<skinColorOverride>(255, 255, 255)</skinColorOverride>
+
+		
+		<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
+		<graphicData>
+			<fur>AG_MimeBody</fur>
+
+			<tattoosVisible>false</tattoosVisible>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_ScalyBody</defName>
 		<label>scaly body</label>
 		<labelShortAdj>scaled</labelShortAdj>

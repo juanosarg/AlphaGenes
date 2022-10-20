@@ -29,7 +29,19 @@
     </bodyTypeGraphicPaths>
   </FurDef>
   
-  
+   <FurDef>
+    <defName>AG_TrueBlackBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
   
     <FurDef>
     <defName>AG_SilverBody</defName>
@@ -42,6 +54,20 @@
       <Thin>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Thin>
       <Child>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Child>
       <Baby>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+   <FurDef>
+    <defName>AG_MimeBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Thin</Baby><!-- Always covered by swaddled graphic -->
     </bodyTypeGraphicPaths>
   </FurDef>
 

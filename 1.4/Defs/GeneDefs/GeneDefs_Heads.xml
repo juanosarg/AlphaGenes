@@ -156,4 +156,38 @@
 		</modExtensions>
 		
 	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_MimeHead</defName>
+		<label>mime head</label>
+		
+		<description>Carriers of this gene possess a sickly looking visage with inhuman, sunken black eyes, a distended jaw and inky black skin.</description>
+		<selectionWeight>0</selectionWeight>
+		<iconPath>UI/Icons/Genes/AG_MimeHead</iconPath>
+		
+		<forcedHeadTypes>
+			<li>AG_Mime_Normal</li>
+						
+		</forcedHeadTypes>
+		<skinColorOverride>(255, 255, 255)</skinColorOverride>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
 </Defs>

@@ -32,6 +32,20 @@
 		<selectionWeight>1</selectionWeight>
 	</HeadTypeDef>
 	
+	<!-- Mime -->
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_Mime_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Mime/AG_Male_Mime_Average_Normal</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>AG_MimeHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	
+	
 	<!-- Eyeless -->
 	
 	<HeadTypeDef Name="AG_EyelessAverageBase" ParentName="AverageBase" Abstract="True">
@@ -302,6 +316,76 @@
 	<HeadTypeDef ParentName="AG_GoldenAverageBase">
 		<defName>AG_Male_Golden_Narrow_Wide</defName>
 		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Silver/AG_Male_Silver_Narrow_Wide</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	
+	<!-- True Black -->
+	
+	<HeadTypeDef Name="AG_TrueBlackAverageBase" ParentName="AverageBase" Abstract="True">
+		<selectionWeight>100000</selectionWeight>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>AG_Skin_TrueBlack</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Female_TrueBlack_Average_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Female_TrueBlack_Average_Normal</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Female_TrueBlack_Average_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Female_TrueBlack_Average_Pointy</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Female_TrueBlack_Average_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Female_TrueBlack_Average_Wide</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Female_TrueBlack_Narrow_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Female_TrueBlack_Narrow_Normal</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Female_TrueBlack_Narrow_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Female_TrueBlack_Narrow_Pointy</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Female_TrueBlack_Narrow_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Female_TrueBlack_Narrow_Wide</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Male_TrueBlack_Average_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Male_TrueBlack_Average_Normal</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Male_TrueBlack_Average_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Male_TrueBlack_Average_Pointy</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Male_TrueBlack_Average_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Male_TrueBlack_Average_Wide</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Male_TrueBlack_Narrow_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Male_TrueBlack_Narrow_Normal</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Male_TrueBlack_Narrow_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Male_TrueBlack_Narrow_Pointy</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_TrueBlackAverageBase">
+		<defName>AG_Male_TrueBlack_Narrow_Wide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Male_TrueBlack_Narrow_Wide</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
 </Defs>
