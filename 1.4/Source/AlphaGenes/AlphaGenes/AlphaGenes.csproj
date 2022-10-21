@@ -308,6 +308,8 @@
     <Compile Include="Comps\CompTargetableHuman.cs" />
     <Compile Include="Comps\CompTargetEffect_RemoveGene.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
+    <Compile Include="GeneResource\Gene_Resource_Metal.cs" />
+    <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
@@ -334,5 +336,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
