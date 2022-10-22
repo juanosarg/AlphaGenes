@@ -310,6 +310,8 @@
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="GeneResource\Gene_Resource_Metal.cs" />
     <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />
+    <Compile Include="Harmony\HediffComp_PregnantHuman_CompTipStringExtra.cs" />
+    <Compile Include="Harmony\PawnUtility_BodyResourceGrowthSpeed.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />

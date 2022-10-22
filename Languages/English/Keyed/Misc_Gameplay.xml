@@ -6,4 +6,7 @@
 	<AG_QuestRateTooltip>The frequency of the abandoned biotech lab quest being offered is multiplied by this number (with a multiplier of 1, it is offered every between 15 and 30 days at random). Numbers below 1 decrease the time, while numbers above it increase it. Note that this event doesn't "replace" normal quests, it works independently.</AG_QuestRateTooltip>
 	<AG_Reset>Reset</AG_Reset>
 	<AG_RandomGenesGained>Unstable mutation gained by {0}: {1}</AG_RandomGenesGained>
+	
+	<AG_PregnancySlower>Slow gestation gene: -25% gestation speed</AG_PregnancySlower>
+	<AG_PregnancyFaster>Fast gestation gene: +25% gestation speed</AG_PregnancyFaster>
 </LanguageData>
