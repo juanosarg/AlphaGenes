@@ -11,10 +11,15 @@ namespace AlphaGenes
     {
 		public GeneGizmo_Resource_Metal(Gene_Resource gene, List<IGeneResourceDrain> drainGenes, Color barColor, Color barhighlightColor) : base(gene, drainGenes, barColor, barhighlightColor)
         {
-
+			draggableBar = true;
         }
-		//This is pretty much just a copy paste from ResourceHemogen. Will need to be changed and quite possibly will need its own gizmo on ui
-		protected override string GetTooltip()
+        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms parms)
+        {
+			GizmoResult result = base.GizmoOnGUI(topLeft, maxWidth, parms);
+			return result;
+        }
+        //This is pretty much just a copy paste from ResourceHemogen. Will need to be changed and quite possibly will need its own gizmo on ui
+        protected override string GetTooltip()
         {
 			tmpDrainGenes.Clear();
             string text = string.Format("{0}: {1} / {2}\n", gene.ResourceLabel.CapitalizeFirst().Colorize(ColoredText.TipSectionTitleColor), gene.ValueForDisplay, gene.MaxForDisplay);

@@ -14,8 +14,8 @@
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>false</DebugSymbols>
-    <DebugType>none</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>..\..\..\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -296,7 +296,9 @@
   <ItemGroup>
     <Compile Include="Abilities\CompGiveHediff.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_ConsumeMetal.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_UseGeneRemover.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_GetMetalicResource.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBank.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBankMixed.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomItemSpawner.cs" />
@@ -313,10 +315,14 @@
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="HediffComps\HediffComp_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\HediffComp_RandomMutation.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RandomMutation.cs" />
+    <Compile Include="Hediff\Hediff_MineralCraving.cs" />
+    <Compile Include="Hediff\Hediff_MineralFueled.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowSpawnerRadius.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings\AlphaGenes_Settings.cs" />

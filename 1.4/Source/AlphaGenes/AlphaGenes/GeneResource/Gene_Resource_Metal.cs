@@ -8,23 +8,49 @@ using Verse.AI;
 
 namespace AlphaGenes
 {
+    //**Idea writing down to consider more later
+    //Gizmo can also set preffered metal better the metal, gives mood buff akin to Normal/Fine/Lavish. 
+    
     public class Gene_Resource_Metal : Gene_Resource, IGeneResourceDrain
     {
         public Gene_Resource Resource => this;
 
-        public bool CanOffset => !pawn.Suspended;
+        //Caravan is going to be a massive fucking headache so I'm going to handwave it to say its easy enough to forage metal to sustain themselves while traveling XD
+        public bool CanOffset => pawn.Spawned;
 
         public float ResourceLossPerDay => def.resourceLossPerDay;
 
         public Pawn Pawn => pawn;
 
         public string DisplayLabel => def.resourceLabel;
-
+        private int lastConsumed;
         public override float InitialResourceMax => 1f;
 
         public override float MinLevelForAlert => 0.15f;
-
+        
         public override float MaxLevelOffset => base.MaxLevelOffset;
+        public bool ShouldConsumeNow()
+        {
+            if(Value <= 0.15f && Value<= targetValue )
+            {
+                return true;
+            }
+            else if (Value<= targetValue && Find.TickManager.TicksGame - lastConsumed == 60000) //So it doesnt constantly try to consume ***find a better way I dont like this 
+            {
+                return true;
+            }
+            return false;
+        }
+        //I dont like this because mass is granular enough that they will eat pretty much exactly enough to get to targetvalue which would make them immediatly to eat again
+        //Last consumed helps a bit but its still not ideal I made it so they wont try to eat more then once a day but that could sort've still be awkward. Though I do want to make it possible to be able to tell a pawn to eat X so that might resolve issues
+        public float MassDesired
+        {
+            get
+            {
+                float diff  = targetValue - Value;
+                return diff * 10f; //*10 for mass
+            }
+        }
 
         public override void Tick()
         {
@@ -39,53 +65,65 @@ namespace AlphaGenes
                 if(before>0f && Value <= 0f)
                 {
                     //Add hediff here
+                    if (!pawn.health.hediffSet.HasHediff(InternalDefOf.AG_MineralCraving))
+                    {
+                        pawn.health.AddHediff(InternalDefOf.AG_MineralCraving);
+                    }
                 }
             }
         }
 
+        public static float GetResourceRestore(Thing thing)
+        {
+            float mass = 0f;
+            //whacky idea but it would be amusing if they could eat forged/crafted metal objects as well
+            if (!thing.def.IsStuff)
+            {
+                if (thing.Stuff?.IsMetal ?? false)
+                {
+                    mass += thing.Stuff.statBases.First(x => x.stat == StatDefOf.Mass).value * thing.def.CostStuffCount;
+                }
+                else if(thing.def.CostList != null)
+                {
+                    foreach (var resource in thing.def.CostList)
+                    {
+                        if (resource.thingDef.IsMetal)
+                        {         
+                            mass += resource.thingDef.statBases.First(x => x.stat == StatDefOf.Mass).value * resource.count;
+                        }
+                    }
+                }
+                else
+                {
+                    return 0f;
+                }
+            }
+            else if (thing.def.IsMetal)
+            {
+                mass = thing.def.statBases.First(x => x.stat == StatDefOf.Mass).value;
+            }
+            else { return 0; }
+            float resourceRestore = mass / 10;//dividing by 10 so 1 steel is 0.05 "nutrition"
+            return resourceRestore;
+        }
         //Dont know what color codes to use
-        protected override Color BarColor =>new ColorInt(145, 42, 42).ToColor;
+        protected override Color BarColor => Color.grey;
 
-        protected override Color BarHighlightColor => new ColorInt(145, 42, 42).ToColor;
+        protected override Color BarHighlightColor => Color.white;
 
         //This would only work with things that are already ingestible so for something like metal that is not ingestible it has to be called via its own Jobdrivers//have the resource offset be done directly in that jobgiver
         //putting it here as it can be call by every giver
         //For now making the amount restored based on mass. Will 100% need to be tweaks and might need to be a different stat
         public override void Notify_IngestedThing(Thing thing, int numTaken)
         {
-            ThingDef metalDef = null;
-            int count = numTaken;
-            //whacky idea but it would be amusing if they could eat forged/crafted metal objects as well
-            if (!thing.def.IsStuff)
-            {
-                if(thing.Stuff?.IsMetal ?? false)
-                {
-                    metalDef = thing.Stuff;
-                    count = thing.def.CostStuffCount;
-                }
-                else
-                {
-                    foreach (var resource in thing.def.CostList)
-                    {
-                        if (resource.thingDef.IsMetal && resource.count >= count) //Just taking what ever is the most abundant metal
-                        {
-                            count = resource.count;
-                            metalDef = resource.thingDef;
-                        }
-                    }
-                }
-            }
-            else
-            {
-                metalDef = thing.def;
-            }
-            //No null check here should be confirmed before the job is even created
-            float resourceRestore = metalDef.statBases.First(x => x.stat == StatDefOf.Mass).value /10;//dividing by 10 so 1 steel is 0.05 "nutrition"
-            resourceRestore *= count;
+            
+            float resourceRestore = GetResourceRestore(thing) * numTaken;
             Value += resourceRestore;
-            //Hemogen has a stat factor to change how much is gained. Not going to add one right now as it would depend on implementation of gene
-            //GeneResourceDrainUtility.OffsetResource(this, resourceRestore); //**This utility is not useful I dont think. theres some weirdness with Gene_HemogenDrain vs Gene_Hemogen that I dont quite understand. I think HemogenDrain is just where the hediff is added for not having enough. Which is kind of weird but either way all this utility does is do what I'm doing then calls something that adds specifically the hemogen drain hediff with no additional options
-            //This also means adding a hediff/doing things based on the tick resource drain is a bit of a pain, or rather just has to be handled in this tick
+            if(Value > 0f)
+            {
+                lastConsumed = Find.TickManager.TicksGame;
+            }            
+
         }
         public override IEnumerable<Gizmo> GetGizmos()
         {
@@ -98,6 +136,16 @@ namespace AlphaGenes
                 yield return gizmo;
             }
             yield break;
+        }
+        public override void PostAdd()
+        {
+            base.PostAdd();
+            pawn.health.AddHediff(InternalDefOf.AG_MineralFueled);
+        }
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look(ref lastConsumed, "lastConsumed");
         }
     }
 }
