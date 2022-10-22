@@ -137,5 +137,49 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_FastGestation</defName>
+		<label>fast gestation</label>
+		<exclusionTags>
+			<li>AG_Gestation</li>
+		</exclusionTags>
+		<description>Carriers of this gene will have shorter gestation periods by 25%.</description>
+		<iconPath>UI/Icons/Genes/AG_FastGestation</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>115</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_SlowGestation</defName>
+		<label>slow gestation</label>
+		<exclusionTags>
+			<li>AG_Gestation</li>
+		</exclusionTags>
+		<description>Carriers of this gene will have longer gestation periods by 25%.</description>
+		<iconPath>UI/Icons/Genes/AG_SlowGestation</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>115</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
 </Defs>

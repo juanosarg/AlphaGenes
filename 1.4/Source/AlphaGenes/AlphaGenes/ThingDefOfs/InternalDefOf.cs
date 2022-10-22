@@ -19,6 +19,8 @@ namespace AlphaGenes
 		public static GeneDef AG_BrittleBones;
 		public static GeneDef AG_UnsettlingAppearance;
 		public static GeneDef AG_LungRotStrength;
+		public static GeneDef AG_FastGestation;
+		public static GeneDef AG_SlowGestation;
 
 		public static HediffDef AG_LungRotStrengthHediff;
 		public static HediffDef AG_GeneRemovalComa;
