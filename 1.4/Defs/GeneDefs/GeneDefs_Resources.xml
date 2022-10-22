@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	
+	<GeneDef>
+		<defName>AG_MetalEater</defName>
+		<label>mineral absorber</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>Carriers of this gene have a reserve of metalurgic strength that replaces their need to eat traditional food with metals from the ground. Having their needs last much longer \n\nCarriers lose 25% of their minerals to their metabolism per day </description>
+		<iconPath>UI/Icons/Genes/AG_Fogger</iconPath>
+		<resourceLabel>minerals</resourceLabel>
+		<biostatCpx>3</biostatCpx>
+		<geneClass>AlphaGenes.Gene_Resource_Metal</geneClass>
+		<resourceGizmoType>AlphaGenes.GeneGizmo_Resource_Metal</resourceGizmoType>
+		<resourceGizmoThresholds>
+		  <li>0.25</li>
+		  <li>0.5</li>
+		  <li>0.75</li>
+		</resourceGizmoThresholds>
+		<showGizmoOnWorldView>true</showGizmoOnWorldView>
+		<resourceDescription>A mineral energy reseve used directly by {PAWN_nameDef} to not grow hungry</resourceDescription>
+		<resourceLossPerDay>0.25</resourceLossPerDay>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>metal</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+
+	
+	
+
+
+
+
+</Defs>

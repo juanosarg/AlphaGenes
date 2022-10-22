@@ -16,6 +16,7 @@ namespace AlphaGenes
 		//This is pretty much just a copy paste from ResourceHemogen. Will need to be changed and quite possibly will need its own gizmo on ui
 		protected override string GetTooltip()
         {
+			tmpDrainGenes.Clear();
             string text = string.Format("{0}: {1} / {2}\n", gene.ResourceLabel.CapitalizeFirst().Colorize(ColoredText.TipSectionTitleColor), gene.ValueForDisplay, gene.MaxForDisplay);
 			if (!this.drainGenes.NullOrEmpty<IGeneResourceDrain>())
 			{

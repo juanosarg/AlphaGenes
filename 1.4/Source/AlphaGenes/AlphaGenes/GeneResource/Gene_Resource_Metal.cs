@@ -44,9 +44,9 @@ namespace AlphaGenes
         }
 
         //Dont know what color codes to use
-        protected override Color BarColor => throw new NotImplementedException();
+        protected override Color BarColor =>new ColorInt(145, 42, 42).ToColor;
 
-        protected override Color BarHighlightColor => throw new NotImplementedException();
+        protected override Color BarHighlightColor => new ColorInt(145, 42, 42).ToColor;
 
         //This would only work with things that are already ingestible so for something like metal that is not ingestible it has to be called via its own Jobdrivers//have the resource offset be done directly in that jobgiver
         //putting it here as it can be call by every giver
