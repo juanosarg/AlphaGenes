@@ -27,6 +27,37 @@
 		</comps>
 	</HediffDef>
 	
+	<HediffDef>
+		<defName>AG_ChainsawHands</defName>
+		<label>chainsaw hand</label>
+		<description>It's a chainsaw. For hand. It's not a difficult concept to grasp, to be honest.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>chainsaw</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>26</power>
+						<cooldownTime>2</cooldownTime>
+
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+     
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+
+	</HediffDef>
+
+	
 	
 	
 </Defs>
