@@ -156,7 +156,7 @@
 		</modExtensions>
 		
 	</GeneDef>
-	<GeneDef ParentName="AG_GeneHeadBase">
+	<!--<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_MimeHead</defName>
 		<label>mime head</label>
 		
@@ -166,6 +166,8 @@
 		
 		<forcedHeadTypes>
 			<li>AG_Mime_Normal</li>
+			<li>AG_Mime_Pointy</li>
+			<li>AG_Mime_Narrow</li>
 						
 		</forcedHeadTypes>
 		<skinColorOverride>(255, 255, 255)</skinColorOverride>
@@ -189,5 +191,5 @@
 			</li>
 		</modExtensions>
 		
-	</GeneDef>
+	</GeneDef>-->
 </Defs>

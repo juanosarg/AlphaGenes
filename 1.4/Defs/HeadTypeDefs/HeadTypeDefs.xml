@@ -34,16 +34,32 @@
 	
 	<!-- Mime -->
 	
-	<HeadTypeDef ParentName="AverageBase">
-		<defName>AG_Mime_Normal</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Mime/AG_Male_Mime_Average_Normal</graphicPath>
+<!--	<HeadTypeDef Name="AG_MimeAverageBase" ParentName="AverageBase" Abstract="True">
+		<selectionWeight>100000</selectionWeight>
 		<randomChosen>false</randomChosen>
 		<gender>None</gender>
 		<requiredGenes>
 			<li>AG_MimeHead</li>
 		</requiredGenes>
-		<selectionWeight>1</selectionWeight>
 	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_MimeAverageBase">
+		<defName>AG_Mime_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Mime/AG_Male_Mime_Average_Normal</graphicPath>
+		
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_MimeAverageBase">
+		<defName>AG_Mime_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Mime/AG_Male_Mime_Average_Pointy</graphicPath>
+		
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_MimeAverageBase">
+		<defName>AG_Mime_Narrow</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Mime/AG_Male_Mime_Narrow_Normal</graphicPath>
+		
+	</HeadTypeDef>
+	-->
+	
+	
 	
 	
 	<!-- Eyeless -->

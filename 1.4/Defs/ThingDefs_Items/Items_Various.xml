@@ -110,6 +110,58 @@
 			</li>
 		</comps>
 	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_Endogenefier</defName>
+		<label>endogenefier</label>
+		<description>A genetic toolkit capable of converting a random endogene from a human target into a xenogene. As a result, the target will drop into a coma for a few days. Using the remover on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_Endogenefier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGeneRemover</useJob>
+				<useLabel>Use endogenefier</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>	
+			<li Class="AlphaGenes.CompProperties_TargetEffect_Endogenefier">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_Xenogenefier</defName>
+		<label>xenogenefier</label>
+		<description>A genetic toolkit capable of converting a random xenogene from a human target into a endogene. As a result, the target will drop into a coma for a few days. Using the remover on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_Xenogenefier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGeneRemover</useJob>
+				<useLabel>Use xenogenefier</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>	
+			<li Class="AlphaGenes.CompProperties_TargetEffect_Xenogenefier">
+				
+			</li>
+		</comps>
+	</ThingDef>
 
   
 

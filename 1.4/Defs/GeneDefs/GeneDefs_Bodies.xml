@@ -109,7 +109,7 @@
 		</modExtensions>
 	</GeneDef>
 	
-	<GeneDef ParentName="AG_BodyBase">
+	<!--<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_MimeBody</defName>
 		<label>mime body</label>
 		<labelShortAdj>mime-like</labelShortAdj>
@@ -136,7 +136,7 @@
 				<useSkinColorForFur>true</useSkinColorForFur>
 			</li>
 		</modExtensions>
-	</GeneDef>
+	</GeneDef>-->
 	
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_ScalyBody</defName>

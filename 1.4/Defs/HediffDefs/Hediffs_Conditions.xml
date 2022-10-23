@@ -4,8 +4,8 @@
  
   <HediffDef>
     <defName>AG_GeneRemovalComa</defName>
-    <label>gene removal coma</label>
-    <description>A gene was forcefully removed from this person. This is greatly taxing on the organism and it will put them into a coma for at least 15 days.</description>
+    <label>gene tampering coma</label>
+    <description>The genes of this person were artificailly tampered with. This is greatly taxing on the organism and it will put them into a coma for at least 15 days.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <initialSeverity>0.001</initialSeverity>
     <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>

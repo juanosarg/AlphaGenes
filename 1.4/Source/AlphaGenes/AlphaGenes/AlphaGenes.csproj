@@ -308,11 +308,15 @@
     <Compile Include="Comps\CompProperties\CompProperties_RandomItemSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomRaidSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetableHuman.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_Xenogenefier.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_Endogenefier.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_RemoveGene.cs" />
     <Compile Include="Comps\CompRandomItemSpawner.cs" />
     <Compile Include="Comps\CompRandomRaidSpawner.cs" />
     <Compile Include="Comps\CompTargetableHuman.cs" />
+    <Compile Include="Comps\CompTargetEffect_Endogenefier.cs" />
     <Compile Include="Comps\CompTargetEffect_RemoveGene.cs" />
+    <Compile Include="Comps\CompTargetEffect_Xenogenefier.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="GeneResource\Gene_Resource_Metal.cs" />
     <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />
