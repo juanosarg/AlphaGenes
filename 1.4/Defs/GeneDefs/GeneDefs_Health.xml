@@ -181,5 +181,33 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_Deaf</defName>
+		<label>deaf</label>
+		
+		<description>Carriers of this gene have a complete lack of hearing.</description>
+		<iconPath>UI/Icons/Genes/AG_Deaf</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>116</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_Deafness</hediff>
+						<bodyparts>
+							<li>Ear</li>
+							<li>Ear</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
 </Defs>
