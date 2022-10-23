@@ -21,6 +21,7 @@ namespace AlphaGenes
 		public static GeneDef AG_LungRotStrength;
 		public static GeneDef AG_FastGestation;
 		public static GeneDef AG_SlowGestation;
+		public static GeneDef AG_MetalEater;
 
 		public static HediffDef AG_LungRotStrengthHediff;
 		public static HediffDef AG_GeneRemovalComa;
@@ -31,6 +32,7 @@ namespace AlphaGenes
 		public static RulePackDef AG_NamerMixedpack;
 
 		public static JobDef AG_ConsumeMetal;
+		public static JobDef AG_FeedMetal;
 		static InternalDefOf()
 		{
 			DefOfHelper.EnsureInitializedInCtor(typeof(InternalDefOf));

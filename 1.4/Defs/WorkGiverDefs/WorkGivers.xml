@@ -29,7 +29,32 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
-
-
+  
+   <WorkGiverDef>
+    <defName>AG_AdministerMetal</defName>
+    <label>administer metal</label>
+    <giverClass>AlphaGenes.WorkGiver_AdministerMetal</giverClass>
+    <workType>Doctor</workType>
+    <verb>feed</verb>
+    <gerund>feeding</gerund>
+    <priorityInType>80</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+	<feedHumanlikesOnly>true</feedHumanlikesOnly>
+	<canBeDoneByMechs>true</canBeDoneByMechs>
+  </WorkGiverDef>
+   <WorkGiverDef>
+    <defName>AG_Warden_DeliverMetal</defName>
+    <label>deliver metal</label>
+    <giverClass>AlphaGenes.WorkGiver_Warden_DeliverMetal</giverClass>
+    <workType>Warden</workType>
+    <verb>deliver food for</verb>
+    <gerund>delivering food for</gerund>
+    <priorityInType>70</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
 
 </Defs>

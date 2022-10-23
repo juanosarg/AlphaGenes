@@ -6,5 +6,10 @@
 		<reportString>consuming TargetA.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
-	
+	<JobDef>
+		<defName>AG_FeedMetal</defName>
+		<driverClass>AlphaGenes.JobDriver_FeedPatient</driverClass>
+		<reportString>feeding TargetB.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
 </Defs>

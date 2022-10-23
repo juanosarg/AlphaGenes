@@ -37,25 +37,26 @@ namespace AlphaGenes
             job.count = count;
             return job;
         }
-        private Thing GetMetalsForMass(Pawn pawn, float mass, out int count)
+        public static Thing GetMetalsForMass(Pawn pawn, float mass, out int count)
         {
             //Issue with this is its only things in stockpile. If it becomes an issue and performance is not a concern swap to a listerthing haulable
             count = 0;
-            var metalsCount = pawn.Map.resourceCounter.AllCountedAmounts.Where(x => x.Key.IsMetal);
+            //Due to variance in how this is used making it based on haulable. Hopefully perfomence doesn't get murdered
+            var metalsCount = pawn.Map.listerThings.ThingsInGroup(ThingRequestGroup.HaulableAlways).Where(x => x.def.IsMetal);
             if (!metalsCount.Any()) return null;
             float mvForMass = 99999f;            
             ThingDef candidate = null;
             //Choose the cheapest metals
-            foreach(var kvp in metalsCount)
+            foreach(var thing in metalsCount)
             {
-                var tmpMass = kvp.Key.statBases.First(x => x.stat == StatDefOf.Mass).value;
-                if (tmpMass * kvp.Value >= mass)
+                var tmpMass = thing.def.statBases.First(x => x.stat == StatDefOf.Mass).value;
+                if (tmpMass * thing.stackCount >= mass)
                 {
-                    int tmpCount = Mathf.CeilToInt(mass / tmpMass);
-                    var tmpMV = kvp.Key.statBases.First(x => x.stat == StatDefOf.MarketValue).value * tmpCount;
+                    int tmpCount = Mathf.CeilToInt(mass / tmpMass)+1;
+                    var tmpMV = thing.def.statBases.First(x => x.stat == StatDefOf.MarketValue).value * tmpCount;
                     if(tmpMV < mvForMass )
                     {
-                        candidate = kvp.Key;
+                        candidate = thing.def;
                         mvForMass = tmpMV;
                         count=tmpCount;
                     }
