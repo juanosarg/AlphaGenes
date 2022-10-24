@@ -35,7 +35,7 @@ namespace AlphaGenes
             {
                 return true;
             }
-            else if (Value<= targetValue && Find.TickManager.TicksGame - lastConsumed == 60000) //So it doesnt constantly try to consume ***find a better way I dont like this 
+            else if (Value<= targetValue && Find.TickManager.TicksGame - lastConsumed >= 30000) 
             {
                 return true;
             }

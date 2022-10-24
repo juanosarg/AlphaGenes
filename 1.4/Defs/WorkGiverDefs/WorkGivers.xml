@@ -45,6 +45,18 @@
 	<canBeDoneByMechs>true</canBeDoneByMechs>
   </WorkGiverDef>
    <WorkGiverDef>
+    <defName>AG_ForceEatMetal</defName>
+    <label>eat metal</label>
+    <giverClass>AlphaGenes.WorkGiver_ForceEatMetal</giverClass>
+    <workType>BasicWorker</workType>
+    <verb>eat</verb>
+    <gerund>eating</gerund>
+    <priorityInType>40</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+   <WorkGiverDef>
     <defName>AG_Warden_DeliverMetal</defName>
     <label>deliver metal</label>
     <giverClass>AlphaGenes.WorkGiver_Warden_DeliverMetal</giverClass>

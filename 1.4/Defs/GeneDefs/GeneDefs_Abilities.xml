@@ -32,7 +32,34 @@
 	</GeneDef>
 
 
-
+	<GeneDef>
+		<defName>AG_ReactiveArmour</defName>
+		<label>reactive armour</label>
+		<description>Carriers of this gene can activate their mineral reserves to harden their skin against sharp and piercing attacks. To keep this armour active consumes minerals both passively and whenever hit by an attack. The strength of this resistance is based on the mineral reserve of the carrier.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<prerequisite>AG_MetalEater</prerequisite>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_ReactiveArmourA</li>
+		</abilities>
+		<exclusionTags>
+			<li>AG_Armour</li>
+			<li>Armour</li>
+			<li>Armor</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_ReactiveArmourA</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-2</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 
 

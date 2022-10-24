@@ -75,5 +75,48 @@
       </li>
     </stages>
  </HediffDef>
+   <HediffDef>
+    <defName>AG_ReactiveArmourHediff</defName>
+    <label>reactive armour</label>
+    <description>Their minerals are hardening their skin against attacks by how strong their mineral reserves are.</description>
+    <hediffClass>AlphaGenes.Hediff_ReactiveArmour</hediffClass>
+    <defaultLabelColor>(1, 0.2, 0.2)</defaultLabelColor>
+    <initialSeverity>0.00</initialSeverity>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <label>minimal armour</label>
+			<statOffsets>
+				<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			</statOffsets>
+		<minSeverity>0</minSeverity>
+      </li>
+      <li>
+        <label>wavering armour</label>
+			<statOffsets>
+				<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			</statOffsets>
+		<minSeverity>0.20</minSeverity>
+      </li>
+      <li>
+        <label>hardened armour</label>
+			<statOffsets>
+				<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			</statOffsets>
+		<minSeverity>0.60</minSeverity>
+      </li>
+      <li>
+        <label>impenetrable armour</label>
+			<statOffsets>
+				<ArmorRating_Blunt>1.20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			</statOffsets>
+		<minSeverity>0.90</minSeverity>
+      </li>
+    </stages>
+ </HediffDef>
  
 </Defs>

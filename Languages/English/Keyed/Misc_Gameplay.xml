@@ -9,4 +9,6 @@
 	
 	<AG_PregnancySlower>Slow gestation gene: -25% gestation speed</AG_PregnancySlower>
 	<AG_PregnancyFaster>Fast gestation gene: +25% gestation speed</AG_PregnancyFaster>
+	<AG_ReativeArmourOn>Enable armour</AG_ReativeArmourOn>
+	<AG_ReativeArmourOff>Disable armour</AG_ReativeArmourOff>
 </LanguageData>

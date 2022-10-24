@@ -64,6 +64,14 @@
 		</comps>
 
 	</AbilityDef>
-
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_ReactiveArmourA</defName>
+		<label>reactive armour</label>
+		<abilityClass>AlphaGenes.Ability_ReactiveArmour</abilityClass>		
+		<description>Consumes minerals to harden the users body against piercing and sharp attacks.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<cooldownTicksRange>300</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+	</AbilityDef>
 
 </Defs>
