@@ -12,4 +12,8 @@
 		<defName>AG_PolarBear</defName>
 		<root Class="AlphaGenes.ThingSetMaker_PolarBear"/>
 	</ThingSetMakerDef>
+	<ThingSetMakerDef>
+		<defName>AG_Steel</defName>
+		<root Class="AlphaGenes.ThingSetMaker_Steel"/>
+	</ThingSetMakerDef>
 </Defs>

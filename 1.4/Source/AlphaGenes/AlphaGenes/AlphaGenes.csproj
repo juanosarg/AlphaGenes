@@ -349,6 +349,7 @@
     <Compile Include="Settings\AlphaGenes_SettingsController.cs" />
     <Compile Include="Settings\SettingsHelper.cs" />
     <Compile Include="ThingDefOfs\InternalDefOf.cs" />
+    <Compile Include="ThingSetMakers\ThingSetMaker_Steel.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Ave.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_OcularJelly.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Needleroll.cs" />
