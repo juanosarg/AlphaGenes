@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef>
+		<defName>AG_FastGestation</defName>
+		<label>fast gestation</label>
+		<exclusionTags>
+			<li>AG_Gestation</li>
+		</exclusionTags>
+		<description>Carriers of this gene will have shorter gestation periods by 25%.</description>
+		<iconPath>UI/Icons/Genes/AG_FastGestation</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>115</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_SlowGestation</defName>
+		<label>slow gestation</label>
+		<exclusionTags>
+			<li>AG_Gestation</li>
+		</exclusionTags>
+		<description>Carriers of this gene will have longer gestation periods by 25%.</description>
+		<iconPath>UI/Icons/Genes/AG_SlowGestation</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>115.1</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_EggLaying</defName>
+		<label>egg laying</label>
+		
+		<description>Carriers of this gene will reproduce oviparously, which is as disgusting as it sounds. This has its advantages and disadvantages.</description>
+		<iconPath>UI/Icons/Genes/AG_EggLaying</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<exclusionTags>
+			<li>Egglaying</li>
+			<li>AG_Egglaying</li>
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Mother won't be subject to pregnancy moods, morning sickness, etc.</li>
+			<li>Once laid, the egg will be vulnerable until hatching. Can be eaten by predators or hungry, hungry colonists (yummy!).</li>
+			<li>The whole process takes longer (24 days total).</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>115.2</displayOrderInCategory>
+		<biostatMet>-3</biostatMet>
+		<biostatCpx>3</biostatCpx>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_HumanEggLaying</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+</Defs>

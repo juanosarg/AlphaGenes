@@ -19,4 +19,23 @@
 		</comps>
 	</HediffDef>
 	
+	<HediffDef>
+		<defName>AG_HumanEggLaying</defName>
+		<label>oviparous</label>
+		<description>Females with this gene will periodically lay eggs when fertilized.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VanillaGenesExpanded.HediffCompProperties_HumanEggLayer">
+				 <eggFertilizedDef>AG_HumanEgg</eggFertilizedDef>
+				<eggLayIntervalDays>9</eggLayIntervalDays>
+				
+				<eggLayFemaleOnly>true</eggLayFemaleOnly>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+			</li>
+		</comps>
+	</HediffDef>
+	
 </Defs>

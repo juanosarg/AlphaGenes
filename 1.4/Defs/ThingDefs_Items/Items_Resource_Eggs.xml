@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+	<!-- =============== Human Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AG_HumanEgg</defName>
+		<label>human egg (fert.)</label>
+		<description>Fertilized human egg. If all goes well, it should hatch into a human. It can be eaten raw, but it's much better cooked, you monster.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_HumanEgg</texPath>			
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>45</MarketValue>
+		</statBases>		
+		<comps>
+			<li Class="VanillaGenesExpanded.CompProperties_HumanHatcher">
+				<hatcherDaystoHatch>15</hatcherDaystoHatch>
+				
+			</li>
+		</comps>
+	</ThingDef>
+
+	
+
+
+</Defs>
