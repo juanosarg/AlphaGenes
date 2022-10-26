@@ -11,4 +11,7 @@
 	<AG_PregnancyFaster>Fast gestation gene: +25% gestation speed</AG_PregnancyFaster>
 	<AG_ReativeArmourOn>Enable armour</AG_ReativeArmourOn>
 	<AG_ReativeArmourOff>Disable armour</AG_ReativeArmourOff>
+	<AG_AbilityMineralCost>Mineral cost</AG_AbilityMineralCost>
+	<AG_AbilityDisabledNoMineralGene>{0_labelShort} is not a mineral absorber.</AG_AbilityDisabledNoMineralGene>
+	<AG_AbilityDisabledNoMineral>{0_labelShort} does not have enough minerals.</AG_AbilityDisabledNoMineral>
 </LanguageData>

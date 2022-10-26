@@ -298,7 +298,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abilities\CompAbilityEffect_MineralCost.cs" />
     <Compile Include="Abilities\CompGiveHediff.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_AbilityMineralCost.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
     <Compile Include="Abilities\ReactiveArmour.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_DeliverMetal.cs" />

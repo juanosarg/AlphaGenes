@@ -34,6 +34,9 @@
 		</subSounds>
 	</SoundDef>
 	
+		<!-- ======================== Helixien munching ======================== -->
+
+	
 	<SoundDef>
 		<defName>AG_HelixienCorpseSound</defName>
 		<context>MapOnly</context>
@@ -43,6 +46,34 @@
 				<grains>
 					<li Class="AudioGrain_Clip">
 						<clipPath>AG_Helixien/AG_Helixien_Corpse_Squish</clipPath>
+					</li>
+				</grains>
+
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!-- ======================== Mineral shock ======================== -->
+
+	
+	<SoundDef>
+		<defName>AG_Rocks</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>AG_Rocks/AG_Rocks</clipPath>
 					</li>
 				</grains>
 

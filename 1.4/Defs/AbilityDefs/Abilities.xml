@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<AbilityDef Abstract="True" Name="AG_NoTargetAbilities">
 		<jobDef>CastAbilityOnThing</jobDef>
 		<targetRequired>False</targetRequired>
@@ -9,7 +8,6 @@
 		<showPsycastEffects>False</showPsycastEffects>
 		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
-		
 		<hotKey>Misc12</hotKey>
 		<verbProperties>
 			<verbClass>Verb_CastAbility</verbClass>
@@ -49,9 +47,8 @@
 				<canTargetBuildings>false</canTargetBuildings>
 			</targetParams>
 		</verbProperties>
-
 	</AbilityDef>
-	<AbilityDef  ParentName="AG_NoTargetAbilities">
+	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_UnstableMutation</defName>
 		<label>unstable mutation</label>
 		<description>Forces an unstable mutation on the caster's body. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
@@ -62,16 +59,36 @@
 				<hediffDef>AG_UnstableMutation</hediffDef>
 			</li>
 		</comps>
-
 	</AbilityDef>
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_ReactiveArmourA</defName>
 		<label>reactive armour</label>
-		<abilityClass>AlphaGenes.Ability_ReactiveArmour</abilityClass>		
+		<abilityClass>AlphaGenes.Ability_ReactiveArmour</abilityClass>
 		<description>Consumes minerals to harden the users body against piercing and sharp attacks.</description>
-		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<iconPath>UI/Icons/Genes/AG_ReactiveArmour</iconPath>
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 	</AbilityDef>
-
+	<AbilityDef>
+		<defName>AG_MineralShock</defName>
+		<label>mineral shock</label>
+		<description>Use the stored minerals to shoot a concentrated lump of soil. This will cause blunt trauma in the target.</description>
+		<iconPath>UI/Abilities/AG_MineralShock</iconPath>
+		<cooldownTicksRange>60</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>5.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>AG_Rocks</soundCast>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilityMineralCost">
+				<mineralCost>0.1</mineralCost>
+			</li>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>AG_Rocks</projectileDef>
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>

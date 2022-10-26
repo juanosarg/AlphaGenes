@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AG_Rocks</defName>
+		<label>mineral clump</label>
+		<graphicData>
+			<texPath>Things/Projectile/AG_Earth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>AG_RangedBlunt</damageDef>
+			<damageAmountBase>30</damageAmountBase>
+			<armorPenetrationBase>1</armorPenetrationBase>
+			<stoppingPower>2</stoppingPower>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+</Defs>

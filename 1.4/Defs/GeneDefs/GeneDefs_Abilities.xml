@@ -36,7 +36,7 @@
 		<defName>AG_ReactiveArmour</defName>
 		<label>reactive armour</label>
 		<description>Carriers of this gene can activate their mineral reserves to harden their skin against sharp and piercing attacks. To keep this armour active consumes minerals both passively and whenever hit by an attack. The strength of this resistance is based on the mineral reserve of the carrier.</description>
-		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<iconPath>UI/Icons/Genes/AG_ReactiveArmour</iconPath>
 		<prerequisite>AG_MetalEater</prerequisite>
 		<displayCategory>Ability</displayCategory>
 		<abilities>
@@ -52,6 +52,30 @@
 			<AbilityDef>AG_ReactiveArmourA</AbilityDef>
 		</descriptionHyperlinks>
 		<biostatMet>-2</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_MineralShock</defName>
+		<label>mineral shock</label>
+		<description>Carriers of this gene can use the stored minerals to shoot a concentrated lump of soil. This will cause blunt trauma in the target.</description>
+		<iconPath>UI/Abilities/AG_MineralShock</iconPath>
+		<prerequisite>AG_MetalEater</prerequisite>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_MineralShock</li>
+		</abilities>
+		
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_MineralShock</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-1</biostatMet>
 		<biostatCpx>1</biostatCpx>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

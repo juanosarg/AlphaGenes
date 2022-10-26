@@ -8,8 +8,8 @@
 		<defName>AG_MetalEater</defName>
 		<label>mineral absorber</label>
 		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
-		<description>Carriers of this gene have a reserve of metalurgic strength that replaces their need to eat traditional food with metals from the ground. Having their needs last much longer \n\nCarriers lose 25% of their minerals to their metabolism per day </description>
-		<iconPath>UI/Icons/Genes/AG_Fogger</iconPath>
+		<description>Carriers of this gene have a reserve of metalurgic strength that replaces their need to eat traditional food with metals from the ground, having their needs last much longer.\n\nCarriers lose 25% of their minerals to their metabolism per day.</description>
+		<iconPath>UI/Icons/Genes/AG_MetalEater</iconPath>
 		<resourceLabel>minerals</resourceLabel>
 		<biostatCpx>3</biostatCpx>
 		<geneClass>AlphaGenes.Gene_Resource_Metal</geneClass>
