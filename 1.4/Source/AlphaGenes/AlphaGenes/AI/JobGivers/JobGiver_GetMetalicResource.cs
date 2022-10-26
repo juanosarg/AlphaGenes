@@ -44,7 +44,9 @@ namespace AlphaGenes
             //Due to variance in how this is used making it based on haulable. Hopefully perfomence doesn't get murdered
             var metalsCount = pawn.Map.listerThings.ThingsInGroup(ThingRequestGroup.HaulableAlways).Where(x => x.def.IsMetal);
             if (!metalsCount.Any()) return null;
-            float mvForMass = 99999f;            
+            float mvForMass = 99999f;
+            bool meetsMass = false;
+            float maxMass = 0f;
             ThingDef candidate = null;
             //Choose the cheapest metals
             foreach(var thing in metalsCount)
@@ -52,6 +54,7 @@ namespace AlphaGenes
                 var tmpMass = thing.def.statBases.First(x => x.stat == StatDefOf.Mass).value;
                 if (tmpMass * thing.stackCount >= mass)
                 {
+                    meetsMass = true;
                     int tmpCount = Mathf.CeilToInt(mass / tmpMass)+1;
                     var tmpMV = thing.def.statBases.First(x => x.stat == StatDefOf.MarketValue).value * tmpCount;
                     if(tmpMV < mvForMass )
@@ -59,6 +62,14 @@ namespace AlphaGenes
                         candidate = thing.def;
                         mvForMass = tmpMV;
                         count=tmpCount;
+                    }
+                }
+                else if(!meetsMass) //So if they cant get all mass from one stack they will still eat something
+                {
+                    if(tmpMass > maxMass)
+                    {
+                        maxMass = tmpMass;
+                        candidate = thing.def;
                     }
                 }
             }

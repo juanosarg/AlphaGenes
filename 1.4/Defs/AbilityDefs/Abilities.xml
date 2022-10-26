@@ -69,6 +69,15 @@
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_MineralOverdriveA</defName>
+		<label>mineral overdrive</label>
+		<abilityClass>AlphaGenes.Ability_MineralOverdrive</abilityClass>
+		<description>Drains minerals to increase the work effiency of the user.</description>
+		<iconPath>UI/Icons/Genes/AG_ReactiveArmour</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+	</AbilityDef>
 	<AbilityDef>
 		<defName>AG_MineralShock</defName>
 		<label>mineral shock</label>

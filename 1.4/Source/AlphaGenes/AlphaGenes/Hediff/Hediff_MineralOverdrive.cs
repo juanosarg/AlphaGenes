@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace AlphaGenes
 {
-    public class Hediff_ReactiveArmour : HediffWithComps
+    public class Hediff_MineralOverdrive : HediffWithComps
     {
         public override bool ShouldRemove => gene.Value <= 0 || !ability.active;
 
@@ -41,7 +41,7 @@ namespace AlphaGenes
             }
             set => cacheGene = value;
         }
-        public Ability_ReactiveArmour ability;
+        public Ability_MineralOverdrive ability;
         private Gene_Resource_Metal cacheGene;
     }
 }

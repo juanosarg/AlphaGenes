@@ -48,6 +48,10 @@ namespace AlphaGenes
             get
             {
                 float diff  = targetValue - Value;
+                if(cachedEffiency != null)
+                {
+                    diff *= cachedEffiency.EffiencyFactor;
+                }
                 return diff * 10f; //*10 for mass
             }
         }
@@ -73,7 +77,7 @@ namespace AlphaGenes
             }
         }
 
-        public static float GetResourceRestore(Thing thing)
+        public float GetResourceRestore(Thing thing)
         {
             float mass = 0f;
             //whacky idea but it would be amusing if they could eat forged/crafted metal objects as well
@@ -103,7 +107,11 @@ namespace AlphaGenes
                 mass = thing.def.statBases.First(x => x.stat == StatDefOf.Mass).value;
             }
             else { return 0; }
-            float resourceRestore = mass / 10;//dividing by 10 so 1 steel is 0.05 "nutrition"
+            float resourceRestore = mass / 10;//dividing by 10 so 1 steel is 0.05 "nutrition"            
+            if (cachedEffiency != null)
+            {
+                resourceRestore *= cachedEffiency.EffiencyFactor;
+            }
             return resourceRestore;
         }
         //Dont know what color codes to use
@@ -137,10 +145,13 @@ namespace AlphaGenes
             }
             yield break;
         }
+        public Gene_Resource_MineralEffiency cachedEffiency;
+
         public override void PostAdd()
         {
             base.PostAdd();
             pawn.health.AddHediff(InternalDefOf.AG_MineralFueled);
+          
         }
         public override void ExposeData()
         {

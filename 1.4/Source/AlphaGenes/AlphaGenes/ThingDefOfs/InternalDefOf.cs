@@ -28,6 +28,7 @@ namespace AlphaGenes
 		public static HediffDef AG_MineralCraving;
 		public static HediffDef AG_MineralFueled;
 		public static HediffDef AG_ReactiveArmourHediff;
+		public static HediffDef AG_MineralOverdriveHediff;
 
 		public static RulePackDef AG_NamerAlphapack;
 		public static RulePackDef AG_NamerMixedpack;

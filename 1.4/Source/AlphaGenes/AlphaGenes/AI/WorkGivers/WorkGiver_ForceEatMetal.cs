@@ -27,7 +27,7 @@ namespace AlphaGenes
             if (!forced) { return false; }
             var gene = pawn.genes.GetFirstGeneOfType<Gene_Resource_Metal>();
             if (gene == null) { return false; }           
-            float nutrition = Gene_Resource_Metal.GetResourceRestore(t);
+            float nutrition = gene.GetResourceRestore(t);
             if(nutrition == 0) { return false; }
             return true;
         }
@@ -37,7 +37,7 @@ namespace AlphaGenes
             if (!forced) { return null; }
             var gene = pawn.genes.GetFirstGeneOfType<Gene_Resource_Metal>();
             if (gene == null) { return null; }            
-            float nutrition = Gene_Resource_Metal.GetResourceRestore(t);
+            float nutrition = gene.GetResourceRestore(t);
             int count = 1;
             if(t.stackCount > 1)
             {

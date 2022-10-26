@@ -16,6 +16,11 @@
 		<displayPriorityInXenotype>505.69</displayPriorityInXenotype>
 	</GeneCategoryDef>
 	<GeneCategoryDef>
+		<defName>AG_Metallic</defName>
+		<label>metallic</label>
+		<displayPriorityInXenotype>510.69</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
 		<defName>AG_Cosmetic_Horns</defName>
 		<label>cosmetic - horns</label>
 		<displayPriorityInXenotype>295.69</displayPriorityInXenotype>

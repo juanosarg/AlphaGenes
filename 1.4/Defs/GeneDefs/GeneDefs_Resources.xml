@@ -7,11 +7,12 @@
 	<GeneDef>
 		<defName>AG_MetalEater</defName>
 		<label>mineral absorber</label>
-		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<displayCategory>AG_Metallic</displayCategory>
+		<displayOrderInCategory>-2.0</displayOrderInCategory>
 		<description>Carriers of this gene have a reserve of metalurgic strength that replaces their need to eat traditional food with metals from the ground, having their needs last much longer.\n\nCarriers lose 25% of their minerals to their metabolism per day.</description>
 		<iconPath>UI/Icons/Genes/AG_MetalEater</iconPath>
 		<resourceLabel>minerals</resourceLabel>
-		<biostatCpx>3</biostatCpx>
+		<biostatCpx>1</biostatCpx>
 		<geneClass>AlphaGenes.Gene_Resource_Metal</geneClass>
 		<resourceGizmoType>AlphaGenes.GeneGizmo_Resource_Metal</resourceGizmoType>
 		<resourceGizmoThresholds>
@@ -39,8 +40,60 @@
 		</modExtensions>
 	</GeneDef>
 	
-
-	
+	<GeneDef>
+		<defName>AG_MineralEfficencyPoor</defName>
+		<label>poor mineral absorbtion</label>
+		<displayCategory>AG_Metallic</displayCategory>
+		<description>Carriers of this gene have terrible effiency in converting metals into minerals their body can use. This requires them to consume much more minerals then most</description>
+		<iconPath>UI/Icons/Genes/AG_MetalEater</iconPath>
+		<displayOrderInCategory>-1.01</displayOrderInCategory>
+		<biostatMet>5</biostatMet>
+		<geneClass>AlphaGenes.Gene_Resource_MineralEffiency</geneClass>	
+		<exclusionTags>
+			<li>AG_MineralEffiency</li>
+		</exclusionTags>		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>metal</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_MineralEfficencyGood</defName>
+		<label>great mineral absorbtion</label>
+		<displayCategory>AG_Metallic</displayCategory>
+		<displayOrderInCategory>-1.0</displayOrderInCategory>
+		<description>Carriers of this gene have amazing effiency in converting metals into minerals their body can use. This requires them to consume much less metals then most </description>
+		<iconPath>UI/Icons/Genes/AG_MetalEater</iconPath>
+		<biostatMet>-4</biostatMet>
+		<geneClass>AlphaGenes.Gene_Resource_MineralEffiency</geneClass>		
+		<exclusionTags>
+			<li>AG_MineralEffiency</li>
+		</exclusionTags>	
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>metal</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
 
 

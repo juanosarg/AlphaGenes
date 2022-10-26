@@ -36,7 +36,7 @@ namespace AlphaGenes
                         Activate(pawn, LocalTargetInfo.Invalid);
                     },
                     isActive = () => active,
-                    icon = ContentFinder<Texture2D>.Get("UI/Abilities/AG_ReactiveArmourOff"), //**Todo make the great sarg draw :P
+                    icon = ContentFinder<Texture2D>.Get("UI/Abilities/AG_ReactiveArmourOn"), //**Todo make the great sarg draw :P
                 };
             }
             else
@@ -50,7 +50,7 @@ namespace AlphaGenes
                         Activate(pawn, LocalTargetInfo.Invalid);
                     },
                     isActive = () => active,
-                    icon = ContentFinder<Texture2D>.Get("UI/Abilities/AG_ReactiveArmourOn"),
+                    icon = ContentFinder<Texture2D>.Get("UI/Abilities/AG_ReactiveArmourOff"),
                 };
             }
 
