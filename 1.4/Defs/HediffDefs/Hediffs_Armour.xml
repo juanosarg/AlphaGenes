@@ -24,24 +24,7 @@
 			</li>
 		</comps>
 	</HediffDef>
-	<HediffDef>
-		<defName>AG_ArmourFrail</defName>
-		<label>frail skin</label>
-		<description>Frail and thin skin. This confers a small penalty to natural armour.</description>
-		<hediffClass>HediffWithComps</hediffClass>
-		<scenarioCanAdd>false</scenarioCanAdd>
-		<maxSeverity>1.0</maxSeverity>
-		<isBad>false</isBad>
-		<stages>
-			<li>
-				<minSeverity>0</minSeverity>
-				<statOffsets>
-					<ArmorRating_Blunt>-0.1</ArmorRating_Blunt>
-					<ArmorRating_Sharp>-0.1</ArmorRating_Sharp>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
+	
 	<HediffDef>
 		<defName>AG_ArmourMinor</defName>
 		<label>fungal skin</label>

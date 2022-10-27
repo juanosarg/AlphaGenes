@@ -137,11 +137,11 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
+
 	<GeneDef>
 		<defName>AG_Deaf</defName>
 		<label>deaf</label>
-		
+
 		<description>Carriers of this gene have a complete lack of hearing.</description>
 		<iconPath>UI/Icons/Genes/AG_Deaf</iconPath>
 		<displayCategory>Healing</displayCategory>
@@ -166,5 +166,128 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+
+	<GeneDef ParentName="GenePollutionBase">
+		<defName>AG_ToxicEnvironmentResistance_Frail</defName>
+		<label>frail antitoxic lungs</label>
+		<labelShortAdj>tox-affected</labelShortAdj>
+		<description>Carriers of this gene are specially affected by environmental toxins. They get more toxic buildup from tox gas, polluted terrain, and toxic fallout, and are more vulnerable to direct attacks with venom or injected poison. Additionally, they build up rot stink exposure faster.</description>
+		<iconPath>UI/Icons/Genes/AG_PollutionVulnerability</iconPath>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<statOffsets>
+			<ToxicEnvironmentResistance>-0.5</ToxicEnvironmentResistance>
+		</statOffsets>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>pure</symbol>
+					<weight>2</weight>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneToxResistBase">
+		<defName>AG_ToxResist_Vulnerability</defName>
+		<label>tox vulnerability</label>
+		<labelShortAdj>tox-vulnerable</labelShortAdj>
+		<description>Carriers of this gene are vulnerable to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain half as much amount of toxic buildup compared to others.</description>
+		<iconPath>UI/Icons/Genes/AG_ToxicVulnerability</iconPath>
+		<displayOrderInCategory>-1</displayOrderInCategory>
+		<statOffsets>
+			<ToxicResistance>-0.5</ToxicResistance>
+		</statOffsets>
+		<biostatMet>2</biostatMet>
+
+	</GeneDef>
+
+	<GeneDef>
+		<defName>AG_HardBones</defName>
+		<label>hard bones</label>
+		<exclusionTags>
+			<li>AG_BoneType</li>
+
+		</exclusionTags>
+		<damageFactors>
+			<Blunt>0.9</Blunt>
+			<Cut>1.2</Cut>
+		</damageFactors>
+		<description>Carriers of this gene have very hard bones with extended bone growth, making them resistant to blunt damage, at the cost of being vulnerable to cuts.</description>
+		<iconPath>UI/Icons/Genes/AG_HardBones</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>117</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
+	<GeneDef>
+		<defName>AG_FrostbiteResistance</defName>
+		<label>frostbite resistance</label>
+		<exclusionTags>
+			<li>AG_Frostbite</li>
+
+		</exclusionTags>
+		<damageFactors>
+			<Frostbite>0.5</Frostbite>
+			
+		</damageFactors>
+		<description>Carriers of this gene have resistance to frostbite damage.</description>
+		<iconPath>UI/Icons/Genes/AG_FrostbiteResistance</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>118</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FrostbiteVulnerability</defName>
+		<label>frostbite vulnerability</label>
+		<exclusionTags>
+			<li>AG_Frostbite</li>
+
+		</exclusionTags>
+		<damageFactors>
+			<Frostbite>1.5</Frostbite>
+			
+		</damageFactors>
+		<description>Carriers of this gene have vulnerability to frostbite damage.</description>
+		<iconPath>UI/Icons/Genes/AG_FrostbiteVulnerability</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>119</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+
 </Defs>

@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	 <GeneDef ParentName="GeneVoiceBase">
-    <defName>AG_SlugVoice</defName>
-    <label>slug voice</label>
-    <description>Carriers have a gurgling, squishing voice.</description>
-    <iconPath>UI/Icons/Genes/AG_SlugVoice</iconPath>
-    <displayOrderInCategory>131</displayOrderInCategory>
-    <soundCall>AG_Pawn_Slug_Call</soundCall>
-    <soundDeath>AG_Pawn_Slug_Death</soundDeath>
-    <soundWounded>AG_Pawn_Slug_Wounded</soundWounded>
-	<modExtensions>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_SlugVoice</defName>
+		<label>slug voice</label>
+		<description>Carriers have a gurgling, squishing voice.</description>
+		<iconPath>UI/Icons/Genes/AG_SlugVoice</iconPath>
+		<displayOrderInCategory>131</displayOrderInCategory>
+		<soundCall>AG_Pawn_Slug_Call</soundCall>
+		<soundDeath>AG_Pawn_Slug_Death</soundDeath>
+		<soundWounded>AG_Pawn_Slug_Wounded</soundWounded>
+		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
+
 			</li>
 		</modExtensions>
-    
-  </GeneDef>
+
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_RockVoice</defName>
+		<label>rock voice</label>
+		<description>Carriers have a rumbling, metallic voice that sounds like two stones scratching against each other.</description>
+		<iconPath>UI/Icons/Genes/AG_RockVoice</iconPath>
+		<displayOrderInCategory>132</displayOrderInCategory>
+		<soundCall>AG_Pawn_Lapis_Call</soundCall>
+		<soundDeath>AG_Pawn_Lapis_Death</soundDeath>
+		<soundWounded>AG_Pawn_Lapis_Wounded</soundWounded>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
 </Defs>

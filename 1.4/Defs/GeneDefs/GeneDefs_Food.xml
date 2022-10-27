@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+	<GeneDef>
+		<defName>AG_FrailStomach</defName>
+		<label>frail stomach</label>
+		<description>Carriers of this gene AG_FrailStomach a very weak stomach and will suffer more often from food poisoning.</description>
+		<iconPath>UI/Icons/Genes/Gene_StrongStomach</iconPath>
+		<foodPoisoningChanceFactor>1.5</foodPoisoningChanceFactor>
+		<biostatMet>1</biostatMet>
+		<displayCategory>AG_FoodConsumption</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>weak</symbol>
+				</li>
+				<li>
+					<symbol>queasy</symbol>
+				</li>
+				<li>
+					<symbol>sick</symbol>
+				</li>
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
+
 	<GeneDef>
 		<defName>AG_CorpseFeeding</defName>
 		<label>corpse feeding</label>
@@ -77,20 +111,20 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
+
 	<GeneDef>
 		<defName>AG_TableResistance</defName>
 		<label>table resistance</label>
 
 		<description>Carriers of this gene have developed a GIGANTIC mental fortitude and are capable of withstanding the greatest torture of all time: eating without a table.</description>
 		<iconPath>UI/Icons/Genes/AG_TableResistance</iconPath>
-		
+
 		<displayCategory>AG_FoodConsumption</displayCategory>
 		<displayOrderInCategory>60</displayOrderInCategory>
-		
+
 		<biostatMet>-1</biostatMet>
 
-		
+
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -109,11 +143,12 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
+
 			</li>
 		</modExtensions>
 	</GeneDef>
-
+	
+	
 
 
 </Defs>

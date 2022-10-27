@@ -36,7 +36,10 @@
 	<GeneDef ParentName="GenePainBase">
 		<defName>AG_BrittleBones</defName>
 		<label>brittle bones</label>
-		
+		<exclusionTags>
+			<li>AG_BoneType</li>
+			
+		</exclusionTags>
 		<description>Carriers of this gene have very frail, brittle bone structure. If they are downed in any way they'll suffer cracks and fractures in their bones.</description>
 		<iconPath>UI/Icons/Genes/AG_BrittleBones</iconPath>
 		<displayOrderInCategory>19.9</displayOrderInCategory>
