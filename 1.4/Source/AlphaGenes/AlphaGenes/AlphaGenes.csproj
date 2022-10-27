@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AlphaGenes</RootNamespace>
     <AssemblyName>AlphaGenes</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -332,6 +332,8 @@
     <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />
     <Compile Include="Harmony\HediffComp_PregnantHuman_CompTipStringExtra.cs" />
     <Compile Include="Harmony\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs" />
+    <Compile Include="Harmony\HumanlikeMeshPoolUtility_Patches.cs" />
+    <Compile Include="Harmony\PawnRenderer_GetBodyOverlayMeshSet.cs" />
     <Compile Include="Harmony\PawnUtility_BodyResourceGrowthSpeed.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
@@ -351,6 +353,7 @@
     <Compile Include="Settings\AlphaGenes_Settings.cs" />
     <Compile Include="Settings\AlphaGenes_SettingsController.cs" />
     <Compile Include="Settings\SettingsHelper.cs" />
+    <Compile Include="Startup\StaticStartup.cs" />
     <Compile Include="ThingDefOfs\InternalDefOf.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Steel.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Ave.cs" />
