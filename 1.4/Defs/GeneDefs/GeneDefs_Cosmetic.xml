@@ -4,7 +4,6 @@
 		<displayCategory>Miscellaneous</displayCategory>
 		<exclusionTags>
 			<li>AG_Misc</li>
-			
 		</exclusionTags>
 		<graphicData>
 			<drawLoc>Tailbone</drawLoc>
@@ -36,7 +35,6 @@
 				<li>
 					<symbol>optic</symbol>
 				</li>
-				
 			</prefixSymbols>
 		</symbolPack>
 		<modExtensions>
@@ -53,7 +51,7 @@
 		<description>Carriers of this gene have chainsaws for hands. "Akkkkssstually -you say- those would be better implemented as implants, not a gene!". No, no, you misunderstand: these are biological, DNA codified chainsaw hands. Children of two people with chainsaw hands will have itty bitty chainsaw hands. It's science.</description>
 		<iconPath>UI/Icons/Genes/AG_ChainsawHands</iconPath>
 		<biostatCpx>1</biostatCpx>
-		<displayCategory>Cosmetic</displayCategory>	
+		<displayCategory>Cosmetic</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
@@ -62,8 +60,6 @@
 				<li>
 					<symbol>chain</symbol>
 				</li>
-				
-				
 			</prefixSymbols>
 		</symbolPack>
 		<graphicData>
@@ -73,7 +69,6 @@
 			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
 		</graphicData>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -87,7 +82,6 @@
 						</bodyparts>
 					</li>
 				</hediffsToBodyParts>
-			
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -170,7 +164,6 @@
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
 		<customEffectDescriptions>
 			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
-			
 		</customEffectDescriptions>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BullHorns/AG_BullHorns</graphicPath>
@@ -205,8 +198,10 @@
 				<hediffsToBodyParts>
 					<li>
 						<hediff>AG_HornAttack</hediff>
-						<bodyparts><li>Head</li></bodyparts>					
-					</li>			
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
 				</hediffsToBodyParts>
 			</li>
 		</modExtensions>
@@ -221,7 +216,6 @@
 		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
 			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
-			
 		</customEffectDescriptions>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_AntlerHorns/AG_AntlerHorns</graphicPath>
@@ -253,8 +247,10 @@
 				<hediffsToBodyParts>
 					<li>
 						<hediff>AG_HornAttack</hediff>
-						<bodyparts><li>Head</li></bodyparts>					
-					</li>			
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
 				</hediffsToBodyParts>
 			</li>
 		</modExtensions>
@@ -368,7 +364,4 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
-	
 </Defs>

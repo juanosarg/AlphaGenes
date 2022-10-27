@@ -80,7 +80,7 @@
 		<defName>AG_MineralOverdrive</defName>
 		<label>mineral overdrive</label>
 		<description>Carriers of this gene can use the stored minerals to work with increased efficency at the cost of draining minerals</description>
-		<iconPath>UI/Icons/Genes/AG_MineralShock</iconPath>
+		<iconPath>UI/Icons/Genes/AG_MineralOverdrive</iconPath>
 		<prerequisite>AG_MetalEater</prerequisite>
 		<displayCategory>AG_Metallic</displayCategory>
 		<abilities>
@@ -194,5 +194,11 @@
 				</li>
 			</suffixSymbols>
 		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
 	</GeneDef>
 </Defs>

@@ -120,8 +120,6 @@
 		<displayOrderInCategory>430</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_MimeBody</iconPath>
 
-		<skinColorOverride>(255, 255, 255)</skinColorOverride>
-
 		
 		<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
 		<graphicData>
@@ -133,7 +131,7 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<useSkinColorForFur>true</useSkinColorForFur>
+				<dontColourFur>true</dontColourFur>
 			</li>
 		</modExtensions>
 	</GeneDef>-->
@@ -187,6 +185,47 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_RockyBody</defName>
+		<label>rocky body</label>
+		<labelShortAdj>rocky</labelShortAdj>
+		<description>Carriers of this gene have a rocky looking skin, with mineral deposits piercing the skin.</description>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>430</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_RockyBody</iconPath>
+		
+		<bodyType>Standard</bodyType>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>rock</symbol>
+				</li>
+				<li>
+					<symbol>litho</symbol>
+				</li>
+				<li>
+					<symbol>petr</symbol>
+				</li>
+			</prefixSymbols>
+			
+		</symbolPack>
+		<graphicData>
+			<fur>AG_RockyBody</fur>
+
+			<tattoosVisible>false</tattoosVisible>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<dontColourFur>true</dontColourFur>
 				
 			</li>
 		</modExtensions>

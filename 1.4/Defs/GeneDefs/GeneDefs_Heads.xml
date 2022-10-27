@@ -4,7 +4,7 @@
 	<GeneDef Name="AG_GeneHeadBase" Abstract="True">
 		<biostatCpx>0</biostatCpx>
 		<displayCategory>AG_Cosmetic_Heads</displayCategory>
-		<displayOrderInCategory>110</displayOrderInCategory>
+		
 		<exclusionTags>
 			<li>AG_Heads</li>
 			<li>Heads</li>
@@ -75,14 +75,11 @@
 		<description>Both of the subject's eyes protrude from the skull in slug-like stalks. Slimy!</description>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
-		
 		<iconPath>UI/Icons/Genes/AG_SlugFace</iconPath>
-		
 		<forcedHeadTypes>
 			<li>AG_SlugFace_Narrow</li>
 			<li>AG_SlugFace_Normal</li>
 			<li>AG_SlugFace_Wide</li>
-			
 		</forcedHeadTypes>
 		<beardTagFilter>
 			<whitelist>true</whitelist>
@@ -96,23 +93,19 @@
 				<li>Bald</li>
 			</tags>
 		</hairTagFilter>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
 		</modExtensions>
-		
 	</GeneDef>
 	<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_FoxFace</defName>
 		<label>fox head</label>
-		
 		<description>Carriers of this gene possess an elongated snout with a round nose and slit-like eyes. Ears sold separately.</description>
 		<selectionWeight>0</selectionWeight>
 		<iconPath>UI/Icons/Genes/AG_FoxFaceIcon</iconPath>
-		
 		<forcedHeadTypes>
 			<li>AG_Male_Fox_Average_Normal</li>
 			<li>AG_Male_Fox_Average_Pointy</li>
@@ -120,10 +113,9 @@
 			<li>AG_Female_Fox_Average_Normal</li>
 			<li>AG_Female_Fox_Average_Pointy</li>
 			<li>AG_Female_Fox_Average_Wide</li>
-			
 		</forcedHeadTypes>
 		<symbolPack>
-		<prefixSymbols>
+			<prefixSymbols>
 				<li>
 					<symbol>animus</symbol>
 				</li>
@@ -138,23 +130,74 @@
 				<li>
 					<symbol>-vox</symbol>
 				</li>
-				
 			</suffixSymbols>
-			</symbolPack>
+		</symbolPack>
 		<beardTagFilter>
 			<whitelist>true</whitelist>
 			<tags>
 				<li>NoBeard</li>
 			</tags>
 		</beardTagFilter>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
 		</modExtensions>
-		
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_RockSpurs</defName>
+		<label>rocky ridges</label>
+		<description>Carriers of this gene have accumulations of minerals on their head.</description>
+		<iconPath>UI/Icons/Genes/AG_RockyRidges</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_RockSpurs/AG_Male_Rock_Average_Normal</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<forcedHeadTypes>
+			<li>Male_AverageNormal</li>
+			<li>Male_AveragePointy</li>
+			<li>Male_NarrowNormal</li>
+			<li>Male_NarrowPointy</li>
+			<li>Female_AverageNormal</li>
+			<li>Female_AveragePointy</li>
+			<li>Female_NarrowNormal</li>
+			<li>Female_NarrowPointy</li>
+		</forcedHeadTypes>
+		<selectionWeight>0</selectionWeight>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>rock</symbol>
+				</li>
+				<li>
+					<symbol>litho</symbol>
+				</li>
+				<li>
+					<symbol>petr</symbol>
+				</li>
+			</prefixSymbols>
+			
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	<!--<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_MimeHead</defName>

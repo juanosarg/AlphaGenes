@@ -24,4 +24,24 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_SpeedByTemperature</defName>
+		<label>thermal speed</label>
+		<description>Carriers of this gene move fast at high temperatures, at the cost of getting much more tired. Low temperatures will reduce their metabolism, making them slower, but also making them spend less energy staying awake.</description>
+		<iconPath>UI/Icons/Genes/AG_SpeedByTemperature</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>502</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_SpeedByTemperature</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

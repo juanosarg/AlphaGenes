@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneTemplateDef Name="AG_GeneAptitudeBase" Abstract="True">
+		<geneClass>Gene</geneClass>
+		<displayCategory>Aptitudes</displayCategory>
+	</GeneTemplateDef>
+	<GeneDef ParentName="AG_GeneAptitudeBase">
+		<defName>AG_MiningYield_High</defName>
+		<label>high mining yield</label>
+		<labelShortAdj>miner</labelShortAdj>
+		<description>Carriers of this gene heal from wounds half as fast as normal.</description>
+		<iconPath>UI/Icons/Genes/AG_MiningYield</iconPath>
+		<displayOrderInCategory>200</displayOrderInCategory>
+		<statFactors>
+			<MiningYield>1.2</MiningYield>
+		</statFactors>
+		<biostatMet>-2</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>metal</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

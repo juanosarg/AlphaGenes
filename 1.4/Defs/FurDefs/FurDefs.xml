@@ -70,5 +70,19 @@
       <Baby>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Thin</Baby><!-- Always covered by swaddled graphic -->
     </bodyTypeGraphicPaths>
   </FurDef>
+  
+   <FurDef>
+    <defName>AG_RockyBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
 
 </Defs>

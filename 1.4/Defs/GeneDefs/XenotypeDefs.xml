@@ -55,8 +55,8 @@
 			<li>Beard_NoBeardOnly</li>
 			<li>AG_AnimusEars</li>
 			<li>AG_FoxFace</li>
-			<li>AG_FoxTail</li>		
-			<li>AG_ColdSpeed</li>		
+			<li>AG_FoxTail</li>
+			<li>AG_ColdSpeed</li>
 			<li>MeleeDamage_Weak</li>
 			<li>Libido_High</li>
 			<li>AptitudePoor_Plants</li>
@@ -64,6 +64,36 @@
 			<li>AG_UVSensitivity_Minor</li>
 			<li>AG_PsychicAbility_Masterful</li>
 			<li>MaxTemp_SmallDecrease</li>
+		</genes>
+	</XenotypeDef>
+	<XenotypeDef>
+		<defName>AG_Lapis</defName>
+		<label>lapis</label>
+		<description>Where dirtmoles are unable to thrive due to inhospitable conditions, the lapis excel. Created by ultra-greedy corporations eager to wring the very last resources out of desolate, mineral rich planets, the lapis are a xenotype adapted to living basically without organic food, but at a hefty cost: they must continually search for minerals to feed themselves and sustain their strange metabolism. Lapis are practical and brusque, preferring to keep to themselves in most cases.</description>
+		<descriptionShort>A xenotype of rocky looking humans adapted to living basically without organic food, but at a hefty cost: they must continually search for minerals to feed themselves and sustain their strange metabolism.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Lapis</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>WoundHealing_Slow</li>
+			<li>AG_RockSpurs</li>
+			<li>AG_RockyBody</li>
+			<li>AG_MetalEater</li>
+			<li>AG_ReactiveArmour</li>
+			<li>AG_MineralShock</li>
+			<li>AG_MineralOverdrive</li>
+			<li>AptitudeRemarkable_Mining</li>
+			<li>AptitudeTerrible_Artistic</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>AG_MiningYield_High</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Hair_BaldOnly</li>
+			<li>MaxTemp_LargeIncrease</li>
+			<li>AG_SpeedByTemperature</li>
+			<li>PsychicAbility_Dull</li>
+			<li>Beauty_Ugly</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Animals</li>
+			<li>AG_SlowGestation</li>
 			
 			
 		</genes>
