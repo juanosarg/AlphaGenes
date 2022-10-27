@@ -63,15 +63,27 @@ namespace AlphaGenes
             //This is basically just the utility done right. Might move to own utility class if doing multiple
             if (CanOffset)
             {
-                float before = Value;
-                float loss = (-ResourceLossPerDay / 60000f);
-                Value += loss;
-                if(before>0f && Value <= 0f)
+                if (pawn.IsHashIntervalTick(300))//Running this every tick is kinda silly for fraction losses
                 {
-                    //Add hediff here
-                    if (!pawn.health.hediffSet.HasHediff(InternalDefOf.AG_MineralCraving))
+                    float before = Value;
+                    float loss = (-ResourceLossPerDay / 200f); //200 hash ticks in day
+                    int num4 = 0;
+                    foreach (Gene gene in pawn.genes.GenesListForReading) //making metabolism affect resource loss as only fair since we completely negate hunger
                     {
-                        pawn.health.AddHediff(InternalDefOf.AG_MineralCraving);
+                        if (!gene.Overridden)
+                        {
+                            num4 += gene.def.biostatMet;
+                        }
+                    }
+                    loss *= GeneTuning.MetabolismToFoodConsumptionFactorCurve.Evaluate((float)num4);                    
+                    Value += loss;
+                    if (before > 0f && Value <= 0f)
+                    {
+                        //Add hediff here
+                        if (!pawn.health.hediffSet.HasHediff(InternalDefOf.AG_MineralCraving))
+                        {
+                            pawn.health.AddHediff(InternalDefOf.AG_MineralCraving);
+                        }
                     }
                 }
             }
@@ -110,7 +122,7 @@ namespace AlphaGenes
             float resourceRestore = mass / 10;//dividing by 10 so 1 steel is 0.05 "nutrition"            
             if (cachedEffiency != null)
             {
-                resourceRestore *= cachedEffiency.EffiencyFactor;
+                resourceRestore /= cachedEffiency.EffiencyFactor;
             }
             return resourceRestore;
         }
