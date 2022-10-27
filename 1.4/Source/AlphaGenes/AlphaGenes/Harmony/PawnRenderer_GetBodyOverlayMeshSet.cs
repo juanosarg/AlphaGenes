@@ -1,6 +1,11 @@
 ﻿using VanillaGenesExpanded;
 using Verse;
 using HarmonyLib;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Collections.Generic;
+using System;
+using System.Reflection;
 
 namespace AlphaGenes
 {
@@ -34,6 +39,49 @@ namespace AlphaGenes
 
 
         }
+    }
+    //Offset patch
+    [HarmonyPatch(typeof(PawnRenderer), "BaseHeadOffsetAt")]
+    [HarmonyDebug]
+    public static class PawnRenderer_BaseHeadOffsetAt_Patch
+    {
 
+        static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        {
+            var bodySizeFactor = AccessTools.Field("LifeStageDef:bodySizeFactor");
+            var pawn = AccessTools.Field("PawnRenderer:pawn");
+            var bodyScaleFactor = AccessTools.Method("PawnRenderer_BaseHeadOffsetAt_Patch:LifeStageFactorUpdated");
+            var codes = instructions.ToList();
+            for (int i = 0; i < codes.Count; i++)
+            {
+                if (codes[i].LoadsField(bodySizeFactor))
+                {
+                    yield return codes[i];
+                    yield return new CodeInstruction(OpCodes.Ldarg_0);
+                    yield return new CodeInstruction(OpCodes.Ldfld, pawn);
+                    yield return new CodeInstruction(OpCodes.Call, bodyScaleFactor);
+                }
+                else
+                {
+                    yield return codes[i];
+                }
+            }
+        }
+        public static float LifeStageFactorUpdated(float factor, Pawn pawn)
+        {
+            var genes = pawn.genes;
+            if (ModLister.BiotechInstalled && genes != null)
+            {
+                foreach (var gene in genes.GenesListForReading)
+                {
+                    var ext = gene.def.GetModExtension<GeneExtension>();
+                    if (ext != null && ext.bodyScaleFactor != 1f)
+                    {
+                        factor *= ext.bodyScaleFactor;
+                    }
+                }
+            }
+            return factor;
+        }
     }
 }

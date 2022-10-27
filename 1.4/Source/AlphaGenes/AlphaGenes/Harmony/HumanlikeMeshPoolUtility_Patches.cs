@@ -113,6 +113,7 @@ namespace AlphaGenes
             }
             return MeshPool.GetMeshSetForWidth(x, y);
         }
+
         [HarmonyPatch(typeof(HumanlikeMeshPoolUtility), "HumanlikeBodyWidthForPawn")]
         public static class HumanlikeBodyWidthForPawn_Patch
         {
