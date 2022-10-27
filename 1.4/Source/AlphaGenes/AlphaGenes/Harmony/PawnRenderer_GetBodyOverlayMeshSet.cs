@@ -42,7 +42,6 @@ namespace AlphaGenes
     }
     //Offset patch
     [HarmonyPatch(typeof(PawnRenderer), "BaseHeadOffsetAt")]
-    [HarmonyDebug]
     public static class PawnRenderer_BaseHeadOffsetAt_Patch
     {
 
