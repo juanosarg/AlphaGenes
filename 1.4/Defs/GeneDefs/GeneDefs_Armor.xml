@@ -55,7 +55,43 @@
 		</modExtensions>
 	</GeneDef>
 	
-	<GeneDef  ParentName="AG_ArmourBase">
+	<GeneDef ParentName="AG_ArmourBase">
+		<defName>AG_FrailSkin</defName>
+		<label>frail skin</label>
+
+		<description>Carriers of this gene have very frail and thin skin. This confers a small penalty to natural armour.</description>
+		<iconPath>UI/Icons/Genes/AG_FrailSkin</iconPath>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<customEffectDescriptions>
+			<li>-10% blunt and sharp natural armour.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>1</biostatMet>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>frail</symbol>
+				</li>
+				<li>
+					<symbol>thinskin</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_ArmourFrail</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_ArmourBase">
 		<defName>AG_ArmourMinor</defName>
 		<label>bark skin</label>
 
@@ -87,7 +123,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<GeneDef  ParentName="AG_ArmourBase">
+	<GeneDef ParentName="AG_ArmourBase">
 		<defName>AG_ArmourMedium</defName>
 		<label>ferrous skin</label>
 
@@ -122,7 +158,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<GeneDef  ParentName="AG_ArmourBase">
+	<GeneDef ParentName="AG_ArmourBase">
 		<defName>AG_ArmourMajor</defName>
 		<label>plasteel skin</label>
 

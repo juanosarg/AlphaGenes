@@ -74,6 +74,7 @@
 		<iconPath>UI/Icons/Xenotypes/AG_Lapis</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
+			<li>AG_Foodless</li>
 			<li>WoundHealing_Slow</li>
 			<li>AG_RockSpurs</li>
 			<li>AG_RockyBody</li>
