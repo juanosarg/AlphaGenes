@@ -137,11 +137,9 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 	<GeneDef>
 		<defName>AG_Deaf</defName>
 		<label>deaf</label>
-
 		<description>Carriers of this gene have a complete lack of hearing.</description>
 		<iconPath>UI/Icons/Genes/AG_Deaf</iconPath>
 		<displayCategory>Healing</displayCategory>
@@ -166,7 +164,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 	<GeneDef ParentName="GenePollutionBase">
 		<defName>AG_ToxicEnvironmentResistance_Frail</defName>
 		<label>frail antitoxic lungs</label>
@@ -190,11 +187,9 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 	<GeneDef ParentName="GeneToxResistBase">
 		<defName>AG_ToxResist_Vulnerability</defName>
 		<label>tox vulnerability</label>
@@ -206,15 +201,12 @@
 			<ToxicResistance>-0.5</ToxicResistance>
 		</statOffsets>
 		<biostatMet>2</biostatMet>
-
 	</GeneDef>
-
 	<GeneDef>
 		<defName>AG_HardBones</defName>
 		<label>hard bones</label>
 		<exclusionTags>
 			<li>AG_BoneType</li>
-
 		</exclusionTags>
 		<damageFactors>
 			<Blunt>0.9</Blunt>
@@ -226,40 +218,33 @@
 		<displayOrderInCategory>117</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
 		<biostatCpx>1</biostatCpx>
-
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_FrostbiteResistance</defName>
 		<label>frostbite resistance</label>
 		<exclusionTags>
 			<li>AG_Frostbite</li>
-
 		</exclusionTags>
 		<damageFactors>
 			<Frostbite>0.5</Frostbite>
-			
 		</damageFactors>
 		<description>Carriers of this gene have resistance to frostbite damage.</description>
 		<iconPath>UI/Icons/Genes/AG_FrostbiteResistance</iconPath>
 		<displayCategory>Healing</displayCategory>
 		<displayOrderInCategory>118</displayOrderInCategory>
 		<biostatMet>-1</biostatMet>
-		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -268,26 +253,50 @@
 		<label>frostbite vulnerability</label>
 		<exclusionTags>
 			<li>AG_Frostbite</li>
-
 		</exclusionTags>
 		<damageFactors>
 			<Frostbite>1.5</Frostbite>
-			
 		</damageFactors>
 		<description>Carriers of this gene have vulnerability to frostbite damage.</description>
 		<iconPath>UI/Icons/Genes/AG_FrostbiteVulnerability</iconPath>
 		<displayCategory>Healing</displayCategory>
 		<displayOrderInCategory>119</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
-		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
-
+	<GeneDef ParentName="GeneImmunityBase">
+		<defName>AG_Gene_VeryWeakImmunity</defName>
+		<label>very weak immunity</label>
+		<labelShortAdj>sickly</labelShortAdj>
+		<description>Carriers of this gene gain immunity to diseases very slowly. They will die from infections that others would survive.</description>
+		<iconPath>UI/Icons/Genes/AG_Gene_VeryWeakImmunity</iconPath>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<statFactors>
+			<ImmunityGainSpeed>0.75</ImmunityGainSpeed>
+		</statFactors>
+		<biostatMet>4</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>sick</symbol>
+					<weight>3</weight>
+				</li>
+				<li>
+					<symbol>frail</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
