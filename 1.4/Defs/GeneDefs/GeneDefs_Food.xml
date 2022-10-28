@@ -6,7 +6,7 @@
 		<defName>AG_FrailStomach</defName>
 		<label>frail stomach</label>
 		<description>Carriers of this gene AG_FrailStomach a very weak stomach and will suffer more often from food poisoning.</description>
-		<iconPath>UI/Icons/Genes/Gene_StrongStomach</iconPath>
+		<iconPath>UI/Icons/Genes/AG_FrailStomach</iconPath>
 		<foodPoisoningChanceFactor>1.5</foodPoisoningChanceFactor>
 		<biostatMet>1</biostatMet>
 		<displayCategory>AG_FoodConsumption</displayCategory>
