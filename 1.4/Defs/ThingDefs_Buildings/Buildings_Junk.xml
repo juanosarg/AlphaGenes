@@ -662,6 +662,10 @@
 			<li Class="AlphaGenes.CompProperties_RandomItemSpawner">
 				<items>
 					<li>AG_GeneRemover</li>
+					<li>AG_Endogenefier</li>
+					<li>AG_Xenogenefier</li>
+					<li>AG_XenotypeNullifier</li>
+					<li>AG_GermlineMutator</li>
 					
 
 				</items>

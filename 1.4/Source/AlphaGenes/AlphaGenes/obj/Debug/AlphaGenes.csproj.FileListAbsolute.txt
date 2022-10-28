@@ -2,5 +2,3 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.4\Assem
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.4\Source\AlphaGenes\AlphaGenes\obj\Debug\AlphaGenes.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.4\Source\AlphaGenes\AlphaGenes\obj\Debug\AlphaGenes.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.4\Source\AlphaGenes\AlphaGenes\obj\Debug\AlphaGenes.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.4\Assemblies\AlphaGenes.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.4\Source\AlphaGenes\AlphaGenes\obj\Debug\AlphaGenes.pdb

@@ -14,8 +14,8 @@
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>portable</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>..\..\..\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -317,15 +317,19 @@
     <Compile Include="Comps\CompProperties\CompProperties_RandomItemSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomRaidSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetableHuman.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_GermlineMutator.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_Xenogenefier.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_Endogenefier.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_RemoveGene.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_XenotypeNullifier.cs" />
     <Compile Include="Comps\CompRandomItemSpawner.cs" />
     <Compile Include="Comps\CompRandomRaidSpawner.cs" />
     <Compile Include="Comps\CompTargetableHuman.cs" />
     <Compile Include="Comps\CompTargetEffect_Endogenefier.cs" />
+    <Compile Include="Comps\CompTargetEffect_GermlineMutator.cs" />
     <Compile Include="Comps\CompTargetEffect_RemoveGene.cs" />
     <Compile Include="Comps\CompTargetEffect_Xenogenefier.cs" />
+    <Compile Include="Comps\CompTargetEffect_XenotypeNullifier.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="GeneResource\Gene_Resource_MineralEffiency.cs" />
     <Compile Include="GeneResource\Gene_Resource_Metal.cs" />
