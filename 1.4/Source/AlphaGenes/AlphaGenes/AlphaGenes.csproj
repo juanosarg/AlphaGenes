@@ -10,6 +10,7 @@
     <RootNamespace>AlphaGenes</RootNamespace>
     <AssemblyName>AlphaGenes</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -314,6 +315,9 @@
     <Compile Include="AI\WorkGivers\WorkGiver_AdministerMetal.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBank.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBankMixed.cs" />
+    <Compile Include="BadIdea\GameComponent_GeneBodies.cs" />
+    <Compile Include="BadIdea\GeneBody.cs" />
+    <Compile Include="BadIdea\GeneExtensionBadIdea.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomItemSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomRaidSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetableHuman.cs" />
