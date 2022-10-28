@@ -78,6 +78,7 @@
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BatWings/AG_BatWings</graphicPath>
 			<drawScale>2</drawScale>
+			 <colorType>Skin</colorType>
 			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
 			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
