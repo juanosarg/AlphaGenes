@@ -11,6 +11,12 @@
 		<displayPriorityInXenotype>516.69</displayPriorityInXenotype>
 	</GeneCategoryDef>
 	<GeneCategoryDef>
+		<defName>AG_BodySize</defName>
+		<label>body size</label>
+		<displayPriorityInXenotype>516.7</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
 		<defName>AG_AnimalAffinity</defName>
 		<label>animal affinity</label>
 		<displayPriorityInXenotype>505.69</displayPriorityInXenotype>
