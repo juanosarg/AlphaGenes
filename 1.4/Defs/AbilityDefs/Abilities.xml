@@ -143,4 +143,50 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_GreaterAcidicVomit</defName>
+		<label>greater acidic vomit</label>
+		<description>Regurgitate specially strong stomach acids, spraying a wide area with their contents. These acids will cause horrific wounds that get progressively worse as the acid burns through the underlying tissues.</description>
+		<iconPath>UI/Icons/Genes/AG_GreaterAcid</iconPath>
+		<cooldownTicksRange>300000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>10.9</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AcidSpray_Resolve</soundCast>
+			<targetParams>
+				<canTargetLocations>false</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>AG_AcidicVomit</projectileDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_PetrifyingGaze</defName>
+		<label>petrifying gaze</label>
+		<description>Direct a dangerous gaze that has the ability to turn the victim into stone. Something something mechanites, or something. Look, it's science.</description>
+		<iconPath>UI/Icons/Genes/AG_PetrifyingGaze</iconPath>
+		<cooldownTicksRange>300000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>10.9</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_Petrify</soundCast>
+			<targetParams>
+				<canTargetLocations>false</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>AG_GazeAttack</projectileDef>
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>

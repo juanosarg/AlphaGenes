@@ -120,7 +120,7 @@
 		<customEffectDescriptions>
 			<li>That's three gallons per inch squared in Fahrenheit!</li>			
 		</customEffectDescriptions>
-
+		<selectionWeight>0</selectionWeight>
 		<conditionalStatAffecters>
 			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_BelowZero">
 				<statFactors>
@@ -145,7 +145,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<selectionWeight>0</selectionWeight>	
+
 	<GeneDef Name="AG_TempRadiatingBase" Abstract="True">
 		<displayCategory>Temperature</displayCategory>
 		<exclusionTags>

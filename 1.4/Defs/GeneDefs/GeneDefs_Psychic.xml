@@ -15,6 +15,7 @@
 		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
 		<biostatCpx>3</biostatCpx>
 		<biostatMet>-6</biostatMet>
+		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
 			<li>Creates a constant psychic drone that makes nearby colonists that don't have this same gene happy.</li>
 			

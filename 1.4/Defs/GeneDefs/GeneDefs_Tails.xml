@@ -12,6 +12,7 @@
 		</statOffsets>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FoxTail/AG_FoxTail</graphicPath>
 			<colorType>Hair</colorType>

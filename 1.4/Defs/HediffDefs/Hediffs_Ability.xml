@@ -186,4 +186,83 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<HediffDef ParentName="DiseaseBase">
+		<defName>AG_Petrification</defName>
+		<description>The victim's skin is hardening and turning into brittle stone. This condition is reversible and will naturally dissipate after a few hours, but if it reaches a severity of 1 it will kill its victim.</description>
+		<label>petrification</label>
+		<lethalSeverity>1</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>15000</min>
+					<max>20000</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.9</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stiff joints</label>
+				<minSeverity>0.2</minSeverity>
+
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.6</setMax>
+
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.75</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>rocky skin</label>
+				<minSeverity>0.5</minSeverity>
+
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.5</setMax>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.5</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>brittle bones</label>
+				<minSeverity>0.8</minSeverity>
+
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.4</setMax>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.2</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>turned to stone</label>
+				<minSeverity>0.99</minSeverity>
+
+				
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

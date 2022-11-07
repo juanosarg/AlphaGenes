@@ -13,6 +13,7 @@
 			<li>-10% Sight when in direct sunlight.</li>
 
 		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
 		<symbolPack>
 			<prefixSymbols>
 				<li>

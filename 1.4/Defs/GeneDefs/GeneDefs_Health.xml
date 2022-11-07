@@ -171,6 +171,7 @@
 		<description>Carriers of this gene are specially affected by environmental toxins. They get more toxic buildup from tox gas, polluted terrain, and toxic fallout, and are more vulnerable to direct attacks with venom or injected poison. Additionally, they build up rot stink exposure faster.</description>
 		<iconPath>UI/Icons/Genes/AG_PollutionVulnerability</iconPath>
 		<displayOrderInCategory>19</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
 		<statOffsets>
 			<ToxicEnvironmentResistance>-0.5</ToxicEnvironmentResistance>
 		</statOffsets>
@@ -281,6 +282,7 @@
 			<ImmunityGainSpeed>0.75</ImmunityGainSpeed>
 		</statFactors>
 		<biostatMet>4</biostatMet>
+		<selectionWeight>0</selectionWeight>
 		<symbolPack>
 			<prefixSymbols>
 				<li>

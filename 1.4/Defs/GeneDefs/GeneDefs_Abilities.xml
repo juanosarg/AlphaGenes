@@ -135,6 +135,7 @@
 			<AbilityDef>AG_GreaterFireSpew</AbilityDef>
 		</descriptionHyperlinks>
 		<biostatMet>-3</biostatMet>
+		<selectionWeight>0</selectionWeight>
 		<symbolPack>
 			<wholeNameSymbols>
 				<li>
@@ -193,6 +194,91 @@
 					<symbol>ash</symbol>
 				</li>
 			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>AG_GreaterAcidicVomit</defName>
+		<label>greater acid spray</label>
+		<description>Carriers can regurgitate specially strong stomach acids, spraying a wide area with their contents. These acids will cause horrific wounds that get progressively worse as the acid burns through the underlying tissues.</description>
+		<iconPath>UI/Icons/Genes/AG_GreaterAcid</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<marketValueFactor>1.75</marketValueFactor>
+		<abilities>
+			<li>AG_GreaterAcidicVomit</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_GreaterAcidicVomit</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>acid</symbol>
+				</li>
+				<li>
+					<symbol>acer</symbol>
+				</li>
+				<li>
+					<symbol>acri</symbol>
+				</li>
+				<li>
+					<symbol>oxo</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>sprayer</symbol>
+				</li>
+				<li>
+					<symbol>spitter</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_PetrifyingGaze</defName>
+		<label>petrifying gaze</label>
+		<description>Carriers can direct a dangerous gaze at will that has the ability to turn the victim into stone. Something something mechanites, or something. Look, it's science.</description>
+		<iconPath>UI/Icons/Genes/AG_PetrifyingGaze</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<marketValueFactor>2</marketValueFactor>
+		<abilities>
+			<li>AG_PetrifyingGaze</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_PetrifyingGaze</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-3</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>petr</symbol>
+				</li>
+				<li>
+					<symbol>medus</symbol>
+				</li>
+				<li>
+					<symbol>gorgo</symbol>
+				</li>
+				
+			</prefixSymbols>
+			
 		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

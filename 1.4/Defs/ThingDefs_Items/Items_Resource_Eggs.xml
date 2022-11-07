@@ -11,7 +11,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>AG_HumanEgg</defName>
 		<label>human egg (fert.)</label>
-		<description>Fertilized human egg. If all goes well, it should hatch into a human. It can be eaten raw, but it's much better cooked, you monster.</description>
+		<description>Fertilized human egg. If all goes well, it should hatch into a human.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_HumanEgg</texPath>			
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -25,6 +25,10 @@
 				
 			</li>
 		</comps>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
 	</ThingDef>
 
 	

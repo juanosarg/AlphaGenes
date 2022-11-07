@@ -22,6 +22,7 @@ namespace AlphaGenes
 		public static GeneDef AG_FastGestation;
 		public static GeneDef AG_SlowGestation;
 		public static GeneDef AG_MetalEater;
+		public static GeneDef AlphaGenes_Randomizer;
 
 		public static HediffDef AG_LungRotStrengthHediff;
 		public static HediffDef AG_GeneRemovalComa;

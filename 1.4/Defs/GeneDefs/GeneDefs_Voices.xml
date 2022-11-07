@@ -9,6 +9,7 @@
 		<soundCall>AG_Pawn_Slug_Call</soundCall>
 		<soundDeath>AG_Pawn_Slug_Death</soundDeath>
 		<soundWounded>AG_Pawn_Slug_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -28,6 +29,7 @@
 		<soundCall>AG_Pawn_Lapis_Call</soundCall>
 		<soundDeath>AG_Pawn_Lapis_Death</soundDeath>
 		<soundWounded>AG_Pawn_Lapis_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

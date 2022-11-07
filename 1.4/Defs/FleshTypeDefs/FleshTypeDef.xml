@@ -33,5 +33,54 @@
             </li>
         </genericWounds>
     </FleshTypeDef>
+	 <FleshTypeDef>
+        <defName>AG_WoundsTar</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>AG_Damage_HitTar</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundTarA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundTarB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundTarC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
+	 <FleshTypeDef>
+        <defName>AG_WoundsInsect</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>Damage_HitInsect</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundInsectA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundInsectB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundInsectC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
+	
+	 <FleshTypeDef>
+        <defName>AG_WoundsFoam</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>AG_Damage_HitFoam</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundWhiteA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundWhiteB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundWhiteC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
 
 </Defs>

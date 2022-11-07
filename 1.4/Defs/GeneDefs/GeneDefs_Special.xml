@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AlphaGenes_Randomizer</defName>
+		<label>randomizer</label>
+		<description>Once a pawn receives this gene, it will transform its xenotype into one of the custom xenotypes made by the player.</description>
+		<iconPath>UI/Icons/Genes/AG_Randomizer</iconPath>
+		<geneClass>AlphaGenes.Gene_Randomizer</geneClass>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
+</Defs>

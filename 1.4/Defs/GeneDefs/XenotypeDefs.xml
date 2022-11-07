@@ -96,6 +96,19 @@
 			<li>AptitudePoor_Animals</li>
 			<li>AG_SlowGestation</li>
 			<li>AG_RockVoice</li>
+			<li>AG_PebbleBlood</li>
+			
+		</genes>
+	</XenotypeDef>
+	<XenotypeDef>
+		<defName>AG_RandomCustom</defName>
+		<label>random custom</label>
+		<description>This will transform the xenotype of the pawn into one of the custom xenotypes created by the player at random.</description>
+		<descriptionShort>This will transform the xenotype of the pawn into one of the custom xenotypes created by the player at random.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_RandomCustom</iconPath>
+		
+		<genes>
+			<li>AlphaGenes_Randomizer</li>
 			
 			
 		</genes>

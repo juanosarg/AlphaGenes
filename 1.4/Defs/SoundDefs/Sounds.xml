@@ -117,6 +117,34 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	
+	<!-- ======================== Petrify ======================== -->
+
+	
+	<SoundDef>
+		<defName>AG_Petrify</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>AG_Petrify/AG_Petrify</clipPath>
+					</li>
+				</grains>
+
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
 
 

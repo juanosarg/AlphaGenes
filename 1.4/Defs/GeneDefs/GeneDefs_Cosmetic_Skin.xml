@@ -7,6 +7,7 @@
 		<description>Carriers of this gene produce a pigment that gives their skin a deep green color.</description>
 		<skinColorOverride>(2,91,19)</skinColorOverride>
 		<displayOrderInCategory>101</displayOrderInCategory>
+		
 		<symbolPack>
 			<wholeNameSymbols>
 				<li>
@@ -83,6 +84,7 @@
 		<labelShortAdj>Silver</labelShortAdj>
 		<description>Carriers of this gene produce a pigment that turns their skin an iridiscent silver color.</description>
 		<skinColorOverride>(255, 255, 255)</skinColorOverride>
+		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<fur>AG_SilverBody</fur>
 			<drawLoc>Tailbone</drawLoc>
@@ -129,6 +131,7 @@
 		<labelShortAdj>golden</labelShortAdj>
 		<description>Carriers of this gene produce a pigment that turns their skin an iridiscent golden color.</description>
 		<skinColorOverride>(198, 184, 134)</skinColorOverride>
+		<selectionWeight>0</selectionWeight>
 		<exclusionTags>
 			<li>AG_Heads</li>
 			<li>Heads</li>
@@ -183,6 +186,7 @@
 		<labelShortAdj>golden</labelShortAdj>
 		<description>Carriers of this gene produce a pigment that turns their skin a very very deep black.</description>
 		<skinColorOverride>(255, 255, 255)</skinColorOverride>
+		<selectionWeight>0</selectionWeight>
 		<iconColor>(10,10,10)</iconColor>
 		<graphicData>
 			<fur>AG_TrueBlackBody</fur>
