@@ -202,6 +202,12 @@
 			<ToxicResistance>-0.5</ToxicResistance>
 		</statOffsets>
 		<biostatMet>2</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	<GeneDef>
 		<defName>AG_HardBones</defName>
