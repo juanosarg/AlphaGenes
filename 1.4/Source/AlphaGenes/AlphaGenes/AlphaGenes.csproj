@@ -331,6 +331,7 @@
     <Compile Include="Comps\CompTargetEffect_Xenogenefier.cs" />
     <Compile Include="Comps\CompTargetEffect_XenotypeNullifier.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
+    <Compile Include="Gas and Liquid\Persistant_Fuel.cs" />
     <Compile Include="GeneResource\Gene_Resource_MineralEffiency.cs" />
     <Compile Include="GeneResource\Gene_Resource_Metal.cs" />
     <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />

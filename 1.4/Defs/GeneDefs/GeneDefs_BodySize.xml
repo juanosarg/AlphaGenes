@@ -74,26 +74,6 @@
 		</modExtensions>
 	</GeneDef>
 	
-	<GeneDef>
-		<defName>AG_SmallerBodySizeTest</defName>
-		<label>chemfuel</label>
-		<description>Carriers of this gene have a smaller body size than usual. This has its advantages and disadvantages.</description>
-		<iconPath>UI/Icons/Genes/AG_SmallerBodySize</iconPath>
-		
-		
-		<displayCategory>AG_BodySize</displayCategory>
-		<displayOrderInCategory>0</displayOrderInCategory>
-		<biostatCpx>1</biostatCpx>
-		<biostatMet>-1</biostatMet>
-		
-		<selectionWeight>0</selectionWeight>
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<customBloodThingDef>Filth_Fuel</customBloodThingDef>
-			</li>
-		</modExtensions>
-	</GeneDef>
+	
 	
 </Defs>

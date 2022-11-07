@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_ChemfuelBlood</defName>
+		<label>chemfuel blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have a chemfuel powered metabolism, and as such will bleed chemfuel instead of normal human blood. This blood is flammable.</description>
+		<iconPath>UI/Icons/Genes/AG_ChemfuelBlood</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<geneClass>VanillaGenesExpanded.Gene_AddsBloodType</geneClass>
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<biostatCpx>1</biostatCpx>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>chembleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>chem</symbol>
+				</li>
+				<li>
+					<symbol>explo</symbol>
+				</li>
+				<li>
+					<symbol>boom</symbol>
+				</li>
+
+			</prefixSymbols>
+			
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+
+				<customBloodThingDef>AG_Filth_Fuel</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_ChembloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitChemfuel</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsChemfuel</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_SlimeBlood</defName>
+		<label>slime blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have slimy, green coloured blood. This blood is thick, exceptionally ugly, and doesn't go away on its own.</description>
+		<iconPath>UI/Icons/Genes/AG_SlimeBlood</iconPath>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<geneClass>VanillaGenesExpanded.Gene_AddsBloodType</geneClass>
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>slimebleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>slimy</symbol>
+				</li>
+				<li>
+					<symbol>mucus</symbol>
+				</li>
+				<li>
+					<symbol>booger</symbol>
+				</li>
+
+			</prefixSymbols>
+			
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+
+				<customBloodThingDef>AG_FilthMucus</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_SlimebloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitSlime</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsSlime</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

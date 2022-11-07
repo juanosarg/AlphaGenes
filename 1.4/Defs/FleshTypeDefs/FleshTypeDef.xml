@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FleshTypeDef>
+        <defName>AG_WoundsChemfuel</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>AG_Damage_HitChemfuel</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundChemfuelA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundChemfuelB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundChemfuelC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
+	 <FleshTypeDef>
+        <defName>AG_WoundsSlime</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>AG_Damage_HitSlime</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundSlimeA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundSlimeB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundSlimeC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
+
+</Defs>
