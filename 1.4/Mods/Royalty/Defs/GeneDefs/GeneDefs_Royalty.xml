@@ -27,6 +27,50 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_PsychicSight</defName>
+		<label>psychic sight</label>
+		<iconPath>UI/Icons/Genes/AG_PsychicSight</iconPath>
+		<description>Carriers of this gene are almost completely blind... until they gain psychic powers. They can direct their inner psychic sight and gain even better insight the more power they acquire.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>52</displayOrderInCategory>
+		<biostatMet>-2</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>psy</symbol>
+				</li>
+				
+				<li>
+					<symbol>blind</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>sighter</symbol>
+				</li>
+				<li>
+					<symbol>peeker</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>Sight will depend on the psylink level of the carrier.</li>
+			<li>If you have Vanilla Psycasts Expanded, this will probably be very wacky.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_PsychicSight</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 
 

@@ -13,10 +13,35 @@
 				<compClass>HediffComp_Invisibility</compClass>
 			</li>
 			<li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-6</severityPerDay>
-        <showDaysToRecover>true</showDaysToRecover>
-      </li>
-      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+				<severityPerDay>-6</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_PsychicSight</defName>
+		<label>psychic sight</label>
+		<description>This person is completely blind... until they gain psychic powers. They can direct their inner psychic sight and gain even better insight the more power they acquire.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
 	</HediffDef>
 </Defs>
