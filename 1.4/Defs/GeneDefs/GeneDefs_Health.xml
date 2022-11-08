@@ -356,7 +356,7 @@
 		<statFactors>
 			<ImmunityGainSpeed>0.75</ImmunityGainSpeed>
 		</statFactors>
-		<biostatMet>4</biostatMet>
+		<biostatMet>3</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<symbolPack>
 			<prefixSymbols>
