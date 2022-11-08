@@ -44,7 +44,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
+	<GeneDef>
+		<defName>AG_HeavilyScarred</defName>
+		<label>heavily scarred</label>
+		<description>Carriers of this gene have prominent scars on their faces, as if their skin had been cut and put together again.</description>
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<iconPath>UI/Icons/Genes/AG_Scars</iconPath>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<graphicData>
+			<useSkinShader>true</useSkinShader>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Scars/AG_Scars</graphicPath>
+			<visibleNorth>true</visibleNorth>
+			<layer>PostSkin</layer>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	<GeneDef ParentName="AG_MiscBase">
 		<defName>AG_ChainsawHands</defName>
 		<label>chainsaw hands</label>

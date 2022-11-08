@@ -95,6 +95,23 @@
 		</comps>
 	</HediffDef>
 	<HediffDef>
+		<defName>AG_UnstableMutationCatastrophic</defName>
+		<label>unstable mutation, catastrophic</label>
+		<description>Forces an uncontrollable and unstable mutation on this person every day. This mutation will activate ten new random genes for a whole day. Next day, the genes will deactivate and ten new ones will take their place.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="AlphaGenes.HediffCompProperties_RandomMutation">
+				<numberOfGenes>10</numberOfGenes>
+				<recurrent>true</recurrent>
+				<period>60000</period>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
 		<defName>AG_NearBlindness</defName>
 		<label>near blindness</label>
 		<description>This person has almost completely useless eyes, with close to total blindness.</description>

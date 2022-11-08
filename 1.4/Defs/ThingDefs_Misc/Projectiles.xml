@@ -130,4 +130,21 @@
 			<speed>20</speed>
 		</projectile>
 	</VFECore.ExpandableProjectileDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>AG_Web</defName>
+		<label>web</label>
+		<thingClass>AlphaGenes.Web_Projectile</thingClass>
+		<graphicData>
+			<texPath>UI/Icons/Genes/AG_Web</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Stun</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<speed>15</speed>
+		</projectile>
+	</ThingDef>
 </Defs>

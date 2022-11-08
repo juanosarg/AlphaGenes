@@ -43,7 +43,7 @@ namespace AlphaGenes
 
                 if (hediff == null)
                 {
-                    GeneDef geneToCreate = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false).RandomElement();
+                    GeneDef geneToCreate = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false && x.prerequisite==null).RandomElement();
                     pawn.genes.AddGene(geneToCreate,false);
                    
                     pawn.health.AddHediff(InternalDefOf.AG_GeneRemovalComa);

@@ -12,9 +12,10 @@
 
 		<xenotypeSet Inherit="False">
 			<xenotypeChances>				
-				<AG_RandomCustom>0.8</AG_RandomCustom>			
+				<AG_RandomCustom>0.75</AG_RandomCustom>			
 				<AG_Animusen>0.05</AG_Animusen>
 				<AG_Helixien>0.05</AG_Helixien>
+				<AG_Wretch>0.025</AG_Wretch>
 			</xenotypeChances>
 			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 
@@ -34,9 +35,10 @@
 		<factionIconPath>World/AG_XenohumanPirates</factionIconPath>
 		<xenotypeSet Inherit="False">
 			<xenotypeChances>
-				<AG_RandomCustom>0.8</AG_RandomCustom>			
+				<AG_RandomCustom>0.75</AG_RandomCustom>			
 				<AG_Animusen>0.05</AG_Animusen>
 				<AG_Helixien>0.05</AG_Helixien>
+				<AG_Wretch>0.025</AG_Wretch>
 			</xenotypeChances>
 			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>

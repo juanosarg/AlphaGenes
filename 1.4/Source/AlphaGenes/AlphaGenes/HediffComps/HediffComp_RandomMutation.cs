@@ -13,7 +13,9 @@ namespace AlphaGenes
 
 		public List<GeneDef> genes = new List<GeneDef>();
 
-		public bool Active = false;
+        public List<GeneDef> blacklist = new List<GeneDef>() { InternalDefOf.AG_UnstableMutation,InternalDefOf.AG_UnstableMutationMajor,InternalDefOf.AG_UnstableMutationCatastrophic };
+
+        public bool Active = false;
 
         public override void CompExposeData()
         {
@@ -33,7 +35,7 @@ namespace AlphaGenes
 				List<string> geneNamesToDisplay = new List<string>();
 				for (int i = 0; i < Props.numberOfGenes; i++)
 				{
-					GeneDef gene = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false).RandomElement();
+					GeneDef gene = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false && x.prerequisite==null && !blacklist.Contains(x)).RandomElement();
 					genes.Add(gene);
 					geneNamesToDisplay.Add(gene.LabelCap);
 					this.parent.pawn.genes?.AddGene(gene, true);

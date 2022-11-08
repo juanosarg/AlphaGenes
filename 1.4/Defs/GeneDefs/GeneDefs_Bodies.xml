@@ -230,4 +230,27 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_Digitigrade</defName>
+		<label>digitigrade legs</label>
+		<labelShortAdj>digitigrade</labelShortAdj>
+		<description>Carriers of this gene have digitigrade legs, meaning they stand or walk with their toes (metatarsals) touching the ground, and the rest of their foot lifted.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>440</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_Digitigrade</iconPath>
+		<statFactors>
+			<MoveSpeed>1.2</MoveSpeed>
+			<CarryingCapacity>0.6</CarryingCapacity>
+		</statFactors>
+		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

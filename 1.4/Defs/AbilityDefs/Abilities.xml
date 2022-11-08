@@ -189,4 +189,27 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_Web</defName>
+		<label>web</label>
+		<description>Produce strands of sticky silk on the wrists, and throw these webs at will, stunning enemies.</description>
+		<iconPath>UI/Icons/Genes/AG_Web</iconPath>
+		<cooldownTicksRange>8000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>10.9</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_Throw</soundCast>
+			<targetParams>
+				<canTargetLocations>false</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>AG_Web</projectileDef>
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>

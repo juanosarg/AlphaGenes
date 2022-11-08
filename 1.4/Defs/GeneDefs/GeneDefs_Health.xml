@@ -138,6 +138,31 @@
 		</modExtensions>
 	</GeneDef>
 	<GeneDef>
+		<defName>AG_UnstableMutationCatastrophic</defName>
+		<label>unstable mutation, catastrophic</label>
+		<exclusionTags>
+			<li>AG_UnstableMutations</li>
+		</exclusionTags>
+		<description>Carriers of this gene will suffer a very powerful unstable mutation on their bodies once per day. This mutation will activate up to ten new random genes for the whole day. Next day, the genes will deactivate and ten new ones will take their place.</description>
+		<customEffectDescriptions>
+			<li>This mutation can be incredibly harmful, and potentially lethal.</li>
+		</customEffectDescriptions>
+		<iconPath>UI/Icons/Genes/AG_UnstableMutationCatastrophic</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>115</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_UnstableMutationCatastrophic</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
 		<defName>AG_Deaf</defName>
 		<label>deaf</label>
 		<description>Carriers of this gene have a complete lack of hearing.</description>
@@ -268,6 +293,50 @@
 		<iconPath>UI/Icons/Genes/AG_FrostbiteVulnerability</iconPath>
 		<displayCategory>Healing</displayCategory>
 		<displayOrderInCategory>119</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Clean</defName>
+		<label>clean</label>
+		<exclusionTags>
+			<li>AG_Filth</li>
+		</exclusionTags>
+		<statFactors>
+			<FilthRate>0.5</FilthRate>
+		</statFactors>
+		<description>Carriers of this gene are naturally clean and generate less filth on their day to day activities.</description>
+		<iconPath>UI/Icons/Genes/AG_Clean</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>120</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Filthy</defName>
+		<label>filthy</label>
+		<exclusionTags>
+			<li>AG_Filth</li>
+		</exclusionTags>
+		<statFactors>
+			<FilthRate>2</FilthRate>
+		</statFactors>
+		<description>Carriers of this gene are naturally filthy and generate more filth on their day to day activities.</description>
+		<iconPath>UI/Icons/Genes/AG_Filthy</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>121</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
