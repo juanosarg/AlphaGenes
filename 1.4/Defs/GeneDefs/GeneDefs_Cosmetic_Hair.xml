@@ -3,6 +3,9 @@
 	<GeneDef ParentName="GeneHairColorBase">
 		<defName>AG_Hair_DeepRed</defName>
 		<label>deep red hair</label>
+		 <customEffectDescriptions>
+			<li>Just the way General Pain likes it.</li>
+		</customEffectDescriptions>
 		<hairColorOverride>(219, 29, 29)</hairColorOverride>
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>200</displayOrderInCategory>
