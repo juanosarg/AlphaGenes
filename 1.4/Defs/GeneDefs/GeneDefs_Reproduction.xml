@@ -64,7 +64,7 @@
 		<displayOrderInCategory>115.2</displayOrderInCategory>
 		<biostatMet>-3</biostatMet>
 		<biostatCpx>3</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

@@ -46,7 +46,7 @@
 
 		<description>Carriers of this gene constantly secrete a foul-smelling, corrosive gas that produces an uncomfortable, itchy sensation in living beings. This gas is mostly harmless, unless it comes into contact with decaying organic matter: it greatly accelerates corpse rotting, liberating a black putrid liquid known as "purge fluid" or corpse bile. The carrier is fed through the skin by contacting the liquid sludge, although they can also feed on other organic matter if needed.</description>
 		<iconPath>UI/Icons/Genes/AG_CorpseFeeding</iconPath>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<displayCategory>AG_FoodConsumption</displayCategory>
 		<displayOrderInCategory>40</displayOrderInCategory>
 		<biostatCpx>4</biostatCpx>
@@ -84,7 +84,7 @@
 
 		<description>Carriers of this gene have chlorophyll pigments in their skin that allows them to absorb nutrients from sunlight, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance.</description>
 		<iconPath>UI/Icons/Genes/AG_LightSustenance</iconPath>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<displayCategory>AG_FoodConsumption</displayCategory>
 		<displayOrderInCategory>50</displayOrderInCategory>
 		<iconColor>(255,255,255)</iconColor>

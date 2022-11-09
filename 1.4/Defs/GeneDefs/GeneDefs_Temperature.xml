@@ -163,8 +163,7 @@
 		<customEffectDescriptions>
 			<li>Generates intense heat up to 80ºC. Bear in mind this gene itself doesn't make the carrier heat resistant.</li>			
 		</customEffectDescriptions>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-
+	
 		<selectionWeight>0</selectionWeight>
 		<biostatMet>-3</biostatMet>
 		<symbolPack>
@@ -192,7 +191,7 @@
 		<customEffectDescriptions>
 			<li>Generates intense cold up to -20ºC. Bear in mind this gene itself doesn't make the carrier cold resistant.</li>			
 		</customEffectDescriptions>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<selectionWeight>0</selectionWeight>
 
 		<biostatMet>-3</biostatMet>

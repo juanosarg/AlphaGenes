@@ -18,7 +18,7 @@
 		</customEffectDescriptions>
 		
 		<biostatCpx>3</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<symbolPack>
 			<prefixSymbols>
 				<li>

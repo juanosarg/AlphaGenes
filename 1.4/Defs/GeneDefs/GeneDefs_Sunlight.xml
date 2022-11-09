@@ -7,7 +7,7 @@
 		<description>Carriers of this gene have eyes that are sensitive to UV radiation, making them mildly unconfortable when in direct sunlight.</description>
 		<iconPath>UI/Icons/Genes/AG_SolarMinor</iconPath>
 		<displayOrderInCategory>39</displayOrderInCategory>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<biostatMet>2</biostatMet>
 		<customEffectDescriptions>
 			<li>-10% Sight when in direct sunlight.</li>
@@ -58,7 +58,7 @@
 			<li>Will be knocked unconscious under direct sunlight</li>
 			<li>Bear in mind that adding this gene at game start will mean the colonist will fall unconscious as soon as it lands, and remain so until night</li>
 		</customEffectDescriptions>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<selectionWeight>0</selectionWeight>
 		<biostatCpx>3</biostatCpx>
 		<biostatMet>8</biostatMet>
@@ -107,7 +107,7 @@
 			<li>Will be burned to death under direct sunlight</li>
 			<li>Bear in mind that adding this gene at game start might mean the colonist will just burn to death when landing unless you can IMMEDIATELY find or build cover</li>
 		</customEffectDescriptions>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<skinColorOverride>(250, 240, 240)</skinColorOverride>
 		<randomBrightnessFactor>0</randomBrightnessFactor>
 		<biostatCpx>3</biostatCpx>

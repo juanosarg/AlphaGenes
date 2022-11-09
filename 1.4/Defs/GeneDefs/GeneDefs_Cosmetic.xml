@@ -76,7 +76,7 @@
 		<displayCategory>Cosmetic</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -183,7 +183,7 @@
 		<description>Carriers of this gene grow two large bull horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_BullHornsIcon</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<customEffectDescriptions>
 			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
 		</customEffectDescriptions>
@@ -234,7 +234,7 @@
 		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<description>Carriers of this gene grow two large antlers protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_AntlerHornsIcon</iconPath>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
 			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>

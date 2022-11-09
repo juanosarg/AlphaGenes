@@ -23,7 +23,7 @@
 		</customEffectDescriptions>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -73,8 +73,7 @@
 			<li>Colonist will ignore terrain movement costs</li>
 			
 		</customEffectDescriptions>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
-		
+	
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BatWings/AG_BatWings</graphicPath>
 			<drawScale>2</drawScale>
@@ -119,7 +118,7 @@
 			
 		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -159,7 +158,7 @@
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -203,7 +202,7 @@
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-2</biostatMet>
 		<selectionWeight>0</selectionWeight>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<symbolPack>
 			<prefixSymbols>
 				<li>

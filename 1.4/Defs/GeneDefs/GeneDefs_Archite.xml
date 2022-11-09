@@ -13,7 +13,7 @@
 		<selectionWeight>0</selectionWeight>
 		<biostatCpx>7</biostatCpx>
 		<biostatArc>1</biostatArc>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<customEffectDescriptions>
 			<li>Reduces the need to eat to be almost negligible (not entirely zero to avoid weird mod interactions)</li>			
 		</customEffectDescriptions>
@@ -68,7 +68,7 @@
 		<marketValueFactor>2</marketValueFactor>
 		<selectionWeight>0</selectionWeight>
 		<biostatArc>2</biostatArc>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<statFactors>
 			<Fertility>0</Fertility>
 		</statFactors>

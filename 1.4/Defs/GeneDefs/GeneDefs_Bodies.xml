@@ -240,13 +240,19 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>440</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_Digitigrade</iconPath>
+		
 		<statFactors>
 			<MoveSpeed>1.2</MoveSpeed>
 			<CarryingCapacity>0.6</CarryingCapacity>
 		</statFactors>
+		<exclusionTags>
+			<li>AG_CarryingCapacity</li>
+			<li>CarryingCapacity</li>
+		</exclusionTags>
 		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
+				<caravanCarryingFactor>0.6</caravanCarryingFactor>
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				

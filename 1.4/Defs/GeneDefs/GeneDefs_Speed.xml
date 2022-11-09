@@ -33,7 +33,7 @@
 		<displayCategory>Movement</displayCategory>
 		<displayOrderInCategory>502</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<modExtensions>

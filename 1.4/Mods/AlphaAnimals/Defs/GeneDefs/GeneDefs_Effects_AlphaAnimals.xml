@@ -17,7 +17,6 @@
 		
 		<biostatMet>-2</biostatMet>
 		<biostatCpx>1</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
 		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>

@@ -17,7 +17,7 @@
 
 		<description>Carriers of this gene have several fungal clumps sprouting from their skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire.</description>
 		<iconPath>UI/Icons/Genes/AG_FungalSkin</iconPath>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<customEffectDescriptions>
 			<li>50% blunt and sharp natural armour. +25% injury healing factor.</li>
 			<li>Fires will cause permanent wounds.</li>
@@ -93,7 +93,7 @@
 
 		<description>Carriers of this gene have hard, bark-like skin. This confers a small amount of natural armour.</description>
 		<iconPath>UI/Icons/Genes/AG_ArmourMinor</iconPath>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<customEffectDescriptions>
 			<li>10% blunt and sharp natural armour.</li>
 		</customEffectDescriptions>
@@ -125,7 +125,7 @@
 
 		<description>Carriers of this gene have their skin strengthened by a nano-lattice of metallic compounds. This confers a medium amount of natural armour.</description>
 		<iconPath>UI/Icons/Genes/AG_ArmourMedium</iconPath>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<customEffectDescriptions>
 			<li>20% blunt and sharp natural armour.</li>
 		</customEffectDescriptions>
@@ -160,7 +160,7 @@
 
 		<description>Carriers of this gene have their skin strengthened by a plasteel nano-lattice. This confers a great amount of natural armour.</description>
 		<iconPath>UI/Icons/Genes/AG_ArmourMajor</iconPath>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<customEffectDescriptions>
 			<li>30% blunt and sharp natural armour.</li>
 		</customEffectDescriptions>

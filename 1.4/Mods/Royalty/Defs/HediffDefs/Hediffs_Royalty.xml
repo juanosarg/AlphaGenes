@@ -26,11 +26,14 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>0.01</initialSeverity>
 		<isBad>false</isBad>
 		<comps>
 			
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
-			
+			<li Class="AnimalBehaviours.HediffCompProperties_StageByPsylink">
+				
+			</li>
 		</comps>
 		<stages>
 			<li>
@@ -39,6 +42,60 @@
 					<li>
 						<capacity>Sight</capacity>
 						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.16</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.5</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.32</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.66</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.5</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.83</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.75</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>1</offset>
 					</li>
 				</capMods>
 			</li>

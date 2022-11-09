@@ -67,7 +67,7 @@
 			<li>ShootingAccuracy</li>
 			<li>EyeColor</li>
 		</exclusionTags>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<symbolPack>
 			<prefixSymbols>
 				<li>

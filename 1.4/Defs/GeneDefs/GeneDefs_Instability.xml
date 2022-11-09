@@ -10,7 +10,7 @@
 		<customEffectDescriptions>
 			<li>Carrier will die in three natural years.</li>
 		</customEffectDescriptions>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<selectionWeight>0</selectionWeight>
 		<statFactors>			
 			<CancerRate>7</CancerRate>

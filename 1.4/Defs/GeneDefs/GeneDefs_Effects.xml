@@ -21,7 +21,7 @@
 			<layer>PostHeadgear</layer>
 		</graphicData>
 		<biostatCpx>1</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -66,7 +66,7 @@
 		</customEffectDescriptions>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -108,7 +108,7 @@
 		</customEffectDescriptions>
 		
 		<biostatCpx>3</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -147,7 +147,7 @@
 		</customEffectDescriptions>
 		
 		<biostatCpx>3</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<symbolPack>
 			<prefixSymbols>
 				<li>

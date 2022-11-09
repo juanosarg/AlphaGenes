@@ -12,7 +12,7 @@
 			<MeditationFocusGain>0.3</MeditationFocusGain>
 			<PsychicEntropyRecoveryRate>0.25</PsychicEntropyRecoveryRate>
 		</statOffsets>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<biostatCpx>3</biostatCpx>
 		<biostatMet>-6</biostatMet>
 		<selectionWeight>0</selectionWeight>

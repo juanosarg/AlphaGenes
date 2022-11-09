@@ -7,7 +7,7 @@
 		<description>Carriers of this gene have a chemfuel powered metabolism, and as such will bleed chemfuel instead of normal human blood. This blood is flammable.</description>
 		<iconPath>UI/Icons/Genes/AG_ChemfuelBlood</iconPath>
 		<displayOrderInCategory>10</displayOrderInCategory>
-		<geneClass>VanillaGenesExpanded.Gene_AddsBloodType</geneClass>
+	
 		<exclusionTags>
 			<li>AG_BloodType</li>
 			<li>BloodType</li>
@@ -55,7 +55,7 @@
 		<description>Carriers of this gene have slimy, green coloured blood. This blood is thick, exceptionally ugly, and doesn't go away on its own.</description>
 		<iconPath>UI/Icons/Genes/AG_SlimeBlood</iconPath>
 		<displayOrderInCategory>20</displayOrderInCategory>
-		<geneClass>VanillaGenesExpanded.Gene_AddsBloodType</geneClass>
+		
 		<exclusionTags>
 			<li>AG_BloodType</li>
 			<li>BloodType</li>
@@ -104,7 +104,7 @@
 		<description>Carriers of this gene have very thick, dark and sticky blood, similar to tar. This blood impedes movement.</description>
 		<iconPath>UI/Icons/Genes/AG_TarBlood</iconPath>
 		<displayOrderInCategory>30</displayOrderInCategory>
-		<geneClass>VanillaGenesExpanded.Gene_AddsBloodType</geneClass>
+	
 		<exclusionTags>
 			<li>AG_BloodType</li>
 			<li>BloodType</li>
@@ -153,7 +153,7 @@
 		<description>Carriers of this gene have insect blood.</description>
 		<iconPath>UI/Icons/Genes/AG_InsectBlood</iconPath>
 		<displayOrderInCategory>40</displayOrderInCategory>
-		<geneClass>VanillaGenesExpanded.Gene_AddsBloodType</geneClass>
+	
 		<exclusionTags>
 			<li>AG_BloodType</li>
 			<li>BloodType</li>
@@ -200,7 +200,7 @@
 		<description>Carriers of this gene have a weird fire retardant mixture for blood. This blood is not potent enough to put down fires, but it will not let flames spread.</description>
 		<iconPath>UI/Icons/Genes/AG_FirefoamBlood</iconPath>
 		<displayOrderInCategory>50</displayOrderInCategory>
-		<geneClass>VanillaGenesExpanded.Gene_AddsBloodType</geneClass>
+	
 		<exclusionTags>
 			<li>AG_BloodType</li>
 			<li>BloodType</li>
@@ -246,7 +246,7 @@
 		<description>Carriers of this gene have partially crystallized blood, that takes the form of small stone-like pebbles as soon as it comes into contact with air. This blood affects much less the beauty and cleanliness of its surroundings, but takes more time to go away and more work to clean.</description>
 		<iconPath>UI/Icons/Genes/AG_PebbleBlood</iconPath>
 		<displayOrderInCategory>60</displayOrderInCategory>
-		<geneClass>VanillaGenesExpanded.Gene_AddsBloodType</geneClass>
+		
 		<exclusionTags>
 			<li>AG_BloodType</li>
 			<li>BloodType</li>

@@ -61,7 +61,7 @@
 		<displayOrderInCategory>111.5</displayOrderInCategory>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -83,7 +83,7 @@
 		<displayOrderInCategory>112</displayOrderInCategory>
 		<biostatCpx>3</biostatCpx>
 		<biostatMet>-4</biostatMet>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -105,7 +105,7 @@
 		<displayOrderInCategory>113</displayOrderInCategory>
 		<biostatCpx>5</biostatCpx>
 		<biostatMet>-6</biostatMet>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -127,7 +127,7 @@
 		<displayOrderInCategory>114</displayOrderInCategory>
 		<biostatMet>-4</biostatMet>
 		<biostatCpx>2</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -152,7 +152,7 @@
 		<displayOrderInCategory>115</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
 		<biostatCpx>2</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -171,7 +171,7 @@
 		<displayOrderInCategory>116</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
 		<biostatCpx>1</biostatCpx>
-		<geneClass>VanillaGenesExpanded.Gene_AddsHediff</geneClass>
+		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -371,6 +371,31 @@
 		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_PackMule</defName>
+		<label>pack mule</label>
+		<exclusionTags>
+			<li>AG_CarryingCapacity</li>
+			<li>CarryingCapacity</li>
+		</exclusionTags>
+	
+		<statFactors>
+			<CarryingCapacity>1.5</CarryingCapacity>
+		</statFactors>
+		<description>Carriers of this gene can carry obscene amounts of stuff before feeling encumbered.</description>
+		<iconPath>UI/Icons/Genes/AG_PackMule</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>400</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+			<caravanCarryingFactor>1.5</caravanCarryingFactor>
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
