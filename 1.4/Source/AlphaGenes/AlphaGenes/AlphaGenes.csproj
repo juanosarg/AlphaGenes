@@ -307,6 +307,10 @@
     <Compile Include="AI\JobDrivers\JobDriver_DeliverMetal.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_FeedPatient.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_ConsumeMetal.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_UseGermlineMutator.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_UseXenotypeNullifier.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_UseXenogenefier.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_UseEndogenefier.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_UseGeneRemover.cs" />
     <Compile Include="AI\JobGivers\JobGiver_GetMetalicResource.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_ForceEatMetal.cs" />

@@ -45,8 +45,10 @@ namespace AlphaGenes
                 {
                     GeneDef geneToCreate = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false && x.prerequisite==null).RandomElement();
                     pawn.genes.AddGene(geneToCreate,false);
-                   
-                    pawn.health.AddHediff(InternalDefOf.AG_GeneRemovalComa);
+                    if (AlphaGenes_Mod.settings.AG_GeneRemovalComa)
+                    {
+                        pawn.health.AddHediff(InternalDefOf.AG_GeneRemovalComa);
+                    }
                     user.carryTracker.DestroyCarriedThing();
                 }
 

@@ -11,7 +11,7 @@ namespace AlphaGenes
     public class WorldComponent_BiotechLabQuests : WorldComponent
     {
         public int tickCounter;
-        public int ticksToNextQuest = 60000 * 15;
+        public int ticksToNextQuest = 60000 * 14;
 
 
         public WorldComponent_BiotechLabQuests(World world) : base(world)
@@ -30,23 +30,27 @@ namespace AlphaGenes
         {
             base.WorldComponentTick();
 
-
-
-            if (tickCounter > ticksToNextQuest)
+            if (!AlphaGenes_Mod.settings.AG_DisableQuests)
             {
 
-                Slate slate = new Slate();
-                Quest quest = QuestUtility.GenerateQuestAndMakeAvailable(InternalDefOf.AG_OpportunitySite_AbandonedBiotechLab, slate);
+                if (tickCounter > ticksToNextQuest)
+                {
 
-                QuestUtility.SendLetterQuestAvailable(quest);
-                ticksToNextQuest = (int)(60000 * Rand.RangeInclusive(15, 30) * AlphaGenes_Mod.settings.AG_QuestRate);
-                tickCounter = 0;
+                    Slate slate = new Slate();
+                    Quest quest = QuestUtility.GenerateQuestAndMakeAvailable(InternalDefOf.AG_OpportunitySite_AbandonedBiotechLab, slate);
+
+                    QuestUtility.SendLetterQuestAvailable(quest);
+                    ticksToNextQuest = (int)(60000 * Rand.RangeInclusive(15, 30) * AlphaGenes_Mod.settings.AG_QuestRate);
+                    tickCounter = 0;
 
 
 
 
+                }
+                tickCounter++;
             }
-            tickCounter++;
+
+            
 
 
 

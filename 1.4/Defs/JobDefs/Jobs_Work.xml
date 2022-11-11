@@ -6,5 +6,29 @@
 		<reportString>using gene remover.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
+	<JobDef>
+		<defName>AG_UseEndogenefier</defName>
+		<driverClass>AlphaGenes.JobDriver_UseEndogenefier</driverClass>
+		<reportString>using endogenefier.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>AG_UseXenogenefier</defName>
+		<driverClass>AlphaGenes.JobDriver_UseXenogenefier</driverClass>
+		<reportString>using xenogenefier.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>AG_UseXenotypeNullifier</defName>
+		<driverClass>AlphaGenes.JobDriver_UseXenotypeNullifier</driverClass>
+		<reportString>using xenotype nullifier.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>AG_UseGermlineMutator</defName>
+		<driverClass>AlphaGenes.JobDriver_UseGermlineMutator</driverClass>
+		<reportString>using germline mutator.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
 	
 </Defs>

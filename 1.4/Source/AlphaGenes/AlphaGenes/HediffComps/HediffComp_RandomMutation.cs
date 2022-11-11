@@ -41,8 +41,10 @@ namespace AlphaGenes
 					this.parent.pawn.genes?.AddGene(gene, true);
 
 				}
-                Messages.Message(    "AG_RandomGenesGained".Translate(parent.pawn.LabelShortCap, geneNamesToDisplay.ToCommaList()), this.parent.pawn, MessageTypeDefOf.PositiveEvent, true);
-
+				if (!AlphaGenes_Mod.settings.AG_DisableMutationsMessage)
+				{
+					Messages.Message("AG_RandomGenesGained".Translate(parent.pawn.LabelShortCap, geneNamesToDisplay.ToCommaList()), this.parent.pawn, MessageTypeDefOf.PositiveEvent, true);
+				}
 			}
 
             if (Props.recurrent)

@@ -126,7 +126,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
-				<useJob>AG_UseGeneRemover</useJob>
+				<useJob>AG_UseEndogenefier</useJob>
 				<useLabel>Use endogenefier</useLabel>
 				<useDuration>60</useDuration>
 			</li>
@@ -152,7 +152,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
-				<useJob>AG_UseGeneRemover</useJob>
+				<useJob>AG_UseXenogenefier</useJob>
 				<useLabel>Use xenogenefier</useLabel>
 				<useDuration>60</useDuration>
 			</li>
@@ -178,7 +178,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
-				<useJob>AG_UseGeneRemover</useJob>
+				<useJob>AG_UseXenotypeNullifier</useJob>
 				<useLabel>Use xenotype nullifier</useLabel>
 				<useDuration>60</useDuration>
 			</li>
@@ -204,7 +204,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
-				<useJob>AG_UseGeneRemover</useJob>
+				<useJob>AG_UseGermlineMutator</useJob>
 				<useLabel>Use germline mutator</useLabel>
 				<useDuration>60</useDuration>
 			</li>
