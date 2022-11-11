@@ -106,8 +106,166 @@
       </li>
     </subSounds>
   </SoundDef>
+  
+  <!-- Frog -->
+  <SoundDef>
+    <defName>AG_Pawn_Frog_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_FrogVoice/Call</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AG_Pawn_Frog_Death</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_FrogVoice/Death</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AG_Pawn_Frog_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_FrogVoice/Wounded</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+        <repeatMode>NeverTwice</repeatMode>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <!-- Guttural -->
+  <SoundDef>
+    <defName>AG_Pawn_Guttural_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_GutturalVoice/Call</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AG_Pawn_Guttural_Death</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_GutturalVoice/Death</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AG_Pawn_Guttural_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_GutturalVoice/Wounded</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+        <repeatMode>NeverTwice</repeatMode>
+      </li>
+    </subSounds>
+  </SoundDef>
 
   
+    <!-- Growling -->
+  <SoundDef>
+    <defName>AG_Pawn_Growling_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_GrowlingVoice/Call</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AG_Pawn_Growling_Death</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_GrowlingVoice/Death</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AG_Pawn_Growling_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_GrowlingVoice/Wounded</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+        <repeatMode>NeverTwice</repeatMode>
+      </li>
+    </subSounds>
+  </SoundDef>
 
 
 </Defs>
