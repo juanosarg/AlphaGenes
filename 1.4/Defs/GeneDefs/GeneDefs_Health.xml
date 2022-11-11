@@ -401,4 +401,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_FrailBack</defName>
+		<label>frail back</label>
+		<exclusionTags>
+			<li>AG_CarryingCapacity</li>
+			<li>CarryingCapacity</li>
+		</exclusionTags>
+	
+		<statFactors>
+			<CarryingCapacity>0.5</CarryingCapacity>
+		</statFactors>
+		<description>Carriers of this gene can't carry a lot of weight.</description>
+		<iconPath>UI/Icons/Genes/AG_FrailBack</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>399</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<caravanCarryingFactor>0.5</caravanCarryingFactor>
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
