@@ -1,0 +1,41 @@
+﻿
+using RimWorld;
+using Verse;
+using Verse.AI;
+
+namespace AlphaGenes
+{
+    public class MentalState_Thalassophobia : MentalState
+    {
+        private int lastWaterSeenTick = -1;
+
+        protected override bool CanEndBeforeMaxDurationNow => false;
+
+        public override RandomSocialMode SocialModeMax()
+        {
+            return RandomSocialMode.Off;
+        }
+
+        public override void MentalStateTick()
+        {
+            base.MentalStateTick();
+            if (pawn.IsHashIntervalTick(30))
+            {
+                if (lastWaterSeenTick < 0 || ThoughtWorker_Thalassophobia.NearWater(pawn))
+                {
+                    lastWaterSeenTick = Find.TickManager.TicksGame;
+                }
+                if (lastWaterSeenTick >= 0 && Find.TickManager.TicksGame >= lastWaterSeenTick + def.minTicksBeforeRecovery)
+                {
+                    RecoverFromState();
+                }
+            }
+        }
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look(ref lastWaterSeenTick, "lastWaterSeenTick", -1);
+        }
+    }
+}

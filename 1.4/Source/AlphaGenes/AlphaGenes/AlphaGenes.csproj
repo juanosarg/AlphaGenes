@@ -358,6 +358,8 @@
     <Compile Include="Hediff\Hediff_MineralOverdrive.cs" />
     <Compile Include="Hediff\Hediff_ReactiveArmour.cs" />
     <Compile Include="Hediff\Hediff_MineralFueled.cs" />
+    <Compile Include="MentalBreakDefs\MentalBreakWorker_Thalassophobia.cs" />
+    <Compile Include="MentalStateDefs\MentalState_Thalassophobia.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowSpawnerRadius.cs" />
     <Compile Include="Projectiles\Web_Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -374,7 +376,8 @@
     <Compile Include="ThingSetMakers\ThingSetMaker_PolarBear.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Wolf.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Rats.cs" />
-    <Compile Include="ThoughtDefs\ThoughtWorker_UnsettlingAppearance.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_Thalassophobia.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_UnsettlingAppearance.cs" />
     <Compile Include="WorldComponents\WorldComponent_BiotechLabQuests.cs" />
   </ItemGroup>
   <ItemGroup>

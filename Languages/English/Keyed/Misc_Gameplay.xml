@@ -20,7 +20,7 @@
 	<!-- Settings -->
 	
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
-	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonits. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>
+	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>
 	
 	<AG_GeneRemovalComa>Genetic tools cause gene removal coma</AG_GeneRemovalComa>
 	<AG_GeneRemovalComa_Description>Using any genetic tool causes a gene removal coma that lasts for 15 days, knocking the colonist out, and no other tool can be used in that period. This is ON by default for balance.</AG_GeneRemovalComa_Description>

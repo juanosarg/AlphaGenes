@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_Thalassophobia</defName>
+		<label>thalassophobia</label>
+		<description>Carriers of this gene have an intense fear of bodies of water. When water is close, there is a chance they will have a mental breakdown at any moment.</description>
+		<iconPath>UI/Icons/Genes/AG_Thalassophobia</iconPath>
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<displayOrderInCategory>81</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<customEffectDescriptions>
+			<li>This will be triggered by any terrain the game considers water, marsh included.</li>
+		</customEffectDescriptions>
+		<mentalBreakMtbDays>0.1</mentalBreakMtbDays>
+		<mentalBreakDef>AG_Thalassophobia</mentalBreakDef>
+		<selectionWeight>0</selectionWeight>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

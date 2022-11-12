@@ -23,6 +23,7 @@ namespace AlphaGenes
 		public static GeneDef AG_SlowGestation;
 		public static GeneDef AG_MetalEater;
 		public static GeneDef AlphaGenes_Randomizer;
+        public static GeneDef AG_Thalassophobia;
 
         public static GeneDef AG_UnstableMutation;
         public static GeneDef AG_UnstableMutationMajor;
