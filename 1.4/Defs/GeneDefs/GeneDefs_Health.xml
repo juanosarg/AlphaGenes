@@ -149,7 +149,7 @@
 		</customEffectDescriptions>
 		<iconPath>UI/Icons/Genes/AG_UnstableMutationCatastrophic</iconPath>
 		<displayCategory>Healing</displayCategory>
-		<displayOrderInCategory>115</displayOrderInCategory>
+		<displayOrderInCategory>114.1</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
 		<biostatCpx>2</biostatCpx>
 	
