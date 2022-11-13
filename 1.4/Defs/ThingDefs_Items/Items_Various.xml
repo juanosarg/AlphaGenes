@@ -114,7 +114,7 @@
 	<ThingDef ParentName="AG_GeneToolBase">
 		<defName>AG_Endogenefier</defName>
 		<label>endogenefier</label>
-		<description>A genetic toolkit capable of converting a random endogene from a human target into a xenogene. As a result, the target will drop into a coma for a few days. Using the endogenefier on a colonist suffering from the coma will have no effect.</description>
+		<description>A genetic toolkit capable of converting a random xenogene from a human target into an endogene. As a result, the target will drop into a coma for a few days. Using the endogenefier on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_Endogenefier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -126,7 +126,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
-				<useJob>AG_UseGeneRemover</useJob>
+				<useJob>AG_UseEndogenefier</useJob>
 				<useLabel>Use endogenefier</useLabel>
 				<useDuration>60</useDuration>
 			</li>
@@ -140,7 +140,7 @@
 	<ThingDef ParentName="AG_GeneToolBase">
 		<defName>AG_Xenogenefier</defName>
 		<label>xenogenefier</label>
-		<description>A genetic toolkit capable of converting a random xenogene from a human target into a endogene. As a result, the target will drop into a coma for a few days. Using the xenogenefier on a colonist suffering from the coma will have no effect.</description>
+		<description>A genetic toolkit capable of converting a random endogene from a human target into a xenogene. As a result, the target will drop into a coma for a few days. Using the xenogenefier on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_Xenogenefier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -152,7 +152,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
-				<useJob>AG_UseGeneRemover</useJob>
+				<useJob>AG_UseXenogenefier</useJob>
 				<useLabel>Use xenogenefier</useLabel>
 				<useDuration>60</useDuration>
 			</li>
@@ -178,7 +178,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
-				<useJob>AG_UseGeneRemover</useJob>
+				<useJob>AG_UseXenotypeNullifier</useJob>
 				<useLabel>Use xenotype nullifier</useLabel>
 				<useDuration>60</useDuration>
 			</li>
@@ -204,7 +204,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
-				<useJob>AG_UseGeneRemover</useJob>
+				<useJob>AG_UseGermlineMutator</useJob>
 				<useLabel>Use germline mutator</useLabel>
 				<useDuration>60</useDuration>
 			</li>

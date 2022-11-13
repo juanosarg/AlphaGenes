@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MentalBreakDef>
+    <defName>AG_Thalassophobia</defName>
+    <label>water terror</label>
+    <intensity>Minor</intensity>
+    <workerClass>AlphaGenes.MentalBreakWorker_Thalassophobia</workerClass>
+    <mentalState>AG_Thalassophobia</mentalState>
+    <requiredGene>AG_Thalassophobia</requiredGene>
+  </MentalBreakDef>
+
+  <MentalStateDef ParentName="BaseMentalState">
+    <defName>AG_Thalassophobia</defName>
+    <label>panic-fleeing water</label>
+    <stateClass>AlphaGenes.MentalState_Thalassophobia</stateClass>
+    <category>Misc</category>
+    <nameColor>(0.65, 0.9, 0.93)</nameColor>
+    <beginLetterLabel>fleeing water</beginLetterLabel>
+    <beginLetter>{0} is fleeing water.</beginLetter>
+    <recoveryMessage>{0} is no longer fleeing water.</recoveryMessage>
+    <baseInspectLine>Mental state: Fleeing water</baseInspectLine>
+    <blockNormalThoughts>true</blockNormalThoughts>
+    <minTicksBeforeRecovery>60</minTicksBeforeRecovery>
+  </MentalStateDef>
+
+
+
+</Defs>

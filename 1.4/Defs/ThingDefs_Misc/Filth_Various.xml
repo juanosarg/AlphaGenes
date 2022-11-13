@@ -90,6 +90,21 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
     </filth>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseFilth">
+    <defName>AG_Filth_Rats</defName>
+    <label>rat filth</label>
+	 <thingClass>AlphaGenes.Rat_Spawning_Filth</thingClass>
+	 <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Filth/PoolSoft</texPath>
+      <color>(70, 109, 65, 180)</color>
+    </graphicData>
+    <filth>
+      <disappearsInDays>1</disappearsInDays>
+      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+    </filth>
+  </ThingDef>
 
   
   

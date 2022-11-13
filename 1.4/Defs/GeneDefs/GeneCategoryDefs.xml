@@ -23,6 +23,12 @@
 		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
 	</GeneCategoryDef>
 	<GeneCategoryDef>
+		<defName>AG_VomitType</defName>
+		<label>vomit type</label>
+		<displayPriorityInXenotype>516.5</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
 		<defName>AG_AnimalAffinity</defName>
 		<label>animal affinity</label>
 		<displayPriorityInXenotype>505.69</displayPriorityInXenotype>

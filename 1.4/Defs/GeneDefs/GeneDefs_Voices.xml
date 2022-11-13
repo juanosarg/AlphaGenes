@@ -39,4 +39,61 @@
 		</modExtensions>
 
 	</GeneDef>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_FrogVoice</defName>
+		<label>frog voice</label>
+		<description>Carriers have a croaking voice similar to that of a frog.</description>
+		<iconPath>UI/Icons/Genes/AG_FrogVoice</iconPath>
+		<displayOrderInCategory>133</displayOrderInCategory>
+		<soundCall>AG_Pawn_Frog_Call</soundCall>
+		<soundDeath>AG_Pawn_Frog_Death</soundDeath>
+		<soundWounded>AG_Pawn_Frog_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_GutturalVoice</defName>
+		<label>guttural voice</label>
+		<description>Carriers have a guttural, harsh voice produced mostly on the throat.</description>
+		<iconPath>UI/Icons/Genes/AG_GutturalVoice</iconPath>
+		<displayOrderInCategory>134</displayOrderInCategory>
+		<soundCall>AG_Pawn_Guttural_Call</soundCall>
+		<soundDeath>AG_Pawn_Guttural_Death</soundDeath>
+		<soundWounded>AG_Pawn_Guttural_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_GrowlingVoice</defName>
+		<label>growling voice</label>
+		<description>Carriers have a growling and snarling voice with fearsome animalistic undertones.</description>
+		<iconPath>UI/Icons/Genes/AG_GrowlingVoice</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<soundCall>AG_Pawn_Growling_Call</soundCall>
+		<soundDeath>AG_Pawn_Growling_Death</soundDeath>
+		<soundWounded>AG_Pawn_Growling_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
 </Defs>

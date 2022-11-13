@@ -76,6 +76,33 @@
       </li>
     </stages>
   </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AG_Thalassophobia</defName>
+    <workerClass>AlphaGenes.ThoughtWorker_Thalassophobia</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>afraid of water</label>
+        <description>The water makes me so nervous. What lies in dark depths of the sea?</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AG_PukedRats</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>puked rats</label>
+				<description>No matter how many times it happens, I'll never get used to this.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+		
+	</ThoughtDef>
 
 
 

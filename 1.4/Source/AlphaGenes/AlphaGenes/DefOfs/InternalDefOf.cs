@@ -14,6 +14,8 @@ namespace AlphaGenes
 		public static PawnKindDef Wolf_Timber;
 		public static PawnKindDef Bear_Polar;
 
+		public static ThoughtDef AG_PukedRats;
+
 		public static QuestScriptDef AG_OpportunitySite_AbandonedBiotechLab;
 
 		public static GeneDef AG_BrittleBones;
@@ -23,8 +25,11 @@ namespace AlphaGenes
 		public static GeneDef AG_SlowGestation;
 		public static GeneDef AG_MetalEater;
 		public static GeneDef AlphaGenes_Randomizer;
+        public static GeneDef AG_Thalassophobia;
+		public static GeneDef AG_BloodVomit;
+		public static GeneDef AG_RatVomit;
 
-        public static GeneDef AG_UnstableMutation;
+		public static GeneDef AG_UnstableMutation;
         public static GeneDef AG_UnstableMutationMajor;
         public static GeneDef AG_UnstableMutationCatastrophic;
 
