@@ -338,8 +338,6 @@
     <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />
     <Compile Include="Harmony\HediffComp_PregnantHuman_CompTipStringExtra.cs" />
     <Compile Include="Harmony\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs" />
-    <Compile Include="Harmony\HumanlikeMeshPoolUtility_Patches.cs" />
-    <Compile Include="Harmony\PawnRenderer_GetBodyOverlayMeshSet.cs" />
     <Compile Include="Harmony\PawnUtility_BodyResourceGrowthSpeed.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />

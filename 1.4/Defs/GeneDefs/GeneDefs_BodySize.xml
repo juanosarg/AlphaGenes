@@ -32,8 +32,8 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<bodyScaleFactor>1.25</bodyScaleFactor>
-				<headScaleFactor>1.25</headScaleFactor>
+				<bodyScaleFactor>(1.25,1.25)</bodyScaleFactor>
+				<headScaleFactor>(1.25,1.25)</headScaleFactor>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -68,8 +68,8 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<bodyScaleFactor>0.75</bodyScaleFactor>
-				<headScaleFactor>0.75</headScaleFactor>
+				<bodyScaleFactor>(0.75,0.75)</bodyScaleFactor>
+				<headScaleFactor>(0.75,0.75)</headScaleFactor>
 			</li>
 		</modExtensions>
 	</GeneDef>
