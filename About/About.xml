@@ -17,6 +17,11 @@
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
 			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
 		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+			
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
@@ -29,7 +34,28 @@
 		<li>sarg.alphabiomes</li>
 	</loadAfter>
 	<packageId>sarg.alphagenes</packageId>
-	<description>
+	<description>Adds new genes and xenotypes to Rimworld.
+
+&lt;size=24&gt;Features&lt;/size&gt;
+
+- More than 120 new genes. Some are very low impact, while some are truly game changing.
+- 5 new xenotypes with wild mechanics.
+- A new "Custom random" xenotype that allows you to make new player created xenotypes, and have them loaded into two new custom factions.
+- Abandoned Biotech labs quests, similar to the ones in VE Genetics, that give access to all the new genes during play.
+- Genetic tools that allow you to tweak your colonists' genes. Obtainable through lab quests or normal quest rewards.
+
+&lt;size=24&gt;Issues&lt;/size&gt;
+
+No issues known at the moment 
+
+&lt;size=24&gt;Plans for the future&lt;/size&gt;
+
+Oh you can bet I will add new things!
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+
+v0.1: Beta (14/11/22)
+Full changelog on GitHub
 
 
 	</description>
