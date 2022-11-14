@@ -46,7 +46,7 @@
 		<defName>AG_HeatSpeed</defName>
 		<label>heat speed</label>
 		<description>Carriers of this gene move much faster while in temperatures above 40ºC.</description>
-		<iconPath>UI/Icons/Genes/AG_HeatSlowness</iconPath>
+		<iconPath>UI/Icons/Genes/AG_HeatSpeed</iconPath>
 		<displayOrderInCategory>65</displayOrderInCategory>
 		<customEffectDescriptions>
 			<li>That's three gallons per inch squared in Fahrenheit!</li>			

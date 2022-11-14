@@ -95,7 +95,7 @@
 		<iconPath>UI/Icons/Genes/AG_ArmourMinor</iconPath>
 	
 		<customEffectDescriptions>
-			<li>10% blunt and sharp natural armour.</li>
+			<li>+20% blunt and sharp natural armour.</li>
 		</customEffectDescriptions>
 		<displayOrderInCategory>0</displayOrderInCategory>
 
@@ -127,7 +127,7 @@
 		<iconPath>UI/Icons/Genes/AG_ArmourMedium</iconPath>
 		
 		<customEffectDescriptions>
-			<li>20% blunt and sharp natural armour.</li>
+			<li>+30% blunt and sharp natural armour.</li>
 		</customEffectDescriptions>
 		<displayOrderInCategory>10</displayOrderInCategory>
 
@@ -162,7 +162,7 @@
 		<iconPath>UI/Icons/Genes/AG_ArmourMajor</iconPath>
 		
 		<customEffectDescriptions>
-			<li>30% blunt and sharp natural armour.</li>
+			<li>+40% blunt and sharp natural armour.</li>
 		</customEffectDescriptions>
 		<displayOrderInCategory>20</displayOrderInCategory>
 

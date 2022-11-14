@@ -392,7 +392,7 @@
 	<ThingDef ParentName="AG_JunkBuildingBase">
 		<defName>AG_RuinedHospitalBed</defName>
 		<label>ancient hospital bed</label>
-		<description>A bed specially designed for use in hospitals. The matress has rotted away into nothingness.</description>
+		<description>A bed specially designed for use in hospitals. The mattress has rotted away into nothingness.</description>
 		<thingClass>Building_Bed</thingClass>
 		<altitudeLayer>Building</altitudeLayer>
 		<drawGUIOverlay>true</drawGUIOverlay>

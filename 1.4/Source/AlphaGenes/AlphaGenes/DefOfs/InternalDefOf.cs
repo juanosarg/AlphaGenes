@@ -28,6 +28,7 @@ namespace AlphaGenes
         public static GeneDef AG_Thalassophobia;
 		public static GeneDef AG_BloodVomit;
 		public static GeneDef AG_RatVomit;
+		public static GeneDef AG_Beauty_Angelic;
 
 		public static GeneDef AG_UnstableMutation;
         public static GeneDef AG_UnstableMutationMajor;

@@ -37,8 +37,8 @@
 			<li>
 				<minSeverity>0</minSeverity>
 				<statOffsets>
-					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>
@@ -55,8 +55,8 @@
 			<li>
 				<minSeverity>0</minSeverity>
 				<statOffsets>
-					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>
@@ -73,8 +73,8 @@
 			<li>
 				<minSeverity>0</minSeverity>
 				<statOffsets>
-					<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>

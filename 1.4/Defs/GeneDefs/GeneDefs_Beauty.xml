@@ -59,6 +59,7 @@
 		<displayOrderInCategory>40</displayOrderInCategory>
 		<customEffectDescriptions>
 			<li>Any other colonist coming nearby will be subject to a positive mood impact due to basking in their uncanny beauty.</li>
+			<li>Can't be disfigured. Disfigurement doesn't cause beauty to drop, and other people won't think less of them.</li>
 		</customEffectDescriptions>
 		<forcedTraits>
 			<li>

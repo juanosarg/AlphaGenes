@@ -348,6 +348,7 @@
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\RelationsUtility_IsDisfigured.cs" />
     <Compile Include="HediffComps\HediffComp_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\HediffComp_RandomMutation.cs" />
