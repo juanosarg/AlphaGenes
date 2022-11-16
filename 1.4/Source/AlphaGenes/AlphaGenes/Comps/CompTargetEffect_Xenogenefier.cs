@@ -46,11 +46,12 @@ namespace AlphaGenes
                     Gene geneToTransform = pawn.genes.Endogenes.RandomElement();
                     pawn.genes.Endogenes.Remove(geneToTransform);
                     pawn.genes.Xenogenes.Add(geneToTransform);
+                    user.carryTracker.DestroyCarriedThing();
                     if (AlphaGenes_Mod.settings.AG_GeneRemovalComa)
                     {
                         pawn.health.AddHediff(InternalDefOf.AG_GeneRemovalComa);
                     }
-                    user.carryTracker.DestroyCarriedThing();
+                    
                 }
 
 

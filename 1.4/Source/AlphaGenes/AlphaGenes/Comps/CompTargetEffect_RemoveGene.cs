@@ -50,11 +50,12 @@ namespace AlphaGenes
 				if (hediff==null && pawn.genes.GenesListForReading.Count > 0)
                 {
 					pawn.genes.RemoveGene(pawn.genes.GenesListForReading.RandomElement());
+					user.carryTracker.DestroyCarriedThing();
 					if (AlphaGenes_Mod.settings.AG_GeneRemovalComa)
 					{
 						pawn.health.AddHediff(InternalDefOf.AG_GeneRemovalComa);
 					}
-					user.carryTracker.DestroyCarriedThing();
+					
 				}
 				
 

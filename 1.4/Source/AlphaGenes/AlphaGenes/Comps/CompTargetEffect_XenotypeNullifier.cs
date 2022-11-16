@@ -44,11 +44,12 @@ namespace AlphaGenes
                 if (hediff == null)
                 {
                     pawn.genes?.SetXenotype(XenotypeDefOf.Baseliner);
+                    user.carryTracker.DestroyCarriedThing();
                     if (AlphaGenes_Mod.settings.AG_GeneRemovalComa)
                     {
                         pawn.health.AddHediff(InternalDefOf.AG_GeneRemovalComa);
                     }
-                    user.carryTracker.DestroyCarriedThing();
+                    
                 }
 
 
