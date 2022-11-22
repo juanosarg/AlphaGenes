@@ -109,7 +109,7 @@
 		<labelShortAdj>unsettling</labelShortAdj>
 		<description>Going beyond mundane notions of beauty or ugliness, the carrier of this gene has such an unsettling appearance that it inspires a certain sense of unease on other people.</description>
 		<iconPath>UI/Icons/Genes/AG_UnsettlingAppearance</iconPath>
-		<displayOrderInCategory>40</displayOrderInCategory>
+		<displayOrderInCategory>100</displayOrderInCategory>
 		<customEffectDescriptions>
 			<li>Any person without this gene will get a -60 social penalty towards people who have it.</li>
 		</customEffectDescriptions>

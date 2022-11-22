@@ -6,10 +6,11 @@
 		<label>fast gestation</label>
 		<exclusionTags>
 			<li>AG_Gestation</li>
+			<li>Fertility</li>
 		</exclusionTags>
 		<description>Carriers of this gene will have shorter gestation periods by 25%.</description>
 		<iconPath>UI/Icons/Genes/AG_FastGestation</iconPath>
-		<displayCategory>Healing</displayCategory>
+		<displayCategory>Reproduction</displayCategory>
 		<displayOrderInCategory>115</displayOrderInCategory>
 		<biostatMet>-1</biostatMet>
 		<biostatCpx>1</biostatCpx>
@@ -28,10 +29,11 @@
 		<label>slow gestation</label>
 		<exclusionTags>
 			<li>AG_Gestation</li>
+			<li>Fertility</li>
 		</exclusionTags>
 		<description>Carriers of this gene will have longer gestation periods by 25%.</description>
 		<iconPath>UI/Icons/Genes/AG_SlowGestation</iconPath>
-		<displayCategory>Healing</displayCategory>
+		<displayCategory>Reproduction</displayCategory>
 		<displayOrderInCategory>115.1</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
 		<biostatCpx>1</biostatCpx>
@@ -51,7 +53,7 @@
 		
 		<description>Carriers of this gene will reproduce oviparously, which is as disgusting as it sounds. This has its advantages and disadvantages.</description>
 		<iconPath>UI/Icons/Genes/AG_EggLaying</iconPath>
-		<displayCategory>Healing</displayCategory>
+		<displayCategory>Reproduction</displayCategory>
 		<exclusionTags>
 			<li>Egglaying</li>
 			<li>AG_Egglaying</li>

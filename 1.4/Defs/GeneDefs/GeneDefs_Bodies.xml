@@ -240,7 +240,10 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>440</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_Digitigrade</iconPath>
-		
+		<customEffectDescriptions>
+			<li>Carrying capacity on the map reduced to 60%.</li>
+			<li>Carrying capacity while caravaning reduced to 80%.</li>
+		</customEffectDescriptions>
 		<statFactors>
 			<MoveSpeed>1.2</MoveSpeed>
 			<CarryingCapacity>0.6</CarryingCapacity>
@@ -252,7 +255,7 @@
 		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				<caravanCarryingFactor>0.6</caravanCarryingFactor>
+				<caravanCarryingFactor>0.8</caravanCarryingFactor>
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				

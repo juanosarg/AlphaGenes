@@ -88,7 +88,7 @@
 	<ThingDef ParentName="AG_GeneToolBase">
 		<defName>AG_GeneRemover</defName>
 		<label>gene remover</label>
-		<description>A genetic toolkit capable of removing a random gene from a human target. This removal is quite destructive, and will target a gene at random. As a result, the target will drop into a coma for a few days. Using the remover on a colonist suffering from the coma will have no effect.</description>
+		<description>A genetic toolkit capable of removing a random gene from a human target. This removal is quite destructive, and will target a gene at random. As a result, the target will drop into a coma for 3 days. Using the remover on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_GeneRemover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -114,7 +114,7 @@
 	<ThingDef ParentName="AG_GeneToolBase">
 		<defName>AG_Endogenefier</defName>
 		<label>endogenefier</label>
-		<description>A genetic toolkit capable of converting a random xenogene from a human target into an endogene. As a result, the target will drop into a coma for a few days. Using the endogenefier on a colonist suffering from the coma will have no effect.</description>
+		<description>A genetic toolkit capable of converting a random xenogene from a human target into an endogene. As a result, the target will drop into a coma for 3 days. Using the endogenefier on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_Endogenefier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -140,7 +140,7 @@
 	<ThingDef ParentName="AG_GeneToolBase">
 		<defName>AG_Xenogenefier</defName>
 		<label>xenogenefier</label>
-		<description>A genetic toolkit capable of converting a random endogene from a human target into a xenogene. As a result, the target will drop into a coma for a few days. Using the xenogenefier on a colonist suffering from the coma will have no effect.</description>
+		<description>A genetic toolkit capable of converting a random endogene from a human target into a xenogene. As a result, the target will drop into a coma for 3 days. Using the xenogenefier on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_Xenogenefier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -166,7 +166,7 @@
 	<ThingDef ParentName="AG_GeneToolBase">
 		<defName>AG_XenotypeNullifier</defName>
 		<label>xenotype nullifier</label>
-		<description>A genetic toolkit capable of forcefully removing all xenotype genes from the target, reverting them to baseline humanity. As a result, the target will drop into a coma for a few days. Using the nullifier on a colonist suffering from the coma will have no effect.</description>
+		<description>A genetic toolkit capable of forcefully removing all xenotype genes from the target, reverting them to baseline humanity. As a result, the target will drop into a coma for 3 days. Using the nullifier on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_Xenogenefier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -192,7 +192,7 @@
 	<ThingDef ParentName="AG_GeneToolBase">
 		<defName>AG_GermlineMutator</defName>
 		<label>germline mutator</label>
-		<description>A genetic toolkit capable of causing random genetic mutations on the subject's germline, producing one random endogene. As a result, the target will drop into a coma for a few days. Using the mutator on a colonist suffering from the coma will have no effect.</description>
+		<description>A genetic toolkit capable of causing random genetic mutations on the subject's germline, producing one random endogene. As a result, the target will drop into a coma for 3 days. Using the mutator on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_Xenogenefier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

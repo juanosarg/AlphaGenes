@@ -28,6 +28,8 @@ namespace AlphaGenes
             {
                 return false;
             }
+            if (mapHeld.weatherManager.curWeather.rainRate > 0 && !pawn.Position.Roofed(mapHeld)) { return true; }
+
             IntVec3 positionHeld = pawn.PositionHeld;
             int num = GenRadial.NumCellsInRadius(19.9f);
             for (int i = 0; i < num; i++)

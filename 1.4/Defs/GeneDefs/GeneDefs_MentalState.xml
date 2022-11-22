@@ -7,9 +7,10 @@
 		<iconPath>UI/Icons/Genes/AG_Thalassophobia</iconPath>
 		<displayCategory>ResistanceAndWeakness</displayCategory>
 		<displayOrderInCategory>81</displayOrderInCategory>
-		<biostatMet>1</biostatMet>
+		<biostatMet>3</biostatMet>
 		<customEffectDescriptions>
 			<li>This will be triggered by any terrain the game considers water, marsh included.</li>
+			<li>Any rainy weather will also trigger this if the colonist is exposed to rain!</li>
 		</customEffectDescriptions>
 		<mentalBreakMtbDays>0.1</mentalBreakMtbDays>
 		<mentalBreakDef>AG_Thalassophobia</mentalBreakDef>

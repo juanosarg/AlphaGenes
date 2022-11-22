@@ -5,7 +5,7 @@
   <HediffDef>
     <defName>AG_GeneRemovalComa</defName>
     <label>gene tampering coma</label>
-    <description>The genes of this person were artificailly tampered with. This is greatly taxing on the organism and it will put them into a coma for at least 15 days.</description>
+    <description>The genes of this person were artificailly tampered with. This is greatly taxing on the organism and it will put them into a coma for 3 days.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <initialSeverity>0.001</initialSeverity>
     <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
@@ -21,7 +21,7 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>900000</disappearsAfterTicks> <!-- 15 days. -->
+        <disappearsAfterTicks>180000</disappearsAfterTicks> <!-- 3 days. -->
         <showRemainingTime>true</showRemainingTime>
         <canUseDecimalsShortForm>true</canUseDecimalsShortForm>
       </li>
