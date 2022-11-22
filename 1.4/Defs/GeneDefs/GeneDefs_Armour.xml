@@ -19,7 +19,7 @@
 		<iconPath>UI/Icons/Genes/AG_FungalSkin</iconPath>
 	
 		<customEffectDescriptions>
-			<li>50% blunt and sharp natural armour. +25% injury healing factor.</li>
+			<li>+50% blunt and sharp natural armour. +25% injury healing factor.</li>
 			<li>Fires will cause permanent wounds.</li>
 		</customEffectDescriptions>
 		<displayOrderInCategory>40</displayOrderInCategory>
