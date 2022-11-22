@@ -13,7 +13,7 @@
 		<selectionWeight>0</selectionWeight>
 		<biostatCpx>7</biostatCpx>
 		<biostatArc>1</biostatArc>
-	
+		<biostatMet>-1</biostatMet>
 		<customEffectDescriptions>
 			<li>Reduces the need to eat to be almost negligible (not entirely zero to avoid weird mod interactions)</li>			
 		</customEffectDescriptions>
