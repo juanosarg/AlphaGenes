@@ -17,7 +17,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>45</MarketValue>
+			<MarketValue>100</MarketValue>
 		</statBases>		
 		<comps>
 			<li Class="VanillaGenesExpanded.CompProperties_HumanHatcher">

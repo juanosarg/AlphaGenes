@@ -8,7 +8,7 @@
 		
 		<displayOrderInCategory>1001</displayOrderInCategory>
 		<statOffsets>
-			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 		</statOffsets>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>

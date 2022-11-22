@@ -19,7 +19,7 @@
 		<labelShortAdj>slime bodied</labelShortAdj>
 		<description>Carriers of this gene have gelatinous, constantly dripping blue skin.</description>
 		<biostatCpx>1</biostatCpx>
-		<biostatMet>-1</biostatMet>
+	
 		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/Bodies/AG_Slimy</graphicPath>
@@ -196,7 +196,7 @@
 		<labelShortAdj>rocky</labelShortAdj>
 		<description>Carriers of this gene have a rocky looking skin, with mineral deposits piercing the skin.</description>
 		<biostatCpx>3</biostatCpx>
-		<biostatMet>-1</biostatMet>
+		
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>430</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_RockyBody</iconPath>

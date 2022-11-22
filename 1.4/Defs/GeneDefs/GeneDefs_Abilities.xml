@@ -112,7 +112,7 @@
 		<descriptionHyperlinks>
 			<AbilityDef>AG_Zap</AbilityDef>
 		</descriptionHyperlinks>
-		<biostatMet>-1</biostatMet>
+		<biostatMet>-3</biostatMet>
 		<biostatCpx>1</biostatCpx>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

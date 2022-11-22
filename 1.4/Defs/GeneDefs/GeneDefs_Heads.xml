@@ -21,7 +21,7 @@
 		<selectionWeight>0</selectionWeight>
 		<description>A gelatinous, translucent hood surrounds the carrier's head.</description>
 		<biostatCpx>1</biostatCpx>
-		<biostatMet>-1</biostatMet>
+		
 		<iconPath>UI/Icons/Genes/AG_AerofleetHeadIcon</iconPath>
 		<graphicData>
 			<graphicPaths>
@@ -74,7 +74,7 @@
 		<selectionWeight>0</selectionWeight>
 		<description>Both of the subject's eyes protrude from the skull in slug-like stalks. Slimy!</description>
 		<biostatCpx>1</biostatCpx>
-		<biostatMet>-1</biostatMet>
+	
 		<iconPath>UI/Icons/Genes/AG_SlugFace</iconPath>
 		<forcedHeadTypes>
 			<li>AG_SlugFace_Narrow</li>
