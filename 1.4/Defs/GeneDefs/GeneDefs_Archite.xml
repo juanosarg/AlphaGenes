@@ -68,7 +68,7 @@
 		<marketValueFactor>2</marketValueFactor>
 		<selectionWeight>0</selectionWeight>
 		<biostatArc>2</biostatArc>
-		
+		<biostatMet>-2</biostatMet>
 		<statFactors>
 			<Fertility>0</Fertility>
 		</statFactors>
