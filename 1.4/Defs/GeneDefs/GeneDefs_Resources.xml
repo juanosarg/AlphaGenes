@@ -31,6 +31,7 @@
 			</prefixSymbols>
 		</symbolPack>		
 		<selectionWeight>0</selectionWeight>
+		<minAgeActive>3</minAgeActive>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

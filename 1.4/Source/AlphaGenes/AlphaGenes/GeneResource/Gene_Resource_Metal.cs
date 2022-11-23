@@ -16,7 +16,7 @@ namespace AlphaGenes
         public Gene_Resource Resource => this;
 
         //Caravan is going to be a massive fucking headache so I'm going to handwave it to say its easy enough to forage metal to sustain themselves while traveling XD
-        public bool CanOffset => pawn.Spawned;
+        public bool CanOffset => pawn.Spawned && Active;
 
         public float ResourceLossPerDay => def.resourceLossPerDay;
 
@@ -29,8 +29,10 @@ namespace AlphaGenes
         public override float MinLevelForAlert => 0.15f;
         
         public override float MaxLevelOffset => base.MaxLevelOffset;
+        private Hediff mineralFueled;
         public bool ShouldConsumeNow()
         {
+            if (!Active) return false;
             if(Value <= 0.15f && Value<= targetValue )
             {
                 return true;
@@ -63,6 +65,17 @@ namespace AlphaGenes
             //This is basically just the utility done right. Might move to own utility class if doing multiple
             if (CanOffset)
             {
+                if (mineralFueled == null) //babies wont get it post add so needs to added here
+                {
+                    if (!pawn.health.hediffSet.HasHediff(InternalDefOf.AG_MineralFueled))
+                    {
+                        mineralFueled = pawn.health.AddHediff(InternalDefOf.AG_MineralFueled);
+                    }
+                    else
+                    {
+                        mineralFueled = pawn.health.hediffSet.GetFirstHediffOfDef(InternalDefOf.AG_MineralFueled);
+                    }
+                }
                 if (pawn.IsHashIntervalTick(300))//Running this every tick is kinda silly for fraction losses
                 {
                     float before = Value;
@@ -162,7 +175,10 @@ namespace AlphaGenes
         public override void PostAdd()
         {
             base.PostAdd();
-            pawn.health.AddHediff(InternalDefOf.AG_MineralFueled);
+            if (Active)
+            {
+                pawn.health.AddHediff(InternalDefOf.AG_MineralFueled);
+            }            
           
         }
         public override void ExposeData()
