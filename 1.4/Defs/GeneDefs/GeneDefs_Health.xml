@@ -230,6 +230,7 @@
 		<description>Carriers of this gene are vulnerable to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain an additional half as much amount of toxic buildup compared to others.</description>
 		<iconPath>UI/Icons/Genes/AG_ToxicVulnerability</iconPath>
 		<displayOrderInCategory>-1</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
 		<statOffsets>
 			<ToxicResistance>-0.5</ToxicResistance>
 		</statOffsets>
