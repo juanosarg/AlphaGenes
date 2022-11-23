@@ -27,7 +27,7 @@
 	
 	<HediffDef>
 		<defName>AG_ArmourMinor</defName>
-		<label>fungal skin</label>
+		<label>bark skin</label>
 		<description>Hard, bark-like skin. This confers a small amount of natural armour.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
