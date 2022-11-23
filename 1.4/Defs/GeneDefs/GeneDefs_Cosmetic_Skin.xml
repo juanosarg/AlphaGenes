@@ -31,6 +31,36 @@
 		</symbolPack>
 	</GeneDef>
 	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_PlantGreen</defName>
+		<label>plant green skin</label>
+		<labelShortAdj>green</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that gives their skin a green, plant-like colour.</description>
+		<skinColorOverride>(108, 137, 89)</skinColorOverride>
+		<displayOrderInCategory>101.5</displayOrderInCategory>
+		
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>phyto</symbol>
+				</li>
+				<li>
+					<symbol>plant</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
 		<defName>AG_Skin_DeeperRed</defName>
 		<label>deeper red skin</label>
 		<labelShortAdj>red</labelShortAdj>

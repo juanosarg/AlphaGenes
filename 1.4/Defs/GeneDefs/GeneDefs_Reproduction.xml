@@ -6,7 +6,7 @@
 		<label>fast gestation</label>
 		<exclusionTags>
 			<li>AG_Gestation</li>
-			<li>Fertility</li>
+			<li>AG_Fertility</li>
 		</exclusionTags>
 		<description>Carriers of this gene will have shorter gestation periods by 25%.</description>
 		<iconPath>UI/Icons/Genes/AG_FastGestation</iconPath>
@@ -29,7 +29,7 @@
 		<label>slow gestation</label>
 		<exclusionTags>
 			<li>AG_Gestation</li>
-			<li>Fertility</li>
+			<li>AG_Fertility</li>
 		</exclusionTags>
 		<description>Carriers of this gene will have longer gestation periods by 25%.</description>
 		<iconPath>UI/Icons/Genes/AG_SlowGestation</iconPath>

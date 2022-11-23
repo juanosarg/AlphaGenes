@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeIconDef>
+    <defName>AG_CustomXenotypeIcon1</defName>
+    <texPath>UI/Icons/Xenotypes/AG_Fleetkind</texPath>
+  </XenotypeIconDef>
+  <XenotypeIconDef>
+    <defName>AG_CustomXenotypeIcon2</defName>
+    <texPath>UI/Icons/Xenotypes/AG_Helixien</texPath>
+  </XenotypeIconDef>
+    <XenotypeIconDef>
+    <defName>AG_CustomXenotypeIcon3</defName>
+    <texPath>UI/Icons/Xenotypes/AG_Animusen</texPath>
+  </XenotypeIconDef>
+    <XenotypeIconDef>
+    <defName>AG_CustomXenotypeIcon4</defName>
+    <texPath>UI/Icons/Xenotypes/AG_Lapis</texPath>
+  </XenotypeIconDef>
+    <XenotypeIconDef>
+    <defName>AG_CustomXenotypeIcon5</defName>
+    <texPath>UI/Icons/Xenotypes/AG_Wretch</texPath>
+  </XenotypeIconDef>
+   
+</Defs>

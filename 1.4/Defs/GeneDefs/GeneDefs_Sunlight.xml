@@ -51,7 +51,7 @@
 		<defName>AG_Sensitivity_Vicious</defName>
 		<label>vicious UV sensitivity</label>
 		<labelShortAdj>UV-hypersensitive</labelShortAdj>
-		<description>Carriers of this gene have biological compounds in their skin that react viciously to UV radiation. They are so sensitive to sunlight that standing under the sun will knock them  unconscious.</description>
+		<description>Carriers of this gene have biological compounds in their skin that react viciously to UV radiation. They are so sensitive to sunlight that standing under the sun will knock them unconscious.</description>
 		<iconPath>UI/Icons/Genes/AG_SolarUnconscious</iconPath>
 		<displayOrderInCategory>59.1</displayOrderInCategory>
 		<customEffectDescriptions>

@@ -61,7 +61,9 @@
 		<displayOrderInCategory>111.5</displayOrderInCategory>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
-	
+		<customEffectDescriptions>
+			<li>A random wound is reduced by 0.1 severity every 250 ticks (aprox 4 seconds).</li>
+		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -83,6 +85,9 @@
 		<displayOrderInCategory>112</displayOrderInCategory>
 		<biostatCpx>3</biostatCpx>
 		<biostatMet>-4</biostatMet>
+		<customEffectDescriptions>
+			<li>A random wound is reduced by 0.1 severity every 10 ticks (1/6th of a second).</li>
+		</customEffectDescriptions>
 	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
@@ -105,7 +110,9 @@
 		<displayOrderInCategory>113</displayOrderInCategory>
 		<biostatCpx>5</biostatCpx>
 		<biostatMet>-6</biostatMet>
-	
+		<customEffectDescriptions>
+			<li>Every pawn of the player faction in a radius of 5 tiles will get a random wound reduced by 0.1 severity every 300 ticks (5 seconds).</li>
+		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -220,7 +227,7 @@
 		<defName>AG_ToxResist_Vulnerability</defName>
 		<label>tox vulnerability</label>
 		<labelShortAdj>tox-vulnerable</labelShortAdj>
-		<description>Carriers of this gene are vulnerable to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain half as much amount of toxic buildup compared to others.</description>
+		<description>Carriers of this gene are vulnerable to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain an additional half as much amount of toxic buildup compared to others.</description>
 		<iconPath>UI/Icons/Genes/AG_ToxicVulnerability</iconPath>
 		<displayOrderInCategory>-1</displayOrderInCategory>
 		<statOffsets>

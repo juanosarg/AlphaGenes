@@ -9,6 +9,7 @@
 		<graphicData>
 			<drawLoc>Tailbone</drawLoc>
 		</graphicData>
+		<randomChosen>true</randomChosen>
 	</GeneDef>
 	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_RainbowWings</defName>
@@ -259,6 +260,24 @@
 		
 		</graphicData>
 		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_WingBase">
+		<defName>AG_NoWings</defName>
+		<label>no wings</label>
+		<description>Carriers of this gene don't have wings.</description>
+		<iconPath>UI/Icons/Genes/AG_NoWings</iconPath>
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>AG_Wings</displayCategory>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+				
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

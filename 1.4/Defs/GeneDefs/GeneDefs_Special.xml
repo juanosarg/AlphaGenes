@@ -17,4 +17,21 @@
 		</modExtensions>
 		
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AlphaGenes_ExoticOrganism</defName>
+		<label>exotic organism</label>
+		<description>Once a custom player created xenotype receives this gene, that xenotype will never be automatically loaded into the two factions added by this mod.</description>
+		<iconPath>UI/Icons/Genes/AG_ExoticOrganism</iconPath>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
 </Defs>

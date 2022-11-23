@@ -38,16 +38,21 @@ namespace AlphaGenes
             {
 				CustomXenotype xenotype = xenotypes.RandomElement();
 
-				pawn.genes.xenotypeName = xenotype.name;
-				pawn.genes.iconDef = xenotype.IconDef;
-				foreach (GeneDef geneDef in xenotype.genes)
-                {
-					if(geneDef!= InternalDefOf.AlphaGenes_Randomizer)
+				if (!xenotype.genes.Contains(InternalDefOf.AlphaGenes_ExoticOrganism))
+				{
+                    pawn.genes.xenotypeName = xenotype.name;
+                    pawn.genes.iconDef = xenotype.IconDef;
+                    foreach (GeneDef geneDef in xenotype.genes)
                     {
-						pawn.genes.AddGene(geneDef, !xenotype.inheritable);
+                        if (geneDef != InternalDefOf.AlphaGenes_Randomizer)
+                        {
+                            pawn.genes.AddGene(geneDef, !xenotype.inheritable);
+                        }
+
                     }
-					
-				}
+                }
+
+				
 				
 
 

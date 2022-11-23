@@ -11,6 +11,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>AG_HumanEgg</defName>
 		<label>human egg (fert.)</label>
+		<stackLimit>1</stackLimit>
 		<description>Fertilized human egg. If all goes well, it should hatch into a human.</description>
 		<graphicData>
 			<texPath>Things/Item/AG_HumanEgg</texPath>			
