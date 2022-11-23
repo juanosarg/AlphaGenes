@@ -6,7 +6,7 @@
 		<description>Once a pawn receives this gene, it will transform its xenotype into one of the custom xenotypes made by the player.</description>
 		<iconPath>UI/Icons/Genes/AG_Randomizer</iconPath>
 		<geneClass>AlphaGenes.Gene_Randomizer</geneClass>
-		
+		<biostatCpx>0</biostatCpx>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -23,7 +23,7 @@
 		<label>exotic organism</label>
 		<description>Once a custom player created xenotype receives this gene, that xenotype will never be automatically loaded into the two factions added by this mod.</description>
 		<iconPath>UI/Icons/Genes/AG_ExoticOrganism</iconPath>
-		
+		<biostatCpx>0</biostatCpx>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
