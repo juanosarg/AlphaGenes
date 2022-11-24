@@ -666,7 +666,9 @@
 					<li>AG_Xenogenefier</li>
 					<li>AG_XenotypeNullifier</li>
 					<li>AG_GermlineMutator</li>
-					
+					<li>AG_XenotypeInjector</li>
+					<li>AG_GenepackTweaker</li>
+					<li>AG_GenepackDisruptor</li>
 
 				</items>
 
