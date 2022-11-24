@@ -22,7 +22,7 @@
 	
 		<selectionWeight>0</selectionWeight>
 		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/Bodies/AG_Slimy</graphicPath>
+			<graphicPath>Things/Pawn/Humanlike/Bodies/AG_SlimyBody/AG_Slimy</graphicPath>
 			<drawWhileDessicated>true</drawWhileDessicated>
 			<drawOffsetNorth>(0, 0.01, 0)</drawOffsetNorth>
 			<drawOffsetSouth>(0, 0.01, 0)</drawOffsetSouth>
