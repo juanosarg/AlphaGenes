@@ -190,6 +190,32 @@
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_XenotypeInjector</defName>
+		<label>xenotype injector</label>
+		<description>A genetic toolkit capable of forcefully removing all genes from the target, both germline and xenogenes, and replacing them with a random xenotype. As a result, the target will drop into a coma for 3 days. Using the injector on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_XenotypeInjector</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseXenotypeInjector</useJob>
+				<useLabel>Use xenotype injector</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>	
+			<li Class="AlphaGenes.CompProperties_TargetEffect_XenotypeInjector">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
 		<defName>AG_GermlineMutator</defName>
 		<label>germline mutator</label>
 		<description>A genetic toolkit capable of causing random genetic mutations on the subject's germline, producing one random endogene. As a result, the target will drop into a coma for 3 days. Using the mutator on a colonist suffering from the coma will have no effect.</description>
@@ -215,7 +241,58 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_GenepackTweaker</defName>
+		<label>genepack tweaker</label>
+		<description>A genetic toolkit capable of acting upon an existing genepack, alphapack or mixedpack, adding a new, random gene to it. The targetted genepack must have 3 or less genes inside it, and this process won't add new archite genes to it.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_GenepackTweaker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGenepackTweaker</useJob>
+				<useLabel>Use genepack tweaker</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableGenepack">				
+			</li>	
+			<li Class="AlphaGenes.CompProperties_TargetEffect_GenepackTweaker">
+				
+			</li>
+		</comps>
+	</ThingDef>
+<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_GenepackDisruptor</defName>
+		<label>genepack disruptor</label>
+		<description>A genetic toolkit capable of acting upon an existing genepack, alphapack or mixedpack, deleting a random gene present on it. The targetted genepack must have 2 or more genes inside it.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_GenepackDisruptor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGenepackDisruptor</useJob>
+				<useLabel>Use genepack disruptor</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableGenepack">				
+			</li>	
+			<li Class="AlphaGenes.CompProperties_TargetEffect_GenepackDisruptor">
+				
+			</li>
+		</comps>
+	</ThingDef>
   
 
 </Defs>

@@ -30,5 +30,23 @@
 		<reportString>using germline mutator.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
+	<JobDef>
+		<defName>AG_UseXenotypeInjector</defName>
+		<driverClass>AlphaGenes.JobDriver_UseXenotypeInjector</driverClass>
+		<reportString>using xenotype injector.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>AG_UseGenepackTweaker</defName>
+		<driverClass>AlphaGenes.JobDriver_UseGenepackTweaker</driverClass>
+		<reportString>using genepack tweaker.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>AG_UseGenepackDisruptor</defName>
+		<driverClass>AlphaGenes.JobDriver_UseGenepackDisruptor</driverClass>
+		<reportString>using genepack disruptor.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
 	
 </Defs>

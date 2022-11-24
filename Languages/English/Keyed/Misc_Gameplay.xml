@@ -14,6 +14,8 @@
 	<AG_AbilityMineralCost>Mineral cost</AG_AbilityMineralCost>
 	<AG_AbilityDisabledNoMineralGene>{0_labelShort} is not a mineral absorber.</AG_AbilityDisabledNoMineralGene>
 	<AG_AbilityDisabledNoMineral>{0_labelShort} does not have enough minerals.</AG_AbilityDisabledNoMineral>
+	<AG_AlreadyFourGenes>This genepack already has the maximum possible amount of genes</AG_AlreadyFourGenes>
+	<AG_NeedsMoreThanTwoGenes>The disruptor won't work if the genepack only has one remaining gene</AG_NeedsMoreThanTwoGenes>
 	
 	
 	
