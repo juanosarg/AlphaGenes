@@ -51,6 +51,10 @@ namespace AlphaGenes
             //Choose the cheapest metals
             foreach(var thing in metalsCount)
             {
+                if (!pawn.CanReserveAndReach(thing, PathEndMode.Touch, Danger.Deadly))
+                {
+                    continue;
+                }
                 var tmpMass = thing.def.statBases.First(x => x.stat == StatDefOf.Mass).value;
                 if (tmpMass * thing.stackCount >= mass)
                 {

@@ -37,7 +37,7 @@ namespace AlphaGenes
             {
                 return true;
             }
-            else if (Value<= targetValue && Find.TickManager.TicksGame - lastConsumed >= 30000) 
+            else if (Value<= targetValue && Find.TickManager.TicksGame - lastConsumed >= 6000) 
             {
                 return true;
             }

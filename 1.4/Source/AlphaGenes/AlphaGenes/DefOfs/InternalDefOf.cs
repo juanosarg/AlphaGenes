@@ -47,6 +47,7 @@ namespace AlphaGenes
 
 		public static JobDef AG_ConsumeMetal;
 		public static JobDef AG_FeedMetal;
+		public static JobDef AG_DeliverMetal;
 		static InternalDefOf()
 		{
 			DefOfHelper.EnsureInitializedInCtor(typeof(InternalDefOf));

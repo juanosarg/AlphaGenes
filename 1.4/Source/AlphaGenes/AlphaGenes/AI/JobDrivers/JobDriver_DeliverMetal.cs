@@ -8,25 +8,16 @@ using UnityEngine;
 
 namespace AlphaGenes
 {
-    public class JobDriver_DeliverMetal : JobDriver
+    public class JobDriver_DeliverMetal : JobDriver_HaulToCell
     {
 
-        public Thing ToConsume => job.GetTarget(TargetIndex.A).Thing;
-        public Pawn Deliveree => job.targetB.Pawn;
+
+        public Pawn Deliveree => job.targetC.Pawn;
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
-            return pawn.Reserve(ToConsume, job, stackCount: job.count) && pawn.Reserve(Deliveree, job);
+            return pawn.Reserve(Deliveree, job) && base.TryMakePreToilReservations(errorOnFailed);
         }
-        protected override IEnumerable<Toil> MakeNewToils()
-        {
-            this.FailOnDespawnedNullOrForbidden(TargetIndex.B);
-            Toil goToPickup = Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.ClosestTouch);
-            yield return goToPickup;
-            yield return Toils_Ingest.PickupIngestible(TargetIndex.A, Deliveree);
-            yield return Toils_Goto.GotoCell(TargetIndex.C, PathEndMode.ClosestTouch);            
-           
-            yield break;
-        }
+
 
     }
 }

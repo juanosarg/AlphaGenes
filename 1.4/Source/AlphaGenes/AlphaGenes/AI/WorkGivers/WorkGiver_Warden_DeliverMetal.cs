@@ -18,7 +18,7 @@ namespace AlphaGenes
         {
             return Danger.Deadly;
         }
-
+        
         public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
             if (!ShouldTakeCareOfPrisoner(pawn, t, forced))
@@ -31,16 +31,16 @@ namespace AlphaGenes
             var gene = prisoner.genes?.GetFirstGeneOfType<Gene_Resource_Metal>();
             if (gene == null) { return null; }
             if (gene.ValuePercent >= 0.95f) { return null; }
-            if (!forced && gene.ValuePercent >= 0.25f) { return null; }
+            if (!forced && !gene.ShouldConsumeNow()) { return null; }
             if (WardenFeedUtility.ShouldBeFed(prisoner)) { return null; }
             if(MetalAlreadyDelivered(prisoner)) { return null; }
             float mass = gene.MassDesired;
-            var candidate = JobGiver_GetMetalicResource.GetMetalsForMass(pawn, mass, out var count);
-            if (!pawn.CanReserve(candidate)) { return null; }
+            var candidate = JobGiver_GetMetalicResource.GetMetalsForMass(pawn, mass, out var count);            
             IntVec3 dest = RCellFinder.SpotToStandDuringJob(prisoner);
+            if (!pawn.CanReserve(candidate) || !pawn.CanReserve(dest) || !pawn.CanReserve(prisoner)) { return null; }
             if (candidate != null)
             {
-                var job = JobMaker.MakeJob(JobDefOf.HaulToCell,candidate, dest);
+                var job = JobMaker.MakeJob(InternalDefOf.AG_DeliverMetal, candidate, dest,prisoner);
                 job.count = count;
                 return job;
             }            
