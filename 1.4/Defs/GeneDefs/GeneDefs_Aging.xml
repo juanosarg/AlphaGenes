@@ -34,7 +34,7 @@
 		<defName>AG_SlowerAging</defName>
 		<label>slower aging</label>
 		<description>Carriers of this gene will age at a decreased rate. This applies to both children and adults. This has its advantages and disadvantages.</description>
-		<iconPath>UI/Icons/Genes/AG_FasterAging</iconPath>
+		<iconPath>UI/Icons/Genes/AG_SlowerAging</iconPath>
 		<exclusionTags>
 			<li>AG_Aging</li>
 			<li>Aging</li>
