@@ -33,11 +33,12 @@ namespace AlphaGenes
         public bool ShouldConsumeNow()
         {
             if (!Active) return false;
+            var diff = targetValue - Value;
             if(Value <= 0.15f && Value<= targetValue )
             {
                 return true;
             }
-            else if (Value<= targetValue && Find.TickManager.TicksGame - lastConsumed >= 6000) 
+            else if (Value<= targetValue && (diff >= 0.14f || Find.TickManager.TicksGame - lastConsumed >= 30000)) //0.14 diff to equate to 2 steel minimum
             {
                 return true;
             }
