@@ -324,6 +324,52 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+
+	<GeneDef>
+		<defName>AG_InsectStinger</defName>
+		<label>stinger implanter</label>
+		<marketValueFactor>1.25</marketValueFactor>
+		<description>Carriers of this gene can inject a copy of their xenogerm into another person through a very disgusting injector stinger. This doesn't cause their genes to need to regrow, but the ability cannot be used constantly, needing to recharge. It will also damage its target, and cause a bloody mess.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectStinger</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_InsectStinger</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_InsectStinger</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_InsectRally</defName>
+		<label>insect rally</label>
+		<marketValueFactor>1.25</marketValueFactor>
+		<description>Carriers of this gene can secrete a cloud of pheromonal compounds that are irresistible to all insects. They'll feel re-invigorated and strengthened when close to the carrier.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectRally</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_InsectRally</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_InsectRally</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	<!--<GeneDef>
 		<defName>AG_Detonation</defName>
 		<label>detonation</label>

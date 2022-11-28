@@ -10,6 +10,7 @@
     <thingClass>Genepack</thingClass>
     <tickerType>Rare</tickerType>
     <useHitPoints>true</useHitPoints>
+	<stackLimit>1</stackLimit>
     <canDeteriorateUnspawned>true</canDeteriorateUnspawned>
     <deteriorateFromEnvironmentalEffects>false</deteriorateFromEnvironmentalEffects>
     <inspectorTabs>
@@ -40,6 +41,7 @@
     <thingClass>Genepack</thingClass>
     <tickerType>Rare</tickerType>
     <useHitPoints>true</useHitPoints>
+	<stackLimit>1</stackLimit>
     <canDeteriorateUnspawned>true</canDeteriorateUnspawned>
     <deteriorateFromEnvironmentalEffects>false</deteriorateFromEnvironmentalEffects>
     <inspectorTabs>

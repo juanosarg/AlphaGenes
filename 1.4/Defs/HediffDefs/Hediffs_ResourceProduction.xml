@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<HediffDef>
+		<defName>AG_InsectJellyProduction</defName>
+		<label>jelly production</label>
+		<description>The skin of this person constantly exudes and produces globs of insect jelly, which provides some extra food for the colony.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_Spawner">
+				<thingToSpawn>InsectJelly</thingToSpawn>
+				<spawnCount>12</spawnCount>
+				<spawnIntervalRange>55000~65000</spawnIntervalRange>
+				<spawnMaxAdjacent>30</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<showMessageIfOwned>false</showMessageIfOwned>
+				
+			</li>
+		</comps>
+	</HediffDef>
+	
+</Defs>

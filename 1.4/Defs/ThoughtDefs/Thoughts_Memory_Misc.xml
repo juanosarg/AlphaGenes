@@ -3,8 +3,8 @@
 
 
 
-	
-	
+
+
 	<ThoughtDef>
 		<defName>AG_Disgust</defName>
 		<durationDays>1</durationDays>
@@ -16,9 +16,11 @@
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
-		<nullifyingGenes><li>AG_Beauty_VeryVeryUgly</li></nullifyingGenes>
+		<nullifyingGenes>
+			<li>AG_Beauty_VeryVeryUgly</li>
+		</nullifyingGenes>
 	</ThoughtDef>
-	
+
 	<ThoughtDef>
 		<defName>AG_Awe</defName>
 		<durationDays>1</durationDays>
@@ -30,9 +32,9 @@
 				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>
-		
+
 	</ThoughtDef>
-	
+
 	<ThoughtDef>
 		<defName>AG_PsychicDrone</defName>
 		<durationDays>1</durationDays>
@@ -44,9 +46,11 @@
 				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
-		<nullifyingGenes><li>AG_PsychicAbility_Masterful</li></nullifyingGenes>
+		<nullifyingGenes>
+			<li>AG_PsychicAbility_Masterful</li>
+		</nullifyingGenes>
 	</ThoughtDef>
-	
+
 	<ThoughtDef>
 		<defName>AG_CorpseFeeding</defName>
 		<durationDays>1</durationDays>
@@ -58,39 +62,41 @@
 				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 		</stages>
-		<nullifyingGenes><li>AG_CorpseFeeding</li></nullifyingGenes>
+		<nullifyingGenes>
+			<li>AG_CorpseFeeding</li>
+		</nullifyingGenes>
 	</ThoughtDef>
-	
-	 <ThoughtDef>
-    <defName>AG_SunlightSensitivity_Minor</defName>
-    <workerClass>ThoughtWorker_InSunlight</workerClass>
-    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
-    <requiredGenes>
-      <li>AG_UVSensitivity_Minor</li>
-    </requiredGenes>
-    <stages>
-      <li>
-        <label>sunlight sensitivity</label>
-        <description>The sun hurts my eyes.</description>
-        <baseMoodEffect>-3</baseMoodEffect>
-      </li>
-    </stages>
-  </ThoughtDef>
-  
-  <ThoughtDef>
-    <defName>AG_Thalassophobia</defName>
-    <workerClass>AlphaGenes.ThoughtWorker_Thalassophobia</workerClass>
-    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
-    <stages>
-      <li>
-        <label>afraid of water</label>
-        <description>I can't stand being near water! It terrifies me.</description>
-        <baseMoodEffect>-10</baseMoodEffect>
-      </li>
-    </stages>
-  </ThoughtDef>
-  
-  <ThoughtDef>
+
+	<ThoughtDef>
+		<defName>AG_SunlightSensitivity_Minor</defName>
+		<workerClass>ThoughtWorker_InSunlight</workerClass>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<requiredGenes>
+			<li>AG_UVSensitivity_Minor</li>
+		</requiredGenes>
+		<stages>
+			<li>
+				<label>sunlight sensitivity</label>
+				<description>The sun hurts my eyes.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>AG_Thalassophobia</defName>
+		<workerClass>AlphaGenes.ThoughtWorker_Thalassophobia</workerClass>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>afraid of water</label>
+				<description>I can't stand being near water! It terrifies me.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
 		<defName>AG_PukedRats</defName>
 		<durationDays>1</durationDays>
 		<stackLimit>1</stackLimit>
@@ -101,7 +107,42 @@
 				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 		</stages>
-		
+
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>AG_Implanted</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>10</durationDays>
+		<nullifyingTraits>
+			<li>Masochist</li>
+		</nullifyingTraits>
+
+		<stages>
+			<li>
+				<label>forcefully implanted by {0}</label>
+				<description>I was violated and stung.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>AG_Implanted_Social</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>60</durationDays>
+		<stackLimit>50</stackLimit>
+		<stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+		<nullifyingTraits>
+			<li>Masochist</li>
+		</nullifyingTraits>
+
+		<stages>
+			<li>
+				<label>forcefully implanted</label>
+				<baseOpinionOffset>-40</baseOpinionOffset>
+			</li>
+		</stages>
 	</ThoughtDef>
 
 

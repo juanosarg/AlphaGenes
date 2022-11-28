@@ -40,7 +40,7 @@
 	</GeneCategoryDef>
 	<GeneCategoryDef>
 		<defName>AG_Cosmetic_Horns</defName>
-		<label>cosmetic - horns</label>
+		<label>cosmetic - horns, tusks, antennae</label>
 		<displayPriorityInXenotype>295.69</displayPriorityInXenotype>
 		<displayPriorityInGenepack>-110.69</displayPriorityInGenepack>
 	</GeneCategoryDef>

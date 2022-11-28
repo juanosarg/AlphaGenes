@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+ <ThingDef ParentName="MoteBase">
+    <defName>AG_Ability_Mote</defName>
+    <thingClass>MoteAttached</thingClass>
+    <altitudeLayer>LightingOverlay</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <solidTime>9999999</solidTime>
+      <needsMaintenance>true</needsMaintenance>
+    </mote>
+    <graphicData>
+      <graphicClass>Graphic_Mote</graphicClass>
+      <texPath>Things/Mote/AG_AbilityMask</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <color>(146, 121, 90)</color>
+      <drawSize>20</drawSize>
+    </graphicData>
+  </ThingDef>
+    
+</Defs>

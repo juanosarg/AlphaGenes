@@ -265,4 +265,57 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_InsectRally</defName>
+		<label>insect rally</label>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+		<description>This person is secreting a cloud of pheromonal compounds that are irresistible to all insects. They'll feel re-invigorated and strengthened when close to the carrier.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>True</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="AlphaGenes.HediffCompProperties_GiveHediffsInRangeExpanded">
+				<range>9.9</range>
+				<mote>AG_Ability_Mote</mote>
+				<hideMoteWhenNotDrafted>false</hideMoteWhenNotDrafted>
+				<targetingParameters>
+					<canTargetBuildings>false</canTargetBuildings>
+					<canTargetAnimals>true</canTargetAnimals>
+					<canTargetMechs>false</canTargetMechs>
+					<onlyTargetColonists>false</onlyTargetColonists>
+				</targetingParameters>
+				<hediff>AG_InsectRally_Buff</hediff>
+				<affectSameDef>false</affectSameDef>
+			</li>
+		</comps>
+		
+		<isBad>false</isBad>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_InsectRally_Buff</defName>
+		<label>insect rally</label>
+		<description>This insect feels strengthened by being immersed in a pheromonal cloud.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>20</MeleeDodgeChance>
+					<MeleeHitChance>20</MeleeHitChance>
+					
+				</statOffsets>
+				<statFactors><MeleeDPS>2</MeleeDPS></statFactors>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

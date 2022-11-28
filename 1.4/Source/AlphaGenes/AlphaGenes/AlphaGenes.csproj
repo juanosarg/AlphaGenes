@@ -299,8 +299,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abilities\CompAbilityEffect_MineralCost.cs" />
+    <Compile Include="Abilities\CompAbilityEffect_Stinger.cs" />
     <Compile Include="Abilities\CompGiveHediff.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityMineralCost.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_AbilityReimplantXenogermStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
     <Compile Include="Abilities\MineralOverdrive.cs" />
     <Compile Include="Abilities\ReactiveArmour.cs" />
@@ -355,15 +357,18 @@
     <Compile Include="Harmony\JobDriver_Vomit_MakeNewToils.cs" />
     <Compile Include="Harmony\HediffComp_PregnantHuman_CompTipStringExtra.cs" />
     <Compile Include="Harmony\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs" />
+    <Compile Include="Harmony\PawnGenerator_GeneratePawnRelations.cs" />
     <Compile Include="Harmony\PawnUtility_BodyResourceGrowthSpeed.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\RelationsUtility_IsDisfigured.cs" />
+    <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\HediffComp_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\HediffComp_RandomMutation.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RandomMutation.cs" />
     <Compile Include="Hediff\Hediff_MineralCraving.cs" />

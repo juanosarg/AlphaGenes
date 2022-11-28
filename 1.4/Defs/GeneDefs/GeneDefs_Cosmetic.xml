@@ -277,38 +277,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<GeneDef ParentName="GeneHeadboneBase">
-		<defName>AG_MothAntennae</defName>
-		<label>moth antennae</label>
-		<displayCategory>AG_Cosmetic_Horns</displayCategory>
-		<description>Carriers of this gene grow two large antennae protruding from the nose.</description>
-		<iconPath>UI/Icons/Genes/AG_MothAntennaeIcon</iconPath>
-		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_MothAntennae/AG_MothAntennae</graphicPath>
-			<color>(255, 255, 255)</color>
-			<layer>PostHeadgear</layer>
-		</graphicData>
-		<symbolPack>
-			<prefixSymbols>
-				<li>
-					<symbol>moth</symbol>
-				</li>
-				<li>
-					<symbol>butterfly</symbol>
-				</li>
-				<li>
-					<symbol>lepidopt</symbol>
-				</li>
-			</prefixSymbols>
-		</symbolPack>
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
-	</GeneDef>
+	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_RayHoundTentacles</defName>
 		<label>rayhound tentacles</label>
@@ -347,15 +316,17 @@
 		<endogeneCategory>Headbone</endogeneCategory>
 		<displayCategory>Cosmetic</displayCategory>
 		<displayOrderInCategory>110</displayOrderInCategory>
-		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		
 		<exclusionTags>
 			<li>Tusk</li>
 			<li>Tusks</li>
+			<li>AG_Tusks</li>
 		</exclusionTags>
 		<graphicData>
 			<layer>PostHair</layer>
 			<drawLoc>HeadTop</drawLoc>
 		</graphicData>
+		<randomChosen>true</randomChosen>
 	</GeneDef>
 	<GeneDef ParentName="AG_GeneTuskBase">
 		<defName>AG_Tusks</defName>
@@ -379,6 +350,298 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_PincerMandibles</defName>
+		<label>pincer mandibles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large pincer mandibles protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_PincerMandibles</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_PincerMandibles/AG_PincerMandibles</graphicPath>
+			
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>mandib</symbol>
+				</li>
+				<li>
+					<symbol>ento</symbol>
+				</li>
+				<li>
+					<symbol>insect</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_BeetleMandibles</defName>
+		<label>beetle mandibles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large beetle mandibles protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_BeetleMandibles</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeetleMandibles/AG_BeetleMandibles</graphicPath>
+			
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>mandib</symbol>
+				</li>
+				<li>
+					<symbol>ento</symbol>
+				</li>
+				<li>
+					<symbol>insect</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_BeeMandibles</defName>
+		<label>bee mandibles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large bee mandibles protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_BeeMandibles</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeeMandibles/AG_BeeMandibles</graphicPath>
+			
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>mandib</symbol>
+				</li>
+				<li>
+					<symbol>ento</symbol>
+				</li>
+				<li>
+					<symbol>insect</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+	<!-- Antennae -->
+	<GeneDef Name="AG_GeneAntennaBase" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<endogeneCategory>Headbone</endogeneCategory>
+		<displayCategory>Cosmetic</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+	
+		<exclusionTags>
+			<li>Antennas</li>
+			<li>Antenna</li>
+			<li>AG_Antennae</li>
+		</exclusionTags>
+		<graphicData>
+			<layer>PostHeadgear</layer>
+			<drawLoc>HeadTop</drawLoc>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<randomChosen>true</randomChosen>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_GeneAntennaBase">
+		<defName>AG_MothAntennae</defName>
+		<label>moth antennae</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large antennae protruding from the nose.</description>
+		<iconPath>UI/Icons/Genes/AG_MothAntennaeIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_MothAntennae/AG_MothAntennae</graphicPath>
+			<color>(255, 255, 255)</color>
+			<colorType>Custom</colorType>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>moth</symbol>
+				</li>
+				<li>
+					<symbol>butterfly</symbol>
+				</li>
+				<li>
+					<symbol>lepidopt</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_GeneAntennaBase">
+		<defName>AG_OutwardsAntennas</defName>
+		<label>bee antennae</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large bee antennae protruding from the head.</description>
+		<iconPath>UI/Icons/Genes/AG_OutwardsAntennas</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_OutwardsAntennas/AG_OutwardsAntennas</graphicPath>
+			
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>bee</symbol>
+				</li>
+				<li>
+					<symbol>api</symbol>
+				</li>
+				<li>
+					<symbol>hive</symbol>
+				</li>
+				<li>
+					<symbol>antenna</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneAntennaBase">
+		<defName>AG_DownwardsAntennas</defName>
+		<label>wasp antennae</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large wasp antennae protruding from the head.</description>
+		<iconPath>UI/Icons/Genes/AG_DownwardsAntennas</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DownwardsAntennas/AG_DownwardsAntennas</graphicPath>
+			
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>wasp</symbol>
+				</li>
+				<li>
+					<symbol>hornet</symbol>
+				</li>
+				
+				<li>
+					<symbol>antenna</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneAntennaBase">
+		<defName>AG_FormicAntennas</defName>
+		<label>formic antennae</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large ant antennae protruding from the head.</description>
+		<iconPath>UI/Icons/Genes/AG_FormicAntennas</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_FormicAntennas/AG_FormicAntennas</graphicPath>
+			
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>ant</symbol>
+				</li>
+				<li>
+					<symbol>formic</symbol>
+				</li>
+				
+				<li>
+					<symbol>antenna</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<!-- Lower Antennae -->
+	<GeneDef Name="AG_GeneLowerAntennaBase" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<endogeneCategory>Headbone</endogeneCategory>
+		<displayCategory>Cosmetic</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		
+		<exclusionTags>
+			
+			<li>AG_LowerAntennae</li>
+		</exclusionTags>
+		<graphicData>
+			<layer>PostHeadgear</layer>
+			<drawLoc>HeadTop</drawLoc>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<randomChosen>true</randomChosen>
+	</GeneDef>
+	
+	
+	<GeneDef ParentName="AG_GeneLowerAntennaBase">
+		<defName>AG_LowerAntennas</defName>
+		<label>lower antennae</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large antennae protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_LowerAntennas</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LowerAntennas/AG_LowerAntennas</graphicPath>
+			
+		</graphicData>
+		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
