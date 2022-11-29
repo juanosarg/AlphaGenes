@@ -80,8 +80,8 @@
       <Hulk>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Hulk>
       <Fat>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Fat>
       <Thin>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Thin>
-      <Child>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Child>
-      <Baby>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Baby><!-- Always covered by swaddled graphic -->
+      <Child>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockChild</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockChild</Baby>
     </bodyTypeGraphicPaths>
   </FurDef>
 
