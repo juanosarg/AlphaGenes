@@ -37,5 +37,19 @@ namespace AlphaGenes
             base.ExposeData();
             Scribe_Values.Look(ref lastWaterSeenTick, "lastWaterSeenTick", -1);
         }
+
+        public override TaggedString GetBeginLetterText()
+        {
+            if (def.beginLetter.NullOrEmpty())
+            {
+                return null;
+            }
+            if (AlphaGenes_Mod.settings.AG_DisableThalassophobiaMessage)
+            {
+                return null;
+            }
+            return def.beginLetter.Formatted(pawn.NameShortColored, pawn.Named("PAWN")).AdjustedFor(pawn).Resolve()
+                .CapitalizeFirst();
+        }
     }
 }

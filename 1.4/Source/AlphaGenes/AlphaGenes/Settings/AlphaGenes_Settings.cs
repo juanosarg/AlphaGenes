@@ -16,6 +16,7 @@ namespace AlphaGenes
         public float AG_QuestRate = AG_QuestRateBase;
         public bool AG_DisableQuests = false;
         public bool AG_DisableMutationsMessage = false;
+        public bool AG_DisableThalassophobiaMessage = false;
         public bool AG_GeneRemovalComa = true;
 
 
@@ -28,6 +29,7 @@ namespace AlphaGenes
             Scribe_Values.Look(ref AG_QuestRate, "AG_QuestRate", AG_QuestRateBase);
             Scribe_Values.Look(ref AG_DisableQuests, "AG_DisableQuests", false);
             Scribe_Values.Look(ref AG_DisableMutationsMessage, "AG_DisableMutationsMessage", false);
+            Scribe_Values.Look(ref AG_DisableThalassophobiaMessage, "AG_DisableThalassophobiaMessage", false);
             Scribe_Values.Look(ref AG_GeneRemovalComa, "AG_GeneRemovalComa", true);
 
 
@@ -63,6 +65,7 @@ namespace AlphaGenes
             }
             listingStandard.CheckboxLabeled("AG_DisableQuests".Translate(), ref AG_DisableQuests, "AG_DisableQuests_Description".Translate());
             listingStandard.CheckboxLabeled("AG_DisableMutationsMessage".Translate(), ref AG_DisableMutationsMessage, "AG_DisableMutationsMessage_Description".Translate());
+            listingStandard.CheckboxLabeled("AG_DisableThalassophobiaMessage".Translate(), ref AG_DisableThalassophobiaMessage, "AG_DisableThalassophobiaMessage_Description".Translate());
             listingStandard.CheckboxLabeled("AG_GeneRemovalComa".Translate(), ref AG_GeneRemovalComa, "AG_GeneRemovalComa_Description".Translate());
 
             listingStandard.End();
