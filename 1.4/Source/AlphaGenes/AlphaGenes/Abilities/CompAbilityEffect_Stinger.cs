@@ -50,8 +50,17 @@ namespace AlphaGenes
 			{
 				return base.Valid(target, throwMessages);
 			}
-			
-			if (pawn.genes.Xenotype == parent.pawn.genes.Xenotype && parent.pawn.genes.Xenotype != XenotypeDefOf.Baseliner)
+
+            if (pawn.HostileTo(parent.pawn))
+            {
+                if (throwMessages)
+                {
+                    Messages.Message("AG_CannotBeUsedAsWeapon".Translate(pawn), pawn, MessageTypeDefOf.RejectInput, historical: false);
+                }
+                return false;
+            }
+
+            if (pawn.genes.Xenotype == parent.pawn.genes.Xenotype && parent.pawn.genes.Xenotype != XenotypeDefOf.Baseliner)
 			{
 				if (throwMessages)
 				{

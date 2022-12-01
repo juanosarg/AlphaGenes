@@ -16,6 +16,7 @@
 	<AG_AbilityDisabledNoMineral>{0_labelShort} does not have enough minerals.</AG_AbilityDisabledNoMineral>
 	<AG_AlreadyFourGenes>This genepack already has the maximum possible amount of genes</AG_AlreadyFourGenes>
 	<AG_NeedsMoreThanTwoGenes>The disruptor won't work if the genepack only has one remaining gene</AG_NeedsMoreThanTwoGenes>
+	<AG_CannotBeUsedAsWeapon>This ability cannot be used as a one-shot weapon on a hostile pawn</AG_CannotBeUsedAsWeapon>
 	
 	
 	

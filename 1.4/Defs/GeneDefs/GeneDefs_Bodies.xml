@@ -230,6 +230,46 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_CancerousBody</defName>
+		<label>cancerous body</label>
+		<labelShortAdj>cancerous</labelShortAdj>
+		<description>Carriers of this gene have a lumpy, cancerous looking body with loose skin and pockmarks.</description>
+		<biostatCpx>2</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>435</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_TumorousBodyIcon</iconPath>
+		
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>terato</symbol>
+				</li>
+				<li>
+					<symbol>canc</symbol>
+				</li>
+				<li>
+					<symbol>tumor</symbol>
+				</li>
+			</prefixSymbols>
+			
+		</symbolPack>
+		<graphicData>
+			<fur>AG_TeratoBody</fur>
+			
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<furHidesBody>true</furHidesBody>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 	<GeneDef>
 		<defName>AG_Digitigrade</defName>
 		<label>digitigrade legs</label>

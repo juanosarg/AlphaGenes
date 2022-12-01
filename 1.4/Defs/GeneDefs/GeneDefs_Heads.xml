@@ -204,6 +204,47 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_CancerousFace</defName>
+		<label>cancerous head</label>
+		<description>Carriers of this gene possess a lumpy, cancerous looking head with loose skin and pockmarks.</description>
+		<selectionWeight>0</selectionWeight>
+		<iconPath>UI/Icons/Genes/AG_TeratoFaceIcon</iconPath>
+		<forcedHeadTypes>
+			<li>AG_TeratoHead_Male_Normal</li>
+			<li>AG_TeratoHead_Male_Melting</li>
+			<li>AG_TeratoHead_Male_Narrow</li>
+			<li>AG_TeratoHead_Female_Normal</li>
+			<li>AG_TeratoHead_Female_Melting</li>
+			<li>AG_TeratoHead_Female_Narrow</li>
+		</forcedHeadTypes>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>terato</symbol>
+				</li>
+				<li>
+					<symbol>canc</symbol>
+				</li>
+				<li>
+					<symbol>tumor</symbol>
+				</li>
+			</prefixSymbols>
+			
+		</symbolPack>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	<!--<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_MimeHead</defName>
 		<label>mime head</label>

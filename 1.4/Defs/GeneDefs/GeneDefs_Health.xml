@@ -434,4 +434,25 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_Teratogenesis</defName>
+		<label>teratogenesis</label>
+		
+		
+		<description>Carriers of this gene constantly generate tumors all over their body. They are not immune to dead from these tumors.</description>
+		<iconPath>UI/Icons/Genes/AG_Teratogenesis</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>420</displayOrderInCategory>
+		<biostatMet>5</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+			
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Teratogenesis</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

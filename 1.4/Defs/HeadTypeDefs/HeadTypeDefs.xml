@@ -195,6 +195,69 @@
 		<selectionWeight>1</selectionWeight>
 	</HeadTypeDef>
 	
+	<!-- Terato -->
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_TeratoHead_Male_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TeratoHead/AG_TeratoHead_Male_Normal</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_CancerousFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_TeratoHead_Male_Melting</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TeratoHead/AG_TeratoHead_Male_Melting</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_CancerousFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_TeratoHead_Male_Narrow</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TeratoHead/AG_TeratoHead_Male_Narrow</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_CancerousFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_TeratoHead_Female_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TeratoHead/AG_TeratoHead_Female_Normal</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_CancerousFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_TeratoHead_Female_Melting</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TeratoHead/AG_TeratoHead_Female_Melting</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_CancerousFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_TeratoHead_Female_Narrow</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TeratoHead/AG_TeratoHead_Female_Narrow</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_CancerousFace</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	
 	<!-- Silver -->
 	
 	<HeadTypeDef Name="AG_SilverAverageBase" ParentName="AverageBase" Abstract="True">

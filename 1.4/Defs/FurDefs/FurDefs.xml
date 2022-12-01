@@ -84,5 +84,19 @@
       <Baby>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockChild</Baby>
     </bodyTypeGraphicPaths>
   </FurDef>
+  
+   <FurDef>
+    <defName>AG_TeratoBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
 
 </Defs>

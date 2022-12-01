@@ -339,6 +339,7 @@
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Tusks/AG_Tusks</graphicPath>
 			<color>(255, 255, 255)</color>
 			<layer>PostHeadgear</layer>
+			 <visibleNorth>false</visibleNorth>
 		</graphicData>
 		<symbolPack>
 			<prefixSymbols>
@@ -366,7 +367,7 @@
 		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_PincerMandibles/AG_PincerMandibles</graphicPath>
-			
+			 <visibleNorth>false</visibleNorth>
 			<colorType>Skin</colorType>
 			<layer>PostHeadgear</layer>
 		</graphicData>
@@ -399,7 +400,7 @@
 		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeetleMandibles/AG_BeetleMandibles</graphicPath>
-			
+			 <visibleNorth>false</visibleNorth>
 			<colorType>Skin</colorType>
 			<layer>PostHeadgear</layer>
 		</graphicData>
@@ -432,7 +433,7 @@
 		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeeMandibles/AG_BeeMandibles</graphicPath>
-			
+			 <visibleNorth>false</visibleNorth>
 			<colorType>Skin</colorType>
 			<layer>PostHeadgear</layer>
 		</graphicData>
@@ -639,7 +640,7 @@
 		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LowerAntennas/AG_LowerAntennas</graphicPath>
-			
+			 <visibleNorth>false</visibleNorth>
 		</graphicData>
 		
 		<modExtensions>
