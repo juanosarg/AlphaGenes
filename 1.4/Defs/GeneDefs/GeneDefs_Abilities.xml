@@ -370,38 +370,31 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<!--<GeneDef>
+	<GeneDef>
 		<defName>AG_Detonation</defName>
 		<label>detonation</label>
-		<description>Carriers can detonate their bodies at will. Note that this will .</description>
-		<iconPath>UI/Icons/Genes/AG_Web</iconPath>
+		<description>Carriers can detonate their bodies at will. Note that this will NOT hurt the user of the ability.</description>
+		<iconPath>UI/Icons/Genes/AG_Detonation</iconPath>
 		<displayCategory>Ability</displayCategory>
 		<marketValueFactor>1.25</marketValueFactor>
-		<customEffectDescriptions>
-			<li>Does whatever a spider can. Spins a web, any size.</li>
-		</customEffectDescriptions>
+		
 		<abilities>
-			<li>AG_Web</li>
+			<li>AG_Detonation</li>
 		</abilities>
 		<selectionWeight>0</selectionWeight>
 		<descriptionHyperlinks>
-			<AbilityDef>AG_Web</AbilityDef>
+			<AbilityDef>AG_Detonation</AbilityDef>
 		</descriptionHyperlinks>
 		<biostatMet>-1</biostatMet>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
-					<symbol>peter</symbol>
+					<symbol>boom</symbol>
 				</li>
 				<li>
-					<symbol>parker</symbol>
+					<symbol>explos</symbol>
 				</li>
-				<li>
-					<symbol>spider</symbol>
-				</li>
-				<li>
-					<symbol>aracn</symbol>
-				</li>
+				
 			</prefixSymbols>
 		</symbolPack>
 		<modExtensions>

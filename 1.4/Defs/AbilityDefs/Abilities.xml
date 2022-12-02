@@ -288,5 +288,27 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_Detonation</defName>
+		<label>detonation</label>
+		<cooldownTicksRange>30000</cooldownTicksRange>
+		<description>Vents the heated gasses produced by this person's internal processes. This creates a wave of superheated air that will affect the surrounding tiles. It will not affect the caster.</description>
+		<iconPath>UI/Icons/Genes/AG_Detonation</iconPath>
+		
+		<verbProperties>
+			<range>1.9</range>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_Detonate">
+				<radius>1.9</radius>
+				<damageType>Bomb</damageType>
+				<thingCreated>Filth_Fuel</thingCreated>
+				<thingCreatedChance>50</thingCreatedChance>
+				<damageUser>false</damageUser>
+				<damageAmount>65</damageAmount>
+			</li>
+		</comps>
+	</AbilityDef>
 
 </Defs>
