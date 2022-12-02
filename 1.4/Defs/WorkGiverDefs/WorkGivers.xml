@@ -37,7 +37,7 @@
     <workType>Doctor</workType>
     <verb>feed</verb>
     <gerund>feeding</gerund>
-    <priorityInType>80</priorityInType>
+    <priorityInType>81</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -63,7 +63,7 @@
     <workType>Warden</workType>
     <verb>deliver food for</verb>
     <gerund>delivering food for</gerund>
-    <priorityInType>70</priorityInType>
+    <priorityInType>80</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
