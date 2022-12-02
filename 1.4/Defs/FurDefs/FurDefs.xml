@@ -98,5 +98,19 @@
       <Baby>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Baby>
     </bodyTypeGraphicPaths>
   </FurDef>
+  
+   <FurDef>
+    <defName>AG_GauntBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
 
 </Defs>

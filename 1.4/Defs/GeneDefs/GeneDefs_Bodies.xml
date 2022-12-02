@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<GeneDef Name="AG_BodyBase" Abstract="True">
 		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
 		<exclusionTags>
@@ -12,14 +11,12 @@
 			<drawLoc>Tailbone</drawLoc>
 		</graphicData>
 	</GeneDef>
-
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_SlimeBody</defName>
 		<label>slime body</label>
 		<labelShortAdj>slime bodied</labelShortAdj>
 		<description>Carriers of this gene have gelatinous, constantly dripping blue skin.</description>
 		<biostatCpx>1</biostatCpx>
-	
 		<selectionWeight>0</selectionWeight>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/Bodies/AG_SlimyBody/AG_Slimy</graphicPath>
@@ -28,9 +25,7 @@
 			<drawOffsetSouth>(0, 0.01, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0.01, 0)</drawOffsetEast>
 			<tattoosVisible>false</tattoosVisible>
-
 		</graphicData>
-
 		<displayOrderInCategory>400</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_SlimeBodyIcon</iconPath>
 		<iconColor>(157, 188, 200)</iconColor>
@@ -49,19 +44,15 @@
 				<li>
 					<symbol>gelat</symbol>
 				</li>
-
 			</prefixSymbols>
 		</symbolPack>
-
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_SlugBody</defName>
 		<label>slug body</label>
@@ -72,7 +63,6 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>410</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_SlugBody</iconPath>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -87,17 +77,14 @@
 				<li>
 					<symbol>snail</symbol>
 				</li>
-
 			</prefixSymbols>
 		</symbolPack>
-
 		<statOffsets>
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
 		</statOffsets>
 		<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
 		<graphicData>
 			<fur>AG_SlugBody</fur>
-
 			<tattoosVisible>false</tattoosVisible>
 		</graphicData>
 		<modExtensions>
@@ -108,7 +95,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<!--<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_MimeBody</defName>
 		<label>mime body</label>
@@ -135,7 +121,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>-->
-	
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_ScalyBody</defName>
 		<label>scaly body</label>
@@ -148,7 +133,6 @@
 		<iconPath>UI/Icons/Genes/AG_ScalyBody</iconPath>
 		<customEffectDescriptions>
 			<li>Can move very fast across shallow water</li>
-			
 		</customEffectDescriptions>
 		<symbolPack>
 			<prefixSymbols>
@@ -161,23 +145,17 @@
 				<li>
 					<symbol>herpet</symbol>
 				</li>
-				
 			</prefixSymbols>
 		</symbolPack>
-
 		<conditionalStatAffecters>
-			
 			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Water">
 				<statFactors>
 					<MoveSpeed>3</MoveSpeed>
-					
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>
-		
 		<graphicData>
 			<fur>AG_ScalyBody</fur>
-
 			<tattoosVisible>false</tattoosVisible>
 		</graphicData>
 		<modExtensions>
@@ -185,22 +163,18 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
-				
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_RockyBody</defName>
 		<label>rocky body</label>
 		<labelShortAdj>rocky</labelShortAdj>
 		<description>Carriers of this gene have a rocky looking skin, with mineral deposits piercing the skin.</description>
 		<biostatCpx>3</biostatCpx>
-		
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>430</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_RockyBody</iconPath>
-		
 		<bodyType>Standard</bodyType>
 		<symbolPack>
 			<prefixSymbols>
@@ -214,11 +188,9 @@
 					<symbol>petr</symbol>
 				</li>
 			</prefixSymbols>
-			
 		</symbolPack>
 		<graphicData>
 			<fur>AG_RockyBody</fur>
-
 			<tattoosVisible>false</tattoosVisible>
 		</graphicData>
 		<modExtensions>
@@ -226,7 +198,6 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<dontColourFur>true</dontColourFur>
-				
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -236,12 +207,9 @@
 		<labelShortAdj>cancerous</labelShortAdj>
 		<description>Carriers of this gene have a lumpy, cancerous looking body with loose skin and pockmarks.</description>
 		<biostatCpx>2</biostatCpx>
-		
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>435</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_TumorousBodyIcon</iconPath>
-		
-		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -254,11 +222,9 @@
 					<symbol>tumor</symbol>
 				</li>
 			</prefixSymbols>
-			
 		</symbolPack>
 		<graphicData>
 			<fur>AG_TeratoBody</fur>
-			
 		</graphicData>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -266,7 +232,43 @@
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
 				<furHidesBody>true</furHidesBody>
-				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_GauntBody</defName>
+		<label>gaunt body</label>
+		<labelShortAdj>gaunt</labelShortAdj>
+		<description>Carriers of this gene have a pinched, gaunt appearance in their body.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>436</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_GauntBodyIcon</iconPath>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gaunt</symbol>
+				</li>
+				<li>
+					<symbol>zomb</symbol>
+				</li>
+				<li>
+					<symbol>dead</symbol>
+				</li>
+				<li>
+					<symbol>bone</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<fur>AG_GauntBody</fur>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<furHidesBody>true</furHidesBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -298,7 +300,6 @@
 				<caravanCarryingFactor>0.8</caravanCarryingFactor>
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
 			</li>
 		</modExtensions>
 	</GeneDef>
