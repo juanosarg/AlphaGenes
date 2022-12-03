@@ -39,6 +39,11 @@ namespace AlphaGenes
 					FilthMaker.TryMakeFilth(c, pawn.Map, ThingDefOf.Filth_Blood);
 
 				}
+				if(pawn.Faction!=null&&pawn.Faction!= Faction.OfPlayer )
+				{
+
+                    pawn.Faction.SetRelationDirect(Faction.OfPlayer, FactionRelationKind.Hostile);
+                }
 				
 			}
 		}

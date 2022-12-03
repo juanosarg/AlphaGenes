@@ -335,6 +335,10 @@
 		<abilities>
 			<li>AG_InsectStinger</li>
 		</abilities>
+		<customEffectDescriptions>
+			<li>Bear in mind this won't work for endogenes, only xenogenes.</li>
+			<li>It will work on any non-hostile human, but it will anger their faction and make them hostile immediately.</li>
+		</customEffectDescriptions>
 		<descriptionHyperlinks>
 			<AbilityDef>AG_InsectStinger</AbilityDef>
 		</descriptionHyperlinks>
