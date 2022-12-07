@@ -120,6 +120,36 @@
 			
 		</genes>
 	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>AG_Taukai</defName>
+		<label>taukai</label>
+		<description>Named after the ancient Lithuanian word for "grease", the taukai are a very strange human xenotype, created to withstand extremely radioactive environments. The flesh of the taukai is slimy, looking like molten wax, and full of physical abnormalities, deformities and tumors. Their tissues are constantly regenerating and morphing, causing the formation of dangerous carcinomas. They have however an extraordinary ability to order their bodies to repurpose these carcinomas and use them for several beneficial designs.</description>
+		<descriptionShort>A xenotype of constantly morphing, cancerous afflicted people. They constantly get carcinomas and can repurpose them to get powerful buffs.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Taukai</iconPath>
+		<inheritable>false</inheritable>
+		<genes>
+			<li>AG_CancerousBody</li>
+			<li>AG_CancerousFace</li>
+			<li>AG_Teratogenesis</li>
+			<li>AG_HealingTouch</li>
+			<li>AG_TeratogenicManipulation</li>
+			<li>AG_TeratogenicSwiftness</li>
+			<li>AG_TeratogenicStamina</li>
+			<li>AG_TeratogenicBurst</li>
+			<li>AG_SurvivalInstinct_Low</li>
+			<li>AG_RegenerationMinor</li>
+			<li>AG_Filthy</li>
+			<li>AG_FrailSkin</li>
+			<li>ToxicEnvironmentResistance_Total</li>
+			<li>AG_Painless</li>
+			<li>AG_Beauty_VeryVeryUgly</li>
+			<li>AptitudePoor_Artistic</li>
+			<li>AptitudePoor_Social</li>
+			<li>AptitudeTerrible_Medicine</li>
+			
+		</genes>
+	</XenotypeDef>
 	<XenotypeDef>
 		<defName>AG_RandomCustom</defName>
 		<label>random custom</label>

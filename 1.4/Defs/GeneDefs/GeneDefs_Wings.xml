@@ -304,6 +304,58 @@
 		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="AG_WingBase">
+		<defName>AG_FeatheredWings</defName>
+		<label>feathered wings</label>
+		<description>Carriers of this gene have two pairs of feathery wings sprouting from their back.</description>
+		<iconPath>UI/Icons/Genes/AG_FeatheredWingsIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_Wings</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>angel</symbol>
+				</li>
+				<li>
+					<symbol>cherub</symbol>
+				</li>
+				<li>
+					<symbol>arch</symbol>
+				</li>
+				<li>
+					<symbol>saint</symbol>
+				</li>
+
+
+			</prefixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>Colonist will ignore terrain movement costs</li>
+
+		</customEffectDescriptions>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FeatheredWings/AG_FeatheredWings</graphicPath>
+			
+
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+		</graphicData>
+		<abilities>
+			<li>AG_WingPoweredJump</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Hover</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_GasBags</defName>
 		<label>gas bags</label>
 		<description>Carriers of this gene have a an internal organ consisting of hydrogen filled gas bags, that allows them to hover over terrain, at the cost of being quite flammable and exploding on death.</description>

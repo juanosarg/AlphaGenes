@@ -163,7 +163,7 @@
 		<warmupStartSound>FireSpew_Warmup</warmupStartSound>
 		<verbProperties>
 			<verbClass>Verb_CastAbility</verbClass>
-			<range>10.9</range>
+			<range>16.9</range>
 			<warmupTime>1</warmupTime>
 			<soundCast>FireSpew_Resolve</soundCast>
 			<targetParams>
@@ -186,7 +186,7 @@
 		<warmupStartSound>AcidSpray_Warmup</warmupStartSound>
 		<verbProperties>
 			<verbClass>Verb_CastAbility</verbClass>
-			<range>10.9</range>
+			<range>16.9</range>
 			<warmupTime>1</warmupTime>
 			<soundCast>AcidSpray_Resolve</soundCast>
 			<targetParams>
@@ -308,6 +308,112 @@
 				<damageUser>false</damageUser>
 				<damageAmount>65</damageAmount>
 			</li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_TeratogenicHealing</defName>
+		<label>teratogenic healing</label>
+		<description>Repurposes existing tumors to heal the target, consuming the cancerous masses in the process.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicHealing</iconPath>
+		<warmupStartSound>AG_Healing</warmupStartSound>
+		<warmupEffecter>AG_TeratogenicHealing</warmupEffecter>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TeratogenicHealing" />
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_TeratogenicManipulation</defName>
+		<label>teratogenic coordination</label>		
+		<description>Repurposes existing tumors to provide a huge boost to manipulation and dexterity.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicManipulation</iconPath>
+		<warmupStartSound>AG_Hediff</warmupStartSound>
+		<warmupEffecter>AG_TeratogenicEffecter</warmupEffecter>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TeratogenicHediff">
+				<hediff>AG_TeratogenicManipulation</hediff>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_TeratogenicSwiftness</defName>
+		<label>teratogenic swiftness</label>	
+		<description>Repurposes existing tumors to provide a huge boost to movement and working speed.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicSwiftness</iconPath>
+		<warmupStartSound>AG_Hediff</warmupStartSound>
+		<warmupEffecter>AG_TeratogenicEffecter</warmupEffecter>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TeratogenicHediff">
+				<hediff>AG_TeratogenicSwiftness</hediff>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_TeratogenicStamina</defName>
+		<label>teratogenic stamina</label>	
+		<description>Repurposes existing tumors to provide a huge boost to their immune system, and overall stamina.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicStamina</iconPath>
+		<warmupStartSound>AG_Hediff</warmupStartSound>
+		<warmupEffecter>AG_TeratogenicEffecter</warmupEffecter>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TeratogenicHediff">
+				<hediff>AG_TeratogenicStamina</hediff>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_HealingTouch</defName>
+		<label>healing touch</label>
+		<description>Repurposes existing tumors to heal other people, consuming the cancerous masses in the process.</description>
+		<iconPath>UI/Icons/Genes/AG_HealingTouch</iconPath>
+		<warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+		<warmupEffecter>Implant_Xenogerm</warmupEffecter>
+		
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetAnimals>true</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TeratogenicHealing">
+				<targetOther>true</targetOther>
+			</li>
+			
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_TeratogenicBurst</defName>
+		<label>teratogenic touch</label>	
+		<description>Transfers existing tumors to other people, which is generally as painful and dangerous as it sounds. Can be used as an offenssive tool or as a way to transfer tumors to other colonists.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicBurst</iconPath>
+		<warmupStartSound>AG_Transfer</warmupStartSound>
+		
+		
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetAnimals>true</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TeratogenicTransfer">
+				
+			</li>
+			
 		</comps>
 	</AbilityDef>
 

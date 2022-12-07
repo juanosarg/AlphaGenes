@@ -21,5 +21,9 @@
     <defName>AG_CustomXenotypeIcon5</defName>
     <texPath>UI/Icons/Xenotypes/AG_Wretch</texPath>
   </XenotypeIconDef>
+    <XenotypeIconDef>
+    <defName>AG_CustomXenotypeIcon6</defName>
+    <texPath>UI/Icons/Xenotypes/AG_Taukai</texPath>
+  </XenotypeIconDef>
    
 </Defs>

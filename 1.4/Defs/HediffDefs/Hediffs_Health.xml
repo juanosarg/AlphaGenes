@@ -156,7 +156,7 @@
 	<HediffDef>
 		<defName>AG_Teratogenesis</defName>
 		<label>teratogenesis</label>
-		<description>The genes of this person constantly generate tumors all over their body. They are not immune to dead from these tumors.\n\nA new tumor will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten tumors may be present at the same time on the body.</description>
+		<description>The genes of this person constantly generate tumors all over their body. They are not immune to dead from these tumors.\n\nA new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>

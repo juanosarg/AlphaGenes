@@ -44,6 +44,101 @@
 			<shaderType>Mote</shaderType>
 		</graphicData>
 	</ThingDef>
+	
+	<EffecterDef>
+    <defName>AG_TeratogenicHealing</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <positionRadius>0.15</positionRadius>
+        <fleckDef>AG_HealingMote</fleckDef>
+        <chancePerTick>1</chancePerTick>
+        <speed>7</speed>
+        <scale>0.8~1.2</scale>
+        <angle>0~360</angle>
+        <positionLerpFactor>0.85</positionLerpFactor>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+      </li>
+     
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>FireSpew_Glow</fleckDef>
+        <chancePerTick>0.16</chancePerTick>
+        <positionLerpFactor>0.65</positionLerpFactor>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <positionRadius>0.15</positionRadius>
+        <fleckDef>AG_HealingMoteB</fleckDef>
+        <chancePerTick>1</chancePerTick>
+        <speed>6.5</speed>
+        <scale>0.8~1.2</scale>
+        <angle>0~360</angle>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef>
+  
+    <FleckDef ParentName="FleckBase_Thrown">
+    <defName>AG_HealingMote</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.1</fadeInTime>
+    <solidTime>0.2</solidTime>
+    <fadeOutTime>0.1</fadeOutTime>
+    <rotateTowardsMoveDirection>true</rotateTowardsMoveDirection>
+    <rotateTowardsMoveDirectionExtraAngle>-90</rotateTowardsMoveDirectionExtraAngle>
+    <graphicData>
+     
+      <texPath>Things/Mote/AG_HealingMote</texPath>
+      
+      <drawSize>1.2</drawSize>
+    </graphicData>
+  </FleckDef>
+  
+    <FleckDef ParentName="FleckBase_Thrown">
+    <defName>AG_HealingMoteB</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <solidTime>0.15</solidTime>
+    <fadeOutTime>0.15</fadeOutTime>
+    <graphicData>
+      <texPath>Things/Mote/AG_HealingMote</texPath>
+      <shaderType>Mote</shaderType>
+     
+    </graphicData>
+  </FleckDef>
+  
+  <EffecterDef>
+    <defName>AG_TeratogenicEffecter</defName>
+    <children>
+     
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>AG_MoteSpawn</moteDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <attachToSpawnThing>true</attachToSpawnThing>
+      </li>
+      
+    </children>
+  </EffecterDef>
+  
+    <ThingDef ParentName="MoteBase">
+    <defName>AG_MoteSpawn</defName>
+    <thingClass>MoteAttached</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.1</fadeInTime>
+      <solidTime>0.15</solidTime>
+      <fadeOutTime>0.5</fadeOutTime>
+    </mote>
+    <graphicData>
+      <texPath>Things/Mote/BrightFlash</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <color>(165, 139, 111)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+  </ThingDef>
 
 
 </Defs>

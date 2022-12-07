@@ -15,7 +15,7 @@ namespace AlphaGenes
 		public List<GeneDef> genes = new List<GeneDef>();
 
         public List<GeneDef> blacklist = new List<GeneDef>() { InternalDefOf.AG_UnstableMutation,InternalDefOf.AG_UnstableMutationMajor,InternalDefOf.AG_UnstableMutationCatastrophic,
-		InternalDefOf.AlphaGenes_Randomizer,InternalDefOf.AlphaGenes_ExoticOrganism};
+		InternalDefOf.AlphaGenes_Randomizer,InternalDefOf.AlphaGenes_ExoticOrganism, InternalDefOf.AG_Sensitivity_Lethal,InternalDefOf.AG_Teratogenesis};
 
         public bool Active = false;
 
