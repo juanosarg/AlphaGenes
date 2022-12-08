@@ -174,7 +174,7 @@
 		</modExtensions>
 	</GeneDef>
 	
-	<GeneDef ParentName="GeneHeadboneBase">
+	<GeneDef>
 		<defName>AG_InsectJellyProduction</defName>
 		<label>jelly production</label>
 		 <displayCategory>AG_SpecialEffectsCategory</displayCategory>

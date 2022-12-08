@@ -4,7 +4,7 @@
 	
 	
 	
-	<GeneDef ParentName="GeneHeadboneBase">
+	<GeneDef>
 		<defName>AG_BlueGelProduction</defName>
 		<label>blue gel production</label>
 		 <displayCategory>AG_SpecialEffectsCategory</displayCategory>
