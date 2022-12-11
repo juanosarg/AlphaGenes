@@ -17,8 +17,10 @@ namespace AlphaGenes
 		public static ThoughtDef AG_PukedRats;
 		public static ThoughtDef AG_Implanted;
 		public static ThoughtDef AG_Implanted_Social;
+        public static ThoughtDef AG_Parasite;
+        public static ThoughtDef AG_Parasite_Social;
 
-		public static QuestScriptDef AG_OpportunitySite_AbandonedBiotechLab;
+        public static QuestScriptDef AG_OpportunitySite_AbandonedBiotechLab;
 
 		public static GeneDef AG_BrittleBones;
 		public static GeneDef AG_UnsettlingAppearance;

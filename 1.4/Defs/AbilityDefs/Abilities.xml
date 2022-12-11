@@ -271,6 +271,32 @@
 			<li Class="AlphaGenes.CompProperties_AbilityStinger" />
 		</comps>
 	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_ParasiticStinger</defName>
+		<label>sting parasitic eggs</label>
+		<description>Implant eggs with this person's xenogenes into any subject using a disgusting injector stinger.\n\nWhen implanted, eggs will begin growing inside the target, eventually erupting and killing them.</description>
+		<iconPath>UI/Icons/Genes/AG_ParasiticStinger</iconPath>
+		<warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+		<warmupEffecter>Implant_Xenogerm</warmupEffecter>
+		<cooldownTicksRange>480000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilityParasiticStinger" />
+		</comps>
+	</AbilityDef>
 
 	<AbilityDef ParentName="AG_AuraBase">
 		<defName>AG_InsectRally</defName>

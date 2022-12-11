@@ -79,12 +79,7 @@ namespace AlphaGenes
 
 		
 
-		public override IEnumerable<Mote> CustomWarmupMotes(LocalTargetInfo target)
-		{
-			Pawn pawn = target.Pawn;
-			yield return MoteMaker.MakeAttachedOverlay(pawn, ThingDefOf.Mote_XenogermImplantation, new Vector3(0f, 0f, 0.3f));
-		}
-
+		
 
 		public static void ReimplantXenogerm(Pawn caster, Pawn recipient)
 		{

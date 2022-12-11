@@ -97,6 +97,32 @@
 		</modExtensions>
 
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_Regeneration</defName>
+		<label>regeneration</label>
+		<exclusionTags>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<description>Carriers of this gene have a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
+		<iconPath>UI/Icons/Genes/AG_Regeneration</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>112</displayOrderInCategory>
+		<biostatArc>2</biostatArc>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-4</biostatMet>
+		<customEffectDescriptions>
+			<li>A random wound is reduced by 0.1 severity every 10 ticks (1/6th of a second).</li>
+		</customEffectDescriptions>
+	
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				
+				<hediffToWholeBody>AG_Regeneration</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 
 

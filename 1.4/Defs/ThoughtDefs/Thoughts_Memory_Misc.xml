@@ -144,6 +144,36 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>AG_Parasite</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>60</durationDays>
+		
+		<stages>
+			<li>
+				<label>parasitized by {0}</label>
+				<description>I CAN FEEL THE EGGS MOVING INSIDE MY BODY!</description>
+				<baseMoodEffect>-40</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>AG_Parasite_Social</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>60</durationDays>
+		<stackLimit>50</stackLimit>
+		<stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+		
+
+		<stages>
+			<li>
+				<label>parasitized</label>
+				<baseOpinionOffset>-100</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 
 
