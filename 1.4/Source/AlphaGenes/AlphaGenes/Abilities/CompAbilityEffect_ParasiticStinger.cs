@@ -28,6 +28,9 @@ namespace AlphaGenes
 
                 pawn.health.AddHediff(Props.hediffDef);
 
+                Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(Props.hediffDef);
+                hediff.TryGetComp<HediffComp_Parasites>().motherGenes = parent.pawn.genes.Xenogenes;
+
                 FleckMaker.AttachedOverlay(pawn, FleckDefOf.FlashHollow, new Vector3(0f, 0f, 0.26f));
 
                 pawn.needs?.mood?.thoughts?.memories?.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(InternalDefOf.AG_Parasite), parent.pawn);

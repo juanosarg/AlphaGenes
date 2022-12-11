@@ -374,12 +374,14 @@
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\RelationsUtility_IsDisfigured.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
+    <Compile Include="HediffComps\HediffComp_Parasites.cs" />
     <Compile Include="HediffComps\HediffComp_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\HediffComp_RandomMutation.cs" />
     <Compile Include="HediffComps\HediffComp_Teratogenesis.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_Parasites.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RandomMutation.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Teratogenesis.cs" />
