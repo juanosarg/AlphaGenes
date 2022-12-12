@@ -106,7 +106,7 @@
 		</exclusionTags>
 		<description>Carriers of this gene have a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
 		<iconPath>UI/Icons/Genes/AG_Regeneration</iconPath>
-		<displayCategory>Healing</displayCategory>
+		<displayCategory>Archite</displayCategory>
 		<displayOrderInCategory>112</displayOrderInCategory>
 		<biostatArc>2</biostatArc>
 		<biostatCpx>5</biostatCpx>
