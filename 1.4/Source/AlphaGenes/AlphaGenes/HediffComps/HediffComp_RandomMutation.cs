@@ -79,7 +79,7 @@ namespace AlphaGenes
         {
             base.CompPostPostRemoved();
 
-			for (int i = 0; i < Props.numberOfGenes; i++)
+			for (int i = 0; i < genes.Count; i++)
 			{
 				if (this.parent.pawn.genes?.GetGene(genes[i]) != null)
 				{

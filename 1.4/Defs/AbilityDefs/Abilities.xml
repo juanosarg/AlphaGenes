@@ -106,7 +106,7 @@
 		<defName>AG_MineralOverdriveA</defName>
 		<label>mineral overdrive</label>
 		<abilityClass>AlphaGenes.Ability_MineralOverdrive</abilityClass>
-		<description>Drains minerals to increase the work effiency of the user.</description>
+		<description>Drains minerals to increase the work efficiency of the user.</description>
 		<iconPath>UI/Icons/Genes/AG_MineralOverdrive</iconPath>
 		<cooldownTicksRange>60000</cooldownTicksRange>
 		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>

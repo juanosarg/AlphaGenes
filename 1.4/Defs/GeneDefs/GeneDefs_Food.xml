@@ -93,6 +93,7 @@
 		<biostatMet>-3</biostatMet>
 		<customEffectDescriptions>
 			<li>Can feed by standing in sunlight. A prolonged lack of sunlight will kill the carrier.</li>
+			<li>Artificial light of sufficient strength will also do the trick.</li>
 		</customEffectDescriptions>
 		<symbolPack>
 			<prefixSymbols>

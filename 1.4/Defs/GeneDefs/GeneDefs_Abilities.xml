@@ -79,7 +79,7 @@
 	<GeneDef>
 		<defName>AG_MineralOverdrive</defName>
 		<label>mineral overdrive</label>
-		<description>Carriers of this gene can use the stored minerals to work with increased efficency at the cost of draining minerals</description>
+		<description>Carriers of this gene can use the stored minerals to work with increased efficiency at the cost of draining minerals.</description>
 		<iconPath>UI/Icons/Genes/AG_MineralOverdrive</iconPath>
 		<prerequisite>AG_MetalEater</prerequisite>
 		<displayCategory>AG_Metallic</displayCategory>
