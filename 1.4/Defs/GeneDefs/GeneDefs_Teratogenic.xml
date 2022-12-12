@@ -6,10 +6,10 @@
 		<label>teratogenesis</label>
 		
 		
-		<description>Carriers of this gene constantly generate tumors all over their body. They are not immune to dead from these tumors.</description>
+		<description>Carriers of this gene constantly generate tumors all over their body. They are not immune to death from these tumors.</description>
 		<iconPath>UI/Icons/Genes/AG_Teratogenesis</iconPath>
 		<displayCategory>AG_Teratogenic</displayCategory>
-		<displayOrderInCategory>0</displayOrderInCategory>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
 		<biostatMet>5</biostatMet>
 		<customEffectDescriptions>
 			<li>A new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body.</li>
