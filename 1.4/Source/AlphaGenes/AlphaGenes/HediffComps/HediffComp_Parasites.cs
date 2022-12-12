@@ -11,6 +11,10 @@ namespace AlphaGenes
     public class HediffComp_Parasites : HediffComp
     {
         public List<GeneDef> motherGenes = new List<GeneDef>();
+        public Pawn mother;
+        public Faction motherFaction;
+        public PawnKindDef motherDef;
+
 
         public HediffCompProperties_Parasites Props
         {
@@ -24,8 +28,13 @@ namespace AlphaGenes
         {
             base.CompExposeData();
             Scribe_Collections.Look(ref this.motherGenes, nameof(this.motherGenes), LookMode.Def);
+            Scribe_References.Look(ref this.mother, nameof(this.mother));
+            Scribe_References.Look(ref this.motherFaction, nameof(this.motherFaction));
+            Scribe_Defs.Look(ref this.motherDef, nameof(this.motherDef));
+
+
         }
-       
+
 
         public override void Notify_PawnDied()
         {
@@ -49,7 +58,7 @@ namespace AlphaGenes
 
 
                 SoundDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(this.parent.pawn.Corpse.Position, map, false));
-                this.parent.pawn.Corpse.Destroy();
+                //this.parent.pawn.Corpse.Destroy();
 
             }
 
@@ -59,111 +68,76 @@ namespace AlphaGenes
         {
             try
             {
-                PawnGenerationRequest request = new PawnGenerationRequest(hatcheeParent.kindDef, hatcheeFaction, PawnGenerationContext.NonPlayer, -1, forceGenerateNewPawn: false, allowDead: false, allowDowned: true, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, 1f, forceAddFreeWarmLayerIfNeeded: false, allowGay: true, allowPregnant: false, allowFood: true, allowAddictions: true, inhabitant: false, certainlyBeenInCryptosleep: false, forceRedressWorldPawnIfFormerColonist: false, worldPawnFactionDoesntMatter: false, 0f, 0f, null, 1f, null, null, null, null, null, null, null, null, null, null, null, null, forceNoIdeo: false, forceNoBackstory: false, forbidAnyTitle: false, forceDead: false, null, null, null, null, null, 0f, DevelopmentalStage.Newborn);
-                for (int i = 0; i < parent.stackCount; i++)
+                PawnGenerationRequest request;
+                if (mother != null && !mother.Dead)
                 {
-                    Pawn pawn = PawnGenerator.GeneratePawn(request);
-                    if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn, parent))
-                    {
-                        if (pawn != null)
-                        {
-                            if (hatcheeParent != null)
-                            {
-                                if (pawn.playerSettings != null && hatcheeParent.playerSettings != null && hatcheeParent.Faction == hatcheeFaction)
-                                {
-                                    pawn.playerSettings.AreaRestriction = hatcheeParent.playerSettings.AreaRestriction;
-                                }
-                                if (pawn.RaceProps.IsFlesh)
-                                {
-                                    pawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, hatcheeParent);
-                                }
-                            }
-                            if (otherParent != null && (hatcheeParent == null || hatcheeParent.gender != otherParent.gender) && pawn.RaceProps.IsFlesh)
-                            {
-                                pawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, otherParent);
-                            }
-                        }
-                        if (parent.Spawned)
-                        {
-                            FilthMaker.TryMakeFilth(parent.Position, parent.Map, ThingDefOf.Filth_AmnioticFluid);
-                        }
+                    request = new PawnGenerationRequest(mother.kindDef, mother.Faction, PawnGenerationContext.NonPlayer, -1, forceGenerateNewPawn: false, allowDead: false, allowDowned: true, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, 1f, forceAddFreeWarmLayerIfNeeded: false, allowGay: true, allowPregnant: false, allowFood: true, allowAddictions: true, inhabitant: false, certainlyBeenInCryptosleep: false, forceRedressWorldPawnIfFormerColonist: false, worldPawnFactionDoesntMatter: false, 0f, 0f, null, 1f, null, null, null, null, null, null, null, null, null, null, null, null, forceNoIdeo: false, forceNoBackstory: false, forbidAnyTitle: false, forceDead: false, null, null, null, null, null, 0f, DevelopmentalStage.Newborn);
 
-                        Find.LetterStack.ReceiveLetter("VGE_EggHatchedLabel".Translate(pawn.NameShortColored), "VGE_EggHatched".Translate(pawn.NameShortColored), LetterDefOf.PositiveEvent, (TargetInfo)pawn);
-
-
-                        if (maleDominant)
-                        {
-                            if (fatherGenes?.Count > 0)
-                            {
-                                foreach (GeneDef gene in fatherGenes)
-                                {
-                                    pawn.genes.AddGene(gene, false);
-                                }
-
-                            }
-                        }
-                        else if (femaleDominant)
-                        {
-                            if (motherGenes?.Count > 0)
-                            {
-                                foreach (GeneDef gene in motherGenes)
-                                {
-                                    pawn.genes.AddGene(gene, false);
-                                }
-
-                            }
-                        }
-                        else
-                        {
-                            System.Random rand = new System.Random();
-                            List<GeneDef> genesToAdd = new List<GeneDef>();
-                            foreach (GeneDef gene in motherGenes)
-                            {
-                                if (fatherGenes.Contains(gene))
-                                {
-                                    genesToAdd.Add(gene);
-                                }
-                                else
-                                {
-                                    if (rand.NextDouble() > 0.5f)
-                                    {
-                                        genesToAdd.Add(gene);
-                                    }
-                                }
-                            }
-                            foreach (GeneDef gene in fatherGenes)
-                            {
-                                if (!motherGenes.Contains(gene))
-                                {
-                                    if (rand.NextDouble() > 0.5f)
-                                    {
-                                        if (!genesToAdd.Contains(gene)) { genesToAdd.Add(gene); }
-                                    }
-                                }
-                            }
-                            foreach (GeneDef gene in genesToAdd)
-                            {
-                                pawn.genes.AddGene(gene, false);
-                            }
-
-                        }
-
-
-
-                    }
-                    else
-                    {
-                        Find.WorldPawns.PassToWorld(pawn, PawnDiscardDecideMode.Discard);
-                    }
                 }
+                else
+                {
+                    request = new PawnGenerationRequest(motherDef, motherFaction, PawnGenerationContext.NonPlayer, -1, forceGenerateNewPawn: false, allowDead: false, allowDowned: true, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, 1f, forceAddFreeWarmLayerIfNeeded: false, allowGay: true, allowPregnant: false, allowFood: true, allowAddictions: true, inhabitant: false, certainlyBeenInCryptosleep: false, forceRedressWorldPawnIfFormerColonist: false, worldPawnFactionDoesntMatter: false, 0f, 0f, null, 1f, null, null, null, null, null, null, null, null, null, null, null, null, forceNoIdeo: false, forceNoBackstory: false, forbidAnyTitle: false, forceDead: false, null, null, null, null, null, 0f, DevelopmentalStage.Newborn);
+
+                }
+
+
+                Pawn pawn = PawnGenerator.GeneratePawn(request);
+                if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn, this.parent.pawn.Corpse))
+                {
+                    if (pawn != null)
+                    {
+                        if (mother != null)
+                        {
+                            if (pawn.playerSettings != null && mother.playerSettings != null)
+                            {
+                                pawn.playerSettings.AreaRestriction = mother.playerSettings.AreaRestriction;
+                            }
+                            if (pawn.RaceProps.IsFlesh)
+                            {
+                                pawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, mother);
+                            }
+                        }
+
+                    }
+
+
+                    Find.LetterStack.ReceiveLetter("AG_ParasitesHatchedLabel".Translate(pawn.NameShortColored), "AG_ParasitesHatched".Translate(pawn.NameShortColored), LetterDefOf.PositiveEvent, (TargetInfo)pawn);
+
+                    System.Random rand = new System.Random();
+                    List<GeneDef> genesToAdd = new List<GeneDef>();
+                    foreach (Gene gene in this.parent.pawn.genes?.GenesListForReading)
+                    {
+                        if (rand.NextDouble() > 0.75f)
+                        {
+                            genesToAdd.Add(gene.def);
+                        }
+                    }
+
+                    foreach (GeneDef gene in genesToAdd)
+                    {
+                        pawn.genes.AddGene(gene, true);
+                    }
+
+
+
+
+
+                }
+                else
+                {
+                    Find.WorldPawns.PassToWorld(pawn, PawnDiscardDecideMode.Discard);
+                }
+
+
+
+
             }
-            finally
-            {
-                parent.Destroy();
-            }
+            catch (Exception) { }
+
+
+
         }
-
-
-
     }
 }
+    
+

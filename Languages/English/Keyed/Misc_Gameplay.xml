@@ -17,7 +17,8 @@
 	<AG_AlreadyFourGenes>This genepack already has the maximum possible amount of genes</AG_AlreadyFourGenes>
 	<AG_NeedsMoreThanTwoGenes>The disruptor won't work if the genepack only has one remaining gene</AG_NeedsMoreThanTwoGenes>
 	<AG_CannotBeUsedAsWeapon>This ability cannot be used as a one-shot weapon on a hostile pawn</AG_CannotBeUsedAsWeapon>
-	
+	<AG_ParasitesHatchedLabel>Chestburst!</AG_ParasitesHatchedLabel>
+	<AG_ParasitesHatched>A newborn, {0}, has hatched from a host, killing it in the process</AG_ParasitesHatched>
 	
 	
 	<!-- Settings -->

@@ -29,7 +29,20 @@ namespace AlphaGenes
                 pawn.health.AddHediff(Props.hediffDef);
 
                 Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(Props.hediffDef);
-                hediff.TryGetComp<HediffComp_Parasites>().motherGenes = parent.pawn.genes.Xenogenes;
+
+                List<GeneDef> genesToPass = new List<GeneDef>();
+
+                foreach(Gene gene in parent.pawn.genes.Xenogenes)
+                {
+                    genesToPass.Add(gene.def);
+                }
+
+                HediffComp_Parasites comp = hediff.TryGetComp<HediffComp_Parasites>();
+
+                comp.motherGenes = genesToPass;
+                comp.motherDef = this.parent.pawn.kindDef;
+                comp.mother = parent.pawn;
+                comp.motherFaction = parent.pawn.Faction;
 
                 FleckMaker.AttachedOverlay(pawn, FleckDefOf.FlashHollow, new Vector3(0f, 0f, 0.26f));
 

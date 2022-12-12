@@ -279,7 +279,7 @@
 		<iconPath>UI/Icons/Genes/AG_ParasiticStinger</iconPath>
 		<warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
 		<warmupEffecter>Implant_Xenogerm</warmupEffecter>
-		<cooldownTicksRange>480000</cooldownTicksRange>
+		<cooldownTicksRange>120000</cooldownTicksRange>
 		<hostile>true</hostile>
 		<verbProperties>
 			<verbClass>Verb_CastAbilityTouch</verbClass>
@@ -294,7 +294,9 @@
 			</targetParams>
 		</verbProperties>
 		<comps>
-			<li Class="AlphaGenes.CompProperties_AbilityParasiticStinger" />
+			<li Class="AlphaGenes.CompProperties_AbilityParasiticStinger">
+				<hediffDef>AG_ParasiticImplantation</hediffDef>
+			</li>
 		</comps>
 	</AbilityDef>
 

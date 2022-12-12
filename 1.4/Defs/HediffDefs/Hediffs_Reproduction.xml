@@ -12,7 +12,7 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_AsexualReproduction">
-				<reproductionIntervalDays>60</reproductionIntervalDays>
+				<reproductionIntervalDays>25</reproductionIntervalDays>
 				<endogeneTransfer>true</endogeneTransfer>
 				<asexualHatchedMessage>AG_AsexualHatched</asexualHatchedMessage>
 			</li>
@@ -36,6 +36,69 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			</li>
 		</comps>
+	</HediffDef>
+	
+	<HediffDef ParentName="InfectionBase">
+		<defName>AG_ParasiticImplantation</defName>
+		<label>parasitic implantation</label>
+		<description>Affected by parasitic implantation. If the implantation advances to severity 1, or if the creature dies when it is sufficiently advanced (more than 90%), the human larvae inside the parasitic eggs will devour the victim from inside and hatch from its corpse. Gestation time is 15 days.</description>
+		<makesSickThought>true</makesSickThought>
+		<lethalSeverity>1</lethalSeverity>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		
+		<comps>
+			
+			<li Class="AlphaGenes.HediffCompProperties_Parasites">
+				
+			</li>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.066</severityPerDay>
+			</li>
+			
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+				 <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+			</li>
+			<li>
+				<minSeverity>0.33</minSeverity>
+				<label>major</label>
+				<painOffset>0.5</painOffset>
+				 <hungerRateFactorOffset>0.3</hungerRateFactorOffset>
+			</li>
+			<li>
+				<minSeverity>0.78</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.6</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.4</offset>
+					</li>
+				</capMods>
+				 <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+			</li>
+			<li>
+				<minSeverity>0.87</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>1</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.4</offset>
+					</li>
+				</capMods>
+				 <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+			</li>
+		</stages>
 	</HediffDef>
 	
 </Defs>
