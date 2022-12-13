@@ -329,6 +329,25 @@
 		<randomChosen>true</randomChosen>
 	</GeneDef>
 	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_NoTusks</defName>
+		<label>no tusks / mandibles</label>
+		<description>Carriers of this gene don't have tusks or mandibles.</description>
+		<customEffectDescriptions>
+			<li>With this gene you can create xenotypes in which a pawn can have tusks/mandibles or a lack of them at random</li>
+		</customEffectDescriptions>
+		<iconPath>UI/Icons/Genes/AG_NoTusks</iconPath>
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
 		<defName>AG_Tusks</defName>
 		<label>tusks</label>
 		<displayCategory>AG_Cosmetic_Horns</displayCategory>
@@ -477,6 +496,26 @@
 			<colorType>Skin</colorType>
 		</graphicData>
 		<randomChosen>true</randomChosen>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_GeneAntennaBase">
+		<defName>AG_NoAntennae</defName>
+		<label>no upper antennae</label>
+		<description>Carriers of this gene don't have upper antennae.</description>
+		<customEffectDescriptions>
+			<li>With this gene you can create xenotypes in which a pawn can have upper antennae or a lack of them at random</li>
+		</customEffectDescriptions>
+		<iconPath>UI/Icons/Genes/AG_NoAntennae</iconPath>
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<displayOrderInCategory>-999</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	
 	<GeneDef ParentName="AG_GeneAntennaBase">
@@ -630,6 +669,25 @@
 		<randomChosen>true</randomChosen>
 	</GeneDef>
 	
+	<GeneDef ParentName="AG_GeneLowerAntennaBase">
+		<defName>AG_NoLowerAntennae</defName>
+		<label>no lower antennae</label>
+		<description>Carriers of this gene don't have lower antennae.</description>
+		<customEffectDescriptions>
+			<li>With this gene you can create xenotypes in which a pawn can have lower antennae or a lack of them at random</li>
+		</customEffectDescriptions>
+		<iconPath>UI/Icons/Genes/AG_NoLowerAntennae</iconPath>
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<displayOrderInCategory>-998</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
 	<GeneDef ParentName="AG_GeneLowerAntennaBase">
 		<defName>AG_LowerAntennas</defName>
