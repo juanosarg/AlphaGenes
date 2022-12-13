@@ -150,7 +150,7 @@
 		<conditionalStatAffecters>
 			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Water">
 				<statFactors>
-					<MoveSpeed>3</MoveSpeed>
+					<MoveSpeed>9</MoveSpeed>
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>

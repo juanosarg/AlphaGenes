@@ -4,7 +4,7 @@
 		<defName>AG_UVSensitivity_Minor</defName>
 		<label>minor UV sensitivity</label>
 		<labelShortAdj>UV-sensitive</labelShortAdj>
-		<description>Carriers of this gene have eyes that are sensitive to UV radiation, making them mildly unconfortable when in direct sunlight.</description>
+		<description>Carriers of this gene have eyes that are sensitive to UV radiation, making them mildly uncomfortable when in direct sunlight.</description>
 		<iconPath>UI/Icons/Genes/AG_SolarMinor</iconPath>
 		<displayOrderInCategory>39</displayOrderInCategory>
 	

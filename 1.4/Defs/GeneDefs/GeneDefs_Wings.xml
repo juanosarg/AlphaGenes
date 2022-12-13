@@ -20,11 +20,9 @@
 		<displayCategory>AG_Wings</displayCategory>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
-
 		</customEffectDescriptions>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -39,7 +37,6 @@
 				<li>
 					<symbol>rainb</symbol>
 				</li>
-
 			</prefixSymbols>
 		</symbolPack>
 		<graphicData>
@@ -57,7 +54,6 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<hediffToWholeBody>AG_Hover</hediffToWholeBody>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -72,9 +68,7 @@
 		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
-
 		</customEffectDescriptions>
-
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BatWings/AG_BatWings</graphicPath>
 			<drawScale>2</drawScale>
@@ -91,8 +85,6 @@
 				<li>
 					<symbol>winged</symbol>
 				</li>
-
-
 			</prefixSymbols>
 		</symbolPack>
 		<abilities>
@@ -108,7 +100,7 @@
 	</GeneDef>
 	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_PegasusWings</defName>
-		<label>feathered wings</label>
+		<label>pegasus wings</label>
 		<description>Carriers of this gene have a pair of feathered giant wings sprouting from their back.</description>
 		<iconPath>UI/Icons/Genes/AG_PegasusWingsIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
@@ -116,10 +108,8 @@
 		<biostatMet>-1</biostatMet>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
-
 		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -128,8 +118,6 @@
 				<li>
 					<symbol>winged</symbol>
 				</li>
-
-
 			</prefixSymbols>
 		</symbolPack>
 		<graphicData>
@@ -159,7 +147,6 @@
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -168,13 +155,10 @@
 				<li>
 					<symbol>lepidopter</symbol>
 				</li>
-
-
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
-
 		</customEffectDescriptions>
 		<graphicData>
 			<graphicPaths>
@@ -182,7 +166,6 @@
 				<li>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings2</li>
 				<li>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings3</li>
 			</graphicPaths>
-
 			<drawScale>2</drawScale>
 			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
 			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
@@ -208,7 +191,6 @@
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -223,18 +205,13 @@
 				<li>
 					<symbol>hymen</symbol>
 				</li>
-
-
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
-
 		</customEffectDescriptions>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BumbledroneWings/AG_BumbledroneWings</graphicPath>
-			
-
 			<drawScale>1.5</drawScale>
 			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
 			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
@@ -260,7 +237,6 @@
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -275,18 +251,13 @@
 				<li>
 					<symbol>hymen</symbol>
 				</li>
-
-
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
-
 		</customEffectDescriptions>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_WaspWings/AG_WaspWings</graphicPath>
-			
-
 			<drawScale>1.5</drawScale>
 			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
 			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
@@ -312,7 +283,6 @@
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -327,18 +297,13 @@
 				<li>
 					<symbol>saint</symbol>
 				</li>
-
-
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
-
 		</customEffectDescriptions>
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FeatheredWings/AG_FeatheredWings</graphicPath>
-			
-
 			<drawScale>1.5</drawScale>
 			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
 			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
@@ -358,13 +323,12 @@
 	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_GasBags</defName>
 		<label>gas bags</label>
-		<description>Carriers of this gene have a an internal organ consisting of hydrogen filled gas bags, that allows them to hover over terrain, at the cost of being quite flammable and exploding on death.</description>
+		<description>Carriers of this gene have an internal organ consisting of hydrogen filled gas bags, that allows them to hover over terrain, at the cost of being quite flammable and exploding on death.</description>
 		<iconPath>UI/Icons/Genes/AG_GasBags</iconPath>
 		<biostatCpx>2</biostatCpx>
 		<displayCategory>AG_Wings</displayCategory>
 		<biostatMet>-2</biostatMet>
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -373,17 +337,12 @@
 				<li>
 					<symbol>hydrog</symbol>
 				</li>
-
-
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 			<li>Colonist will explode on death in a flame explosion with 3 tiles radius</li>
-
 		</customEffectDescriptions>
-
-
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -399,16 +358,12 @@
 		<iconPath>UI/Icons/Genes/AG_SingleWing</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>AG_Wings</displayCategory>
-
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
 					<symbol>wing</symbol>
 				</li>
-
-
 			</prefixSymbols>
 		</symbolPack>
 		<graphicData>
@@ -418,14 +373,11 @@
 			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
 			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-
 		</graphicData>
-
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -433,17 +385,18 @@
 		<defName>AG_NoWings</defName>
 		<label>no wings</label>
 		<description>Carriers of this gene don't have wings.</description>
+		<customEffectDescriptions>
+			<li>With this gene you can create xenotypes in which a pawn can have wings or a lack of them at random</li>
+		</customEffectDescriptions>
 		<iconPath>UI/Icons/Genes/AG_NoWings</iconPath>
 		<biostatCpx>0</biostatCpx>
 		<displayCategory>AG_Wings</displayCategory>
 		<displayOrderInCategory>-1000</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
-
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>

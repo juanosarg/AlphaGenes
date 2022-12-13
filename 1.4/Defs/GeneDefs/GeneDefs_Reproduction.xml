@@ -60,7 +60,7 @@
 		</exclusionTags>
 		<customEffectDescriptions>
 			<li>Mother won't be subject to pregnancy moods, morning sickness, etc.</li>
-			<li>Once laid, the egg will be vulnerable until hatching. Can be eaten by predators or hungry, hungry colonists (yummy!).</li>
+			<li>Once laid, the egg will be vulnerable until hatching. Human eggs are not edible.</li>
 			<li>The whole process takes longer (24 days total).</li>
 		</customEffectDescriptions>
 		<displayOrderInCategory>115.2</displayOrderInCategory>

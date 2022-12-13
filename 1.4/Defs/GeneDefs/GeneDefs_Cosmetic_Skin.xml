@@ -112,7 +112,7 @@
 		<defName>AG_Skin_Silver</defName>
 		<label>Silver skin</label>
 		<labelShortAdj>Silver</labelShortAdj>
-		<description>Carriers of this gene produce a pigment that turns their skin an iridiscent silver color.</description>
+		<description>Carriers of this gene produce a pigment that turns their skin an iridescent silver color.</description>
 		<skinColorOverride>(255, 255, 255)</skinColorOverride>
 		<selectionWeight>0</selectionWeight>
 		<graphicData>
@@ -159,7 +159,7 @@
 		<defName>AG_Skin_Gold</defName>
 		<label>golden skin</label>
 		<labelShortAdj>golden</labelShortAdj>
-		<description>Carriers of this gene produce a pigment that turns their skin an iridiscent golden color.</description>
+		<description>Carriers of this gene produce a pigment that turns their skin an iridescent golden color.</description>
 		<skinColorOverride>(198, 184, 134)</skinColorOverride>
 		<selectionWeight>0</selectionWeight>
 		<exclusionTags>

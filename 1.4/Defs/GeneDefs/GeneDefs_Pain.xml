@@ -5,7 +5,7 @@
 		<defName>AG_Painless</defName>
 		<label>painless</label>
 		<labelShortAdj>painless</labelShortAdj>
-		<description>Carriers of this gene feel almost no pain compared to a baseliner. Reduced neuron activity in the brain's nociception centers makes pain almost unexistant. This can be advantageous sometimes, and dangerous other times.</description>
+		<description>Carriers of this gene feel almost no pain compared to a baseliner. Reduced neuron activity in the brain's nociception centers makes pain almost nonexistent. This can be advantageous sometimes, and dangerous other times.</description>
 		<iconPath>UI/Icons/Genes/AG_Painless</iconPath>
 		<displayOrderInCategory>40</displayOrderInCategory>
 		<painFactor>0</painFactor>
