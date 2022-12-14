@@ -117,6 +117,10 @@ namespace AlphaGenes
                     {
                         pawn.genes.AddGene(gene, true);
                     }
+                    foreach (GeneDef gene in motherGenes)
+                    {
+                        pawn.genes.AddGene(gene, true);
+                    }
 
 
 
