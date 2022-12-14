@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- Eyes -->
+	
+	
+	
 	<GeneDef>
 		<defName>AG_FeraliskEyes</defName>
 		<label>feralisk eyes</label>
@@ -53,6 +56,40 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_ThirdEye</defName>
+		<label>third eye</label>
+		<selectionWeight>0</selectionWeight>
+		<description>Carriers of this gene will grow a third eye in their forehead. This third eye gives increased vision, and due to its, errr, psychic properties it cannot be hurt by... others... and... Look, Biotech parts are not real body parts and can't be harmed in attacks, ok?</description>
+		<iconPath>UI/Icons/Genes/AG_ThirdEyeIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_ThirdEye/AG_ThirdEye</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostTattoo</layer>
+			<visibleNorth>false</visibleNorth>
+		</graphicData>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+			
+		</exclusionTags>
+		
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<capMods>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.2</offset>
+			</li>
+		</capMods>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
 	<GeneDef>
 		<defName>AG_NearBlindness</defName>
 		<label>near blindness</label>
@@ -147,4 +184,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	
 </Defs>

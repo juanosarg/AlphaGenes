@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Tusks -->
+	<GeneDef Name="AG_GeneTuskBase" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<endogeneCategory>Headbone</endogeneCategory>
+		<displayCategory>Cosmetic</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		
+		<exclusionTags>
+			<li>Tusk</li>
+			<li>Tusks</li>
+			<li>AG_Tusks</li>
+		</exclusionTags>
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<randomChosen>true</randomChosen>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_NoTusks</defName>
+		<label>no tusks / mandibles</label>
+		<description>Carriers of this gene don't have tusks or mandibles.</description>
+		<customEffectDescriptions>
+			<li>With this gene you can create xenotypes in which a pawn can have tusks/mandibles or a lack of them at random</li>
+		</customEffectDescriptions>
+		<iconPath>UI/Icons/Genes/AG_NoTusks</iconPath>
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_Tusks</defName>
+		<label>tusks</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large tusks protruding from the jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_TusksIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Tusks/AG_Tusks</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+			 <visibleNorth>false</visibleNorth>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>tusk</symbol>
+				</li>
+				<li>
+					<symbol>tusken</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_PincerMandibles</defName>
+		<label>pincer mandibles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large pincer mandibles protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_PincerMandibles</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_PincerMandibles/AG_PincerMandibles</graphicPath>
+			 <visibleNorth>false</visibleNorth>
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>mandib</symbol>
+				</li>
+				<li>
+					<symbol>ento</symbol>
+				</li>
+				<li>
+					<symbol>insect</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_FaceTentacles</defName>
+		<label>face tentacles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow a series of slimy tentacles protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_TentaclesIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Tentacles/AG_Tentacles</graphicPath>
+			 <visibleNorth>false</visibleNorth>
+			<colorType>Skin</colorType>
+			<layer>PostTattoo</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>tentacl</symbol>
+				</li>
+				<li>
+					<symbol>octop</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_BeetleMandibles</defName>
+		<label>beetle mandibles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large beetle mandibles protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_BeetleMandibles</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeetleMandibles/AG_BeetleMandibles</graphicPath>
+			 <visibleNorth>false</visibleNorth>
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>mandib</symbol>
+				</li>
+				<li>
+					<symbol>ento</symbol>
+				</li>
+				<li>
+					<symbol>insect</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneTuskBase">
+		<defName>AG_BeeMandibles</defName>
+		<label>bee mandibles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large bee mandibles protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_BeeMandibles</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeeMandibles/AG_BeeMandibles</graphicPath>
+			 <visibleNorth>false</visibleNorth>
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>mandib</symbol>
+				</li>
+				<li>
+					<symbol>ento</symbol>
+				</li>
+				<li>
+					<symbol>insect</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

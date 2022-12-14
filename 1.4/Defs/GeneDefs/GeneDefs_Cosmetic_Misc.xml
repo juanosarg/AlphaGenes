@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef Name="AG_MiscBase" Abstract="True">
+		<displayCategory>Miscellaneous</displayCategory>
+		<exclusionTags>
+			<li>AG_Misc</li>
+		</exclusionTags>
+		<graphicData>
+			<drawLoc>Tailbone</drawLoc>
+		</graphicData>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_HeavilyScarred</defName>
+		<label>heavily scarred</label>
+		<description>Carriers of this gene have prominent scars on their faces, as if their skin had been cut and put together again.</description>
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<iconPath>UI/Icons/Genes/AG_Scars</iconPath>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<graphicData>
+			<useSkinShader>true</useSkinShader>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Scars/AG_Scars</graphicPath>
+			<visibleNorth>true</visibleNorth>
+			<layer>PostSkin</layer>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_MiscBase">
+		<defName>AG_ChainsawHands</defName>
+		<label>chainsaw hands</label>
+		<description>Carriers of this gene have chainsaws for hands. "Akkkkssstually -you say- those would be better implemented as implants, not a gene!". No, no, you misunderstand: these are biological, DNA codified chainsaw hands. Children of two people with chainsaw hands will have itty bitty chainsaw hands. It's science.</description>
+		<iconPath>UI/Icons/Genes/AG_ChainsawHands</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+	
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>chain</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_ChainsawHands/AG_ChainsawHands</graphicPath>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, -0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_ChainsawHands</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+	
+	
+	
+	
+	
+</Defs>

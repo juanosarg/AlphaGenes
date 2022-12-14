@@ -95,5 +95,43 @@
 		</modExtensions>
 	</GeneDef>
 	
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>AG_LongEars</defName>
+		<label>long ears</label>
+		<selectionWeight>0</selectionWeight>
+		<description>Carriers of this gene will grow long ears.</description>
+		<iconPath>UI/Icons/Genes/AG_LongEarsIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LongEars/AG_LongEars</graphicPath>
+			<colorType>Skin</colorType>
+		</graphicData>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>AG_EarWings</defName>
+		<label>ear wings</label>
+		<selectionWeight>0</selectionWeight>
+		<description>Carriers of this gene will grow large bat wing ears. These are purely cosmetic, not allowing for any sort of flight.</description>
+		<iconPath>UI/Icons/Genes/AG_EarWingsIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_EarWings/AG_EarWings</graphicPath>
+			<colorType>Skin</colorType>
+		</graphicData>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
 	
 </Defs>
