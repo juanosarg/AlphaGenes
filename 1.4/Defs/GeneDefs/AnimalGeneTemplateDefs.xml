@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaGenes.AnimalGeneTemplateDef Name="AG_GeneAnimalSummonBase" Abstract="True">
+		<geneClass>Gene</geneClass>
+		<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+		<exclusionTagPrefix>AG_AnimalSummon</exclusionTagPrefix>
+		<displayCategory>AG_AnimalSummons</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		
+	</AlphaGenes.AnimalGeneTemplateDef>
+	<AlphaGenes.AnimalGeneTemplateDef ParentName="AG_GeneAnimalSummonBase">
+		<defName>AlphaGenes_AnimalSumMinor</defName>
+		<label>minor summoning: {0}</label>
+		<description>The carrier can summon a {0}.</description>
+		<maxBodySize>0.8</maxBodySize>
+		<displayOrderOffset>0</displayOrderOffset>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<ability>AG_MinorSummon</ability>
+	</AlphaGenes.AnimalGeneTemplateDef>
+	
+	<AlphaGenes.AnimalGeneTemplateDef ParentName="AG_GeneAnimalSummonBase">
+		<defName>AlphaGenes_AnimalSummon</defName>
+		<label>summoning: {0}</label>
+		<description>The carrier can summon a {0}.</description>
+		<minBodySize>0.8</minBodySize>
+		<maxBodySize>1.5</maxBodySize>
+		<displayOrderOffset>10000</displayOrderOffset>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<ability>AG_MinorSummon</ability>
+	</AlphaGenes.AnimalGeneTemplateDef>
+	<AlphaGenes.AnimalGeneTemplateDef ParentName="AG_GeneAnimalSummonBase">
+		<defName>AlphaGenes_AnimalSumMajor</defName>
+		<label>major summoning: {0}</label>
+		<description>The carrier can summon a {0}.</description>
+		<minBodySize>1.5</minBodySize>
+		<displayOrderOffset>20000</displayOrderOffset>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<ability>AG_MinorSummon</ability>
+	</AlphaGenes.AnimalGeneTemplateDef>
+	
+	<GeneDef>
+		<defName>AG_MinorAnimalSummon_Randomizer</defName>
+		<label>random minor animal summon</label>
+		<geneClass>AlphaGenes.Gene_RandomMinorAnimalSummon</geneClass>
+		<displayCategory>AG_AnimalSummons</displayCategory>
+		<labelShortAdj>random</labelShortAdj>
+		<description>This will get swapped for a random minor animal summon.</description>
+		<iconPath>UI/Icons/Genes/AG_Randomizer</iconPath>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<exclusionTags>
+			<li>AG_AnimalSummon</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_AnimalSummon_Randomizer</defName>
+		<label>random animal summon</label>
+		<geneClass>AlphaGenes.Gene_RandomAnimalSummon</geneClass>
+		<displayCategory>AG_AnimalSummons</displayCategory>
+		<labelShortAdj>random</labelShortAdj>
+		<description>This will get swapped for a random animal summon.</description>
+		<iconPath>UI/Icons/Genes/AG_Randomizer</iconPath>
+		<displayOrderInCategory>-999</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_AnimalSummon</li>
+		</exclusionTags>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_MajorAnimalSummon_Randomizer</defName>
+		<label>random major animal summon</label>
+		<geneClass>AlphaGenes.Gene_RandomMajorAnimalSummon</geneClass>
+		<displayCategory>AG_AnimalSummons</displayCategory>
+		<labelShortAdj>random</labelShortAdj>
+		<description>This will get swapped for a random major animal summon.</description>
+		<iconPath>UI/Icons/Genes/AG_Randomizer</iconPath>
+		<displayOrderInCategory>-998</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_AnimalSummon</li>
+		</exclusionTags>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
+</Defs>

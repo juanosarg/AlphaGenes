@@ -91,6 +91,31 @@
 	</GeneDef>
 	
 	<GeneDef>
+		<defName>AG_EyeOfShubNiggurath</defName>
+		<label>eye of Shub-Niggurath</label>
+		<selectionWeight>0</selectionWeight>
+		<description>Carriers of this gene will grow a vicious looking, fanged mouth instead of one of their eyes. This mouth is inexplicably capable of sight.</description>
+		<iconPath>UI/Icons/Genes/AG_EyeOfShubNiggurathIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_EyeOfShubNiggurath/AG_EyeOfShubNiggurath</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostTattoo</layer>
+			<visibleNorth>false</visibleNorth>
+			
+		</graphicData>
+		
+		<biostatMet>0</biostatMet>
+		<biostatCpx>0</biostatCpx>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
 		<defName>AG_NearBlindness</defName>
 		<label>near blindness</label>
 		<iconPath>UI/Icons/Genes/AG_NearBlindness</iconPath>

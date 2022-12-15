@@ -75,6 +75,57 @@
 	</GeneDef>
 	
 	
+	<GeneDef>
+		<defName>AG_BodyTentacles</defName>
+		<label>body tentacles</label>
+		<description>Carriers of this gene have a mass of writhing tentacles sprouting from their back.</description>
+		<iconPath>UI/Icons/Genes/AG_BodyTentaclesIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		 <capMods>
+      <li>
+        <capacity>Manipulation</capacity>
+        <offset>0.05</offset>
+      </li>
+    </capMods>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>eldrit</symbol>
+				</li>
+				<li>
+					<symbol>alien</symbol>
+				</li>
+				<li>
+					<symbol>eerie</symbol>
+				</li>
+				<li>
+					<symbol>tentac</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BodyTentacles/AG_BodyTentacles</graphicPath>
+			<drawScale>2</drawScale>
+			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+			<drawLoc>Tailbone</drawLoc>
+			<colorType>Skin</colorType>
+		</graphicData>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
 	
 	
 	

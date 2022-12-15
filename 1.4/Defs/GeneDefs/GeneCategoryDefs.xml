@@ -34,6 +34,11 @@
 		<displayPriorityInXenotype>505.69</displayPriorityInXenotype>
 	</GeneCategoryDef>
 	<GeneCategoryDef>
+		<defName>AG_AnimalSummons</defName>
+		<label>animal summoning</label>
+		<displayPriorityInXenotype>505.68</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
 		<defName>AG_Teratogenic</defName>
 		<label>teratogenic</label>
 		<displayPriorityInXenotype>510.71</displayPriorityInXenotype>

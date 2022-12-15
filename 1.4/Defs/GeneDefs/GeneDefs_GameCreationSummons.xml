@@ -83,7 +83,7 @@
 			<li>This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay.</li>			
 		</customEffectDescriptions>		
 		<selectionWeight>0</selectionWeight>
-		<biostatMet>-4</biostatMet>
+		<biostatMet>-3</biostatMet>
 		<symbolPack>
 			<prefixSymbols>
 				<li>

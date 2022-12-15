@@ -14,7 +14,10 @@ namespace AlphaGenes
 		public static PawnKindDef Wolf_Timber;
 		public static PawnKindDef Bear_Polar;
 
-		public static ThoughtDef AG_PukedRats;
+		public static AbilityDef AG_MinorSummon;
+
+
+        public static ThoughtDef AG_PukedRats;
 		public static ThoughtDef AG_Implanted;
 		public static ThoughtDef AG_Implanted_Social;
         public static ThoughtDef AG_Parasite;
@@ -57,7 +60,10 @@ namespace AlphaGenes
 		public static JobDef AG_ConsumeMetal;
 		public static JobDef AG_FeedMetal;
 		public static JobDef AG_DeliverMetal;
-		static InternalDefOf()
+
+		public static MentalStateDef AG_SelectiveManhunter;
+
+        static InternalDefOf()
 		{
 			DefOfHelper.EnsureInitializedInCtor(typeof(InternalDefOf));
 		}

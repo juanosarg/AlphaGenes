@@ -298,6 +298,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abilities\CompAbilityEffect_Summon.cs" />
     <Compile Include="Abilities\CompAbilityEffect_MineralCost.cs" />
     <Compile Include="Abilities\CompAbilityEffect_ParasiticStinger.cs" />
     <Compile Include="Abilities\CompAbilityEffect_Stinger.cs" />
@@ -309,6 +310,7 @@
     <Compile Include="Abilities\Properties\CompProperties_AbilityMineralCost.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityParasiticStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityStinger.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_AbilitySummon.cs" />
     <Compile Include="Abilities\Properties\CompProperties_Detonate.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
     <Compile Include="Abilities\MineralOverdrive.cs" />
@@ -357,13 +359,20 @@
     <Compile Include="Comps\CompTargetEffect_Xenogenefier.cs" />
     <Compile Include="Comps\CompTargetEffect_XenotypeInjector.cs" />
     <Compile Include="Comps\CompTargetEffect_XenotypeNullifier.cs" />
+    <Compile Include="DefModExtensions\SummoningGeneDefExtension.cs" />
+    <Compile Include="Defs\AnimalGeneTemplateDef.cs" />
+    <Compile Include="Defs\BlackListedAnimalsDef.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="Gas and Liquid\Rat_Spawning_Filth.cs" />
     <Compile Include="Gas and Liquid\Persistant_Fuel.cs" />
     <Compile Include="Gene Classes\Gene_Randomizer.cs" />
+    <Compile Include="Gene Classes\Gene_RandomAnimalSummon.cs" />
+    <Compile Include="Gene Classes\Gene_RandomMajorAnimalSummon.cs" />
+    <Compile Include="Gene Classes\Gene_RandomMinorAnimalSummon.cs" />
     <Compile Include="GeneResource\Gene_Resource_MineralEffiency.cs" />
     <Compile Include="GeneResource\Gene_Resource_Metal.cs" />
     <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />
+    <Compile Include="Harmony\GeneDefGenerator_ImpliedGeneDefs.cs" />
     <Compile Include="Harmony\JobDriver_Vomit_MakeNewToils.cs" />
     <Compile Include="Harmony\HediffComp_PregnantHuman_CompTipStringExtra.cs" />
     <Compile Include="Harmony\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs" />
@@ -390,6 +399,7 @@
     <Compile Include="Hediff\Hediff_ReactiveArmour.cs" />
     <Compile Include="Hediff\Hediff_MineralFueled.cs" />
     <Compile Include="MentalBreakDefs\MentalBreakWorker_Thalassophobia.cs" />
+    <Compile Include="MentalStateDefs\MentalState_SelectiveManhunter.cs" />
     <Compile Include="MentalStateDefs\MentalState_Thalassophobia.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowSpawnerRadius.cs" />
     <Compile Include="Projectiles\Web_Projectile.cs" />

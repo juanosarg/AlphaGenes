@@ -14,31 +14,30 @@ using RimWorld.Planet;
 
 namespace AlphaGenes
 {
-    //Setting the Harmony instance
-    [StaticConstructorOnStartup]
-    public class Main
+
+    public class AlphaGenes : Mod
     {
-        static Main()
+        public AlphaGenes(ModContentPack content) : base(content)
         {
             var harmony = new Harmony("com.alphagenes");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
-
-
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

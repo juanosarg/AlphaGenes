@@ -444,5 +444,19 @@
 			
 		</comps>
 	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_MinorSummon</defName>
+		<label>minor summon</label>	
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicStamina</iconPath>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilitySummon">
+				
+			</li>
+			
+		</comps>
+		
+	</AbilityDef>
 
 </Defs>
