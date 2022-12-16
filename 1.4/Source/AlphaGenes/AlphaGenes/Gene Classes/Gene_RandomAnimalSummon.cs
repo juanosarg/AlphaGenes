@@ -19,9 +19,12 @@ namespace AlphaGenes
             base.PostAdd();
 
 
-            genes = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AlphaGenes_AnimalSummon") && x.defName != this.def.defName).ToList();
-
-            pawn.genes.AddGene(genes.RandomElement(), true);
+            genes = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AlphaGenes_AnimalSummon")).ToList();
+            if(genes.Count > 0)
+            {
+                pawn.genes.AddGene(genes.RandomElement(), true);
+                
+            }
             pawn.genes.RemoveGene(this);
 
 

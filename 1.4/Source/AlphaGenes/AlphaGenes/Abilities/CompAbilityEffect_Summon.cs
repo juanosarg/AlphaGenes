@@ -47,6 +47,7 @@ namespace AlphaGenes
                 Pawn pawnCreated = PawnGenerator.GeneratePawn(pawnToMake, pawn.Faction);
                 GenSpawn.Spawn(pawnCreated, target.Cell, pawn.Map, Rot4.South);
                 pawnCreated.mindState.mentalStateHandler.TryStartMentalState(InternalDefOf.AG_SelectiveManhunter, null, true);
+                pawnCreated.health.AddHediff(InternalDefOf.AG_TemporarySummon);
                
             }
 

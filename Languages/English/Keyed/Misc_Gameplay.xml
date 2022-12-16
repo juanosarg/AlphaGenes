@@ -19,6 +19,7 @@
 	<AG_CannotBeUsedAsWeapon>This ability cannot be used as a one-shot weapon on a hostile pawn</AG_CannotBeUsedAsWeapon>
 	<AG_ParasitesHatchedLabel>Chestburst!</AG_ParasitesHatchedLabel>
 	<AG_ParasitesHatched>A newborn, {0}, has hatched from a host, killing it in the process</AG_ParasitesHatched>
+	<AG_UnsummonedIn>Unsummoned in:</AG_UnsummonedIn>
 	
 	
 	<!-- Settings -->

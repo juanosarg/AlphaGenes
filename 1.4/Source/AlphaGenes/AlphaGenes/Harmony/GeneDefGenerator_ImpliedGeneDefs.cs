@@ -42,7 +42,7 @@ namespace AlphaGenes
                 List<PawnKindDef> listOfAnimals = DefDatabase<PawnKindDef>.AllDefs.Where(element => (element.RaceProps!=null && 
                 element.RaceProps.Animal && !element.RaceProps.Dryad && element.RaceProps.baseBodySize<=template.maxBodySize &&
                 element.RaceProps.baseBodySize > template.minBodySize &&
-                !blackListedAnimals.Contains(element.defName))).ToList();
+                !blackListedAnimals.Contains(element.defName)&&!element.defName.Contains("GR_") && !element.defName.Contains("WMH_"))).ToList();
 
                 foreach (PawnKindDef animal in listOfAnimals)
                 {

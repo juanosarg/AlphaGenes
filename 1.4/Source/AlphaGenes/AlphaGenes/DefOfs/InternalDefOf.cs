@@ -53,6 +53,7 @@ namespace AlphaGenes
 		public static HediffDef AG_ReactiveArmourHediff;
 		public static HediffDef AG_MineralOverdriveHediff;
 		public static HediffDef AG_XenogerminationComa;
+		public static HediffDef AG_TemporarySummon;
 
 		public static RulePackDef AG_NamerAlphapack;
 		public static RulePackDef AG_NamerMixedpack;

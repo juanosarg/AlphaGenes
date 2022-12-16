@@ -318,4 +318,21 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_TemporarySummon</defName>
+		<label>summoned</label>
+		<description>This creature has been summoned via innate psychic means, and will vanish after a period of 4 hours.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_DieAfterPeriod">
+				<timeToDieInTicks>10000</timeToDieInTicks>
+				<justVanish>true</justVanish>
+				<DescriptionLabel>AG_UnsummonedIn</DescriptionLabel>
+			</li>
+		</comps>
+	</HediffDef>
 </Defs>

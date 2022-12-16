@@ -28,7 +28,7 @@
 		<displayOrderOffset>10000</displayOrderOffset>
 		<biostatCpx>2</biostatCpx>
 		<biostatMet>-3</biostatMet>
-		<ability>AG_MinorSummon</ability>
+		<ability>AG_Summon</ability>
 	</AlphaGenes.AnimalGeneTemplateDef>
 	<AlphaGenes.AnimalGeneTemplateDef ParentName="AG_GeneAnimalSummonBase">
 		<defName>AlphaGenes_AnimalSumMajor</defName>
@@ -38,7 +38,7 @@
 		<displayOrderOffset>20000</displayOrderOffset>
 		<biostatCpx>5</biostatCpx>
 		<biostatMet>-5</biostatMet>
-		<ability>AG_MinorSummon</ability>
+		<ability>AG_MajorSummon</ability>
 	</AlphaGenes.AnimalGeneTemplateDef>
 	
 	<GeneDef>
