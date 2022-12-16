@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AlphaGenes.HediffComps.Properties
+﻿
+using Verse;
+namespace AlphaGenes
 {
-    internal class HediffCompProperties_StageByMood
+    public class HediffCompProperties_StageByMood : HediffCompProperties
     {
+      
+
+        public HediffCompProperties_StageByMood()
+        {
+            compClass = typeof(HediffComp_StageByMood);
+        }
     }
 }
