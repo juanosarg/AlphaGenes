@@ -71,6 +71,45 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+
+	<GeneDef>
+		<defName>AG_PsychicInsanity</defName>
+		<label>psychic insanity</label>
+		<displayCategory>Psychic</displayCategory>
+		<description>Carriers of this gene have psychic powers that depend on their mood. With low moods, and thus higher break risk, they'll have psychic bonuses. With a Catharsis, these bonuses will be even higher (even if the mood is increased during Catharsis).</description>
+		<iconPath>UI/Icons/Genes/AG_PsychicInsanity</iconPath>
+		<displayOrderInCategory>50</displayOrderInCategory>
+		<statOffsets>
+			 <MentalBreakThreshold>0.2</MentalBreakThreshold>
+		</statOffsets>
+	
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>mad</symbol>
+					<weight>3</weight>
+				</li>
+				<li>
+					<symbol>insane</symbol>
+				</li>
+				<li>
+					<symbol>crazy</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_PsychicInsanity</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 
 

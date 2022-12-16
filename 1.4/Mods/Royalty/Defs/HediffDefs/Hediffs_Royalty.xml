@@ -29,7 +29,6 @@
 		<initialSeverity>0.01</initialSeverity>
 		<isBad>false</isBad>
 		<comps>
-			
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 			<li Class="AnimalBehaviours.HediffCompProperties_StageByPsylink">
 				
@@ -98,6 +97,64 @@
 						<offset>1</offset>
 					</li>
 				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_PsychicInsanity</defName>
+		<label>psychic insanity</label>
+		<description>This person has psychic powers that depend on their mood. With low moods, and thus higher break risk, they'll have psychic bonuses. With a Catharsis, these bonuses will be even higher (even if the mood is increased during Catharsis).</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>0.01</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="AlphaGenes.HediffCompProperties_StageByMood">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>no effect</label>
+			</li>
+			<li>
+				<minSeverity>0.1</minSeverity>
+				<label>cathartic</label>
+				<statOffsets>
+					<PsychicSensitivity>1</PsychicSensitivity>
+					<MeditationFocusGain>1</MeditationFocusGain>
+					<PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<label>extreme</label>
+				<statOffsets>
+					<PsychicSensitivity>0.4</PsychicSensitivity>
+					<MeditationFocusGain>0.25</MeditationFocusGain>
+					<PsychicEntropyRecoveryRate>0.2</PsychicEntropyRecoveryRate>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>major</label>
+				<statOffsets>
+					<PsychicSensitivity>0.3</PsychicSensitivity>
+					<MeditationFocusGain>0.2</MeditationFocusGain>
+					<PsychicEntropyRecoveryRate>0.15</PsychicEntropyRecoveryRate>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.7</minSeverity>
+				<label>minor</label>
+				<statOffsets>
+					<PsychicSensitivity>0.25</PsychicSensitivity>
+					<MeditationFocusGain>0.15</MeditationFocusGain>
+					<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+				</statOffsets>
 			</li>
 		</stages>
 	</HediffDef>
