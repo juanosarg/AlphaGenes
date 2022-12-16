@@ -490,5 +490,33 @@
 		</comps>
 		
 	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>AG_InsanityBlast</defName>
+		<label>insanity blast</label>
+		<description>Psychically blast the mind of other people, causing them to go berserk and attack everyone around them indiscriminately. This ability can be resisted by targets with low psychic sensitivity.</description>
+		<iconPath>UI/Icons/Genes/AG_InsanityBlast</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+	
+		<aiCanUse>true</aiCanUse>
+		<targetParams>
+				
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>15.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_InsanityBlast">
+				
+			</li>
+		</comps>
+	</AbilityDef>
 
 </Defs>

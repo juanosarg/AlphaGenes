@@ -439,4 +439,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_InsanityBlast</defName>
+		<label>insanity blast</label>
+		<marketValueFactor>1.5</marketValueFactor>
+		<description>Carriers of this gene can use the power of their own minds to psychically blast the minds of other people, causing them to go berserk and attack everyone around them indiscriminately.</description>
+		<iconPath>UI/Icons/Genes/AG_InsanityBlast</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_InsanityBlast</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		
+		<descriptionHyperlinks>
+			<AbilityDef>AG_InsanityBlast</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
