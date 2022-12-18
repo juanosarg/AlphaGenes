@@ -125,6 +125,40 @@
 		</modExtensions>
 	</GeneDef>
 	
+	<GeneDef>
+		<defName>AG_Proboscis</defName>
+		<label>proboscis</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow a large proboscis protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_ProboscisIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Proboscis/AG_Proboscis</graphicPath>
+			<visibleNorth>false</visibleNorth>
+			<colorType>Skin</colorType>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<biostatCpx>0</biostatCpx>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>sucker</symbol>
+				</li>
+				<li>
+					<symbol>moskit</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
 	
 	
 	
