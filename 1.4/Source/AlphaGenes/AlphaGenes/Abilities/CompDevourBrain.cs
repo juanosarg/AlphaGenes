@@ -81,6 +81,16 @@ namespace AlphaGenes
         public void ApplyNeededHediff(SkillRecord maxSkill, Pawn pawn) {
 
             if (maxSkill != null) {
+
+                foreach(HediffDef hediffdef in skillsToHediffs.Values)
+                {
+                    if (pawn.health.hediffSet.HasHediff(hediffdef))
+                    {
+                        pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(hediffdef));
+                    }
+                }
+
+
                 HediffDef hediffDef = skillsToHediffs[maxSkill.def];
                 pawn.health.AddHediff(hediffDef);
 

@@ -533,7 +533,7 @@
 	<AbilityDef>
 		<defName>AG_DevourBrains</defName>
 		<label>devour brains</label>
-		<description>Devour the brain of an incapacitated but living person, absorbing part of their intellect and gaining a buff that depends on the highest skill of the devoured brain. This obviously kills the target.</description>
+		<description>Devour the brain of an incapacitated but living person, absorbing part of their intellect and gaining a buff that depends on the highest skill of the devoured brain. This obviously kills the target.\n\nOnly one "devour" buff can be active at a time. Using the ability before the 2 day timer refreshes the buff and its duration.</description>
 		<iconPath>UI/Icons/Genes/AG_DevourBrains</iconPath>
 		<cooldownTicksRange>1000</cooldownTicksRange>
 		
