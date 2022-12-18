@@ -24,7 +24,6 @@
 			</targetParams>
 		</verbProperties>
 	</AbilityDef>
-	
 	<AbilityDef Abstract="True" Name="AG_AuraBase">
 		<jobDef>CastAbilityOnThing</jobDef>
 		<targetRequired>False</targetRequired>
@@ -55,8 +54,6 @@
 			</targetParams>
 		</verbProperties>
 	</AbilityDef>
-	
-	
 	<AbilityDef>
 		<defName>AG_WingPoweredJump</defName>
 		<label>wing-powered jump</label>
@@ -206,7 +203,6 @@
 		<iconPath>UI/Icons/Genes/AG_PetrifyingGaze</iconPath>
 		<cooldownTicksRange>300000</cooldownTicksRange>
 		<aiCanUse>true</aiCanUse>
-
 		<verbProperties>
 			<verbClass>Verb_CastAbility</verbClass>
 			<range>10.9</range>
@@ -229,7 +225,6 @@
 		<iconPath>UI/Icons/Genes/AG_Web</iconPath>
 		<cooldownTicksRange>8000</cooldownTicksRange>
 		<aiCanUse>true</aiCanUse>
-
 		<verbProperties>
 			<verbClass>Verb_CastAbility</verbClass>
 			<range>10.9</range>
@@ -245,7 +240,6 @@
 			</li>
 		</comps>
 	</AbilityDef>
-
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>AG_InsectStinger</defName>
 		<label>sting genes</label>
@@ -268,10 +262,9 @@
 			</targetParams>
 		</verbProperties>
 		<comps>
-			<li Class="AlphaGenes.CompProperties_AbilityStinger" />
+			<li Class="AlphaGenes.CompProperties_AbilityStinger"/>
 		</comps>
 	</AbilityDef>
-	
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>AG_ParasiticStinger</defName>
 		<label>sting parasitic eggs</label>
@@ -299,7 +292,6 @@
 			</li>
 		</comps>
 	</AbilityDef>
-
 	<AbilityDef ParentName="AG_AuraBase">
 		<defName>AG_InsectRally</defName>
 		<label>pack tactics</label>
@@ -316,14 +308,12 @@
 			</li>
 		</comps>
 	</AbilityDef>
-	
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_Detonation</defName>
 		<label>detonation</label>
 		<cooldownTicksRange>30000</cooldownTicksRange>
 		<description>Vents the heated gasses produced by this person's internal processes. This creates a wave of superheated air that will affect the surrounding tiles. It will not affect the caster.</description>
 		<iconPath>UI/Icons/Genes/AG_Detonation</iconPath>
-		
 		<verbProperties>
 			<range>1.9</range>
 		</verbProperties>
@@ -338,7 +328,6 @@
 			</li>
 		</comps>
 	</AbilityDef>
-	
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_TeratogenicHealing</defName>
 		<label>teratogenic healing</label>
@@ -347,12 +336,12 @@
 		<warmupStartSound>AG_Healing</warmupStartSound>
 		<warmupEffecter>AG_TeratogenicHealing</warmupEffecter>
 		<comps>
-			<li Class="AlphaGenes.CompProperties_TeratogenicHealing" />
+			<li Class="AlphaGenes.CompProperties_TeratogenicHealing"/>
 		</comps>
 	</AbilityDef>
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_TeratogenicManipulation</defName>
-		<label>teratogenic coordination</label>		
+		<label>teratogenic coordination</label>
 		<description>Repurposes existing tumors to provide a huge boost to manipulation and dexterity.</description>
 		<iconPath>UI/Icons/Genes/AG_TeratogenicManipulation</iconPath>
 		<warmupStartSound>AG_Hediff</warmupStartSound>
@@ -365,7 +354,7 @@
 	</AbilityDef>
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_TeratogenicSwiftness</defName>
-		<label>teratogenic swiftness</label>	
+		<label>teratogenic swiftness</label>
 		<description>Repurposes existing tumors to provide a huge boost to movement and working speed.</description>
 		<iconPath>UI/Icons/Genes/AG_TeratogenicSwiftness</iconPath>
 		<warmupStartSound>AG_Hediff</warmupStartSound>
@@ -378,7 +367,7 @@
 	</AbilityDef>
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_TeratogenicStamina</defName>
-		<label>teratogenic stamina</label>	
+		<label>teratogenic stamina</label>
 		<description>Repurposes existing tumors to provide a huge boost to their immune system, and overall stamina.</description>
 		<iconPath>UI/Icons/Genes/AG_TeratogenicStamina</iconPath>
 		<warmupStartSound>AG_Hediff</warmupStartSound>
@@ -396,7 +385,6 @@
 		<iconPath>UI/Icons/Genes/AG_HealingTouch</iconPath>
 		<warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
 		<warmupEffecter>Implant_Xenogerm</warmupEffecter>
-		
 		<verbProperties>
 			<verbClass>Verb_CastAbilityTouch</verbClass>
 			<drawAimPie>false</drawAimPie>
@@ -413,18 +401,14 @@
 			<li Class="AlphaGenes.CompProperties_TeratogenicHealing">
 				<targetOther>true</targetOther>
 			</li>
-			
 		</comps>
 	</AbilityDef>
-	
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>AG_TeratogenicBurst</defName>
-		<label>teratogenic touch</label>	
+		<label>teratogenic touch</label>
 		<description>Transfers existing tumors to other people, which is generally as painful and dangerous as it sounds. Can be used as an offenssive tool or as a way to transfer tumors to other colonists.</description>
 		<iconPath>UI/Icons/Genes/AG_TeratogenicBurst</iconPath>
 		<warmupStartSound>AG_Transfer</warmupStartSound>
-		
-		
 		<verbProperties>
 			<verbClass>Verb_CastAbilityTouch</verbClass>
 			<drawAimPie>false</drawAimPie>
@@ -441,12 +425,11 @@
 			<li Class="AlphaGenes.CompProperties_TeratogenicTransfer">
 				
 			</li>
-			
 		</comps>
 	</AbilityDef>
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_MinorSummon</defName>
-		<label>minor summon</label>	
+		<label>minor summon</label>
 		<cooldownTicksRange>60000</cooldownTicksRange>
 		<description>Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster.</description>
 		<iconPath>UI/Abilities/AG_Summon</iconPath>
@@ -455,14 +438,11 @@
 			<li Class="AlphaGenes.CompProperties_AbilitySummon">
 				
 			</li>
-			
 		</comps>
-		
 	</AbilityDef>
-	
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_Summon</defName>
-		<label>summon</label>	
+		<label>summon</label>
 		<cooldownTicksRange>60000</cooldownTicksRange>
 		<description>Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster.</description>
 		<iconPath>UI/Abilities/AG_Summon</iconPath>
@@ -471,13 +451,11 @@
 			<li Class="AlphaGenes.CompProperties_AbilitySummon">
 				
 			</li>
-			
 		</comps>
-		
 	</AbilityDef>
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_MajorSummon</defName>
-		<label>major summon</label>	
+		<label>major summon</label>
 		<cooldownTicksRange>60000</cooldownTicksRange>
 		<description>Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster.</description>
 		<iconPath>UI/Abilities/AG_Summon</iconPath>
@@ -486,37 +464,99 @@
 			<li Class="AlphaGenes.CompProperties_AbilitySummon">
 				
 			</li>
-			
 		</comps>
-		
 	</AbilityDef>
-	
 	<AbilityDef>
 		<defName>AG_InsanityBlast</defName>
 		<label>insanity blast</label>
 		<description>Psychically blast the mind of other people, causing them to go berserk and attack everyone around them indiscriminately. This ability can be resisted by targets with low psychic sensitivity.</description>
 		<iconPath>UI/Icons/Genes/AG_InsanityBlast</iconPath>
 		<cooldownTicksRange>60000</cooldownTicksRange>
-	
 		<aiCanUse>true</aiCanUse>
-		<targetParams>
-				
-				<canTargetPawns>true</canTargetPawns>
-				<canTargetSelf>false</canTargetSelf>
-				<canTargetMechs>false</canTargetMechs>
-				<canTargetBuildings>false</canTargetBuildings>
-			</targetParams>
 		<verbProperties>
 			<verbClass>Verb_CastAbility</verbClass>
 			<range>15.9</range>
 			<warmupTime>0.5</warmupTime>
 			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
 		</verbProperties>
 		<comps>
 			<li Class="AlphaGenes.CompProperties_InsanityBlast">
 				
 			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
 		</comps>
 	</AbilityDef>
-
+	<AbilityDef>
+		<defName>AG_UnstableMind</defName>
+		<label>unstable mind</label>
+		<description>Psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effects lasts for a couple hours and can be used on both hostile and friendly targets.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMind</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+		<statBases>
+			<Ability_EffectRadius>2.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>15.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>true</canTargetSelf>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>AG_UnstableMind</hediffDef>
+				<onlyBrain>True</onlyBrain>
+				<psychic>True</psychic>
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_DevourBrains</defName>
+		<label>devour brains</label>
+		<description>Devour the brain of an incapacitated but living person, absorbing part of their intellect and gaining a buff that depends on the highest skill of the devoured brain. This obviously kills the target.</description>
+		<iconPath>UI/Icons/Genes/AG_DevourBrains</iconPath>
+		<cooldownTicksRange>1000</cooldownTicksRange>
+		
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>1.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_DevourBrain">
+				
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>

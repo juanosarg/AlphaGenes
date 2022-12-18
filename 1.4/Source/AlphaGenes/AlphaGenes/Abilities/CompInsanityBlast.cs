@@ -47,6 +47,15 @@ namespace AlphaGenes
                 {
                     pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Berserk, null, forceWake: true);
 
+                    if (!pawn.IsSlaveOfColony)
+                    {
+                        Faction homeFaction = pawn.HomeFaction;
+                        if (parent.pawn.Faction == Faction.OfPlayer && homeFaction != null && !homeFaction.HostileTo(parent.pawn.Faction))
+                        {
+                            Faction.OfPlayer.TryAffectGoodwillWith(homeFaction, -30, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.UsedHarmfulAbility);
+                        }
+                    }
+
                 }
                 
 

@@ -464,4 +464,52 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_UnstableMind</defName>
+		<label>unstable mind</label>
+		<marketValueFactor>1.5</marketValueFactor>
+		<description>Carriers of this gene can use the power of their own minds to psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effects lasts for a couple hours and can be used on both hostile and friendly targets.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMind</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_UnstableMind</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		
+		<descriptionHyperlinks>
+			<AbilityDef>AG_UnstableMind</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_DevourBrains</defName>
+		<label>devour brains</label>
+		<marketValueFactor>1.75</marketValueFactor>
+		<description>Carriers of this gene can devour the brain of an incapacitated but living person, absorbing part of their intellect and gaining a buff that depends on the highest skill of the devoured brain. This obviously kills the target.</description>
+		<iconPath>UI/Icons/Genes/AG_DevourBrains</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_DevourBrains</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		
+		<descriptionHyperlinks>
+			<AbilityDef>AG_DevourBrains</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

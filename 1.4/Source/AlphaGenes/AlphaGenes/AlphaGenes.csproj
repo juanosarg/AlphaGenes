@@ -303,6 +303,7 @@
     <Compile Include="Abilities\CompAbilityEffect_ParasiticStinger.cs" />
     <Compile Include="Abilities\CompAbilityEffect_Stinger.cs" />
     <Compile Include="Abilities\CompDetonate.cs" />
+    <Compile Include="Abilities\CompDevourBrain.cs" />
     <Compile Include="Abilities\CompGiveHediff.cs" />
     <Compile Include="Abilities\CompInsanityBlast.cs" />
     <Compile Include="Abilities\CompTeratogenicHealing.cs" />
@@ -313,6 +314,7 @@
     <Compile Include="Abilities\Properties\CompProperties_AbilityStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilitySummon.cs" />
     <Compile Include="Abilities\Properties\CompProperties_Detonate.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_DevourBrain.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
     <Compile Include="Abilities\MineralOverdrive.cs" />
     <Compile Include="Abilities\Properties\CompProperties_InsanityBlast.cs" />
