@@ -55,7 +55,22 @@ namespace AlphaGenes
 		public static HediffDef AG_XenogerminationComa;
 		public static HediffDef AG_TemporarySummon;
 
-		public static RulePackDef AG_NamerAlphapack;
+		public static HediffDef AG_DevouredShooting;
+        public static HediffDef AG_DevouredMelee;
+        public static HediffDef AG_DevouredConstruction;
+        public static HediffDef AG_DevouredMining;
+        public static HediffDef AG_DevouredCooking;
+        public static HediffDef AG_DevouredPlants;
+        public static HediffDef AG_DevouredAnimals;
+        public static HediffDef AG_DevouredCrafting;
+        public static HediffDef AG_DevouredArtistic;
+        public static HediffDef AG_DevouredMedical;
+        public static HediffDef AG_DevouredSocial;
+        public static HediffDef AG_DevouredIntellectual;
+
+
+
+        public static RulePackDef AG_NamerAlphapack;
 		public static RulePackDef AG_NamerMixedpack;
 
 		public static JobDef AG_ConsumeMetal;

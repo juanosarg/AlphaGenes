@@ -11,7 +11,13 @@ namespace AlphaGenes
 {
     public class CompDevourBrain : CompAbilityEffect
     {
-        public Dictionary<SkillDef, HediffDef> skillsToHediffs = new Dictionary<SkillDef, HediffDef> { { SkillDefOf.Melee,HediffDefOf.Abasia} };
+        public Dictionary<SkillDef, HediffDef> skillsToHediffs = new Dictionary<SkillDef, HediffDef> { { SkillDefOf.Shooting, InternalDefOf.AG_DevouredShooting },
+            { SkillDefOf.Melee,InternalDefOf.AG_DevouredMelee},{ SkillDefOf.Construction,InternalDefOf.AG_DevouredConstruction},
+        { SkillDefOf.Mining,InternalDefOf.AG_DevouredMining},{ SkillDefOf.Cooking,InternalDefOf.AG_DevouredCooking},
+        { SkillDefOf.Plants,InternalDefOf.AG_DevouredPlants},{ SkillDefOf.Animals,InternalDefOf.AG_DevouredAnimals},
+        { SkillDefOf.Crafting,InternalDefOf.AG_DevouredCrafting},{ SkillDefOf.Artistic,InternalDefOf.AG_DevouredArtistic},
+        { SkillDefOf.Medicine,InternalDefOf.AG_DevouredMedical},{ SkillDefOf.Social,InternalDefOf.AG_DevouredSocial}
+        ,{ SkillDefOf.Intellectual,InternalDefOf.AG_DevouredIntellectual}};
 
 
         private new CompProperties_DevourBrain Props => (CompProperties_DevourBrain)props;
@@ -74,16 +80,17 @@ namespace AlphaGenes
 
         public void ApplyNeededHediff(SkillRecord maxSkill, Pawn pawn) {
 
-            if (maxSkill.def == SkillDefOf.Melee)
-            {
-               
+            if (maxSkill != null) {
+                HediffDef hediffDef = skillsToHediffs[maxSkill.def];
+                pawn.health.AddHediff(hediffDef);
 
             }
 
-        
-        
-        
-        
+
+
+
+
+
         }
 
 

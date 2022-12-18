@@ -212,7 +212,25 @@
 	<HediffDef>
 		<defName>AG_DevouredArtistic</defName>
 		<label>devoured brain: artistic</label>
-		<description>Devoured a brain that was skilled in Artistic. Buff lasts for 2 days</description>
+		<description>Devoured a brain that was skilled in Artistic. Buff lasts for 2 days. This particular buff allows the colonist to make art with +1 quality. This will stack with similar effects from other mods, potentially doing Very Silly Things. weeeee.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>0.01</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>120000</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+				<canUseDecimalsShortForm>true</canUseDecimalsShortForm>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_DevouredMedical</defName>
+		<label>devoured brain: medical</label>
+		<description>Devoured a brain that was skilled in Medical. Buff lasts for 2 days</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -229,7 +247,60 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+					<MedicalTendQuality>0.2</MedicalTendQuality>
+					<MedicalTendSpeed>0.2</MedicalTendSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_DevouredSocial</defName>
+		<label>devoured brain: social</label>
+		<description>Devoured a brain that was skilled in Social. Buff lasts for 2 days</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>0.01</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>120000</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+				<canUseDecimalsShortForm>true</canUseDecimalsShortForm>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<TradePriceImprovement>0.25</TradePriceImprovement>
+					<SocialImpact>0.20</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_DevouredIntellectual</defName>
+		<label>devoured brain: intellectual</label>
+		<description>Devoured a brain that was skilled in Intellectual. Buff lasts for 2 days</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>0.01</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>120000</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+				<canUseDecimalsShortForm>true</canUseDecimalsShortForm>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<GlobalLearningFactor>0.5</GlobalLearningFactor>
+					<ResearchSpeedFactor>0.25</ResearchSpeedFactor>
 				</statOffsets>
 			</li>
 		</stages>
