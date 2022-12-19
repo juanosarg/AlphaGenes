@@ -22,6 +22,21 @@
       </li>
     </stages>
   </ThoughtDef>
+  
+    <ThoughtDef>
+    <defName>AG_EldritchVisage</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>AlphaGenes.ThoughtWorker_EldritchVisage</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+   
+    <stages>
+      
+      <li>
+        <label>eldritch</label>
+        <baseOpinionOffset>-500</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
 
  
   

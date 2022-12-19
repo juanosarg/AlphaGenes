@@ -304,6 +304,7 @@
     <Compile Include="Abilities\CompAbilityEffect_Stinger.cs" />
     <Compile Include="Abilities\CompDetonate.cs" />
     <Compile Include="Abilities\CompDevourBrain.cs" />
+    <Compile Include="Abilities\CompGeneSyphon.cs" />
     <Compile Include="Abilities\CompGiveHediff.cs" />
     <Compile Include="Abilities\CompInsanityBlast.cs" />
     <Compile Include="Abilities\CompTeratogenicHealing.cs" />
@@ -315,6 +316,7 @@
     <Compile Include="Abilities\Properties\CompProperties_AbilitySummon.cs" />
     <Compile Include="Abilities\Properties\CompProperties_Detonate.cs" />
     <Compile Include="Abilities\Properties\CompProperties_DevourBrain.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_GeneSyphon.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
     <Compile Include="Abilities\MineralOverdrive.cs" />
     <Compile Include="Abilities\Properties\CompProperties_InsanityBlast.cs" />
@@ -425,6 +427,7 @@
     <Compile Include="ThingSetMakers\ThingSetMaker_PolarBear.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Wolf.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Rats.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_EldritchVisage.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_Thalassophobia.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_UnsettlingAppearance.cs" />
     <Compile Include="WorldComponents\WorldComponent_BiotechLabQuests.cs" />

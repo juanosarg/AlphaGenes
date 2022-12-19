@@ -107,7 +107,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
-		<initialSeverity>0.01</initialSeverity>
+		<initialSeverity>0.1</initialSeverity>
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
@@ -117,11 +117,11 @@
 		</comps>
 		<stages>
 			<li>
-				<minSeverity>0</minSeverity>
+				<minSeverity>0.1</minSeverity>
 				<label>no effect</label>
 			</li>
 			<li>
-				<minSeverity>0.1</minSeverity>
+				<minSeverity>0.2</minSeverity>
 				<label>cathartic</label>
 				<statOffsets>
 					<PsychicSensitivity>1</PsychicSensitivity>
@@ -133,7 +133,7 @@
 				<minSeverity>0.3</minSeverity>
 				<label>extreme</label>
 				<statOffsets>
-					<PsychicSensitivity>0.4</PsychicSensitivity>
+					<PsychicSensitivity>0.8</PsychicSensitivity>
 					<MeditationFocusGain>0.25</MeditationFocusGain>
 					<PsychicEntropyRecoveryRate>0.2</PsychicEntropyRecoveryRate>
 				</statOffsets>
@@ -142,7 +142,7 @@
 				<minSeverity>0.5</minSeverity>
 				<label>major</label>
 				<statOffsets>
-					<PsychicSensitivity>0.3</PsychicSensitivity>
+					<PsychicSensitivity>0.6</PsychicSensitivity>
 					<MeditationFocusGain>0.2</MeditationFocusGain>
 					<PsychicEntropyRecoveryRate>0.15</PsychicEntropyRecoveryRate>
 				</statOffsets>
@@ -151,7 +151,7 @@
 				<minSeverity>0.7</minSeverity>
 				<label>minor</label>
 				<statOffsets>
-					<PsychicSensitivity>0.25</PsychicSensitivity>
+					<PsychicSensitivity>0.4</PsychicSensitivity>
 					<MeditationFocusGain>0.15</MeditationFocusGain>
 					<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
 				</statOffsets>

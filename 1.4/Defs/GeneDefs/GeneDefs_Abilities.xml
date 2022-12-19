@@ -468,7 +468,7 @@
 		<defName>AG_UnstableMind</defName>
 		<label>unstable mind</label>
 		<marketValueFactor>1.5</marketValueFactor>
-		<description>Carriers of this gene can use the power of their own minds to psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effects lasts for a couple hours and can be used on both hostile and friendly targets.</description>
+		<description>Carriers of this gene can use the power of their own minds to psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effects lasts for three hours and can be used on both hostile and friendly targets.</description>
 		<iconPath>UI/Icons/Genes/AG_UnstableMind</iconPath>
 		<displayCategory>Ability</displayCategory>
 		<abilities>
@@ -505,6 +505,30 @@
 		</descriptionHyperlinks>
 		<biostatCpx>2</biostatCpx>
 		<biostatMet>-3</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_GeneSyphon</defName>
+		<label>gene syphon</label>
+		<marketValueFactor>2</marketValueFactor>
+		<description>Carriers of this gene can forcefully extract a gene from an incapacitated but living person, incorporating it into their xenotype as a xenogene. The gene is chosen at random. This will kill the target.</description>
+		<iconPath>UI/Icons/Genes/AG_GeneSyphon</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_GeneSyphon</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		
+		<descriptionHyperlinks>
+			<AbilityDef>AG_GeneSyphon</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-5</biostatMet>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

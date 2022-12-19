@@ -31,10 +31,10 @@ namespace AlphaGenes
 
             if (this.parent.pawn.IsHashIntervalTick(500) && this.parent.pawn.Map != null && ModsConfig.RoyaltyActive)
             {
-                float severity = 0f;
+                float severity = 0.1f;
                 if (parent.pawn.needs?.mood?.thoughts?.memories?.GetFirstMemoryOfDef(ThoughtDefOf.Catharsis) != null)
                 {
-                    severity = 0.1f;
+                    severity = 0.2f;
                 }
                 if (parent.pawn.needs?.mood?.CurLevel<Pawn.mindState.mentalBreaker.BreakThresholdExtreme)
                 {

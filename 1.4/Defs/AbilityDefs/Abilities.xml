@@ -497,7 +497,7 @@
 	<AbilityDef>
 		<defName>AG_UnstableMind</defName>
 		<label>unstable mind</label>
-		<description>Psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effects lasts for a couple hours and can be used on both hostile and friendly targets.</description>
+		<description>Psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effects lasts for three hours and can be used on both hostile and friendly targets.</description>
 		<iconPath>UI/Icons/Genes/AG_UnstableMind</iconPath>
 		<cooldownTicksRange>60000</cooldownTicksRange>
 		<aiCanUse>true</aiCanUse>
@@ -519,11 +519,12 @@
 			</targetParams>
 		</verbProperties>
 		<comps>
-			<li Class="CompProperties_AbilityGiveHediff">
-				<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<li Class="AlphaGenes.CompProperties_GiveHediff">
+				
 				<hediffDef>AG_UnstableMind</hediffDef>
-				<onlyBrain>True</onlyBrain>
-				<psychic>True</psychic>
+				<applyToCaster>false</applyToCaster>
+				<applyToRadius>true</applyToRadius>
+			
 			</li>
 			<li Class="CompProperties_AbilityFleckOnTarget">
 				<fleckDef>PsycastPsychicEffect</fleckDef>
@@ -557,6 +558,33 @@
 			<li Class="CompProperties_AbilityFleckOnTarget">
 				<fleckDef>PsycastPsychicEffect</fleckDef>
 			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_GeneSyphon</defName>
+		<label>gene syphon</label>
+		<description>Forcefully extract a gene from an incapacitated but living person, incorporating it into the caster's xenotype as a xenogene. The gene is chosen at random. This will kill the target.</description>
+		<iconPath>UI/Icons/Genes/AG_GeneSyphon</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>1.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_GeneSyphon">
+				
+			</li>
+			
 		</comps>
 	</AbilityDef>
 </Defs>

@@ -266,6 +266,60 @@
       </li>
     </subSounds>
   </SoundDef>
+  
+  <!-- Hiveling -->
+      <SoundDef>
+      <defName>AG_Pawn_BigInsect_Call</defName>
+      <context>MapOnly</context>
+      <subSounds>
+        <li>
+          <grains>
+            <li Class="AudioGrain_Folder">
+              <clipFolderPath>Pawn/Animal/BigInsect/BigInsect_Call</clipFolderPath>
+            </li>
+          </grains>
+          <volumeRange>22~22</volumeRange>
+          <pitchRange>1.5~1.6</pitchRange>
+          <distRange>0~50</distRange>
+        </li>
+      </subSounds>
+    </SoundDef>
+
+  
+
+    <SoundDef>
+      <defName>AG_Pawn_BigInsect_Death</defName>
+      <context>MapOnly</context>
+      <subSounds>
+        <li>
+          <grains>
+            <li Class="AudioGrain_Folder">
+              <clipFolderPath>Pawn/Animal/BigInsect/BigInsect_Angry</clipFolderPath>
+            </li>
+          </grains>
+          <volumeRange>25~25</volumeRange>
+          <pitchRange>1.5~1.6</pitchRange>
+          <distRange>0~70</distRange>
+        </li>
+      </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+      <defName>AG_Pawn_BigInsect_Wounded</defName>
+      <context>MapOnly</context>
+      <subSounds>
+        <li>
+          <grains>
+            <li Class="AudioGrain_Folder">
+              <clipFolderPath>Pawn/Animal/BigInsect/BigInsect_Injured</clipFolderPath>
+            </li>
+          </grains>
+          <volumeRange>21~21</volumeRange>
+          <pitchRange>1.5~1.6</pitchRange>
+          <distRange>0~70</distRange>
+        </li>
+      </subSounds>
+    </SoundDef>
 
 
 </Defs>

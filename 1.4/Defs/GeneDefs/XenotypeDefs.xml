@@ -151,6 +151,64 @@
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>
+		<defName>AG_Hiveling</defName>
+		<label>hiveling</label>
+		<description>The result of an escaped experiment of the Sophian Empire, hivelings are barely human, thoroughly infused as they are with insectoid organs and genetic advantages. Hivelings thrive in heavily polluted environments, being strengthened by them. They are completely sterile, reproducing by implanting their parasitic eggs in still-living prisoners, and evolving their hive by acquiring new genes from them.\n\nHivelings are usually reviled by other human xenotypes.</description>
+		<descriptionShort>Barely human, insectoid-like mutants that reproduce via parasitic infestation.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Hiveling</iconPath>
+		<inheritable>false</inheritable>
+		<genes>
+			<li>AG_ParasiticStinger</li>
+			<li>AG_Spinnerets</li>
+			<li>AG_InsectRally</li>
+			<li>AG_InsectBlood</li>
+			<li>AG_InsectJellyProduction</li>
+			<li>PsychicAbility_Dull</li>
+			<li>ToxicEnvironmentResistance_Total</li>
+			<li>FireWeakness</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Sterile</li>
+			<li>AG_MothWings</li>
+			<li>AG_UnsettlingAppearance</li>
+			<li>AG_BeetleMandibles</li>
+			<li>AG_FormicAntennas</li>
+			<li>Skin_PaleYellow</li>
+			<li>PollutionRush</li>
+			<li>AptitudeTerrible_Artistic</li>
+			<li>AptitudeTerrible_Social</li>
+			<li>AptitudeTerrible_Crafting</li>
+			
+		</genes>
+	</XenotypeDef>
+	<XenotypeDef>
+		<defName>AG_MindDevourer</defName>
+		<label>mind devourer</label>
+		<description>A xenotype inspired by the old eldritch folklore tales from old Earth, the Chthonian visage of mind devourers inspires terror and intense uneasiness. They are masters of the psychic arts, being capable of projecting their mental powers and using their mind as a fearsome weapon, as well as devouring the brains of their victims and extracting valuable knowledge from them.\n\nHivelings are usually reviled by other human xenotypes.</description>
+		<descriptionShort>A xenotype of powerful brain devouring psychics that are reviled by any other humans around the Rim.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_MindDevourer</iconPath>
+		<inheritable>false</inheritable>
+		<genes>
+			<li>AG_EldritchVisage</li>
+			<li>AG_Skin_DeepPurple</li>
+			<li>AG_OrnateEldritchHorns</li>
+			<li>AG_FaceTentacles</li>
+			<li>AG_InsanityBlast</li>
+			<li>AG_UnstableMind</li>
+			<li>AG_DevourBrains</li>
+			<li>AG_TarBlood</li>
+			<li>AG_FrailBack</li>
+			<li>AG_UnderdevelopedTeeth</li>
+			<li>AG_FrailSkin</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>MeleeDamage_Weak</li>
+			<li>AG_BrittleBones</li>
+			<li>AG_GutturalVoice</li>
+			<li>AG_GauntBody</li>
+			
+			
+		</genes>
+	</XenotypeDef>
+	<XenotypeDef>
 		<defName>AG_RandomCustom</defName>
 		<label>random custom</label>
 		<description>This will transform the xenotype of the pawn into one of the custom xenotypes created by the player at random.</description>

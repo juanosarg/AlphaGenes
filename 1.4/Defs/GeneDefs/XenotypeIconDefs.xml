@@ -25,5 +25,12 @@
     <defName>AG_CustomXenotypeIcon6</defName>
     <texPath>UI/Icons/Xenotypes/AG_Taukai</texPath>
   </XenotypeIconDef>
-   
+      <XenotypeIconDef>
+    <defName>AG_CustomXenotypeIcon7</defName>
+    <texPath>UI/Icons/Xenotypes/AG_Hiveling</texPath>
+  </XenotypeIconDef>
+     <XenotypeIconDef>
+    <defName>AG_CustomXenotypeIcon8</defName>
+    <texPath>UI/Icons/Xenotypes/AG_MindDevourer</texPath>
+  </XenotypeIconDef>
 </Defs>

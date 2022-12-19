@@ -88,6 +88,22 @@
 		</symbolPack>
 	</GeneDef>
 	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_DeepPurple</defName>
+		<label>deep purple skin</label>
+		<labelShortAdj>purple</labelShortAdj>
+		<description>Carriers of this gene produce a deep purple pigment that gives their skin a sickly appearance.</description>
+		<skinColorOverride>(66, 63, 82)</skinColorOverride>
+		<displayOrderInCategory>103.5</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>purp</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
 		<defName>AG_Skin_DeepBlue</defName>
 		<label>deep blue skin</label>
 		<labelShortAdj>blue</labelShortAdj>

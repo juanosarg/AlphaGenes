@@ -370,13 +370,11 @@
 		<defName>AG_OrnateEldritchHorns</defName>
 		<label>ornate eldritch horns</label>
 		<displayCategory>AG_Cosmetic_Horns</displayCategory>
-		<description>Carriers of this gene grow two huge ornate eldritch horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<description>Carriers of this gene grow two huge ornate eldritch horns protruding from the forehead.</description>
 		<iconPath>UI/Icons/Genes/AG_OrnateEldritchHornsIcon</iconPath>
 		
 		<selectionWeight>0</selectionWeight>
-		<customEffectDescriptions>
-			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
-		</customEffectDescriptions>
+		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_OrnateEldritchHorns/AG_OrnateEldritchHorns</graphicPath>
 			<color>(255, 255, 255)</color>
@@ -400,14 +398,7 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<hediffsToBodyParts>
-					<li>
-						<hediff>AG_HornAttack</hediff>
-						<bodyparts>
-							<li>Head</li>
-						</bodyparts>
-					</li>
-				</hediffsToBodyParts>
+				
 			</li>
 		</modExtensions>
 	</GeneDef>

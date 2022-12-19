@@ -41,6 +41,7 @@ namespace AlphaGenes
 		public static GeneDef AG_Female;
 		public static GeneDef AG_Sensitivity_Lethal;
 		public static GeneDef AG_Teratogenesis;
+		public static GeneDef AG_EldritchVisage;
 
 		public static GeneDef AG_UnstableMutation;
         public static GeneDef AG_UnstableMutationMajor;

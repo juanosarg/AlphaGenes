@@ -23,6 +23,7 @@
 	<AG_ResistedInsanityBlast>Target resisted the insanity blast!</AG_ResistedInsanityBlast>
 	<AG_DownedOrLyingInBed>Target must be downed or lying down in bed for this ability to work</AG_DownedOrLyingInBed>
 	<AG_PawnWithoutBrain>Target lacks a brain. This is sadly pretty common in the world</AG_PawnWithoutBrain>
+	<AG_CannotBeUsedOnDeathless>Deathless people are immune to parasitic implantations</AG_CannotBeUsedOnDeathless>
 	
 	
 	<!-- Settings -->

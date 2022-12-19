@@ -147,4 +147,39 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>AG_EldritchVisage</defName>
+		<label>eldritch visage</label>
+		<labelShortAdj>eldritch</labelShortAdj>
+		<description>The carrier of this gene has an appearance that terrifies other people to the very core of their being. They will always be despised.</description>
+		<iconPath>UI/Icons/Genes/AG_EldritchVisage</iconPath>
+		<displayOrderInCategory>101</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Any person without this gene will get a -500 social penalty towards people who have it, basically ensuring they'll always be at -100 relationship opinion.</li>
+		</customEffectDescriptions>
+		
+
+		<biostatMet>3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>eldri</symbol>
+				</li>
+				<li>
+					<symbol>terror</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

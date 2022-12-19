@@ -96,4 +96,23 @@
 		</modExtensions>
 
 	</GeneDef>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_HivelingVoice</defName>
+		<label>hiveling voice</label>
+		<description>Carriers have high pitched insectoid voices.</description>
+		<iconPath>UI/Icons/Genes/AG_HivelingVoice</iconPath>
+		<displayOrderInCategory>136</displayOrderInCategory>
+		<soundCall>AG_Pawn_BigInsect_Call</soundCall>
+		<soundDeath>AG_Pawn_BigInsect_Death</soundDeath>
+		<soundWounded>AG_Pawn_BigInsect_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
 </Defs>

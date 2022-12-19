@@ -63,7 +63,7 @@
 		<comps>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>5000</disappearsAfterTicks>
+				<disappearsAfterTicks>7500</disappearsAfterTicks>
 				<showRemainingTime>true</showRemainingTime>
 				<canUseDecimalsShortForm>true</canUseDecimalsShortForm>
 			</li>
@@ -71,7 +71,7 @@
 		<stages>
 			
 			<li>
-				<mentalBreakMtbDays>1</mentalBreakMtbDays>
+				<mentalBreakMtbDays>0.3</mentalBreakMtbDays>
 				<statOffsets>
 					<PsychicSensitivity>0.75</PsychicSensitivity>
 					

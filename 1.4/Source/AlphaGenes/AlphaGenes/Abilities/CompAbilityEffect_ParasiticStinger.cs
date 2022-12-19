@@ -83,7 +83,16 @@ namespace AlphaGenes
                 return false;
             }
 
-            
+            if (pawn.genes?.HasGene(GeneDefOf.Deathless)==true)
+            {
+                if (throwMessages)
+                {
+                    Messages.Message("AG_CannotBeUsedOnDeathless".Translate(pawn), pawn, MessageTypeDefOf.RejectInput, historical: false);
+                }
+                return false;
+            }
+
+
 
             return base.Valid(target, throwMessages);
         }
