@@ -468,7 +468,7 @@
 		<defName>AG_UnstableMind</defName>
 		<label>unstable mind</label>
 		<marketValueFactor>1.5</marketValueFactor>
-		<description>Carriers of this gene can use the power of their own minds to psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effects lasts for three hours and can be used on both hostile and friendly targets.</description>
+		<description>Carriers of this gene can use the power of their own minds to psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effect lasts for three hours and can be used on both hostile and friendly targets.</description>
 		<iconPath>UI/Icons/Genes/AG_UnstableMind</iconPath>
 		<displayCategory>Ability</displayCategory>
 		<abilities>

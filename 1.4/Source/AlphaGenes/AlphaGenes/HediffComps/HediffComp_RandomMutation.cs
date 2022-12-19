@@ -37,7 +37,7 @@ namespace AlphaGenes
 				List<string> geneNamesToDisplay = new List<string>();
 				for (int i = 0; i < Props.numberOfGenes; i++)
 				{
-					GeneDef gene = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false && x.prerequisite==null && x.biostatArc == 0 && !x.defName.Contains("VREHT_") && !blacklist.Contains(x)).RandomElement();
+					GeneDef gene = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false && x.prerequisite==null && x.biostatArc == 0 && !x.defName.Contains("VREHT_") && !x.defName.Contains("AlphaGenes_") && !blacklist.Contains(x)).RandomElement();
 					genes.Add(gene);
 					geneNamesToDisplay.Add(gene.LabelCap);
 					this.parent.pawn.genes?.AddGene(gene, true);

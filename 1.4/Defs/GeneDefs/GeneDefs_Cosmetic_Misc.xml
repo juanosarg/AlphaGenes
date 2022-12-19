@@ -9,7 +9,7 @@
 			<drawLoc>Tailbone</drawLoc>
 		</graphicData>
 	</GeneDef>
-	
+
 	<GeneDef>
 		<defName>AG_HeavilyScarred</defName>
 		<label>heavily scarred</label>
@@ -42,7 +42,7 @@
 		<displayCategory>Cosmetic</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-	
+
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -73,8 +73,8 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
+
+
 	<GeneDef>
 		<defName>AG_BodyTentacles</defName>
 		<label>body tentacles</label>
@@ -82,12 +82,12 @@
 		<iconPath>UI/Icons/Genes/AG_BodyTentaclesIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>Miscellaneous</displayCategory>
-		 <capMods>
-      <li>
-        <capacity>Manipulation</capacity>
-        <offset>0.05</offset>
-      </li>
-    </capMods>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<symbolPack>
@@ -115,16 +115,16 @@
 			<drawLoc>Tailbone</drawLoc>
 			<colorType>Skin</colorType>
 		</graphicData>
-		
+
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
+
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
+
 	<GeneDef>
 		<defName>AG_Proboscis</defName>
 		<label>proboscis</label>
@@ -148,7 +148,7 @@
 				<li>
 					<symbol>moskit</symbol>
 				</li>
-				
+
 			</prefixSymbols>
 		</symbolPack>
 		<modExtensions>
@@ -158,11 +158,11 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 </Defs>
