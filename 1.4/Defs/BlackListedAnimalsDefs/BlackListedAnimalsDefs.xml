@@ -29,6 +29,17 @@
 			<li>AA_FissionMouseThird</li>
 			<li>AA_FlamingoPhoenix</li>
 			<li>AA_PhoenixOwlcat</li>
+			<li>VPE_SteelConstruct</li>
+			<li>VPE_RockConstruct</li>
+			<li>VPE_SummonedSkeleton</li>
+			<li>AA_BlackScarab_Temporary</li>
+			<li>AA_BlackSpelopede_Temporary</li>
+			<li>AA_BlackSpider_Temporary</li>
+			<li>AA_MammothWorm_Temporary</li>
+			<li>AA_BlackLarvae</li>
+			<li>AAVPE_BlackQueen</li>
+			<li>AA_OcularOriginator</li>
+			<li>AA_Summoned_Eyeling</li>
 							
 			
 		</blackListedAnimals>							

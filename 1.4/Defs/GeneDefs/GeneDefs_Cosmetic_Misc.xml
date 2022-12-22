@@ -73,6 +73,52 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef ParentName="AG_MiscBase">
+		<defName>AG_CrabClaw</defName>
+		<label>crab claw</label>
+		<description>Carriers of this gene have one of their arms mutated into a gigantic crab claw. This claw is surprisingly dexterous and doesn't impede the person's manipulation.</description>
+		<iconPath>UI/Icons/Genes/AG_CrabClawIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Why? Because.</li>		
+		</customEffectDescriptions>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>crab</symbol>
+				</li>
+				<li>
+					<symbol>carc</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_CrabClaw/AG_CrabClaw</graphicPath>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, -0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_CrabClaw</hediff>
+						<bodyparts>
+							<li>Arm</li>
+							
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 
 	<GeneDef>

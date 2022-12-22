@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	
-	
 	<HediffDef>
 		<defName>AG_HornAttack</defName>
 		<label>oversized horns</label>
@@ -26,7 +23,6 @@
 			</li>
 		</comps>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_ChainsawHands</defName>
 		<label>chainsaw hand</label>
@@ -34,7 +30,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
-		<isBad>false</isBad>		
+		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
@@ -45,19 +41,38 @@
 						</capacities>
 						<power>26</power>
 						<cooldownTime>2</cooldownTime>
-
 					</li>
 				</tools>
 			</li>
 		</comps>
 		<addedPartProps>
-     
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
-
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
 	</HediffDef>
-
-	
-	
-	
+	<HediffDef>
+		<defName>AG_CrabClaw</defName>
+		<label>crab claw</label>
+		<description>A gigantic, but surprisingly versatile, crab claw.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claw</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>26</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
 </Defs>

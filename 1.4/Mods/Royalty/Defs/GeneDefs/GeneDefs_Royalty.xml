@@ -27,6 +27,55 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_InnatePsylink</defName>
+		<label>innate psylink</label>
+		<iconPath>Things/Item/Special/PsylinkNeuroformer</iconPath>
+		<description>Carriers of this gene have an innate ability to use psychic powers.</description>
+		<displayCategory>Psychic</displayCategory>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
+		<biostatMet>-2</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>psy</symbol>
+				</li>
+				
+				<li>
+					<symbol>mental</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>psy</symbol>
+				</li>
+				
+			</suffixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>Losing this gene will make the colonist lose ALL psylink levels, though they will not forget the psycasts they have already learned.</li>
+			
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>PsychicAmplifier</hediff>
+						<bodyparts>
+							<li>Brain</li>
+							
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
 	<GeneDef>
 		<defName>AG_PsychicSight</defName>
