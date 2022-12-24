@@ -10,7 +10,7 @@ namespace AlphaGenes
 {
     public class Hediff_ReactiveArmour : HediffWithComps
     {
-        public override bool ShouldRemove => gene.Value <= 0 || !ability.active;
+        public override bool ShouldRemove => !pawn.Spawned || gene?.Value <= 0 || (!ability?.active ?? true);
 
         public override bool Visible => true;
 
