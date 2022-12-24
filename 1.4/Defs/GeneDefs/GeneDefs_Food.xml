@@ -29,6 +29,7 @@
 		<exclusionTags>
 					<li>AG_StrongStomachAndWeakStomach</li>
 					<li>AG_RobustDigestionAndWeakStomach</li>
+					<li>AG_PredatorStomachAndWeakStomach</li>
 		</exclusionTags>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>

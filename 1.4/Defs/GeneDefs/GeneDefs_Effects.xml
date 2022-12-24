@@ -180,7 +180,10 @@
 		 <displayCategory>AG_SpecialEffectsCategory</displayCategory>
 		<description>The carrier of this gene constantly exudes and produces globs of insect jelly, which provides some extra food for the colony.</description>
 		<iconPath>UI/Icons/Genes/AG_InsectJellyProduction</iconPath>
-	
+		<exclusionTags>
+			<li>AG_JellyProduction</li>
+		
+		</exclusionTags>
 		<customEffectDescriptions>
 		<li>Produces 12 units of insect jelly per day</li>	
 			<li>This gene is balanced to produce more nutrition (0.05 * 12 = 0.6) than its metabolic impact (-1 -> 25%, which for a normal pawn is 0.4 nutrition per day)</li>					
