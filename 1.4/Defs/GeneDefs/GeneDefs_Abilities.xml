@@ -439,6 +439,40 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_AcidicDetonation</defName>
+		<label>acidic detonation</label>
+		<description>Carriers can detonate their bodies in an acidic explosion at will. Note that this will NOT hurt the user of the ability.</description>
+		<iconPath>UI/Icons/Genes/AG_AcidBurst</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<marketValueFactor>1.25</marketValueFactor>
+		
+		<abilities>
+			<li>AG_AcidicDetonation</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_AcidicDetonation</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>caust</symbol>
+				</li>
+				<li>
+					<symbol>acid</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
 	<GeneDef>
 		<defName>AG_InsanityBlast</defName>

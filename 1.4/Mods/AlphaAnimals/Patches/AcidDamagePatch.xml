@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/GeneDef[defName = "AG_AcidResistance"]/damageFactors</xpath>
+		<value>
+			<AA_AcidSpit>0</AA_AcidSpit>
+			<AA_AcidRainDamage>0</AA_AcidRainDamage>
+		</value>
+	</Operation>
+</Patch>

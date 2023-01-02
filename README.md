@@ -6,5 +6,6 @@ Lapis voice sounds by Uminari: https://freesound.org/people/Uminari/sounds/38973
 
 Mineral "spell" sounds from EminYILDIRIM: https://freesound.org/people/EminYILDIRIM/sounds/541477/
 
+Acid sounds from BlastwaveFx.com: https://soundbible.com/548-Making-Espresso.html
 
 Using licensed sounds from Jonathan Shaw's libraries: https://www.jshaw.co.uk/inspectorj-freesound-library

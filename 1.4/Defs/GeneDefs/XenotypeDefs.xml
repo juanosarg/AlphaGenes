@@ -97,7 +97,6 @@
 			<li>AG_SlowGestation</li>
 			<li>AG_RockVoice</li>
 			<li>AG_PebbleBlood</li>
-			
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>
@@ -116,11 +115,8 @@
 			<li>Skin_LightGray</li>
 			<li>Skin_SlateGray</li>
 			<li>Skin_InkBlack</li>
-			
-			
 		</genes>
 	</XenotypeDef>
-	
 	<XenotypeDef>
 		<defName>AG_Taukai</defName>
 		<label>taukai</label>
@@ -147,7 +143,6 @@
 			<li>AptitudePoor_Artistic</li>
 			<li>AptitudePoor_Social</li>
 			<li>AptitudeTerrible_Medicine</li>
-			
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>
@@ -177,7 +172,6 @@
 			<li>AptitudeTerrible_Artistic</li>
 			<li>AptitudeTerrible_Social</li>
 			<li>AptitudeTerrible_Crafting</li>
-			
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>
@@ -204,8 +198,41 @@
 			<li>AG_BrittleBones</li>
 			<li>AG_GutturalVoice</li>
 			<li>AG_GauntBody</li>
-			
-			
+		</genes>
+	</XenotypeDef>
+	<XenotypeDef>
+		<defName>AG_Efreet</defName>
+		<label>efreet</label>
+		<description>A modified strain of the impid xenotype designed as terrifying shock troopers, efreet were created to be as intimidating as possible. Whereas impids are adept at fire-based, ranged combat, Efreet are perfectly capable of ripping their enemies to shreds in close quarters combat with their fearsome claws. Efreet possess incredible heat resistant capabilities, and are immune to fire, being almost obssessed with it.</description>
+		<descriptionShort>A modified strain of the impid xenotype designed as shock troopers. Obsessed with fire and almost immune to heat.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Efreet</iconPath>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>1.2</combatPowerFactor>
+		<nameMaker>NamerPersonImpid</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>AG_HeatImmunity</li>
+			<li>AG_FireObsession</li>
+			<li>Skin_DeepRed</li>
+			<li>Skin_PaleRed</li>
+			<li>AG_GreaterFireSpew</li>
+			<li>AG_Detonation</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>AG_ClawedHands</li>
+			<li>AG_DevilEyes</li>
+			<li>AG_DemonWings</li>
+			<li>AG_DemonTail</li>
+			<li>AG_DemonEars</li>
+			<li>AG_DemonHorns</li>
+			<li>AG_DemonHornsQuadruple</li>			
+			<li>WoundHealing_Slow</li>
+			<li>AptitudeTerrible_Plants</li>
+			<li>AptitudeTerrible_Animals</li>
+			<li>Mood_Pessimist</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>Mood_Depressive</li>
+			<li>AG_AcidicBlood</li>
+			 <li>AptitudeRemarkable_Melee</li>
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>
@@ -214,11 +241,8 @@
 		<description>This will transform the xenotype of the pawn into one of the custom xenotypes created by the player at random.</description>
 		<descriptionShort>This will transform the xenotype of the pawn into one of the custom xenotypes created by the player at random.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/AG_RandomCustom</iconPath>
-		
 		<genes>
 			<li>AlphaGenes_Randomizer</li>
-			
-			
 		</genes>
 	</XenotypeDef>
 </Defs>

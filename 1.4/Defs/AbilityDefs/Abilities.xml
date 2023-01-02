@@ -309,6 +309,27 @@
 		</comps>
 	</AbilityDef>
 	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_AcidicDetonation</defName>
+		<label>acidic detonation</label>
+		<cooldownTicksRange>30000</cooldownTicksRange>
+		<description>Causes a torrent of pressurized acid to be expelled out of all of this person's pores, creating an acidic explosion that will hurt everyone nearby. It will not affect the caster.</description>
+		<iconPath>UI/Icons/Genes/AG_AcidBurst</iconPath>
+		<verbProperties>
+			<range>1.9</range>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_Detonate">
+				<radius>1.9</radius>
+				<damageType>AG_AcidSpit</damageType>
+				<soundCreated>AG_Acid</soundCreated>
+				<thingCreated>AG_GreenGas</thingCreated>
+				<thingCreatedChance>0.8</thingCreatedChance>
+				<damageUser>false</damageUser>
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_Detonation</defName>
 		<label>detonation</label>
 		<cooldownTicksRange>30000</cooldownTicksRange>

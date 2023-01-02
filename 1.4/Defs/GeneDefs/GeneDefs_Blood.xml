@@ -98,6 +98,54 @@
 	</GeneDef>
 	
 	<GeneDef>
+		<defName>AG_AcidicBlood</defName>
+		<label>acidic blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have extremely acidic blood. This blood doesn't harm them, but it will spill everywhere when they are slain, hurting all people nearby.</description>
+		<iconPath>UI/Icons/Genes/AG_AcidBlood</iconPath>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>xenomorph</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>acid</symbol>
+				</li>
+				<li>
+					<symbol>caust</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_Filth_Acid</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_AcidicBloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitAcid</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsAcid</customWoundsFromFleshtype>
+				<hediffToWholeBody>AG_AcidicExploder</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
 		<defName>AG_TarBlood</defName>
 		<label>tarlike blood</label>
 		<displayCategory>AG_BloodType</displayCategory>

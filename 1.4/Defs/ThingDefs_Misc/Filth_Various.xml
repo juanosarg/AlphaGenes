@@ -105,6 +105,27 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
     </filth>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseFilth">
+    <defName>AG_Filth_Acid</defName>
+    <label>neutralized acidic blood</label>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(121, 196, 32, 180)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>35~40</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+  </ThingDef>
 
   
   

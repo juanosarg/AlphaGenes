@@ -15,12 +15,31 @@
 		<mentalBreakMtbDays>0.1</mentalBreakMtbDays>
 		<mentalBreakDef>AG_Thalassophobia</mentalBreakDef>
 		<selectionWeight>0</selectionWeight>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-			
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FireObsession</defName>
+		<label>fire obsession</label>
+		<description>Carriers of this gene have an innate psychological obsession with fire, trying to be around fires as much as humanly possible.</description>
+		<iconPath>UI/Icons/Genes/AG_FireObsession</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>800</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<forcedTraits>
+			<li>
+				<def>Pyromaniac</def>
+			</li>
+		</forcedTraits>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
 		</modExtensions>
 	</GeneDef>

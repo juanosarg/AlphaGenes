@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
 	<GeneDef>
 		<defName>AG_Foodless</defName>
 		<label>foodless</label>
@@ -15,16 +12,14 @@
 		<biostatArc>1</biostatArc>
 		<biostatMet>-1</biostatMet>
 		<customEffectDescriptions>
-			<li>Reduces the need to eat to be almost negligible (not entirely zero to avoid weird mod interactions)</li>			
+			<li>Reduces the need to eat to be almost negligible (not entirely zero to avoid weird mod interactions)</li>
 		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-
 				<hediffToWholeBody>AG_NoFood</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 	<GeneDef>
 		<defName>AG_Mood_Unfeeling</defName>
 		<label>unfeeling</label>
@@ -46,18 +41,15 @@
 				<li>
 					<symbol>heartless</symbol>
 				</li>
-
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
-			<li>This gene hasn't been 100% tested and I bet it breaks some things. weeeee!</li>			
+			<li>This gene hasn't been 100% tested and I bet it breaks some things. weeeee!</li>
 		</customEffectDescriptions>
 		<disablesNeeds>
 			<li>Mood</li>
 		</disablesNeeds>
-
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_AsexualFission</defName>
 		<label>asexual fission</label>
@@ -83,21 +75,17 @@
 				<li>
 					<symbol>asexual</symbol>
 				</li>
-
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
-			<li>Will produce newborns via asexual fission every 25 days</li>			
+			<li>Will produce newborns via asexual fission every 25 days</li>
 		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-
 				<hediffToWholeBody>AG_AsexualFission</hediffToWholeBody>
 			</li>
 		</modExtensions>
-
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_Regeneration</defName>
 		<label>regeneration</label>
@@ -114,17 +102,50 @@
 		<customEffectDescriptions>
 			<li>A random wound is reduced by 0.1 severity every 10 ticks (1/6th of a second).</li>
 		</customEffectDescriptions>
-	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				
 				<hediffToWholeBody>AG_Regeneration</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
-
-
-
-
+	<GeneDef ParentName="GeneMaxTempBase">
+		<defName>AG_HeatImmunity</defName>
+		<label>heat immunity</label>
+		<description>Carriers of this gene are almost unaffected by heat. They will be simultaneously not bothered by flames.</description>
+		<iconPath>UI/Icons/Genes/AG_HeatImmunity</iconPath>
+		<displayOrderInCategory>113</displayOrderInCategory>
+		<statOffsets>
+			<ComfyTemperatureMax>232</ComfyTemperatureMax>
+		</statOffsets>
+		<damageFactors>
+			<Flame>0</Flame>
+		</damageFactors>
+		<exclusionTags>
+			<li>FireDamage</li>
+		</exclusionTags>
+		<displayCategory>Archite</displayCategory>
+		<biostatArc>2</biostatArc>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>hot</symbol>
+				</li>
+				<li>
+					<symbol>heat</symbol>
+				</li>
+				<li>
+					<symbol>sun</symbol>
+				</li>
+				<li>
+					<symbol>sweat</symbol>
+				</li>
+				<li>
+					<symbol>bake</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
 </Defs>

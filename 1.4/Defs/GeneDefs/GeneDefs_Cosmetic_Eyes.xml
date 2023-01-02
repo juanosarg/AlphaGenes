@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- Eyes -->
-	
-	
-	
 	<GeneDef>
 		<defName>AG_FeraliskEyes</defName>
 		<label>feralisk eyes</label>
@@ -56,7 +53,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_ThirdEye</defName>
 		<label>third eye</label>
@@ -71,9 +67,7 @@
 		</graphicData>
 		<exclusionTags>
 			<li>ShootingAccuracy</li>
-			
 		</exclusionTags>
-		
 		<biostatMet>-1</biostatMet>
 		<biostatCpx>1</biostatCpx>
 		<capMods>
@@ -89,7 +83,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_EyeOfShubNiggurath</defName>
 		<label>eye of Shub-Niggurath</label>
@@ -101,12 +94,9 @@
 			<color>(255, 255, 255)</color>
 			<layer>PostTattoo</layer>
 			<visibleNorth>false</visibleNorth>
-			
 		</graphicData>
-		
 		<biostatMet>0</biostatMet>
 		<biostatCpx>0</biostatCpx>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -114,7 +104,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_NearBlindness</defName>
 		<label>near blindness</label>
@@ -129,7 +118,6 @@
 			<li>ShootingAccuracy</li>
 			<li>EyeColor</li>
 		</exclusionTags>
-		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -194,7 +182,6 @@
 		<selectionWeight>0</selectionWeight>
 		<exclusionTags>
 			<li>ShootingAccuracy</li>
-		
 		</exclusionTags>
 		<capMods>
 			<li>
@@ -209,6 +196,26 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
+	<GeneDef ParentName="GeneEyeColor">
+		<defName>AG_DevilEyes</defName>
+		<label>devil eyes</label>
+		<iconPath>UI/Icons/Genes/AG_DevilEyes</iconPath>
+		<description>Carriers of this gene have large, deep yellow eyes.</description>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<graphicData>
+			<drawScale>0.28</drawScale>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_male</graphicPath>
+			<graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_female</graphicPathFemale>
+			<color>(255, 255, 255)</color>
+			<visibleNorth>false</visibleNorth>
+			<drawOnEyes>true</drawOnEyes>
+			<layer>PostTattoo</layer>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

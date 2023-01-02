@@ -15,6 +15,26 @@
 			</li>
 		</comps>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_AcidicExploder</defName>
+		<label>acidic blood</label>
+		<description>An unstable, acidic blood will cause this person to blow up in a cloud of caustic acid when killed.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_Exploder">
+				<radius>2</radius>
+				<damageType>AG_AcidSpit</damageType>
+				<soundCreated>AG_Acid</soundCreated>
+				<thingCreated>AG_GreenGas</thingCreated>
+				<thingCreatedChance>0.8</thingCreatedChance>
+				<damageAmount>30</damageAmount>
+			</li>
+		</comps>
+	</HediffDef>
 	<HediffDef>
 		<defName>AG_LungRotStrengthHediff</defName>
 		<hediffClass>HediffWithComps</hediffClass>

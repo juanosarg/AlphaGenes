@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	
-	
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_BoomNodules</defName>
 		<label>chemfuel nodules</label>
-		 <displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
 		<description>Huge pustules filled with chemfuel make this person quite disgusting to look at. The nodules will explode if the person dies.</description>
 		<iconPath>UI/Icons/Genes/AG_NodulesIcon</iconPath>
 		<customEffectDescriptions>
 			<li>Colonist will explode on death in a flame explosion with 2 tiles radius</li>
-			
 		</customEffectDescriptions>
-		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</graphicPath>
 			<color>(255, 255, 255)</color>
 			<layer>PostHeadgear</layer>
 		</graphicData>
 		<biostatCpx>1</biostatCpx>
-		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -33,8 +26,6 @@
 				<li>
 					<symbol>wart</symbol>
 				</li>
-				
-				
 			</prefixSymbols>
 		</symbolPack>
 		<forcedHair>Bald</forcedHair>
@@ -47,7 +38,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_TetraCoils</defName>
 		<label>tetra coils</label>
@@ -59,14 +49,11 @@
 			<color>(255, 255, 255)</color>
 			<layer>PostHeadgear</layer>
 		</graphicData>
-		
 		<customEffectDescriptions>
 			<li>Colonist will recharge nearby batteries. Most modded batteries are supported</li>
-			
 		</customEffectDescriptions>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
-		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -78,8 +65,6 @@
 				<li>
 					<symbol>charge</symbol>
 				</li>
-				
-				
 			</prefixSymbols>
 		</symbolPack>
 		<forcedHair>Bald</forcedHair>
@@ -95,7 +80,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_Fogger</defName>
 		<label>fogger</label>
@@ -103,12 +87,10 @@
 		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of influencing the humidity levels of the surrounding atmosphere, causing a deep, thick fog to coalesce around.</description>
 		<iconPath>UI/Icons/Genes/AG_Fogger</iconPath>
 		<customEffectDescriptions>
-			<li>Causes a foggy weather to be always present around this person</li>	
-			<li>Nanomachines, son!</li>			
+			<li>Causes a foggy weather to be always present around this person</li>
+			<li>Nanomachines, son!</li>
 		</customEffectDescriptions>
-		
 		<biostatCpx>3</biostatCpx>
-		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -120,11 +102,8 @@
 				<li>
 					<symbol>humid</symbol>
 				</li>
-				
-				
 			</prefixSymbols>
 		</symbolPack>
-		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -134,7 +113,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_RainMaker</defName>
 		<label>rainmaker</label>
@@ -142,12 +120,9 @@
 		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically lowering the atmospheric pressure around, causing constant precipitation.</description>
 		<iconPath>UI/Icons/Genes/AG_RainMaker</iconPath>
 		<customEffectDescriptions>
-			<li>Causes rainy weather to be always present around this person</li>	
-				
+			<li>Causes rainy weather to be always present around this person</li>
 		</customEffectDescriptions>
-		
 		<biostatCpx>3</biostatCpx>
-	
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -159,11 +134,8 @@
 				<li>
 					<symbol>pluvio</symbol>
 				</li>
-				
-				
 			</prefixSymbols>
 		</symbolPack>
-		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -173,25 +145,21 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_InsectJellyProduction</defName>
 		<label>jelly production</label>
-		 <displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
 		<description>The carrier of this gene constantly exudes and produces globs of insect jelly, which provides some extra food for the colony.</description>
 		<iconPath>UI/Icons/Genes/AG_InsectJellyProduction</iconPath>
 		<exclusionTags>
 			<li>AG_JellyProduction</li>
-		
 		</exclusionTags>
 		<customEffectDescriptions>
-		<li>Produces 12 units of insect jelly per day</li>	
-			<li>This gene is balanced to produce more nutrition (0.05 * 12 = 0.6) than its metabolic impact (-1 -> 25%, which for a normal pawn is 0.4 nutrition per day)</li>					
+			<li>Produces 12 units of insect jelly per day</li>
+			<li>This gene is balanced to produce more nutrition (0.05 * 12 = 0.6) than its metabolic impact (-1 -> 25%, which for a normal pawn is 0.4 nutrition per day)</li>
 		</customEffectDescriptions>
-		
 		<biostatMet>-1</biostatMet>
 		<biostatCpx>1</biostatCpx>
-		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -201,10 +169,4 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
-
-
-
-
 </Defs>

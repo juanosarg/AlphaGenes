@@ -115,6 +115,25 @@
 	</GeneDef>
 	
 	<GeneDef ParentName="GeneEarsBase">
+		<defName>AG_DemonEars</defName>
+		<label>demon ears</label>
+		<selectionWeight>0</selectionWeight>
+		<description>Carriers of this gene will grow long demon ears.</description>
+		<iconPath>UI/Icons/Genes/AG_DemonEarsIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DemonEars/AG_DemonEars</graphicPath>
+			<colorType>Skin</colorType>
+		</graphicData>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneEarsBase">
 		<defName>AG_EarWings</defName>
 		<label>ear wings</label>
 		<selectionWeight>0</selectionWeight>

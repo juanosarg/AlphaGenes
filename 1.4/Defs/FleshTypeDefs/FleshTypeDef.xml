@@ -82,5 +82,22 @@
             </li>
         </genericWounds>
     </FleshTypeDef>
+	
+	 <FleshTypeDef>
+        <defName>AG_WoundsAcid</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>AG_Damage_HitAcid</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundAcidA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundAcidB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundAcidC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
 
 </Defs>

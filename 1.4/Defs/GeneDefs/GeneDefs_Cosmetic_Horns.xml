@@ -76,7 +76,6 @@
 		<description>Carriers of this gene grow two large bull horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_BullHornsIcon</iconPath>
 		<selectionWeight>0</selectionWeight>
-	
 		<customEffectDescriptions>
 			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
 		</customEffectDescriptions>
@@ -127,7 +126,6 @@
 		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<description>Carriers of this gene grow two large antlers protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_AntlerHornsIcon</iconPath>
-		
 		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
 			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
@@ -170,7 +168,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_RayHoundTentacles</defName>
 		<label>rayhound tentacles</label>
@@ -203,14 +200,12 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_EldritchHorns</defName>
 		<label>eldritch horns</label>
 		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<description>Carriers of this gene grow two huge eldritch antlers protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_EldritchHornsIcon</iconPath>
-		
 		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
 			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
@@ -232,7 +227,6 @@
 					<symbol>runic</symbol>
 				</li>
 			</prefixSymbols>
-			
 		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -249,14 +243,12 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_HornCrown</defName>
 		<label>horn crown</label>
 		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<description>Carriers of this gene grow a huge crown of sharp horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_HornCrownIcon</iconPath>
-		
 		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
 			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
@@ -274,9 +266,7 @@
 				<li>
 					<symbol>horned</symbol>
 				</li>
-				
 			</prefixSymbols>
-			
 		</symbolPack>
 		<hairTagFilter>
 			<whitelist>true</whitelist>
@@ -299,16 +289,13 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_UpperTentacles</defName>
 		<label>upper tentacles</label>
 		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<description>Carriers of this gene grow several tentacles protruding from the forehead.</description>
 		<iconPath>UI/Icons/Genes/AG_UpperTentaclesIcon</iconPath>
-		
 		<selectionWeight>0</selectionWeight>
-		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_UpperTentacles/AG_UpperTentacles</graphicPath>
 			<colorType>Skin</colorType>
@@ -324,11 +311,9 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_Stalks</defName>
 		<label>eye stalks</label>
@@ -365,16 +350,13 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_OrnateEldritchHorns</defName>
 		<label>ornate eldritch horns</label>
 		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<description>Carriers of this gene grow two huge ornate eldritch horns protruding from the forehead.</description>
 		<iconPath>UI/Icons/Genes/AG_OrnateEldritchHornsIcon</iconPath>
-		
 		<selectionWeight>0</selectionWeight>
-		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_OrnateEldritchHorns/AG_OrnateEldritchHorns</graphicPath>
 			<color>(255, 255, 255)</color>
@@ -392,17 +374,130 @@
 					<symbol>runic</symbol>
 				</li>
 			</prefixSymbols>
-			
 		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
-
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_DemonHorns</defName>
+		<label>demon horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two huge demon horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_DemonHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DemonHorns/AG_DemonHorns</graphicPath>
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>devil</symbol>
+				</li>
+				<li>
+					<symbol>demon</symbol>
+				</li>
+				<li>
+					<symbol>fiend</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_DemonHornsQuadruple</defName>
+		<label>quad demon horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow four huge demon horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_DemonHornsQuadrupleIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DemonHornsQuadruple/AG_DemonHornsQuadruple</graphicPath>
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>devil</symbol>
+				</li>
+				<li>
+					<symbol>demon</symbol>
+				</li>
+				<li>
+					<symbol>fiend</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_TerrorMask</defName>
+		<label>terror mask</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow a terrifying bone mask that covers their entire face.</description>
+		<iconPath>UI/Icons/Genes/AG_TerrorMaskIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_TerrorMask/AG_TerrorMask</graphicPath>
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>devil</symbol>
+				</li>
+				<li>
+					<symbol>demon</symbol>
+				</li>
+				<li>
+					<symbol>fiend</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

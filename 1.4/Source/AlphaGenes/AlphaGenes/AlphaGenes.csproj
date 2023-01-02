@@ -389,6 +389,7 @@
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\RelationsUtility_IsDisfigured.cs" />
+    <Compile Include="HediffComps\HediffComp_Exploder.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\HediffComp_Parasites.cs" />
     <Compile Include="HediffComps\HediffComp_SeverityFromMinerals.cs" />
@@ -396,6 +397,7 @@
     <Compile Include="HediffComps\HediffComp_RandomMutation.cs" />
     <Compile Include="HediffComps\HediffComp_StageByMood.cs" />
     <Compile Include="HediffComps\HediffComp_Teratogenesis.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_Exploder.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Parasites.cs" />

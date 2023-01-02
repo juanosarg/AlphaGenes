@@ -36,7 +36,7 @@ namespace AlphaGenes
             }
 
             GenExplosion.DoExplosion(parent.pawn.Position, parent.pawn.Map, Props.radius, Props.damageType, parent.pawn, Props.damageAmount, Props.damagePenetration, Props.soundCreated, null, null, null,
-                null, 0f, 1, GasType.BlindSmoke, false, null, 0f, 1, Props.chanceToStartFire, false, null, ignoredThings);
+                Props.thingCreated, Props.thingCreatedChance, 1, GasType.BlindSmoke, false, null, 0f, 1, Props.chanceToStartFire, false, null, ignoredThings);
 
 
 

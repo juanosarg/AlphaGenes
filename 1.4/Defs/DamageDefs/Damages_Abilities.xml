@@ -65,7 +65,7 @@
 	</DamageDef>
 	<DamageDef>
 		<defName>AG_AcidSpit</defName>
-		<label>acid spit</label>
+		<label>acid</label>
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been corroded to death.</deathMessage>
