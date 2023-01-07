@@ -148,4 +148,38 @@
 			</prefixSymbols>
 		</symbolPack>
 	</GeneDef>
+	<GeneDef ParentName="GeneMinTempBase">
+		<defName>AG_ColdImmunity</defName>
+		<label>cold immunity</label>
+		<description>Carriers of this gene are almost unaffected by cold. They will be simultaneously not bothered by frostbite.</description>
+		<iconPath>UI/Icons/Genes/AG_ColdImmunity</iconPath>
+		<displayOrderInCategory>114</displayOrderInCategory>
+		<statOffsets>
+			<ComfyTemperatureMin>-273</ComfyTemperatureMin>
+		</statOffsets>
+		<damageFactors>
+			<Frostbite>0</Frostbite>
+		</damageFactors>
+		<exclusionTags>
+			<li>MinTemperature</li>
+			<li>AG_Frostbite</li>
+		</exclusionTags>
+		<displayCategory>Archite</displayCategory>
+		<biostatArc>2</biostatArc>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>cold</symbol>
+				</li>
+				<li>
+					<symbol>cool</symbol>
+				</li>
+				<li>
+					<symbol>ice</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
 </Defs>

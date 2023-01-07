@@ -43,7 +43,11 @@ namespace AlphaGenes
 		public static GeneDef AG_Teratogenesis;
 		public static GeneDef AG_EldritchVisage;
 
-		public static GeneDef AG_UnstableMutation;
+        public static GeneDef AG_MinorAnimalSummon_Randomizer;
+        public static GeneDef AG_AnimalSummon_Randomizer;
+        public static GeneDef AG_MajorAnimalSummon_Randomizer;
+
+        public static GeneDef AG_UnstableMutation;
         public static GeneDef AG_UnstableMutationMajor;
         public static GeneDef AG_UnstableMutationCatastrophic;
 
