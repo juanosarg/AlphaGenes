@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!--<GeneDef>
+		<defName>VRE_GauranlenAffinity</defName>
+		<label>gauranlen affinity</label>
+		<description>Carriers of this gene have a special connection to the gauranlen tree, allowing them to act as an amplifier to the special properties of the tree. They can swiftly prune the tree and increase the success chance of any tree-related rituals. Most importantly, carriers of this gene act as an extension of the gauranlen ecosystem, and can spawn and command two dryads wherever they go.</description>
+		<iconPath>UI/Icons/Genes/Gene_AffinityGauranlen</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<displayOrderInCategory>5001</displayOrderInCategory>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<biostatArc>1</biostatArc>
+		<exclusionTags>
+			<li>VRE_TreeAffinity</li>
+		</exclusionTags>
+		<customEffectDescriptions>	
+			<li>Guarantees Natural Meditation focus on the pawn.</li>
+			<li>Pawns with this gene included in the gauranlen tree connection ritual increase its success by 10% each, stacking up to 5 times.</li>
+		</customEffectDescriptions>
+		<statOffsets>
+			<PruningSpeed>1</PruningSpeed>		
+		</statOffsets>
+		<abilities>
+			<li>VRE_SummonCompanionDryads</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>VRE_SummonCompanionDryads</AbilityDef>
+		</descriptionHyperlinks>
+		<symbolPack>
+			
+			<prefixSymbols>
+				<li>
+					<symbol>gau</symbol>
+				</li>
+				<li>
+					<symbol>gauran</symbol>
+				</li>
+			
+			</prefixSymbols>
+			
+		</symbolPack>
+	</GeneDef>-->
+</Defs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_HairColor_Ocular</defName>
+		<label>ocular hair</label>
+		<iconPath>UI/Icons/Genes/Gene_HairColorPhytokin</iconPath>
+		<hairColorOverride>(118,60,62)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>2203</displayOrderInCategory>
+		<randomBrightnessFactor>0</randomBrightnessFactor>
+	</GeneDef>
+	
+</Defs>
