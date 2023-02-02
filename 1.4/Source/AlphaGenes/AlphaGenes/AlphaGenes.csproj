@@ -302,11 +302,13 @@
     <Compile Include="Abilities\CompAbilityEffect_MineralCost.cs" />
     <Compile Include="Abilities\CompAbilityEffect_ParasiticStinger.cs" />
     <Compile Include="Abilities\CompAbilityEffect_Stinger.cs" />
+    <Compile Include="Abilities\CompDestroyEyes.cs" />
     <Compile Include="Abilities\CompDetonate.cs" />
     <Compile Include="Abilities\CompDevourBrain.cs" />
     <Compile Include="Abilities\CompGeneSyphon.cs" />
     <Compile Include="Abilities\CompGiveHediff.cs" />
     <Compile Include="Abilities\CompInsanityBlast.cs" />
+    <Compile Include="Abilities\CompSummonScorpion.cs" />
     <Compile Include="Abilities\CompTeratogenicHealing.cs" />
     <Compile Include="Abilities\CompTeratogenicHediff.cs" />
     <Compile Include="Abilities\CompTeratogenicTransfer.cs" />
@@ -314,12 +316,14 @@
     <Compile Include="Abilities\Properties\CompProperties_AbilityParasiticStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilitySummon.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_DestroyEyes.cs" />
     <Compile Include="Abilities\Properties\CompProperties_Detonate.cs" />
     <Compile Include="Abilities\Properties\CompProperties_DevourBrain.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GeneSyphon.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
     <Compile Include="Abilities\MineralOverdrive.cs" />
     <Compile Include="Abilities\Properties\CompProperties_InsanityBlast.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_SummonScorpion.cs" />
     <Compile Include="Abilities\Properties\CompProperties_TeratogenicHealing.cs" />
     <Compile Include="Abilities\Properties\CompProperties_TeratogenicHediff.cs" />
     <Compile Include="Abilities\Properties\CompProperties_TeratogenicTransfer.cs" />
@@ -343,6 +347,7 @@
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBankMixed.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomItemSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomRaidSpawner.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_ScorpionCounter.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetableGenepack.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetableHuman.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_GenepackDisruptor.cs" />
@@ -355,6 +360,7 @@
     <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_XenotypeNullifier.cs" />
     <Compile Include="Comps\CompRandomItemSpawner.cs" />
     <Compile Include="Comps\CompRandomRaidSpawner.cs" />
+    <Compile Include="Comps\CompScorpionCounter.cs" />
     <Compile Include="Comps\CompTargetableGenepack.cs" />
     <Compile Include="Comps\CompTargetableHuman.cs" />
     <Compile Include="Comps\CompTargetEffect_Endogenefier.cs" />
@@ -383,6 +389,8 @@
     <Compile Include="Harmony\JobDriver_Vomit_MakeNewToils.cs" />
     <Compile Include="Harmony\HediffComp_PregnantHuman_CompTipStringExtra.cs" />
     <Compile Include="Harmony\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs" />
+    <Compile Include="Harmony\MeditationFocusDef_EnablingThingsExplanation.cs" />
+    <Compile Include="Harmony\MeditationFocusTypeAvailabilityCache_PawnCanUse.cs" />
     <Compile Include="Harmony\PawnGenerator_GeneratePawnRelations.cs" />
     <Compile Include="Harmony\PawnUtility_BodyResourceGrowthSpeed.cs" />
     <Compile Include="Harmony\Pawn_HealthTracker_MakeDowned.cs" />
@@ -421,6 +429,7 @@
     <Compile Include="Settings\SettingsHelper.cs" />
     <Compile Include="Startup\StaticStartup.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="StaticCollections\StaticCollectionsClass.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Steel.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Ave.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_OcularJelly.cs" />
@@ -432,6 +441,7 @@
     <Compile Include="ThoughtWorkers\ThoughtWorker_EldritchVisage.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_Thalassophobia.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_UnsettlingAppearance.cs" />
+    <Compile Include="WorldComponents\ScorpionCounter_WorldComponent.cs" />
     <Compile Include="WorldComponents\WorldComponent_BiotechLabQuests.cs" />
   </ItemGroup>
   <ItemGroup>

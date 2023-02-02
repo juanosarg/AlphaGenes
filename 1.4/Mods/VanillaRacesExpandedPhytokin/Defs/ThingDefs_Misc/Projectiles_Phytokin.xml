@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AG_EyeProjectile</defName>
+		<label>eye</label>
+		<graphicData>
+			<texPath>Things/Projectile/AG_EyeProjectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>AG_RangedBlunt</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBase>1</armorPenetrationBase>
+			<stoppingPower>2</stoppingPower>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+	
+	
+</Defs>

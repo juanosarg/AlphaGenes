@@ -5,10 +5,36 @@
 		<defName>VRE_HairColor_Ocular</defName>
 		<label>ocular hair</label>
 		<iconPath>UI/Icons/Genes/Gene_HairColorPhytokin</iconPath>
-		<hairColorOverride>(118,60,62)</hairColorOverride>
+		<hairColorOverride>(130,76,78)</hairColorOverride>
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>2203</displayOrderInCategory>
 		<randomBrightnessFactor>0</randomBrightnessFactor>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>VRE_SkinColor_OcularBark</defName>
+		<label>ocular bark skin</label>
+		<labelShortAdj>red</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that gives their skin a colour similar to that of the bark of ocular trees.</description>
+		<skinColorOverride>(93, 52, 47)</skinColorOverride>
+		<displayOrderInCategory>2001</displayOrderInCategory>
+		
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>ocularkin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>ocul</symbol>
+				</li>
+				<li>
+					<symbol>eye</symbol>
+				</li>
+				
+			</prefixSymbols>
+		</symbolPack>
 	</GeneDef>
 	
 </Defs>

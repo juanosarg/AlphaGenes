@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<AlphaGenes.BlackListedAnimalsDef>
+		<defName>AG_BlackListedAnimals_Phytokin</defName>
+		<blackListedAnimals>							
+			<li>AG_OcularSlinger</li>
+		
+		</blackListedAnimals>							
+	</AlphaGenes.BlackListedAnimalsDef>
+
+
+
+
+
+
+
+</Defs>

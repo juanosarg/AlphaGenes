@@ -5,12 +5,12 @@
 		<label>ocularkin</label>
 		<description>Based on genetic data retrofitted from Gauranlen Inc.’s investment into dendrology following the Fall of Sorne, phytokins are plant-based humanoids with an emphasis on symmetry and symbiosis. Their ability to subsist only on sunlight and affinity with any and all plantlife make them especially suited to aiding newly established colonies or underperforming industrial farms.\n\nBased on research from the forest planet of Phytok that committed to extensive analysis on human-compatibility with psychic energy, phytokin xenogerms are typically exclusive to high-ranking, supporting roles in megacorporations and planetary governments. Their unique way of reproduction has resulted in many identical offspring, with each generation becoming successively more competent than their progenitor, further contributing to their extremely low numbers. Their affinity with plantlife, along with the side effect of extremely high and ever-increasing psychic sensitivity, mean that any phytokin xenohumans found on the Rim are always adapted to high-concept, dominant trees that are present on their residing planet.\n\nThis particular xenogerm has adapted itself to Ocular trees, a strange breed of alien-looking trees native to a poorly understood extradimensional realm of pure madness.</description>
 		<descriptionShort>Individualistic and bizarre, ocularkins are warped and cunning and possess an ability to connect with ocular trees. They are excellent at taking care of plants and reproduce via planting a saplingchild.</descriptionShort>
-		<iconPath>UI/Icons/Xenotypes/Gauranlenkin</iconPath>
+		<iconPath>UI/Icons/Xenotypes/AG_OcularKin</iconPath>
 		<nameMaker>VRE_NamePhytokin</nameMaker>
 		<chanceToUseNameMaker>1</chanceToUseNameMaker>
 		<inheritable>true</inheritable>
 		<genes>
-			<li Name="AlphaGenesSwap">VRE_Female</li>
+			<li>AG_Female</li>
 			<li>Beauty_Ugly</li>
 			<li>WoundHealing_Slow</li>
 			<li>PsychicAbility_Extreme</li>
@@ -24,8 +24,9 @@
 			<li>VRE_HairColor_Ocular</li>
 			<li>VRE_SapBlood</li>
 			<li>VRE_ProgressiveAttunement</li>
-			<li>VRE_GauranlenAffinity</li>
+			<li>AG_OcularAffinity</li>
 			<li>Head_Gaunt</li>
+			<li>VRE_SkinColor_OcularBark</li>
 			<li>FireTerror</li>
 			<li>MeleeDamage_Weak</li>
 			<li>VerySleepy</li>

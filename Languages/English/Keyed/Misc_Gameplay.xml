@@ -24,6 +24,8 @@
 	<AG_DownedOrLyingInBed>Target must be downed or lying down in bed for this ability to work</AG_DownedOrLyingInBed>
 	<AG_PawnWithoutBrain>Target lacks a brain. This is sadly pretty common in the world</AG_PawnWithoutBrain>
 	<AG_CannotBeUsedOnDeathless>Deathless people are immune to parasitic implantations</AG_CannotBeUsedOnDeathless>
+	<VRE_OneScorpionPerColonist>Only one ocular slinger can exist per colonist with the ocular affinity gene</VRE_OneScorpionPerColonist>
+	<VRE_UnlockedByGeneOcular>Unlocked via Ocular Affinity gene</VRE_UnlockedByGeneOcular>
 	
 	
 	<!-- Settings -->
