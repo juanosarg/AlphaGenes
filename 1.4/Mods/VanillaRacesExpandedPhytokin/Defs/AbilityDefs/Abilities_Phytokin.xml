@@ -62,4 +62,87 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>AG_OcularConversionAlphaAnimals</defName>
+		<label>ocular conversion</label>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<description>Converts flora in an area into ocular versions.</description>
+		<targetRequired>True</targetRequired>
+		<gizmoClass>Command_Ability</gizmoClass>
+		<iconPath>UI/Abilities/AG_OcularConversion</iconPath>
+		<uiOrder>1</uiOrder>
+		<statBases>
+			<Ability_EffectRadius>10.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>5</warmupTime>
+			<range>30</range>
+			<targetParams>
+				<canTargetPlants>true</canTargetPlants>
+			
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "AlphaGenes.CompProperties_AbilityOcularConversion">
+				
+				<plantList>
+					<li>AA_AlienTree</li>
+					<li>AA_AlienGrass</li>
+					<li>AA_RedLeaves</li>
+					<li>AA_RedPlantsTall</li>
+				</plantList>
+			</li>
+			
+		</comps>
+		
+	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>AG_OcularConversionAlphaBiomes</defName>
+		<label>ocular conversion</label>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<description>Converts flora in an area into ocular versions.</description>
+		<targetRequired>True</targetRequired>
+		<gizmoClass>Command_Ability</gizmoClass>
+		<iconPath>UI/Abilities/AG_OcularConversion</iconPath>
+		<uiOrder>1</uiOrder>
+		<statBases>
+			<Ability_EffectRadius>10.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>5</warmupTime>
+			<range>30</range>
+			<targetParams>
+				<canTargetPlants>true</canTargetPlants>
+			
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "AlphaGenes.CompProperties_AbilityOcularConversion">
+				
+				<plantList>
+					<li>AB_AlienTree</li>
+					<li>AB_AlienGrass</li>
+					<li>AB_RedLeaves</li>
+					<li>AB_RedPlantsTall</li>
+				</plantList>
+			</li>
+			
+		</comps>
+		
+	</AbilityDef>
+
+	
+	
 </Defs>

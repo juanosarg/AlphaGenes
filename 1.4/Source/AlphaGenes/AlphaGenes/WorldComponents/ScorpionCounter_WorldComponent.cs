@@ -40,7 +40,7 @@ namespace AlphaGenes
         {
             Scribe_Values.Look<int>(ref this.ocular_gene_colonists_inWorld_backup, "ocular_gene_colonists_inWorld_backup", 0, true);
             Scribe_Values.Look<int>(ref this.tickCounter, "tickCounterOcular", 0, true);
-            Scribe_Values.Look<int>(ref this.totalScorpions, "totalScorpions", 0, true);
+          
 
             base.ExposeData();
         }

@@ -302,6 +302,7 @@
     <Compile Include="Abilities\CompAbilityEffect_MineralCost.cs" />
     <Compile Include="Abilities\CompAbilityEffect_ParasiticStinger.cs" />
     <Compile Include="Abilities\CompAbilityEffect_Stinger.cs" />
+    <Compile Include="Abilities\CompAbilityOcularConversion.cs" />
     <Compile Include="Abilities\CompDestroyEyes.cs" />
     <Compile Include="Abilities\CompDetonate.cs" />
     <Compile Include="Abilities\CompDevourBrain.cs" />
@@ -313,6 +314,7 @@
     <Compile Include="Abilities\CompTeratogenicHediff.cs" />
     <Compile Include="Abilities\CompTeratogenicTransfer.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityMineralCost.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_AbilityOcularConversion.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityParasiticStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilitySummon.cs" />

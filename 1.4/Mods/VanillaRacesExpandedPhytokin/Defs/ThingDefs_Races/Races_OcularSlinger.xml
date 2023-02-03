@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-<ThingDef Abstract="True" ParentName="AnimalThingBase" Name="AG_BaseInsect">
+	<ThingDef Abstract="True" ParentName="AnimalThingBase" Name="AG_BaseInsect">
 		<devNote>insect</devNote>
 		<statBases>
 			<ToxicResistance>1</ToxicResistance>
@@ -21,14 +19,11 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">InsectMeat</li>
 			</mergeCompatibilityTags>
 		</ingredient>
-
 	</ThingDef>
 	<!-- ============================================================ -->
-
 	<ThingDef ParentName="AG_BaseInsect">
 		<defName>AG_OcularSlinger</defName>
 		<label>ocular slinger</label>
-
 		<description>A large, mutated scorpion. A multitude of twitching eyes look around nervously.</description>
 		<statBases>
 			<MoveSpeed>4.00</MoveSpeed>
@@ -76,9 +71,7 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.1</chanceFactor>
 			</li>
-
 		</tools>
-
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -97,11 +90,16 @@
 				<label>eye</label>
 				<commonality>.8</commonality>
 			</li>
-
-
 		</verbs>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_ScorpionCounter">
+				
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_Draftable">
+				<makeNonFleeingToo>true</makeNonFleeingToo>
+			</li>
+		</comps>
 		<race>
-			
 			<body>AG_ScorpionLike</body>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
@@ -118,7 +116,6 @@
 			<hasGenders>false</hasGenders>
 			<lifeExpectancy>7</lifeExpectancy>
 			<lifeStageAges>
-				
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0</minAge>
@@ -135,9 +132,7 @@
 		<tradeTags>
 			<li>AnimalAlpha</li>
 		</tradeTags>
-		
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AG_OcularSlinger</defName>
 		<label>ocular slinger</label>
@@ -145,9 +140,7 @@
 		<canArriveManhunter>false</canArriveManhunter>
 		<combatPower>500</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
-		
 		<lifeStages>
-		
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AG_OcularSlinger/AG_OcularSlinger</texPath>
@@ -160,5 +153,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>
