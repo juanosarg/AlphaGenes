@@ -27,7 +27,7 @@ namespace AlphaGenes
         protected override Job TryGiveJob(Pawn pawn)
         {
             if (!ModsConfig.BiotechActive) { return null; }
-            var gene = pawn.genes.GetFirstGeneOfType<Gene_Resource_Metal>();
+            var gene = pawn.genes?.GetFirstGeneOfType<Gene_Resource_Metal>();
             if(gene == null) { return null; }
             if(!gene.ShouldConsumeNow()) { return null; }
             float mass = gene.MassDesired;
