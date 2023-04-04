@@ -440,6 +440,7 @@
     <Compile Include="ThingSetMakers\ThingSetMaker_PolarBear.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Wolf.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Rats.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_BloodsuckerDistrust.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_EldritchVisage.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_Thalassophobia.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_UnsettlingAppearance.cs" />

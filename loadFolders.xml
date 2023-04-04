@@ -13,6 +13,8 @@
 		<li IfModActive="OskarPotocki.VFE.Insectoid_copy">1.4/Mods/VanillaInsectoidsExpanded</li>
 		<li IfModActive="vanillaracesexpanded.phytokin">1.4/Mods/VanillaRacesExpandedPhytokin</li>	
 		<li IfModActive="vanillaracesexpanded.phytokin_copy">1.4/Mods/VanillaRacesExpandedPhytokin</li>
+		<li IfModActive="vanillaracesexpanded.sanguophage">1.4/Mods/VanillaRacesExpandedSanguophage</li>	
+		<li IfModActive="vanillaracesexpanded.sanguophage_copy">1.4/Mods/VanillaRacesExpandedSanguophage</li>
 		
 	</v1.4>
 </loadFolders>
