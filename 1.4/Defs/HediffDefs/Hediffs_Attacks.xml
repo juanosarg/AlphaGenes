@@ -109,6 +109,7 @@
 		<label>venom fangs</label>
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Large fangs that can be used in melee combat to inject a powerful venom.</description>
+		<isBad>false</isBad>
 		<addedPartProps>
 			<solid>true</solid>
 			<betterThanNatural>true</betterThanNatural>
@@ -134,6 +135,7 @@
 		<label>acid fangs</label>
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Large fangs that can be used in melee combat to inject a powerful acid.</description>
+		<isBad>false</isBad>
 		<addedPartProps>
 			<solid>true</solid>
 			<betterThanNatural>true</betterThanNatural>
