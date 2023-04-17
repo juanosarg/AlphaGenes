@@ -15,7 +15,6 @@
 
 		<biostatMet>1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
 		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
