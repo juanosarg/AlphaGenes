@@ -6,7 +6,7 @@
 		<description>This person will be knocked unconscious under direct sunlight.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
-		<initialSeverity>0.1</initialSeverity>
+		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -16,6 +16,9 @@
 			</li>
 		</comps>
 		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+			</li>
 			<li>
 				<minSeverity>0.1</minSeverity>
 			</li>
