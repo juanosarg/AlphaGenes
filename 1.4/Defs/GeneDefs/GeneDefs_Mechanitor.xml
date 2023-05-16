@@ -149,6 +149,30 @@
 		</modExtensions>
 		
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_SummonTempBandwidth</defName>
+		<label>summon band node</label>	
+		<displayCategory>AG_Mechanitor</displayCategory>		
+		<description>The carrier of this gene can summon a temporary band node that will increase his bandwidth by 10 for a whole week.</description>
+		<iconPath>UI/Icons/Genes/AG_SummonTemporaryBandwidth</iconPath>
+		
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		
+		<selectionWeight>0</selectionWeight>
+		<abilities>
+			<li>AG_SummonTempBandwidth</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+			
+		</modExtensions>
+		
+	</GeneDef>
 		
 	<GeneDef>
 		<defName>AlphaGenes_Animal_SummonMilitor</defName>

@@ -21,12 +21,24 @@ namespace AlphaGenes
             IntVec3 loc = target.Cell;
             Map map = this.parent.pawn.Map;
 
+            if (parent.pawn.mechanitor == null)
+            {
+                Messages.Message("AM_OnlyMechanitorCanUse".Translate(), parent.pawn, MessageTypeDefOf.RejectInput, historical: false);
+                return;
+            }
+
             if (loc.InBounds(map) && loc.GetEdifice(map) == null)
             {
 
                 ThingDef newThing = InternalDefOf.AG_TemporaryBandNode;
                 Thing node = GenSpawn.Spawn(newThing, loc, map, WipeMode.Vanish);
                 node.SetFaction(Faction.OfPlayer);
+                parent.pawn.health.AddHediff(InternalDefOf.AG_TempNodeEffect);
+                CompTempNodeBuilding comp = node.TryGetComp<CompTempNodeBuilding>();
+                if (comp != null)
+                {
+                    comp.pawn = parent.pawn;
+                }
             }
             else
             {

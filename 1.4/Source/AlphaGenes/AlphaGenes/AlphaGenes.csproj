@@ -351,6 +351,7 @@
     <Compile Include="AI\WorkGivers\WorkGiver_AdministerMetal.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBank.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToGeneBankMixed.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TempNodeBuilding.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomItemSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_RandomRaidSpawner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ScorpionCounter.cs" />
@@ -377,6 +378,7 @@
     <Compile Include="Comps\CompTargetEffect_Xenogenefier.cs" />
     <Compile Include="Comps\CompTargetEffect_XenotypeInjector.cs" />
     <Compile Include="Comps\CompTargetEffect_XenotypeNullifier.cs" />
+    <Compile Include="Comps\CompTempNodeBuilding.cs" />
     <Compile Include="DefModExtensions\SummoningGeneDefExtension.cs" />
     <Compile Include="Defs\AnimalGeneTemplateDef.cs" />
     <Compile Include="Defs\BlackListedAnimalsDef.cs" />

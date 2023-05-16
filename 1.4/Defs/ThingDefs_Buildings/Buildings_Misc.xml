@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>AG_TemporaryBandNode</defName>
     <label>temporary band node</label>
-    <description>A temporary mechanoid-band signal amplifier. Automatically tuned to the mechanitor that summoned it. It will provide a significant 10 bandwidth boost, but it will vanish after a week. Doesn't require power. Effect on the mechanitor will continue even if the building is destroyed.</description>
+    <description>A temporary mechanoid-band signal amplifier. Automatically tuned to the mechanitor that summoned it. It will provide a significant 10 bandwidth boost, but it will vanish after a week. Doesn't require power.</description>
     <tickerType>Normal</tickerType>
     <rotatable>false</rotatable>
     <canOverlapZones>false</canOverlapZones>
@@ -29,7 +29,7 @@
     </building>
    
     <statBases>
-      <MaxHitPoints>7500</MaxHitPoints>
+      <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>8000</WorkToBuild>
       <Mass>25</Mass>
       <Flammability>0.5</Flammability>
@@ -40,6 +40,7 @@
      <li Class="CompProperties_Lifespan">
         <lifespanTicks>4200000</lifespanTicks> <!--7 days-->
       </li>
+	  <li Class="AlphaGenes.CompProperties_TempNodeBuilding"></li>
       
     </comps>
     

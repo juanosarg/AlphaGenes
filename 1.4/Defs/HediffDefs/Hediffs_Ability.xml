@@ -399,4 +399,28 @@
 		</stages>
 		<isBad>false</isBad>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_TempNodeEffect</defName>
+		<label>temporary bandwidth</label>
+		<description>This person is receiving a boost to their bandwidth due to the presence of a temporary band node.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+		<comps>
+			
+			
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MechBandwidth>10</MechBandwidth>
+					
+				</statOffsets>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
+	
 </Defs>

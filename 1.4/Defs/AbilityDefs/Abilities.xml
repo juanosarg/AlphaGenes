@@ -637,6 +637,34 @@
 		</comps>
 	</AbilityDef>
 	
+	<AbilityDef>
+		<defName>AG_SummonTempBandwidth</defName>
+		<label>summon band node</label>
+		<description>Summon a temporary band node that will increase the caster's bandwidth by 10 for a whole week.</description>
+		<iconPath>UI/Icons/Genes/AG_SummonTemporaryBandwidth</iconPath>
+		<cooldownTicksRange>4200000</cooldownTicksRange>
+		<aiCanUse>false</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>12.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TempNode">
+				
+			</li>
+			
+		</comps>
+	</AbilityDef>
+	
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_SummonMilitor</defName>
 		<label>summon militor</label>
