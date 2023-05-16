@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<GeneDef>
+		<defName>AG_InnateMechlink</defName>
+		<label>innate mechlink</label>
+		<iconPath>UI/Icons/Genes/AG_InnateMechlink</iconPath>
+		<description>Carriers of this gene have an innate ability to use mechanitor powers.</description>
+		<displayCategory>AG_Mechanitor</displayCategory>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
+		<biostatMet>-2</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>mech</symbol>
+				</li>
+				
+				<li>
+					<symbol>hack</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>anitor</symbol>
+				</li>
+				
+			</suffixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>Losing this gene will make the colonist lose ALL mechanitor stuff.</li>
+			
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>MechlinkImplant</hediff>
+						<bodyparts>
+							<li>Brain</li>
+							
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>AG_MechConversion</defName>
+		<label>mech conversion</label>	
+		<displayCategory>AG_Mechanitor</displayCategory>		
+		<description>The carrier of this gene can remotely hack the IFF sensors of a mechanoid to temporarily swap its allegiance. This will last for a day, after which the mechanoid will revert to its former allegiance and attack indiscriminately.</description>
+		<iconPath>UI/Icons/Genes/AG_MechConversion</iconPath>
+		
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		
+		<selectionWeight>0</selectionWeight>
+		<abilities>
+			<li>AG_MechConversion</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+			
+		</modExtensions>
+		
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_BandwidthIncrease</defName>
+		<label>enhanced bandwidth</label>	
+		<displayCategory>AG_Mechanitor</displayCategory>		
+		<description>The carrier of this gene will have an innate increased bandwidth.</description>
+		<iconPath>UI/Icons/Genes/AG_IncreasedBandwidth</iconPath>
+		<statOffsets>
+          <MechBandwidth>5</MechBandwidth>
+        </statOffsets>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<exclusionTags>
+			<li>AG_Bandwidth</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+			
+		</modExtensions>
+		
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_BandwidthIncreaseMajor</defName>
+		<label>greatly enhanced bandwidth</label>	
+		<displayCategory>AG_Mechanitor</displayCategory>		
+		<description>The carrier of this gene will have a 35% increased bandwidth. The effect is multiplicative, so it will be less significant at first, but increase as the mechanitor gets more bandwidth.</description>
+		<iconPath>UI/Icons/Genes/AG_IncreasedBandwidthGreater</iconPath>
+		<statFactors>
+          <MechBandwidth>1.35</MechBandwidth>
+        </statFactors>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<exclusionTags>
+			<li>AG_Bandwidth</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+			
+		</modExtensions>
+		
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_BandwidthDecrease</defName>
+		<label>decreased bandwidth</label>	
+		<displayCategory>AG_Mechanitor</displayCategory>		
+		<description>The carrier of this gene will have an innate decreased bandwidth.</description>
+		<iconPath>UI/Icons/Genes/AG_DecreasedBandwidth</iconPath>
+		<statOffsets>
+          <MechBandwidth>-5</MechBandwidth>
+        </statOffsets>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<exclusionTags>
+			<li>AG_Bandwidth</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+			
+		</modExtensions>
+		
+	</GeneDef>
+		
+	<GeneDef>
+		<defName>AlphaGenes_Animal_SummonMilitor</defName>
+		<label>summon militor</label>	
+		<displayCategory>AG_Mechanitor</displayCategory>		
+		<description>The carrier of this gene can summon a Militor mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 1 mech bandwidth to use this ability.</description>
+		<iconPath>UI/Icons/Genes/AG_SummonMilitor</iconPath>
+		
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<exclusionTags>
+			<li>AG_MechSummon</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<abilities>
+			<li>AG_SummonMilitor</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+			<li Class="AlphaGenes.SummoningGeneDefExtension">
+				<pawn>Mech_Militor</pawn>
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
+	
+</Defs>

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-
 	<AG_AsexualHatched>{0} has reproduced asexually.</AG_AsexualHatched>
-	<AG_DeathIn>Death in {0}</AG_DeathIn>	
-	<AG_RandomGenesGained>Unstable mutation gained by {0}: {1}</AG_RandomGenesGained>	
+	<AG_DeathIn>Death in {0}</AG_DeathIn>
+	<AG_RandomGenesGained>Unstable mutation gained by {0}: {1}</AG_RandomGenesGained>
 	<AG_PregnancySlower>Slow gestation gene: -25% gestation speed</AG_PregnancySlower>
 	<AG_PregnancyFaster>Fast gestation gene: +25% gestation speed</AG_PregnancyFaster>
 	<AG_ReativeArmourOn>Enable armour</AG_ReativeArmourOn>
@@ -26,27 +24,24 @@
 	<AG_CannotBeUsedOnDeathless>Deathless people are immune to parasitic implantations</AG_CannotBeUsedOnDeathless>
 	<VRE_OneScorpionPerColonist>Only one ocular slinger can exist per colonist with the ocular affinity gene</VRE_OneScorpionPerColonist>
 	<VRE_UnlockedByGeneOcular>Unlocked via Ocular Affinity gene</VRE_UnlockedByGeneOcular>
-	
-	
+	<AM_CantUseOnNonMechs>This ability will only work on mechanoids</AM_CantUseOnNonMechs>
+	<AM_OnlyMechanitorCanUse>Only a mechanitor can use this ability</AM_OnlyMechanitorCanUse>
+	<AM_CantUseOnBossMechs>"Boss" mechanoids have a reinforced IFF system that can't be hacked</AM_CantUseOnBossMechs>
+	<AM_NotEnoughBandwidth>Mechanitor doesn't have enough bandwidth to use this ability on a {0}</AM_NotEnoughBandwidth>
+	<AM_CantUseVEMechs>This mechanoid is being remotely controlled by a human pilot, and it can't be hacked</AM_CantUseVEMechs>
+	<AG_CantSpawnThere>Can't create temporary node there</AG_CantSpawnThere>
 	<!-- Settings -->
-	
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
 	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>
-	
 	<AG_DisableThalassophobiaMessage>Disable thalassophobia message</AG_DisableThalassophobiaMessage>
 	<AG_DisableThalassophobiaMessage_Description>By default, every time a pawn with the thalassophobia gene fless from water the game will generate a letter informing the player. This may be a bit too much if you have many pawns fleeing often, so you can disable it with this toggle. Bear in mind the pawns will still flee, you'll just NOT get informed.</AG_DisableThalassophobiaMessage_Description>
-	
 	<AG_GeneRemovalComa>Genetic tools cause gene removal coma</AG_GeneRemovalComa>
 	<AG_GeneRemovalComa_Description>Using any genetic tool causes a gene removal coma that lasts for 3 days, knocking the colonist out, and no other tool can be used in that period. This is ON by default for balance.</AG_GeneRemovalComa_Description>
-	
 	<AG_DisableQuests>Disable Abandoned Biotech Lab quests</AG_DisableQuests>
 	<AG_DisableQuests_Description>Disables Abandoned Biotech Lab quests from triggering. Bear in mind these quests are independent of any other quests or storyteller events (raids, manhunters, etc). WARNING: disabling this will make most alpha genes and genetic tools unobtainable during normal gameplay.</AG_DisableQuests_Description>
-	
 	<AG_QuestRate>Abandoned Biotech Labs multiplier (lower means getting the event more often)</AG_QuestRate>
 	<AG_QuestRateTooltip>The frequency of the Abandoned Biotech Lab quest being offered is multiplied by this number (with a multiplier of 1, it is offered every between 15 and 30 days at random). Numbers below 1 decrease the time, while numbers above it increase it. Note that this event doesn't "replace" normal quests, it works independently.</AG_QuestRateTooltip>
 	<AG_Reset>Reset</AG_Reset>
-	
 	<AG_ShowAllAnimalSummonGenes>Show ALL animal summon genes (requires game reload)</AG_ShowAllAnimalSummonGenes>
 	<AG_ShowAllAnimalSummonGenes_Description>If selected, ALL animal summon genes will be shown on the xenotype creator screen. Bear in mind these genes will draw from all animals, vanilla or modded, so this can get out of control fast! By default, they are hidden, and three genes are shown that choose one of them at random.</AG_ShowAllAnimalSummonGenes_Description>
-	
 </LanguageData>

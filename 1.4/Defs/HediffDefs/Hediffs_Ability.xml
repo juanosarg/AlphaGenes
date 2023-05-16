@@ -355,4 +355,48 @@
 			</li>
 		</comps>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_TemporarySummonMech</defName>
+		<label>summoned</label>
+		<description>This mech has been summoned via innate psychic means, and will vanish after a period of 1 day.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_DeleteAfterTime">
+				<disappearsAfterTicks>60000</disappearsAfterTicks>
+				<justDeletePawn>true</justDeletePawn>
+				
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_ScrambledIFF</defName>
+		<label>scrambled IFF</label>
+		<description>This mechanoid's IFF sensors have been scrambled, making it unable to properly identify its foes. It will fight on the side of the colony for a day, and after that it will revert to its former allegiance.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_DeleteAfterTime">
+				<disappearsAfterTicks>60000</disappearsAfterTicks>
+				<revertToMechanoid>true</revertToMechanoid>
+				
+			</li>
+			
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<MoveSpeed>1.1</MoveSpeed>
+					
+				</statFactors>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
 </Defs>

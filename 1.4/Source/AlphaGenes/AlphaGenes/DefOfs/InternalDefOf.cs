@@ -10,12 +10,12 @@ namespace AlphaGenes
 	{
 		public static ThingDef AG_Alphapack;
 		public static ThingDef AG_Mixedpack;
-		public static PawnKindDef Rat;
+        public static ThingDef AG_TemporaryBandNode;
+        public static PawnKindDef Rat;
 		public static PawnKindDef Wolf_Timber;
 		public static PawnKindDef Bear_Polar;
 
 		public static AbilityDef AG_MinorSummon;
-
 
         public static ThoughtDef AG_PukedRats;
 		public static ThoughtDef AG_Implanted;
@@ -59,8 +59,10 @@ namespace AlphaGenes
 		public static HediffDef AG_MineralOverdriveHediff;
 		public static HediffDef AG_XenogerminationComa;
 		public static HediffDef AG_TemporarySummon;
+        public static HediffDef AG_ScrambledIFF;
+        public static HediffDef AG_TemporarySummonMech;
 
-		public static HediffDef AG_DevouredShooting;
+        public static HediffDef AG_DevouredShooting;
         public static HediffDef AG_DevouredMelee;
         public static HediffDef AG_DevouredConstruction;
         public static HediffDef AG_DevouredMining;
@@ -71,9 +73,7 @@ namespace AlphaGenes
         public static HediffDef AG_DevouredArtistic;
         public static HediffDef AG_DevouredMedical;
         public static HediffDef AG_DevouredSocial;
-        public static HediffDef AG_DevouredIntellectual;
-
-
+        public static HediffDef AG_DevouredIntellectual;    
 
         public static RulePackDef AG_NamerAlphapack;
 		public static RulePackDef AG_NamerMixedpack;
@@ -83,6 +83,20 @@ namespace AlphaGenes
 		public static JobDef AG_DeliverMetal;
 
 		public static MentalStateDef AG_SelectiveManhunter;
+
+        [MayRequire("sarg.alphamechs")]
+		[MayRequireBiotech]
+        public static ThingDef AM_WarEmpress;
+        [MayRequire("sarg.alphamechs")]
+        [MayRequireBiotech]
+        public static ThingDef AM_Infernus;
+        [MayRequire("sarg.alphamechs")]
+        [MayRequireBiotech]
+        public static ThingDef AM_Apoptosis;      
+        [MayRequireBiotech]
+        public static ThingDef Mech_Warqueen;      
+        [MayRequireBiotech]
+        public static ThingDef Mech_Diabolus;
 
         static InternalDefOf()
 		{

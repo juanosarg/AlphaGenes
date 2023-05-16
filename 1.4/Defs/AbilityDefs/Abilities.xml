@@ -608,4 +608,46 @@
 			
 		</comps>
 	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_MechConversion</defName>
+		<label>mech IFF scrambler</label>
+		<description>Remotely hacks the IFF sensors of a mechanoid to temporarily swap its allegiance. This will last for a day, after which the mechanoid will revert to its former allegiance and attack indiscriminately.</description>
+		<iconPath>UI/Abilities/AG_MechConversion</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>35.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_MechConversion">
+				
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_SummonMilitor</defName>
+		<label>summon militor</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summon a Militor mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 1 mech bandwidth to use this ability.</description>
+		<iconPath>UI/Icons/Genes/AG_SummonMilitor</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilitySummon">
+				<isMechanoid>true</isMechanoid>
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>

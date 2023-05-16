@@ -309,7 +309,9 @@
     <Compile Include="Abilities\CompGeneSyphon.cs" />
     <Compile Include="Abilities\CompGiveHediff.cs" />
     <Compile Include="Abilities\CompInsanityBlast.cs" />
+    <Compile Include="Abilities\CompMechConversion.cs" />
     <Compile Include="Abilities\CompSummonScorpion.cs" />
+    <Compile Include="Abilities\CompTempNode.cs" />
     <Compile Include="Abilities\CompTeratogenicHealing.cs" />
     <Compile Include="Abilities\CompTeratogenicHediff.cs" />
     <Compile Include="Abilities\CompTeratogenicTransfer.cs" />
@@ -324,7 +326,9 @@
     <Compile Include="Abilities\Properties\CompProperties_GeneSyphon.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
     <Compile Include="Abilities\MineralOverdrive.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_TempNode.cs" />
     <Compile Include="Abilities\Properties\CompProperties_InsanityBlast.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_MechConversion.cs" />
     <Compile Include="Abilities\Properties\CompProperties_SummonScorpion.cs" />
     <Compile Include="Abilities\Properties\CompProperties_TeratogenicHealing.cs" />
     <Compile Include="Abilities\Properties\CompProperties_TeratogenicHediff.cs" />
@@ -399,6 +403,7 @@
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\RelationsUtility_IsDisfigured.cs" />
+    <Compile Include="HediffComps\HediffComp_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\HediffComp_Exploder.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\HediffComp_Parasites.cs" />
@@ -407,6 +412,7 @@
     <Compile Include="HediffComps\HediffComp_RandomMutation.cs" />
     <Compile Include="HediffComps\HediffComp_StageByMood.cs" />
     <Compile Include="HediffComps\HediffComp_Teratogenesis.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Exploder.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
