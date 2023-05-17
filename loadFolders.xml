@@ -15,6 +15,8 @@
 		<li IfModActive="vanillaracesexpanded.phytokin_copy">1.4/Mods/VanillaRacesExpandedPhytokin</li>
 		<li IfModActive="vanillaracesexpanded.sanguophage">1.4/Mods/VanillaRacesExpandedSanguophage</li>	
 		<li IfModActive="vanillaracesexpanded.sanguophage_copy">1.4/Mods/VanillaRacesExpandedSanguophage</li>
+		<li IfModActive="vanillaracesexpanded.android">1.4/Mods/VanillaRacesExpandedAndroid</li>	
+		<li IfModActive="vanillaracesexpanded.android_copy">1.4/Mods/VanillaRacesExpandedAndroid</li>
 		
 	</v1.4>
 </loadFolders>

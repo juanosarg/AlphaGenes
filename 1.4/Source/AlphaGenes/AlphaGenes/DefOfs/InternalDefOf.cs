@@ -62,6 +62,9 @@ namespace AlphaGenes
         public static HediffDef AG_ScrambledIFF;
         public static HediffDef AG_TemporarySummonMech;
         public static HediffDef AG_TempNodeEffect;
+        public static HediffDef AG_IncreasedCommandRange;
+        public static HediffDef AG_DecreasedCommandRange;
+
 
         public static HediffDef AG_DevouredShooting;
         public static HediffDef AG_DevouredMelee;

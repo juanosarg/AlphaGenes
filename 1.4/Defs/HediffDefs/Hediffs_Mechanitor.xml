@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>AG_IncreasedCommandRange</defName>
+		<label>increased command range</label>
+		<description>This person has an increased range when commanding drafted mechanoids.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_DecreasedCommandRange</defName>
+		<label>decreased command range</label>
+		<description>This person has a decreased range when commanding drafted mechanoids.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+</Defs>

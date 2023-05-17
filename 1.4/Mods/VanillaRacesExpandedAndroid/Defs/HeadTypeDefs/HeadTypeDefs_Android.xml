@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Android -->
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SyntheticWorkerMale</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Robotic/AG_Male_Robotic1</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_WorkerDroidHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SyntheticWorkerFemale</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Robotic/AG_Female_Robotic1</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_WorkerDroidHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SyntheticServantMale</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Robotic/AG_Male_Robotic2</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_ServantDroidHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SyntheticServantFemale</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Robotic/AG_Female_Robotic2</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_ServantDroidHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SyntheticKillerMale</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Robotic/AG_Male_Robotic3</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_KillerDroidHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_SyntheticKillerFemale</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Robotic/AG_Female_Robotic3</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_KillerDroidHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+</Defs>
