@@ -4,12 +4,8 @@
 
 	<VREAndroids.AndroidConvertableGenesDef>
 		<defName>AG_AndroidConvertableGenesDefs</defName>
-		<genes>							
-			<li>AG_InnateMechlink</li>
-			
-							
-			
-		</genes>							
+		
+		<geneCategories><li>AG_Gender</li></geneCategories>		
 	</VREAndroids.AndroidConvertableGenesDef>
 
 
