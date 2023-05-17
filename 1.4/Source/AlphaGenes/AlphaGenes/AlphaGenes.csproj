@@ -385,6 +385,7 @@
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="Gas and Liquid\Rat_Spawning_Filth.cs" />
     <Compile Include="Gas and Liquid\Persistant_Fuel.cs" />
+    <Compile Include="Gene Classes\Gene_Mechanitor.cs" />
     <Compile Include="Gene Classes\Gene_Randomizer.cs" />
     <Compile Include="Gene Classes\Gene_RandomAnimalSummon.cs" />
     <Compile Include="Gene Classes\Gene_RandomMajorAnimalSummon.cs" />
