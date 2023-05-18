@@ -120,4 +120,60 @@
 			</li>
 		</modExtensions>
 	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_RoboticBodyPlastic</defName>
+		<label>plastic body</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Carriers of this gene have a plastic looking body.</description>
+		<biostatCpx>0</biostatCpx>
+		<exclusionTags>
+			<li>AG_Bodies</li>
+			<li>Bodies</li>
+			<li>Body</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1003</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_PlasticBodyIcon</iconPath>
+		
+		<graphicData>
+			<fur>AG_RoboticBodyPlastic</fur>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_RoboticBodySkeletal</defName>
+		<label>robotic body</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Carriers of this gene have a purely robotic looking body.</description>
+		<biostatCpx>0</biostatCpx>
+		<exclusionTags>
+			<li>AG_Bodies</li>
+			<li>Bodies</li>
+			<li>Body</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1004</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_RoboticBodyIcon</iconPath>
+		
+		<graphicData>
+			<fur>AG_RoboticBodySkeletal</fur>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<furHidesBody>true</furHidesBody>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	
 </Defs>
