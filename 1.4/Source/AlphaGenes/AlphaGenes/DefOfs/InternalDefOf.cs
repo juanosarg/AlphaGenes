@@ -42,6 +42,7 @@ namespace AlphaGenes
 		public static GeneDef AG_Sensitivity_Lethal;
 		public static GeneDef AG_Teratogenesis;
 		public static GeneDef AG_EldritchVisage;
+        public static GeneDef AG_ExpertMechRepair;
 
         public static GeneDef AG_MinorAnimalSummon_Randomizer;
         public static GeneDef AG_AnimalSummon_Randomizer;
@@ -64,6 +65,7 @@ namespace AlphaGenes
         public static HediffDef AG_TempNodeEffect;
         public static HediffDef AG_IncreasedCommandRange;
         public static HediffDef AG_DecreasedCommandRange;
+        public static HediffDef AG_MechRepairBoost;
 
 
         public static HediffDef AG_DevouredShooting;

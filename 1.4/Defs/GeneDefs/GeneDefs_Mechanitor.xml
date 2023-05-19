@@ -174,6 +174,30 @@
 		</customEffectDescriptions>
 	</GeneDef>
 	<GeneDef>
+		<defName>AG_BandwidthLoop</defName>
+		<label>bandwidth loop</label>
+		<displayCategory>AG_Mechanitor</displayCategory>
+		<description>The carrier of this gene can psychically create a feedback loop in a mech's connection, overloading its bandwidth and causing it to explode, destroying itself. This explosion will damage anything nearby, with the explosion range depending on the mech's bandwidth.</description>
+		<iconPath>UI/Icons/Genes/AG_BandwidthLoop</iconPath>
+		<geneClass>AlphaGenes.Gene_Mechanitor</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<displayOrderInCategory>4.5</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<abilities>
+			<li>AG_BandwidthLoop</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+		<customEffectDescriptions>
+			<li>This gene is only active if the carrier is a mechanitor.</li>
+		</customEffectDescriptions>
+	</GeneDef>
+	<GeneDef>
 		<defName>AG_IncreasedCommandRange</defName>
 		<label>increased command range</label>
 		<displayCategory>AG_Mechanitor</displayCategory>
@@ -262,6 +286,9 @@
 		<geneClass>AlphaGenes.Gene_Mechanitor</geneClass>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>1</biostatMet>
+		<statFactors>
+			<MechRepairSpeed>0.5</MechRepairSpeed>
+		</statFactors>
 		<exclusionTags>
 			<li>AG_FixSpeed</li>
 		</exclusionTags>
@@ -276,6 +303,30 @@
 		<customEffectDescriptions>
 			<li>This gene is only active if the carrier is a mechanitor.</li>
 			<li>"But I can add this to non-mechanitors and get free metabolism!". Buddy, knock yourself out, this is a single player game.</li>
+		</customEffectDescriptions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ExpertMechRepair</defName>
+		<label>mech repair passion</label>
+		<displayCategory>AG_Mechanitor</displayCategory>
+		<description>The carrier of this gene has genetically enhanced mech repair capabilities, being capable of providing a significant boost to mechanoids that have just been repaired.</description>
+		<iconPath>UI/Icons/Genes/AG_ExpertMechRepair</iconPath>
+		<geneClass>AlphaGenes.Gene_Mechanitor</geneClass>
+		
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>8.5</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+		<customEffectDescriptions>
+			<li>This gene is only active if the carrier is a mechanitor.</li>
+			<li>This might be wonky if you have several mechanitors and apply to all of them. Just imagine they are sharing notes over the water cooler or something.</li>
 		</customEffectDescriptions>
 	</GeneDef>
 	<GeneDef>

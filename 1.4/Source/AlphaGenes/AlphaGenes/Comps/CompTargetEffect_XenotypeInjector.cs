@@ -15,7 +15,7 @@ namespace AlphaGenes
     public class CompTargetEffect_XenotypeInjector : CompTargetEffect
     {
 
-
+        public List<string> blackListedXenotypes = new List<string>() { "VREA_AndroidBasic", "VREA_AndroidAwakened" };
 
 
         public CompProperties_TargetEffect_XenotypeInjector Props
@@ -56,7 +56,8 @@ namespace AlphaGenes
                     
  
 
-                    XenotypeDef xenotype = DefDatabase<XenotypeDef>.AllDefs.Where((XenotypeDef x) => x != XenotypeDefOf.Baseliner && x != pawn.genes.Xenotype).RandomElement();
+                    XenotypeDef xenotype = DefDatabase<XenotypeDef>.AllDefs.Where((XenotypeDef x) => x != XenotypeDefOf.Baseliner && x != pawn.genes.Xenotype
+                    &&!blackListedXenotypes.Contains(x.defName)).RandomElement();
                     pawn.genes?.SetXenotype(xenotype);
 
 

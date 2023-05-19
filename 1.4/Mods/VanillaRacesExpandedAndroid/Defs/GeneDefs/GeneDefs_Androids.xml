@@ -124,7 +124,7 @@
 		<defName>AG_RoboticBodyPlastic</defName>
 		<label>plastic body</label>
 		<isCoreComponent>false</isCoreComponent>
-		<description>Carriers of this gene have a plastic looking body.</description>
+		<description>Androids with this hardware have a plastic looking body.</description>
 		<biostatCpx>0</biostatCpx>
 		<exclusionTags>
 			<li>AG_Bodies</li>
@@ -134,7 +134,6 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1003</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_PlasticBodyIcon</iconPath>
-		
 		<graphicData>
 			<fur>AG_RoboticBodyPlastic</fur>
 		</graphicData>
@@ -143,16 +142,14 @@
 				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
-				
 			</li>
 		</modExtensions>
 	</VREAndroids.AndroidGeneDef>
-	
 	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
 		<defName>AG_RoboticBodySkeletal</defName>
 		<label>robotic body</label>
 		<isCoreComponent>false</isCoreComponent>
-		<description>Carriers of this gene have a purely robotic looking body.</description>
+		<description>Androids with this hardware have a purely robotic looking body.</description>
 		<biostatCpx>0</biostatCpx>
 		<exclusionTags>
 			<li>AG_Bodies</li>
@@ -162,7 +159,6 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1004</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_RoboticBodyIcon</iconPath>
-		
 		<graphicData>
 			<fur>AG_RoboticBodySkeletal</fur>
 		</graphicData>
@@ -175,5 +171,84 @@
 			</li>
 		</modExtensions>
 	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase" Name="AG_LEDBase" Abstract="True">
+		<randomChosen>true</randomChosen>
+		<exclusionTags>
+			<li>AG_LED</li>
+		</exclusionTags>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="AG_LEDBase">
+		<defName>AG_LightLED</defName>
+		<label>LED light, blue</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Androids with this hardware have a blue LED in the side of their heads, betraying their synthetic nature.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1005</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_BlueLEDIcon</iconPath>
+		
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLED</graphicPath>
+			<visibleNorth>false</visibleNorth>
+			<colorType>Custom</colorType>
+			<layer>PostSkin</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="AG_LEDBase">
+		<defName>AG_LightLEDRed</defName>
+		<label>LED light, red</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Androids with this hardware have a red LED in the side of their heads, betraying their synthetic nature.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1006</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_RedLEDIcon</iconPath>
+		
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLEDRed</graphicPath>
+			<visibleNorth>false</visibleNorth>
+			<colorType>Custom</colorType>
+			<layer>PostSkin</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_MechAntenna</defName>
+		<label>mech antenna</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Androids with this hardware have a mech antenna on their heads.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1007</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_MechAntennaIcon</iconPath>
+		
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_MechAntenna/AG_MechAntenna</graphicPath>
+			<visibleNorth>true</visibleNorth>
+			<colorType>Custom</colorType>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	
 	
 </Defs>

@@ -30,6 +30,7 @@
 	<AM_NotEnoughBandwidth>Mechanitor doesn't have enough bandwidth to use this ability on a {0}</AM_NotEnoughBandwidth>
 	<AM_CantUseVEMechs>This mechanoid is being remotely controlled by a human pilot, and it can't be hacked</AM_CantUseVEMechs>
 	<AG_CantSpawnThere>Can't create temporary node there</AG_CantSpawnThere>
+	<AG_OnlyOnFriendlyMechs>{0} is not a colony mech, this will only work on player owned mechs</AG_OnlyOnFriendlyMechs>
 	<!-- Settings -->
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
 	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>

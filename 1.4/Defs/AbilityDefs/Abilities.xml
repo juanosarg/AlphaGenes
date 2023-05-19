@@ -636,6 +636,34 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_BandwidthLoop</defName>
+		<label>bandwidth loop</label>
+		<description>Psychically create a feedback loop in a mech's connection, overloading its bandwidth and causing it to explode, destroying itself. This explosion will damage anything nearby, with the explosion range depending on the mech's bandwidth.</description>
+		<iconPath>UI/Icons/Genes/AG_BandwidthLoop</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>24.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_BandwidthLoop">
+				
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
 	
 	<AbilityDef>
 		<defName>AG_SummonTempBandwidth</defName>

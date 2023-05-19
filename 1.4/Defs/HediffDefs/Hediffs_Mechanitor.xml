@@ -22,4 +22,34 @@
 		</comps>
 		<isBad>false</isBad>
 	</HediffDef>
+	<HediffDef>
+		<defName>AG_MechRepairBoost</defName>
+		<label>repair boost</label>
+		<description>This mechanoid's capacities have been boosted by a mechanitor with genetically enhanced mech repair capabilities.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_DeleteAfterTime">
+				<disappearsAfterTicks>60000</disappearsAfterTicks>
+			</li>
+			
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<MoveSpeed>1.25</MoveSpeed>
+					<WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+					<RangedCooldownFactor>0.9</RangedCooldownFactor>
+					<MeleeDodgeChance>1.2</MeleeDodgeChance>
+				</statFactors>
+				<statOffsets>
+					<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
 </Defs>
