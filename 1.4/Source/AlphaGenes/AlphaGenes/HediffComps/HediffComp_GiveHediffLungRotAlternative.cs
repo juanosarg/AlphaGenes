@@ -22,7 +22,7 @@ namespace AlphaGenes
 		public override void CompPostTick(ref float severityAdjustment)
 		{
 			Pawn pawn = parent.pawn;
-			if (!pawn.Spawned || pawn.genes?.HasGene(InternalDefOf.AG_LungRotStrength)==false || !(parent.Severity >= Props.minSeverity) || !pawn.Position.AnyGas(pawn.Map, GasType.RotStink) ||  !pawn.IsHashIntervalTick(Props.mtbCheckDuration) || !Rand.MTBEventOccurs(Props.mtbOverRotGasExposureCurve.Evaluate(parent.Severity), 2500f, Props.mtbCheckDuration))
+			if (!pawn.Spawned || pawn.NonHumanlikeOrWildMan() || pawn.genes?.HasGene(InternalDefOf.AG_LungRotStrength)==false || !(parent.Severity >= Props.minSeverity) || !pawn.Position.AnyGas(pawn.Map, GasType.RotStink) ||  !pawn.IsHashIntervalTick(Props.mtbCheckDuration) || !Rand.MTBEventOccurs(Props.mtbOverRotGasExposureCurve.Evaluate(parent.Severity), 2500f, Props.mtbCheckDuration))
 			{
 				return;
 			}

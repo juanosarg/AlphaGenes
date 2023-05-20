@@ -48,7 +48,8 @@ namespace AlphaGenes
                     else
                     {
 
-                        GeneDef geneToCreate = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false && x.prerequisite == null &&x.biostatArc==0).RandomElement();
+                        GeneDef geneToCreate = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false 
+                        && !x.defName.Contains("VREA_") && x.prerequisite == null &&x.biostatArc==0).RandomElement();
                         genepack.GeneSet.AddGene(geneToCreate);
 
                         user.carryTracker.DestroyCarriedThing();

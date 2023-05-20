@@ -32,10 +32,18 @@ namespace AlphaGenes
 
                 List<GeneDef> genesToPass = new List<GeneDef>();
 
-                foreach(Gene gene in parent.pawn.genes.Xenogenes)
-                {
-                    genesToPass.Add(gene.def);
+                if (Props.endogenes) {
+                    foreach (Gene gene in parent.pawn.genes.Endogenes)
+                    {
+                        genesToPass.Add(gene.def);
+                    }
+                } else {
+                    foreach (Gene gene in parent.pawn.genes.Xenogenes)
+                    {
+                        genesToPass.Add(gene.def);
+                    }
                 }
+                
 
                 HediffComp_Parasites comp = hediff.TryGetComp<HediffComp_Parasites>();
 
@@ -43,6 +51,7 @@ namespace AlphaGenes
                 comp.motherDef = this.parent.pawn.kindDef;
                 comp.mother = parent.pawn;
                 comp.motherFaction = parent.pawn.Faction;
+                comp.endogenes = Props.endogenes;
 
                 FleckMaker.AttachedOverlay(pawn, FleckDefOf.FlashHollow, new Vector3(0f, 0f, 0.26f));
 

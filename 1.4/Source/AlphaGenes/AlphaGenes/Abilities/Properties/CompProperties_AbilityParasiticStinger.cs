@@ -8,6 +8,8 @@ namespace AlphaGenes
 
         public HediffDef hediffDef;
 
+        public bool endogenes = false;
+
 
         public CompProperties_AbilityParasiticStinger()
         {

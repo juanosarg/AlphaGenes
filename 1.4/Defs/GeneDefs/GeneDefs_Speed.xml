@@ -44,4 +44,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_WaterStriding</defName>
+		<label>water striding</label>
+		<description>Carriers of this gene move without movement penalties through water. They will ignore terrain movement costs when moving through watery terrains.</description>
+		<iconPath>UI/Icons/Genes/AG_WaterStriding</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>503</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Water">
+				<statFactors>
+					<MoveSpeed>2</MoveSpeed>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_WaterStriding</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

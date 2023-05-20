@@ -172,6 +172,7 @@
 			<li>AptitudeTerrible_Artistic</li>
 			<li>AptitudeTerrible_Social</li>
 			<li>AptitudeTerrible_Crafting</li>
+			<li>AG_HivelingVoice</li>
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>
@@ -228,7 +229,6 @@
 			<li>WoundHealing_Slow</li>
 			<li>AptitudeTerrible_Plants</li>
 			<li>AptitudeTerrible_Animals</li>
-			<li>Mood_Pessimist</li>
 			<li>Aggression_HyperAggressive</li>
 			<li>Mood_Depressive</li>
 			<li>AG_AcidicBlood</li>

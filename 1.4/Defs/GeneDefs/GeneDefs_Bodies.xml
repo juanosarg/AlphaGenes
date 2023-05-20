@@ -150,7 +150,7 @@
 		<conditionalStatAffecters>
 			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Water">
 				<statFactors>
-					<MoveSpeed>9</MoveSpeed>
+					<MoveSpeed>2</MoveSpeed>
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>
@@ -163,6 +163,7 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
+				<hediffToWholeBody>AG_WaterStriding</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>

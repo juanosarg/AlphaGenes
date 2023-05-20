@@ -423,7 +423,7 @@
 		<description>Carriers of this gene have immunity to acid damage.</description>
 		<iconPath>UI/Icons/Genes/AG_AcidImmunity</iconPath>
 		<customEffectDescriptions>
-			<li>Acid damage from vanilla game and the following mods should be covered: Alpha Animals, Alpha Mythology, Vanilla Genetics Expanded, Witcher Monster Hunt.</li>
+			<li>Acid damage from vanilla game and the following mods should be covered: Alpha Animals, Alpha Mythology, Alpha Mechs, Vanilla Genetics Expanded, Witcher Monster Hunt.</li>
 		</customEffectDescriptions>
 		<displayCategory>Healing</displayCategory>
 		<displayOrderInCategory>400</displayOrderInCategory>

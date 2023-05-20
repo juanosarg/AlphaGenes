@@ -66,6 +66,7 @@ namespace AlphaGenes
         public static HediffDef AG_IncreasedCommandRange;
         public static HediffDef AG_DecreasedCommandRange;
         public static HediffDef AG_MechRepairBoost;
+        public static HediffDef AG_EndoimplantationComa;
 
 
         public static HediffDef AG_DevouredShooting;

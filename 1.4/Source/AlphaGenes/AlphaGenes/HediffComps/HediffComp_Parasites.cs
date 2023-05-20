@@ -5,6 +5,7 @@ using System;
 using AnimalBehaviours;
 using System.Collections.Generic;
 using RimWorld.Planet;
+using System.Linq;
 
 namespace AlphaGenes
 {
@@ -14,6 +15,7 @@ namespace AlphaGenes
         public Pawn mother;
         public Faction motherFaction;
         public PawnKindDef motherDef;
+        public bool endogenes = false;
 
 
         public HediffCompProperties_Parasites Props
@@ -31,6 +33,8 @@ namespace AlphaGenes
             Scribe_References.Look(ref this.mother, nameof(this.mother));
             Scribe_References.Look(ref this.motherFaction, nameof(this.motherFaction));
             Scribe_Defs.Look(ref this.motherDef, nameof(this.motherDef));
+            Scribe_Values.Look(ref this.endogenes, nameof(this.endogenes));
+
 
 
         }
@@ -115,11 +119,12 @@ namespace AlphaGenes
 
                     foreach (GeneDef gene in genesToAdd)
                     {
-                        pawn.genes.AddGene(gene, true);
+                        pawn.genes.AddGene(gene, !endogenes);
                     }
                     foreach (GeneDef gene in motherGenes)
                     {
-                        pawn.genes.AddGene(gene, true);
+                        if (!pawn.genes.HasGene(gene)) { pawn.genes.AddGene(gene, !endogenes);}
+                        
                     }
 
 

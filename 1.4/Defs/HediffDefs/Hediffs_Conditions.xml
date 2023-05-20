@@ -52,6 +52,31 @@
 		</comps>
 	</HediffDef>
 	<HediffDef>
+		<defName>AG_EndoimplantationComa</defName>
+		<label>germline implantation coma</label>
+		<description>An new germline was implanted in this person by force. This will keep them in a coma for 4 days.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>0.001</initialSeverity>
+		<defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>240000</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+				<canUseDecimalsShortForm>true</canUseDecimalsShortForm>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
 		<defName>AG_UnstableMind</defName>
 		<label>unstable mind</label>
 		<description>Mental instability that makes this person prone to mental breaks, and greatly increases their psychic sensitivity.</description>

@@ -43,7 +43,8 @@ namespace AlphaGenes
 
                 if (hediff == null)
                 {
-                    GeneDef geneToCreate = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false && x.prerequisite==null).RandomElement();
+                    GeneDef geneToCreate = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false 
+                    && !x.defName.Contains("VREA_") && x.prerequisite==null).RandomElement();
                     pawn.genes.AddGene(geneToCreate,false);
                     user.carryTracker.DestroyCarriedThing();
                     if (AlphaGenes_Mod.settings.AG_GeneRemovalComa)

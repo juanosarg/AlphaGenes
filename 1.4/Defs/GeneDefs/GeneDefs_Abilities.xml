@@ -325,62 +325,7 @@
 		</modExtensions>
 	</GeneDef>
 
-	<GeneDef>
-		<defName>AG_InsectStinger</defName>
-		<label>stinger implanter</label>
-		<marketValueFactor>1.25</marketValueFactor>
-		<description>Carriers of this gene can inject a copy of their xenogerm into another person through a very disgusting injector stinger. This doesn't cause their genes to need to regrow, but the ability cannot be used constantly, needing to recharge. It will also damage its target, and cause a bloody mess.</description>
-		<iconPath>UI/Icons/Genes/AG_InsectStinger</iconPath>
-		<displayCategory>Ability</displayCategory>
-		<abilities>
-			<li>AG_InsectStinger</li>
-		</abilities>
-		<selectionWeight>0</selectionWeight>
-		<customEffectDescriptions>
-			<li>Bear in mind this won't work for endogenes, only xenogenes.</li>
-			<li>It will work on any non-hostile human, but it will anger their faction and make them hostile immediately.</li>
-		</customEffectDescriptions>
-		<descriptionHyperlinks>
-			<AbilityDef>AG_InsectStinger</AbilityDef>
-		</descriptionHyperlinks>
-		<biostatCpx>3</biostatCpx>
-		<biostatMet>-2</biostatMet>
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
-	</GeneDef>
 	
-	<GeneDef>
-		<defName>AG_ParasiticStinger</defName>
-		<label>parasitic stinger implanter</label>
-		<marketValueFactor>1.25</marketValueFactor>
-		<description>Carriers of this gene can inject a copy of their xenogerm into another person through a very disgusting injector stinger. Instead of implanting their genes into the target, this will inject them with eggs that will slowly grow inside them. These eggs will eventually hatch into a newborn with the same xenogenes as their progenitor. The ability doesn't cause the user's genes to need to regrow, but the ability cannot be used constantly, needing to recharge. It will also damage its target, and cause a bloody mess. And the target will obviously die when the babies hatch. Ah, the circle of nature!</description>
-		<iconPath>UI/Icons/Genes/AG_ParasiticStinger</iconPath>
-		<displayCategory>Ability</displayCategory>
-		<abilities>
-			<li>AG_ParasiticStinger</li>
-		</abilities>
-		<customEffectDescriptions>
-			<li>Bear in mind this won't work for endogenes, only xenogenes.</li>
-			<li>It will work on any non-hostile human, but it will anger their faction and make them hostile immediately.</li>
-			<li>The baby has a 25% chance per gene of "absorbing" any of the genes of the poor host.</li>
-		</customEffectDescriptions>
-		<selectionWeight>0</selectionWeight>
-		<descriptionHyperlinks>
-			<AbilityDef>AG_ParasiticStinger</AbilityDef>
-		</descriptionHyperlinks>
-		<biostatCpx>5</biostatCpx>
-		<biostatMet>-3</biostatMet>
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
-	</GeneDef>
 	
 	<GeneDef>
 		<defName>AG_InsectRally</defName>
@@ -563,6 +508,122 @@
 		</descriptionHyperlinks>
 		<biostatCpx>5</biostatCpx>
 		<biostatMet>-5</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_InsectStinger</defName>
+		<label>stinger implanter, xenogenes</label>
+		<marketValueFactor>1.25</marketValueFactor>
+		<description>Carriers of this gene can inject a copy of their xenogerm into another person through a very disgusting injector stinger. This doesn't cause their genes to need to regrow, but the ability cannot be used constantly, needing to recharge. It will also damage its target, and cause a bloody mess.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectStinger</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_InsectStinger</li>
+		</abilities>
+		<displayOrderInCategory>999</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Bear in mind this won't work for endogenes, only xenogenes.</li>
+			<li>It will work on any non-hostile human, but it will anger their faction and make them hostile immediately.</li>
+		</customEffectDescriptions>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_InsectStinger</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_ParasiticStinger</defName>
+		<label>parasitic stinger implanter, xenogenes</label>
+		<marketValueFactor>1.25</marketValueFactor>
+		<description>Carriers of this gene can inject a copy of their xenogerm into another person through a very disgusting injector stinger. Instead of implanting their genes into the target, this will inject them with eggs that will slowly grow inside them. These eggs will eventually hatch into a newborn with the same xenogenes as their progenitor. The ability doesn't cause the user's genes to need to regrow, but the ability cannot be used constantly, needing to recharge. It will also damage its target, and cause a bloody mess. And the target will obviously die when the babies hatch. Ah, the circle of nature!</description>
+		<iconPath>UI/Icons/Genes/AG_ParasiticStinger</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<displayOrderInCategory>1000</displayOrderInCategory>
+		<abilities>
+			<li>AG_ParasiticStinger</li>
+		</abilities>
+		<customEffectDescriptions>
+			<li>Bear in mind this won't work for endogenes, only xenogenes.</li>
+			<li>It will work on any non-hostile human, but it will anger their faction and make them hostile immediately.</li>
+			<li>The baby has a 25% chance per gene of "absorbing" any of the genes of the poor host.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_ParasiticStinger</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_InsectStingerEndogenes</defName>
+		<label>stinger implanter, endogenes</label>
+		<marketValueFactor>1.25</marketValueFactor>
+		<description>Carriers of this gene can inject a copy of their germline into another person through a very disgusting injector stinger. This doesn't cause their genes to need to regrow, but the ability cannot be used constantly, needing to recharge. It will also damage its target, and cause a bloody mess.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectStingerEndogenes</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_InsectStingerEndogenes</li>
+		</abilities>
+		<displayOrderInCategory>1001</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Bear in mind this won't work for xenogenes, only endogenes.</li>
+			<li>It will work on any non-hostile human, but it will anger their faction and make them hostile immediately.</li>
+		</customEffectDescriptions>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_InsectStingerEndogenes</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_ParasiticStingerEndogenes</defName>
+		<label>parasitic stinger implanter, endogenes</label>
+		<marketValueFactor>1.25</marketValueFactor>
+		<description>Carriers of this gene can inject a copy of their germline into another person through a very disgusting injector stinger. Instead of implanting their genes into the target, this will inject them with eggs that will slowly grow inside them. These eggs will eventually hatch into a newborn with the same endogenes as their progenitor. The ability doesn't cause the user's genes to need to regrow, but the ability cannot be used constantly, needing to recharge. It will also damage its target, and cause a bloody mess. And the target will obviously die when the babies hatch. Ah, the circle of nature!</description>
+		<iconPath>UI/Icons/Genes/AG_ParasiticStingerEndogenes</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<displayOrderInCategory>10002</displayOrderInCategory>
+		<abilities>
+			<li>AG_ParasiticStingerEndogenes</li>
+		</abilities>
+		<customEffectDescriptions>
+			<li>Bear in mind this won't work for xenogenes, only endogenes.</li>
+			<li>It will work on any non-hostile human, but it will anger their faction and make them hostile immediately.</li>
+			<li>The baby has a 25% chance per gene of "absorbing" any of the genes of the poor host.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_ParasiticStingerEndogenes</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-3</biostatMet>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

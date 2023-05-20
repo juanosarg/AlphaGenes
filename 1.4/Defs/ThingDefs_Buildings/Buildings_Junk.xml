@@ -229,7 +229,6 @@
 		<label>ancient mech recharger</label>
 		<description>A broken mech recharger. The connecting pins are bent and chipped, making the whole machine useless.</description>
 		<size>(3,1)</size>
-		
 		<fillPercent>0.50</fillPercent>
 		<graphicData>
 			<texPath>Things/Building/AG_RuinedBasicRecharger</texPath>
@@ -257,7 +256,6 @@
 		<label>ancient large mech recharger</label>
 		<description>A broken mech recharger. The connecting pins are bent and chipped, making the whole machine useless.</description>
 		<size>(3,2)</size>
-		
 		<fillPercent>0.50</fillPercent>
 		<graphicData>
 			<texPath>Things/Building/AG_RuinedStandardRecharger</texPath>
@@ -461,6 +459,10 @@
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<techLevel>Industrial</techLevel>
 		<uiIconScale>0.90</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
 	</ThingDef>
 	<ThingDef ParentName="AG_JunkBuildingBase">
 		<defName>AG_AncientShelf</defName>
@@ -537,6 +539,10 @@
 		<staticSunShadowHeight>0.5</staticSunShadowHeight>
 		<surfaceType>Item</surfaceType>
 		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
 	</ThingDef>
 	<ThingDef ParentName="AG_JunkBuildingBase">
 		<defName>AG_AncientPollutionPump</defName>
@@ -563,7 +569,6 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 	</ThingDef>
-	
 	<ThingDef ParentName="AG_JunkBuildingBase">
 		<defName>AG_AncientCorpse</defName>
 		<label>ancient corpse</label>
@@ -575,9 +580,7 @@
 			<texPath>Things/Building/AG_Corpse</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1.5,1.5)</drawSize>
-			
 		</graphicData>
-		
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>20</MaxHitPoints>
@@ -587,7 +590,6 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 	</ThingDef>
-	
 	<ThingDef ParentName="AG_JunkBuildingBase">
 		<defName>AG_RandomGenepack</defName>
 		<label>random genepack</label>
@@ -602,7 +604,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -621,16 +622,10 @@
 					<li>Genepack</li>
 					<li>AG_Alphapack</li>
 					<li>AG_Mixedpack</li>
-					
-
 				</items>
-
 			</li>
-
 		</comps>
-
 	</ThingDef>
-	
 	<ThingDef ParentName="AG_JunkBuildingBase">
 		<defName>AG_RandomGeneTool</defName>
 		<label>random gene tool</label>
@@ -645,7 +640,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -669,21 +663,15 @@
 					<li>AG_XenotypeInjector</li>
 					<li>AG_GenepackTweaker</li>
 					<li>AG_GenepackDisruptor</li>
-
 				</items>
-
 			</li>
-
 		</comps>
-
 	</ThingDef>
-	
 	<ThingDef ParentName="AG_JunkBuildingBase">
 		<defName>AG_AncientFaultyLamp</defName>
 		<label>ancient faulty lamp</label>
 		<description>A metallic capsule filled with some bioluminescent compound. This one seems to still be producing some faint light.</description>
 		<size>(1,2)</size>
-
 		<fillPercent>0.50</fillPercent>
 		<graphicData>
 			<texPath>Things/Building/AG_AncientFaultyLamp</texPath>
@@ -713,7 +701,6 @@
 		<label>ancient lab lamp</label>
 		<description>A metallic post with a glass cilinder filled with some bioluminescent compound. This one seems to still be producing some faint light.</description>
 		<size>(1,2)</size>
-
 		<fillPercent>0.50</fillPercent>
 		<graphicData>
 			<texPath>Things/Building/AG_RuinedLabLamp</texPath>
@@ -738,7 +725,6 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>2</pathCost>
 	</ThingDef>
-	
 	<ThingDef ParentName="AG_JunkBuildingBase">
 		<defName>AG_RaidSpawner</defName>
 		<label>ruined radio beacon</label>
@@ -747,13 +733,11 @@
 		<fillPercent>0.50</fillPercent>
 		<rotatable>false</rotatable>
 		<tickerType>Normal</tickerType>
-		
 		<graphicData>
 			<texPath>Things/Building/AG_RuinedRadioBeacon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -767,11 +751,9 @@
 			<li Class="AlphaGenes.CompProperties_RandomRaidSpawner">
 
 			</li>
-
 		</comps>
 		<placeWorkers>
 			<li>AlphaGenes.PlaceWorker_ShowSpawnerRadius</li>
 		</placeWorkers>
 	</ThingDef>
-	
 </Defs>

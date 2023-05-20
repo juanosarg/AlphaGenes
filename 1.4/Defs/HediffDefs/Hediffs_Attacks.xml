@@ -8,6 +8,7 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
@@ -30,6 +31,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -54,6 +56,7 @@
 		<label>clawed hand</label>
 		<description>Clawed hands that can be used as a fast melee attack.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>		
@@ -83,6 +86,7 @@
 		<label>crab claw</label>
 		<description>A gigantic, but surprisingly versatile, crab claw.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -110,6 +114,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Large fangs that can be used in melee combat to inject a powerful venom.</description>
 		<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<addedPartProps>
 			<solid>true</solid>
 			<betterThanNatural>true</betterThanNatural>
@@ -136,6 +141,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Large fangs that can be used in melee combat to inject a powerful acid.</description>
 		<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<addedPartProps>
 			<solid>true</solid>
 			<betterThanNatural>true</betterThanNatural>

@@ -25,6 +25,9 @@
 				<li>Bald</li>
 			</tags>
 		</hairTagFilter>
+		<customEffectDescriptions>
+			<li>Using this with other cosmetic genes may look weird.</li>
+		</customEffectDescriptions>
 		<graphicData>
 			<layer>PostHair</layer>
 			<drawLoc>HeadTop</drawLoc>
@@ -59,6 +62,9 @@
 				<li>NoBeard</li>
 			</tags>
 		</beardTagFilter>
+		<customEffectDescriptions>
+			<li>Using this with other cosmetic genes may look weird.</li>
+		</customEffectDescriptions>
 		<hairTagFilter>
 			<whitelist>true</whitelist>
 			<tags>
@@ -93,6 +99,9 @@
 			<li>Heads</li>
 			<li>Head</li>
 		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Using this with other cosmetic genes may look weird.</li>
+		</customEffectDescriptions>
 		<beardTagFilter>
 			<whitelist>true</whitelist>
 			<tags>
@@ -186,7 +195,6 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1005</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_BlueLEDIcon</iconPath>
-		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLED</graphicPath>
 			<visibleNorth>false</visibleNorth>
@@ -210,7 +218,6 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1006</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_RedLEDIcon</iconPath>
-		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLEDRed</graphicPath>
 			<visibleNorth>false</visibleNorth>
@@ -234,7 +241,6 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1007</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_MechAntennaIcon</iconPath>
-		
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_MechAntenna/AG_MechAntenna</graphicPath>
 			<visibleNorth>true</visibleNorth>
@@ -249,6 +255,4 @@
 			</li>
 		</modExtensions>
 	</VREAndroids.AndroidGeneDef>
-	
-	
 </Defs>
