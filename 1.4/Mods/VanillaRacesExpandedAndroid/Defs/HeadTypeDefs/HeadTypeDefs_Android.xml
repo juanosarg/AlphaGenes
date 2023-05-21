@@ -61,4 +61,37 @@
 		</requiredGenes>
 		<selectionWeight>1</selectionWeight>
 	</HeadTypeDef>
+	
+	
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_HalfSynthetic_Male</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_HalfSynthetic/AG_Male_HalfSynthetic</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>AG_HalfSyntheticHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_HalfSynthetic_Female</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_HalfSynthetic/AG_Female_HalfSynthetic</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_HalfSyntheticHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>AG_HalfSynthetic_Female_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_HalfSynthetic/AG_Female_HalfSynthetic_Pointy</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>AG_HalfSyntheticHead</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
 </Defs>

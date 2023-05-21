@@ -129,6 +129,37 @@
 			</li>
 		</modExtensions>
 	</VREAndroids.AndroidGeneDef>
+		<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_HalfSyntheticHead</defName>
+		<label>half synthetic head</label>
+		<description>Androids with this hardware have a synthetic face with remarkably normal looking human eyes.</description>
+		<iconPath>UI/Icons/Genes/AG_HalfSyntheticFaceIcon</iconPath>
+		<displayOrderInCategory>1002.5</displayOrderInCategory>
+		<biostatCpx>0</biostatCpx>
+		<isCoreComponent>false</isCoreComponent>
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		
+		
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<forcedHeadTypes>
+			<li>AG_HalfSynthetic_Male</li>
+			<li>AG_HalfSynthetic_Female</li>
+			<li>AG_HalfSynthetic_Female_Pointy</li>
+		</forcedHeadTypes>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
 	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
 		<defName>AG_RoboticBodyPlastic</defName>
 		<label>plastic body</label>
