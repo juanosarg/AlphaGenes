@@ -22,7 +22,7 @@ namespace AlphaGenes
             if (this.parent.IsHashIntervalTick(500))
             {
 
-                if (Find.CurrentMap.mapPawns.FreeColonistsSpawnedCount > 0)
+                if (parent.Map?.mapPawns.FreeColonistsSpawnedCount > 0)
                 {
                     SpawnItemAndDelete();
                 }
