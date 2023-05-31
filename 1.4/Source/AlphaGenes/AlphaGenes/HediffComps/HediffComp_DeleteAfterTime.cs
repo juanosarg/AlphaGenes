@@ -47,7 +47,7 @@ namespace AlphaGenes
                         if (lord == null)
                         {
                             LordJob_DefendPoint lordJob = new LordJob_DefendPoint(parent.pawn.Position, null, false, true);
-                            lord = LordMaker.MakeNewLord(Faction.OfMechanoids, lordJob, Find.CurrentMap, null);
+                            lord = LordMaker.MakeNewLord(Faction.OfMechanoids, lordJob, parent.pawn.Map, null);
                         }
                         lord.AddPawn(parent.pawn);
 
