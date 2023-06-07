@@ -28,6 +28,17 @@ namespace AlphaGenes
                 {
 
                     List<Gene> listOfGenes = pawn.genes?.GenesListForReading;
+
+                    foreach (Gene gene in listOfGenes) { 
+                        if(gene.def.defName == "VREA_Power")
+                        {
+                            Messages.Message("AG_NotOnAndroids".Translate(pawn), pawn, MessageTypeDefOf.RejectInput, historical: false);
+                            return;
+                        }
+
+                    }
+
+
                     if(listOfGenes.Count> 0)
                     {
                         Gene gene = listOfGenes.RandomElement();
