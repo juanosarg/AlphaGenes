@@ -127,6 +127,8 @@ namespace AlphaGenes
                         
                     }
 
+                    pawn.genes.hybrid = true;
+
 
 
 
