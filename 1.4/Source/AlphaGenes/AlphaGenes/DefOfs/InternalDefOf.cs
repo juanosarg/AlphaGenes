@@ -105,6 +105,7 @@ namespace AlphaGenes
         [MayRequireBiotech]
         public static ThingDef Mech_Diabolus;
 
+
         static InternalDefOf()
 		{
 			DefOfHelper.EnsureInitializedInCtor(typeof(InternalDefOf));

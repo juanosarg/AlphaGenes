@@ -14,9 +14,7 @@ namespace AlphaGenes
 
 		public List<GeneDef> genes = new List<GeneDef>();
 
-        public List<GeneDef> blacklist = new List<GeneDef>() { InternalDefOf.AG_UnstableMutation,InternalDefOf.AG_UnstableMutationMajor,InternalDefOf.AG_UnstableMutationCatastrophic,
-		InternalDefOf.AlphaGenes_Randomizer,InternalDefOf.AlphaGenes_ExoticOrganism, InternalDefOf.AG_Sensitivity_Lethal,InternalDefOf.AG_Teratogenesis,
-		InternalDefOf.AG_MinorAnimalSummon_Randomizer,InternalDefOf.AG_AnimalSummon_Randomizer,InternalDefOf.AG_MajorAnimalSummon_Randomizer};
+        public List<GeneDef> blacklist = new List<GeneDef>();
 
         public bool Active = false;
 
@@ -24,11 +22,23 @@ namespace AlphaGenes
         {
             base.CompExposeData();
 			Scribe_Collections.Look(ref this.genes, nameof(this.genes));
+			Scribe_Collections.Look(ref this.blacklist, nameof(this.blacklist));
 			Scribe_Values.Look(ref this.Active, nameof(this.Active));
 
 		}
 
-		public override void CompPostTick(ref float severityAdjustment)
+        public override void CompPostMake()
+        {
+            base.CompPostMake();
+
+			List<WretchBlacklistDef> allWretchBlacklistedGenes = DefDatabase<WretchBlacklistDef>.AllDefsListForReading;
+			foreach (WretchBlacklistDef individualList in allWretchBlacklistedGenes)
+			{
+				blacklist.AddRange(individualList.blackListedGenes);				
+			}
+		}
+
+        public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);
 
@@ -39,8 +49,8 @@ namespace AlphaGenes
 				for (int i = 0; i < Props.numberOfGenes; i++)
 				{
 					GeneDef gene = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false &&
-					x.prerequisite==null && x.biostatArc == 0 && !x.defName.Contains("VREHT_") && !x.defName.Contains("VREW_") && !x.defName.Contains("VREA_") && !x.defName.Contains("AlphaGenes_") && 
-					!x.defName.Contains("AG_InnatePsylink") && !blacklist.Contains(x)).RandomElement();
+					x.prerequisite==null && x.biostatArc == 0 && !x.defName.Contains("VREHT_") && !x.defName.Contains("VREW_") && !x.defName.Contains("VREA_") && !x.defName.Contains("AlphaGenes_")  
+					&& !blacklist.Contains(x)).RandomElement();
 					genes.Add(gene);
 					geneNamesToDisplay.Add(gene.LabelCap);
 					this.parent.pawn.genes?.AddGene(gene, true);

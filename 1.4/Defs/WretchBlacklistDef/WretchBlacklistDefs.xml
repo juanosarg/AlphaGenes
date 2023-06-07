@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<AlphaGenes.WretchBlacklistDef>
+		<defName>AG_WretchBlacklistDef</defName>
+		<blackListedGenes>							
+			<li>AG_UnstableMutation</li>
+			<li>AG_UnstableMutationMajor</li>
+			<li>AG_UnstableMutationCatastrophic</li>	
+			<li>AlphaGenes_Randomizer</li>			
+			<li>AlphaGenes_ExoticOrganism</li>			
+			<li>AG_Sensitivity_Lethal</li>
+			<li>AG_Teratogenesis</li>
+			<li>AG_MinorAnimalSummon_Randomizer</li>			
+			<li>AG_AnimalSummon_Randomizer</li>			
+			<li>AG_MajorAnimalSummon_Randomizer</li>
+			<li>AG_InnatePsylink</li>			
+			<li>AG_InnateMechlink</li>
+							
+			
+		</blackListedGenes>							
+	</AlphaGenes.WretchBlacklistDef>
+
+
+
+
+
+
+
+</Defs>

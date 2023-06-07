@@ -26,6 +26,7 @@ namespace AlphaGenes
 
                 if (pawn.Downed || pawn.InBed())
                 {
+
                     List<Gene> listOfGenes = pawn.genes?.GenesListForReading;
                     if(listOfGenes.Count> 0)
                     {
