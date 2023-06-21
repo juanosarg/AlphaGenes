@@ -340,6 +340,7 @@
 		<biostatMet>-1</biostatMet>
 		<exclusionTags>
 			<li>AG_MechSummon</li>
+			<li>AG_AnimalSummon</li>
 		</exclusionTags>
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>9</displayOrderInCategory>
@@ -370,6 +371,7 @@
 		<biostatMet>-3</biostatMet>
 		<exclusionTags>
 			<li>AG_MechSummon</li>
+			<li>AG_AnimalSummon</li>
 		</exclusionTags>
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>10</displayOrderInCategory>
@@ -400,6 +402,7 @@
 		<biostatMet>-5</biostatMet>
 		<exclusionTags>
 			<li>AG_MechSummon</li>
+			<li>AG_AnimalSummon</li>
 		</exclusionTags>
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>11</displayOrderInCategory>
