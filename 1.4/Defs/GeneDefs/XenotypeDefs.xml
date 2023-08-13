@@ -178,7 +178,7 @@
 	<XenotypeDef>
 		<defName>AG_MindDevourer</defName>
 		<label>mind devourer</label>
-		<description>A xenotype inspired by the old eldritch folklore tales from old Earth, the Chthonian visage of mind devourers inspires terror and intense uneasiness. They are masters of the psychic arts, being capable of projecting their mental powers and using their mind as a fearsome weapon, as well as devouring the brains of their victims and extracting valuable knowledge from them.\n\nHivelings are usually reviled by other human xenotypes.</description>
+		<description>A xenotype inspired by the old eldritch folklore tales from old Earth, the Chthonian visage of mind devourers inspires terror and intense uneasiness. They are masters of the psychic arts, being capable of projecting their mental powers and using their mind as a fearsome weapon, as well as devouring the brains of their victims and extracting valuable knowledge from them.\n\nMind devourers are usually reviled by other human xenotypes.</description>
 		<descriptionShort>A xenotype of powerful brain devouring psychics that are reviled by any other humans around the Rim.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/AG_MindDevourer</iconPath>
 		<inheritable>false</inheritable>
