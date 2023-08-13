@@ -14,6 +14,19 @@
 			<li>AG_AnimalSummon_Randomizer</li>
 			<li>AG_MajorAnimalSummon_Randomizer</li>
 			<li>AG_InnateMechlink</li>
+			<li>AG_BandwidthDecrease</li>
+			<li>AG_BandwidthIncreaseMajor</li>
+			<li>AG_BandwidthIncrease</li>
+			<li>AG_IncreasedCommandRange</li>
+			<li>AG_DecreasedCommandRange</li>
 		</blackListedGenes>
+		<blackListedDefNameStrings>
+			<li>VREHT_</li>
+			<li>VREW_</li>
+			<li>VREA_</li>
+			<li>AlphaGenes_</li>
+			<li>ATK_</li>
+		
+		</blackListedDefNameStrings>
 	</AlphaGenes.WretchBlacklistDef>
 </Defs>

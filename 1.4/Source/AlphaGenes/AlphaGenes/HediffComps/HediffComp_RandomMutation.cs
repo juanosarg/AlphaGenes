@@ -1,4 +1,5 @@
 ﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
@@ -15,6 +16,8 @@ namespace AlphaGenes
 		public List<GeneDef> genes = new List<GeneDef>();
 
         public List<GeneDef> blacklist = new List<GeneDef>();
+
+		public List<string> defnameStrings = new List<string>();
 
         public bool Active = false;
 
@@ -34,8 +37,10 @@ namespace AlphaGenes
 			List<WretchBlacklistDef> allWretchBlacklistedGenes = DefDatabase<WretchBlacklistDef>.AllDefsListForReading;
 			foreach (WretchBlacklistDef individualList in allWretchBlacklistedGenes)
 			{
-				blacklist.AddRange(individualList.blackListedGenes);				
-			}
+				blacklist.AddRange(individualList.blackListedGenes);
+                defnameStrings.AddRange(individualList.blackListedDefNameStrings);
+
+            }
 		}
 
         public override void CompPostTick(ref float severityAdjustment)
@@ -49,13 +54,15 @@ namespace AlphaGenes
 				for (int i = 0; i < Props.numberOfGenes; i++)
 				{
 					GeneDef gene = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false &&
-					x.prerequisite==null && x.biostatArc == 0 && !x.defName.Contains("VREHT_") && !x.defName.Contains("VREW_") && !x.defName.Contains("VREA_") && !x.defName.Contains("AlphaGenes_")  
-					&& !blacklist.Contains(x)).RandomElement();
+					x.prerequisite==null && x.biostatArc == 0 && !defnameStrings.Any(s => x.defName.Contains(s))
+                    && !blacklist.Contains(x)).RandomElement();
 					genes.Add(gene);
 					geneNamesToDisplay.Add(gene.LabelCap);
 					this.parent.pawn.genes?.AddGene(gene, true);
 
-				}
+                    
+
+                }
 				if (parent.pawn.Faction == Faction.OfPlayer && !AlphaGenes_Mod.settings.AG_DisableMutationsMessage)
 				{
 					Messages.Message("AG_RandomGenesGained".Translate(parent.pawn.LabelShortCap, geneNamesToDisplay.ToCommaList()), this.parent.pawn, MessageTypeDefOf.PositiveEvent, true);
