@@ -37,8 +37,15 @@ namespace AlphaGenes
 			List<WretchBlacklistDef> allWretchBlacklistedGenes = DefDatabase<WretchBlacklistDef>.AllDefsListForReading;
 			foreach (WretchBlacklistDef individualList in allWretchBlacklistedGenes)
 			{
-				blacklist.AddRange(individualList.blackListedGenes);
-                defnameStrings.AddRange(individualList.blackListedDefNameStrings);
+				if (!individualList.blackListedGenes.NullOrEmpty())
+				{
+                    blacklist.AddRange(individualList.blackListedGenes);
+                }
+                if (!individualList.blackListedDefNameStrings.NullOrEmpty())
+                {
+                    defnameStrings.AddRange(individualList.blackListedDefNameStrings);
+                }
+                
 
             }
 		}
