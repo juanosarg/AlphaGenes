@@ -3,7 +3,7 @@
 	<HediffDef>
 		<defName>AG_Invisibility</defName>
 		<label>psychic invisibility</label>
-		<description>todo.</description>
+		<description>This person has psychically shift their skin tones to camouflage in almost any surroundings.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
