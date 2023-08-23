@@ -25,7 +25,7 @@ namespace AlphaGenes
         public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
             if (!forced) { return false; }
-            var gene = pawn.genes.GetFirstGeneOfType<Gene_Resource_Metal>();
+            var gene = pawn.genes?.GetFirstGeneOfType<Gene_Resource_Metal>();
             if (gene == null) { return false; }           
             float nutrition = gene.GetResourceRestore(t);
             if(nutrition == 0) { return false; }
