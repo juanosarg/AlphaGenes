@@ -8,6 +8,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<initialSeverity>0.1</initialSeverity>
+		<defaultLabelColor>(229, 70, 28)</defaultLabelColor>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -141,6 +142,7 @@
 	<HediffDef>
 		<defName>AG_TeratogenicSwiftness</defName>
 		<label>teratogenic swiftness</label>	
+		<defaultLabelColor>(229, 70, 28)</defaultLabelColor>
 		<description>This person has increased movement and working speed.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -280,6 +282,7 @@
 		<label>teratogenic stamina</label>	
 		<description>This person has a huge boost to their immune system, and overall stamina.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(229, 70, 28)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<initialSeverity>0.1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>

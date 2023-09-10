@@ -129,7 +129,9 @@ namespace AlphaGenes
 
                     pawn.genes.hybrid = true;
 
+                    pawn.genes.xenotypeName = "AG_Hybrid".Translate();
 
+                    pawn.genes.iconDef = InternalDefOf.AG_CustomXenotypeIcon10;
 
 
 

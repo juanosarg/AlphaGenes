@@ -412,8 +412,10 @@
     <Compile Include="Harmony\Pawn_MechanitorTracker_CanCommandTo.cs" />
     <Compile Include="Harmony\Pawn_MechanitorTracker_DrawCommandRadius.cs" />
     <Compile Include="Harmony\RelationsUtility_IsDisfigured.cs" />
+    <Compile Include="Harmony\WealthWatcher_ForceRecount.cs" />
     <Compile Include="HediffComps\HediffComp_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\HediffComp_Exploder.cs" />
+    <Compile Include="HediffComps\HediffComp_GasProducer.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\HediffComp_Parasites.cs" />
     <Compile Include="HediffComps\HediffComp_SeverityFromMinerals.cs" />
@@ -423,6 +425,7 @@
     <Compile Include="HediffComps\HediffComp_Teratogenesis.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Exploder.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_GasProducer.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Parasites.cs" />
@@ -459,6 +462,7 @@
     <Compile Include="ThoughtWorkers\ThoughtWorker_EldritchVisage.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_Thalassophobia.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_UnsettlingAppearance.cs" />
+    <Compile Include="Utils\Utils.cs" />
     <Compile Include="WorldComponents\ScorpionCounter_WorldComponent.cs" />
     <Compile Include="WorldComponents\WorldComponent_BiotechLabQuests.cs" />
   </ItemGroup>

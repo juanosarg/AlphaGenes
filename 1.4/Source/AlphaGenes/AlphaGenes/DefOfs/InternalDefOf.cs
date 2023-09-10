@@ -52,6 +52,13 @@ namespace AlphaGenes
         public static GeneDef AG_UnstableMutationMajor;
         public static GeneDef AG_UnstableMutationCatastrophic;
 
+        public static GeneDef AG_NoRaidPresence;
+        public static GeneDef AG_ReducedRaidPresence;
+        public static GeneDef AG_DangerousRaidPresence;
+        public static GeneDef AG_DeadlyRaidPresence;
+
+        public static XenotypeIconDef AG_CustomXenotypeIcon10;
+
         public static HediffDef AG_LungRotStrengthHediff;
 		public static HediffDef AG_GeneRemovalComa;
 		public static HediffDef AG_MineralCraving;

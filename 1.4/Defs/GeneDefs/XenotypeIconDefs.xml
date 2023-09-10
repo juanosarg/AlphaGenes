@@ -37,5 +37,9 @@
 		<defName>AG_CustomXenotypeIcon9</defName>
 		<texPath>UI/Icons/Xenotypes/AG_Efreet</texPath>
 	</XenotypeIconDef>
+	<XenotypeIconDef>
+		<defName>AG_CustomXenotypeIcon10</defName>
+		<texPath>UI/Icons/Xenotypes/AG_Hybrid</texPath>
+	</XenotypeIconDef>
 
 </Defs>

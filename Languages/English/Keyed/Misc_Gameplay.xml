@@ -46,4 +46,5 @@
 	<AG_Reset>Reset</AG_Reset>
 	<AG_ShowAllAnimalSummonGenes>Show ALL animal summon genes (requires game reload)</AG_ShowAllAnimalSummonGenes>
 	<AG_ShowAllAnimalSummonGenes_Description>If selected, ALL animal summon genes will be shown on the xenotype creator screen. Bear in mind these genes will draw from all animals, vanilla or modded, so this can get out of control fast! By default, they are hidden, and three genes are shown that choose one of them at random.</AG_ShowAllAnimalSummonGenes_Description>
+	<AG_Hybrid>Hybrid</AG_Hybrid>
 </LanguageData>

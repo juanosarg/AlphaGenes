@@ -10,10 +10,17 @@
 		<label>gender</label>
 		<displayPriorityInXenotype>516.69</displayPriorityInXenotype>
 	</GeneCategoryDef>
+	
 	<GeneCategoryDef>
 		<defName>AG_BodySize</defName>
 		<label>body size</label>
 		<displayPriorityInXenotype>516.7</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>AG_Presence</defName>
+		<label>presence</label>
+		<displayPriorityInXenotype>516.71</displayPriorityInXenotype>
 		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
 	</GeneCategoryDef>
 	<GeneCategoryDef>
