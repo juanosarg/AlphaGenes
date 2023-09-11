@@ -24,6 +24,14 @@ namespace AlphaGenes
                 System.Random rand = new System.Random();
                 float psychicSensitivity = pawn.GetStatValue(StatDefOf.PsychicSensitivity);
                 bool applyShock = false;
+
+                if (pawn.RaceProps.IsMechanoid)
+                {
+                    Messages.Message("AG_MechsImmuneToInsanityBlast".Translate(pawn), pawn, MessageTypeDefOf.RejectInput, historical: false);
+
+                }
+                else
+
                 if (psychicSensitivity > 1)
                 {
                     applyShock = true;

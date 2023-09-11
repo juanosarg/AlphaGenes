@@ -19,6 +19,7 @@
 	<AG_ParasitesHatched>A newborn, {0}, has hatched from a host, killing it in the process</AG_ParasitesHatched>
 	<AG_UnsummonedIn>Unsummoned in [0]</AG_UnsummonedIn>
 	<AG_ResistedInsanityBlast>Target resisted the insanity blast!</AG_ResistedInsanityBlast>
+	<AG_MechsImmuneToInsanityBlast>Mechanoids are not affected by insanity blast!</AG_MechsImmuneToInsanityBlast>
 	<AG_DownedOrLyingInBed>Target must be downed or lying down in bed for this ability to work</AG_DownedOrLyingInBed>
 	<AG_PawnWithoutBrain>Target lacks a brain. This is sadly pretty common in the world</AG_PawnWithoutBrain>
 	<AG_CannotBeUsedOnDeathless>Deathless people are immune to parasitic implantations</AG_CannotBeUsedOnDeathless>
@@ -32,6 +33,7 @@
 	<AG_CantSpawnThere>Can't create temporary node there</AG_CantSpawnThere>
 	<AG_OnlyOnFriendlyMechs>{0} is not a colony mech, this will only work on player owned mechs</AG_OnlyOnFriendlyMechs>
 	<AG_NotOnAndroids>This ability doesn't work on androids</AG_NotOnAndroids>
+	<AG_Hybrid>Hybrid</AG_Hybrid>
 	<!-- Settings -->
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
 	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>
@@ -46,5 +48,5 @@
 	<AG_Reset>Reset</AG_Reset>
 	<AG_ShowAllAnimalSummonGenes>Show ALL animal summon genes (requires game reload)</AG_ShowAllAnimalSummonGenes>
 	<AG_ShowAllAnimalSummonGenes_Description>If selected, ALL animal summon genes will be shown on the xenotype creator screen. Bear in mind these genes will draw from all animals, vanilla or modded, so this can get out of control fast! By default, they are hidden, and three genes are shown that choose one of them at random.</AG_ShowAllAnimalSummonGenes_Description>
-	<AG_Hybrid>Hybrid</AG_Hybrid>
+	
 </LanguageData>
