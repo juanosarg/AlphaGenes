@@ -169,4 +169,23 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_Polluter</defName>
+		<label>polluter</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>The carrier of this gene constantly pollutes the surrounding terrain, eventually turning the landscape into a desolate wasteland.</description>
+		<iconPath>UI/Icons/Genes/AG_Polluter</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This doesn't make the carrier immune to the effects of pollution!</li>			
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Polluter</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

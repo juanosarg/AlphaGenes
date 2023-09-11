@@ -415,7 +415,6 @@
     <Compile Include="Harmony\WealthWatcher_ForceRecount.cs" />
     <Compile Include="HediffComps\HediffComp_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\HediffComp_Exploder.cs" />
-    <Compile Include="HediffComps\HediffComp_GasProducer.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\HediffComp_Parasites.cs" />
     <Compile Include="HediffComps\HediffComp_SeverityFromMinerals.cs" />
@@ -425,7 +424,6 @@
     <Compile Include="HediffComps\HediffComp_Teratogenesis.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Exploder.cs" />
-    <Compile Include="HediffComps\Properties\HediffCompProperties_GasProducer.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Parasites.cs" />

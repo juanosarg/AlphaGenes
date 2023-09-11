@@ -57,6 +57,7 @@ namespace AlphaGenes
         public static GeneDef AG_DangerousRaidPresence;
         public static GeneDef AG_DeadlyRaidPresence;
 
+
         public static XenotypeIconDef AG_CustomXenotypeIcon10;
 
         public static HediffDef AG_LungRotStrengthHediff;
