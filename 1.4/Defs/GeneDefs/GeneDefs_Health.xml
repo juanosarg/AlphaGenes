@@ -2,7 +2,7 @@
 <Defs>
 	<GeneDef>
 		<defName>AG_LungRotImmunity</defName>
-		<label>lung rot immunity</label>
+		<label>total antirot lungs</label>
 		<description>Carriers of this gene have strengthened lungs that are immune to lung rot.</description>
 		<iconPath>UI/Icons/Genes/AG_LungRotImmunity</iconPath>
 		<exclusionTags>
