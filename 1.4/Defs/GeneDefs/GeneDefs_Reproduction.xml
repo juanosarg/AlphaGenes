@@ -65,7 +65,7 @@
 		<label>fertility in darkness</label>
 		<description>Carriers of this gene have an increased chance of becoming pregnant or impregnating others while in darkness (below 50% light level), while having the opposite effects in the light.</description>
 		<iconPath>UI/Icons/Genes/AG_FertilityDarkness</iconPath>
-		<displayOrderInCategory>111</displayOrderInCategory>
+		<displayOrderInCategory>110.1</displayOrderInCategory>
 		<conditionalStatAffecters>
 			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Darkness">
 				<statFactors>
@@ -92,7 +92,7 @@
 		<label>fertility in the light</label>
 		<description>Carriers of this gene have an increased chance of becoming pregnant or impregnating others while in the light (50% light level or above), while having the opposite effects in the dark.</description>
 		<iconPath>UI/Icons/Genes/AG_FertilityLight</iconPath>
-		<displayOrderInCategory>112</displayOrderInCategory>
+		<displayOrderInCategory>110.2</displayOrderInCategory>
 		<conditionalStatAffecters>
 			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Darkness">
 				<statFactors>
@@ -100,6 +100,60 @@
 				</statFactors>
 			</li>
 			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_InLight">
+				<statFactors>
+					<Fertility>2</Fertility>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="FertilityBase">
+		<defName>AG_FertilityOutdoors</defName>
+		<label>fertility while outdoors</label>
+		<description>Carriers of this gene have an increased chance of becoming pregnant or impregnating others while outdoors, while having the opposite effects indoors.</description>
+		<iconPath>UI/Icons/Genes/AG_FertilityOutdoors</iconPath>
+		<displayOrderInCategory>110.3</displayOrderInCategory>
+		<conditionalStatAffecters>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Outdoors">
+				<statFactors>
+					<Fertility>2</Fertility>
+				</statFactors>
+			</li>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Indoors">
+				<statFactors>
+					<Fertility>0.25</Fertility>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="FertilityBase">
+		<defName>AG_FertilityIndoors</defName>
+		<label>fertility while indoors</label>
+		<description>Carriers of this gene have an increased chance of becoming pregnant or impregnating others while indoors, while having the opposite effects outdoors.</description>
+		<iconPath>UI/Icons/Genes/AG_FertilityIndoors</iconPath>
+		<displayOrderInCategory>110.4</displayOrderInCategory>
+		<conditionalStatAffecters>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Outdoors">
+				<statFactors>
+					<Fertility>0.25</Fertility>
+				</statFactors>
+			</li>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Indoors">
 				<statFactors>
 					<Fertility>2</Fertility>
 				</statFactors>

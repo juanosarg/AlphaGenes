@@ -112,5 +112,20 @@
       <Baby>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Baby>
     </bodyTypeGraphicPaths>
   </FurDef>
+  
+  <FurDef>
+    <defName>AG_DrakonoriBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriMaleBody</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriFemaleBody</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_ScalyBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_ScalyBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriThinBody</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriChildBody</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriChildBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
 
 </Defs>

@@ -273,6 +273,28 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_DrakonoriBody</defName>
+		<label>drakonori body</label>
+		<labelShortAdj>drakonori</labelShortAdj>
+		<description>Carriers of this gene have a draconic and scaly appearance in their body.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>437</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_Drakonori_Body</iconPath>
+		
+		<graphicData>
+			<fur>AG_DrakonoriBody</fur>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 	<GeneDef>
 		<defName>AG_Digitigrade</defName>
 		<label>digitigrade legs</label>
