@@ -129,4 +129,30 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_PollutionStriding</defName>
+		<label>pollution striding</label>
+		<description>Carriers of this gene move much faster when traversing polluted terrain.</description>
+		<iconPath>UI/Icons/Genes/AG_PollutionStrider</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>505</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_InPollution">
+				<statFactors>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+			
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
