@@ -52,7 +52,7 @@ namespace AlphaGenes
                 {
 					foreach(var pawn in room.Owners)
                     {
-                        if (pawn.genes.HasGene(InternalDefOf.AG_MetalEater))
+                        if (pawn.HasActiveGene(InternalDefOf.AG_MetalEater))
                         {
 							var gene = pawn.genes.GetFirstGeneOfType<Gene_Resource_Metal>();
                             if (gene.ShouldConsumeNow())

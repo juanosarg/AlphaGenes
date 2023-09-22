@@ -17,7 +17,7 @@ namespace AlphaGenes
 				return false;
 			}
 
-            if (other.genes?.GetGene(InternalDefOf.AG_UnsettlingAppearance)?.Active == true && pawn.genes?.HasGene(InternalDefOf.AG_UnsettlingAppearance) == false)
+            if (other.genes?.GetGene(InternalDefOf.AG_UnsettlingAppearance)?.Active == true && !pawn.HasActiveGene(InternalDefOf.AG_UnsettlingAppearance))
             {
 				return ThoughtState.ActiveAtStage(0);
 			}

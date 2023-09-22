@@ -123,7 +123,7 @@ namespace AlphaGenes
                     }
                     foreach (GeneDef gene in motherGenes)
                     {
-                        if (!pawn.genes.HasGene(gene)) { pawn.genes.AddGene(gene, !endogenes);}
+                        if (!pawn.HasActiveGene(gene)) { pawn.genes.AddGene(gene, !endogenes);}
                         
                     }
 

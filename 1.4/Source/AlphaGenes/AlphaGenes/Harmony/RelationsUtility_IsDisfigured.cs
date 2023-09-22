@@ -23,7 +23,7 @@ namespace AlphaGenes
 
 		{
 
-			if (pawn?.genes?.HasGene(InternalDefOf.AG_Beauty_Angelic) == true)
+			if (pawn?.HasActiveGene(InternalDefOf.AG_Beauty_Angelic) == true)
 			{
 				__result = false;
 

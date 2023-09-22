@@ -14,7 +14,7 @@ namespace AlphaGenes
             {
                 return ThoughtState.Inactive;
             }
-            if (p.genes == null || !p.genes.HasGene(InternalDefOf.AG_Thalassophobia) || !NearWater(p))
+            if (p.genes == null || !p.HasActiveGene(InternalDefOf.AG_Thalassophobia) || !NearWater(p))
             {
                 return ThoughtState.Inactive;
             }

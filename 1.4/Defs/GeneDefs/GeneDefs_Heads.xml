@@ -245,6 +245,25 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_DrakonoriHead</defName>
+		<label>drakonori head</label>
+		<description>Carriers of this gene possess a reptile-like, snouted face.</description>
+		<selectionWeight>0</selectionWeight>
+		<iconPath>UI/Icons/Genes/AG_Drakonori_Head</iconPath>
+		<forcedHeadTypes>
+			<li>AG_DrakonoriHead_Female</li>
+			<li>AG_DrakonoriHead_Male</li>
+			
+		</forcedHeadTypes>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	<!--<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_MimeHead</defName>
 		<label>mime head</label>

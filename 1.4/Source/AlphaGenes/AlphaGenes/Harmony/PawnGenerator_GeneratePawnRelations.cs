@@ -23,7 +23,7 @@ namespace AlphaGenes
 
 
 
-            if (pawn.genes?.HasGene(InternalDefOf.AG_Male) == true || pawn.genes?.HasGene(InternalDefOf.AG_Female) == true)
+            if (pawn.HasActiveGene(InternalDefOf.AG_Male) || pawn.HasActiveGene(InternalDefOf.AG_Female))
             {
 
                 return false;

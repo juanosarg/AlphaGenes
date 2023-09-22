@@ -23,7 +23,7 @@ namespace AlphaGenes
 
         {
 		
-			if (__instance.pawn?.genes?.HasGene(InternalDefOf.AG_BloodVomit) == true)
+			if (__instance.pawn?.HasActiveGene(InternalDefOf.AG_BloodVomit) == true)
 			{
 				for (int i = 0; i < 3; i++)
 				{
@@ -32,7 +32,7 @@ namespace AlphaGenes
 
 			}
 
-			if (__instance.pawn?.genes?.HasGene(InternalDefOf.AG_RatVomit) == true)
+			if (__instance.pawn?.HasActiveGene(InternalDefOf.AG_RatVomit) == true)
 			{
 				__instance.pawn.needs?.mood?.thoughts.memories.TryGainMemory(InternalDefOf.AG_PukedRats);
 

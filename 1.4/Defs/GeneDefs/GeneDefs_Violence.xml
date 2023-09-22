@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_InnerPeace</defName>
+		<label>inner peace</label>
+		<description>Carriers of this gene have achieved a certain mental peace where they don't really care much about slights from others.</description>
+		<iconPath>UI/Icons/Genes/AG_InnerPeace</iconPath>
+		<displayCategory>Violence</displayCategory>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<customEffectDescriptions>
+			<li>Immune to negative moods and opinions from social fights or insults.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Rowdy</defName>
+		<label>rowdy</label>
+		<description>Carriers of this gene love to play fight. This might of course not be shared by the other person involved!</description>
+		<iconPath>UI/Icons/Genes/AG_Rowdy</iconPath>
+		<displayCategory>Violence</displayCategory>
+		<displayOrderInCategory>101</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<socialFightChanceFactor>2</socialFightChanceFactor>
+		<customEffectDescriptions>
+			<li>This gene will also make its carrier receive recreation after a social fight.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Enforcer</defName>
+		<label>enforcer</label>
+		<description>Carriers of this gene are naturally adept at controlling people getting out of line, and therefore have a better chance of arresting them.</description>
+		<iconPath>UI/Icons/Genes/AG_Enforcer</iconPath>
+		<displayCategory>Violence</displayCategory>
+		<displayOrderInCategory>102</displayOrderInCategory>
+		<statOffsets>
+			<ArrestSuccessChance>0.4</ArrestSuccessChance>
+		</statOffsets>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ArrestAvoidance</defName>
+		<label>arrest avoidant</label>
+		<description>Carriers of this gene are naturally inept at controlling people getting out of line, and therefore have a much worse chance of arresting them.</description>
+		<iconPath>UI/Icons/Genes/AG_ArrestAvoidance</iconPath>
+		<displayCategory>Violence</displayCategory>
+		<displayOrderInCategory>103</displayOrderInCategory>
+		<statOffsets>
+			<ArrestSuccessChance>-0.6</ArrestSuccessChance>
+		</statOffsets>
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

@@ -24,10 +24,10 @@ namespace AlphaGenes
 
 		{
 
-			if (pawn?.genes?.HasGene(InternalDefOf.AG_SlowGestation) == true)
+			if (pawn?.HasActiveGene(InternalDefOf.AG_SlowGestation) == true)
 			{
 				__result = __result * 0.75f;
-			}else if (pawn?.genes?.HasGene(InternalDefOf.AG_FastGestation) == true)
+			}else if (pawn?.HasActiveGene(InternalDefOf.AG_FastGestation) == true)
 			{
 				__result = __result * 1.25f;
 			}

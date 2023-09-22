@@ -427,6 +427,47 @@
 		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="AG_WingBase">
+		<defName>AG_DrakonoriWings</defName>
+		<label>drakonori wings</label>
+		<description>Carriers of this gene have a pair of giant draconic wings sprouting from their back.</description>
+		<iconPath>UI/Icons/Genes/AG_Drakonori_Wings</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_Wings</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Colonist will ignore terrain movement costs</li>
+		</customEffectDescriptions>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_DrakonoriWings/AG_DrakonoriWings</graphicPath>
+			<drawScale>2</drawScale>
+			<colorType>Skin</colorType>
+			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>draco</symbol>
+				</li>
+				<li>
+					<symbol>winged</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<abilities>
+			<li>AG_WingPoweredJump</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Hover</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_WingBase">
 		<defName>AG_NoWings</defName>
 		<label>no wings</label>
 		<description>Carriers of this gene don't have wings.</description>

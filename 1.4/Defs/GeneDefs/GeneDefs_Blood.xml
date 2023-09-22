@@ -336,4 +336,32 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_WaterBlood</defName>
+		<label>water blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have watered down blood. Their blood is so thin that puddles of it will be virtually indistinguishable from water.</description>
+		<iconPath>UI/Icons/Genes/AG_WaterBlood</iconPath>
+		<displayOrderInCategory>70</displayOrderInCategory>
+		
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>Filth_Water</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_WaterbloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitWater</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsWater</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

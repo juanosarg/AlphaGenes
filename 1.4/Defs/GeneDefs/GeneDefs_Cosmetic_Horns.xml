@@ -500,4 +500,30 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_Drakonori_Horns</defName>
+		<label>drakonori horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two short draconic horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_Drakonori_Horns</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DrakonoriHorns/AG_DrakonoriHorns</graphicPath>
+			<colorType>Skin</colorType>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>draco</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

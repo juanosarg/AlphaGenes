@@ -119,8 +119,8 @@
     <bodyTypeGraphicPaths>
       <Male>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriMaleBody</Male>
       <Female>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriFemaleBody</Female>
-      <Hulk>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_ScalyBody_Hulk</Hulk>
-      <Fat>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_ScalyBody_Fat</Fat>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Fat</Fat>
       <Thin>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriThinBody</Thin>
       <Child>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriChildBody</Child>
       <Baby>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriChildBody</Baby>

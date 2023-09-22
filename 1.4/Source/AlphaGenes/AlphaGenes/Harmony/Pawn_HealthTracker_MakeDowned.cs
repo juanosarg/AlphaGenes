@@ -24,7 +24,7 @@ namespace AlphaGenes
 
         {
 
-            if (___pawn?.DevelopmentalStage==DevelopmentalStage.Adult && ___pawn?.genes?.HasGene(InternalDefOf.AG_BrittleBones)==true)
+            if (___pawn?.DevelopmentalStage==DevelopmentalStage.Adult && ___pawn?.HasActiveGene(InternalDefOf.AG_BrittleBones)==true)
             {
 				
 				for(int i = 0; i < 3; i++)

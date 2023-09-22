@@ -16,7 +16,7 @@ namespace AlphaGenes
             if (type == MeditationFocusDefOf.Natural)
             {
                 
-                    if (DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity") != null && p.genes?.HasGene(DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity")) == true)
+                    if (DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity") != null && p.HasActiveGene(DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity")))
                     {
                         __result = true;
                     }

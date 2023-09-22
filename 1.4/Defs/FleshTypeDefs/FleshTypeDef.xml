@@ -100,4 +100,21 @@
         </genericWounds>
     </FleshTypeDef>
 
+	 <FleshTypeDef>
+        <defName>AG_WoundsWater</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>AG_Damage_HitWater</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundWaterA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundWaterB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Humanlike/Wounds/AG_WoundWaterC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
+
 </Defs>

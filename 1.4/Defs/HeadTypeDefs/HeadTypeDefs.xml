@@ -467,4 +467,25 @@
 		<graphicPath>Things/Pawn/Humanlike/Heads/AG_TrueBlack/AG_Male_TrueBlack_Narrow_Wide</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
+	
+	<!-- Drakonori -->
+	
+	<HeadTypeDef Name="AG_DrakonoriBase" ParentName="AverageBase" Abstract="True">
+		<selectionWeight>100000</selectionWeight>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>AG_DrakonoriHead</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_DrakonoriBase">
+		<defName>AG_DrakonoriHead_Female</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_DrakonoriHead/AG_DrakonoriHeadFemale</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_DrakonoriBase">
+		<defName>AG_DrakonoriHead_Male</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_DrakonoriHead/AG_DrakonoriHeadMale</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	
 </Defs>

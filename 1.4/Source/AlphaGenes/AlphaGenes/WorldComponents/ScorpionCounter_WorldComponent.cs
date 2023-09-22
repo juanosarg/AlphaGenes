@@ -56,7 +56,7 @@ namespace AlphaGenes
                 ocular_gene_colonists_inWorld_backup = 0;
                 foreach (Pawn pawn in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists)
                 {
-                    if (DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity")!=null&&pawn.genes?.HasGene(DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity")) == true)
+                    if (DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity")!=null&&pawn.HasActiveGene(DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity")))
                     {
                         ocular_gene_colonists_inWorld_backup++;
                     }

@@ -161,6 +161,9 @@
 		</conditionalStatAffecters>
 		<biostatMet>-1</biostatMet>
 		<biostatCpx>1</biostatCpx>
+		<customEffectDescriptions>
+			<li>Yes, the icon of this gene means "Make mountain pregnant".</li>
+		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

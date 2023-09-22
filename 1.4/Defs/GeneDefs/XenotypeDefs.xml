@@ -236,37 +236,36 @@
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>
-		<defName>AG_Drakonari</defName>
-		<label>drakonari</label>
-		<description>A modified strain of the impid xenotype designed as terrifying shock troopers, efreet were created to be as intimidating as possible. Whereas impids are adept at fire-based, ranged combat, Efreet are perfectly capable of ripping their enemies to shreds in close quarters combat with their fearsome claws. Efreet possess incredible heat resistant capabilities, and are immune to fire, being almost obssessed with it.</description>
-		<descriptionShort>A modified strain of the impid xenotype designed as shock troopers. Obsessed with fire and almost immune to heat.</descriptionShort>
-		<iconPath>UI/Icons/Xenotypes/AG_Efreet</iconPath>
+		<defName>AG_Drakonori</defName>
+		<label>drakonori</label>
+		<description>An attempt to create a xenotype of beautiful, harmless and subservient people, during the final synthesis of the genes one of the involved scientists failed to notice that his pet bearded lizard had shed its skin inside of the vat. Upon the first official synthesis, the subject demonstrated impeccable strength and perception, while retaining their otherworldly beauty. Essentially she was as likely to embrace you as much as she would eat your face.</description>
+		<descriptionShort>A xenotype of beautiful draconic people. Usually understimated by their enemies, as their physical appearance makes them seem less threatening that they really are.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Drakonori</iconPath>
 		<inheritable>true</inheritable>
 		<combatPowerFactor>1.2</combatPowerFactor>
-		<nameMaker>NamerPersonImpid</nameMaker>
-		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+	
 		<genes>
-			<li>AG_HeatImmunity</li>
-			<li>AG_FireObsession</li>
-			<li>Skin_DeepRed</li>
-			<li>Skin_PaleRed</li>
-			<li>AG_GreaterFireSpew</li>
-			<li>AG_Detonation</li>
-			<li>MinTemp_SmallIncrease</li>
-			<li>AG_ClawedHands</li>
-			<li>AG_DevilEyes</li>
-			<li>AG_DemonWings</li>
-			<li>AG_DemonTail</li>
-			<li>AG_DemonEars</li>
-			<li>AG_DemonHorns</li>
-			<li>AG_DemonHornsQuadruple</li>			
-			<li>WoundHealing_Slow</li>
-			<li>AptitudeTerrible_Plants</li>
-			<li>AptitudeTerrible_Animals</li>
-			<li>Aggression_HyperAggressive</li>
-			<li>Mood_Depressive</li>
-			<li>AG_AcidicBlood</li>
-			 <li>AptitudeRemarkable_Melee</li>
+			<li>AG_DrakonoriBody</li>
+			<li>AG_DrakonoriHead</li>
+			<li>AG_DrakonoriWings</li>
+			<li>AG_Drakonori_Tail</li>
+			<li>AG_Drakonori_Horns</li>
+			<li>AG_ReducedFertile</li>
+			<li>AG_ReducedRaidPresence</li>
+			<li>AG_EggLaying</li>
+			<li>AG_VenomFangs</li>
+			<li>AG_Beauty_Angelic</li>
+			<li>AG_InnerPeace</li>
+			<li>AG_Rowdy</li>
+			<li>AG_Enforcer</li>
+			<li>Hair_ShortOnly</li>
+			<li>AG_HeatSlowness</li>
+			<li>MoveSpeed_Slow</li>
+			<li>AptitudeTerrible_Crafting</li>
+			<li>AptitudeTerrible_Medicine</li>
+			<li>AG_HardBones</li>
+			<li>Beard_NoBeardOnly</li>
+			
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>

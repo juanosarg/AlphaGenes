@@ -14,7 +14,7 @@ namespace AlphaGenes
             if (__instance == MeditationFocusDefOf.Natural)
             {
                
-                    if (DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity") != null && pawn.genes?.HasGene(DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity"))==true)
+                    if (DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity") != null && pawn.HasActiveGene(DefDatabase<GeneDef>.GetNamedSilentFail("AG_OcularAffinity")))
                     {
                         __result += "\n  - " + "VRE_UnlockedByGeneGau".Translate() + ".";
                     }

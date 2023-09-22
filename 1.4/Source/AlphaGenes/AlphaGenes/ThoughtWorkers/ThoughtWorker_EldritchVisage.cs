@@ -12,7 +12,7 @@ namespace AlphaGenes
 				return false;
 			}
 
-			if (other.genes?.GetGene(InternalDefOf.AG_EldritchVisage)?.Active == true && pawn.genes?.HasGene(InternalDefOf.AG_EldritchVisage) == false)
+			if (other.genes?.GetGene(InternalDefOf.AG_EldritchVisage)?.Active == true && !pawn.HasActiveGene(InternalDefOf.AG_EldritchVisage))
 
 			{
 				return ThoughtState.ActiveAtStage(0);

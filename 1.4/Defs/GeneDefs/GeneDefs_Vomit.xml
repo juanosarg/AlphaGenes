@@ -7,7 +7,6 @@
 		<description>Carriers of this gene have a chemfuel powered metabolism, and as such will vomit chemfuel. This vomit is flammable.</description>
 		<iconPath>UI/Icons/Genes/AG_PukeChemfuel</iconPath>
 		<displayOrderInCategory>10</displayOrderInCategory>
-	
 		<exclusionTags>
 			<li>AG_VomitType</li>
 			<li>VomitType</li>
@@ -20,7 +19,6 @@
 				<li>
 					<symbol>chempuker</symbol>
 				</li>
-
 			</wholeNameSymbols>
 			<prefixSymbols>
 				<li>
@@ -32,21 +30,17 @@
 				<li>
 					<symbol>boom</symbol>
 				</li>
-
 			</prefixSymbols>
-
 		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<customVomitThingDef>AG_Filth_Fuel</customVomitThingDef>				
+				<customVomitThingDef>AG_Filth_Fuel</customVomitThingDef>
 				<customVomitEffect>AG_VomitFuel</customVomitEffect>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 	<GeneDef>
 		<defName>AG_BloodVomit</defName>
 		<label>blood vomit</label>
@@ -54,7 +48,6 @@
 		<description>Carriers of this gene will violently vomit blood instead of normal vomit. This will cause internal bleeding every time they vomit, causing cuts and bruises over their whole body.</description>
 		<iconPath>UI/Icons/Genes/AG_PukeBlood</iconPath>
 		<displayOrderInCategory>20</displayOrderInCategory>
-		
 		<exclusionTags>
 			<li>AG_VomitType</li>
 			<li>VomitType</li>
@@ -68,7 +61,6 @@
 				<li>
 					<symbol>bloodpuker</symbol>
 				</li>
-
 			</wholeNameSymbols>
 			<prefixSymbols>
 				<li>
@@ -77,21 +69,17 @@
 				<li>
 					<symbol>hemo</symbol>
 				</li>
-				
-
 			</prefixSymbols>
-
 		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<customVomitThingDef>Filth_Blood</customVomitThingDef>				
+				<customVomitThingDef>Filth_Blood</customVomitThingDef>
 				<customVomitEffect>AG_VomitBlood</customVomitEffect>
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_RatVomit</defName>
 		<label>rat vomit</label>
@@ -101,7 +89,6 @@
 		<displayOrderInCategory>30</displayOrderInCategory>
 		<customEffectDescriptions>
 			<li>This is understandably pretty traumatizing...</li>
-			
 		</customEffectDescriptions>
 		<exclusionTags>
 			<li>AG_VomitType</li>
@@ -116,25 +103,66 @@
 				<li>
 					<symbol>ratpuker</symbol>
 				</li>
-
 			</wholeNameSymbols>
 			<prefixSymbols>
 				<li>
 					<symbol>ratty</symbol>
 				</li>
-				
-
 			</prefixSymbols>
-
 		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<customVomitThingDef>AG_Filth_Rats</customVomitThingDef>				
-				
+				<customVomitThingDef>AG_Filth_Rats</customVomitThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
+	<GeneDef>
+		<defName>AG_PukeWater</defName>
+		<label>water vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene will vomit water instead of normal vomit.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeWater</iconPath>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>Filth_Water</customVomitThingDef>
+				<customVomitEffect>AG_VomitWater</customVomitEffect>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_PukeBile</defName>
+		<label>bile vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene will vomit corpse bile instead of normal vomit. This liquid is even more revolting than normal vomit.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeBile</iconPath>
+		<displayOrderInCategory>50</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>Filth_CorpseBile</customVomitThingDef>
+				<customVomitEffect>AG_VomitBile</customVomitEffect>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

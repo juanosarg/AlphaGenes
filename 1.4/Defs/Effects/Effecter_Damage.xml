@@ -184,7 +184,41 @@
   </EffecterDef>
   
   
-
+  <EffecterDef>
+    <defName>AG_Damage_HitWater</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.4</positionRadius>
+        <fleckDef>AirPuff</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.0~1.1</scale>
+        <color>(120, 18, 0)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.1</positionRadius>
+        <fleckDef>BloodSplash</fleckDef>
+        <burstCount>2~3</burstCount>
+        <scale>1.9~2.8</scale>
+        <color>(144, 149, 158)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.0</positionRadius>
+        <fleckDef>BodyImpact</fleckDef>
+        <burstCount>1</burstCount>
+        <scale>0.4</scale>
+        <color>(255, 120, 30, 60)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <offsetTowardsTarget>0.25~0.25</offsetTowardsTarget>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
  
 
 </Defs>

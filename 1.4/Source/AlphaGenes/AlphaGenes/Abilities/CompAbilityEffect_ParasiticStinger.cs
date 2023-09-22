@@ -92,7 +92,7 @@ namespace AlphaGenes
                 return false;
             }
 
-            if (pawn.genes?.HasGene(GeneDefOf.Deathless)==true)
+            if (pawn.HasActiveGene(GeneDefOf.Deathless))
             {
                 if (throwMessages)
                 {

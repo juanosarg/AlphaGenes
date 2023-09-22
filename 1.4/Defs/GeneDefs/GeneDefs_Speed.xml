@@ -69,4 +69,64 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_LightStriding</defName>
+		<label>light striding</label>
+		<description>Carriers of this gene move much faster when exposed to the light (50% lit or above), and slower in the dark.</description>
+		<iconPath>UI/Icons/Genes/AG_LightStrider</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>504</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Darkness">
+				<statFactors>
+					<MoveSpeed>0.5</MoveSpeed>
+				</statFactors>
+			</li>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_InLight">
+				<statFactors>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_NightStriding</defName>
+		<label>night striding</label>
+		<description>Carriers of this gene move much faster when under darkness (below 50% lit), and slower in the light.</description>
+		<iconPath>UI/Icons/Genes/AG_NightStrider</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>504</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_Darkness">
+				<statFactors>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+			<li Class="VanillaGenesExpanded.ConditionalStatAffecter_InLight">
+				<statFactors>
+					<MoveSpeed>0.5</MoveSpeed>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
