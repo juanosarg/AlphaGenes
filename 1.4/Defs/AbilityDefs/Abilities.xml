@@ -778,4 +778,29 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_TailGrapple</defName>
+		<label>tail grapple</label>
+		<description>Attack a target with a prehensile tail, grappling it and immobilizing it for a short time.</description>
+		<iconPath>UI/Abilities/AG_TailGrapple</iconPath>
+		
+		<cooldownTicksRange>6000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_TailGrapple</soundCast>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TailGrapple"/>
+		</comps>
+	</AbilityDef>
 </Defs>

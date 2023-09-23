@@ -312,6 +312,7 @@
     <Compile Include="Abilities\CompInsanityBlast.cs" />
     <Compile Include="Abilities\CompMechConversion.cs" />
     <Compile Include="Abilities\CompSummonScorpion.cs" />
+    <Compile Include="Abilities\CompTailGrapple.cs" />
     <Compile Include="Abilities\CompTempNode.cs" />
     <Compile Include="Abilities\CompTeratogenicHealing.cs" />
     <Compile Include="Abilities\CompTeratogenicHediff.cs" />
@@ -328,6 +329,7 @@
     <Compile Include="Abilities\Properties\CompProperties_GeneSyphon.cs" />
     <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
     <Compile Include="Abilities\MineralOverdrive.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_TailGrapple.cs" />
     <Compile Include="Abilities\Properties\CompProperties_TempNode.cs" />
     <Compile Include="Abilities\Properties\CompProperties_InsanityBlast.cs" />
     <Compile Include="Abilities\Properties\CompProperties_MechConversion.cs" />
@@ -386,6 +388,7 @@
     <Compile Include="Defs\WretchBlacklistDef.cs" />
     <Compile Include="Defs\BlackListedAnimalsDef.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
+    <Compile Include="GameComponent\GameComponent_RandomMood.cs" />
     <Compile Include="Gas and Liquid\Rat_Spawning_Filth.cs" />
     <Compile Include="Gas and Liquid\Persistant_Fuel.cs" />
     <Compile Include="Gene Classes\Gene_Mechanitor.cs" />
@@ -459,6 +462,7 @@
     <Compile Include="ThingSetMakers\ThingSetMaker_Rats.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_BloodsuckerDistrust.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_EldritchVisage.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_Mood_Volatile.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_Thalassophobia.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_UnsettlingAppearance.cs" />
     <Compile Include="Utils\Utils.cs" />

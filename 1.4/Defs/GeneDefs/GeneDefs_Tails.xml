@@ -60,15 +60,16 @@
 	<GeneDef ParentName="GeneTailBase">
 		<defName>AG_Drakonori_Tail</defName>
 		<label>drakonori tail</label>
-		<description>Carriers of this gene grow a large draconic tail which can act as a dexterous fifth limb.</description>
+		<description>Carriers of this gene grow a large draconic tail which can be used to grapple and immobilize a target.</description>
 		<iconPath>UI/Icons/Genes/AG_Drakonori_Tail</iconPath>
 		<displayOrderInCategory>1003</displayOrderInCategory>
-		<capMods>
-			<li>
-				<capacity>Manipulation</capacity>
-				<offset>0.05</offset>
-			</li>
-		</capMods>
+		<abilities>
+			<li>AG_TailGrapple</li>
+		</abilities>
+		
+		<descriptionHyperlinks>
+			<AbilityDef>AG_TailGrapple</AbilityDef>
+		</descriptionHyperlinks>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>

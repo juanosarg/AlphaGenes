@@ -7,7 +7,6 @@
 		<description>Carriers of this gene produce a pigment that gives their skin a deep green color.</description>
 		<skinColorOverride>(2,91,19)</skinColorOverride>
 		<displayOrderInCategory>101</displayOrderInCategory>
-		
 		<symbolPack>
 			<wholeNameSymbols>
 				<li>
@@ -37,7 +36,6 @@
 		<description>Carriers of this gene produce a pigment that gives their skin a green, plant-like colour.</description>
 		<skinColorOverride>(108, 137, 89)</skinColorOverride>
 		<displayOrderInCategory>101.5</displayOrderInCategory>
-		
 		<symbolPack>
 			<wholeNameSymbols>
 				<li>
@@ -99,7 +97,6 @@
 				<li>
 					<symbol>purp</symbol>
 				</li>
-				
 			</prefixSymbols>
 		</symbolPack>
 	</GeneDef>
@@ -123,6 +120,20 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_Drakonori_PaleRed</defName>
+		<label>very pale red skin</label>
+		<description>Carriers of this gene produce a pigment that turns their skin a pale red color.</description>
+		<skinColorOverride>(242, 194, 194)</skinColorOverride>
+		<displayOrderInCategory>103.91</displayOrderInCategory>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_Drakonori_PaleBlue</defName>
+		<label>very pale blue skin</label>
+		<description>Carriers of this gene produce a pigment that turns their skin a pale blue color.</description>
+		<skinColorOverride>(194, 233, 242)</skinColorOverride>
+		<displayOrderInCategory>103.92</displayOrderInCategory>
 	</GeneDef>
 	<GeneDef ParentName="GeneSkinColorOverride">
 		<defName>AG_Skin_Silver</defName>
@@ -160,17 +171,15 @@
 			<li>AG_Male_Silver_Narrow_Normal</li>
 			<li>AG_Male_Silver_Narrow_Pointy</li>
 			<li>AG_Male_Silver_Narrow_Wide</li>
-			
 		</forcedHeadTypes>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>								
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneSkinColorOverride">
 		<defName>AG_Skin_Gold</defName>
 		<label>golden skin</label>
@@ -215,17 +224,15 @@
 			<li>AG_Male_Golden_Narrow_Normal</li>
 			<li>AG_Male_Golden_Narrow_Pointy</li>
 			<li>AG_Male_Golden_Narrow_Wide</li>
-			
 		</forcedHeadTypes>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>								
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneSkinColorOverride">
 		<defName>AG_Skin_TrueBlack</defName>
 		<label>deep black skin</label>
@@ -274,15 +281,13 @@
 			<li>AG_Male_TrueBlack_Narrow_Normal</li>
 			<li>AG_Male_TrueBlack_Narrow_Pointy</li>
 			<li>AG_Male_TrueBlack_Narrow_Wide</li>
-			
 		</forcedHeadTypes>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>								
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 </Defs>

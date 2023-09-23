@@ -4,7 +4,7 @@
 		<defName>AG_SmokeProducer</defName>
 		<label>smoke producer</label>
 		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
-		<description>The carrier of this gene will periodically exhale clouds of dense smoke, providing a deterence to ranged attacks, both against them and produced by them.</description>
+		<description>The carrier of this gene will periodically exhale clouds of dense smoke, providing a deterrent to ranged attacks, both against them and produced by them.</description>
 		<iconPath>UI/Icons/Genes/AG_SmokeProducer</iconPath>		
 		<biostatCpx>2</biostatCpx>
 		<biostatMet>-1</biostatMet>		
@@ -24,7 +24,7 @@
 		<defName>AG_RotStinkProducer</defName>
 		<label>rot stink producer</label>
 		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
-		<description>The carrier of this gene will periodically exhale clouds of rot stink. Nasty!.</description>
+		<description>The carrier of this gene will periodically exhale clouds of rot stink. Nasty!</description>
 		<iconPath>UI/Icons/Genes/AG_StinkrotProducer</iconPath>		
 		<biostatCpx>2</biostatCpx>
 		<customEffectDescriptions>

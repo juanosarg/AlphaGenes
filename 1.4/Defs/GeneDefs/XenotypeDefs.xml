@@ -265,6 +265,11 @@
 			<li>AptitudeTerrible_Medicine</li>
 			<li>AG_HardBones</li>
 			<li>Beard_NoBeardOnly</li>
+			<li>AG_Skin_Drakonori_PaleRed</li>		
+			<li>AG_Skin_Drakonori_PaleBlue</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+
 			
 		</genes>
 	</XenotypeDef>

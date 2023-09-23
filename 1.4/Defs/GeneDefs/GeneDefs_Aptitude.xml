@@ -2,7 +2,7 @@
 <Defs>
 	<GeneTemplateDef Name="AG_GeneAptitudeBase" Abstract="True">
 		<geneClass>Gene</geneClass>
-		<displayCategory>Aptitudes</displayCategory>
+		<displayCategory>AG_AptitudeModifier</displayCategory>
 	</GeneTemplateDef>
 	<GeneDef ParentName="AG_GeneAptitudeBase">
 		<defName>AG_MiningYield_High</defName>

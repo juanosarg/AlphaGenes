@@ -10,7 +10,6 @@
 		<label>gender</label>
 		<displayPriorityInXenotype>516.69</displayPriorityInXenotype>
 	</GeneCategoryDef>
-	
 	<GeneCategoryDef>
 		<defName>AG_BodySize</defName>
 		<label>body size</label>
@@ -108,5 +107,10 @@
 		<label>mechanitor</label>
 		<displayPriorityInXenotype>517.6</displayPriorityInXenotype>
 		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
+	</GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>AG_AptitudeModifier</defName>
+		<label>aptitudes - miscellaneous</label>
+		<displayPriorityInXenotype>199</displayPriorityInXenotype>
 	</GeneCategoryDef>
 </Defs>

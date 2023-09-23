@@ -49,6 +49,9 @@
 		<statOffsets>
 			<ArrestSuccessChance>0.4</ArrestSuccessChance>
 		</statOffsets>
+		<customEffectDescriptions>
+			<li>No metabolism cost because its effect is pretty minor. "But then I can add it to any xenotypes I make for free!". Yes, yes you can. Is that funny for you, or are you just bitching because you are a boring dumbass? Gods, I hate you so much, Mr. Strawman...</li>
+		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

@@ -33,6 +33,7 @@
 	<AG_CantSpawnThere>Can't create temporary node there</AG_CantSpawnThere>
 	<AG_OnlyOnFriendlyMechs>{0} is not a colony mech, this will only work on player owned mechs</AG_OnlyOnFriendlyMechs>
 	<AG_NotOnAndroids>This ability doesn't work on androids</AG_NotOnAndroids>
+	<AG_TargetTooBig>This target is too big for a tail grapple</AG_TargetTooBig>
 	<AG_Hybrid>Hybrid</AG_Hybrid>
 	<!-- Settings -->
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
