@@ -45,6 +45,7 @@ namespace AlphaGenes
         public static GeneDef AG_ExpertMechRepair;
         public static GeneDef AG_Rowdy;
         public static GeneDef AG_VolatileMood;
+        public static GeneDef AG_PsychicRemapping;
 
         public static GeneDef AG_MinorAnimalSummon_Randomizer;
         public static GeneDef AG_AnimalSummon_Randomizer;
