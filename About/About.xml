@@ -1,6 +1,6 @@
 <ModMetaData>
 	<name>Alpha Genes</name>
-	<author>Allie, Sarg</author>
+	<author>Allie, Erin, Sarg</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
@@ -40,7 +40,7 @@
 &lt;size=24&gt;Features&lt;/size&gt;
 
 - More than 200 new genes. Some are very low impact, while some are truly game changing.
-- 11 new xenotypes with wild mechanics.
+- 12 new xenotypes with wild mechanics.
 - A new "Custom random" xenotype that allows you to make new player created xenotypes, and have them loaded into two new custom factions.
 - Abandoned Biotech labs quests, similar to the ones in VE Genetics, that give access to all the new genes during play.
 - Genetic tools that allow you to tweak your colonists' genes. Obtainable through lab quests or normal quest rewards.
