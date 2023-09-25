@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeIconDef>
+		<defName>AG_CustomXenotypeIconMO</defName>
+		<texPath>UI/Icons/Xenotypes/AG_RoxTouched</texPath>
+	</XenotypeIconDef>
+
+</Defs>

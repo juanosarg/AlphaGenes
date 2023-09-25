@@ -239,7 +239,7 @@
 		<defName>AG_Drakonori</defName>
 		<label>drakonori</label>
 		<description>An attempt to create a xenotype of beautiful, harmless and subservient people, during the final synthesis of the genes one of the involved scientists failed to notice that his pet bearded lizard had shed its skin inside of the vat. Upon the first official synthesis, the subject demonstrated impeccable strength and perception, while retaining their otherworldly beauty. Essentially she was as likely to embrace you as much as she would eat your face.</description>
-		<descriptionShort>A xenotype of beautiful draconic people. Usually understimated by their enemies, as their physical appearance makes them seem less threatening that they really are.</descriptionShort>
+		<descriptionShort>A xenotype of beautiful draconic people. Usually underestimated by their enemies, as their physical appearance makes them seem less threatening that they really are.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/AG_Drakonori</iconPath>
 		<inheritable>true</inheritable>
 		<combatPowerFactor>1.2</combatPowerFactor>

@@ -39,8 +39,8 @@
 
 &lt;size=24&gt;Features&lt;/size&gt;
 
-- More than 200 new genes. Some are very low impact, while some are truly game changing.
-- 12 new xenotypes with wild mechanics.
+- More than 250 new genes. Some are very low impact, while some are truly game changing.
+- 13 new xenotypes with wild mechanics.
 - A new "Custom random" xenotype that allows you to make new player created xenotypes, and have them loaded into two new custom factions.
 - Abandoned Biotech labs quests, similar to the ones in VE Genetics, that give access to all the new genes during play.
 - Genetic tools that allow you to tweak your colonists' genes. Obtainable through lab quests or normal quest rewards.
@@ -55,6 +55,7 @@ Oh you can bet I will add new things!
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.8: Added two new xenotypes, the Rox-touched (require medieval Overhaul) and the Drakonori, as well as around 30 new genes (25/09/23)
 v1.7: Mechanitor and Android genes (24/05/23)
 v1.6: Added a new xenotype, the Malachai, when Vanilla Races Expanded - Sanguophages is installed too (17/04/23)
 v1.5: Added a new xenotype, the Ocularkin, when Vanilla Races Expanded - Phytokin is installed too (03/02/23)
