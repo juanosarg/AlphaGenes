@@ -1,23 +1,15 @@
 <loadFolders>
-	
-	
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>
-		<li IfModActive="sarg.alphabiomes">1.4/Mods/AlphaBiomes</li>	
-		<li IfModActive="sarg.alphabiomes_copy">1.4/Mods/AlphaBiomes</li>
-		<li IfModActive="sarg.alphaanimals">1.4/Mods/AlphaAnimals</li>	
-		<li IfModActive="sarg.alphaanimals_copy">1.4/Mods/AlphaAnimals</li>
-		<li IfModActive="Ludeon.RimWorld.Royalty">1.4/Mods/Royalty</li>	
-		<li IfModActive="OskarPotocki.VFE.Insectoid">1.4/Mods/VanillaInsectoidsExpanded</li>	
-		<li IfModActive="OskarPotocki.VFE.Insectoid_copy">1.4/Mods/VanillaInsectoidsExpanded</li>
-		<li IfModActive="vanillaracesexpanded.phytokin">1.4/Mods/VanillaRacesExpandedPhytokin</li>	
-		<li IfModActive="vanillaracesexpanded.phytokin_copy">1.4/Mods/VanillaRacesExpandedPhytokin</li>
-		<li IfModActive="vanillaracesexpanded.sanguophage">1.4/Mods/VanillaRacesExpandedSanguophage</li>	
-		<li IfModActive="vanillaracesexpanded.sanguophage_copy">1.4/Mods/VanillaRacesExpandedSanguophage</li>
-		<li IfModActive="vanillaracesexpanded.android">1.4/Mods/VanillaRacesExpandedAndroid</li>	
-		<li IfModActive="vanillaracesexpanded.android_copy">1.4/Mods/VanillaRacesExpandedAndroid</li>
-		
+		<li IfModActive="sarg.alphabiomes">1.4/Mods/AlphaBiomes</li>
+		<li IfModActive="sarg.alphaanimals">1.4/Mods/AlphaAnimals</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.4/Mods/Royalty</li>
+		<li IfModActive="OskarPotocki.VFE.Insectoid">1.4/Mods/VanillaInsectoidsExpanded</li>
+		<li IfModActive="vanillaracesexpanded.phytokin">1.4/Mods/VanillaRacesExpandedPhytokin</li>
+		<li IfModActive="vanillaracesexpanded.sanguophage">1.4/Mods/VanillaRacesExpandedSanguophage</li>
+		<li IfModActive="vanillaracesexpanded.android">1.4/Mods/VanillaRacesExpandedAndroid</li>
+		<li IfModActive="DankPyon.Medieval.Overhaul">1.4/Mods/MedievalOverhaul</li>
 	</v1.4>
 </loadFolders>
 
