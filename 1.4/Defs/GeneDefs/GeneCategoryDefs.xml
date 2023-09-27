@@ -111,6 +111,6 @@
 	<GeneCategoryDef>
 		<defName>AG_AptitudeModifier</defName>
 		<label>aptitudes - miscellaneous</label>
-		<displayPriorityInXenotype>199</displayPriorityInXenotype>
+		<displayPriorityInXenotype>199.69</displayPriorityInXenotype>
 	</GeneCategoryDef>
 </Defs>
