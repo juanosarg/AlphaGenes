@@ -10,6 +10,7 @@
 		<li IfModActive="vanillaracesexpanded.sanguophage">1.4/Mods/VanillaRacesExpandedSanguophage</li>
 		<li IfModActive="vanillaracesexpanded.android">1.4/Mods/VanillaRacesExpandedAndroid</li>
 		<li IfModActive="DankPyon.Medieval.Overhaul">1.4/Mods/MedievalOverhaul</li>
+		<li IfModActive="vanillaracesexpanded.fungoid">1.4/Mods/VanillaRacesExpandedFungoid</li>
 	</v1.4>
 </loadFolders>
 

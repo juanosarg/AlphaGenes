@@ -9,7 +9,6 @@
 			<drawLoc>Tailbone</drawLoc>
 		</graphicData>
 	</GeneDef>
-
 	<GeneDef>
 		<defName>AG_HeavilyScarred</defName>
 		<label>heavily scarred</label>
@@ -42,7 +41,6 @@
 		<displayCategory>Cosmetic</displayCategory>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -73,7 +71,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="AG_MiscBase">
 		<defName>AG_CrabClaw</defName>
 		<label>crab claw</label>
@@ -84,7 +81,7 @@
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<customEffectDescriptions>
-			<li>Why? Because.</li>		
+			<li>Why? Because.</li>
 		</customEffectDescriptions>
 		<symbolPack>
 			<prefixSymbols>
@@ -112,15 +109,12 @@
 						<hediff>AG_CrabClaw</hediff>
 						<bodyparts>
 							<li>Arm</li>
-							
 						</bodyparts>
 					</li>
 				</hediffsToBodyParts>
 			</li>
 		</modExtensions>
 	</GeneDef>
-
-
 	<GeneDef>
 		<defName>AG_BodyTentacles</defName>
 		<label>body tentacles</label>
@@ -161,16 +155,13 @@
 			<drawLoc>Tailbone</drawLoc>
 			<colorType>Skin</colorType>
 		</graphicData>
-
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 	<GeneDef>
 		<defName>AG_Proboscis</defName>
 		<label>proboscis</label>
@@ -194,7 +185,6 @@
 				<li>
 					<symbol>moskit</symbol>
 				</li>
-
 			</prefixSymbols>
 		</symbolPack>
 		<modExtensions>
@@ -204,11 +194,124 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-
-
-
-
-
-
-
+	<GeneDef>
+		<defName>AG_FungalClumps</defName>
+		<label>fungal clumps</label>
+		<description>Carriers of this gene have overgrown toxic fungi growing from their torso. These fungi are so virulent that they will even grow over armors.</description>
+		<iconPath>UI/Icons/Genes/AG_FungalClumps</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fung</symbol>
+				</li>
+				<li>
+					<symbol>mush</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>room</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalClumps/AG_FungalClumps</graphicPath>
+			<drawScale>1.25</drawScale>
+			
+			<drawLoc>Tailbone</drawLoc>
+		<drawOffsetNorth>(0, 0.02, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FungalSprout</defName>
+		<label>fungal sprout</label>
+		<description>Carriers of this gene have a strain of virulent fungi on their blood that has burst through their upper torso, creating blood filled postules.</description>
+		<iconPath>UI/Icons/Genes/AG_FungalSprout</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fung</symbol>
+				</li>
+				<li>
+					<symbol>mush</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>room</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalSprout/AG_FungalSprout</graphicPath>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
+			<drawLoc>Tailbone</drawLoc>
+		
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FungalTentacles</defName>
+		<label>fungal tentacles</label>
+		<description>Carriers of this gene have a strain of virulent fungi that has braided itself into sickly looking tentacles that constantly twitch and move.</description>
+		<iconPath>UI/Icons/Genes/AG_FungalTentacles</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fung</symbol>
+				</li>
+				<li>
+					<symbol>mush</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>room</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalTentacles/AG_FungalTentacles</graphicPath>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
+			<drawLoc>Tailbone</drawLoc>
+		
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

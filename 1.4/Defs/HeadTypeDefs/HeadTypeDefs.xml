@@ -488,4 +488,24 @@
 		<gender>Male</gender>
 	</HeadTypeDef>
 	
+	<!-- Very gaunt -->
+	
+	<HeadTypeDef Name="AG_VeryGauntBase" ParentName="AverageBase" Abstract="True">
+		<selectionWeight>100000</selectionWeight>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>AG_VeryGauntHead</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_VeryGauntBase">
+		<defName>AG_Female_VeryGaunt</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_VeryGaunt/AG_Female_VeryGaunt</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_VeryGauntBase">
+		<defName>AG_Male_VeryGaunt</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_VeryGaunt/AG_Male_VeryGaunt</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	
 </Defs>

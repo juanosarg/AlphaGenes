@@ -136,6 +136,13 @@
 		<displayOrderInCategory>103.92</displayOrderInCategory>
 	</GeneDef>
 	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_Skin_Rot</defName>
+		<label>rotten skin</label>
+		<description>Carriers of this gene have rotten, sickly looking skin.</description>
+		<skinColorOverride>(102, 91, 85)</skinColorOverride>
+		<displayOrderInCategory>103.93</displayOrderInCategory>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
 		<defName>AG_Skin_Silver</defName>
 		<label>Silver skin</label>
 		<labelShortAdj>Silver</labelShortAdj>

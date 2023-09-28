@@ -264,6 +264,24 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_VeryGauntHead</defName>
+		<label>very gaunt head</label>
+		<description>Carriers of this gene have an extremely rotted, gaunt appearance in their face and head.</description>
+		<selectionWeight>0</selectionWeight>
+		<iconPath>UI/Icons/Genes/AG_VeryGauntHead</iconPath>
+		<forcedHeadTypes>
+			<li>AG_Female_VeryGaunt</li>
+			<li>AG_Male_VeryGaunt</li>			
+		</forcedHeadTypes>
+		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	<!--<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_MimeHead</defName>
 		<label>mime head</label>

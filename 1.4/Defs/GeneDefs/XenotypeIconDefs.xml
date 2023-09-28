@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<XenotypeIconDef>
 		<defName>AG_CustomXenotypeIcon1</defName>
 		<texPath>UI/Icons/Xenotypes/AG_Fleetkind</texPath>
@@ -45,5 +44,16 @@
 		<defName>AG_CustomXenotypeIcon11</defName>
 		<texPath>UI/Icons/Xenotypes/AG_Drakonori</texPath>
 	</XenotypeIconDef>
-
+	<XenotypeIconDef>
+		<defName>AG_CustomXenotypeIcon12</defName>
+		<texPath>UI/Icons/Xenotypes/AG_Mycomorph</texPath>
+	</XenotypeIconDef>
+	<XenotypeIconDef>
+		<defName>AG_CustomXenotypeIconMO</defName>
+		<texPath>UI/Icons/Xenotypes/AG_RoxTouched</texPath>
+	</XenotypeIconDef>
+	<XenotypeIconDef>
+		<defName>AG_CustomXenotypeIconPhy</defName>
+		<texPath>UI/Icons/Xenotypes/AG_OcularKin</texPath>
+	</XenotypeIconDef>
 </Defs>
