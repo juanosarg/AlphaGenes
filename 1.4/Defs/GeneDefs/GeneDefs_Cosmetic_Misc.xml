@@ -237,7 +237,7 @@
 	<GeneDef>
 		<defName>AG_FungalSprout</defName>
 		<label>fungal sprout</label>
-		<description>Carriers of this gene have a strain of virulent fungi on their blood that has burst through their upper torso, creating blood filled postules.</description>
+		<description>Carriers of this gene have a strain of virulent fungi on their blood that has burst through their upper torso, creating blood filled pustules.</description>
 		<iconPath>UI/Icons/Genes/AG_FungalSprout</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>Miscellaneous</displayCategory>
