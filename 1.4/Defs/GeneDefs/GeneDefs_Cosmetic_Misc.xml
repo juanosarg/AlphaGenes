@@ -197,7 +197,7 @@
 	<GeneDef>
 		<defName>AG_FungalClumps</defName>
 		<label>fungal clumps</label>
-		<description>Carriers of this gene have overgrown toxic fungi growing from their torso. These fungi are so virulent that they will even grow over armors.</description>
+		<description>Carriers of this gene have overgrown toxic fungi growing from their torso. These fungi are so virulent that they will even grow over light clothing and armors.</description>
 		<iconPath>UI/Icons/Genes/AG_FungalClumps</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>Miscellaneous</displayCategory>

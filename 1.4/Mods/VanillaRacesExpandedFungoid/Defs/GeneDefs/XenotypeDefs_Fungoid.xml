@@ -47,6 +47,9 @@
 			<li>AG_FungalClumps</li>
 			<li>AG_FungalSprout</li>
 			<li>AG_FungalTentacles</li>
+			
+			<li>AlphaGenes_FungalStrength</li>
+			<li>AlphaGenes_FungalSpeed</li>
 		</genes>
 	</XenotypeDef>
 	
