@@ -4,7 +4,7 @@
 		<defName>AG_Mycormorph</defName>
 		<label>mycomorph</label>
 		<description>The result of ancient victims of the fungoid military bioweapons project, mycomorphs have been subjected to a specially virulent strain of the virus, which causes their bodies to rot and become infused with extense mycelial networks. Mycomorphs constantly secrete a foul smelling gas and have a similarly rotten disposition, tending to act aggressively towards others. A controlled mycomorph can be a huge combat asset, or a dangerous potential threat to the rest of the colony.</description>
-		<descriptionShort>Victims of a more virulent strain of the fungoid virus. Violent, very dangerous, both to other mycomorphs but specially to other xenotypes around them, as they can infect them via malee attacks, and they love to fight others.</descriptionShort>
+		<descriptionShort>Victims of a more virulent strain of the fungoid virus. Violent, very dangerous, both to other mycomorphs but specially to other xenotypes around them, as they can infect them via melee attacks, and they love to fight others.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/AG_Mycomorph</iconPath>
 	
 		<inheritable>false</inheritable>
