@@ -170,7 +170,7 @@
 		<label>xenotype nullifier</label>
 		<description>A genetic toolkit capable of forcefully removing all xenotype genes from the target, reverting them to baseline humanity. As a result, the target will drop into a coma for 3 days. Using the nullifier on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
-			<texPath>Things/Item/AG_Xenogenefier</texPath>
+			<texPath>Things/Item/AG_XenotypeNullifier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stackLimit>1</stackLimit>
@@ -222,7 +222,7 @@
 		<label>germline mutator</label>
 		<description>A genetic toolkit capable of causing random genetic mutations on the subject's germline, producing one random endogene. As a result, the target will drop into a coma for 3 days. Using the mutator on a colonist suffering from the coma will have no effect.</description>
 		<graphicData>
-			<texPath>Things/Item/AG_Xenogenefier</texPath>
+			<texPath>Things/Item/AG_GermlineMutator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stackLimit>1</stackLimit>
