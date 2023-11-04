@@ -9,6 +9,7 @@
 			<value>
 				<nullifyingGenes>
 					<li>AG_LungRotImmunity</li>
+					<li>AG_LungRotStrength</li>
 					
 				</nullifyingGenes>
 			</value>
@@ -17,6 +18,7 @@
 			<xpath>/Defs/ThoughtDef[defName = "RotStink"]/nullifyingGenes</xpath>
 			<value>
 				<li>AG_LungRotImmunity</li>
+				<li>AG_LungRotStrength</li>
 					
 			</value>
 		</match>
