@@ -52,6 +52,33 @@
 		</addedPartProps>
 	</HediffDef>
 	<HediffDef>
+		<defName>AG_ScytherHands</defName>
+		<label>scyther blade</label>
+		<description>A sharp scyther blade.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>scyther blade</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>1.3</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<HediffDef>
 		<defName>AG_ClawedHands</defName>
 		<label>clawed hand</label>
 		<description>Clawed hands that can be used as a fast melee attack.</description>

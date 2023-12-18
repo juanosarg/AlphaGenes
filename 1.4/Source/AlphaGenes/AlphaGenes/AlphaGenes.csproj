@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
-	<LangVersion>8</LangVersion>
+    <LangVersion>8</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
@@ -23,7 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-	<LangVersion>8</LangVersion>
+    <LangVersion>8</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -33,7 +33,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-	<LangVersion>8</LangVersion>
+    <LangVersion>8</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.2.2.0, Culture=neutral, processorArchitecture=MSIL">
@@ -388,6 +388,7 @@
     <Compile Include="Comps\CompTempNodeBuilding.cs" />
     <Compile Include="DefModExtensions\SummoningGeneDefExtension.cs" />
     <Compile Include="Defs\AnimalGeneTemplateDef.cs" />
+    <Compile Include="Defs\GenePackBlacklistDef.cs" />
     <Compile Include="Defs\WretchBlacklistDef.cs" />
     <Compile Include="Defs\BlackListedAnimalsDef.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />

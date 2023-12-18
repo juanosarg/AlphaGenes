@@ -13,6 +13,7 @@
 			<meatMarketValue>0.5</meatMarketValue>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			 <MeatAmount>10</MeatAmount>
 		</race>
 		<ingredient>
 			<mergeCompatibilityTags>

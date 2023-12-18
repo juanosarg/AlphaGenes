@@ -62,7 +62,7 @@
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<customEffectDescriptions>
-			<li>A random wound is reduced by 0.1 severity every 250 ticks (aprox. 4 seconds).</li>
+			<li>A random wound is reduced by 0.1 severity every 2500 ticks (1 ingame hour).</li>
 		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
@@ -87,7 +87,7 @@
 		<biostatCpx>5</biostatCpx>
 		<biostatMet>-6</biostatMet>
 		<customEffectDescriptions>
-			<li>Every pawn of the player faction in a radius of 5 tiles will get a random wound reduced by 0.1 severity every 300 ticks (5 seconds).</li>
+			<li>Every pawn of the player faction in a radius of 5 tiles will get a random wound reduced by 0.1 severity every 1250 ticks (1/2 ingame hour).</li>
 		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>

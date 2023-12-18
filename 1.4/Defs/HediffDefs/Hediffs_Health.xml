@@ -11,7 +11,7 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_Regeneration">
-				<rateInTicks>10</rateInTicks>
+				<rateInTicks>300</rateInTicks>
 			</li>
 		</comps>
 	</HediffDef>
@@ -25,7 +25,7 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_Regeneration">
-				<rateInTicks>250</rateInTicks>
+				<rateInTicks>2500</rateInTicks>
 			</li>
 		</comps>
 	</HediffDef>
@@ -41,7 +41,7 @@
 			<li Class="AnimalBehaviours.HediffCompProperties_PassiveRegenerator">
 				<radius>5</radius>
 				<needsToBeTamed>true</needsToBeTamed>
-				<tickInterval>300</tickInterval>
+				<tickInterval>1250</tickInterval>
 			</li>
 		</comps>
 	</HediffDef>

@@ -72,6 +72,45 @@
 		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="AG_MiscBase">
+		<defName>AG_ScytherHands</defName>
+		<label>scyther hands</label>
+		<description>Carriers of this gene have scyther blades on their arms. These are not implants, but a biomechanical adaptation that has fused mechanites with the carrier's DNA to create the blades out of their own bone tissues. They don't completely replace the hands, so the carrier keeps their manipulation capacities mostly intact.</description>
+		<iconPath>UI/Icons/Genes/AG_ScytherHandsIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>scythe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_ScytherHands/AG_ScytherHands</graphicPath>
+			<drawScale>1</drawScale>
+			<drawOffsetNorth>(0, -0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_ScytherHands</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_MiscBase">
 		<defName>AG_CrabClaw</defName>
 		<label>crab claw</label>
 		<description>Carriers of this gene have one of their arms mutated into a gigantic crab claw. This claw is surprisingly dexterous and doesn't impede the person's manipulation.</description>

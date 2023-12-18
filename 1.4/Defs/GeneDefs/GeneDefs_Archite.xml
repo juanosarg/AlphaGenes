@@ -100,7 +100,7 @@
 		<biostatCpx>5</biostatCpx>
 		<biostatMet>-4</biostatMet>
 		<customEffectDescriptions>
-			<li>A random wound is reduced by 0.1 severity every 10 ticks (1/6th of a second).</li>
+			<li>A random wound is reduced by 0.1 severity every 300 ticks (5 real world seconds).</li>
 		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>

@@ -16,8 +16,9 @@ namespace AlphaGenes
 	[HarmonyPatch("PostMake")]
 	public static class AlphaGenes_Genepack_PostMake_Patch
 	{
+        public static List<GeneDef> blacklist = new List<GeneDef>();
 
-		private static readonly AlphaGeneCount[] AlphaGeneCountProbabilities;
+        private static readonly AlphaGeneCount[] AlphaGeneCountProbabilities;
 		private static readonly MixedGeneCount[] MixedGeneCountProbabilities;
 
 		static AlphaGenes_Genepack_PostMake_Patch(){
@@ -111,6 +112,19 @@ namespace AlphaGenes
 			MixedGeneCountProbabilities = array2;
 
 		}
+		public static void GenerateBlacklist()
+		{
+            List<GenePackBlacklistDef> allBlacklistedGenes = DefDatabase<GenePackBlacklistDef>.AllDefsListForReading;
+            foreach (GenePackBlacklistDef individualList in allBlacklistedGenes)
+            {
+                if (!individualList.blackListedGenes.NullOrEmpty())
+                {
+                    blacklist.AddRange(individualList.blackListedGenes);
+                }
+    
+            }
+        }
+        
 
 
 		[HarmonyPostfix]
@@ -119,7 +133,9 @@ namespace AlphaGenes
         {
            if(__instance.def == InternalDefOf.AG_Alphapack)
             {
-				GeneSet geneSet = new GeneSet();
+				GenerateBlacklist();
+
+                GeneSet geneSet = new GeneSet();
 				
 				Rand.PushState(GenTicks.TicksGame);
 				AlphaGeneCount geneCount = AlphaGeneCountProbabilities.RandomElementByWeight((AlphaGeneCount x) => x.chance);
@@ -132,7 +148,7 @@ namespace AlphaGenes
 				}
 				for (int j = 0; j < geneCount.alphaCount; j++)
 				{				
-						geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_") && x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation")==false).RandomElement());				
+						geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_") && x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation")==false && !blacklist.Contains(x)).RandomElement());				
 				}
 				GenerateName(geneSet, InternalDefOf.AG_NamerAlphapack);
 				Rand.PopState();
@@ -144,7 +160,9 @@ namespace AlphaGenes
 				___geneSet = geneSet;
 			}else if (__instance.def == InternalDefOf.AG_Mixedpack)
 			{
-				GeneSet geneSet = new GeneSet();
+				GenerateBlacklist();
+
+                GeneSet geneSet = new GeneSet();
 				
 				Rand.PushState(GenTicks.TicksGame);
 				MixedGeneCount geneCount = MixedGeneCountProbabilities.RandomElementByWeight((MixedGeneCount x) => x.chance);
@@ -165,7 +183,7 @@ namespace AlphaGenes
 
 				for (int j = 0; j < geneCount.alphaCount; j++)
 				{
-					geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_") && x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false).RandomElement());
+					geneSet.AddGene(DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("AG_") && x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false && !blacklist.Contains(x)).RandomElement());
 				}
 				GenerateName(geneSet, InternalDefOf.AG_NamerMixedpack);
 				Rand.PopState();
