@@ -73,7 +73,7 @@
 	</GeneDef>
 	<GeneDef ParentName="AG_MiscBase">
 		<defName>AG_ScytherHands</defName>
-		<label>scyther hands</label>
+		<label>scyther blades</label>
 		<description>Carriers of this gene have scyther blades on their arms. These are not implants, but a biomechanical adaptation that has fused mechanites with the carrier's DNA to create the blades out of their own bone tissues. They don't completely replace the hands, so the carrier keeps their manipulation capacities mostly intact.</description>
 		<iconPath>UI/Icons/Genes/AG_ScytherHandsIcon</iconPath>
 		<biostatCpx>1</biostatCpx>

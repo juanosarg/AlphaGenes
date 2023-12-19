@@ -116,7 +116,7 @@
 	</GeneDef>
 	<GeneDef ParentName="AG_WeatherCausersBase">
 		<defName>AG_RainyThunderstormMaker</defName>
-		<label>rainy thunderstorm maker</label>
+		<label>rainy thundermaker</label>
 		
 		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically increasing electrostatic energy and lowering atmospheric pressure, causing a violent rainy thunderstorm to form.</description>
 		<iconPath>UI/Icons/Genes/AG_RainyThunderstormMaker</iconPath>
@@ -155,14 +155,14 @@
 	</GeneDef>
 	<GeneDef ParentName="AG_WeatherCausersBase">
 		<defName>AG_DryThunderstormMaker</defName>
-		<label>dry thunderstorm maker</label>
+		<label>thundermaker</label>
 		
 		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically increasing electrostatic energy in the atmosphere, causing a violent dry thunderstorm to form. This does not make the carrier immune to lightning strikes!</description>
 		<iconPath>UI/Icons/Genes/AG_DryThunderstormMaker</iconPath>
 		<customEffectDescriptions>
 			<li>Causes dry thunderstorm weather to be always present around this person</li>
 			<li>I hope you like fire!</li>
-			<li>In classic RimWorld shenanigans, fires will eventually trigger rain, which will eventually turn again into a dry thunderstorm, in a neverending circle of fuckery. Ahhh, nature!</li>
+			<li>In classic RimWorld shenanigans, fires will eventually trigger rain, which will eventually turn again into a dry thunderstorm, in a never ending circle of fuckery. Ahhh, nature!</li>
 		</customEffectDescriptions>
 		<biostatCpx>3</biostatCpx>
 		<symbolPack>

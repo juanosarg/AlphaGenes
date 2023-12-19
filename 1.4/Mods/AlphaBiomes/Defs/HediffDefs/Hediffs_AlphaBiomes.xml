@@ -8,7 +8,7 @@
 	<HediffDef>
 		<defName>AG_RedFogger</defName>
 		<label>red fogger</label>
-		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of warping space via a psychic pinhole, causing an extradimensional red fog to coalesce around the carrier.</description>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of warping space via a psychic pinhole, causing an extradimensional red fog to coalesce around the carrier.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -19,6 +19,62 @@
 			</li>
 		</comps>
 
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VolcanicAshMaker</defName>
+		<label>ashmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of attracting the ashy cinders of close volcanoees, causing volcanic ash to fall, sometimes along with rain.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<isRandomWeathers>true</isRandomWeathers>
+				<randomWeathers>
+					<li>AB_VolcanicAsh</li>
+					<li>AB_VolcanicAshRain</li>
+					
+				</randomWeathers>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_AcidRainMaker</defName>
+		<label>acid rainmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of drastically lowering the atmospheric pressure around and increasing acidity of the rain, causing constant acidic rain precipitation.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<weatherDef>AB_AcidRainWeather</weatherDef>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_ForsakenNightMaker</defName>
+		<label>nightmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of almost completely covering the sun, causing constant forsaken night weathers.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<isRandomWeathers>true</isRandomWeathers>
+				<randomWeathers>
+					<li>AB_ForsakenNight</li>
+					<li>AB_ForsakenRainyNight</li>
+					<li>AB_ForsakenThunderstorm</li>
+				</randomWeathers>
+			</li>
+		</comps>
 	</HediffDef>
 
 	

@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	
-	
-	
-	
-	
 	<GeneDef ParentName="AG_WeatherCausersBase">
 		<defName>AG_RedFogger</defName>
 		<label>red fogger</label>
-	
 		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of warping space via a psychic pinhole, causing an extradimensional red fog to coalesce around the carrier.</description>
 		<iconPath>UI/Icons/Genes/AG_RedFogger</iconPath>
 		<customEffectDescriptions>
-			<li>Causes a red fog weather to be always present around this person</li>	
-				
+			<li>Causes a red fog weather to be always present around this person</li>
 		</customEffectDescriptions>
-		
 		<biostatCpx>3</biostatCpx>
-		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -30,11 +20,8 @@
 				<li>
 					<symbol>humid</symbol>
 				</li>
-				
-				
 			</prefixSymbols>
 		</symbolPack>
-		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -44,10 +31,61 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
-
-
-
-
+	<GeneDef ParentName="AG_WeatherCausersBase">
+		<defName>AG_VolcanicAshMaker</defName>
+		<label>ashmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of attracting the ashy cinders of close volcanoees, causing volcanic ash to fall, sometimes along with rain.</description>
+		<iconPath>UI/Icons/Genes/AG_VolcanicAshMaker</iconPath>
+		<customEffectDescriptions>
+			<li>Causes a volcanic ash weather to be always present around this person</li>
+		</customEffectDescriptions>
+		<biostatCpx>3</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_VolcanicAshMaker</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_WeatherCausersBase">
+		<defName>AG_AcidRainMaker</defName>
+		<label>acid rainmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically lowering the atmospheric pressure around and increasing acidity of the rain, causing constant acidic rain precipitation.</description>
+		<iconPath>UI/Icons/Genes/AG_AcidRainMaker</iconPath>
+		<customEffectDescriptions>
+			<li>Causes an acid rain weather to be always present around this person</li>
+		</customEffectDescriptions>
+		<biostatCpx>3</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_AcidRainMaker</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_WeatherCausersBase">
+		<defName>AG_ForsakenNightMaker</defName>
+		<label>nightmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of almost completely covering the sun, causing constant forsaken night weathers.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenNightMaker</iconPath>
+		<customEffectDescriptions>
+			<li>Causes forsaken night weathers to be always present around this person</li>
+		</customEffectDescriptions>
+		<biostatCpx>3</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_ForsakenNightMaker</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
