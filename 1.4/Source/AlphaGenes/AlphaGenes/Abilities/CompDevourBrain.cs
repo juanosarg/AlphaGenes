@@ -47,10 +47,15 @@ namespace AlphaGenes
                         Hediff hediff = HediffMaker.MakeHediff(HediffDefOf.MissingBodyPart, pawn, brain);
                         
 
-                        if (pawn.Faction != null && pawn.Faction != Faction.OfPlayer)
+                        if (pawn.Faction != null && pawn.Faction != Faction.OfPlayer && !pawn.Faction.HostileTo(parent.pawn.Faction))
                         {
-                            pawn.Faction.SetRelationDirect(Faction.OfPlayer, FactionRelationKind.Hostile);
+                            Faction.OfPlayer.TryAffectGoodwillWith(pawn.Faction, -50, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.UsedHarmfulAbility);
+
+                          
                         }
+
+                       
+                       
 
                         pawn.health.AddHediff(hediff, brain);
 

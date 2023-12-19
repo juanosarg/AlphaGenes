@@ -11,6 +11,8 @@ namespace AlphaGenes
 		public static ThingDef AG_Alphapack;
 		public static ThingDef AG_Mixedpack;
         public static ThingDef AG_TemporaryBandNode;
+        public static ThingDef AG_Filth_CryoVomitPermanent;
+        public static ThingDef AG_Filth_CryoBloodPermanent;
         public static PawnKindDef Rat;
 		public static PawnKindDef Wolf_Timber;
 		public static PawnKindDef Bear_Polar;
@@ -46,6 +48,7 @@ namespace AlphaGenes
         public static GeneDef AG_Rowdy;
         public static GeneDef AG_VolatileMood;
         public static GeneDef AG_PsychicRemapping;
+        public static GeneDef AG_Teratophilia;
 
         public static GeneDef AG_MinorAnimalSummon_Randomizer;
         public static GeneDef AG_AnimalSummon_Randomizer;
@@ -115,6 +118,7 @@ namespace AlphaGenes
         public static ThingDef Mech_Warqueen;      
         [MayRequireBiotech]
         public static ThingDef Mech_Diabolus;
+
 
 
         static InternalDefOf()

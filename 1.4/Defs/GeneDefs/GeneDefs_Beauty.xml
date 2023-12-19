@@ -182,4 +182,25 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_Teratophilia</defName>
+		<label>teratophilia</label>
+		
+		<displayCategory>Beauty</displayCategory>
+		<description>The carrier of this gene doesn't care about ugliness, feeling equally attracted to ugly colonists. Beauty is in the eye of the beholder after all (the person looking, not the D&amp;D monster).</description>
+		<iconPath>UI/Icons/Genes/AG_Teratophile</iconPath>
+		<displayOrderInCategory>500</displayOrderInCategory>
+		
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

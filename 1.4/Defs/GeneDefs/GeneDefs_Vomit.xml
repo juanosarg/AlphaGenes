@@ -165,4 +165,28 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_PukeCryo</defName>
+		<label>cryo vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene will vomit cryogenic fluid instead of normal vomit. This liquid will quickly drop the temperature of its surroundings, making it both useful and incredibly dangerous. Dissipates faster than normal vomit but can't be cleaned.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeCryo</iconPath>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>AG_Filth_CryoVomit</customVomitThingDef>
+				<customVomitEffect>AG_VomitCryo</customVomitEffect>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

@@ -30,7 +30,7 @@ namespace AlphaGenes
                 canTargetItems = false,
                 canTargetBuildings = false,
                 mapObjectTargetsMustBeAutoAttackable = false,
-                validator = (TargetInfo x) => (x.Thing is Pawn && x.Thing.Faction == Faction.OfPlayer &&(x.Thing as Pawn).RaceProps.Humanlike)
+                validator = (TargetInfo x) => (x.Thing is Pawn && (x.Thing.Faction == Faction.OfPlayer || (x.Thing as Pawn).IsPrisonerOfColony) &&(x.Thing as Pawn).RaceProps.Humanlike)
             };
         }
 

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<GeneDef Name="AG_TempSpeedBase" Abstract="True">
+	<GeneDef Name="AG_TempSpeedBaseCold" Abstract="True">
 		<displayCategory>Temperature</displayCategory>
 		<exclusionTags>
-			<li>AG_TempSpeed</li>
+			<li>AG_TempSpeedCold</li>
+		</exclusionTags>
+	</GeneDef>
+	<GeneDef Name="AG_TempSpeedBaseHeat" Abstract="True">
+		<displayCategory>Temperature</displayCategory>
+		<exclusionTags>
+			<li>AG_TempSpeedHeat</li>
 		</exclusionTags>
 	</GeneDef>
 
-	<GeneDef ParentName="AG_TempSpeedBase">
+	<GeneDef ParentName="AG_TempSpeedBaseHeat">
 		<defName>AG_HeatSlowness</defName>
 		<label>heat torpor</label>
 		<description>Carriers of this gene move much slower while in temperatures above 40ºC.</description>
@@ -42,7 +48,7 @@
 		</modExtensions>
 	</GeneDef>
 
-	<GeneDef ParentName="AG_TempSpeedBase">
+	<GeneDef ParentName="AG_TempSpeedBaseHeat">
 		<defName>AG_HeatSpeed</defName>
 		<label>heat speed</label>
 		<description>Carriers of this gene move much faster while in temperatures above 40ºC.</description>
@@ -77,7 +83,7 @@
 		</modExtensions>
 	</GeneDef>
 
-	<GeneDef ParentName="AG_TempSpeedBase">
+	<GeneDef ParentName="AG_TempSpeedBaseCold">
 		<defName>AG_ColdSlowness</defName>
 		<label>cold torpor</label>
 		<description>Carriers of this gene move much slower while in temperatures below 0ºC.</description>
@@ -111,7 +117,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<GeneDef ParentName="AG_TempSpeedBase">
+	<GeneDef ParentName="AG_TempSpeedBaseCold">
 		<defName>AG_ColdSpeed</defName>
 		<label>cold speed</label>
 		<description>Carriers of this gene move much faster while in temperatures below 0ºC.</description>

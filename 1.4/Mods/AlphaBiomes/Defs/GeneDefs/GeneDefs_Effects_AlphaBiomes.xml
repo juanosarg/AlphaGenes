@@ -6,10 +6,10 @@
 	
 	
 	
-	<GeneDef>
+	<GeneDef ParentName="AG_WeatherCausersBase">
 		<defName>AG_RedFogger</defName>
 		<label>red fogger</label>
-		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+	
 		<description>A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of warping space via a psychic pinhole, causing an extradimensional red fog to coalesce around the carrier.</description>
 		<iconPath>UI/Icons/Genes/AG_RedFogger</iconPath>
 		<customEffectDescriptions>

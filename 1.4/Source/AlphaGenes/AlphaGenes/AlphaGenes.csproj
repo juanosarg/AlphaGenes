@@ -393,6 +393,8 @@
     <Compile Include="Defs\BlackListedAnimalsDef.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="GameComponent\GameComponent_RandomMood.cs" />
+    <Compile Include="Gas and Liquid\Filth_CryoBloodSpawner.cs" />
+    <Compile Include="Gas and Liquid\Filth_CryoVomitSpawner.cs" />
     <Compile Include="Gas and Liquid\Rat_Spawning_Filth.cs" />
     <Compile Include="Gas and Liquid\Persistant_Fuel.cs" />
     <Compile Include="Gene Classes\Gene_Mechanitor.cs" />
@@ -419,8 +421,10 @@
     <Compile Include="Harmony\Pawn_InteractionsTracker_StartSocialFight.cs" />
     <Compile Include="Harmony\Pawn_MechanitorTracker_CanCommandTo.cs" />
     <Compile Include="Harmony\Pawn_MechanitorTracker_DrawCommandRadius.cs" />
+    <Compile Include="Harmony\Pawn_RelationsTracker_PrettinessFactor.cs" />
     <Compile Include="Harmony\RelationsUtility_IsDisfigured.cs" />
     <Compile Include="Harmony\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs" />
+    <Compile Include="Harmony\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs" />
     <Compile Include="Harmony\WealthWatcher_ForceRecount.cs" />
     <Compile Include="HediffComps\HediffComp_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\HediffComp_Exploder.cs" />

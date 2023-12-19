@@ -52,6 +52,19 @@
 			</li>
 		</children>
 	</EffecterDef>
+	<EffecterDef>
+		<defName>AG_VomitCryo</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<scale>0.5~0.7</scale>
+				<ticksBetweenMotes>20</ticksBetweenMotes>
+				<positionLerpFactor>0.35</positionLerpFactor>
+				<positionRadius>0.2</positionRadius>
+				<moteDef>AG_Mote_CryoBit</moteDef>
+			</li>
+		</children>
+	</EffecterDef>
 	<ThingDef ParentName="FoodBitBase">
 		<defName>AG_Mote_FuelBit</defName>
 		<graphicData>
@@ -77,6 +90,13 @@
 		<defName>AG_Mote_BileBit</defName>
 		<graphicData>
 			<texPath>Things/Mote/AG_BileBit</texPath>
+			<shaderType>Mote</shaderType>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="FoodBitBase">
+		<defName>AG_Mote_CryoBit</defName>
+		<graphicData>
+			<texPath>Things/Mote/AG_CryoBit</texPath>
 			<shaderType>Mote</shaderType>
 		</graphicData>
 	</ThingDef>

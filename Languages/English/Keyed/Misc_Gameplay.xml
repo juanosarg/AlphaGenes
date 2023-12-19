@@ -39,7 +39,7 @@
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
 	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>
 	<AG_DisableThalassophobiaMessage>Disable thalassophobia message</AG_DisableThalassophobiaMessage>
-	<AG_DisableThalassophobiaMessage_Description>By default, every time a pawn with the thalassophobia gene fless from water the game will generate a letter informing the player. This may be a bit too much if you have many pawns fleeing often, so you can disable it with this toggle. Bear in mind the pawns will still flee, you'll just NOT get informed.</AG_DisableThalassophobiaMessage_Description>
+	<AG_DisableThalassophobiaMessage_Description>By default, every time a pawn with the thalassophobia gene flees from water the game will generate a letter informing the player. This may be a bit too much if you have many pawns fleeing often, so you can disable it with this toggle. Bear in mind the pawns will still flee, you'll just NOT get informed.</AG_DisableThalassophobiaMessage_Description>
 	<AG_GeneRemovalComa>Genetic tools cause gene removal coma</AG_GeneRemovalComa>
 	<AG_GeneRemovalComa_Description>Using any genetic tool causes a gene removal coma that lasts for 3 days, knocking the colonist out, and no other tool can be used in that period. This is ON by default for balance.</AG_GeneRemovalComa_Description>
 	<AG_DisableQuests>Disable Abandoned Biotech Lab quests</AG_DisableQuests>

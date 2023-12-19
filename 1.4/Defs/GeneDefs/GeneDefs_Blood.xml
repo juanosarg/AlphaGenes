@@ -364,4 +364,46 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_CryoBlood</defName>
+		<label>cryo blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have a cryogenic fluid for blood. This liquid will quickly drop the temperature of its surroundings, making it both useful and incredibly dangerous. Dissipates faster than normal blood but can't be cleaned.</description>
+		<iconPath>UI/Icons/Genes/AG_CryoBlood</iconPath>
+		<displayOrderInCategory>80</displayOrderInCategory>
+	
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>cryobleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>cryo</symbol>
+				</li>
+	
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_Filth_CryoBlood</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_CryobloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitCryo</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsCryo</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
