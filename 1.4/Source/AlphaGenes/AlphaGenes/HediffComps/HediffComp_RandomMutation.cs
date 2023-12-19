@@ -50,6 +50,39 @@ namespace AlphaGenes
             }
 		}
 
+
+        public override IEnumerable<Gizmo> CompGetGizmos()
+        {
+            if (DebugSettings.ShowDevGizmos)
+            {
+
+                yield return new Command_Action
+                {
+                    defaultLabel = "Force mutation",
+                    defaultDesc = "Use this to force a mutation on this pawn. For testing purposes.",
+                    action = delegate
+                    {
+                        if (!genes.NullOrEmpty())
+                        {
+                            for (int i = 0; i < Props.numberOfGenes; i++)
+                            {
+                                if (this.parent.pawn.genes?.GetGene(genes[i]) != null)
+                                {
+                                    this.parent.pawn.genes?.RemoveGene(this.parent.pawn.genes.GetGene(genes[i]));
+                                }
+
+                            }
+                            genes.Clear();
+                        }
+                        Active = false;
+                    },
+
+                };
+            }
+
+        }
+       
+
         public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);

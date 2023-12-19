@@ -5,6 +5,7 @@
 		<statBases>
 			<ToxicResistance>1</ToxicResistance>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			 <MeatAmount>10</MeatAmount>
 		</statBases>
 		<race>
 			<fleshType>Insectoid</fleshType>
@@ -13,7 +14,7 @@
 			<meatMarketValue>0.5</meatMarketValue>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
-			 <MeatAmount>10</MeatAmount>
+			
 		</race>
 		<ingredient>
 			<mergeCompatibilityTags>
