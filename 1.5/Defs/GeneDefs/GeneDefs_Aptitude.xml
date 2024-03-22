@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneTemplateDef Name="AG_GeneAptitudeBase" Abstract="True">
+		<geneClass>Gene</geneClass>
+		<displayCategory>AG_AptitudeModifier</displayCategory>
+	</GeneTemplateDef>
+	<GeneDef ParentName="AG_GeneAptitudeBase">
+		<defName>AG_MiningYield_High</defName>
+		<label>high mining yield</label>
+		<labelShortAdj>miner</labelShortAdj>
+		<description>Carriers of this gene are adept at mining and can acquire larger amounts of minerals from stone.</description>
+		<iconPath>UI/Icons/Genes/AG_MiningYield</iconPath>
+		<displayOrderInCategory>5000</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_MiningYield</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<statFactors>
+			<MiningYield>1.2</MiningYield>
+		</statFactors>
+		<biostatMet>-2</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>metal</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneAptitudeBase">
+		<defName>AG_MiningYield_Low</defName>
+		<label>low mining yield</label>
+		<labelShortAdj>shoddy miner</labelShortAdj>
+		<description>Carriers of this gene are shoddy miners and can produce fewer amounts of minerals from stone.</description>
+		<iconPath>UI/Icons/Genes/AG_MiningYield_Low</iconPath>
+		<displayOrderInCategory>5001</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<statFactors>
+			<MiningYield>0.8</MiningYield>
+		</statFactors>
+		<biostatMet>2</biostatMet>
+		<exclusionTags>
+			<li>AG_MiningYield</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_SmokeProducer</defName>
+		<label>smoke producer</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>The carrier of this gene will periodically exhale clouds of dense smoke, providing a deterrent to ranged attacks, both against them and produced by them.</description>
+		<iconPath>UI/Icons/Genes/AG_SmokeProducer</iconPath>		
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-1</biostatMet>		
+		<exclusionTags>
+			<li>AG_GasProducer</li>		
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_SmokeProducer</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_RotStinkProducer</defName>
+		<label>rot stink producer</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>The carrier of this gene will periodically exhale clouds of rot stink. Nasty!</description>
+		<iconPath>UI/Icons/Genes/AG_StinkrotProducer</iconPath>		
+		<biostatCpx>2</biostatCpx>
+		<customEffectDescriptions>
+			<li>This doesn't make the carrier immune to the effects of rot stink!</li>			
+		</customEffectDescriptions>
+		<exclusionTags>
+			<li>AG_GasProducer</li>		
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_RotStinkProducer</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ToxGasProducer</defName>
+		<label>tox gas producer</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>The carrier of this gene will periodically exhale clouds of tox gas.</description>
+		<iconPath>UI/Icons/Genes/AG_ToxGasProducer</iconPath>		
+		<biostatCpx>2</biostatCpx>
+		<customEffectDescriptions>
+			<li>This doesn't make the carrier immune to the effects of tox gas!</li>			
+		</customEffectDescriptions>
+		<exclusionTags>
+			<li>AG_GasProducer</li>		
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_ToxGasProducer</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

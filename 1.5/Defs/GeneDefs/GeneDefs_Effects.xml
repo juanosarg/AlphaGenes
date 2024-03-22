@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_BoomNodules</defName>
+		<label>chemfuel nodules</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>Huge pustules filled with chemfuel make this person quite disgusting to look at. The nodules will explode if the person dies.</description>
+		<iconPath>UI/Icons/Genes/AG_NodulesIcon</iconPath>
+		<customEffectDescriptions>
+			<li>Colonist will explode on death in a flame explosion with 2 tiles radius</li>
+		</customEffectDescriptions>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<biostatCpx>1</biostatCpx>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>boom</symbol>
+				</li>
+				<li>
+					<symbol>chem</symbol>
+				</li>
+				<li>
+					<symbol>wart</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<forcedHair>Bald</forcedHair>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Exploder</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_TetraCoils</defName>
+		<label>tetra coils</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>Techno-organic coils of wireless energy are wired into the carrier's genome, allowing them to recharge batteries nearby.</description>
+		<iconPath>UI/Icons/Genes/AG_TetraCoilsIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_TetraCoils/AG_TetraCoils</graphicPath>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<customEffectDescriptions>
+			<li>Colonist will recharge nearby batteries. Most modded batteries are supported</li>
+		</customEffectDescriptions>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>electr</symbol>
+				</li>
+				<li>
+					<symbol>volta</symbol>
+				</li>
+				<li>
+					<symbol>charge</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<forcedHair>Bald</forcedHair>
+		<selectionWeight>0</selectionWeight>
+		<statOffsets>
+			<MentalBreakThreshold>0.2</MentalBreakThreshold>
+		</statOffsets>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Electrified</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_InsectJellyProduction</defName>
+		<label>jelly production</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>The carrier of this gene constantly exudes and produces globs of insect jelly, which provides some extra food for the colony.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectJellyProduction</iconPath>
+		<exclusionTags>
+			<li>AG_JellyProduction</li>
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Produces 12 units of insect jelly per day</li>
+			<li>This gene is balanced to produce more nutrition (0.05 * 12 = 0.6) than its metabolic impact (-1 -> 25%, which for a normal pawn is 0.4 nutrition per day)</li>
+		</customEffectDescriptions>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_InsectJellyProduction</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Polluter</defName>
+		<label>polluter</label>
+		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>The carrier of this gene constantly pollutes the surrounding terrain, eventually turning the landscape into a desolate wasteland.</description>
+		<iconPath>UI/Icons/Genes/AG_Polluter</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This doesn't make the carrier immune to the effects of pollution!</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Polluter</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

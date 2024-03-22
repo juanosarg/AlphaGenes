@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>AG_HornAttack</defName>
+		<label>oversized horns</label>
+		<description>These horns can be used in melee attacks.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>horns</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>16</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_ChainsawHands</defName>
+		<label>chainsaw hand</label>
+		<description>It's a chainsaw. For hand. It's not a difficult concept to grasp, to be honest.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>chainsaw</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>26</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_ScytherHands</defName>
+		<label>scyther blade</label>
+		<description>A sharp scyther blade.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>scyther blade</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>1.3</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_ClawedHands</defName>
+		<label>clawed hand</label>
+		<description>Clawed hands that can be used as a fast melee attack.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>		
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>clawed hand</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>1.3</cooldownTime>
+
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+     
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_CrabClaw</defName>
+		<label>crab claw</label>
+		<description>A gigantic, but surprisingly versatile, crab claw.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claw</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>26</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VenomFangs</defName>
+		<label>venom fangs</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Large fangs that can be used in melee combat to inject a powerful venom.</description>
+		<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>venom fangs</label>
+						<capacities>
+							<li>ToxicBite</li>
+						</capacities>
+						<power>26</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_AcidFangs</defName>
+		<label>acid fangs</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Large fangs that can be used in melee combat to inject a powerful acid.</description>
+		<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>acid fangs</label>
+						<capacities>
+							<li>AG_Acid</li>
+						</capacities>
+						<power>16</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+</Defs>

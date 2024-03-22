@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>AG_Hair_DeepRed</defName>
+		<label>deep red hair</label>
+		 <customEffectDescriptions>
+			<li>Just the way General Pain likes it.</li>
+		</customEffectDescriptions>
+		<hairColorOverride>(219, 29, 29)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>200</displayOrderInCategory>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>AG_Hair_DeepOrange</defName>
+		<label>deep orange hair</label>
+		<hairColorOverride>(234, 155, 15)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>205</displayOrderInCategory>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>AG_Hair_PaleGreen</defName>
+		<label>pale green hair</label>
+		<hairColorOverride>(105, 142, 91)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>210</displayOrderInCategory>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>AG_Hair_Golden</defName>
+		<label>golden hair</label>
+		<hairColorOverride>(253,233,104)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>220</displayOrderInCategory>
+	</GeneDef>
+
+</Defs>

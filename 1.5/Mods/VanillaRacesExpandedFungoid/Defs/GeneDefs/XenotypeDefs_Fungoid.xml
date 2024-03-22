@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XenotypeDef>
+		<defName>AG_Mycormorph</defName>
+		<label>mycomorph</label>
+		<description>The result of ancient victims of the fungoid military bioweapons project, mycomorphs have been subjected to a specially virulent strain of the virus, which causes their bodies to rot and become infused with extense mycelial networks. Mycomorphs constantly secrete a foul smelling gas and have a similarly rotten disposition, tending to act aggressively towards others. A controlled mycomorph can be a huge combat asset, or a dangerous potential threat to the rest of the colony.</description>
+		<descriptionShort>Victims of a more virulent strain of the fungoid virus. Violent, very dangerous, both to other mycomorphs but specially to other xenotypes around them, as they can infect them via melee attacks, and they love to fight others.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Mycomorph</iconPath>
+	
+		<inheritable>false</inheritable>
+		<genes>
+			<li>VRE_MindCoalescence</li>
+			<li>VRE_GeneInfector</li>
+			<li>Deathless</li>
+			
+			<li>VRE_FungalFlesh</li>			
+			<li>VRE_ExtremeSkillLoss</li>
+			<li>VRE_SkillDegradation</li>
+			<li>VRE_NoStudy</li>
+			<li>VRE_Repulsive</li>
+			<li>VRE_FungalArmor</li>
+			<li>VRE_FungalRegeneration</li>
+			<li>VRE_RotBlood</li>
+			<li>VRE_Telepathy</li>
+			<li>AG_LungRotImmunity</li>
+			<li>Immunity_SuperStrong</li>
+			<li>Superclotting</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>MaxTemp_LargeIncrease</li>			
+			<li>MeleeDamage_Strong</li>
+			<li>Sterile</li>
+			<li>AptitudeTerrible_Intellectual</li>
+			
+			<li>VRE_FungalCrest</li>
+			<li>AG_VeryGauntHead</li>
+			<li>VRE_DeadVoice</li>
+			<li>Hair_Grayless</li>
+			<li>VRE_HairMushroom</li>
+			
+			<li>AG_DangerousRaidPresence</li>
+			<li>AG_PukeBile</li>
+			<li>AG_RotStinkProducer</li>
+			<li>AG_FungalSkin</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>AG_Skin_Rot</li>
+			<li>AG_FungalClumps</li>
+			<li>AG_FungalSprout</li>
+			<li>AG_FungalTentacles</li>
+			
+			<li>AlphaGenes_FungalStrength</li>
+			<li>AlphaGenes_FungalSpeed</li>
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

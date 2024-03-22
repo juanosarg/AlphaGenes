@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+ 
+  
+   <ThingDef ParentName="AG_BaseGas">
+    <defName>AG_GreenGas</defName>
+	
+    <label>acid mist</label>
+    <graphicData>
+      <texPath>Things/Gas/Puff</texPath>
+      <drawSize>2.2</drawSize>
+      <color>(0.2,0.80,0.2,0.5)</color>
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>29</min>
+        <max>31</max>
+      </expireSeconds>
+     <!-- <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.7</accuracyPenalty>-->
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+  
+ 
+    
+</Defs>

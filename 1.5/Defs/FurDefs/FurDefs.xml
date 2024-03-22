@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FurDef>
+    <defName>AG_SlugBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+    <FurDef>
+    <defName>AG_ScalyBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Thin</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+   <FurDef>
+    <defName>AG_TrueBlackBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+    <FurDef>
+    <defName>AG_SilverBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+   <FurDef>
+    <defName>AG_MimeBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_MimeBody/AG_MimeBody_Thin</Baby><!-- Always covered by swaddled graphic -->
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+   <FurDef>
+    <defName>AG_RockyBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockChild</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockChild</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+   <FurDef>
+    <defName>AG_TeratoBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+   <FurDef>
+    <defName>AG_GauntBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+  
+  <FurDef>
+    <defName>AG_DrakonoriBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriMaleBody</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriFemaleBody</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriThinBody</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriChildBody</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriChildBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+
+</Defs>

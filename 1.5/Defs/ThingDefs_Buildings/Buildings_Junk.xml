@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="AG_JunkBuildingBase" Abstract="true" ParentName="BuildingBase">
+
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientGeneAssembler</defName>
+		<label>ancient gene assembler</label>
+		<description>A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. This device has collapsed in on itself, rendering it useless.</description>
+		<size>(3,2</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_GeneAssembler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>10</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientGeneBank</defName>
+		<label>ancient gene bank</label>
+		<description>This device was able to store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. It has corroded beyond any repair, and the genepacks stored inside are far gone.</description>
+		<size>(2,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedGeneBank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>5</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientGeneExtractor</defName>
+		<label>ancient gene extractor</label>
+		<description>An automated surgery machine that was able to extract a person's genes and create a genepack from them. Its internal machinery is completely fused and rusted.</description>
+		<size>(2,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedGeneExtractor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>20</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientGeneProcessor</defName>
+		<label>ancient gene processor</label>
+		<description>A genetic analysis and processing system. Ruined and unuseable.</description>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedGeneProcessor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<costList>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+			<Gold>1</Gold>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientGrowthVat</defName>
+		<label>ancient growth vat</label>
+		<description>A vat of fluid which was able to gestate an embryo or accelerate a child's growth. Its transparent plasteel sheel has been smashed open, seemingly from the inside... Ominous.</description>
+		<size>(1,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedGrowthVat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>5</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientHugeBank</defName>
+		<label>ancient huge gene bank</label>
+		<description>A huge gene bank, much larger than the ones in use nowadays. Completely broken.</description>
+		<size>(4,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedHugeBank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>20</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientLamp</defName>
+		<label>ancient broken lamp</label>
+		<description>A broken lamp.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientVitalsMonitor</defName>
+		<label>ancient vitals monitor</label>
+		<description>A broken vitals monitor with a dead screen.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedVitalsMonitor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientBandNode</defName>
+		<label>ancient band node</label>
+		<description>A broken mechanoid-band signal amplifier. Its antennas are bent in weird angles.</description>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedBandNode</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientBasicRecharger</defName>
+		<label>ancient mech recharger</label>
+		<description>A broken mech recharger. The connecting pins are bent and chipped, making the whole machine useless.</description>
+		<size>(3,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedBasicRecharger</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.9,1.25)</drawSize>
+			<shadowData>
+				<volume>(2.9, 0.5, 0.9)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>10</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientLargeRecharger</defName>
+		<label>ancient large mech recharger</label>
+		<description>A broken mech recharger. The connecting pins are bent and chipped, making the whole machine useless.</description>
+		<size>(3,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedStandardRecharger</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.8,2.8)</drawSize>
+			<shadowData>
+				<volume>(2.9, 0.5, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>20</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientMechGestator</defName>
+		<label>ancient mech gestator</label>
+		<description>A tank used to create new mechanoids. The mechanite tank was punctured long ago, and all the fluid has long since evaporated.</description>
+		<size>(3,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedMechGestatorStandard</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(6,4)</drawSize>
+			<shadowData>
+				<volume>(3, 2, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>10</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientLargeMechGestator</defName>
+		<label>ancient large mech gestator</label>
+		<description>A tank used to create new mechanoids. The mechanite tank was punctured long ago, and all the fluid has long since evaporated.</description>
+		<size>(4,3)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedMechGestatorLarge</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5.7, 4.275)</drawSize>
+			<shadowData>
+				<volume>(3.8, 3, 2.7)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>20</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientSubcoreRipscanner</defName>
+		<label>ancient subcore ripscanner</label>
+		<description>This thing is SO edgy. Like, SUPER edgy. Basically a medical bed with spikes. I bet it only worked if you played symphonic metal in the background. I blame Oskar.</description>
+		<size>(3,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedSubcoreRipscanner</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(3, 2, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>20</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientWastepackAtomizer</defName>
+		<label>ancient wastepack atomizer</label>
+		<description>This was just a fancy waste bin, and it is now just a broken waste bin.</description>
+		<size>(3,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedWastepackAtomizer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(3, 2, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>20</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RuinedHospitalBed</defName>
+		<label>ancient hospital bed</label>
+		<description>A bed specially designed for use in hospitals. The mattress has rotted away into nothingness.</description>
+		<thingClass>Building_Bed</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<passability>PassThroughOnly</passability>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiOrder>2020</uiOrder>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedHospitalBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<castEdgeShadows>True</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>2800</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>1.0</Flammability>
+			<BedRestEffectiveness>0.7</BedRestEffectiveness>
+			<Comfort>0.6</Comfort>
+			<ImmunityGainSpeedFactor>1.11</ImmunityGainSpeedFactor>
+			<MedicalTendQualityOffset>0.10</MedicalTendQualityOffset>
+			<SurgerySuccessChanceFactor>1.1</SurgerySuccessChanceFactor>
+			<BirthRitualQualityOffset>5</BirthRitualQualityOffset>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>VitalsMonitor</li>
+					<li>EndTable</li>
+					<li>Dresser</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>false</drawAssignmentOverlay>
+				<compClass>CompAssignableToPawn_Bed</compClass>
+			</li>
+		</comps>
+		<size>(1,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>80</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>10</bed_healPerDay>
+			<buildingSizeCategory>Small</buildingSizeCategory>
+			<paintable>true</paintable>
+			<buildingTags>
+				<li>Bed</li>
+			</buildingTags>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<techLevel>Industrial</techLevel>
+		<uiIconScale>0.90</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientShelf</defName>
+		<label>ancient shelf</label>
+		<description>A rusted triple-stack shelf. It doesn't hold as many items as it once had, due to its state of disrepair.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedShelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>50</pathCost>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<Flammability>1.0</Flammability>
+			<Beauty>-5</Beauty>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<maxItemsInCell>2</maxItemsInCell>
+			<storageGroupTag>Shelf</storageGroupTag>
+			<blueprintClass>Blueprint_Storage</blueprintClass>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<li>Chunks</li>
+						<li>Plants</li>
+						<li>Buildings</li>
+					</disallowedCategories>
+					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+					</disallowedThingDefs>
+					<specialFiltersToDisallow>
+						<li>AllowLargeCorpses</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Preferred</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>BodyParts</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+			<paintable>true</paintable>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientPollutionPump</defName>
+		<label>ancient pollution pump</label>
+		<description>This pump isn't going to pump anything at all anytime soon.</description>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedPollutionPump</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientCorpse</defName>
+		<label>ancient corpse</label>
+		<description>This skeleton has seen better days.</description>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_Corpse</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RandomGenepack</defName>
+		<label>random genepack</label>
+		<description>Spawn random genepack.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<clearBuildingArea>false</clearBuildingArea>
+		<graphicData>
+			<texPath>Things/Building/AG_RandomGenepack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_RandomItemSpawner">
+				<items>
+					<li>Genepack</li>
+					<li>AG_Alphapack</li>
+					<li>AG_Mixedpack</li>
+				</items>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RandomGeneTool</defName>
+		<label>random gene tool</label>
+		<description>Spawn random gene tool.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<clearBuildingArea>false</clearBuildingArea>
+		<graphicData>
+			<texPath>Things/Building/AG_GeneToolRandom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_RandomItemSpawner">
+				<items>
+					<li>AG_GeneRemover</li>
+					<li>AG_Endogenefier</li>
+					<li>AG_Xenogenefier</li>
+					<li>AG_XenotypeNullifier</li>
+					<li>AG_GermlineMutator</li>
+					<li>AG_XenotypeInjector</li>
+					<li>AG_GenepackTweaker</li>
+					<li>AG_GenepackDisruptor</li>
+				</items>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_AncientFaultyLamp</defName>
+		<label>ancient faulty lamp</label>
+		<description>A metallic capsule filled with some bioluminescent compound. This one seems to still be producing some faint light.</description>
+		<size>(1,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_AncientFaultyLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.8,1.6)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(247,236,188,0)</glowColor>
+			</li>
+		</comps>
+		<costList>
+			<Steel>4</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>2</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RuinedLabLamp</defName>
+		<label>ancient lab lamp</label>
+		<description>A metallic post with a glass cilinder filled with some bioluminescent compound. This one seems to still be producing some faint light.</description>
+		<size>(1,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedLabLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.4,1.6)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(247,236,188,0)</glowColor>
+			</li>
+		</comps>
+		<costList>
+			<Steel>4</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>2</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_RaidSpawner</defName>
+		<label>ruined radio beacon</label>
+		<description>This device seems to be emitting weak radio waves.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedRadioBeacon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_RandomRaidSpawner">
+
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>AlphaGenes.PlaceWorker_ShowSpawnerRadius</li>
+		</placeWorkers>
+	</ThingDef>
+</Defs>

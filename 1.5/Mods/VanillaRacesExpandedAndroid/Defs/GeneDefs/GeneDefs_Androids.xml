@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_WorkerDroidHead</defName>
+		<label>worker droid head</label>
+		<description>Androids with this hardware have a completely inhuman, robotic face.</description>
+		<iconPath>UI/Icons/Genes/AG_RoboticFace1Icon</iconPath>
+		<displayOrderInCategory>1000</displayOrderInCategory>
+		<biostatCpx>0</biostatCpx>
+		<isCoreComponent>false</isCoreComponent>
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<customEffectDescriptions>
+			<li>Using this with other cosmetic genes may look weird.</li>
+		</customEffectDescriptions>
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<forcedHeadTypes>
+			<li>AG_SyntheticWorkerMale</li>
+			<li>AG_SyntheticWorkerFemale</li>
+		</forcedHeadTypes>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_ServantDroidHead</defName>
+		<label>servant droid head</label>
+		<description>Androids with this hardware have a completely inhuman, robotic face.</description>
+		<iconPath>UI/Icons/Genes/AG_RoboticFace2Icon</iconPath>
+		<displayOrderInCategory>1001</displayOrderInCategory>
+		<biostatCpx>0</biostatCpx>
+		<isCoreComponent>false</isCoreComponent>
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<customEffectDescriptions>
+			<li>Using this with other cosmetic genes may look weird.</li>
+		</customEffectDescriptions>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<forcedHeadTypes>
+			<li>AG_SyntheticServantMale</li>
+			<li>AG_SyntheticServantFemale</li>
+		</forcedHeadTypes>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_KillerDroidHead</defName>
+		<label>killer droid head</label>
+		<description>Androids with this hardware have a completely inhuman, robotic face.</description>
+		<iconPath>UI/Icons/Genes/AG_RoboticFace3Icon</iconPath>
+		<displayOrderInCategory>1002</displayOrderInCategory>
+		<biostatCpx>0</biostatCpx>
+		<isCoreComponent>false</isCoreComponent>
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Using this with other cosmetic genes may look weird.</li>
+		</customEffectDescriptions>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<forcedHeadTypes>
+			<li>AG_SyntheticKillerMale</li>
+			<li>AG_SyntheticKillerFemale</li>
+		</forcedHeadTypes>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+		<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_HalfSyntheticHead</defName>
+		<label>half synthetic head</label>
+		<description>Androids with this hardware have a synthetic face with remarkably normal looking human eyes.</description>
+		<iconPath>UI/Icons/Genes/AG_HalfSyntheticFaceIcon</iconPath>
+		<displayOrderInCategory>1002.5</displayOrderInCategory>
+		<biostatCpx>0</biostatCpx>
+		<isCoreComponent>false</isCoreComponent>
+		<exclusionTags>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		
+		
+		<graphicData>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<forcedHeadTypes>
+			<li>AG_HalfSynthetic_Male</li>
+			<li>AG_HalfSynthetic_Female</li>
+			<li>AG_HalfSynthetic_Female_Pointy</li>
+		</forcedHeadTypes>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_RoboticBodyPlastic</defName>
+		<label>plastic body</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Androids with this hardware have a plastic looking body.</description>
+		<biostatCpx>0</biostatCpx>
+		<exclusionTags>
+			<li>AG_Bodies</li>
+			<li>Bodies</li>
+			<li>Body</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1003</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_PlasticBodyIcon</iconPath>
+		<graphicData>
+			<fur>AG_RoboticBodyPlastic</fur>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_RoboticBodySkeletal</defName>
+		<label>robotic body</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Androids with this hardware have a purely robotic looking body.</description>
+		<biostatCpx>0</biostatCpx>
+		<exclusionTags>
+			<li>AG_Bodies</li>
+			<li>Bodies</li>
+			<li>Body</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1004</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_RoboticBodyIcon</iconPath>
+		<graphicData>
+			<fur>AG_RoboticBodySkeletal</fur>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<furHidesBody>true</furHidesBody>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase" Name="AG_LEDBase" Abstract="True">
+		<randomChosen>true</randomChosen>
+		<exclusionTags>
+			<li>AG_LED</li>
+		</exclusionTags>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="AG_LEDBase">
+		<defName>AG_LightLED</defName>
+		<label>LED light, blue</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Androids with this hardware have a blue LED in the side of their heads, betraying their synthetic nature.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1005</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_BlueLEDIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLED</graphicPath>
+			<visibleNorth>false</visibleNorth>
+			<colorType>Custom</colorType>
+			<layer>PostSkin</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="AG_LEDBase">
+		<defName>AG_LightLEDRed</defName>
+		<label>LED light, red</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Androids with this hardware have a red LED in the side of their heads, betraying their synthetic nature.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1006</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_RedLEDIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLEDRed</graphicPath>
+			<visibleNorth>false</visibleNorth>
+			<colorType>Custom</colorType>
+			<layer>PostSkin</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+		<defName>AG_MechAntenna</defName>
+		<label>mech antenna</label>
+		<isCoreComponent>false</isCoreComponent>
+		<description>Androids with this hardware have a mech antenna on their heads.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1007</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_MechAntennaIcon</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_MechAntenna/AG_MechAntenna</graphicPath>
+			<visibleNorth>true</visibleNorth>
+			<colorType>Custom</colorType>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathEndogenes>
+			</li>
+		</modExtensions>
+	</VREAndroids.AndroidGeneDef>
+</Defs>

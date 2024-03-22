@@ -3,7 +3,9 @@
 	<author>Allie, Erin, Sarg</author>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/AlphaGenesLogo</modIconPath>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FurDef>
+		<defName>AG_RoboticBodyPlastic</defName>
+		<noGraphic>true</noGraphic>
+		<bodyTypeGraphicPaths>
+			<Male>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic1_Male</Male>
+			<Female>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic1_Female</Female>
+			<Hulk>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic1_Hulk</Hulk>
+			<Fat>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic1_Fat</Fat>
+			<Thin>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic1_Thin</Thin>
+			<Child>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic1_Thin</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic1_Thin</Baby>
+		</bodyTypeGraphicPaths>
+	</FurDef>
+	<FurDef>
+		<defName>AG_RoboticBodySkeletal</defName>
+		<noGraphic>true</noGraphic>
+		<bodyTypeGraphicPaths>
+			<Male>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic2_Male</Male>
+			<Female>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic2_Female</Female>
+			<Hulk>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic2_Hulk</Hulk>
+			<Fat>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic2_Fat</Fat>
+			<Thin>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic2_Thin</Thin>
+			<Child>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic2_Thin</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/AG_RoboticBodies/AG_Robotic2_Thin</Baby>
+		</bodyTypeGraphicPaths>
+	</FurDef>
+</Defs>

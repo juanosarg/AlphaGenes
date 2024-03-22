@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef Name="AG_MiscBase" Abstract="True">
+		<displayCategory>Miscellaneous</displayCategory>
+		<exclusionTags>
+			<li>AG_Misc</li>
+		</exclusionTags>
+		<graphicData>
+			<drawLoc>Tailbone</drawLoc>
+		</graphicData>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_HeavilyScarred</defName>
+		<label>heavily scarred</label>
+		<description>Carriers of this gene have prominent scars on their faces, as if their skin had been cut and put together again.</description>
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<iconPath>UI/Icons/Genes/AG_Scars</iconPath>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<graphicData>
+			<useSkinShader>true</useSkinShader>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Scars/AG_Scars</graphicPath>
+			<visibleNorth>true</visibleNorth>
+			<layer>PostSkin</layer>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_MiscBase">
+		<defName>AG_ChainsawHands</defName>
+		<label>chainsaw hands</label>
+		<description>Carriers of this gene have chainsaws for hands. "Akkkkssstually -you say- those would be better implemented as implants, not a gene!". No, no, you misunderstand: these are biological, DNA codified chainsaw hands. Children of two people with chainsaw hands will have itty bitty chainsaw hands. It's science.</description>
+		<iconPath>UI/Icons/Genes/AG_ChainsawHands</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>chain</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_ChainsawHands/AG_ChainsawHands</graphicPath>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, -0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_ChainsawHands</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_MiscBase">
+		<defName>AG_ScytherHands</defName>
+		<label>scyther blades</label>
+		<description>Carriers of this gene have scyther blades on their arms. These are not implants, but a biomechanical adaptation that has fused mechanites with the carrier's DNA to create the blades out of their own bone tissues. They don't completely replace the hands, so the carrier keeps their manipulation capacities mostly intact.</description>
+		<iconPath>UI/Icons/Genes/AG_ScytherHandsIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>scythe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_ScytherHands/AG_ScytherHands</graphicPath>
+			<drawScale>1</drawScale>
+			<drawOffsetNorth>(0, -0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_ScytherHands</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_MiscBase">
+		<defName>AG_CrabClaw</defName>
+		<label>crab claw</label>
+		<description>Carriers of this gene have one of their arms mutated into a gigantic crab claw. This claw is surprisingly dexterous and doesn't impede the person's manipulation.</description>
+		<iconPath>UI/Icons/Genes/AG_CrabClawIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Cosmetic</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Why? Because.</li>
+		</customEffectDescriptions>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>crab</symbol>
+				</li>
+				<li>
+					<symbol>carc</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_CrabClaw/AG_CrabClaw</graphicPath>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, -0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_CrabClaw</hediff>
+						<bodyparts>
+							<li>Arm</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_BodyTentacles</defName>
+		<label>body tentacles</label>
+		<description>Carriers of this gene have a mass of writhing tentacles sprouting from their back.</description>
+		<iconPath>UI/Icons/Genes/AG_BodyTentaclesIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>eldrit</symbol>
+				</li>
+				<li>
+					<symbol>alien</symbol>
+				</li>
+				<li>
+					<symbol>eerie</symbol>
+				</li>
+				<li>
+					<symbol>tentac</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BodyTentacles/AG_BodyTentacles</graphicPath>
+			<drawScale>2</drawScale>
+			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+			<drawLoc>Tailbone</drawLoc>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Proboscis</defName>
+		<label>proboscis</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow a large proboscis protruding from their jaw.</description>
+		<iconPath>UI/Icons/Genes/AG_ProboscisIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Proboscis/AG_Proboscis</graphicPath>
+			<visibleNorth>false</visibleNorth>
+			<colorType>Skin</colorType>
+			<layer>PostHair</layer>
+			<drawLoc>HeadTop</drawLoc>
+		</graphicData>
+		<biostatCpx>0</biostatCpx>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>sucker</symbol>
+				</li>
+				<li>
+					<symbol>moskit</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FungalClumps</defName>
+		<label>fungal clumps</label>
+		<description>Carriers of this gene have overgrown toxic fungi growing from their torso. These fungi are so virulent that they will even grow over light clothing and armors.</description>
+		<iconPath>UI/Icons/Genes/AG_FungalClumps</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fung</symbol>
+				</li>
+				<li>
+					<symbol>mush</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>room</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalClumps/AG_FungalClumps</graphicPath>
+			<drawScale>1.25</drawScale>
+			
+			<drawLoc>Tailbone</drawLoc>
+		<drawOffsetNorth>(0, 0.02, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FungalSprout</defName>
+		<label>fungal sprout</label>
+		<description>Carriers of this gene have a strain of virulent fungi on their blood that has burst through their upper torso, creating blood filled pustules.</description>
+		<iconPath>UI/Icons/Genes/AG_FungalSprout</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fung</symbol>
+				</li>
+				<li>
+					<symbol>mush</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>room</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalSprout/AG_FungalSprout</graphicPath>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
+			<drawLoc>Tailbone</drawLoc>
+		
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FungalTentacles</defName>
+		<label>fungal tentacles</label>
+		<description>Carriers of this gene have a strain of virulent fungi that has braided itself into sickly looking tentacles that constantly twitch and move.</description>
+		<iconPath>UI/Icons/Genes/AG_FungalTentacles</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fung</symbol>
+				</li>
+				<li>
+					<symbol>mush</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>room</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalTentacles/AG_FungalTentacles</graphicPath>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
+			<drawLoc>Tailbone</drawLoc>
+		
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

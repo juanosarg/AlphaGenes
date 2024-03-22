@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<AlphaGenes.GenePackBlacklistDef>
+		<defName>AG_GenePackBlacklistDef_Androids</defName>
+		<blackListedGenes>							
+			<li>AG_WorkerDroidHead</li>
+			<li>AG_ServantDroidHead</li>
+			<li>AG_KillerDroidHead</li>	
+			<li>AG_HalfSyntheticHead</li>			
+			<li>AG_RoboticBodyPlastic</li>			
+			<li>AG_RoboticBodySkeletal</li>
+			<li>AG_LightLED</li>
+			<li>AG_LightLEDRed</li>			
+			<li>AG_MechAntenna</li>			
+			
+			
+		</blackListedGenes>							
+	</AlphaGenes.GenePackBlacklistDef>
+
+
+
+
+
+
+
+</Defs>

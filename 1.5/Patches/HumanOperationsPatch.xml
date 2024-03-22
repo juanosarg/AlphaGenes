@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+
+		<xpath>/Defs/ThingDef[defName="Human"]/recipes</xpath>
+		<value>
+			<li>AG_RemoveImplantation</li>
+			
+		</value>
+
+	</Operation>
+	
+	
+
+
+</Patch>

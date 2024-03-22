@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XenotypeDef>
+		<defName>AG_RoxTouched</defName>
+		<label>rox-touched</label>
+		<description>Rox-touched are a xenotype of bovine-like humans, standing out by their tall, robust frames covered in velvety, thick fur, which comes in a wide array of colors and patterns. Their faces feature endearing, expressive eyes that exude warmth and curiosity, framed by a pair of gracefully curved, crescent-shaped horns. Rox-touched almost universally consider themselves to be the divine progeny of a godlike mythological figure known to their culture as the "All-Knowing Rox".</description>
+		<descriptionShort>The Rox-touched are bovine-like xenohumans with a mystical disposition, celebrated for their gentle demeanour, close-knit communities, and exquisite culinary traditions.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_RoxTouched</iconPath>
+	
+		<inheritable>true</inheritable>
+		<genes>
+			<li>AG_LargerBodySize</li>
+			<li>AG_EfficientMandibles</li>
+			<li>AG_PackMule</li>
+			<li>AG_ArmouredSpeed</li>
+			<li>AG_VolatileMood</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>AG_ArrestAvoidance</li>
+			<li>AG_FertilityOutdoors</li>
+			<li>AG_RoxHorns</li>
+			<li>AG_RoxPelt</li>
+			<li>Hands_Pig</li>
+			<li>AptitudePoor_Construction</li>
+			<li>AptitudePoor_Artistic</li>
+			<li>AptitudeRemarkable_Cooking</li>
+			<li>AG_MiningYield_Low</li>
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

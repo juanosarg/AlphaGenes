@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/GeneDef[defName = "Sterile"]/exclusionTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/GeneDef[defName = "Sterile"]</xpath>
+			<value>
+				<exclusionTags>
+					<li>AG_Fertility</li>
+				</exclusionTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/GeneDef[defName = "Sterile"]/exclusionTags</xpath>
+			<value>
+				<li>AG_Fertility</li>
+			</value>
+		</match>
+	</Operation>
+	
+
+	
+	
+	
+	
+	
+</Patch>

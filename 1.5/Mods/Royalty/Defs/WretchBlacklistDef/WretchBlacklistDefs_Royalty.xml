@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<AlphaGenes.WretchBlacklistDef>
+		<defName>AG_WretchBlacklistDefRoyalty</defName>
+		<blackListedGenes>							
+			
+			<li>AG_InnatePsylink</li>			
+						
+			
+		</blackListedGenes>							
+	</AlphaGenes.WretchBlacklistDef>
+
+
+
+
+
+
+
+</Defs>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<AlphaGenes.BlackListedAnimalsDef>
+		<defName>AG_BlackListedAnimals</defName>
+		<blackListedAnimals>							
+			<li>AA_AcanthamoebaGiganteaSmall</li>
+			<li>AA_AcanthamoebaGiganteaLarge</li>
+			<li>AA_AcanthamoebaGiganteaHuge</li>	
+			<li>AA_AngelMothLarva</li>			
+			<li>AA_SummitCrab</li>			
+			<li>AA_DrainerLarva</li>
+			<li>AA_GallatrossMoribund</li>
+			<li>AA_GreenGoo</li>			
+			<li>AA_LarvalAtispec</li>			
+			<li>AA_RedGoo</li>
+			<li>AA_RedSpore</li>			
+			<li>AA_TarGuzzler</li>			
+			<li>AA_WaywardMobileAssembler</li>
+			<li>AA_Slurrypede</li>
+			<li>AA_EmpressButterflyLarva</li>
+			<li>AA_FungalHusk</li>
+			<li>AA_Mime</li>
+			<li>AA_BlizzariskClutchMother</li>
+			<li>AA_DunealiskClutchMother</li>
+			<li>AA_FeraliskClutchMother</li>	
+			<li>AA_FissionMouseSecond</li>
+			<li>AA_FissionMouseThird</li>
+			<li>AA_FlamingoPhoenix</li>
+			<li>AA_PhoenixOwlcat</li>
+			<li>VPE_SteelConstruct</li>
+			<li>VPE_RockConstruct</li>
+			<li>VPE_SummonedSkeleton</li>
+			<li>AA_BlackScarab_Temporary</li>
+			<li>AA_BlackSpelopede_Temporary</li>
+			<li>AA_BlackSpider_Temporary</li>
+			<li>AA_MammothWorm_Temporary</li>
+			<li>AA_BlackLarvae</li>
+			<li>AAVPE_BlackQueen</li>
+			<li>AA_OcularOriginator</li>
+			<li>AA_Summoned_Eyeling</li>
+							
+			
+		</blackListedAnimals>							
+	</AlphaGenes.BlackListedAnimalsDef>
+
+
+
+
+
+
+
+</Defs>

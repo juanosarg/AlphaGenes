@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>VRE_FungalSpeed</defName>
+		<label>fungal speed</label>
+		<description>This person has fungal mycelium woven into their muscles, allowing them faster movement. The effects increase in severity with time.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VanillaRacesExpandedFungoid.HediffCompProperties_StageByFungalDays">
+				<secondStageDays>120</secondStageDays>
+				<thirdStageDays>360</thirdStageDays>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.1</minSeverity>
+				<statFactors>
+					<MoveSpeed>2</MoveSpeed>
+					
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<statFactors>
+					<MoveSpeed>1.6</MoveSpeed>
+					
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<statFactors>
+					<MoveSpeed>1.3</MoveSpeed>
+					
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	
+</Defs>

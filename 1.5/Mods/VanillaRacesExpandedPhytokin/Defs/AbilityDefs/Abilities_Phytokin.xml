@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AbilityDef>
+		<defName>VRE_SummonOcularSlinger</defName>
+		<label>summon ocular slinger</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summons an ocular slinger under the control of the caster. This animal is a permanent colony animal, and can be drafted. A new scorpion can be summoned if the previous one is killed.</description>
+		<iconPath>UI/Abilities/AG_OcularScorpion</iconPath>
+		<aiCanUse>false</aiCanUse>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>3.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_SummonScorpion">
+				
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>VRE_StrikeEyes</defName>
+		<label>strike eyes</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Psychically causes the vitreous humour inside the target's eyes to heat to a boiling point, destroying them and leaving the poor victim forever blind.</description>
+		<iconPath>UI/Abilities/AG_StrikeEyes</iconPath>
+		<aiCanUse>false</aiCanUse>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>9.9</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetLocations>false</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_DestroyEyes">
+				
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>AG_OcularConversionAlphaAnimals</defName>
+		<label>ocular conversion</label>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<description>Converts flora in an area into ocular versions.</description>
+		<targetRequired>True</targetRequired>
+		<gizmoClass>Command_Ability</gizmoClass>
+		<iconPath>UI/Abilities/AG_OcularConversion</iconPath>
+		<uiOrder>1</uiOrder>
+		<statBases>
+			<Ability_EffectRadius>10.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>5</warmupTime>
+			<range>30</range>
+			<targetParams>
+				<canTargetPlants>true</canTargetPlants>
+			
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "AlphaGenes.CompProperties_AbilityOcularConversion">
+				
+				<plantList>
+					<li>AA_AlienTree</li>
+					<li>AA_AlienGrass</li>
+					<li>AA_RedLeaves</li>
+					<li>AA_RedPlantsTall</li>
+				</plantList>
+			</li>
+			
+		</comps>
+		
+	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>AG_OcularConversionAlphaBiomes</defName>
+		<label>ocular conversion</label>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<description>Converts flora in an area into ocular versions.</description>
+		<targetRequired>True</targetRequired>
+		<gizmoClass>Command_Ability</gizmoClass>
+		<iconPath>UI/Abilities/AG_OcularConversion</iconPath>
+		<uiOrder>1</uiOrder>
+		<statBases>
+			<Ability_EffectRadius>10.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>5</warmupTime>
+			<range>30</range>
+			<targetParams>
+				<canTargetPlants>true</canTargetPlants>
+			
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "AlphaGenes.CompProperties_AbilityOcularConversion">
+				
+				<plantList>
+					<li>AB_AlienTree</li>
+					<li>AB_AlienGrass</li>
+					<li>AB_RedLeaves</li>
+					<li>AB_RedPlantsTall</li>
+				</plantList>
+			</li>
+			
+		</comps>
+		
+	</AbilityDef>
+
+	
+	
+</Defs>

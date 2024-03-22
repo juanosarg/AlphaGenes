@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneTailBase">
+		<defName>AG_FoxTail</defName>
+		<label>fox tail</label>
+		<description>Carriers of this gene grow a large fox tail which partially protects them from cold temperatures.</description>
+		<iconPath>UI/Icons/Genes/AG_FoxTailIcon</iconPath>
+		<displayOrderInCategory>1001</displayOrderInCategory>
+		<statOffsets>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+		</statOffsets>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FoxTail/AG_FoxTail</graphicPath>
+			<colorType>Hair</colorType>
+			<drawScale>2</drawScale>
+			<drawOffsetNorth>(0.0, 0.2, -0.0)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.1, -0.0)</drawOffsetSouth>
+			<drawOffsetEast>(-0.0, -0.1, -0.0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneTailBase">
+		<defName>AG_DemonTail</defName>
+		<label>demon tail</label>
+		<description>Carriers of this gene grow a large demon tail which can act as a dexterous fifth limb.</description>
+		<iconPath>UI/Icons/Genes/AG_DemonTailIcon</iconPath>
+		<displayOrderInCategory>1002</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_DemonTail/AG_DemonTail</graphicPath>
+			<colorType>Skin</colorType>
+			<drawScale>1.25</drawScale>
+			<drawOffsetNorth>(0.0, 0.2, -0.0)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.1, -0.0)</drawOffsetSouth>
+			<drawOffsetEast>(-0.0, -0.1, -0.0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneTailBase">
+		<defName>AG_Drakonori_Tail</defName>
+		<label>drakonori tail</label>
+		<description>Carriers of this gene grow a large draconic tail which can be used to grapple and immobilize a target.</description>
+		<iconPath>UI/Icons/Genes/AG_Drakonori_Tail</iconPath>
+		<displayOrderInCategory>1003</displayOrderInCategory>
+		<abilities>
+			<li>AG_TailGrapple</li>
+		</abilities>
+		
+		<descriptionHyperlinks>
+			<AbilityDef>AG_TailGrapple</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_DrakonoriTail/AG_DrakonoriTail</graphicPath>
+			<colorType>Skin</colorType>
+			<drawScale>1.75</drawScale>
+			<drawOffsetNorth>(0.0, 0.2, -0.0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, -1, 0)</drawOffsetSouth>
+			<drawOffsetEast>(-0.0, -0.1, -0.0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

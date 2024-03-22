@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--=================== Fluids etc =================-->
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_FilthMucus</defName>
+		<label>slimy blood</label>
+		<statBases>
+			<Beauty>-50</Beauty>
+			<Cleanliness>-20</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<color>(70, 109, 65, 180)</color>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<filth>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<maxThickness>1</maxThickness>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_TarBlood</defName>
+		<label>tarlike blood</label>
+		<statBases>
+			<Beauty>-30</Beauty>
+			<Cleanliness>-10</Cleanliness>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<graphicData>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<color>(13, 6, 23, 180)</color>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<filth>
+			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+			<disappearsInDays>35~40</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<maxThickness>1</maxThickness>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_Filth_Fuel</defName>
+		<label>chemfuel puddle</label>
+		<description>A puddle of flammable chemfuel.</description>
+		<thingClass>AlphaGenes.Persistant_Fuel</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Beauty>-30</Beauty>
+			<Cleanliness>-10</Cleanliness>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>2.0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/LiquidFuel</texPath>
+		</graphicData>
+		<filth>
+			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+			<disappearsInDays>35~40</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<maxThickness>1</maxThickness>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_Filth_RubbleRock</defName>
+		<label>pebble blood</label>
+		<graphicData>
+			<texPath>Things/Filth/RubbleRock</texPath>
+		</graphicData>
+		<filth>
+			<disappearsInDays>70~80</disappearsInDays>
+			<cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+		</filth>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_Filth_Rats</defName>
+		<label>rat filth</label>
+		<thingClass>AlphaGenes.Rat_Spawning_Filth</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<color>(70, 109, 65, 180)</color>
+		</graphicData>
+		<filth>
+			<disappearsInDays>1</disappearsInDays>
+			<cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+		</filth>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_Filth_Acid</defName>
+		<label>neutralized acidic blood</label>
+		<statBases>
+			<Beauty>-30</Beauty>
+			<Cleanliness>-10</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(121, 196, 32, 180)</color>
+		</graphicData>
+		<filth>
+			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+			<disappearsInDays>35~40</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_Filth_CryoVomit</defName>
+		<label>cryo vomit</label>
+		<thingClass>AlphaGenes.Filth_CryoVomitSpawner</thingClass>
+		<statBases>
+			<Beauty>-40</Beauty>
+			<Cleanliness>-15</Cleanliness>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<color>(139, 211, 222, 180)</color>
+		</graphicData>
+		<filth>
+			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+			<disappearsInDays>3~5</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>300</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+	<ThingDef>
+		<defName>AG_Filth_CryoVomitPermanent</defName>
+		<label>cryo vomit</label>
+		<category>Filth</category>
+		<tickerType>Normal</tickerType>
+		<thingClass>ThingWithComps</thingClass>
+		<statBases>
+			<Beauty>-40</Beauty>
+			<Cleanliness>-15</Cleanliness>
+		</statBases>
+		<altitudeLayer>Filth</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<drawerType>MapMeshOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<color>(139, 211, 222, 180)</color>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusher</compClass>
+				<heatPerSecond>-30</heatPerSecond>
+				<heatPushMinTemperature>-10</heatPushMinTemperature>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>60000</lifespanTicks>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_Filth_CryoBlood</defName>
+		<label>cryo blood</label>
+		<thingClass>AlphaGenes.Filth_CryoBloodSpawner</thingClass>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Beauty>-30</Beauty>
+			<Cleanliness>-10</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(139, 211, 222, 180)</color>
+		</graphicData>
+		<filth>
+			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+			<disappearsInDays>3~5</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>300</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+		
+	</ThingDef>
+	<ThingDef>
+		<defName>AG_Filth_CryoBloodPermanent</defName>
+		<label>cryo blood</label>
+		<category>Filth</category>
+		<tickerType>Normal</tickerType>
+		<thingClass>ThingWithComps</thingClass>
+		<altitudeLayer>Filth</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<drawerType>MapMeshOnly</drawerType>
+		<statBases>
+			<Beauty>-30</Beauty>
+			<Cleanliness>-10</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(139, 211, 222, 180)</color>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		
+		<comps>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusher</compClass>
+				<heatPerSecond>-30</heatPerSecond>
+				<heatPushMinTemperature>-10</heatPushMinTemperature>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>60000</lifespanTicks>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

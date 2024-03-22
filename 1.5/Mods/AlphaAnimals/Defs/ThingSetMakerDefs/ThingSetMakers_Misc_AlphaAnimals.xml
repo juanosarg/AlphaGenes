@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingSetMakerDef>
+		<defName>AG_FissionMouse</defName>
+		<root Class="AlphaGenes.ThingSetMaker_FissionMouse"/>
+	</ThingSetMakerDef>
+	<ThingSetMakerDef>
+		<defName>AG_Needleroll</defName>
+		<root Class="AlphaGenes.ThingSetMaker_Needleroll"/>
+	</ThingSetMakerDef>
+	<ThingSetMakerDef>
+		<defName>AG_OcularJelly</defName>
+		<root Class="AlphaGenes.ThingSetMaker_OcularJelly"/>
+	</ThingSetMakerDef>
+	<ThingSetMakerDef>
+		<defName>AG_Ave</defName>
+		<root Class="AlphaGenes.ThingSetMaker_Ave"/>
+	</ThingSetMakerDef>
+</Defs>

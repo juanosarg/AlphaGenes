@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Genetics Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/GeneDef[defName = "AG_AcidResistance"]/damageFactors</xpath>
+					<value>
+						<GR_Acid>0</GR_Acid>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

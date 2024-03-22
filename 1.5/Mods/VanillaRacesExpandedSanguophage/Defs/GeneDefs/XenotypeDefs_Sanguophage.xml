@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XenotypeDef>
+		<defName>AG_Malachai</defName>
+		<label>malachai</label>
+		<description>The Malachai are a race of truly monstrous beings that have evolved from Strigoi. They possess the same thirst for blood as their Strigoi predecessors, but have also learned to incorporate the genetic material of their prey to enhance their own abilities. With their DNA extraction abilities, they can absorb traits such as heightened senses, increased speed, and advanced technological skills, making them an incredibly powerful force.\n\nHowever, their abilities and thirst for power come at a cost, and Malachai are often twisted and cruel in their actions towards others. They harbour a deep-seated hatred for other sanguophages, and will only collaborate with them out of abject necessity. As adept schemers, the Malachai always have an ulterior motive or agenda bubbling beneath the surface of their superficial actions.\n\nTheir society is highly hierarchical and ruthless, with powerful Malachai ruling over weaker ones through fear and intimidation. They are feared by many and considered a dangerous threat to be avoided whenever possible.</description>
+		<descriptionShort>Malachai are mutated Strigoi: ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They can slowly incorporate genes from their enemies. They can heal any injury, and never suffer from disease or poison. In combat, they use their huge talons to rip their prey to pieces. The price is that they must consume hemogen derived from humans to survive, and they must periodically deathrest for long periods. They lose their hemogen supply and need to replenish it regularly to sustain themselves. They're easily destroyed by fire, and suffer truly extreme penalties in UV light.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Malachai</iconPath>
+		<soundDefOnImplant>PawnBecameSanguophage</soundDefOnImplant>
+		<generateWithXenogermReplicatingHediffChance>0.5</generateWithXenogermReplicatingHediffChance>
+		<xenogermReplicatingDurationLeftDaysRange>0.1~140</xenogermReplicatingDurationLeftDaysRange>
+		<combatPowerFactor>2.5</combatPowerFactor>
+		<displayPriority>-1001</displayPriority>
+		<genes>
+			<li>XenogermReimplanter</li>
+			<li>Ageless</li> 
+			<li>ArchiteMetabolism</li>
+			<li>Deathless</li>
+			<li>DiseaseFree</li>
+			<li>PerfectImmunity</li>			
+			<li>TotalHealing</li>
+			<li>VRE_Resurrect</li>
+
+			<li>Bloodfeeder</li>
+			<li>AG_GeneSyphon</li>
+			<li>AG_LargerBodySize</li>
+			<li>AG_TarBlood</li>
+			<li>Coagulate</li>
+			<li>Hemogenic</li>
+			<li>HemogenDrain</li>
+			<li>Deathrest</li>
+			
+			<li>WoundHealing_SuperFast</li>
+			<li>AG_ArmourMedium</li>
+			<li>PsychicAbility_Deaf</li>
+			<li>MoveSpeed_Quick</li>			
+			<li>ToxResist_Total</li>
+			<li>AG_Sensitivity_Vicious</li>
+			<li>FireWeakness</li>
+			<li>FireTerror</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Neversleep</li>
+			<li>AG_Painless</li>			
+			<li>AG_EldritchVisage</li>
+			<li>DarkVision</li>      
+			
+			<li>AptitudeStrong_Melee</li>		
+			<li>AptitudeStrong_Intellectual</li>
+			
+			<li>VRE_BatEars</li>
+			<li>VRE_BatNose</li>
+			<li>AG_BatWings</li>
+			<li>AG_ClawedHands</li>
+			<li>Eyes_Red</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>AG_GrowlingVoice</li>
+			<li>AG_VenomFangs</li>
+			<li>AG_GauntBody</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_SlateGray</li>
+			
+			<li>AG_BloodsuckerDistrust</li>
+
+
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

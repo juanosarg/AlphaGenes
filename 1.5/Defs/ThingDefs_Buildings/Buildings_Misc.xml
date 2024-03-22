@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>AG_TemporaryBandNode</defName>
+    <label>temporary band node</label>
+    <description>A temporary mechanoid-band signal amplifier. Automatically tuned to the mechanitor that summoned it. It will provide a significant 10 bandwidth boost, but it will vanish after a week. Doesn't require power.</description>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <fillPercent>0.4</fillPercent>
+    <graphicData>
+      <texPath>Things/Building/AG_TemporaryMechBand</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(1.5, 0.35, 1.2)</volume>
+        <offset>(0, 0, -0.15)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <buildingTags>
+        <li>Biotech</li>
+      </buildingTags>
+    </building>
+   
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Mass>25</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+   
+    <comps>
+     <li Class="CompProperties_Lifespan">
+        <lifespanTicks>4200000</lifespanTicks> <!--7 days-->
+      </li>
+	  <li Class="AlphaGenes.CompProperties_TempNodeBuilding"></li>
+      
+    </comps>
+    
+  </ThingDef>
+
+
+
+</Defs>

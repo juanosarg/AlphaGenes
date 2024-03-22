@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RulePackDef>
+    <defName>AG_NamerAlphapack</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->alphapack ([geneWord][otherGenesInfo])</li>
+
+        <li>otherGenesInfo(geneCount==1)-></li>
+        <li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>AG_NamerMixedpack</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->mixedpack ([geneWord][otherGenesInfo])</li>
+
+        <li>otherGenesInfo(geneCount==1)-></li>
+        <li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+ 
+
+</Defs>

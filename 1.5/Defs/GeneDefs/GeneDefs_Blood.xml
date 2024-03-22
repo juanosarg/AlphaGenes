@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_ChemfuelBlood</defName>
+		<label>chemfuel blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have a chemfuel powered metabolism, and as such will bleed chemfuel instead of normal human blood. This blood is flammable.</description>
+		<iconPath>UI/Icons/Genes/AG_ChemfuelBlood</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+	
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>chembleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>chem</symbol>
+				</li>
+				<li>
+					<symbol>explo</symbol>
+				</li>
+				<li>
+					<symbol>boom</symbol>
+				</li>
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_Filth_Fuel</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_ChembloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitChemfuel</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsChemfuel</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>AG_SlimeBlood</defName>
+		<label>slime blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have slimy, green coloured blood. This blood is thick, exceptionally ugly, and doesn't go away on its own.</description>
+		<iconPath>UI/Icons/Genes/AG_SlimeBlood</iconPath>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>slimebleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>slimy</symbol>
+				</li>
+				<li>
+					<symbol>mucus</symbol>
+				</li>
+				<li>
+					<symbol>booger</symbol>
+				</li>
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_FilthMucus</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_SlimebloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitSlime</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsSlime</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_AcidicBlood</defName>
+		<label>acidic blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have extremely acidic blood. This blood doesn't harm them, but it will spill everywhere when they are slain, hurting all people nearby.</description>
+		<iconPath>UI/Icons/Genes/AG_AcidBlood</iconPath>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>xenomorph</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>acid</symbol>
+				</li>
+				<li>
+					<symbol>caust</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_Filth_Acid</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_AcidicBloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitAcid</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsAcid</customWoundsFromFleshtype>
+				<hediffToWholeBody>AG_AcidicExploder</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_TarBlood</defName>
+		<label>tarlike blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have very thick, dark and sticky blood, similar to tar. This blood impedes movement.</description>
+		<iconPath>UI/Icons/Genes/AG_TarBlood</iconPath>
+		<displayOrderInCategory>30</displayOrderInCategory>
+	
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>tarbleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>tar</symbol>
+				</li>
+				<li>
+					<symbol>stick</symbol>
+				</li>
+				<li>
+					<symbol>oil</symbol>
+				</li>
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_TarBlood</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_TarbloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitTar</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsTar</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_InsectBlood</defName>
+		<label>insect blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have insect blood.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectBlood</iconPath>
+		<displayOrderInCategory>40</displayOrderInCategory>
+	
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>insectbleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>insect</symbol>
+				</li>
+				<li>
+					<symbol>ento</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>Filth_BloodInsect</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_InsectbloodIcon</customBloodIcon>
+				<customBloodEffect>Damage_HitInsect</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsInsect</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_FirefoamBlood</defName>
+		<label>firefoam blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have a weird fire retardant mixture for blood. This blood is not potent enough to put down fires, but it will not let flames spread.</description>
+		<iconPath>UI/Icons/Genes/AG_FirefoamBlood</iconPath>
+		<displayOrderInCategory>50</displayOrderInCategory>
+	
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>foambleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>foam</symbol>
+				</li>
+				<li>
+					<symbol>flamma</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>Filth_FireFoam</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_FirefoambloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitFoam</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsFoam</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_PebbleBlood</defName>
+		<label>pebble blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have partially crystallized blood, that takes the form of small stone-like pebbles as soon as it comes into contact with air. This blood affects much less the beauty and cleanliness of its surroundings, but takes more time to go away and more work to clean.</description>
+		<iconPath>UI/Icons/Genes/AG_PebbleBlood</iconPath>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>rock-bleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>rock</symbol>
+				</li>
+				<li>
+					<symbol>pebble</symbol>
+				</li>
+				<li>
+					<symbol>litho</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_Filth_RubbleRock</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_PebblebloodIcon</customBloodIcon>
+				<customBloodEffect>Damage_HitMechanoid</customBloodEffect>
+				<customWoundsFromFleshtype>Mechanoid</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_WaterBlood</defName>
+		<label>water blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have watered down blood. Their blood is so thin that puddles of it will be virtually indistinguishable from water.</description>
+		<iconPath>UI/Icons/Genes/AG_WaterBlood</iconPath>
+		<displayOrderInCategory>70</displayOrderInCategory>
+		
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>Filth_Water</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_WaterbloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitWater</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsWater</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_CryoBlood</defName>
+		<label>cryo blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have a cryogenic fluid for blood. This liquid will quickly drop the temperature of its surroundings, making it both useful and incredibly dangerous. Dissipates faster than normal blood but can't be cleaned.</description>
+		<iconPath>UI/Icons/Genes/AG_CryoBlood</iconPath>
+		<displayOrderInCategory>80</displayOrderInCategory>
+	
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>cryobleeder</symbol>
+				</li>
+
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>cryo</symbol>
+				</li>
+	
+			</prefixSymbols>
+
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_Filth_CryoBlood</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_CryobloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitCryo</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsCryo</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

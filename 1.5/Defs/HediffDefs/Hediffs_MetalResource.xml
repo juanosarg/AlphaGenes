@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <HediffDef>
+    <defName>AG_MineralCraving</defName>
+    <label>mineral craving</label>
+    <description>Due to a lack of minerals, this person's body can no longer sustain their metabolism. Their hunger is insatiable</description>
+    <hediffClass>AlphaGenes.Hediff_MineralCraving</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.5)</defaultLabelColor>
+    <initialSeverity>0.01</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <label>minor</label>
+        <painOffset>0.05</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+        </capMods>
+		<hungerRateFactor>5</hungerRateFactor>
+      </li>
+      <li>
+        <label>moderate</label>
+        <minSeverity>0.35</minSeverity>
+        <painOffset>0.1</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.8</setMax>
+          </li>
+        </capMods>
+		<hungerRateFactor>10</hungerRateFactor>
+      </li>
+      <li>
+        <label>major</label>
+        <minSeverity>0.7</minSeverity>
+        <painOffset>0.15</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.7</setMax>
+          </li>
+        </capMods>
+		<hungerRateFactor>20</hungerRateFactor>
+      </li>
+    </stages>
+    <comps>
+      <li Class="AlphaGenes.HediffCompProperties_SeverityFromMinerals">
+        <severityPerHourEmpty>0.05</severityPerHourEmpty>
+        <severityPerHourHemogen>-0.1</severityPerHourHemogen>
+      </li>
+    </comps>
+ </HediffDef>
+  <HediffDef>
+    <defName>AG_MineralFueled</defName>
+    <label>mineral fueled</label>
+    <description>Hidden: mineral fueled</description>
+    <hediffClass>AlphaGenes.Hediff_MineralFueled</hediffClass>
+    <defaultLabelColor>(1, 0.2, 0.2)</defaultLabelColor>
+    <initialSeverity>0.00</initialSeverity>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <label>off</label>
+		<hungerRateFactor>1</hungerRateFactor>
+      </li>
+	  <li>
+        <label>on</label>
+		<minSeverity>1</minSeverity>
+		<hungerRateFactor>0.00001</hungerRateFactor>
+      </li>
+    </stages>
+ </HediffDef>
+  <HediffDef>
+    <defName>AG_ReactiveArmourHediff</defName>
+    <label>reactive armour</label>
+    <description>Their minerals are hardening their skin against attacks by how strong their mineral reserves are.</description>
+    <hediffClass>AlphaGenes.Hediff_ReactiveArmour</hediffClass>
+    <defaultLabelColor>(1, 0.2, 0.2)</defaultLabelColor>
+    <initialSeverity>0.00</initialSeverity>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <label>minimal armour</label>
+			<statOffsets>
+				<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			</statOffsets>
+		<minSeverity>0</minSeverity>
+      </li>
+      <li>
+        <label>wavering armour</label>
+			<statOffsets>
+				<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			</statOffsets>
+		<minSeverity>0.20</minSeverity>
+      </li>
+      <li>
+        <label>hardened armour</label>
+			<statOffsets>
+				<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			</statOffsets>
+		<minSeverity>0.60</minSeverity>
+      </li>
+      <li>
+        <label>impenetrable armour</label>
+			<statOffsets>
+				<ArmorRating_Blunt>1.20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			</statOffsets>
+		<minSeverity>0.90</minSeverity>
+      </li>
+    </stages>
+ </HediffDef>
+   <HediffDef>
+    <defName>AG_MineralOverdriveHediff</defName>
+    <label>mineral overdrive</label>
+    <description>Their mineral reserves are being rapidly consumed to work at break neck pace!</description>
+    <hediffClass>AlphaGenes.Hediff_MineralOverdrive</hediffClass>
+    <defaultLabelColor>(1, 0.2, 0.2)</defaultLabelColor>
+    <initialSeverity>0.00</initialSeverity>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <label>overdrive</label>
+			<restFallFactor>0.50</restFallFactor>
+			<statOffsets>
+				<WorkSpeedGlobal>0.50</WorkSpeedGlobal>
+			</statOffsets>
+		<minSeverity>0</minSeverity>
+      </li>
+    </stages>
+ </HediffDef>
+ 
+</Defs>

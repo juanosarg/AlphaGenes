@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>AG_GeneTools</defName>
+		<label>gene tools</label>
+		<parent>Manufactured</parent>
+		<iconPath>Things/Item/AG_GeneRemover</iconPath>
+	</ThingCategoryDef>
+	
+</Defs>

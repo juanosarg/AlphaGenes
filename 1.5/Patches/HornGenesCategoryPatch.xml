@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/GeneDef[defName = "Headbone_MiniHorns"]</xpath>
+		<value><displayCategory>AG_Cosmetic_Horns</displayCategory></value>
+		
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/GeneDef[defName = "Headbone_CenterHorn"]</xpath>
+		<value><displayCategory>AG_Cosmetic_Horns</displayCategory></value>
+		
+	</Operation>
+	
+	
+	
+</Patch>

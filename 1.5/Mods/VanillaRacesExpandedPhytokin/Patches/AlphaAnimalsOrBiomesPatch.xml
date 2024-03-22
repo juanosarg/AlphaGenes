@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Animals</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/GeneDef[defName = "AG_OcularAffinity"]/abilities</xpath>
+					<value>
+						<li>AG_OcularConversionAlphaAnimals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/GeneDef[defName = "AG_OcularAffinity"]/descriptionHyperlinks</xpath>
+					<value>
+						<AbilityDef>AG_OcularConversionAlphaAnimals</AbilityDef>
+					</value>
+				</li>
+			</operations>
+		</match>
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Alpha Biomes</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<success>Always</success>
+								<xpath>/Defs/GeneDef[defName = "AG_OcularAffinity"]/abilities</xpath>
+								<value>
+									<li>AG_OcularConversionAlphaBiomes</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<success>Always</success>
+								<xpath>/Defs/GeneDef[defName = "AG_OcularAffinity"]/descriptionHyperlinks</xpath>
+								<value>
+									<AbilityDef>AG_OcularConversionAlphaBiomes</AbilityDef>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+</Patch>

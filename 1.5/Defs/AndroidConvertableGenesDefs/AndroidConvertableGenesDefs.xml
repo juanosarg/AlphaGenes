@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VREAndroids.AndroidConvertableGenesDef>
+		<defName>AG_AndroidConvertableGenesDefs</defName>
+		<genesBlacklist>
+			<li>AG_Skin_Silver</li>
+			<li>AG_Skin_Gold</li>
+			<li>AG_Skin_TrueBlack</li>
+			<li>AG_InnateMechlink</li>
+		</genesBlacklist>
+		<geneCategories>
+			<li>AG_Gender</li>
+			<li>AG_BodySize</li>
+			<li>AG_Wings</li>
+			<li>AG_Cosmetic_Tails</li>
+			<li>AG_Cosmetic_Ears</li>
+			<li>AG_Cosmetic_Horns</li>
+			<li>AG_Cosmetic_Heads</li>
+			<li>AG_Cosmetic_Bodies</li>
+			<li>AG_Mechanitor</li>
+		</geneCategories>
+		<genes>
+			<li>AlphaGenes_ExoticOrganism</li>
+			<li>AG_ThirdEye</li>
+			<li>AG_EyeOfShubNiggurath</li>
+			<li>AG_BodyTentacles</li>
+			<li>AG_ClawedHands</li>
+		</genes>
+		
+	</VREAndroids.AndroidConvertableGenesDef>
+</Defs>

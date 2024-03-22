@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>AG_Mood_Volatile</defName>
+		<workerClass>AlphaGenes.ThoughtWorker_Mood_Volatile</workerClass>
+		<stages>
+			<li>
+				<label>genetic joy</label>
+				<description>Natural bonus from 'volatile' gene.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+			<li>
+				<label>genetic depression</label>
+				<description>Natural penalty from 'volatile' gene.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

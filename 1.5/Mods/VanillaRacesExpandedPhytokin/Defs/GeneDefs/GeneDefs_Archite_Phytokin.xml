@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<GeneDef>
+		<defName>AG_OcularAffinity</defName>
+		<label>ocular affinity</label>
+		<description>Carriers of this gene have a special connection to the ocular trees, allowing them to act as an amplifier to the special properties of the tree, giving them access to powerful innate psychic abilities.</description>
+		<iconPath>UI/Icons/Genes/AG_OcularAffinity</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<displayOrderInCategory>5004</displayOrderInCategory>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<biostatArc>1</biostatArc>
+		<exclusionTags>
+			<li>VRE_TreeAffinity</li>
+		</exclusionTags>
+		<customEffectDescriptions>	
+			<li>Guarantees Natural Meditation focus on the pawn.</li>
+			<li>If Alpha Animals OR Alpha Biomes are present, they'll get an ocular conversion ability.</li>
+			
+		</customEffectDescriptions>
+		<statOffsets>
+			<PruningSpeed>1</PruningSpeed>		
+		</statOffsets>
+		<abilities>
+			<li>VRE_SummonOcularSlinger</li>
+			<li>VRE_StrikeEyes</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>VRE_SummonOcularSlinger</AbilityDef>
+			<AbilityDef>VRE_StrikeEyes</AbilityDef>
+		</descriptionHyperlinks>
+		<symbolPack>
+			
+			<prefixSymbols>
+				<li>
+					<symbol>eye</symbol>
+				</li>
+				<li>
+					<symbol>ocul</symbol>
+				</li>
+			
+			</prefixSymbols>
+			
+		</symbolPack>
+	</GeneDef>
+</Defs>

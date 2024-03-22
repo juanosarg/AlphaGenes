@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\GatesToTheUniverse\Assemblies\GatesToTheUniverse.dll
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\GatesToTheUniverse\Source\GatesToTheUniverse\GatesToTheUniverse\obj\Debug\GatesToTheUniverse.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\GatesToTheUniverse\Source\GatesToTheUniverse\GatesToTheUniverse\obj\Debug\GatesToTheUniverse.dll
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\GatesToTheUniverse\Source\GatesToTheUniverse\GatesToTheUniverse\obj\Debug\GatesToTheUniverse.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GatesToTheUniverse\Source\GatesToTheUniverse\GatesToTheUniverse\obj\Debug\GatesToTheUniverse.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GatesToTheUniverse\Source\GatesToTheUniverse\GatesToTheUniverse\obj\Debug\GatesToTheUniverse.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GatesToTheUniverse\Source\GatesToTheUniverse\GatesToTheUniverse\obj\Debug\GatesToTheUniverse.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GatesToTheUniverse\Assemblies\GatesToTheUniverse.dll

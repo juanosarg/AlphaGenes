@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  
+
+
+ 
+  
+    <ThoughtDef>
+    <defName>AG_BloodsuckerDistrust</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>AlphaGenes.ThoughtWorker_BloodsuckerDistrust</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+   
+    <stages>
+      
+      <li>
+        <label>bloodsucker distrust</label>
+        <baseOpinionOffset>-100</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ 
+  
+</Defs>

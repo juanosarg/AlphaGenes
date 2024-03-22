@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<AbilityDef  ParentName="AG_NoTargetAbilities">
+		<defName>AG_Invisibility</defName>
+		<label>psychic invisibility</label>
+		<description>Psychically shift skin tones to camouflage in almost any surroundings.</description>
+		<iconPath>UI/Icons/Genes/AG_Invisibility</iconPath>
+		<cooldownTicksRange>30000</cooldownTicksRange>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_GiveHediff">
+				<hediffDef>AG_Invisibility</hediffDef>
+			</li>
+		</comps>
+
+	</AbilityDef>
+
+
+
+
+
+</Defs>

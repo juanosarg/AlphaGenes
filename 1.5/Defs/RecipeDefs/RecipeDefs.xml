@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>AG_RemoveImplantation</defName>
+		<label>remove parasitic implantation</label>
+		<description>Remove a parasitic implantation.</description>
+		<workerClass>AlphaGenes.Recipe_RemoveImplantation</workerClass>
+		<jobString>Removing parasitic implantation.</jobString>
+		<workAmount>4500</workAmount>
+		<removesHediff>AG_ParasiticImplantation</removesHediff>
+		<targetsBodyPart>false</targetsBodyPart>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s parasitic implantation.</successfullyRemovedHediffMessage>
+		<deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+
+
+</Defs>
