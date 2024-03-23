@@ -9,11 +9,21 @@
 		<customEffectDescriptions>
 			<li>Colonist will explode on death in a flame explosion with 2 tiles radius</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</graphicPath>
-			<color>(255, 255, 255)</color>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</texPath>
+				
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<biostatCpx>1</biostatCpx>
 		<symbolPack>
 			<prefixSymbols>
@@ -44,11 +54,21 @@
 		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
 		<description>Techno-organic coils of wireless energy are wired into the carrier's genome, allowing them to recharge batteries nearby.</description>
 		<iconPath>UI/Icons/Genes/AG_TetraCoilsIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_TetraCoils/AG_TetraCoils</graphicPath>
-			<color>(255, 255, 255)</color>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_TetraCoils/AG_TetraCoils</texPath>
+				
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<customEffectDescriptions>
 			<li>Colonist will recharge nearby batteries. Most modded batteries are supported</li>
 		</customEffectDescriptions>

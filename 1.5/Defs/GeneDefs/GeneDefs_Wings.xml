@@ -6,9 +6,6 @@
 			<li>Wing</li>
 			<li>Wings</li>
 		</exclusionTags>
-		<graphicData>
-			<drawLoc>Tailbone</drawLoc>
-		</graphicData>
 		<randomChosen>true</randomChosen>
 	</GeneDef>
 	<GeneDef ParentName="AG_WingBase">
@@ -39,13 +36,20 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_RainbowWings/AG_RainbowWings</graphicPath>
-			<drawScale>2</drawScale>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_RainbowWings/AG_RainbowWings</texPath>
+				<drawSize>1.5</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -69,14 +73,21 @@
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BatWings/AG_BatWings</graphicPath>
-			<drawScale>2</drawScale>
-			<colorType>Skin</colorType>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_BatWings/AG_BatWings</texPath>
+				<drawSize>1.5</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<colorType>Skin</colorType>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -120,13 +131,20 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_PegasusWings/AG_PegasusWings</graphicPath>
-			<drawScale>2</drawScale>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_PegasusWings/AG_PegasusWings</texPath>
+				<drawSize>1.5</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -160,17 +178,24 @@
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPaths>
-				<li>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings</li>
-				<li>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings2</li>
-				<li>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings3</li>
-			</graphicPaths>
-			<drawScale>2</drawScale>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings</li>
+					<li>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings2</li>
+					<li>Things/Pawn/Humanlike/BodyAttachments/AG_MothWings/AG_MothWings3</li>
+				</texPaths>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -210,13 +235,20 @@
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BumbledroneWings/AG_BumbledroneWings</graphicPath>
-			<drawScale>1.5</drawScale>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_BumbledroneWings/AG_BumbledroneWings</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -256,13 +288,20 @@
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_WaspWings/AG_WaspWings</graphicPath>
-			<drawScale>1.5</drawScale>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_WaspWings/AG_WaspWings</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -294,19 +333,25 @@
 				<li>
 					<symbol>drain</symbol>
 				</li>
-				
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_DrainerWings/AG_DrainerWings</graphicPath>
-			<drawScale>1.5</drawScale>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_DrainerWings/AG_DrainerWings</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -346,13 +391,20 @@
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FeatheredWings/AG_FeatheredWings</graphicPath>
-			<drawScale>1.5</drawScale>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_FeatheredWings/AG_FeatheredWings</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -384,20 +436,26 @@
 				<li>
 					<symbol>fiend</symbol>
 				</li>
-				
 			</prefixSymbols>
 		</symbolPack>
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_DemonWings/AG_DemonWings</graphicPath>
-			<drawScale>1.25</drawScale>
-			<colorType>Skin</colorType>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_DemonWings/AG_DemonWings</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<colorType>Skin</colorType>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<abilities>
 			<li>AG_WingPoweredJump</li>
 		</abilities>
@@ -455,14 +513,21 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_SingleWing/AG_SingleWing</graphicPath>
-			<drawScale>1.75</drawScale>
-			<colorType>Skin</colorType>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_SingleWing/AG_SingleWing</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<colorType>Skin</colorType>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -482,14 +547,21 @@
 		<customEffectDescriptions>
 			<li>Colonist will ignore terrain movement costs</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_DrakonoriWings/AG_DrakonoriWings</graphicPath>
-			<drawScale>2</drawScale>
-			<colorType>Skin</colorType>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_DrakonoriWings/AG_DrakonoriWings</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<colorType>Skin</colorType>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>

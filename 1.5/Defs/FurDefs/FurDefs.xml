@@ -127,5 +127,17 @@
     </bodyTypeGraphicPaths>
   </FurDef>
 
-
+ <FurDef>
+    <defName>AG_SlimyBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_SlimyBody/AG_Slimy_Male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_SlimyBody/AG_Slimy_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_SlimyBody/AG_Slimy_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_SlimyBody/AG_Slimy_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_SlimyBody/AG_Slimy_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/Naked_Child</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/Naked_Child</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
 </Defs>

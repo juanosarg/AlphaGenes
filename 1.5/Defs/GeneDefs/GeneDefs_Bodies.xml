@@ -7,9 +7,7 @@
 			<li>Bodies</li>
 			<li>Body</li>
 		</exclusionTags>
-		<graphicData>
-			<drawLoc>Tailbone</drawLoc>
-		</graphicData>
+		
 	</GeneDef>
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_SlimeBody</defName>
@@ -18,14 +16,20 @@
 		<description>Carriers of this gene have gelatinous, constantly dripping blue skin.</description>
 		<biostatCpx>1</biostatCpx>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/Bodies/AG_SlimyBody/AG_Slimy</graphicPath>
-			<drawWhileDessicated>true</drawWhileDessicated>
-			<drawOffsetNorth>(0, 0.01, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0.01, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0.01, 0)</drawOffsetEast>
-			<tattoosVisible>false</tattoosVisible>
-		</graphicData>
+		<fur>AG_SlimyBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<displayOrderInCategory>400</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_SlimeBodyIcon</iconPath>
 		<iconColor>(157, 188, 200)</iconColor>
@@ -50,6 +54,7 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -83,10 +88,20 @@
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
 		</statOffsets>
 		<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
-		<graphicData>
-			<fur>AG_SlugBody</fur>
-			<tattoosVisible>false</tattoosVisible>
-		</graphicData>
+		
+		<fur>AG_SlugBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -95,32 +110,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<!--<GeneDef ParentName="AG_BodyBase">
-		<defName>AG_MimeBody</defName>
-		<label>mime body</label>
-		<labelShortAdj>mime-like</labelShortAdj>
-		<description>Carriers of this gene have emaciated, ash black skin. Their torsos are caved in, and sickly looking bones protrude from the thoracic cavity.</description>
-		<biostatCpx>3</biostatCpx>
-		<biostatMet>-1</biostatMet>
-		<selectionWeight>0</selectionWeight>
-		<displayOrderInCategory>430</displayOrderInCategory>
-		<iconPath>UI/Icons/Genes/AG_MimeBody</iconPath>
-
-		
-		<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
-		<graphicData>
-			<fur>AG_MimeBody</fur>
-
-			<tattoosVisible>false</tattoosVisible>
-		</graphicData>
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<dontColourFur>true</dontColourFur>
-			</li>
-		</modExtensions>
-	</GeneDef>-->
+	
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_ScalyBody</defName>
 		<label>scaly body</label>
@@ -154,10 +144,20 @@
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>
-		<graphicData>
-			<fur>AG_ScalyBody</fur>
-			<tattoosVisible>false</tattoosVisible>
-		</graphicData>
+		
+		<fur>AG_ScalyBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -190,10 +190,20 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<fur>AG_RockyBody</fur>
-			<tattoosVisible>false</tattoosVisible>
-		</graphicData>
+		
+		<fur>AG_RockyBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -224,9 +234,20 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<fur>AG_TeratoBody</fur>
-		</graphicData>
+		
+		<fur>AG_TeratoBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -261,9 +282,20 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<fur>AG_GauntBody</fur>
-		</graphicData>
+		
+		<fur>AG_GauntBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -282,10 +314,20 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>437</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_Drakonori_Body</iconPath>
+		<fur>AG_DrakonoriBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		
-		<graphicData>
-			<fur>AG_DrakonoriBody</fur>
-		</graphicData>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

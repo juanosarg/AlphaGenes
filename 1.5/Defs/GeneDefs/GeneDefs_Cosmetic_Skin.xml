@@ -149,11 +149,20 @@
 		<description>Carriers of this gene produce a pigment that turns their skin an iridescent silver color.</description>
 		<skinColorOverride>(255, 255, 255)</skinColorOverride>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<fur>AG_SilverBody</fur>
-			<drawLoc>Tailbone</drawLoc>
-			<tattoosVisible>true</tattoosVisible>
-		</graphicData>
+		
+		<fur>AG_SilverBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>true</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<displayOrderInCategory>104</displayOrderInCategory>
 		<symbolPack>
 			<prefixSymbols>
@@ -202,11 +211,20 @@
 			<li>Bodies</li>
 			<li>Body</li>
 		</exclusionTags>
-		<graphicData>
-			<fur>AG_SilverBody</fur>
-			<drawLoc>Tailbone</drawLoc>
-			<tattoosVisible>true</tattoosVisible>
-		</graphicData>
+		
+		<fur>AG_SilverBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>true</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<displayOrderInCategory>105</displayOrderInCategory>
 		<symbolPack>
 			<prefixSymbols>
@@ -248,11 +266,20 @@
 		<skinColorOverride>(255, 255, 255)</skinColorOverride>
 		<selectionWeight>0</selectionWeight>
 		<iconColor>(10,10,10)</iconColor>
-		<graphicData>
-			<fur>AG_TrueBlackBody</fur>
-			<drawLoc>Tailbone</drawLoc>
-			<tattoosVisible>true</tattoosVisible>
-		</graphicData>
+		
+		<fur>AG_TrueBlackBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>true</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<exclusionTags>
 			<li>AG_Heads</li>
 			<li>Heads</li>

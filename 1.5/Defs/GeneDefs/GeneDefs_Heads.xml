@@ -4,16 +4,11 @@
 	<GeneDef Name="AG_GeneHeadBase" Abstract="True">
 		<biostatCpx>0</biostatCpx>
 		<displayCategory>AG_Cosmetic_Heads</displayCategory>
-		
 		<exclusionTags>
 			<li>AG_Heads</li>
 			<li>Heads</li>
 			<li>Head</li>
 		</exclusionTags>
-		<graphicData>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
 	</GeneDef>
 	<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_AerofleetHead</defName>
@@ -21,18 +16,36 @@
 		<selectionWeight>0</selectionWeight>
 		<description>A gelatinous, translucent hood surrounds the carrier's head.</description>
 		<biostatCpx>1</biostatCpx>
-		
 		<iconPath>UI/Icons/Genes/AG_AerofleetHeadIcon</iconPath>
-		<graphicData>
-			<graphicPaths>
-				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</li>
-				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead2</li>
-				<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead3</li>
-			</graphicPaths>
-			<drawOffsetNorth>(0, -0.01, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, -0.01, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, -0.01, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead</li>
+					<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead2</li>
+					<li>Things/Pawn/Humanlike/Heads/AG_AerofleetHead/AG_AerofleetHead3</li>
+				</texPaths>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, -0.01, 0)</offset>
+					</dataNorth>
+					<dataSouth>
+						<offset>(0, -0.01, 0)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(0, -0.01, 0)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0, -0.01, 0)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<beardTagFilter>
 			<whitelist>true</whitelist>
 			<tags>
@@ -82,9 +95,7 @@
 			<li>AG_SlugFace_Wide</li>
 		</forcedHeadTypes>
 		<statFactors>
-
 			<ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
-			
 		</statFactors>
 		<beardTagFilter>
 			<whitelist>true</whitelist>
@@ -155,11 +166,32 @@
 		<label>rocky ridges</label>
 		<description>Carriers of this gene have accumulations of minerals on their head.</description>
 		<iconPath>UI/Icons/Genes/AG_RockyRidges</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_RockSpurs/AG_Male_Rock_Average_Normal</graphicPath>
-			<color>(255, 255, 255)</color>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_RockSpurs/AG_Male_Rock_Average_Normal</texPath>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, -0.01, 0)</offset>
+					</dataNorth>
+					<dataSouth>
+						<offset>(0, -0.01, 0)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(0, -0.01, 0)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0, -0.01, 0)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<forcedHeadTypes>
 			<li>Male_AverageNormal</li>
 			<li>Male_AveragePointy</li>
@@ -195,7 +227,6 @@
 					<symbol>petr</symbol>
 				</li>
 			</prefixSymbols>
-			
 		</symbolPack>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -230,7 +261,6 @@
 					<symbol>tumor</symbol>
 				</li>
 			</prefixSymbols>
-			
 		</symbolPack>
 		<hairTagFilter>
 			<whitelist>true</whitelist>
@@ -254,9 +284,7 @@
 		<forcedHeadTypes>
 			<li>AG_DrakonoriHead_Female</li>
 			<li>AG_DrakonoriHead_Male</li>
-			
 		</forcedHeadTypes>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -272,7 +300,7 @@
 		<iconPath>UI/Icons/Genes/AG_VeryGauntHead</iconPath>
 		<forcedHeadTypes>
 			<li>AG_Female_VeryGaunt</li>
-			<li>AG_Male_VeryGaunt</li>			
+			<li>AG_Male_VeryGaunt</li>
 		</forcedHeadTypes>
 		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
 		<modExtensions>
@@ -282,40 +310,5 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<!--<GeneDef ParentName="AG_GeneHeadBase">
-		<defName>AG_MimeHead</defName>
-		<label>mime head</label>
-		
-		<description>Carriers of this gene possess a sickly looking visage with inhuman, sunken black eyes, a distended jaw and inky black skin.</description>
-		<selectionWeight>0</selectionWeight>
-		<iconPath>UI/Icons/Genes/AG_MimeHead</iconPath>
-		
-		<forcedHeadTypes>
-			<li>AG_Mime_Normal</li>
-			<li>AG_Mime_Pointy</li>
-			<li>AG_Mime_Narrow</li>
-						
-		</forcedHeadTypes>
-		<skinColorOverride>(255, 255, 255)</skinColorOverride>
-		<beardTagFilter>
-			<whitelist>true</whitelist>
-			<tags>
-				<li>NoBeard</li>
-			</tags>
-		</beardTagFilter>
-		<hairTagFilter>
-			<whitelist>true</whitelist>
-			<tags>
-				<li>Bald</li>
-			</tags>
-		</hairTagFilter>
-		
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
-		
-	</GeneDef>-->
+
 </Defs>

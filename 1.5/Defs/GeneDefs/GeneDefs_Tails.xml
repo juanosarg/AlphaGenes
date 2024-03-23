@@ -12,14 +12,35 @@
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FoxTail/AG_FoxTail</graphicPath>
-			<colorType>Hair</colorType>
-			<drawScale>2</drawScale>
-			<drawOffsetNorth>(0.0, 0.2, -0.0)</drawOffsetNorth>
-			<drawOffsetSouth>(-0.0, -0.1, -0.0)</drawOffsetSouth>
-			<drawOffsetEast>(-0.0, -0.1, -0.0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_FoxTail/AG_FoxTail</texPath>
+				<colorType>Hair</colorType>
+				<overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, 0, -0.15)</offset>
+						<layer>90</layer>
+					</dataNorth>
+					<dataSouth>
+						<offset>(-0, 0, -0.15)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(-0.2, 0, -0.15)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0.2, 0, -0.15)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -42,14 +63,35 @@
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_DemonTail/AG_DemonTail</graphicPath>
-			<colorType>Skin</colorType>
-			<drawScale>1.25</drawScale>
-			<drawOffsetNorth>(0.0, 0.2, -0.0)</drawOffsetNorth>
-			<drawOffsetSouth>(-0.0, -0.1, -0.0)</drawOffsetSouth>
-			<drawOffsetEast>(-0.0, -0.1, -0.0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_DemonTail/AG_DemonTail</texPath>
+				<colorType>Skin</colorType>
+				<overrideMeshSize>(1.25, 1.25)</overrideMeshSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, 0, -0.15)</offset>
+						<layer>90</layer>
+					</dataNorth>
+					<dataSouth>
+						<offset>(-0, 0, -0.15)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(-0.2, 0, -0.15)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0.2, 0, -0.15)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -66,21 +108,41 @@
 		<abilities>
 			<li>AG_TailGrapple</li>
 		</abilities>
-		
 		<descriptionHyperlinks>
 			<AbilityDef>AG_TailGrapple</AbilityDef>
 		</descriptionHyperlinks>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_DrakonoriTail/AG_DrakonoriTail</graphicPath>
-			<colorType>Skin</colorType>
-			<drawScale>1.75</drawScale>
-			<drawOffsetNorth>(0.0, 0.2, -0.0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, -1, 0)</drawOffsetSouth>
-			<drawOffsetEast>(-0.0, -0.1, -0.0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_DrakonoriTail/AG_DrakonoriTail</texPath>
+				<colorType>Skin</colorType>
+				<overrideMeshSize>(1.25, 1.25)</overrideMeshSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, 0, -0.15)</offset>
+						<layer>90</layer>
+					</dataNorth>
+					<dataSouth>
+						<offset>(-0, 0, -0.15)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(-0.2, 0, -0.15)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0.2, 0, -0.15)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

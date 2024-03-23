@@ -5,9 +5,6 @@
 		<exclusionTags>
 			<li>AG_Misc</li>
 		</exclusionTags>
-		<graphicData>
-			<drawLoc>Tailbone</drawLoc>
-		</graphicData>
 	</GeneDef>
 	<GeneDef>
 		<defName>AG_HeavilyScarred</defName>
@@ -122,7 +119,6 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-	
 		<renderNodeProperties>
 			<li>
 				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
@@ -215,7 +211,6 @@
 				</drawData>
 			</li>
 		</renderNodeProperties>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -262,15 +257,24 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_BodyTentacles/AG_BodyTentacles</graphicPath>
-			<drawScale>2</drawScale>
-			<drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-			<drawLoc>Tailbone</drawLoc>
-			<colorType>Skin</colorType>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_BodyTentacles/AG_BodyTentacles</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.19, 0)</offset>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -285,13 +289,28 @@
 		<description>Carriers of this gene grow a large proboscis protruding from their jaw.</description>
 		<iconPath>UI/Icons/Genes/AG_ProboscisIcon</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Proboscis/AG_Proboscis</graphicPath>
-			<visibleNorth>false</visibleNorth>
-			<colorType>Skin</colorType>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Proboscis/AG_Proboscis</texPath>
+				<parentTagDef>Head</parentTagDef>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<colorType>Skin</colorType>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<biostatCpx>0</biostatCpx>
 		<symbolPack>
 			<prefixSymbols>
@@ -333,14 +352,30 @@
 				</li>
 			</suffixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalClumps/AG_FungalClumps</graphicPath>
-			<drawScale>1.25</drawScale>
-			<drawLoc>Tailbone</drawLoc>
-			<drawOffsetNorth>(0, 0.02, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalClumps/AG_FungalClumps</texPath>
+				<drawSize>0.65</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 0.02, 0)</offset>
+					</dataNorth>
+					<dataSouth>
+						<offset>(0, 0.02, 0)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(0, 0.02, 0)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0, 0.02, 0)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -371,14 +406,30 @@
 				</li>
 			</suffixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalSprout/AG_FungalSprout</graphicPath>
-			<drawScale>1.5</drawScale>
-			<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
-			<drawLoc>Tailbone</drawLoc>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalSprout/AG_FungalSprout</texPath>
+				<drawSize>0.85</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 1, 0)</offset>
+					</dataNorth>
+					<dataSouth>
+						<offset>(0, 0.02, 0)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(0, 0.02, 0)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0, 0.02, 0)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -409,14 +460,30 @@
 				</li>
 			</suffixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalTentacles/AG_FungalTentacles</graphicPath>
-			<drawScale>1.5</drawScale>
-			<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
-			<drawLoc>Tailbone</drawLoc>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalTentacles/AG_FungalTentacles</texPath>
+				<drawSize>0.85</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<dataNorth>
+						<offset>(0, 1, 0)</offset>
+					</dataNorth>
+					<dataSouth>
+						<offset>(0, 0.02, 0)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(0, 0.02, 0)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0, 0.02, 0)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

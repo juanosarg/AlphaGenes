@@ -6,16 +6,11 @@
 		<endogeneCategory>Headbone</endogeneCategory>
 		<displayCategory>Cosmetic</displayCategory>
 		<displayOrderInCategory>110</displayOrderInCategory>
-		
 		<exclusionTags>
 			<li>Tusk</li>
 			<li>Tusks</li>
 			<li>AG_Tusks</li>
 		</exclusionTags>
-		<graphicData>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
 		<randomChosen>true</randomChosen>
 	</GeneDef>
 	<GeneDef ParentName="AG_GeneTuskBase">
@@ -44,12 +39,24 @@
 		<description>Carriers of this gene grow two large tusks protruding from the jaw.</description>
 		<iconPath>UI/Icons/Genes/AG_TusksIcon</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Tusks/AG_Tusks</graphicPath>
-			<color>(255, 255, 255)</color>
-			<layer>PostHeadgear</layer>
-			 <visibleNorth>false</visibleNorth>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Tusks/AG_Tusks</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -74,12 +81,25 @@
 		<description>Carriers of this gene grow two large pincer mandibles protruding from their jaw.</description>
 		<iconPath>UI/Icons/Genes/AG_PincerMandibles</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_PincerMandibles/AG_PincerMandibles</graphicPath>
-			 <visibleNorth>false</visibleNorth>
-			<colorType>Skin</colorType>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Skin</colorType>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_PincerMandibles/AG_PincerMandibles</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -107,12 +127,25 @@
 		<description>Carriers of this gene grow a series of slimy tentacles protruding from their jaw.</description>
 		<iconPath>UI/Icons/Genes/AG_TentaclesIcon</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Tentacles/AG_Tentacles</graphicPath>
-			 <visibleNorth>false</visibleNorth>
-			<colorType>Skin</colorType>
-			<layer>PostTattoo</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Skin</colorType>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Tentacles/AG_Tentacles</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -121,7 +154,6 @@
 				<li>
 					<symbol>octop</symbol>
 				</li>
-				
 			</prefixSymbols>
 		</symbolPack>
 		<beardTagFilter>
@@ -144,12 +176,25 @@
 		<description>Carriers of this gene grow two large beetle mandibles protruding from their jaw.</description>
 		<iconPath>UI/Icons/Genes/AG_BeetleMandibles</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeetleMandibles/AG_BeetleMandibles</graphicPath>
-			 <visibleNorth>false</visibleNorth>
-			<colorType>Skin</colorType>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Skin</colorType>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeetleMandibles/AG_BeetleMandibles</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -177,12 +222,25 @@
 		<description>Carriers of this gene grow two large bee mandibles protruding from their jaw.</description>
 		<iconPath>UI/Icons/Genes/AG_BeeMandibles</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeeMandibles/AG_BeeMandibles</graphicPath>
-			 <visibleNorth>false</visibleNorth>
-			<colorType>Skin</colorType>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Skin</colorType>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_BeeMandibles/AG_BeeMandibles</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -203,5 +261,4 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-
 </Defs>
