@@ -12,10 +12,7 @@
 			<li>Fangs</li>
 			<li>AG_Fangs</li>
 		</exclusionTags>
-		<graphicData>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
+		
 		<randomChosen>true</randomChosen>
 	</GeneDef>
 	
@@ -27,13 +24,26 @@
 		<description>Carriers of this gene grow large fangs that can be used in melee combat to inject a powerful venom.</description>
 		<iconPath>UI/Icons/Genes/AG_VenomFangs</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Fangs/AG_Fangs</graphicPath>
-			 <visibleNorth>false</visibleNorth>
-			<colorType>Skin</colorType>
-			<layer>PostHeadgear</layer>
-		</graphicData>
 		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Skin</colorType>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Fangs/AG_Fangs</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -58,12 +68,25 @@
 		<description>Carriers of this gene grow large fangs that can be used in melee combat to inject a powerful acid.</description>
 		<iconPath>UI/Icons/Genes/AG_AcidFangs</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Fangs/AG_Fangs</graphicPath>
-			 <visibleNorth>false</visibleNorth>
-			<colorType>Skin</colorType>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Skin</colorType>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Fangs/AG_Fangs</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

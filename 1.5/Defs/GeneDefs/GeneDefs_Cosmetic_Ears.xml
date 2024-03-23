@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<!-- Ears -->
 	<GeneDef ParentName="GeneEarsBase">
 		<defName>AG_RadYakEars</defName>
@@ -8,10 +7,23 @@
 		<selectionWeight>0</selectionWeight>
 		<description>Carriers of this gene will grow pointed radyak ears.</description>
 		<iconPath>UI/Icons/Genes/AG_RadYakEarsIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_RadYakEars/AG_RadYakEars</graphicPath>
-			 <colorType>Skin</colorType>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_RadYakEars/AG_RadYakEars</texPath>
+				<colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>70</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -37,18 +49,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
 	<GeneDef ParentName="GeneEarsBase">
 		<defName>AG_AnimusEars</defName>
 		<label>animus ears</label>
 		<selectionWeight>0</selectionWeight>
 		<description>Carriers of this gene will grow animus vox ears.</description>
 		<iconPath>UI/Icons/Genes/AG_AnimusEarsIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_AnimusEars/AG_AnimusEars</graphicPath>
-			<colorType>Skin</colorType>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_AnimusEars/AG_AnimusEars</texPath>
+				<colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>70</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -65,7 +88,6 @@
 				<li>
 					<symbol>-vox</symbol>
 				</li>
-				
 			</suffixSymbols>
 		</symbolPack>
 		<modExtensions>
@@ -75,18 +97,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneEarsBase">
 		<defName>AG_SingleEar</defName>
 		<label>single ear</label>
 		<selectionWeight>0</selectionWeight>
 		<description>Carriers of this gene will grow a single malformed, drooping ear.</description>
 		<iconPath>UI/Icons/Genes/AG_SingleEar</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_SingleEar/AG_SingleEar</graphicPath>
-			<colorType>Skin</colorType>
-		</graphicData>
-		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_SingleEar/AG_SingleEar</texPath>
+				<colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>70</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -94,18 +127,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneEarsBase">
 		<defName>AG_LongEars</defName>
 		<label>long ears</label>
 		<selectionWeight>0</selectionWeight>
 		<description>Carriers of this gene will grow long ears.</description>
 		<iconPath>UI/Icons/Genes/AG_LongEarsIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LongEars/AG_LongEars</graphicPath>
-			<colorType>Skin</colorType>
-		</graphicData>
-		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_LongEars/AG_LongEars</texPath>
+				<colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>70</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -113,18 +157,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneEarsBase">
 		<defName>AG_DemonEars</defName>
 		<label>demon ears</label>
 		<selectionWeight>0</selectionWeight>
 		<description>Carriers of this gene will grow long demon ears.</description>
 		<iconPath>UI/Icons/Genes/AG_DemonEarsIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DemonEars/AG_DemonEars</graphicPath>
-			<colorType>Skin</colorType>
-		</graphicData>
-		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DemonEars/AG_DemonEars</texPath>
+				<colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>70</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -132,18 +187,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="GeneEarsBase">
 		<defName>AG_EarWings</defName>
 		<label>ear wings</label>
 		<selectionWeight>0</selectionWeight>
 		<description>Carriers of this gene will grow large bat wing ears. These are purely cosmetic, not allowing for any sort of flight.</description>
 		<iconPath>UI/Icons/Genes/AG_EarWingsIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_EarWings/AG_EarWings</graphicPath>
-			<colorType>Skin</colorType>
-		</graphicData>
-		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_EarWings/AG_EarWings</texPath>
+				<colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>70</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -151,6 +217,4 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
 </Defs>

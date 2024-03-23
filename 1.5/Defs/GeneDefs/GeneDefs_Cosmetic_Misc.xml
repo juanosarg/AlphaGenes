@@ -18,13 +18,28 @@
 		<iconPath>UI/Icons/Genes/AG_Scars</iconPath>
 		<displayOrderInCategory>100</displayOrderInCategory>
 		<iconColor>(0.75, 0.75, 0.75)</iconColor>
-		<graphicData>
-			<useSkinShader>true</useSkinShader>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_Scars/AG_Scars</graphicPath>
-			<visibleNorth>true</visibleNorth>
-			<layer>PostSkin</layer>
-			<colorType>Skin</colorType>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Scars/AG_Scars</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -48,13 +63,33 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_ChainsawHands/AG_ChainsawHands</graphicPath>
-			<drawScale>1.5</drawScale>
-			<drawOffsetNorth>(0, -0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_ChainsawHands/AG_ChainsawHands</texPath>
+				<drawSize>0.85</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, -0.19, -0.15)</offset>
+					</dataNorth>
+					<dataSouth>
+						<offset>(-0, 0.19, -0.15)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(0, 0.19, 0)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0, 0.19, 0)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -87,13 +122,34 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_ScytherHands/AG_ScytherHands</graphicPath>
-			<drawScale>1</drawScale>
-			<drawOffsetNorth>(0, -0.19, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0.19, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0.19, 0)</drawOffsetEast>
-		</graphicData>
+	
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_ScytherHands/AG_ScytherHands</texPath>
+				<drawSize>0.85</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, -0.19, -0.15)</offset>
+					</dataNorth>
+					<dataSouth>
+						<offset>(-0, 0.19, -0.15)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(0, 0.19, 0)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0, 0.19, 0)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -240,7 +296,6 @@
 		<iconPath>UI/Icons/Genes/AG_FungalClumps</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>Miscellaneous</displayCategory>
-		
 		<selectionWeight>0</selectionWeight>
 		<symbolPack>
 			<prefixSymbols>
@@ -260,9 +315,8 @@
 		<graphicData>
 			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_FungalClumps/AG_FungalClumps</graphicPath>
 			<drawScale>1.25</drawScale>
-			
 			<drawLoc>Tailbone</drawLoc>
-		<drawOffsetNorth>(0, 0.02, 0)</drawOffsetNorth>
+			<drawOffsetNorth>(0, 0.02, 0)</drawOffsetNorth>
 			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
 		</graphicData>
@@ -280,7 +334,6 @@
 		<iconPath>UI/Icons/Genes/AG_FungalSprout</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>Miscellaneous</displayCategory>
-		
 		<selectionWeight>0</selectionWeight>
 		<symbolPack>
 			<prefixSymbols>
@@ -304,7 +357,6 @@
 			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
 			<drawLoc>Tailbone</drawLoc>
-		
 		</graphicData>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -320,7 +372,6 @@
 		<iconPath>UI/Icons/Genes/AG_FungalTentacles</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>Miscellaneous</displayCategory>
-		
 		<selectionWeight>0</selectionWeight>
 		<symbolPack>
 			<prefixSymbols>
@@ -344,7 +395,6 @@
 			<drawOffsetSouth>(0, 0.02, 0)</drawOffsetSouth>
 			<drawOffsetEast>(0, 0.02, 0)</drawOffsetEast>
 			<drawLoc>Tailbone</drawLoc>
-		
 		</graphicData>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

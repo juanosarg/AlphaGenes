@@ -20,8 +20,7 @@
 				<AG_MindDevourer>0.05</AG_MindDevourer>
 				<AG_Wretch>0.025</AG_Wretch>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
-
+			
 		</xenotypeSet>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<colorSpectrum>
@@ -46,7 +45,7 @@
 				<AG_MindDevourer>0.05</AG_MindDevourer>
 				<AG_Wretch>0.025</AG_Wretch>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+			
 		</xenotypeSet>
 	</FactionDef>
 

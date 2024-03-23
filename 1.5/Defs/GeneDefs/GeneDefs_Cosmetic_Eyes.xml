@@ -38,14 +38,40 @@
 			<li>AG_Male_Eyeless_Narrow_Pointy</li>
 			<li>AG_Male_Eyeless_Narrow_Wide</li>
 		</forcedHeadTypes>
-		<graphicData>
-			<drawScale>0.28</drawScale>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_FeraliskEye/AG_FeraliskEye</graphicPath>
-			<color>(255, 255, 255)</color>
-			<visibleNorth>false</visibleNorth>
-			<drawOnEyes>true</drawOnEyes>
-			<layer>PostTattoo</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_FeraliskEye/AG_FeraliskEye</texPath>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_FeraliskEye/AG_FeraliskEye</texPath>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -59,12 +85,24 @@
 		<selectionWeight>0</selectionWeight>
 		<description>Carriers of this gene will grow a third eye in their forehead. This third eye gives increased vision, and due to its, errr, psychic properties it cannot be hurt by... others... and... Look, Biotech parts are not real body parts and can't be harmed in attacks, ok?</description>
 		<iconPath>UI/Icons/Genes/AG_ThirdEyeIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_ThirdEye/AG_ThirdEye</graphicPath>
-			<color>(255, 255, 255)</color>
-			<layer>PostTattoo</layer>
-			<visibleNorth>false</visibleNorth>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_ThirdEye/AG_ThirdEye</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<exclusionTags>
 			<li>ShootingAccuracy</li>
 		</exclusionTags>
@@ -89,12 +127,24 @@
 		<selectionWeight>0</selectionWeight>
 		<description>Carriers of this gene will grow a vicious looking, fanged mouth instead of one of their eyes. This mouth is inexplicably capable of sight.</description>
 		<iconPath>UI/Icons/Genes/AG_EyeOfShubNiggurathIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_EyeOfShubNiggurath/AG_EyeOfShubNiggurath</graphicPath>
-			<color>(255, 255, 255)</color>
-			<layer>PostTattoo</layer>
-			<visibleNorth>false</visibleNorth>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_EyeOfShubNiggurath/AG_EyeOfShubNiggurath</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<biostatMet>0</biostatMet>
 		<biostatCpx>0</biostatCpx>
 		<modExtensions>
@@ -145,15 +195,42 @@
 				</li>
 			</suffixSymbols>
 		</symbolPack>
-		<graphicData>
-			<drawScale>0.28</drawScale>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_male</graphicPath>
-			<graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_female</graphicPathFemale>
-			<color>(255, 255, 255)</color>
-			<visibleNorth>false</visibleNorth>
-			<drawOnEyes>true</drawOnEyes>
-			<layer>PostTattoo</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_male</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_male</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
@@ -202,15 +279,42 @@
 		<iconPath>UI/Icons/Genes/AG_DevilEyes</iconPath>
 		<description>Carriers of this gene have large, deep yellow eyes.</description>
 		<displayOrderInCategory>0</displayOrderInCategory>
-		<graphicData>
-			<drawScale>0.28</drawScale>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_male</graphicPath>
-			<graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_female</graphicPathFemale>
-			<color>(255, 255, 255)</color>
-			<visibleNorth>false</visibleNorth>
-			<drawOnEyes>true</drawOnEyes>
-			<layer>PostTattoo</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_male</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_male</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
