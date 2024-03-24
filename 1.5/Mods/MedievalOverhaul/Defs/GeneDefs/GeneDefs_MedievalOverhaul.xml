@@ -11,11 +11,24 @@
 		<description>Carriers of this gene grow two large curved horns protruding from the forehead.</description>
 		<iconPath>UI/Icons/Genes/AG_RoxHorns</iconPath>
 		<selectionWeight>0</selectionWeight>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_RoxHorns/AG_RoxHorns</graphicPath>
-			<color>(255, 255, 255)</color>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_RoxHorns/AG_RoxHorns</texPath>
+				
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<customEffectDescriptions>
 			<li>Blessed by the Rox.</li>
 		</customEffectDescriptions>
@@ -65,15 +78,30 @@
 				</li>
 			</suffixSymbols>
 		</symbolPack>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/BodyAttachments/AG_RoxPelt/AG_RoxPelt</graphicPath>
-			<drawScale>2</drawScale>
-			<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 1, 0)</drawOffsetEast>
-			<drawLoc>Tailbone</drawLoc>
-			<colorType>Hair</colorType>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_RoxPelt/AG_RoxPelt</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				
+				<drawData>
+					<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>40</layer>
+					</defaultData>
+					<dataNorth>
+						
+						<layer>90</layer>
+					</dataNorth>
+				</drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+				
+				</drawData>
+			</li>
+		</renderNodeProperties>
+	
 
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

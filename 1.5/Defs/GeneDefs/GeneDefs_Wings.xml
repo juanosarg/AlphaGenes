@@ -43,9 +43,12 @@
 				<drawSize>1.5</drawSize>
 				<parentTagDef>Body</parentTagDef>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -81,9 +84,12 @@
 				<parentTagDef>Body</parentTagDef>
 				<colorType>Skin</colorType>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -138,9 +144,12 @@
 				<drawSize>1.5</drawSize>
 				<parentTagDef>Body</parentTagDef>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -189,9 +198,12 @@
 				<drawSize>1.25</drawSize>
 				<parentTagDef>Body</parentTagDef>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -242,9 +254,12 @@
 				<drawSize>1.25</drawSize>
 				<parentTagDef>Body</parentTagDef>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -295,9 +310,12 @@
 				<drawSize>1.25</drawSize>
 				<parentTagDef>Body</parentTagDef>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -345,9 +363,12 @@
 				<drawSize>1.25</drawSize>
 				<parentTagDef>Body</parentTagDef>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -398,9 +419,12 @@
 				<drawSize>1.25</drawSize>
 				<parentTagDef>Body</parentTagDef>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -449,9 +473,12 @@
 				<parentTagDef>Body</parentTagDef>
 				<colorType>Skin</colorType>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -521,9 +548,12 @@
 				<parentTagDef>Body</parentTagDef>
 				<colorType>Skin</colorType>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -555,9 +585,12 @@
 				<parentTagDef>Body</parentTagDef>
 				<colorType>Skin</colorType>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
-						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>

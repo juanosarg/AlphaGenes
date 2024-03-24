@@ -268,9 +268,13 @@
 				<useSkinShader>true</useSkinShader>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
 				<drawData>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<dataNorth>
 						<offset>(0, 0.19, 0)</offset>
+						<layer>90</layer>
 					</dataNorth>
 				</drawData>
 			</li>
@@ -308,6 +312,7 @@
 					<defaultData>
 						<layer>52</layer>
 					</defaultData>
+					
 				</drawData>
 			</li>
 		</renderNodeProperties>
@@ -361,18 +366,13 @@
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
 				<drawData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>30</layer>
+					</defaultData>
 					<dataNorth>
-						<offset>(0, 0.02, 0)</offset>
+						
+						<layer>90</layer>
 					</dataNorth>
-					<dataSouth>
-						<offset>(0, 0.02, 0)</offset>
-					</dataSouth>
-					<dataEast>
-						<offset>(0, 0.02, 0)</offset>
-					</dataEast>
-					<dataWest>
-						<offset>(0, 0.02, 0)</offset>
-					</dataWest>
 				</drawData>
 			</li>
 		</renderNodeProperties>
@@ -415,18 +415,13 @@
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
 				<drawData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>30</layer>
+					</defaultData>
 					<dataNorth>
-						<offset>(0, 1, 0)</offset>
+						
+						<layer>90</layer>
 					</dataNorth>
-					<dataSouth>
-						<offset>(0, 0.02, 0)</offset>
-					</dataSouth>
-					<dataEast>
-						<offset>(0, 0.02, 0)</offset>
-					</dataEast>
-					<dataWest>
-						<offset>(0, 0.02, 0)</offset>
-					</dataWest>
 				</drawData>
 			</li>
 		</renderNodeProperties>
@@ -469,18 +464,13 @@
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
 				<drawData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>30</layer>
+					</defaultData>
 					<dataNorth>
-						<offset>(0, 1, 0)</offset>
+						
+						<layer>90</layer>
 					</dataNorth>
-					<dataSouth>
-						<offset>(0, 0.02, 0)</offset>
-					</dataSouth>
-					<dataEast>
-						<offset>(0, 0.02, 0)</offset>
-					</dataEast>
-					<dataWest>
-						<offset>(0, 0.02, 0)</offset>
-					</dataWest>
 				</drawData>
 			</li>
 		</renderNodeProperties>
