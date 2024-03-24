@@ -19,6 +19,8 @@
 			<li>AG_BandwidthIncrease</li>
 			<li>AG_IncreasedCommandRange</li>
 			<li>AG_DecreasedCommandRange</li>
+			<li>AG_RotStinkProducer</li>
+			<li>AG_ToxGasProducer</li>
 		</blackListedGenes>
 		<blackListedDefNameStrings>
 			<li>VREHT_</li>
