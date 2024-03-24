@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ManeuverDef>
 		<defName>AG_Acid</defName>
 		<requiredCapacity>AG_Acid</requiredCapacity>
@@ -14,5 +13,18 @@
 		<combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
 		<combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
 	</ManeuverDef>
-
+	<ManeuverDef>
+		<defName>AG_SpittingOnPawn</defName>
+		<requiredCapacity>AG_SpittingOnPawn</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<impactFleck>AcidCloud</impactFleck>
+			<meleeDamageDef>Burn</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_KickMaterialInEyes_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_KickMaterialInEyes_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_KickMaterialInEyes_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_KickMaterialInEyes_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
 </Defs>

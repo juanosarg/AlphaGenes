@@ -113,4 +113,9 @@
 		<label>aptitudes - miscellaneous</label>
 		<displayPriorityInXenotype>199.69</displayPriorityInXenotype>
 	</GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>AG_InsectoidMutations</defName>
+		<label>insectoid mutations</label>
+		<displayPriorityInXenotype>515.17</displayPriorityInXenotype>
+	</GeneCategoryDef>
 </Defs>

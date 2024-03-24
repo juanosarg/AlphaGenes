@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_VFEI_InsectoidLeg</defName>
+		<label>insectoid legs</label>
+		<description>Carriers of this gene have the jointed legs of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, these legs have much higher resistance to damage.</description>
+		<iconPath>UI/Icons/Genes/AGI_InsectoidLeg</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases hit points of the legs by 30.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_InsectoidLeg</hediff>
+						<bodyparts>
+							<li>Leg</li>
+							<li>Leg</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_InsectoidArm</defName>
+		<label>insectoid arms</label>
+		<description>Carriers of this gene have the jointed arms of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, these arms have much higher resistance to damage.</description>
+		<iconPath>UI/Icons/Genes/AGI_InsectoidArm</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>AG_InsectoidArms</li>
+
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Increases hit points of the arms by 30.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_InsectoidArm</hediff>
+						<bodyparts>
+							<li>Arm</li>
+							<li>Arm</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_SegmentedEyes</defName>
+		<label>compound eyes</label>
+		<iconPath>UI/Icons/Genes/AG_SegmentedEye</iconPath>
+		<description>Carriers of this gene have compound eyes, consisting of thousands of individual photoreceptor units. These eyes have a large field of view and help with detecting fast movement, however their visibility range is significantly reduced. Whilst it’s an extremely painful mutation, this eye has a higher resistance to damage.</description>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<displayOrderInCategory>51</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+			<li>EyeColor</li>
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Increases hit points of the eyes by 5.</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_SegmentedEye/AG_SegmentedEye</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_SegmentedEye/AG_SegmentedEye</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_SegmentedEye/AG_SegmentedEye</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_SegmentedEye/AG_SegmentedEye</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_SegmentedEye</hediff>
+						<bodyparts>
+							<li>Eye</li>
+							<li>Eye</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_InsectoidMandibles</defName>
+		<label>insectoid mandibles</label>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<endogeneCategory>Headbone</endogeneCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		<exclusionTags>
+			<li>Tusk</li>
+			<li>Tusks</li>
+			<li>AG_Tusks</li>
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Increases hit points of the jaw by 4.</li>
+		</customEffectDescriptions>
+		<randomChosen>true</randomChosen>
+		<description>Carriers of this gene sport a pair of appendages situated on the sides of the mouth, helping to crush and cut the food. Whilst it’s significantly less comfortable than a normal jaw, insectoid mandibles increase eating speed.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectoidMandiblesIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Skin</colorType>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_InsectoidMandibles/AG_InsectoidMandibles</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_Mandibles</hediff>
+						<bodyparts>
+							<li>Jaw</li>
+
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	
+
+	<GeneDef>
+		<defName>AG_VFEI_VenomGland</defName>
+		<label>venom gland</label>
+		<description>Carriers of this gene grow a sack-like gland tucked under the tongue that secretes acid, liquifying and allowing to safely consume even the most dangerous foods. The overstimulation of this gland enables the user to throw a short range acid spitting attack, effective at going through armor.</description>
+		<iconPath>UI/Icons/Genes/AGI_VenomSac</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>-2</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Disables all thoughts from food ingestion.</li>
+			<li>Increases hit points of the jaw by 4.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_VenomGland</hediff>
+						<bodyparts>
+							<li>Jaw</li>
+
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_PneumaticClaw</defName>
+		<label>pneumatic claw</label>
+		<description>Carriers of this gene have powerful pneumatic pincer hands, capable of repeatedly exerting great pressure on the target at the cost of refined motor skills.</description>
+		<iconPath>UI/Icons/Genes/AGI_PneumaticClaw</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>AG_InsectoidArms</li>
+
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Increases hit points of the hands by 40.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_PneumaticClaw</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_AdrenalSecretors</defName>
+		<label>adrenal secretors</label>
+		<description>Carriers of this gene have insectoid kidneys with hyperactive adrenal glands. Subjects with this mutation may find newfound pleasure in inflicting pain. However, it does bring the side effect of unwarranted aggression.</description>
+		<iconPath>UI/Icons/Genes/AGI_AdrenalSecretor</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+
+		<customEffectDescriptions>
+			<li>Will gain recreation after killing someone.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_AdrenalSecretor</hediff>
+						<bodyparts>
+							<li>Kidney</li>
+							<li>Kidney</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_Antennae</defName>
+		<label>insectoid antennae</label>
+		<description>Carriers of this gene have slender, mobile sensory organs that serve to compliment vision and locational awareness. A subject with this mutation will no longer suffer from darkness penalties, however sensory overload makes it very difficult to socialize.</description>
+		<iconPath>UI/Icons/Genes/AGI_AntennaIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>Antennas</li>
+			<li>Antenna</li>
+			<li>AG_Antennae</li>
+		</exclusionTags>
+		
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AGI_Antenna/AGI_Antenna</texPath>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<randomChosen>true</randomChosen>
+		<customEffectDescriptions>
+			
+			<li>Carrier is immune to any darkness effects.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_Antenna</hediff>
+						<bodyparts>
+							<li>Ear</li>
+							<li>Ear</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_PredatorStomach</defName>
+		<label>predator stomach</label>
+
+		<description>Carriers of this gene have a highly efficient, although basic stomach alternative. Subjects with this mutation will be able to live longer with less food.</description>
+		<iconPath>UI/Icons/Genes/AGI_PredatorStomach</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>					
+			<li>AG_RobustDigestionAndPredatorStomach</li>
+			<li>AG_PredatorStomachAndWeakStomach</li>
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Decreases hit points of the stomach by 5.</li>
+			<li>+10% nutrition gained from NON-raw foods.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_PredatorStomach</hediff>
+						<bodyparts>
+							<li>Stomach</li>
+
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_PheromoneSecretor</defName>
+		<label>pheromone secretor</label>
+
+		<description>Carriers of this gene have insectoid glands that slowly leak colorless, odorless, but sticky pheromone, notable for inducing a mild euphoria in those nearby.</description>
+		<iconPath>UI/Icons/Genes/AGI_PheromonalSecretor</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_PheromoneSecretor</hediff>
+						<bodyparts>
+							<li>Neck</li>
+
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_VentricularSleeve</defName>
+		<label>ventricular sleeve</label>
+
+		<description>Carriers of this gene posses a heart and artery mutation that causes blood to coagulate into oxygen-rich gel-like material. Upon laceration or even loss of limbs, the gel will cauterize the wound immediately. Unfortunately puts heavy strain on human cardiovascular biology.</description>
+		<iconPath>UI/Icons/Genes/AGI_VentricularSleeve</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>-3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>WoundHealingRate</li>
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>Increases hit points of the stomach by 5.</li>
+			<li>Wounds will coagulate, but every time a bleeding wound coagulates on its own, there is a 5% chance of a heart attack.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_VentricularSleeve</hediff>
+						<bodyparts>
+							<li>Heart</li>
+
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_VFEI_SynapticCerebellum</defName>
+		<label>synaptic cerebellum</label>
+
+		<description>Carriers of this gene posses an insectoid brain particularly sensitive to residual psychic synapse. A creature with this mutation possesses profound collective thought and psychic sensitivity, however is barely able to form cohesive sentences.</description>
+		<iconPath>UI/Icons/Genes/AGI_SynapticCerebellum</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+
+		<customEffectDescriptions>
+			<li>Increases hit points of the brain by 10.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VFEI_SynapticCerebellum</hediff>
+						<bodyparts>
+							<li>Brain</li>
+
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_VFEI_VatGrownInsectoidSkin</defName>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<label>vat-grown insectoid skin</label>
+		<labelShortAdj>insect</labelShortAdj>
+		<description>Carriers of this gene produce a pigment similar to that of vat-grown insectoids.</description>
+		<randomBrightnessFactor>0</randomBrightnessFactor>
+		<skinColorOverride>(150, 144, 126)</skinColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>-10</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>AG_VFEI_InsectoidSkin</defName>
+		<displayCategory>AG_InsectoidMutations</displayCategory>
+		<label>insectoid skin</label>
+		<labelShortAdj>insect</labelShortAdj>
+		<description>Carriers of this gene produce a pigment similar to that of insectoids.</description>
+		<randomBrightnessFactor>0</randomBrightnessFactor>
+		<skinColorOverride>(165, 132, 106)</skinColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>-9</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_EndogenesInsect</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_XenogenesInsect</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

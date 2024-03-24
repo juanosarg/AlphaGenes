@@ -53,6 +53,7 @@ namespace AlphaGenes
         public static GeneDef AG_PsychicRemapping;
         public static GeneDef AG_Teratophilia;
 
+
         public static GeneDef AG_MinorAnimalSummon_Randomizer;
         public static GeneDef AG_AnimalSummon_Randomizer;
         public static GeneDef AG_MajorAnimalSummon_Randomizer;
@@ -84,7 +85,10 @@ namespace AlphaGenes
         public static HediffDef AG_DecreasedCommandRange;
         public static HediffDef AG_MechRepairBoost;
         public static HediffDef AG_EndoimplantationComa;
-
+        public static HediffDef AG_VFEI_Antenna;
+        public static HediffDef AG_VFEI_VenomGland;
+        public static HediffDef AG_VFEI_PredatorStomach;
+        public static HediffDef HeartAttack;
 
         public static HediffDef AG_DevouredShooting;
         public static HediffDef AG_DevouredMelee;

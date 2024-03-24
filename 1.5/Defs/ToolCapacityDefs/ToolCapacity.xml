@@ -6,4 +6,9 @@
 		<label>acid spit</label>
 	</ToolCapacityDef>
 	
+		<ToolCapacityDef>
+		<defName>AG_SpittingOnPawn</defName>
+		<label>spit acid on pawn</label>
+	</ToolCapacityDef>
+	
 </Defs>

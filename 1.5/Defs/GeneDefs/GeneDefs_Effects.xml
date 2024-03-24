@@ -102,10 +102,10 @@
 	</GeneDef>
 	<GeneDef>
 		<defName>AG_InsectJellyProduction</defName>
-		<label>jelly production</label>
+		<label>jelly sacs</label>
 		<displayCategory>AG_SpecialEffectsCategory</displayCategory>
-		<description>The carrier of this gene constantly exudes and produces globs of insect jelly, which provides some extra food for the colony.</description>
-		<iconPath>UI/Icons/Genes/AG_InsectJellyProduction</iconPath>
+		<description>The carrier of this gene possesses a tube-like organ within the body. It allows humans to produce low quantities of insect jelly over time.</description>
+		<iconPath>UI/Icons/Genes/AGI_JellySac</iconPath>
 		<exclusionTags>
 			<li>AG_JellyProduction</li>
 		</exclusionTags>
