@@ -25,6 +25,7 @@
 		<li IfModActive="vanillaracesexpanded.android">1.5/Mods/VanillaRacesExpandedAndroid</li>
 		<li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/MedievalOverhaul</li>
 		<li IfModActive="vanillaracesexpanded.fungoid">1.5/Mods/VanillaRacesExpandedFungoid</li>
+		<li IfModActive="VanillaExpanded.VAEWaste">1.5/Mods/VanillaAnimalsExpandedWaste</li>
 	</v1.5>
 </loadFolders>
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_WasteFlesh</defName>
+		<label>waste flesh</label>
+		<description>Carriers of this gene have corrupted, polluted flesh. Consuming toxic meat by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_Waste</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>VAEWaste_ToxicMeat</customMeatThingDef>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+</Defs>

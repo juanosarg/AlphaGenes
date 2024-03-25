@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_AerofleetLeather</defName>
+		<label>aerofleet leather</label>
+		<description>Carriers of this gene will yield aerofleet fur when butchered.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_Aerofleet</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>AA_Leather_Aerofleet</customLeatherThingDef>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_ChitinLeather</defName>
+		<label>chitin leather</label>
+		<description>Carriers of this gene will yield insect chitin when butchered.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_Chitin</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>Leather_Chitin</customLeatherThingDef>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_BlackChitinLeather</defName>
+		<label>black chitin leather</label>
+		<description>Carriers of this gene will yield black insect chitin when butchered.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_BlackChitin</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>Leather_BlackChitin</customLeatherThingDef>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+			
+</Defs>

@@ -41,7 +41,7 @@ namespace AlphaGenes
 
                     if(listOfGenes.Count> 0)
                     {
-                        Gene gene = listOfGenes.RandomElement();
+                        Gene gene = listOfGenes.Where(x => parent.pawn.genes?.GenesListForReading.Contains(x)==false).RandomElement();
                         if (gene != null)
                         {
                             parent.pawn.genes?.AddGene(gene.def, true);

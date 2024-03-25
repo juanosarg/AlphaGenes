@@ -28,10 +28,6 @@
 		<customEffectDescriptions>
 			<li>Using this with other cosmetic genes may look weird.</li>
 		</customEffectDescriptions>
-		<graphicData>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
 		<forcedHeadTypes>
 			<li>AG_SyntheticWorkerMale</li>
 			<li>AG_SyntheticWorkerFemale</li>
@@ -71,10 +67,6 @@
 				<li>Bald</li>
 			</tags>
 		</hairTagFilter>
-		<graphicData>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
 		<forcedHeadTypes>
 			<li>AG_SyntheticServantMale</li>
 			<li>AG_SyntheticServantFemale</li>
@@ -114,10 +106,6 @@
 				<li>Bald</li>
 			</tags>
 		</hairTagFilter>
-		<graphicData>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
 		<forcedHeadTypes>
 			<li>AG_SyntheticKillerMale</li>
 			<li>AG_SyntheticKillerFemale</li>
@@ -129,7 +117,7 @@
 			</li>
 		</modExtensions>
 	</VREAndroids.AndroidGeneDef>
-		<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
+	<VREAndroids.AndroidGeneDef ParentName="VREA_HardwareBase">
 		<defName>AG_HalfSyntheticHead</defName>
 		<label>half synthetic head</label>
 		<description>Androids with this hardware have a synthetic face with remarkably normal looking human eyes.</description>
@@ -142,12 +130,6 @@
 			<li>Heads</li>
 			<li>Head</li>
 		</exclusionTags>
-		
-		
-		<graphicData>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
 		<forcedHeadTypes>
 			<li>AG_HalfSynthetic_Male</li>
 			<li>AG_HalfSynthetic_Female</li>
@@ -174,9 +156,19 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1003</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_PlasticBodyIcon</iconPath>
-		<graphicData>
-			<fur>AG_RoboticBodyPlastic</fur>
-		</graphicData>
+		<fur>AG_RoboticBodyPlastic</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<modExtensions Inherit="False">
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
@@ -199,9 +191,19 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1004</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_RoboticBodyIcon</iconPath>
-		<graphicData>
-			<fur>AG_RoboticBodySkeletal</fur>
-		</graphicData>
+		<fur>AG_RoboticBodySkeletal</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
 		<modExtensions Inherit="False">
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
@@ -233,6 +235,25 @@
 			<layer>PostSkin</layer>
 			<drawLoc>HeadTop</drawLoc>
 		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLED</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions Inherit="False">
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
@@ -249,13 +270,25 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1006</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_RedLEDIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLEDRed</graphicPath>
-			<visibleNorth>false</visibleNorth>
-			<colorType>Custom</colorType>
-			<layer>PostSkin</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLEDRed</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions Inherit="False">
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>
@@ -272,13 +305,23 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1007</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_MechAntennaIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_MechAntenna/AG_MechAntenna</graphicPath>
-			<visibleNorth>true</visibleNorth>
-			<colorType>Custom</colorType>
-			<layer>PostHair</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_MechAntenna/AG_MechAntenna</texPath>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions Inherit="False">
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Hardware</backgroundPathXenogenes>

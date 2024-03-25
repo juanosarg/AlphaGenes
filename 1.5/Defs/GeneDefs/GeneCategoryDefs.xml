@@ -34,6 +34,18 @@
 		<displayPriorityInXenotype>516.5</displayPriorityInXenotype>
 		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
 	</GeneCategoryDef>
+		<GeneCategoryDef>
+		<defName>AG_MeatType</defName>
+		<label>meat type</label>
+		<displayPriorityInXenotype>516.4</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
+	</GeneCategoryDef>
+		<GeneCategoryDef>
+		<defName>AG_LeatherType</defName>
+		<label>leather type</label>
+		<displayPriorityInXenotype>516.3</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
+	</GeneCategoryDef>
 	<GeneCategoryDef>
 		<defName>AG_AnimalAffinity</defName>
 		<label>animal affinity</label>
