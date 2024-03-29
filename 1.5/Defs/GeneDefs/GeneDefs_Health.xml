@@ -370,6 +370,7 @@
 	
 		<statFactors>
 			<CarryingCapacity>1.5</CarryingCapacity>
+			<VEF_MassCarryCapacity>1.5</VEF_MassCarryCapacity>
 		</statFactors>
 		<description>Carriers of this gene can carry obscene amounts of stuff before feeling encumbered.</description>
 		<iconPath>UI/Icons/Genes/AG_PackMule</iconPath>
@@ -379,7 +380,7 @@
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-			<caravanCarryingFactor>1.5</caravanCarryingFactor>
+			
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
@@ -394,6 +395,7 @@
 		</exclusionTags>
 	
 		<statFactors>
+			<VEF_MassCarryCapacity>0.5</VEF_MassCarryCapacity>
 			<CarryingCapacity>0.5</CarryingCapacity>
 		</statFactors>
 		<description>Carriers of this gene can't carry a lot of weight.</description>
@@ -404,7 +406,7 @@
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				<caravanCarryingFactor>0.5</caravanCarryingFactor>
+			
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>

@@ -354,6 +354,7 @@
 		<statFactors>
 			<MoveSpeed>1.2</MoveSpeed>
 			<CarryingCapacity>0.6</CarryingCapacity>
+			<VEF_MassCarryCapacity>0.8</VEF_MassCarryCapacity>
 		</statFactors>
 		<exclusionTags>
 			<li>AG_CarryingCapacity</li>
@@ -362,7 +363,7 @@
 		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				<caravanCarryingFactor>0.8</caravanCarryingFactor>
+				
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
