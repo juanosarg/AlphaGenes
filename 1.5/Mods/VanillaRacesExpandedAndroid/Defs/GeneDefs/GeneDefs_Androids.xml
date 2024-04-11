@@ -228,13 +228,7 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1005</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_BlueLEDIcon</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/AG_LightLEDs/AG_LightLED</graphicPath>
-			<visibleNorth>false</visibleNorth>
-			<colorType>Custom</colorType>
-			<layer>PostSkin</layer>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
+		
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
