@@ -9,8 +9,8 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="HediffCompProperties">
-				<compClass>HediffComp_Invisibility</compClass>
+			 <li Class="HediffCompProperties_Invisibility">
+				<visibleToPlayer>true</visibleToPlayer>
 			</li>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-6</severityPerDay>
