@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
-
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_RoxHorns</defName>
 		<label>rox horns</label>
@@ -11,13 +7,11 @@
 		<description>Carriers of this gene grow two large curved horns protruding from the forehead.</description>
 		<iconPath>UI/Icons/Genes/AG_RoxHorns</iconPath>
 		<selectionWeight>0</selectionWeight>
-		
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
 				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
 				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_RoxHorns/AG_RoxHorns</texPath>
-				
 				<parentTagDef>Head</parentTagDef>
 				<drawData>
 					<defaultData>
@@ -37,7 +31,6 @@
 				<li>
 					<symbol>rox</symbol>
 				</li>
-			
 			</prefixSymbols>
 			<suffixSymbols>
 				<li>
@@ -52,7 +45,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_RoxPelt</defName>
 		<label>rox pelt</label>
@@ -61,8 +53,8 @@
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>Miscellaneous</displayCategory>
 		<statOffsets>
-      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
-    </statOffsets>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+		</statOffsets>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<symbolPack>
@@ -70,7 +62,6 @@
 				<li>
 					<symbol>rox</symbol>
 				</li>
-			
 			</prefixSymbols>
 			<suffixSymbols>
 				<li>
@@ -84,38 +75,22 @@
 				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_RoxPelt/AG_RoxPelt</texPath>
 				<drawSize>1.25</drawSize>
 				<parentTagDef>Body</parentTagDef>
-				
 				<drawData>
-					<drawData>
 					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 					<defaultData>
 						<layer>40</layer>
 					</defaultData>
 					<dataNorth>
-						
 						<layer>90</layer>
 					</dataNorth>
 				</drawData>
-					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
-				
-				</drawData>
 			</li>
 		</renderNodeProperties>
-	
-
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-
 			</li>
 		</modExtensions>
 	</GeneDef>
-
-
-
-
-
-
-
 </Defs>
