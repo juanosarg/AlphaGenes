@@ -126,7 +126,8 @@ namespace AlphaGenes
         [MayRequireBiotech]
         public static ThingDef Mech_Diabolus;
 
-
+        [MayRequireAnomaly]
+        public static ThingDef Bioferrite;
 
         static InternalDefOf()
 		{

@@ -42,7 +42,7 @@ namespace AlphaGenes
             //Issue with this is its only things in stockpile. If it becomes an issue and performance is not a concern swap to a listerthing haulable
             count = 0;
             //Due to variance in how this is used making it based on haulable. Hopefully perfomence doesn't get murdered
-            var metalsCount = pawn.Map.listerThings.ThingsInGroup(ThingRequestGroup.HaulableAlways).Where(x => x.def.IsMetal);
+            var metalsCount = pawn.Map.listerThings.ThingsInGroup(ThingRequestGroup.HaulableAlways).Where(x => x.def.IsMetal && x.def != InternalDefOf.Bioferrite);
             if (!metalsCount.Any()) return null;
             float mvForMass = 99999f;
             bool meetsMass = false;
