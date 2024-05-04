@@ -9,16 +9,21 @@ using System.IO;
 namespace AlphaGenes
 {
 
-	public class Gene_Randomizer : Gene
-	{
-		public List<CustomXenotype> xenotypes = new List<CustomXenotype>();
+    public class Gene_Randomizer : Gene
+    {
+        public List<CustomXenotype> xenotypes = new List<CustomXenotype>();
 
-		public override void PostAdd()
-		{
-			base.PostAdd();
+        public override void PostAdd()
+        {
+            base.PostAdd();
 
-				
-			foreach (FileInfo allCustomXenotypeFile in GenFilePaths.AllCustomXenotypeFiles)
+
+            foreach (CustomXenotype custom in CharacterCardUtility.CustomXenotypesForReading)
+            {
+                xenotypes.Add(custom);
+            }
+
+            /*foreach (FileInfo allCustomXenotypeFile in GenFilePaths.AllCustomXenotypeFiles)
 			{
 				string filePath = Path.Combine(FolderUnderSaveData("Xenotypes"), allCustomXenotypeFile.Name);
 			
@@ -31,15 +36,15 @@ namespace AlphaGenes
 					
 
 				},true);
-			}
-			pawn.genes.SetXenotype(XenotypeDefOf.Baseliner);
+			}*/
+            pawn.genes.SetXenotype(XenotypeDefOf.Baseliner);
 
-			if (xenotypes.Count > 0)
+            if (xenotypes.Count > 0)
             {
-				CustomXenotype xenotype = xenotypes.RandomElement();
+                CustomXenotype xenotype = xenotypes.RandomElement();
 
-				if (!xenotype.genes.Contains(InternalDefOf.AlphaGenes_ExoticOrganism))
-				{
+                if (!xenotype.genes.Contains(InternalDefOf.AlphaGenes_ExoticOrganism))
+                {
                     pawn.genes.xenotypeName = xenotype.name;
                     pawn.genes.iconDef = xenotype.IconDef;
                     foreach (GeneDef geneDef in xenotype.genes)
@@ -52,33 +57,33 @@ namespace AlphaGenes
                     }
                 }
 
-				
-				
+
+
 
 
 
             }
-            
-			pawn.genes.RemoveGene(this);
+
+            pawn.genes.RemoveGene(this);
 
 
 
 
 
 
-		}
+        }
 
-		public static string FolderUnderSaveData(string folderName)
-		{
-			string text = Path.Combine(GenFilePaths.SaveDataFolderPath, folderName);
-			DirectoryInfo directoryInfo = new DirectoryInfo(text);
-			if (!directoryInfo.Exists)
-			{
-				directoryInfo.Create();
-			}
-			return text;
-		}
+        public static string FolderUnderSaveData(string folderName)
+        {
+            string text = Path.Combine(GenFilePaths.SaveDataFolderPath, folderName);
+            DirectoryInfo directoryInfo = new DirectoryInfo(text);
+            if (!directoryInfo.Exists)
+            {
+                directoryInfo.Create();
+            }
+            return text;
+        }
 
 
-	}
+    }
 }
