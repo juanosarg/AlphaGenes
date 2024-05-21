@@ -12,9 +12,9 @@ namespace AlphaGenes
         {
             foreach (Hediff hediff in pawn.health.hediffSet.hediffs)
             {
-                if (hediff?.Part?.def == __instance && HediffUtility.TryGetComp<HediffComp_HealthModifier>(hediff) != null)
+                if (hediff?.Part?.def == __instance &&  StaticCollectionsClass.hediffs_and_health_modifiers.ContainsKey(hediff.def))
                 {
-                    __result += HediffUtility.TryGetComp<HediffComp_HealthModifier>(hediff).Props.healthPointToAdd;
+                    __result += StaticCollectionsClass.hediffs_and_health_modifiers[hediff.def];
                 }
             }
         }

@@ -22,11 +22,12 @@
 				</statOffsets>
 			</li>
 		</stages>
-		<comps>
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
-				<healthPointToAdd>30</healthPointToAdd>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>15</healthPointToAdd>
 			</li>
-		</comps>
+		</modExtensions>
+		
 	</HediffDef>
 	<HediffDef>
 		<defName>AG_VFEI_InsectoidArm</defName>
@@ -50,11 +51,11 @@
 				</statOffsets>
 			</li>
 		</stages>
-		<comps>
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
-				<healthPointToAdd>30</healthPointToAdd>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>15</healthPointToAdd>
 			</li>
-		</comps>
+		</modExtensions>
 	</HediffDef>
 	<HediffDef>
 		<defName>AG_VFEI_SegmentedEye</defName>
@@ -78,11 +79,11 @@
 				</statOffsets>
 			</li>
 		</stages>
-		<comps>
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
-				<healthPointToAdd>6</healthPointToAdd>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>3</healthPointToAdd>
 			</li>
-		</comps>
+		</modExtensions>
 	</HediffDef>
 	<HediffDef>
 		<defName>AG_VFEI_Mandibles</defName>
@@ -106,11 +107,11 @@
 				</statOffsets>
 			</li>
 		</stages>
-		<comps>
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
 				<healthPointToAdd>4</healthPointToAdd>
 			</li>
-		</comps>
+		</modExtensions>
 	</HediffDef>
 	
 	<HediffDef>
@@ -149,10 +150,13 @@
 					</li>
 				</tools>
 			</li>
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
+			
+		</comps>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
 				<healthPointToAdd>4</healthPointToAdd>
 			</li>
-		</comps>
+		</modExtensions>
 	</HediffDef>
 	<HediffDef>
 		<defName>AG_VFEI_PneumaticClaw</defName>
@@ -191,10 +195,13 @@
 					</li>
 				</tools>
 			</li>
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
-				<healthPointToAdd>40</healthPointToAdd>
-			</li>
+			
 		</comps>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>20</healthPointToAdd>
+			</li>
+		</modExtensions>
 	</HediffDef>
 	<HediffDef>
 		<defName>AG_VFEI_AdrenalSecretor</defName>
@@ -265,11 +272,11 @@
 				</statOffsets>
 			</li>
 		</stages>
-		<comps>
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
 				<healthPointToAdd>-5</healthPointToAdd>
 			</li>
-		</comps>
+		</modExtensions>
 	</HediffDef>
 	<HediffDef>
 		<defName>AG_VFEI_PheromoneSecretor</defName>
@@ -315,10 +322,13 @@
 		</stages>
 		<comps>
 			<li Class="AlphaGenes.HediffCompProperties_NoBleedHeartAttack" />
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
+			
+		</comps>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
 				<healthPointToAdd>5</healthPointToAdd>
 			</li>
-		</comps>
+		</modExtensions>
 	</HediffDef>
 	<HediffDef>
 		
@@ -344,11 +354,10 @@
 				</statOffsets>
 			</li>
 		</stages>
-		<comps>
-		
-			<li Class="AlphaGenes.HediffCompProperties_HealthModifier">
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
 				<healthPointToAdd>10</healthPointToAdd>
 			</li>
-		</comps>
+		</modExtensions>
 	</HediffDef>
 </Defs>

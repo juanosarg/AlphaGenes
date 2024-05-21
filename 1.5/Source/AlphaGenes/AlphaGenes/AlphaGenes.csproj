@@ -386,6 +386,7 @@
     <Compile Include="Comps\CompTargetEffect_XenotypeInjector.cs" />
     <Compile Include="Comps\CompTargetEffect_XenotypeNullifier.cs" />
     <Compile Include="Comps\CompTempNodeBuilding.cs" />
+    <Compile Include="DefModExtensions\HealthModifierExtension.cs" />
     <Compile Include="DefModExtensions\SummoningGeneDefExtension.cs" />
     <Compile Include="Defs\AnimalGeneTemplateDef.cs" />
     <Compile Include="Defs\GenePackBlacklistDef.cs" />
@@ -433,7 +434,6 @@
     <Compile Include="HediffComps\HediffComp_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\HediffComp_Exploder.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
-    <Compile Include="HediffComps\HediffComp_HealthModifier.cs" />
     <Compile Include="HediffComps\HediffComp_NoBleedHeartAttack.cs" />
     <Compile Include="HediffComps\HediffComp_Parasites.cs" />
     <Compile Include="HediffComps\HediffComp_RecreationOnDeath.cs" />
@@ -446,7 +446,6 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_Exploder.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
-    <Compile Include="HediffComps\Properties\HediffCompProperties_HealthModifier.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_NoBleedHeartAttack.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Parasites.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RecreationOnDeath.cs" />
