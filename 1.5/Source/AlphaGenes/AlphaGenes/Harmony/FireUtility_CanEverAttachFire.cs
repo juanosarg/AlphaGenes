@@ -21,7 +21,7 @@ namespace AlphaGenes
         {
 
             Pawn pawn = t as Pawn;
-            if (pawn!=null && pawn.genes.HasActiveGene(InternalDefOf.AG_HeatImmunity))
+            if (pawn?.genes?.HasActiveGene(InternalDefOf.AG_HeatImmunity)==true)
             {
                 __result = false;
 
