@@ -7,6 +7,10 @@
 		<nullifyingTraits>
 			<li>Kind</li>
 		</nullifyingTraits>
+		
+		<nullifyingHediffs>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+		</nullifyingHediffs>
 		<stages>
 			<li>
 				<label>disgusting colonist</label>
@@ -16,12 +20,16 @@
 		</stages>
 		<nullifyingGenes>
 			<li>AG_Beauty_VeryVeryUgly</li>
+			<li>AG_Teratophilia</li>
 		</nullifyingGenes>
 	</ThoughtDef>
 	<ThoughtDef>
 		<defName>AG_Awe</defName>
 		<durationDays>1</durationDays>
 		<stackLimit>1</stackLimit>
+		<nullifyingHediffs>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+		</nullifyingHediffs>
 		<stages>
 			<li>
 				<label>angelic colonist</label>

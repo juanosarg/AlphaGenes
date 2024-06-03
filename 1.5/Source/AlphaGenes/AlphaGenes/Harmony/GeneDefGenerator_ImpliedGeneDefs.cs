@@ -79,6 +79,7 @@ namespace AlphaGenes
                 displayCategory = template.displayCategory,
                 displayOrderInCategory = displayOrderBase + template.displayOrderOffset,
                 minAgeActive = template.minAgeActive,
+                customEffectDescriptions = template.customEffectDescriptions,
                 modContentPack = template.modContentPack,
                 modExtensions = new List<DefModExtension> {
                     new VanillaGenesExpanded.GeneExtension {

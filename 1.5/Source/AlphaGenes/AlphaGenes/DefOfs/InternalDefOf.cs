@@ -52,6 +52,7 @@ namespace AlphaGenes
         public static GeneDef AG_VolatileMood;
         public static GeneDef AG_PsychicRemapping;
         public static GeneDef AG_Teratophilia;
+        public static GeneDef AG_HeatImmunity;
 
 
         public static GeneDef AG_MinorAnimalSummon_Randomizer;

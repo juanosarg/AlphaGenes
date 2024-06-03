@@ -37,20 +37,26 @@ namespace AlphaGenes
             tickCounter++;
             if (tickCounter > tickInterval && parent.pawn.Map!=null)
             {
-                HediffDef hediffDef = HediffDefOf.Carcinoma;
-                if (parent.pawn.health.hediffSet.GetHediffCount(hediffDef) < 10) {
-                    IEnumerable<BodyPartRecord> source = parent.pawn.health.hediffSet.GetNotMissingParts();
-                    source = source.Where((BodyPartRecord p) => p.def.alive);
 
-                    source = source.Where((BodyPartRecord p) => !parent.pawn.health.hediffSet.HasHediff(hediffDef, p) && !parent.pawn.health.hediffSet.PartOrAnyAncestorHasDirectlyAddedParts(p));
-                    if (source.Any())
+                if(this.parent.pawn.DevelopmentalStage == DevelopmentalStage.Adult)
+                {
+                    HediffDef hediffDef = HediffDefOf.Carcinoma;
+                    if (parent.pawn.health.hediffSet.GetHediffCount(hediffDef) < 10)
                     {
-                        BodyPartRecord partRecord = source.RandomElementByWeight((BodyPartRecord x) => x.coverageAbs);
-                        Hediff hediff = HediffMaker.MakeHediff(hediffDef, parent.pawn, partRecord);
-                        parent.pawn.health.AddHediff(hediff);
+                        IEnumerable<BodyPartRecord> source = parent.pawn.health.hediffSet.GetNotMissingParts();
+                        source = source.Where((BodyPartRecord p) => p.def.alive);
 
+                        source = source.Where((BodyPartRecord p) => !parent.pawn.health.hediffSet.HasHediff(hediffDef, p) && !parent.pawn.health.hediffSet.PartOrAnyAncestorHasDirectlyAddedParts(p));
+                        if (source.Any())
+                        {
+                            BodyPartRecord partRecord = source.RandomElementByWeight((BodyPartRecord x) => x.coverageAbs);
+                            Hediff hediff = HediffMaker.MakeHediff(hediffDef, parent.pawn, partRecord);
+                            parent.pawn.health.AddHediff(hediff);
+
+                        }
                     }
                 }
+               
                 
                 
                

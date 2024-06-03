@@ -44,6 +44,7 @@
 				<customBloodIcon>UI/Icons/Medical/AG_ChembloodIcon</customBloodIcon>
 				<customBloodEffect>AG_Damage_HitChemfuel</customBloodEffect>
 				<customWoundsFromFleshtype>AG_WoundsChemfuel</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_Chemfuel</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -93,6 +94,7 @@
 				<customBloodIcon>UI/Icons/Medical/AG_SlimebloodIcon</customBloodIcon>
 				<customBloodEffect>AG_Damage_HitSlime</customBloodEffect>
 				<customWoundsFromFleshtype>AG_WoundsSlime</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_Slime</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -141,6 +143,7 @@
 				<customBloodEffect>AG_Damage_HitAcid</customBloodEffect>
 				<customWoundsFromFleshtype>AG_WoundsAcid</customWoundsFromFleshtype>
 				<hediffToWholeBody>AG_AcidicExploder</hediffToWholeBody>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_Acid</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -190,6 +193,7 @@
 				<customBloodIcon>UI/Icons/Medical/AG_TarbloodIcon</customBloodIcon>
 				<customBloodEffect>AG_Damage_HitTar</customBloodEffect>
 				<customWoundsFromFleshtype>AG_WoundsTar</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_Tar</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -237,6 +241,7 @@
 				<customBloodIcon>UI/Icons/Medical/AG_InsectbloodIcon</customBloodIcon>
 				<customBloodEffect>Damage_HitInsect</customBloodEffect>
 				<customWoundsFromFleshtype>AG_WoundsInsect</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_Insect</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -284,6 +289,7 @@
 				<customBloodIcon>UI/Icons/Medical/AG_FirefoambloodIcon</customBloodIcon>
 				<customBloodEffect>AG_Damage_HitFoam</customBloodEffect>
 				<customWoundsFromFleshtype>AG_WoundsFoam</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_FireFoam</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -333,6 +339,7 @@
 				<customBloodIcon>UI/Icons/Medical/AG_PebblebloodIcon</customBloodIcon>
 				<customBloodEffect>Damage_HitMechanoid</customBloodEffect>
 				<customWoundsFromFleshtype>Mechanoid</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>AG_Filth_RubbleRock</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -361,6 +368,7 @@
 				<customBloodIcon>UI/Icons/Medical/AG_WaterbloodIcon</customBloodIcon>
 				<customBloodEffect>AG_Damage_HitWater</customBloodEffect>
 				<customWoundsFromFleshtype>AG_WoundsWater</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>Filth_Water</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -403,6 +411,7 @@
 				<customBloodIcon>UI/Icons/Medical/AG_CryobloodIcon</customBloodIcon>
 				<customBloodEffect>AG_Damage_HitCryo</customBloodEffect>
 				<customWoundsFromFleshtype>AG_WoundsCryo</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_Cryo</customBloodSmearThingDef>
 			</li>
 		</modExtensions>
 	</GeneDef>

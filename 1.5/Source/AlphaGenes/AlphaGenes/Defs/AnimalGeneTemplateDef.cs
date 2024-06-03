@@ -12,6 +12,8 @@ namespace AlphaGenes
 
         public Type geneClass = typeof(Gene);
 
+        public List<string> customEffectDescriptions;
+
         public int biostatCpx;
 
         public int biostatMet;

@@ -222,4 +222,77 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="FilthBlood">
+		<defName>AG_Filth_BloodSmear_Chemfuel</defName>
+		<label>chemfuel smear</label>
+		<graphicData>
+			<texPath>Things/Filth/CrawlSmear</texPath>
+			<color>(112, 101, 67, 180)</color>
+			<graphicClass>Graphic_ClusterTight</graphicClass>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="FilthBlood">
+		<defName>AG_Filth_BloodSmear_Slime</defName>
+		<label>slime smear</label>
+		<graphicData>
+			<texPath>Things/Filth/CrawlSmear</texPath>
+			<color>(70, 109, 65, 180)</color>
+			<graphicClass>Graphic_ClusterTight</graphicClass>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="FilthBlood">
+		<defName>AG_Filth_BloodSmear_Acid</defName>
+		<label>acid smear</label>
+		<graphicData>
+			<texPath>Things/Filth/CrawlSmear</texPath>
+			<color>(121, 196, 32, 180)</color>
+			<graphicClass>Graphic_ClusterTight</graphicClass>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="FilthBlood">
+		<defName>AG_Filth_BloodSmear_Tar</defName>
+		<label>tar smear</label>
+		<graphicData>
+			<texPath>Things/Filth/CrawlSmear</texPath>
+			<color>(13, 6, 23, 180)</color>
+			<graphicClass>Graphic_ClusterTight</graphicClass>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="FilthBlood">
+		<defName>AG_Filth_BloodSmear_Insect</defName>
+		<label>insect blood smear</label>
+		<graphicData>
+			<texPath>Things/Filth/CrawlSmear</texPath>
+			<color>(132, 138, 114, 180)</color>
+			<graphicClass>Graphic_ClusterTight</graphicClass>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="FilthBlood">
+		<defName>AG_Filth_BloodSmear_FireFoam</defName>
+		<label>insect blood smear</label>
+		<graphicData>
+			<texPath>Things/Filth/CrawlSmear</texPath>
+			<color>(255, 255, 255, 180)</color>
+			<graphicClass>Graphic_ClusterTight</graphicClass>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="FilthBlood">
+		<defName>AG_Filth_BloodSmear_Cryo</defName>
+		<label>cryo smear</label>
+		<graphicData>
+			<texPath>Things/Filth/CrawlSmear</texPath>
+			<color>(139, 211, 222, 180)</color>
+			<graphicClass>Graphic_ClusterTight</graphicClass>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+	</ThingDef>
 </Defs>

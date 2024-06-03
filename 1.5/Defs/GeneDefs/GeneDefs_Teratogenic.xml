@@ -13,6 +13,7 @@
 		<biostatMet>5</biostatMet>
 		<customEffectDescriptions>
 			<li>A new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body.</li>
+			<li>Starts taking effect when a Taukai becomes an adult.</li>
 		</customEffectDescriptions>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>

@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-<HediffDef>
+	<HediffDef>
 		<defName>AG_TeratogenicManipulation</defName>
-		<label>teratogenic coordination</label>	
+		<label>teratogenic coordination</label>
 		<description>This person has increased manipulation and manual dexterity.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -18,17 +17,16 @@
 			</li>
 		</comps>
 		<stages>
-			
 			<li>
 				<minSeverity>0</minSeverity>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.4</offset>
+						<offset>0.05</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>0.4</offset>
+						<offset>0.05</offset>
 					</li>
 				</capMods>
 			</li>
@@ -37,11 +35,11 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.5</offset>
+						<offset>0.15</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>0.5</offset>
+						<offset>0.15</offset>
 					</li>
 				</capMods>
 			</li>
@@ -50,11 +48,11 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.6</offset>
+						<offset>0.3</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>0.6</offset>
+						<offset>0.3</offset>
 					</li>
 				</capMods>
 			</li>
@@ -63,11 +61,11 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.75</offset>
+						<offset>0.4</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>0.75</offset>
+						<offset>0.4</offset>
 					</li>
 				</capMods>
 			</li>
@@ -76,11 +74,11 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.9</offset>
+						<offset>0.5</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>0.9</offset>
+						<offset>0.5</offset>
 					</li>
 				</capMods>
 			</li>
@@ -89,11 +87,11 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>1</offset>
+						<offset>0.6</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>1</offset>
+						<offset>0.6</offset>
 					</li>
 				</capMods>
 			</li>
@@ -102,11 +100,11 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>1.25</offset>
+						<offset>0.75</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>1.25</offset>
+						<offset>0.75</offset>
 					</li>
 				</capMods>
 			</li>
@@ -115,11 +113,11 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>1.5</offset>
+						<offset>0.85</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>1.5</offset>
+						<offset>0.85</offset>
 					</li>
 				</capMods>
 			</li>
@@ -128,20 +126,19 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>2</offset>
+						<offset>1</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
-						<offset>2</offset>
+						<offset>1</offset>
 					</li>
 				</capMods>
 			</li>
 		</stages>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_TeratogenicSwiftness</defName>
-		<label>teratogenic swiftness</label>	
+		<label>teratogenic swiftness</label>
 		<defaultLabelColor>(229, 70, 28)</defaultLabelColor>
 		<description>This person has increased movement and working speed.</description>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -156,18 +153,16 @@
 			</li>
 		</comps>
 		<stages>
-			
 			<li>
 				<minSeverity>0</minSeverity>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>0.4</offset>
+						<offset>0.05</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>1.4</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.05</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 			<li>
@@ -175,12 +170,11 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>0.5</offset>
+						<offset>0.1</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>1.5</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.1</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 			<li>
@@ -188,12 +182,11 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>0.6</offset>
+						<offset>0.2</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>1.6</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.15</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 			<li>
@@ -201,12 +194,11 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>0.75</offset>
+						<offset>0.3</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>1.75</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 			<li>
@@ -214,12 +206,11 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>0.9</offset>
+						<offset>0.4</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>1.9</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.25</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 			<li>
@@ -227,12 +218,11 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>1</offset>
+						<offset>0.5</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>2</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.3</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 			<li>
@@ -240,12 +230,11 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>1.25</offset>
+						<offset>0.6</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>2.25</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.35</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 			<li>
@@ -253,12 +242,11 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>1.5</offset>
+						<offset>0.7</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>2.5</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.4</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 			<li>
@@ -266,20 +254,18 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>2</offset>
+						<offset>0.8</offset>
 					</li>
 				</capMods>
 				<statFactors>
-					<WorkSpeedGlobal>3</WorkSpeedGlobal>
-					
+					<WorkSpeedGlobal>1.5</WorkSpeedGlobal>
 				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_TeratogenicStamina</defName>
-		<label>teratogenic stamina</label>	
+		<label>teratogenic stamina</label>
 		<description>This person has a huge boost to their immune system, and overall stamina.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(229, 70, 28)</defaultLabelColor>
@@ -294,17 +280,16 @@
 			</li>
 		</comps>
 		<stages>
-			
 			<li>
 				<minSeverity>0</minSeverity>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>0.4</offset>
+						<offset>0.05</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>0.4</offset>
+						<offset>0.05</offset>
 					</li>
 				</capMods>
 			</li>
@@ -313,11 +298,11 @@
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>0.5</offset>
+						<offset>0.1</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>0.5</offset>
+						<offset>0.1</offset>
 					</li>
 				</capMods>
 			</li>
@@ -326,11 +311,11 @@
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>0.6</offset>
+						<offset>0.2</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>0.6</offset>
+						<offset>0.2</offset>
 					</li>
 				</capMods>
 			</li>
@@ -339,11 +324,11 @@
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>0.75</offset>
+						<offset>0.3</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>0.75</offset>
+						<offset>0.3</offset>
 					</li>
 				</capMods>
 			</li>
@@ -352,11 +337,11 @@
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>0.9</offset>
+						<offset>0.4</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>0.9</offset>
+						<offset>0.4</offset>
 					</li>
 				</capMods>
 			</li>
@@ -365,11 +350,11 @@
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>1</offset>
+						<offset>0.5</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>1</offset>
+						<offset>0.5</offset>
 					</li>
 				</capMods>
 			</li>
@@ -378,11 +363,11 @@
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>1.25</offset>
+						<offset>0.65</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>1.25</offset>
+						<offset>0.65</offset>
 					</li>
 				</capMods>
 			</li>
@@ -391,11 +376,11 @@
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>1.5</offset>
+						<offset>0.8</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>1.5</offset>
+						<offset>0.8</offset>
 					</li>
 				</capMods>
 			</li>
@@ -404,16 +389,14 @@
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>2</offset>
+						<offset>1</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
-						<offset>2</offset>
+						<offset>1</offset>
 					</li>
 				</capMods>
 			</li>
 		</stages>
 	</HediffDef>
-	
-	
 </Defs>

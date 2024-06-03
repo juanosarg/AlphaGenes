@@ -407,6 +407,7 @@
     <Compile Include="GeneResource\Gene_Resource_Metal.cs" />
     <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />
     <Compile Include="Harmony\BodyPartDef_GetMaxHealth.cs" />
+    <Compile Include="Harmony\FireUtility_CanEverAttachFire.cs" />
     <Compile Include="Harmony\FoodUtility_NutritionForEater.cs" />
     <Compile Include="Harmony\FoodUtility_ThoughtsFromIngesting.cs" />
     <Compile Include="Harmony\GeneDefGenerator_ImpliedGeneDefs.cs" />

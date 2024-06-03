@@ -112,7 +112,7 @@
 	<GeneDef ParentName="GeneMaxTempBase">
 		<defName>AG_HeatImmunity</defName>
 		<label>heat immunity</label>
-		<description>Carriers of this gene are almost unaffected by heat. They will be simultaneously not bothered by flames.</description>
+		<description>Carriers of this gene are almost unaffected by heat. They will also not be bothered by flames, and they can't catch on fire.</description>
 		<iconPath>UI/Icons/Genes/AG_HeatImmunity</iconPath>
 		<displayOrderInCategory>113</displayOrderInCategory>
 		<statOffsets>

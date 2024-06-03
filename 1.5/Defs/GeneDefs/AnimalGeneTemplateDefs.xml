@@ -6,7 +6,9 @@
 		<exclusionTagPrefix>AG_AnimalSummon</exclusionTagPrefix>
 		<displayCategory>AG_AnimalSummons</displayCategory>
 		<selectionWeight>0</selectionWeight>
-		
+		<customEffectDescriptions>
+			<li>These genes are only useable by the player, not by raiders.</li>
+		</customEffectDescriptions>
 	</AlphaGenes.AnimalGeneTemplateDef>
 	<AlphaGenes.AnimalGeneTemplateDef ParentName="AG_GeneAnimalSummonBase">
 		<defName>AlphaGenes_AnimalSumMinor</defName>

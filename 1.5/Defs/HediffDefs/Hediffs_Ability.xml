@@ -15,7 +15,6 @@
 			</li>
 		</comps>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_AcidicExploder</defName>
 		<label>acidic blood</label>
@@ -117,7 +116,6 @@
 			</li>
 		</comps>
 	</HediffDef>
-	
 	<HediffDef ParentName="DiseaseBase">
 		<defName>AG_Electric</defName>
 		<description>A dangerous electric shock. It might have damaged the heart, and the higher the intensity the higher the possibility of a heart attack.</description>
@@ -234,12 +232,10 @@
 			<li>
 				<label>stiff joints</label>
 				<minSeverity>0.2</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
 						<setMax>0.6</setMax>
-
 					</li>
 					<li>
 						<capacity>Moving</capacity>
@@ -250,7 +246,6 @@
 			<li>
 				<label>rocky skin</label>
 				<minSeverity>0.5</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -265,7 +260,6 @@
 			<li>
 				<label>brittle bones</label>
 				<minSeverity>0.8</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -280,12 +274,9 @@
 			<li>
 				<label>turned to stone</label>
 				<minSeverity>0.99</minSeverity>
-
-				
 			</li>
 		</stages>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_InsectRally</defName>
 		<label>insect rally</label>
@@ -311,7 +302,6 @@
 				<affectSameDef>false</affectSameDef>
 			</li>
 		</comps>
-		
 		<isBad>false</isBad>
 	</HediffDef>
 	<HediffDef>
@@ -332,13 +322,13 @@
 				<statOffsets>
 					<MeleeDodgeChance>20</MeleeDodgeChance>
 					<MeleeHitChance>20</MeleeHitChance>
-					
 				</statOffsets>
-				<statFactors><MeleeDPS>2</MeleeDPS></statFactors>
+				<statFactors>
+					<MeleeDPS>2</MeleeDPS>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_TemporarySummon</defName>
 		<label>summoned</label>
@@ -354,8 +344,15 @@
 				<DescriptionLabel>AG_UnsummonedIn</DescriptionLabel>
 			</li>
 		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<MeatAmount>0</MeatAmount>
+					<LeatherAmount>0</LeatherAmount>
+				</statFactors>
+			</li>
+		</stages>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_TemporarySummonMech</defName>
 		<label>summoned</label>
@@ -368,11 +365,9 @@
 			<li Class="AlphaGenes.HediffCompProperties_DeleteAfterTime">
 				<disappearsAfterTicks>60000</disappearsAfterTicks>
 				<justDeletePawn>true</justDeletePawn>
-				
 			</li>
 		</comps>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_ScrambledIFF</defName>
 		<label>scrambled IFF</label>
@@ -383,23 +378,18 @@
 			<li Class="AlphaGenes.HediffCompProperties_DeleteAfterTime">
 				<disappearsAfterTicks>60000</disappearsAfterTicks>
 				<revertToMechanoid>true</revertToMechanoid>
-				
 			</li>
-			
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
-			
 		</comps>
 		<stages>
 			<li>
 				<statFactors>
 					<MoveSpeed>1.1</MoveSpeed>
-					
 				</statFactors>
 			</li>
 		</stages>
 		<isBad>false</isBad>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_TempNodeEffect</defName>
 		<label>temporary bandwidth</label>
@@ -407,20 +397,15 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 		<comps>
-			
-			
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
-			
 		</comps>
 		<stages>
 			<li>
 				<statOffsets>
 					<MechBandwidth>10</MechBandwidth>
-					
 				</statOffsets>
 			</li>
 		</stages>
 		<isBad>false</isBad>
 	</HediffDef>
-	
 </Defs>
