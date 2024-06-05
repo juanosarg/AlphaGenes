@@ -61,7 +61,10 @@ namespace AlphaGenes
 
             IncidentDefOf.RaidEnemy.Worker.TryExecute(incidentParms);
 
-
+            foreach (Pawn pawn in this.parent.Map.mapPawns.FreeColonistsSpawned)
+            {
+                pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(InternalDefOf.AG_RaidedBioLab);
+            }
 
             this.parent.Destroy();
 

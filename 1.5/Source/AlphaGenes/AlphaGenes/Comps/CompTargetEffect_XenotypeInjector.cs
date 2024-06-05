@@ -63,7 +63,7 @@ namespace AlphaGenes
 
                     user.carryTracker.DestroyCarriedThing();
 
-
+                    pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(InternalDefOf.AG_UsedXenotypeInjector);
 
                     if (AlphaGenes_Mod.settings.AG_GeneRemovalComa)
                     {

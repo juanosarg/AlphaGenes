@@ -163,4 +163,29 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AG_RaidedBioLab</defName>
+		<durationDays>1</durationDays>
+	
+		<stages>
+			<li>
+				<label>raided biolab</label>
+				<description>The thrill of adventuring is exhilarating.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AG_UsedXenotypeInjector</defName>
+		<durationDays>0.05</durationDays>
+	
+		<stages>
+			<li>
+				<label>used xenotype injector</label>
+				<description>I used a xenotype injector.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
 </Defs>

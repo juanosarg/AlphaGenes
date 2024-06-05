@@ -27,6 +27,9 @@ namespace AlphaGenes
 		public static ThoughtDef AG_Implanted_Social;
         public static ThoughtDef AG_Parasite;
         public static ThoughtDef AG_Parasite_Social;
+        public static ThoughtDef AG_RaidedBioLab;
+        public static ThoughtDef AG_UsedXenotypeInjector;
+
 
         public static QuestScriptDef AG_OpportunitySite_AbandonedBiotechLab;
 
