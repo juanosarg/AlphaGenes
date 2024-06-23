@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	
-	
 	<Operation Class="PatchOperationAdd">
 		<success>Always</success>
 		<xpath>/Defs/XenotypeDef[defName = "AG_Fleetkind"]/genes</xpath>
-		<value><li>AG_BlueGelProduction</li></value>
-		
+		<value>
+			<li>AG_BlueGelProduction</li>
+			<li>AG_AerofleetLeather</li>
+			<li>AG_AerofleetFlesh</li>
+			<li>AG_UnderdevelopedTeeth</li>
+		</value>
 	</Operation>
-	
-	
-	
 </Patch>

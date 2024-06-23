@@ -1,12 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
-
-
 	<!--========================= Walls =============================-->
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>AG_RustedWall</defName>
 		<label>rusted biotech lab wall</label>
@@ -33,7 +27,6 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/AG_RustedWallIcon</uiIconPath>
-
 		<statBases>
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>135</WorkToBuild>
@@ -55,24 +48,20 @@
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
-
 		<holdsRoof>true</holdsRoof>
-
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
 		<blockLight>true</blockLight>
 		<canOverlapZones>false</canOverlapZones>
 		<fertility>0</fertility>
-
 		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<isInert>true</isInert>
 			<isPlaceOverableWall>true</isPlaceOverableWall>
 			<ai_chillDestination>false</ai_chillDestination>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
-
 		</building>
-
 		<damageMultipliers>
 			<li>
 				<damageDef>Bomb</damageDef>
@@ -85,15 +74,11 @@
 		</damageMultipliers>
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
-
-
-
 	<ThingDef ParentName="BuildingBase">
 		<thingClass>Building_Door</thingClass>
 		<defName>AG_LabDoor</defName>
 		<label>lab door</label>
 		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
-
 		<graphicData>
 			<texPath>Things/Building/AG_LabDoor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -106,14 +91,11 @@
 		<uiIconPath>Things/Building/AG_LabDoor</uiIconPath>
 		<costList>
 			<Steel>10</Steel>
-
 		</costList>
-
 		<category>Building</category>
 		<altitudeLayer>DoorMoveable</altitudeLayer>
 		<fillPercent>1</fillPercent>
 		<useHitPoints>true</useHitPoints>
-
 		<statBases>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Flammability>0</Flammability>
@@ -124,9 +106,7 @@
 		<tickerType>Normal</tickerType>
 		<rotatable>false</rotatable>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-
 		<holdsRoof>true</holdsRoof>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
 		<blockLight>true</blockLight>
@@ -153,9 +133,4 @@
 			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
 		</placeWorkers>
 	</ThingDef>
-
-
-
-
-
 </Defs>
