@@ -440,6 +440,7 @@
     <Compile Include="HediffComps\HediffComp_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\HediffComp_Exploder.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
+    <Compile Include="HediffComps\HediffComp_LimbRegeneration.cs" />
     <Compile Include="HediffComps\HediffComp_NoBleedHeartAttack.cs" />
     <Compile Include="HediffComps\HediffComp_Parasites.cs" />
     <Compile Include="HediffComps\HediffComp_RecreationOnDeath.cs" />
@@ -452,6 +453,7 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_Exploder.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_LimbRegeneration.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_NoBleedHeartAttack.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Parasites.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RecreationOnDeath.cs" />

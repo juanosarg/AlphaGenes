@@ -114,7 +114,21 @@ namespace AlphaGenes
 		public static JobDef AG_FeedMetal;
 		public static JobDef AG_DeliverMetal;
 
-		public static MentalStateDef AG_SelectiveManhunter;
+        public static BodyPartDef Torso;
+        public static BodyPartDef Shoulder;
+        public static BodyPartDef Arm;
+        public static BodyPartDef Hand;
+        public static BodyPartDef Finger;
+        public static BodyPartDef Toe;
+        public static BodyPartDef Ear;
+        public static BodyPartDef Head;
+        public static BodyPartDef Nose;
+        public static BodyPartDef Neck;
+        public static BodyPartDef Leg;
+        public static BodyPartDef Foot;
+        public static BodyPartDef Tongue;
+
+        public static MentalStateDef AG_SelectiveManhunter;
 
         [MayRequire("sarg.alphamechs")]
 		[MayRequireBiotech]

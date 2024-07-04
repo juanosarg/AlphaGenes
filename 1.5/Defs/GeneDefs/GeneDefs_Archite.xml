@@ -182,4 +182,28 @@
 			</prefixSymbols>
 		</symbolPack>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_SuperAdaptiveBiology</defName>
+		<label>superadaptive biology</label>
+		
+		<exclusionTags>
+			<li>AG_AdaptiveBiology</li>
+		</exclusionTags>
+		<description>Carriers of this gene can completely change their very own personality, getting rid of old traits and gaining new ones.</description>
+		<iconPath>UI/Icons/Genes/AG_SuperAdaptiveBiology</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<displayOrderInCategory>115</displayOrderInCategory>
+		<biostatArc>2</biostatArc>
+		<biostatCpx>6</biostatCpx>
+		<abilities>
+			<li>AG_SuperAdaptiveBiology</li>
+		</abilities>
+		<customEffectDescriptions>
+			<li>Ability removes five random traits (or all of them if the pawn has fewer than 5), and adds five new, random ones.</li>
+			<li>But my essential modded traits! haha, no, chaos, I say. (except Warcasket traits, those are blacklisted)</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		
+	</GeneDef>
+	
 </Defs>

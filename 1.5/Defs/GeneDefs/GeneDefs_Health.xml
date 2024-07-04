@@ -73,6 +73,30 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_LimbRegeneration</defName>
+		<label>limb regeneration</label>
+		<exclusionTags>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<customEffectDescriptions>
+			<li>A random limb wound is reduced by 1 severity every day. If the organ has been destroyed it will be restored with 1 hit point.</li>
+			<li>This will affect damage to parts that are not internal organs.</li>
+		</customEffectDescriptions>
+		<marketValueFactor>1.25</marketValueFactor>
+		<description>Carriers of this gene have improved regenerating factors in their DNA, allowing them to slowly regenerate limbs that may even be completely missing. The process is slow, and will prioritize healing existing, but damaged, limbs.</description>
+		<iconPath>UI/Icons/Genes/AG_LimbRegeneration</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>111.7</displayOrderInCategory>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-4</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">				
+				<hediffToWholeBody>AG_LimbRegeneration</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	<GeneDef>
 		<defName>AG_PassiveRegenerator</defName>
 		<label>passive regenerator</label>
@@ -486,7 +510,7 @@
 		<defName>AG_AdaptiveBiology</defName>
 		<label>adaptive biology</label>
 		
-		<description>Carriers of this gene can completely change their very own personality, getting rid of old traits and gaining new ones.</description>
+		<description>Carriers of this gene can subtly change their very own personality, getting rid of old traits and gaining new ones.</description>
 		<iconPath>UI/Icons/Genes/AG_AdaptiveBiology</iconPath>
 		<displayCategory>Healing</displayCategory>
 		<displayOrderInCategory>401</displayOrderInCategory>
@@ -495,7 +519,9 @@
 		<abilities>
 			<li>AG_AdaptiveBiology</li>
 		</abilities>
-		
+		<exclusionTags>
+			<li>AG_AdaptiveBiology</li>
+		</exclusionTags>
 		<customEffectDescriptions>
 			<li>Ability removes a random trait, and adds a new, random one.</li>
 			<li>But my essential modded traits! haha, no, chaos, I say. (except Warcasket traits, those are blacklisted)</li>

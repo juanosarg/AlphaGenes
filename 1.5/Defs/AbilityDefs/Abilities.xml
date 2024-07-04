@@ -831,4 +831,17 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+			<defName>AG_SuperAdaptiveBiology</defName>
+		<label>superadaptive biology</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Removes five random traits, and adds five new, random ones.</description>
+		<iconPath>UI/Icons/Genes/AG_SuperAdaptiveBiology</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AdaptiveBiology">
+				<numberOfTraits>5</numberOfTraits>
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>

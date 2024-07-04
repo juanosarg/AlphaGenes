@@ -36,44 +36,33 @@ namespace AlphaGenes
                 {
                     blackListedTraits.AddRange(individualList.blackListedTraits);
                 }
-
-                List<Trait> traitList = pawn.story.traits.allTraits;
-
-                List<Trait> allTraitListWithoutBlacklist = traitList.Where(x => !blackListedTraits.Contains(x.def.defName)).ToList();
+                               
+                List<Trait> allTraitListWithoutBlacklist = pawn.story.traits.allTraits.Where(x => !blackListedTraits.Contains(x.def.defName)).ToList();
 
                 List<Trait> traitsToRemove = new List<Trait>();
 
-                for (int i = 0; i < Props.numberOfTraits; i++)
+                int numberToRemove = Props.numberOfTraits;
+                if(numberToRemove > allTraitListWithoutBlacklist.Count()) { numberToRemove = allTraitListWithoutBlacklist.Count(); }
+
+                for (int i = 0; i < numberToRemove; i++)
                 {
-                    Trait removedTrait = null;
-                    if (allTraitListWithoutBlacklist.Count() > 0)
-                    {
-                        removedTrait = allTraitListWithoutBlacklist.RandomElement();
-                    }
-
-                    if (removedTrait != null)
-                    {
-                        pawn.story.traits.RemoveTrait(removedTrait);
-
-                    }
+                    traitsToRemove.Add(allTraitListWithoutBlacklist.Where(x => !traitsToRemove.Contains(x)).RandomElement());                   
+       
+                }
+                foreach (Trait trait in traitsToRemove) {
+                    pawn.story.traits.RemoveTrait(trait);
                 }
 
-                
+                for (int i = 0; i < Props.numberOfTraits; i++)
+                {
+                    TraitDef addedTrait = DefDatabase<TraitDef>.AllDefsListForReading.Where(x => !blackListedTraits.Contains(x.defName) && !pawn.story.traits.HasTrait(x)).RandomElement();
 
-               
+                    pawn.story.traits.GainTrait(new Trait(addedTrait, addedTrait.degreeDatas.RandomElement().degree, forced: true));
 
-                TraitDef addedTrait = DefDatabase<TraitDef>.AllDefsListForReading.Where(x => !blackListedTraits.Contains(x.defName) && !pawn.story.traits.HasTrait(x)).RandomElement();
-
-                pawn.story.traits.GainTrait(new Trait(addedTrait, addedTrait.degreeDatas.RandomElement().degree, forced: true));
+                }
 
             }
         }
-
-
-
-
-
-
 
 
 
