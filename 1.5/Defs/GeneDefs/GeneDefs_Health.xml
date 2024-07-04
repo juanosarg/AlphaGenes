@@ -73,7 +73,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_PassiveRegenerator</defName>
 		<label>passive regenerator</label>
@@ -99,6 +98,36 @@
 		</modExtensions>
 	</GeneDef>
 	<GeneDef>
+		<defName>AG_UnstableRegeneration</defName>
+		<label>unstable regeneration</label>
+		<exclusionTags>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<description>Carriers of this gene can periodically heal all injuries, at the cost of great exertion and a reduction of their lifespan.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableRegeneration</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>113.5</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<abilities>
+			<li>AG_UnstableRegeneration</li>
+		</abilities>
+		<statFactors>
+			<LifespanFactor>0.7</LifespanFactor>
+		</statFactors>
+		<customEffectDescriptions>
+			<li>Using the ability heals all non-permanent injuries, but ages the user 7 years with each use. If the user ages themselves with this ability beyond their lifespan (80 years, multiplied by lifespan factors), they die.</li>
+			<li>The game doesn't make this calculation for you. You'll have to face many people's Nemesis: basic algebra!.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
 		<defName>AG_UnstableMutationMajor</defName>
 		<label>unstable mutation, major</label>
 		<exclusionTags>
@@ -110,7 +139,6 @@
 		<displayOrderInCategory>114</displayOrderInCategory>
 		<biostatMet>-4</biostatMet>
 		<biostatCpx>2</biostatCpx>
-	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -135,7 +163,6 @@
 		<displayOrderInCategory>114.1</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
 		<biostatCpx>2</biostatCpx>
-	
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -154,7 +181,6 @@
 		<displayOrderInCategory>116</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
 		<biostatCpx>1</biostatCpx>
-		
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -367,7 +393,6 @@
 			<li>AG_CarryingCapacity</li>
 			<li>CarryingCapacity</li>
 		</exclusionTags>
-	
 		<statFactors>
 			<CarryingCapacity>1.5</CarryingCapacity>
 			<VEF_MassCarryCapacity>1.5</VEF_MassCarryCapacity>
@@ -380,7 +405,6 @@
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-			
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
@@ -393,7 +417,6 @@
 			<li>AG_CarryingCapacity</li>
 			<li>CarryingCapacity</li>
 		</exclusionTags>
-	
 		<statFactors>
 			<VEF_MassCarryCapacity>0.5</VEF_MassCarryCapacity>
 			<CarryingCapacity>0.5</CarryingCapacity>
@@ -406,17 +429,14 @@
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-			
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_AcidImmunity</defName>
 		<label>acid immunity</label>
-		
 		<damageFactors>
 			<AcidBurn>0</AcidBurn>
 			<VEF_SecondaryAcidBurn>0</VEF_SecondaryAcidBurn>
@@ -438,11 +458,9 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef>
 		<defName>AG_AcidWeakness</defName>
 		<label>acid weakness</label>
-		
 		<damageFactors>
 			<AcidBurn>1.5</AcidBurn>
 			<VEF_SecondaryAcidBurn>1.5</VEF_SecondaryAcidBurn>
@@ -464,6 +482,30 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
-	
+	<GeneDef>
+		<defName>AG_AdaptiveBiology</defName>
+		<label>adaptive biology</label>
+		
+		<description>Carriers of this gene can completely change their very own personality, getting rid of old traits and gaining new ones.</description>
+		<iconPath>UI/Icons/Genes/AG_AdaptiveBiology</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>401</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<abilities>
+			<li>AG_AdaptiveBiology</li>
+		</abilities>
+		
+		<customEffectDescriptions>
+			<li>Ability removes a random trait, and adds a new, random one.</li>
+			<li>But my essential modded traits! haha, no, chaos, I say. (except Warcasket traits, those are blacklisted)</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

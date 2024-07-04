@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Heavy Weapons</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<supportedGenes>
+								<li>AG_ToughSinews</li>
+							</supportedGenes>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<li>AG_ToughSinews</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<supportedGenes>
+								<li>AG_ToughSinews</li>
+							</supportedGenes>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<li>AG_ToughSinews</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<supportedGenes>
+								<li>AG_ToughSinews</li>
+							</supportedGenes>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<li>AG_ToughSinews</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<supportedGenes>
+								<li>AG_ToughSinews</li>
+							</supportedGenes>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<li>AG_ToughSinews</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<supportedGenes>
+								<li>AG_ToughSinews</li>
+							</supportedGenes>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<li>AG_ToughSinews</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Weapons Expanded - Frontier</li>
+					</mods>
+					<match Class="PatchOperationConditional">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+							<value>
+								<supportedGenes>
+									<li>AG_ToughSinews</li>
+								</supportedGenes>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationAdd">
+							<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+							<value>
+								<li>AG_ToughSinews</li>
+							</value>
+						</match>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Pirates</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<supportedGenes>
+								<li>AG_ToughSinews</li>
+							</supportedGenes>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<li>AG_ToughSinews</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<supportedGenes>
+								<li>AG_ToughSinews</li>
+							</supportedGenes>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<value>
+							<li>AG_ToughSinews</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

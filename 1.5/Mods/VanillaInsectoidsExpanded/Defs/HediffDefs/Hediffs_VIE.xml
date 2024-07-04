@@ -10,9 +10,9 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_Spawner">
-				<thingToSpawn>VFEI_RoyalInsectJelly</thingToSpawn>
-				<spawnCount>12</spawnCount>
-				<spawnIntervalRange>55000~65000</spawnIntervalRange>
+				<thingToSpawn>VFEI2_RoyalInsectJelly</thingToSpawn>
+				<spawnCount>5</spawnCount>
+				<spawnIntervalRange>290000~310000</spawnIntervalRange>
 				<spawnMaxAdjacent>30</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 				<showMessageIfOwned>false</showMessageIfOwned>

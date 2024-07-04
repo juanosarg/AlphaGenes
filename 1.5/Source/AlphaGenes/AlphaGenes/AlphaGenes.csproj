@@ -301,10 +301,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abilities\CompAbilityEffect_AdaptiveBiology.cs" />
     <Compile Include="Abilities\CompAbilityEffect_Summon.cs" />
     <Compile Include="Abilities\CompAbilityEffect_MineralCost.cs" />
     <Compile Include="Abilities\CompAbilityEffect_ParasiticStinger.cs" />
     <Compile Include="Abilities\CompAbilityEffect_Stinger.cs" />
+    <Compile Include="Abilities\CompAbilityEffect_UnstableRegeneration.cs" />
     <Compile Include="Abilities\CompAbilityOcularConversion.cs" />
     <Compile Include="Abilities\CompBandwidthLoop.cs" />
     <Compile Include="Abilities\CompDestroyEyes.cs" />
@@ -323,6 +325,8 @@
     <Compile Include="Abilities\Properties\CompProperties_AbilityMineralCost.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityOcularConversion.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityParasiticStinger.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_AdaptiveBiology.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_UnstableRegeneration.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilitySummon.cs" />
     <Compile Include="Abilities\Properties\CompProperties_BandwidthLoop.cs" />
@@ -389,6 +393,7 @@
     <Compile Include="DefModExtensions\HealthModifierExtension.cs" />
     <Compile Include="DefModExtensions\SummoningGeneDefExtension.cs" />
     <Compile Include="Defs\AnimalGeneTemplateDef.cs" />
+    <Compile Include="Defs\BlackListedTraitsDef.cs" />
     <Compile Include="Defs\GenePackBlacklistDef.cs" />
     <Compile Include="Defs\WretchBlacklistDef.cs" />
     <Compile Include="Defs\BlackListedAnimalsDef.cs" />

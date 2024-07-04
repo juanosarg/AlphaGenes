@@ -803,4 +803,32 @@
 			<li Class="AlphaGenes.CompProperties_TailGrapple"/>
 		</comps>
 	</AbilityDef>
+	
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_UnstableRegeneration</defName>
+		<label>unstable regeneration</label>
+		<cooldownTicksRange>10000</cooldownTicksRange>
+		<description>Heals all non-permanent injuries, but ages the user 7 years with each use. If the user ages themselves with this ability beyond their lifespan, they die.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableRegeneration</iconPath>
+		<aiCanUse>false</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_UnstableRegeneration">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_AdaptiveBiology</defName>
+		<label>adaptive biology</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Removes a random trait, and adds a new, random one.</description>
+		<iconPath>UI/Icons/Genes/AG_AdaptiveBiology</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AdaptiveBiology">
+				
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>

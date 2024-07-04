@@ -79,4 +79,21 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_ToughSinews</defName>
+		<label>tough sinews</label>
+		<description>Carriers of this gene can naturally use Heavy weapons or Warcaskets weapons without the need of assisting armor.</description>
+		<iconPath>UI/Icons/Genes/AG_ToughSinews</iconPath>
+		<displayCategory>Violence</displayCategory>
+		<displayOrderInCategory>104</displayOrderInCategory>
+		
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>-2</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
-
 	<AlphaGenes.BlackListedAnimalsDef>
 		<defName>AG_BlackListedAnimals</defName>
-		<blackListedAnimals>							
+		<blackListedAnimals>
 			<li>AA_AcanthamoebaGiganteaSmall</li>
 			<li>AA_AcanthamoebaGiganteaLarge</li>
-			<li>AA_AcanthamoebaGiganteaHuge</li>	
-			<li>AA_AngelMothLarva</li>			
-			<li>AA_SummitCrab</li>			
+			<li>AA_AcanthamoebaGiganteaHuge</li>
+			<li>AA_AngelMothLarva</li>
+			<li>AA_SummitCrab</li>
 			<li>AA_DrainerLarva</li>
 			<li>AA_GallatrossMoribund</li>
-			<li>AA_GreenGoo</li>			
-			<li>AA_LarvalAtispec</li>			
+			<li>AA_GreenGoo</li>
+			<li>AA_LarvalAtispec</li>
 			<li>AA_RedGoo</li>
-			<li>AA_RedSpore</li>			
-			<li>AA_TarGuzzler</li>			
+			<li>AA_RedSpore</li>
+			<li>AA_TarGuzzler</li>
 			<li>AA_WaywardMobileAssembler</li>
 			<li>AA_Slurrypede</li>
 			<li>AA_EmpressButterflyLarva</li>
@@ -24,7 +22,7 @@
 			<li>AA_Mime</li>
 			<li>AA_BlizzariskClutchMother</li>
 			<li>AA_DunealiskClutchMother</li>
-			<li>AA_FeraliskClutchMother</li>	
+			<li>AA_FeraliskClutchMother</li>
 			<li>AA_FissionMouseSecond</li>
 			<li>AA_FissionMouseThird</li>
 			<li>AA_FlamingoPhoenix</li>
@@ -40,15 +38,26 @@
 			<li>AAVPE_BlackQueen</li>
 			<li>AA_OcularOriginator</li>
 			<li>AA_Summoned_Eyeling</li>
-							
-			
-		</blackListedAnimals>							
+			<li>VFEI2_Acidspitter</li>
+			<li>VFEI2_Boomtick</li>
+			<li>VFEI2_Durapod</li>
+			<li>VFEI2_Empress</li>
+			<li>VFEI2_Fuelmite</li>
+			<li>VFEI2_Gigalocust</li>
+			<li>VFEI2_Gigamite</li>
+			<li>VFEI2_Hellbeetle</li>
+			<li>VFEI2_Ironclad</li>
+			<li>VFEI2_Macrofly</li>
+			<li>VFEI2_Megapede</li>
+			<li>VFEI2_Megathrips</li>
+			<li>VFEI2_Megawasp</li>
+			<li>VFEI2_Queen</li>
+			<li>VFEI2_Silverfish</li>
+			<li>VFEI2_Swarmling</li>
+			<li>VFEI2_Tankroach</li>
+			<li>VFEI2_Teramantis</li>
+			<li>VFEI2_Titantick</li>
+			<li>VFEI2_Venomite</li>
+		</blackListedAnimals>
 	</AlphaGenes.BlackListedAnimalsDef>
-
-
-
-
-
-
-
 </Defs>
