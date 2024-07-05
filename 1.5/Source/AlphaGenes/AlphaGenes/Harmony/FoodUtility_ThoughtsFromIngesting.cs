@@ -25,7 +25,8 @@ namespace AlphaGenes
 
         public static Dictionary<string, string> meatGenesAndMeatString = new Dictionary<string, string> { { "AG_MagicMushroomFlesh", "AB_PsychotropicFungus" },
             { "AG_AerofleetFlesh", "AA_AerofleetMeat" },{ "AG_PlantFlesh", "AA_CactusMeat" },{ "AG_OcularFlesh", "AA_OcularJellyMeat" }
-        ,{ "AG_WasteFlesh", "VAEWaste_ToxicMeat" } ,{ "AG_JellyFlesh", "InsectJelly" },{ "AG_ChocolateFlesh", "Chocolate" }};
+        ,{ "AG_WasteFlesh", "VAEWaste_ToxicMeat" } ,{ "AG_JellyFlesh", "InsectJelly" },{ "AG_ChocolateFlesh", "Chocolate" },{ "AG_TwistedFlesh", "Meat_Twisted" }
+        ,{ "AG_RoyalJellyFlesh", "VFEI2_RoyalInsectJelly" }};
 
     
 

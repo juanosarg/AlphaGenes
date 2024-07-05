@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneCategoryDef>
+		<defName>AG_AnomalyCategory</defName>
+		<label>anomalous</label>
+		<displayPriorityInXenotype>518.69</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	
+</Defs>

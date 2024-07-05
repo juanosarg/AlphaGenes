@@ -23,7 +23,7 @@
 	<GeneDef ParentName="AG_LeatherTypeBase">
 		<defName>AG_ChitinLeather</defName>
 		<label>chitin leather</label>
-		<description>Carriers of this gene will yield insect chitin when butchered.</description>
+		<description>Carriers of this gene will yield chitin when butchered.</description>
 		<iconPath>UI/Icons/Genes/AG_Leather_Chitin</iconPath>
 		<biostatCpx>2</biostatCpx>
 		<biostatMet>0</biostatMet>

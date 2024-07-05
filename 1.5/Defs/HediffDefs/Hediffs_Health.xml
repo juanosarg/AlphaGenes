@@ -170,5 +170,21 @@
 		</comps>
 	</HediffDef>
 	
+	<HediffDef>
+		<defName>AG_LimbRegeneration</defName>
+		<label>limb regeneration</label>
+		<description>This person has improved regenerating factors in their DNA, allowing them to slowly regenerate limbs that may even be completely missing. The process is slow, and will prioritize healing existing, but damaged, limbs.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_LimbRegeneration">
+				<rateInTicks>55000~65000</rateInTicks>
+				<healAmount>1</healAmount>
+			</li>
+		</comps>
+	</HediffDef>
+	
 	
 </Defs>

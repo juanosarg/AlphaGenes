@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_RoyalJellyFlesh</defName>
+		<label>royal jelly flesh</label>
+		<description>Carriers of this gene have royal jelly flesh. Consuming royal jelly by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_RoyalJelly</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		
+		<statFactors>
+			<MeatAmount>0.2</MeatAmount>
+		</statFactors>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>VFEI2_RoyalInsectJelly</customMeatThingDef>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+	
+	
+
+
+
+
+</Defs>
