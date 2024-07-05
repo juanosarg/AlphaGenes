@@ -36,6 +36,7 @@
 	<AG_TargetTooBig>This target is too big for a tail grapple</AG_TargetTooBig>
 	<AG_Hybrid>Hybrid</AG_Hybrid>
 	<AG_PsychicAbsorptionNoMoods>{0} doesn't have any negative memories that can be absorbed</AG_PsychicAbsorptionNoMoods>
+	<AG_NeedToTargetCaster>This ability needs to target its caster</AG_NeedToTargetCaster>
 	<!-- Settings -->
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
 	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>

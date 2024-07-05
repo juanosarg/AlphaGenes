@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	
-	<AbilityDef  ParentName="AG_NoTargetAbilities">
+	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_Invisibility</defName>
 		<label>psychic invisibility</label>
 		<description>Psychically shift skin tones to camouflage in almost any surroundings.</description>
@@ -13,11 +11,42 @@
 				<hediffDef>AG_Invisibility</hediffDef>
 			</li>
 		</comps>
-
 	</AbilityDef>
-
-
-
-
-
+	<AbilityDef>
+		<defName>AG_SelfSkip</defName>
+		<label>self skip</label>
+		<description>Teleport to a desired position not too far from the starting point.</description>
+		<iconPath>UI/Icons/Genes/AG_SelfSkip</iconPath>
+		<cooldownTicksRange>4800</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<hostile>false</hostile>
+		<aiCanUse>true</aiCanUse>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>0.25</warmupTime>
+			<range>20.9</range>
+			<drawAimPie>False</drawAimPie>
+			<targetParams>
+				<canTargetLocations>false</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetSelf>true</canTargetSelf>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityTeleport">
+				<compClass>AlphaGenes.CompAbilityEffect_SelfSkip</compClass>
+				<destination>Selected</destination>
+				<requiresLineOfSight>True</requiresLineOfSight>
+				<range>20.9</range>
+				<clamorType>Ability</clamorType>
+				<clamorRadius>10</clamorRadius>
+				<destClamorType>Ability</destClamorType>
+				<destClamorRadius>10</destClamorRadius>
+				<stunTicks>18~60</stunTicks>
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>

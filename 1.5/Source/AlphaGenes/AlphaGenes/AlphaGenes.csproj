@@ -302,6 +302,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abilities\CompAbilityEffect_AdaptiveBiology.cs" />
+    <Compile Include="Abilities\CompAbilityEffect_SelfSkip.cs" />
     <Compile Include="Abilities\CompAbilityEffect_Summon.cs" />
     <Compile Include="Abilities\CompAbilityEffect_MineralCost.cs" />
     <Compile Include="Abilities\CompAbilityEffect_ParasiticStinger.cs" />

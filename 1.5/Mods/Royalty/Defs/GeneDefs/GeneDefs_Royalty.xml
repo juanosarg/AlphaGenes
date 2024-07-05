@@ -160,7 +160,29 @@
 		</modExtensions>
 	</GeneDef>
 
-
+	<GeneDef>
+		<defName>AG_SelfSkip</defName>
+		 <label>self skip</label>
+		<description>Carriers can skip their own body across short distances.</description>
+		<iconPath>UI/Icons/Genes/AG_SelfSkip</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<marketValueFactor>1.75</marketValueFactor>
+		<abilities>
+			<li>AG_SelfSkip</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_SelfSkip</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 
 
