@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_InsectStinger</defName>
+		<label>sting xenogenes</label>
+		<description>Implant this person's xenogenes into any subject using a disgusting injector stinger.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectStinger</iconPath>
+		<warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+		<warmupEffecter>Implant_Xenogerm</warmupEffecter>
+		<cooldownTicksRange>240000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilityStinger"/>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_InsectStingerEndogenes</defName>
+		<label>sting endogenes</label>
+		<description>Implant this person's endogenes into any subject using a disgusting injector stinger.\n\nWhen implanted, a germline will overwrite the target's endogenes. Xenogenes will be unaffected.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectStingerEndogenes</iconPath>
+		<warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+		<warmupEffecter>Implant_Xenogerm</warmupEffecter>
+		<cooldownTicksRange>240000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilityStinger">
+				<endogenes>true</endogenes>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_ParasiticStinger</defName>
+		<label>sting parasitic eggs</label>
+		<description>Implant eggs with this person's xenogenes into any subject using a disgusting injector stinger.\n\nWhen implanted, eggs will begin growing inside the target, eventually erupting and killing them.</description>
+		<iconPath>UI/Icons/Genes/AG_ParasiticStinger</iconPath>
+		<warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+		<warmupEffecter>Implant_Xenogerm</warmupEffecter>
+		<cooldownTicksRange>120000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilityParasiticStinger">
+				<hediffDef>AG_ParasiticImplantation</hediffDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_ParasiticStingerEndogenes</defName>
+		<label>sting endogenic parasitic eggs</label>
+		<description>Implant eggs with this person's endogenes into any subject using a disgusting injector stinger.\n\nWhen implanted, eggs will begin growing inside the target, eventually erupting and killing them.</description>
+		<iconPath>UI/Icons/Genes/AG_ParasiticStingerEndogenes</iconPath>
+		<warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+		<warmupEffecter>Implant_Xenogerm</warmupEffecter>
+		<cooldownTicksRange>120000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilityParasiticStinger">
+				<hediffDef>AG_ParasiticImplantation</hediffDef>
+				<endogenes>true</endogenes>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+</Defs>

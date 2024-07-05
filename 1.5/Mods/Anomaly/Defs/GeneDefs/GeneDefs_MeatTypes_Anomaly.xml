@@ -13,7 +13,7 @@
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>1</displayOrderInCategory>
-	
+		<displayCategory>AG_AnomalyCategory</displayCategory>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>

@@ -189,7 +189,6 @@
 			<canFilthAttach>true</canFilthAttach>
 			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
 		</filth>
-		
 	</ThingDef>
 	<ThingDef>
 		<defName>AG_Filth_CryoBloodPermanent</defName>
@@ -210,7 +209,6 @@
 			<graphicClass>Graphic_Cluster</graphicClass>
 			<shaderType>Transparent</shaderType>
 		</graphicData>
-		
 		<comps>
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusher</compClass>
@@ -222,9 +220,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-	
-	
 	<ThingDef ParentName="FilthBlood">
 		<defName>AG_Filth_BloodSmear_Chemfuel</defName>
 		<label>chemfuel smear</label>
@@ -294,5 +289,27 @@
 			<graphicClass>Graphic_ClusterTight</graphicClass>
 			<drawSize>0.9</drawSize>
 		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_Filth_SterilizingBreath</defName>
+		<label>inert sterilizing foam</label>
+		<statBases>
+			<Beauty>-25</Beauty>
+			<Cleanliness>-5</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/FireFoam</texPath>
+			<color>(50, 160, 160, 220)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<filth>
+			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+			<disappearsInDays>5~10</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>100</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<allowsFire>false</allowsFire>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
 	</ThingDef>
 </Defs>

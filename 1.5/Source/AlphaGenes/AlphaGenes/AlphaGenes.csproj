@@ -316,6 +316,7 @@
     <Compile Include="Abilities\CompGiveHediff.cs" />
     <Compile Include="Abilities\CompInsanityBlast.cs" />
     <Compile Include="Abilities\CompMechConversion.cs" />
+    <Compile Include="Abilities\CompPsychicAbsorption.cs" />
     <Compile Include="Abilities\CompSummonScorpion.cs" />
     <Compile Include="Abilities\CompTailGrapple.cs" />
     <Compile Include="Abilities\CompTempNode.cs" />
@@ -326,6 +327,7 @@
     <Compile Include="Abilities\Properties\CompProperties_AbilityOcularConversion.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityParasiticStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AdaptiveBiology.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_PsychicAbsorption.cs" />
     <Compile Include="Abilities\Properties\CompProperties_UnstableRegeneration.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilitySummon.cs" />
@@ -390,6 +392,7 @@
     <Compile Include="Comps\CompTargetEffect_XenotypeInjector.cs" />
     <Compile Include="Comps\CompTargetEffect_XenotypeNullifier.cs" />
     <Compile Include="Comps\CompTempNodeBuilding.cs" />
+    <Compile Include="DamageWorkers\DamageWorker_Sterilizing.cs" />
     <Compile Include="DefModExtensions\HealthModifierExtension.cs" />
     <Compile Include="DefModExtensions\SummoningGeneDefExtension.cs" />
     <Compile Include="Defs\AnimalGeneTemplateDef.cs" />
@@ -468,6 +471,9 @@
     <Compile Include="MentalBreakDefs\MentalBreakWorker_Thalassophobia.cs" />
     <Compile Include="MentalStateDefs\MentalState_SelectiveManhunter.cs" />
     <Compile Include="MentalStateDefs\MentalState_Thalassophobia.cs" />
+    <Compile Include="PawnRenderNodes\PawnRenderNode_BodyRotten.cs" />
+    <Compile Include="PawnRenderNodes\PawnRenderNode_HeadRotten.cs" />
+    <Compile Include="PawnRenderNodeWorkers\PawnRenderNodeWorker_OverlayFalseShambler.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowSpawnerRadius.cs" />
     <Compile Include="Projectiles\Web_Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -498,5 +504,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

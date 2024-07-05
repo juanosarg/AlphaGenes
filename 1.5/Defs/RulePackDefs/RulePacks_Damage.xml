@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+
+
+  <RulePackDef>
+    <defName>AG_SterilizingBreath_Rules</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>damaged_past->sterilized</li>
+        <li>damaged_past->cleaned</li>
+       
+
+        <li>destroyed_past->damaged_past</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+ 
+</Defs>

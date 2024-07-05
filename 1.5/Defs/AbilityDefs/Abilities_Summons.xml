@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_MinorSummon</defName>
+		<label>minor summon</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster.</description>
+		<iconPath>UI/Abilities/AG_Summon</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilitySummon">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_Summon</defName>
+		<label>summon</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster.</description>
+		<iconPath>UI/Abilities/AG_Summon</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilitySummon">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_MajorSummon</defName>
+		<label>major summon</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster.</description>
+		<iconPath>UI/Abilities/AG_Summon</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilitySummon">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+
+</Defs>

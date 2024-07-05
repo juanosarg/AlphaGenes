@@ -40,7 +40,6 @@
 			<li>
 				<hediff>AG_Electric</hediff>
 				<severityPerDamageDealt>0.075</severityPerDamageDealt>
-			
 				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
 			</li>
 		</additionalHediffs>
@@ -97,8 +96,22 @@
 				<hediff>AG_Petrification</hediff>
 				<severityPerDamageDealt>0.2</severityPerDamageDealt>
 				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-
 			</li>
 		</additionalHediffs>
+	</DamageDef>
+	<DamageDef>
+		<defName>AG_SterilizingBreath</defName>
+		<label>sterilizing breath</label>
+		<workerClass>AlphaGenes.DamageWorker_Sterilizing</workerClass>
+		<canInterruptJobs>false</canInterruptJobs>
+		<makesBlood>false</makesBlood>
+		<hediff>AG_SterilizingBreath</hediff>
+		<defaultDamage>999999</defaultDamage>
+		<explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+		<explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
+		<soundExplosion>Explosion_Stun</soundExplosion>
+		<harmsHealth>false</harmsHealth>
+		<combatLogRules>AG_SterilizingBreath_Rules</combatLogRules>
+		<consideredHelpful>true</consideredHelpful>
 	</DamageDef>
 </Defs>

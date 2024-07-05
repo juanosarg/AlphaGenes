@@ -408,4 +408,28 @@
 		</stages>
 		<isBad>false</isBad>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_SterilizingBreath</defName>
+		<label>affected by sterilizing breath</label>
+		<description>This person has been affected by a sterilizing breath, increasing it's immunity gain rate while at the same time adversely affecting their fertility. Effects will go away after 12 hours.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_DeleteAfterTime">
+				<disappearsAfterTicks>30000</disappearsAfterTicks>
+				
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+					<Fertility>0.25</Fertility>
+				</statFactors>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
 </Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+	<GeneDef>
+		<defName>AG_PseudoDeadlife</defName>
+		<label>pseudo deadlife</label>
+		<description>Carriers of this gene have a cloud of microscopic archites that induce a state of pseudo deadlife, granting great resilience to the person without outright killing them.</description>
+		<iconPath>UI/Icons/Genes/AG_PseudoDeadlife</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<HediffDef>AG_PseudoDeadlife</HediffDef>
+		</descriptionHyperlinks>
+		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_PseudoDeadlife</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+
+	
+
+
+
+
+</Defs>

@@ -92,7 +92,9 @@
 		<biostatCpx>3</biostatCpx>
 		<biostatMet>-4</biostatMet>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">				
+			<li Class="VanillaGenesExpanded.GeneExtension">		
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>			
 				<hediffToWholeBody>AG_LimbRegeneration</hediffToWholeBody>
 			</li>
 		</modExtensions>
@@ -526,6 +528,57 @@
 			<li>Ability removes a random trait, and adds a new, random one.</li>
 			<li>But my essential modded traits! haha, no, chaos, I say. (except Warcasket traits, those are blacklisted)</li>
 		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_ExtraLeather</defName>
+		<label>extra leather</label>
+		
+		<description>Carriers of this gene have much more dense skin, resulting in greater leather yield when butchered.</description>
+		<iconPath>UI/Icons/Genes/AG_ExtraLeather</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>200.041</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		
+		<exclusionTags>
+			<li>LeatherAmount</li>
+		</exclusionTags>
+		<statFactors>
+			<LeatherAmount>1.25</LeatherAmount>
+		</statFactors>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_LowLeather</defName>
+		<label>low leather</label>
+		
+		<description>Carriers of this gene have very thin skin, resulting in much smaller leather yield when butchered.</description>
+		<iconPath>UI/Icons/Genes/AG_LowLeather</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>200.042</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		
+		<exclusionTags>
+			<li>LeatherAmount</li>
+		</exclusionTags>
+		<statFactors>
+			<LeatherAmount>0.25</LeatherAmount>
+		</statFactors>
 		<selectionWeight>0</selectionWeight>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
