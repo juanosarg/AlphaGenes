@@ -145,6 +145,7 @@
 		</projectile>
 	</ThingDef>
 	<ThingDef>
+		<defName>AG_SterilizingBreath_Proj</defName>
 		<label>sterilizing foam</label>
 		<thingClass>Projectile_Liquid</thingClass>
 		<category>Projectile</category>
@@ -152,7 +153,6 @@
 		<altitudeLayer>Projectile</altitudeLayer>
 		<useHitPoints>False</useHitPoints>
 		<neverMultiSelect>True</neverMultiSelect>
-		<defName>AG_SterilizingBreath_Proj</defName>
 		<projectile>
 			<speed>25</speed>
 			<numExtraHitCells>2</numExtraHitCells>
@@ -177,7 +177,6 @@
 	<ThingDef>
 		<defName>AG_BansheeScream</defName>
 		<label>sonic burst</label>
-	
 		<category>Projectile</category>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Projectile</altitudeLayer>
@@ -200,9 +199,8 @@
 			<shadowSize>0</shadowSize>
 		</projectile>
 	</ThingDef>
-	
 	<ThingDef>
-	<defName>AG_FreezingBreath_Proj</defName>
+		<defName>AG_FreezingBreath_Proj</defName>
 		<label>freezing breath</label>
 		<thingClass>Projectile_Liquid</thingClass>
 		<category>Projectile</category>
@@ -210,7 +208,6 @@
 		<altitudeLayer>Projectile</altitudeLayer>
 		<useHitPoints>False</useHitPoints>
 		<neverMultiSelect>True</neverMultiSelect>
-		
 		<projectile>
 			<speed>25</speed>
 			<numExtraHitCells>2</numExtraHitCells>
@@ -230,6 +227,33 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>MoteGlow</shaderType>
 			<drawSize>0.8</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef>
+		<defName>AG_NoxiousBreath_Proj</defName>
+		<label>noxious breath</label>
+		<thingClass>Projectile_Liquid</thingClass>
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<projectile>
+			<speed>15</speed>
+			<numExtraHitCells>5</numExtraHitCells>
+			<filthCount>1</filthCount>
+			<damageDef>AG_NoxiousBreath</damageDef>
+			<damageAmountBase>9999</damageAmountBase>
+			<arcHeightFactor>0.1</arcHeightFactor>
+			<armorPenetrationBase>0.8</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
+			<shadowSize>0</shadowSize>
+			<filth>AG_FilthSlimyPuke</filth>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Mote/AG_NoxiousBreath</texPath>
+			<graphicClass>Graphic_Random</graphicClass>		
+			<drawSize>1.1</drawSize>
 		</graphicData>
 	</ThingDef>
 </Defs>

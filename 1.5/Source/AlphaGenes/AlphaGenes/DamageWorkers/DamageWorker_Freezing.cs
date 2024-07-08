@@ -37,6 +37,14 @@ namespace AlphaGenes
                 Hediff hediff = HediffMaker.MakeHediff(InternalDefOf.AG_FreezingBreath, pawn);
                 hediff.Severity = dinfo.Amount;
                 pawn.health.AddHediff(hediff, null, dinfo);
+
+                Hediff hediffHypothermia = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.Hypothermia);
+                if(hediffHypothermia != null)
+                {
+                    hediffHypothermia.Severity += 0.3f;
+
+                }
+
             }
             return result;
         }

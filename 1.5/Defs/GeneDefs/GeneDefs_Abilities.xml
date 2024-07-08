@@ -728,4 +728,44 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_NoxiousBreath</defName>
+		<label>noxious breath</label>
+		<description>Carriers are able to exhale a cloud of toxic fumes that engulfs enemies in a suffocating miasma. The foul stench forces affected targets to vomit uncontrollably.</description>
+		<iconPath>UI/Icons/Genes/AG_NoxiousBreath</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<marketValueFactor>1.5</marketValueFactor>
+		<abilities>
+			<li>AG_NoxiousBreath</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_NoxiousBreath</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-2</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>belcher</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>tox</symbol>
+				</li>
+				<li>
+					<symbol>toxi</symbol>
+				</li>
+				<li>
+					<symbol>burp-</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

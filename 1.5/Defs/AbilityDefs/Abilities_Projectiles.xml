@@ -207,7 +207,7 @@
 		<casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
 		<verbProperties>
 			<verbClass>Verb_CastAbility</verbClass>
-			<range>7.9</range>
+			<range>12.9</range>
 			<warmupTime>1</warmupTime>
 			<soundCast>AG_FreezingBreath</soundCast>
 			<targetParams>
@@ -219,6 +219,34 @@
 				<projectileDef>AG_FreezingBreath_Proj</projectileDef>
 				<numCellsToHit>16</numCellsToHit>
 				<sprayEffecter>AG_FreezingBreath_Directional</sprayEffecter>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+		<AbilityDef>
+		<defName>AG_NoxiousBreath</defName>
+		<label>noxious breath</label>
+		<description>Exhale a cloud of toxic fumes that engulfs enemies in a suffocating miasma. The foul stench forces affected targets to vomit uncontrollably.</description>
+		<iconPath>UI/Icons/Genes/AG_NoxiousBreath</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<warmupStartSound>FoamSpray_Warmup</warmupStartSound>
+		<hostile>true</hostile>
+		
+		<casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>12.9</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_NoxiousBreath</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilitySprayLiquid">
+				<projectileDef>AG_NoxiousBreath_Proj</projectileDef>
+				<numCellsToHit>16</numCellsToHit>
+				<sprayEffecter>AG_NoxiousBreath_Directional</sprayEffecter>
 			</li>
 		</comps>
 	</AbilityDef>

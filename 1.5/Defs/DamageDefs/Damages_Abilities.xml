@@ -136,4 +136,24 @@
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
 	</DamageDef>
+	<DamageDef>
+		<defName>AG_NoxiousBreath</defName>
+		<label>noxious breath</label>
+		<workerClass>AlphaGenes.DamageWorker_Noxious</workerClass>
+		<canInterruptJobs>true</canInterruptJobs>
+		<makesBlood>false</makesBlood>
+		<hediff>AG_NoxiousBreath</hediff>
+		<defaultDamage>20</defaultDamage>
+		<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.00001</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+		<harmsHealth>true</harmsHealth>
+		<combatLogRules>AG_NoxiousBreath_Rules</combatLogRules>
+	</DamageDef>
 </Defs>

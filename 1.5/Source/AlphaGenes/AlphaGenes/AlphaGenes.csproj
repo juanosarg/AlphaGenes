@@ -395,6 +395,7 @@
     <Compile Include="Comps\CompTempNodeBuilding.cs" />
     <Compile Include="DamageWorkers\DamageWorker_BansheeScream.cs" />
     <Compile Include="DamageWorkers\DamageWorker_Freezing.cs" />
+    <Compile Include="DamageWorkers\DamageWorker_Noxious.cs" />
     <Compile Include="DamageWorkers\DamageWorker_Sterilizing.cs" />
     <Compile Include="DefModExtensions\HealthModifierExtension.cs" />
     <Compile Include="DefModExtensions\SummoningGeneDefExtension.cs" />

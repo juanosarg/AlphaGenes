@@ -22,6 +22,26 @@
 		</filth>
 	</ThingDef>
 	<ThingDef ParentName="BaseFilth">
+		<defName>AG_FilthSlimyPuke</defName>
+		<label>noxious vomit</label>
+		<statBases>
+			<Beauty>-50</Beauty>
+			<Cleanliness>-20</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<color>(160, 167, 12, 180)</color>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<filth>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<maxThickness>1</maxThickness>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+	<ThingDef ParentName="BaseFilth">
 		<defName>AG_TarBlood</defName>
 		<label>tarlike blood</label>
 		<statBases>

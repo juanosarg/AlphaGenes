@@ -21,4 +21,16 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	
+		<RulePackDef>
+		<defName>AG_NoxiousBreath_Rules</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>damaged_past->belched</li>
+				<li>damaged_past->vomited</li>
+				<li>damaged_past->puked</li>
+				<li>destroyed_past->damaged_past</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
 </Defs>

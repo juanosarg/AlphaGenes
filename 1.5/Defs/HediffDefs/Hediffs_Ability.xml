@@ -494,4 +494,24 @@
 		</stages>
 		<isBad>false</isBad>
 	</HediffDef>
+	<HediffDef>
+		<defName>AG_NoxiousBreath</defName>
+		<label>affected by noxious breath</label>
+		<description>This person has been affected by noxious breath. The foul stench forces affected targets to vomit uncontrollably. Effects will go away after 12 hours.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_DeleteAfterTime">
+				<disappearsAfterTicks>30000</disappearsAfterTicks>
+				
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<vomitMtbDays>0.025</vomitMtbDays>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
 </Defs>
