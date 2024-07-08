@@ -220,6 +220,61 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>AG_Filth_CryoResidue</defName>
+		<label>cryo residue</label>
+		<thingClass>AlphaGenes.Filth_CryoResidueSpawner</thingClass>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Beauty>-30</Beauty>
+			<Cleanliness>-10</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(139, 211, 222, 180)</color>
+		</graphicData>
+		<filth>
+			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+			<disappearsInDays>3~5</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>300</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+	<ThingDef>
+		<defName>AG_Filth_CryoResiduePermanent</defName>
+		<label>cryo residue</label>
+		<category>Filth</category>
+		<tickerType>Normal</tickerType>
+		<thingClass>ThingWithComps</thingClass>
+		<altitudeLayer>Filth</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<drawerType>MapMeshOnly</drawerType>
+		<statBases>
+			<Beauty>-30</Beauty>
+			<Cleanliness>-10</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(139, 211, 222, 180)</color>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusher</compClass>
+				<heatPerSecond>-30</heatPerSecond>
+				<heatPushMinTemperature>-10</heatPushMinTemperature>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>60000</lifespanTicks>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	<ThingDef ParentName="FilthBlood">
 		<defName>AG_Filth_BloodSmear_Chemfuel</defName>
 		<label>chemfuel smear</label>

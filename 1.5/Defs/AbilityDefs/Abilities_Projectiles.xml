@@ -167,34 +167,60 @@
 			</li>
 		</comps>
 	</AbilityDef>
-	<ThingDef>
-		<label>sterilizing foam</label>
-		<thingClass>Projectile_Liquid</thingClass>
-		<category>Projectile</category>
-		<tickerType>Normal</tickerType>
-		<altitudeLayer>Projectile</altitudeLayer>
-		<useHitPoints>False</useHitPoints>
-		<neverMultiSelect>True</neverMultiSelect>
-		<defName>AG_SterilizingBreath_Proj</defName>
-		<projectile>
-			<speed>25</speed>
-			<numExtraHitCells>2</numExtraHitCells>
-			<filthCount>1</filthCount>
-			<damageDef>AG_SterilizingBreath</damageDef>
-			<damageAmountBase>9999</damageAmountBase>
-			<arcHeightFactor>0.4</arcHeightFactor>
-			<armorPenetrationBase>0.8</armorPenetrationBase>
-			<stoppingPower>1</stoppingPower>
-			<shadowSize>0</shadowSize>
-			<filth>AG_Filth_SterilizingBreath</filth>
-			<landedEffecter>ExtinguisherPuffSmall</landedEffecter>
-			<soundImpact>Foam_Impact</soundImpact>
-		</projectile>
-		<graphicData>
-			<texPath>Things/Mote/AG_SterilizingBreath</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shaderType>MoteGlow</shaderType>
-			<drawSize>1.35</drawSize>
-		</graphicData>
-	</ThingDef>
+	<AbilityDef>
+		<defName>AG_BansheeScream</defName>
+		 <label>banshee scream</label>
+		<description>Causes affected targets to be struck with fear, reducing their attack accuracy and defense for a short duration.</description>
+		<iconPath>UI/Icons/Genes/AG_SonicBoom</iconPath>	
+		<cooldownTicksRange>30000</cooldownTicksRange>
+	
+		<hostile>true</hostile>
+		
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>12.9</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_Banshee</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilitySprayLiquid">
+				<projectileDef>AG_BansheeScream</projectileDef>
+				<numCellsToHit>16</numCellsToHit>
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>AG_FreezingBreath</defName>
+		<label>freezing breath</label>
+		<description>Spew large amounts of a cryogenic fluid. This liquid freezes everything it touches, causing frostburn and hypothermia.</description>
+		<iconPath>UI/Icons/Genes/AG_FreezingBreath</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<warmupStartSound>FoamSpray_Warmup</warmupStartSound>
+		<hostile>true</hostile>
+		
+		<casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>7.9</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_FreezingBreath</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilitySprayLiquid">
+				<projectileDef>AG_FreezingBreath_Proj</projectileDef>
+				<numCellsToHit>16</numCellsToHit>
+				<sprayEffecter>AG_FreezingBreath_Directional</sprayEffecter>
+			</li>
+		</comps>
+	</AbilityDef>
+	
 </Defs>

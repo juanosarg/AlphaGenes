@@ -587,4 +587,52 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_NoLeather</defName>
+		<label>no leather</label>
+		
+		<description>Carriers of this gene have extraordinarily thin skin, resulting in no leather yield when butchered.</description>
+		<iconPath>UI/Icons/Genes/AG_NoLeather</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>200.043</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		
+		<exclusionTags>
+			<li>LeatherAmount</li>
+		</exclusionTags>
+		<statFactors>
+			<LeatherAmount>0</LeatherAmount>
+		</statFactors>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_NoMeat</defName>
+		<label>no meat</label>
+		<description>Carriers of this gene have extraordinarily thin meat and fat tissue, resulting in no usable meat yield when butchered.</description>
+		<iconPath>UI/Icons/Genes/AG_NoMeat</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>200.05</displayOrderInCategory>
+		<exclusionTags>
+			<li>MeatAmount</li>
+		</exclusionTags>
+		<statFactors>
+			<MeatAmount>0</MeatAmount>
+		</statFactors>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

@@ -393,6 +393,8 @@
     <Compile Include="Comps\CompTargetEffect_XenotypeInjector.cs" />
     <Compile Include="Comps\CompTargetEffect_XenotypeNullifier.cs" />
     <Compile Include="Comps\CompTempNodeBuilding.cs" />
+    <Compile Include="DamageWorkers\DamageWorker_BansheeScream.cs" />
+    <Compile Include="DamageWorkers\DamageWorker_Freezing.cs" />
     <Compile Include="DamageWorkers\DamageWorker_Sterilizing.cs" />
     <Compile Include="DefModExtensions\HealthModifierExtension.cs" />
     <Compile Include="DefModExtensions\SummoningGeneDefExtension.cs" />
@@ -404,6 +406,7 @@
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
     <Compile Include="GameComponent\GameComponent_RandomMood.cs" />
     <Compile Include="Gas and Liquid\Filth_CryoBloodSpawner.cs" />
+    <Compile Include="Gas and Liquid\Filth_CryoResidueSpawner.cs" />
     <Compile Include="Gas and Liquid\Filth_CryoVomitSpawner.cs" />
     <Compile Include="Gas and Liquid\Rat_Spawning_Filth.cs" />
     <Compile Include="Gas and Liquid\Persistant_Fuel.cs" />
@@ -476,6 +479,7 @@
     <Compile Include="PawnRenderNodes\PawnRenderNode_HeadRotten.cs" />
     <Compile Include="PawnRenderNodeWorkers\PawnRenderNodeWorker_OverlayFalseShambler.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowSpawnerRadius.cs" />
+    <Compile Include="Projectiles\Projectile_Distortion.cs" />
     <Compile Include="Projectiles\Web_Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecipeDefs\Recipe_RemoveImplantation.cs" />

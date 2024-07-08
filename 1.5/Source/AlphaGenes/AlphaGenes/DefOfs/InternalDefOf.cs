@@ -13,6 +13,8 @@ namespace AlphaGenes
         public static ThingDef AG_TemporaryBandNode;
         public static ThingDef AG_Filth_CryoVomitPermanent;
         public static ThingDef AG_Filth_CryoBloodPermanent;
+        public static ThingDef AG_Filth_CryoResiduePermanent;
+
         public static PawnKindDef Rat;
 		public static PawnKindDef Wolf_Timber;
 		public static PawnKindDef Bear_Polar;
@@ -93,6 +95,7 @@ namespace AlphaGenes
         public static HediffDef AG_VFEI_VenomGland;
         public static HediffDef AG_VFEI_PredatorStomach;
         public static HediffDef HeartAttack;
+        public static HediffDef AG_FreezingBreath;
 
         public static HediffDef AG_DevouredShooting;
         public static HediffDef AG_DevouredMelee;

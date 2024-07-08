@@ -114,4 +114,26 @@
 		<combatLogRules>AG_SterilizingBreath_Rules</combatLogRules>
 		<consideredHelpful>true</consideredHelpful>
 	</DamageDef>
+	<DamageDef>
+		<defName>AG_BansheeScream</defName>
+		<label>sonic burst</label>
+		<workerClass>AlphaGenes.DamageWorker_BansheeScream</workerClass>
+		<canInterruptJobs>true</canInterruptJobs>
+		<makesBlood>false</makesBlood>
+		<hediff>AG_BansheeScream</hediff>
+		<defaultDamage>999999</defaultDamage>
+		<harmsHealth>true</harmsHealth>
+		<combatLogRules>AG_BansheeScream_Rules</combatLogRules>
+	</DamageDef>
+	<DamageDef>
+		<defName>AG_FreezingBreath</defName>
+		<label>freezing breath</label>
+		<workerClass>AlphaGenes.DamageWorker_Freezing</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<defaultDamage>1</defaultDamage>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	</DamageDef>
 </Defs>
