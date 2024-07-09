@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<DamageDef ParentName="CutBase">
+		<defName>AG_PlaguedClaws</defName>
+		<label>plagued claws</label>
+		
+		<additionalHediffs>
+			<li>
+				<hediff>AG_PlaguedClaws</hediff>
+				<severityPerDamageDealt>0.004</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+
+
+</Defs>

@@ -296,7 +296,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="VFECore">
-      <HintPath>..\..\..\..\..\VanillaExpandedFramework\1.4\Assemblies\VFECore.dll</HintPath>
+      <HintPath>References\VFECore.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -405,6 +405,7 @@
     <Compile Include="Defs\WretchBlacklistDef.cs" />
     <Compile Include="Defs\BlackListedAnimalsDef.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />
+    <Compile Include="GameComponent\GameComponent_RaisePawns.cs" />
     <Compile Include="GameComponent\GameComponent_RandomMood.cs" />
     <Compile Include="Gas and Liquid\Filth_CryoBloodSpawner.cs" />
     <Compile Include="Gas and Liquid\Filth_CryoResidueSpawner.cs" />
@@ -420,11 +421,14 @@
     <Compile Include="GeneResource\Gene_Resource_Metal.cs" />
     <Compile Include="GeneResource\GenGizmo_Resource\GeneGizmo_Resource_Metal.cs" />
     <Compile Include="Harmony\BodyPartDef_GetMaxHealth.cs" />
+    <Compile Include="Harmony\Corpse_RotStageChanged.cs" />
     <Compile Include="Harmony\FireUtility_CanEverAttachFire.cs" />
     <Compile Include="Harmony\FoodUtility_NutritionForEater.cs" />
     <Compile Include="Harmony\FoodUtility_ThoughtsFromIngesting.cs" />
     <Compile Include="Harmony\GeneDefGenerator_ImpliedGeneDefs.cs" />
     <Compile Include="Harmony\GenRecipe_PostProcessProduct.cs" />
+    <Compile Include="Harmony\HediffComp_DisappearsPausable_CompPostTick.cs" />
+    <Compile Include="Harmony\Hediff_Shambler_PostMake.cs" />
     <Compile Include="Harmony\JobDriver_RepairMech_MakeNewToils.cs" />
     <Compile Include="Harmony\JobDriver_Vomit_MakeNewToils.cs" />
     <Compile Include="Harmony\HediffComp_PregnantHuman_CompTipStringExtra.cs" />
@@ -451,6 +455,7 @@
     <Compile Include="HediffComps\HediffComp_LimbRegeneration.cs" />
     <Compile Include="HediffComps\HediffComp_NoBleedHeartAttack.cs" />
     <Compile Include="HediffComps\HediffComp_Parasites.cs" />
+    <Compile Include="HediffComps\HediffComp_RaiseShambler.cs" />
     <Compile Include="HediffComps\HediffComp_RecreationOnDeath.cs" />
     <Compile Include="HediffComps\HediffComp_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffLungRotAlternative.cs" />
@@ -464,6 +469,7 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_LimbRegeneration.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_NoBleedHeartAttack.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Parasites.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_RaiseShambler.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RecreationOnDeath.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_SeverityFromMinerals.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RandomMutation.cs" />

@@ -19,6 +19,8 @@ namespace AlphaGenes
         public bool AG_DisableThalassophobiaMessage = false;
         public bool AG_ShowAllAnimalSummonGenes = false;
         public bool AG_GeneRemovalComa = true;
+        public bool AG_RandomGenesToShamblers = false;
+
 
 
         private static Vector2 scrollPosition = Vector2.zero;
@@ -33,6 +35,7 @@ namespace AlphaGenes
             Scribe_Values.Look(ref AG_DisableThalassophobiaMessage, "AG_DisableThalassophobiaMessage", false);
             Scribe_Values.Look(ref AG_ShowAllAnimalSummonGenes, "AG_ShowAllAnimalSummonGenes", false);
             Scribe_Values.Look(ref AG_GeneRemovalComa, "AG_GeneRemovalComa", true);
+            Scribe_Values.Look(ref AG_RandomGenesToShamblers, "AG_RandomGenesToShamblers", false);
 
 
         }
@@ -70,6 +73,12 @@ namespace AlphaGenes
             listingStandard.CheckboxLabeled("AG_DisableThalassophobiaMessage".Translate(), ref AG_DisableThalassophobiaMessage, "AG_DisableThalassophobiaMessage_Description".Translate());
             listingStandard.CheckboxLabeled("AG_GeneRemovalComa".Translate(), ref AG_GeneRemovalComa, "AG_GeneRemovalComa_Description".Translate());
             listingStandard.CheckboxLabeled("AG_ShowAllAnimalSummonGenes".Translate(), ref AG_ShowAllAnimalSummonGenes, "AG_ShowAllAnimalSummonGenes_Description".Translate());
+            if (ModsConfig.AnomalyActive)
+            {
+                listingStandard.CheckboxLabeled("AG_RandomGenesToShamblers".Translate(), ref AG_RandomGenesToShamblers, "AG_RandomGenesToShamblers_Description".Translate());
+            }
+
+
 
             listingStandard.End();
             Widgets.EndScrollView();

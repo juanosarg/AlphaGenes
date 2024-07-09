@@ -36,16 +36,103 @@
 				<nodeClass>AlphaGenes.PawnRenderNode_BodyRotten</nodeClass>
 				<overlayLayer>Body</overlayLayer>
 				<baseLayer>1</baseLayer>
-				
 			</li>
 			<li>
 				<nodeClass>AlphaGenes.PawnRenderNode_HeadRotten</nodeClass>
 				<workerClass>PawnRenderNodeWorker_Head</workerClass>
 				<overlayLayer>Head</overlayLayer>
 				<baseLayer>51</baseLayer>
-				
 			</li>
-			
 		</renderNodeProperties>
+	</HediffDef>
+	<HediffDef ParentName="InfectionBase">
+		<defName>AG_PlaguedClaws</defName>
+		<label>shambler plague</label>
+		<labelNoun>a shambler plague</labelNoun>
+		<description>A virulent disease that causes severe debilitation. If a victim dies and it is more than 80% advanced when they die, they will rise as a shambler, spreading the infection further.</description>
+		<makesSickThought>true</makesSickThought>
+		<lethalSeverity>1</lethalSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>12</baseTendDurationHours>
+				<severityPerDayTended>-0.53</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.84</severityPerDayNotImmune>
+				<immunityPerDaySick>0.6441</immunityPerDaySick>
+				<severityPerDayImmune>-0.70</severityPerDayImmune>
+				<immunityPerDayNotSick>-0.40</immunityPerDayNotSick>
+			</li>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+			</li>
+			<li Class="AlphaGenes.HediffCompProperties_RaiseShambler">
+       
+      </li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.33</minSeverity>
+				<label>major</label>
+				<painOffset>0.08</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.12</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.4</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.85</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_Regeneration_InTheSun</defName>
+		<label>sunlight regeneration</label>
+		<description>This shambler gets healed by sunlight.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_Regeneration">
+				<rateInTicks>1250</rateInTicks>
+				<healAmount>10</healAmount>
+				<healAll>false</healAll>
+				<needsSun>true</needsSun>
+			</li>
+		</comps>
 	</HediffDef>
 </Defs>

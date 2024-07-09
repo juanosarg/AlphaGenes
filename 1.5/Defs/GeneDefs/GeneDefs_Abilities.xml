@@ -655,6 +655,7 @@
 		</abilities>
 		<descriptionHyperlinks>
 			<AbilityDef>AG_SterilizingBreath</AbilityDef>
+			<HediffDef>AG_SterilizingBreath</HediffDef>
 		</descriptionHyperlinks>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0</selectionWeight>
@@ -700,6 +701,7 @@
 		</abilities>
 		<descriptionHyperlinks>
 			<AbilityDef>AG_FreezingBreath</AbilityDef>
+			<HediffDef>AG_FreezingBreath</HediffDef>
 		</descriptionHyperlinks>
 		<biostatMet>-2</biostatMet>
 		<symbolPack>
@@ -740,6 +742,7 @@
 		</abilities>
 		<descriptionHyperlinks>
 			<AbilityDef>AG_NoxiousBreath</AbilityDef>
+			<HediffDef>AG_NoxiousBreath</HediffDef>
 		</descriptionHyperlinks>
 		<biostatMet>-2</biostatMet>
 		<symbolPack>

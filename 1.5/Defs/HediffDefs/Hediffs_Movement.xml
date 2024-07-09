@@ -48,6 +48,31 @@
 		</comps>
 	</HediffDef>
 	
-	
+	<HediffDef>
+		<defName>AG_SpeedBurst</defName>
+		<label>affected by speed burst</label>
+		<description>This person has been affected by a speed burst, making it move faster for a while. Effects will go away after 1 hour.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_DeleteAfterTime">
+				<disappearsAfterTicks>2500</disappearsAfterTicks>
+				
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.25</offset>
+					</li>
+				
+				</capMods>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
 	
 </Defs>

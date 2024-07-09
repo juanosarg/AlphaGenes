@@ -237,7 +237,18 @@
 		</comps>
 	</AbilityDef>
 	
-	
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_SpeedBurst</defName>
+		<label>speed burst</label>
+		<description>Makes the caster move faster for a short while.</description>
+		<iconPath>UI/Icons/Genes/AG_SpeedBurst</iconPath>
+		<cooldownTicksRange>10000</cooldownTicksRange>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_GiveHediff">
+				<hediffDef>AG_SpeedBurst</hediffDef>
+			</li>
+		</comps>
+	</AbilityDef>
 	
 	
 </Defs>

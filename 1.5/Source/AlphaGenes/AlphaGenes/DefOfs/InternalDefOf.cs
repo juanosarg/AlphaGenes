@@ -73,6 +73,19 @@ namespace AlphaGenes
         public static GeneDef AG_DangerousRaidPresence;
         public static GeneDef AG_DeadlyRaidPresence;
 
+        [MayRequireAnomaly]
+        public static GeneDef AG_Shambler_Timeless;
+        [MayRequireAnomaly]
+        public static GeneDef AG_Shambler_Plagued;
+        [MayRequireAnomaly]
+        public static GeneDef AG_Shambler_Toxic;
+        [MayRequireAnomaly]
+        public static GeneDef AG_Shambler_Stinker;
+        [MayRequireAnomaly]
+        public static GeneDef AG_Shambler_DeadlifeBelcher;
+        [MayRequireAnomaly]
+        public static GeneDef AG_Shambler_Polluter;
+
 
         public static XenotypeIconDef AG_CustomXenotypeIcon10;
 
@@ -108,7 +121,9 @@ namespace AlphaGenes
         public static HediffDef AG_DevouredArtistic;
         public static HediffDef AG_DevouredMedical;
         public static HediffDef AG_DevouredSocial;
-        public static HediffDef AG_DevouredIntellectual;    
+        public static HediffDef AG_DevouredIntellectual;
+        [MayRequireAnomaly]
+        public static HediffDef AG_PlaguedClaws;
 
         public static RulePackDef AG_NamerAlphapack;
 		public static RulePackDef AG_NamerMixedpack;

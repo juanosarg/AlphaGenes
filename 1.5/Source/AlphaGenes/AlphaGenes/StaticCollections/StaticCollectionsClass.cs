@@ -18,7 +18,7 @@ namespace AlphaGenes
 
         public static Dictionary<Pawn, int> colonist_and_random_mood = new Dictionary<Pawn, int>();
         public static Dictionary<HediffDef, float> hediffs_and_health_modifiers = new Dictionary<HediffDef, float>();
-
+        public static HashSet<Pawn> pawnsToRise = new HashSet<Pawn>();
 
         static StaticCollectionsClass(){
 

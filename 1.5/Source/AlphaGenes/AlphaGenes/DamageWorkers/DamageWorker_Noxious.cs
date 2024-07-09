@@ -39,7 +39,7 @@ namespace AlphaGenes
                     {
                         num *= (damageDefAdditionalHediff.inverseStatScaling ? Mathf.Max(1f - pawn.GetStatValue(damageDefAdditionalHediff.victimSeverityScaling), 0f) : pawn.GetStatValue(damageDefAdditionalHediff.victimSeverityScaling));
                     }
-                    Log.Message(num);
+                   
                     if (num >= 0f)
                     {
                         Hediff hediff2 = HediffMaker.MakeHediff(damageDefAdditionalHediff.hediff, pawn);
