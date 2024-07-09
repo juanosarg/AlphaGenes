@@ -4,11 +4,9 @@
 
 	<AlphaGenes.WretchBlacklistDef>
 		<defName>AG_WretchBlacklistDef_Insector</defName>
-		<blackListedGenes>							
-			<li>VRE_GenelineEvolution</li>
-			
-			
-		</blackListedGenes>							
+		<blackListedDefNameStrings>							
+			<li>AG_GenelineCosmetic_</li>					
+		</blackListedDefNameStrings>							
 	</AlphaGenes.WretchBlacklistDef>
 
 
