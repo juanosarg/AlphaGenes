@@ -2,9 +2,12 @@
 <Defs>
 	<AlphaGenes.WretchBlacklistDef>
 		<defName>AG_WretchBlacklistDef_Anomaly</defName>
-		<blackListedGenes>
+		<blackListedDefNameStrings>
+			<li>AG_Shambler_</li>
 			
-		</blackListedGenes>
+			
+		
+		</blackListedDefNameStrings>
 		
 	</AlphaGenes.WretchBlacklistDef>
 </Defs>
