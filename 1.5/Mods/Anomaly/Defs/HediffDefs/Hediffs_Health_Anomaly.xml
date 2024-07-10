@@ -117,7 +117,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AG_Regeneration_InTheSun</defName>
 		<label>sunlight regeneration</label>
@@ -132,6 +131,24 @@
 				<healAmount>10</healAmount>
 				<healAll>false</healAll>
 				<needsSun>true</needsSun>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_MeatBurst</defName>
+		<label>meat burst</label>
+		<description>This person will explode on death, liberating a small amount of fleshbeasts.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_MeatBurst">
+				<divideBloodFilthCountRange>1~2</divideBloodFilthCountRange>
+				<dividePawnCount>3</dividePawnCount>
+				<dividePawnKindOptions>
+					<li>Fingerspike</li>
+				</dividePawnKindOptions>
 			</li>
 		</comps>
 	</HediffDef>

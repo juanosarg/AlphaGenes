@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGeneratorDef>
+		<defName>AG_PocketPlane</defName>
+		<label>pocket plane</label>
+		<isUnderground>true</isUnderground>
+		<ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
+		<disableCallAid>true</disableCallAid>
+		<pocketMapProperties>
+			<biome>AG_PocketPlane</biome>
+			<temperature>15</temperature>
+		</pocketMapProperties>
+		<genSteps>
+		    <li>Terrain</li>
+			<li>AG_PocketPlane</li>
+			
+		</genSteps>
+	</MapGeneratorDef>
+	<GenStepDef>
+		<defName>AG_PocketPlane</defName>
+		<order>1000</order>
+		<genStep Class="KCSG.GenStep_CustomStructureGen">
+			<structureLayoutDefs>
+				<li>AG_PocketPlane</li>
+			</structureLayoutDefs>
+			<filthTypes>
+				<li>Filth_Dirt</li>
+				<li>Filth_Trash</li>
+				<li>Filth_RubbleBuilding</li>
+			</filthTypes>
+		</genStep>
+	</GenStepDef>
+</Defs>

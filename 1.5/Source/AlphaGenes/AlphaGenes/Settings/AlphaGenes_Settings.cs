@@ -19,7 +19,7 @@ namespace AlphaGenes
         public bool AG_DisableThalassophobiaMessage = false;
         public bool AG_ShowAllAnimalSummonGenes = false;
         public bool AG_GeneRemovalComa = true;
-        public bool AG_RandomGenesToShamblers = false;
+        public bool AG_RandomGenesToShamblers = true;
 
 
 
@@ -35,7 +35,7 @@ namespace AlphaGenes
             Scribe_Values.Look(ref AG_DisableThalassophobiaMessage, "AG_DisableThalassophobiaMessage", false);
             Scribe_Values.Look(ref AG_ShowAllAnimalSummonGenes, "AG_ShowAllAnimalSummonGenes", false);
             Scribe_Values.Look(ref AG_GeneRemovalComa, "AG_GeneRemovalComa", true);
-            Scribe_Values.Look(ref AG_RandomGenesToShamblers, "AG_RandomGenesToShamblers", false);
+            Scribe_Values.Look(ref AG_RandomGenesToShamblers, "AG_RandomGenesToShamblers", true);
 
 
         }

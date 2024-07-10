@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_PocketPlane</defName>
+		<label>pocket plane</label>
+		<description>Forces an unstable mutation on the caster's body. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<cooldownTicksRange>1000</cooldownTicksRange>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_PocketPlane">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	
+	
+</Defs>

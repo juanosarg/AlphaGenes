@@ -228,7 +228,33 @@
   <thing>AG_AncientGeneExtractor</thing>
 </KCSG.SymbolDef>
 
+<KCSG.SymbolDef>
+  <defName>AG_AncientBasicRecharger_West</defName>
+  <thing>AG_AncientBasicRecharger</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
 
+<KCSG.SymbolDef>
+  <defName>AG_AncientMechGestator_North</defName>
+  <thing>AG_AncientMechGestator</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientLargeMechGestator_North</defName>
+  <thing>AG_AncientLargeMechGestator</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientGrowthVat_South</defName>
+  <thing>AG_AncientGrowthVat</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_AncientFaultyLamp_West</defName>
+  <thing>AG_AncientFaultyLamp</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
 
 
 

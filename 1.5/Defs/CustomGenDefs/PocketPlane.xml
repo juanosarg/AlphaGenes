@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<KCSG.StructureLayoutDef>
+  <defName>AG_PocketPlane</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.</li>
+      <li>Wall_Steel,Wall_Steel,Door_Steel,Door_Steel,Wall_Steel,Wall_Steel</li>
+      <li>Wall_Steel,.,.,.,Urn_Steel,Wall_Steel</li>
+      <li>Wall_Steel,.,.,.,Wall_Steel,Wall_Steel</li>
+      <li>Wall_Steel,.,.,.,.,.</li>
+      <li>.,.,.,.,Urn_Steel,.</li>
+      <li>.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.</li>
+    <li>.,TileSlate,TileSlate,TileSlate,TileSlate,.</li>
+    <li>.,.,TileSlate,TileSlate,.,.</li>
+    <li>.,.,.,.,.,.</li>
+    <li>.,TileSlate,TileSlate,.,TileSlate,.</li>
+    <li>.,.,.,.,.,.</li>
+  </terrainGrid>
+</KCSG.StructureLayoutDef>
+</Defs>

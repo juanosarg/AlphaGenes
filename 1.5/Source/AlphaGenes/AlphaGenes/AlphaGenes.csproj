@@ -317,6 +317,7 @@
     <Compile Include="Abilities\CompGiveHediff.cs" />
     <Compile Include="Abilities\CompInsanityBlast.cs" />
     <Compile Include="Abilities\CompMechConversion.cs" />
+    <Compile Include="Abilities\CompPocketPlane.cs" />
     <Compile Include="Abilities\CompPsychicAbsorption.cs" />
     <Compile Include="Abilities\CompSummonScorpion.cs" />
     <Compile Include="Abilities\CompTailGrapple.cs" />
@@ -328,6 +329,7 @@
     <Compile Include="Abilities\Properties\CompProperties_AbilityOcularConversion.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityParasiticStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AdaptiveBiology.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_PocketPlane.cs" />
     <Compile Include="Abilities\Properties\CompProperties_PsychicAbsorption.cs" />
     <Compile Include="Abilities\Properties\CompProperties_UnstableRegeneration.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityStinger.cs" />
@@ -453,6 +455,7 @@
     <Compile Include="HediffComps\HediffComp_Exploder.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
     <Compile Include="HediffComps\HediffComp_LimbRegeneration.cs" />
+    <Compile Include="HediffComps\HediffComp_MeatBurst.cs" />
     <Compile Include="HediffComps\HediffComp_NoBleedHeartAttack.cs" />
     <Compile Include="HediffComps\HediffComp_Parasites.cs" />
     <Compile Include="HediffComps\HediffComp_RaiseShambler.cs" />
@@ -463,6 +466,7 @@
     <Compile Include="HediffComps\HediffComp_StageByMood.cs" />
     <Compile Include="HediffComps\HediffComp_Teratogenesis.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_DeleteAfterTime.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_MeatBurst.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Exploder.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffLungRotAlternative.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />

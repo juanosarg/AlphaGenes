@@ -543,4 +543,29 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Spiked</defName>
+		<label>spiked shambler</label>
+		<description>Shamblers carrying this gene have a ranged spike attack similar to the Gorehulk.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Spiked</iconPath>
+		<geneClass>VanillaGenesExpanded.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1020</displayOrderInCategory>
+		<abilities>
+			<li>SpineLaunch_Gorehulk</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

@@ -202,6 +202,49 @@
 	</GeneDef>
 
 
-
+<GeneDef>
+		<defName>AG_TwitchingFingerspike</defName>
+		<label>twitching fingerspike</label>
+		<description>Carriers of this gene have a non-functional fingerspike growing from their shoulders. Unnerving!.</description>
+		<iconPath>UI/Icons/Genes/AG_Fingerspike</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			 <li Class="PawnRenderNodeProperties_Spastic">
+              <debugLabel>Spike</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Fingerspike/Attachments/Fingerspike_TopLimb</texPath>
+              <linkedBodyPartsGroup>MiddleSpike</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-18~18</rotationRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~30</nextSpasmTicksRange>
+              <scaleRange>0.95~1.05</scaleRange>
+              <drawSize>1.4</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>-15</rotationOffset>
+                  <offset>(0, 0, 0.3)</offset>
+                </dataNorth>
+                <dataEast><offset>(0.25, 0, 0.1)</offset></dataEast>
+                <dataSouth>
+                  <rotationOffset>15</rotationOffset>
+                  <offset>(0, 0, -0.2)</offset>
+                  <flip>true</flip>
+                </dataSouth>
+                <dataWest><flip>true</flip></dataWest>
+              </drawData>
+            </li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 </Defs>

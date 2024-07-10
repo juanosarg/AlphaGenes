@@ -25,6 +25,54 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_MeatBurst</defName>
+		<label>meat burst</label>
+		<description>Carriers will explode on death, liberating a small amount of fleshbeasts.</description>
+		<iconPath>UI/Icons/Genes/AG_MeatBurst</iconPath>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		
+		
+		<selectionWeight>0</selectionWeight>
+		
+		<biostatMet>-1</biostatMet>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_MeatBurst</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_PocketPlane</defName>
+		<label>pocket plane</label>
+		<description>Carriers will explode on death, liberating a small amount of fleshbeasts.</description>
+		<iconPath>UI/Icons/Genes/AG_MeatBurst</iconPath>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		
+		
+		<abilities>
+			<li>AG_PocketPlane</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_PocketPlane</AbilityDef>
+		</descriptionHyperlinks>
+		
+		<biostatMet>-1</biostatMet>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
 
 
 	
