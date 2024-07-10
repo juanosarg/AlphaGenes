@@ -50,20 +50,22 @@
 	<GeneDef>
 		<defName>AG_PocketPlane</defName>
 		<label>pocket plane</label>
-		<description>Carriers will explode on death, liberating a small amount of fleshbeasts.</description>
-		<iconPath>UI/Icons/Genes/AG_MeatBurst</iconPath>
+		<description>Carriers will be able to access their own extradimensional space, having a safe haven away from the chaos of the Rim.</description>
+		<iconPath>UI/Icons/Genes/AG_PocketPlane</iconPath>
 		<displayCategory>AG_AnomalyCategory</displayCategory>
 		
 		
 		<abilities>
-			<li>AG_PocketPlane</li>
+			<li>AG_PocketPlaneAbility</li>
+			<li>AG_DestroyPocketPlane</li>
+			<li>AG_TeleportItemsPocketPlane</li>
 		</abilities>
 		<selectionWeight>0</selectionWeight>
 		<descriptionHyperlinks>
-			<AbilityDef>AG_PocketPlane</AbilityDef>
+			<AbilityDef>AG_PocketPlaneAbility</AbilityDef>
 		</descriptionHyperlinks>
 		
-		<biostatMet>-1</biostatMet>
+		<biostatMet>-3</biostatMet>
 		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
@@ -73,6 +75,8 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	
 
 
 	

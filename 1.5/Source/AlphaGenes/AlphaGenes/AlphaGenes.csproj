@@ -311,6 +311,7 @@
     <Compile Include="Abilities\CompAbilityOcularConversion.cs" />
     <Compile Include="Abilities\CompBandwidthLoop.cs" />
     <Compile Include="Abilities\CompDestroyEyes.cs" />
+    <Compile Include="Abilities\CompDestroyPocketPlane.cs" />
     <Compile Include="Abilities\CompDetonate.cs" />
     <Compile Include="Abilities\CompDevourBrain.cs" />
     <Compile Include="Abilities\CompGeneSyphon.cs" />
@@ -321,6 +322,7 @@
     <Compile Include="Abilities\CompPsychicAbsorption.cs" />
     <Compile Include="Abilities\CompSummonScorpion.cs" />
     <Compile Include="Abilities\CompTailGrapple.cs" />
+    <Compile Include="Abilities\CompTeleportItemsPocketPlane.cs" />
     <Compile Include="Abilities\CompTempNode.cs" />
     <Compile Include="Abilities\CompTeratogenicHealing.cs" />
     <Compile Include="Abilities\CompTeratogenicHediff.cs" />
@@ -329,8 +331,10 @@
     <Compile Include="Abilities\Properties\CompProperties_AbilityOcularConversion.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityParasiticStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AdaptiveBiology.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_DestroyPocketPlane.cs" />
     <Compile Include="Abilities\Properties\CompProperties_PocketPlane.cs" />
     <Compile Include="Abilities\Properties\CompProperties_PsychicAbsorption.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_TeleportItemsPocketPlane.cs" />
     <Compile Include="Abilities\Properties\CompProperties_UnstableRegeneration.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilityStinger.cs" />
     <Compile Include="Abilities\Properties\CompProperties_AbilitySummon.cs" />

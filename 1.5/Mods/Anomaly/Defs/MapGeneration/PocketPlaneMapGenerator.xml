@@ -22,6 +22,9 @@
 		<genStep Class="KCSG.GenStep_CustomStructureGen">
 			<structureLayoutDefs>
 				<li>AG_PocketPlane</li>
+				<li>AG_PocketPlane_Beta</li>
+				<li>AG_PocketPlane_Gamma</li>
+				<li>AG_PocketPlane_Delta</li>
 			</structureLayoutDefs>
 			<filthTypes>
 				<li>Filth_Dirt</li>

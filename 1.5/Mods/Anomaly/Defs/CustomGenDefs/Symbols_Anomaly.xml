@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>AG_GrayWall</defName>
+		<thing>AG_GrayWall</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_FloorEtching_North</defName>
+		<thing>AG_FloorEtching</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_GrayDoor</defName>
+		<thing>AG_GrayDoor</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_EndlessPit2x2c</defName>
+		<thing>AG_EndlessPit2x2c</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_GrayStatue_North</defName>
+		<thing>AG_GrayStatue</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_GrayBox_West</defName>
+		<thing>AG_GrayBox</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_GrayBox_South</defName>
+		<thing>AG_GrayBox</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+  <defName>AG_GrayBox_North</defName>
+  <thing>AG_GrayBox</thing>
+</KCSG.SymbolDef>
+<KCSG.SymbolDef>
+  <defName>AG_EndlessPit3x2c_North</defName>
+  <thing>AG_EndlessPit3x2c</thing>
+</KCSG.SymbolDef>
+</Defs>

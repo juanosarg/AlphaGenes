@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TerrainDef Name="AG_FloorBaseAnomaly" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+		<tags>
+			<li>Floor</li>
+		</tags>
+		<fertility>0</fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+	</TerrainDef>
+	<TerrainDef ParentName="AG_FloorBaseAnomaly">
+		<defName>AG_GraySurface</defName>
+		<label>gray surface</label>
+		<description>An unnatural gray floor. It is featureless and smooth. It is not concrete, metal, or any other recognizable building material.</description>
+		<renderPrecedence>340</renderPrecedence>
+		<texturePath>Terrain/Surfaces/GrayFloor</texturePath>
+		<statBases>
+			<WorkToBuild>300</WorkToBuild>
+		</statBases>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="AG_FloorBaseAnomaly">
+		<defName>AG_BurnedBioferritePlate</defName>
+		<label>burned bioferrite plate</label>
+		<renderPrecedence>251</renderPrecedence>
+		<description>Burned-out bioferrite plating.</description>
+		<texturePath>Terrain/Surfaces/BurnedBioferritePlateFloor</texturePath>
+		<edgeType>Hard</edgeType>
+		<color>(100, 80, 80)</color>
+		<statBases>
+			<WorkToBuild>300</WorkToBuild>
+		</statBases>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+	</TerrainDef>
+</Defs>

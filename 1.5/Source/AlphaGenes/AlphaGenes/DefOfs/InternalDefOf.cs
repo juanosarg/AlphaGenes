@@ -24,6 +24,8 @@ namespace AlphaGenes
         public static SoundDef Hive_Spawn;
 
         public static AbilityDef AG_MinorSummon;
+        [MayRequireAnomaly]
+        public static AbilityDef AG_PocketPlaneAbility;
 
         public static ThoughtDef AG_PukedRats;
 		public static ThoughtDef AG_Implanted;

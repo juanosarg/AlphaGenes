@@ -1,19 +1,63 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<AbilityDef ParentName="AG_NoTargetAbilities">
-		<defName>AG_PocketPlane</defName>
+		<defName>AG_PocketPlaneAbility</defName>
 		<label>pocket plane</label>
-		<description>Forces an unstable mutation on the caster's body. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
-		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<description>Opens a link to an extradimensional space that only the caster can access. If cast inside the pocket plane, it will return the caster to the original map, at the same position it departed when entering the pocket plane.</description>
+		<iconPath>UI/Icons/Genes/AG_PocketPlane</iconPath>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 		<cooldownTicksRange>1000</cooldownTicksRange>
 		<comps>
 			<li Class="AlphaGenes.CompProperties_PocketPlane">
+				<clamorType>Ability</clamorType>
+				<clamorRadius>10</clamorRadius>
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_DestroyPocketPlane</defName>
+		<label>destroy pocket plane</label>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<description>Destroys the pocket plane, along with everything inside it. WARNING: you can open a new pocket plane, but the original will be forever lost.</description>
+		<iconPath>UI/Icons/Genes/AG_PocketPlane_Destroy</iconPath>
+		<cooldownTicksRange>1000</cooldownTicksRange>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_DestroyPocketPlane">
+				<clamorType>Ability</clamorType>
+				<clamorRadius>10</clamorRadius>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_TeleportItemsPocketPlane</defName>
+		<label>transfer to pocket plane</label>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<description>Transfers items to pocket plane. Items can be transported to a pocket plane, but cannot be taken out of it!</description>
+		<iconPath>UI/Icons/Genes/AG_PocketPlane_MoveItems</iconPath>
+		<cooldownTicksRange>300</cooldownTicksRange>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>15.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetItems>true</canTargetItems>
+				<thingCategory>Item</thingCategory>
+				<mapObjectTargetsMustBeAutoAttackable>false</mapObjectTargetsMustBeAutoAttackable>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TeleportItemsPocketPlane">
 				
 			</li>
 		</comps>
 	</AbilityDef>
-	
-	
-	
 </Defs>
