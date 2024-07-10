@@ -24,6 +24,11 @@
 		<description>Destroys the pocket plane, along with everything inside it. WARNING: you can open a new pocket plane, but the original will be forever lost.</description>
 		<iconPath>UI/Icons/Genes/AG_PocketPlane_Destroy</iconPath>
 		<cooldownTicksRange>1000</cooldownTicksRange>
+		<verbProperties>
+			
+			<warmupTime>5</warmupTime>
+			
+		</verbProperties>
 		<comps>
 			<li Class="AlphaGenes.CompProperties_DestroyPocketPlane">
 				<clamorType>Ability</clamorType>
