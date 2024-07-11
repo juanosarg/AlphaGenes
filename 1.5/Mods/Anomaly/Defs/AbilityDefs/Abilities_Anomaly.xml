@@ -3,6 +3,7 @@
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_PocketPlaneAbility</defName>
 		<label>pocket plane</label>
+		
 		<description>Opens a link to an extradimensional space that only the caster can access. If cast inside the pocket plane, it will return the caster to the original map, at the same position it departed when entering the pocket plane.</description>
 		<iconPath>UI/Icons/Genes/AG_PocketPlane</iconPath>
 		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
@@ -11,11 +12,19 @@
 			<li Class="AlphaGenes.CompProperties_PocketPlane">
 				<clamorType>Ability</clamorType>
 				<clamorRadius>10</clamorRadius>
+				<x>10</x>
+				<z>10</z>
+				<map>AG_PocketPlane</map>
 			</li>
 			<li Class="CompProperties_AbilityFleckOnTarget">
 				<fleckDef>PsycastPsychicEffect</fleckDef>
 			</li>
 		</comps>
+		<modExtensions>
+            <li Class="AlphaGenes.AbilityExtension">
+                <isPocketPlaneAbility>true</isPocketPlaneAbility>
+            </li>
+        </modExtensions>
 	</AbilityDef>
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_DestroyPocketPlane</defName>
@@ -63,6 +72,31 @@
 			<li Class="AlphaGenes.CompProperties_TeleportItemsPocketPlane">
 				
 			</li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_TentacleGrapple</defName>
+		<label>tentacle grapple</label>
+		<description>Attack a target with a prehensile tentacle, grappling it and immobilizing it for a short time.</description>
+		<iconPath>UI/Icons/Genes/AG_GreaterFleshWhipIcon</iconPath>
+		<cooldownTicksRange>6000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_TailGrapple</soundCast>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TailGrapple"/>
 		</comps>
 	</AbilityDef>
 </Defs>

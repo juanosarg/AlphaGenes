@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<MVCF.ModDef>
+		<defName>AG_AlphaGenes_Anomaly_MVCF</defName>
+		<label>AlphaGenes - Anomaly</label>
+		<description>Adding animal ranged attacks for AlphaGenes - Anomaly</description>
+		
+		<ActivateFeatures>
+			
+			<li>HediffVerbs</li>
+			<li>IntegratedToggle</li>
+			<li>Drawing</li>
+			<li>IndependentFire</li>
+		</ActivateFeatures>
+			
+	</MVCF.ModDef>
+
+
+
+
+
+
+</Defs>

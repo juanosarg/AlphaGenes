@@ -26,8 +26,8 @@ namespace AlphaGenes
             Pawn pawn = this.parent.pawn;
             parent.AddEffecterToMaintain(EffecterDefOf.Skip_Entry.Spawn(target.Thing, pawn.Map), target.Thing.Position, 60);
             SoundDefOf.Psycast_Skip_Entry.PlayOneShot(new TargetInfo(target.Cell, parent.pawn.Map));
-            Map pocketMap = GeneratePocketMap();
-            Map originalMap = StoreOriginalMap();
+            pocketMap = GeneratePocketMap();
+            originMap = StoreOriginalMap();
 
             SoundDefOf.TraversePitGate.PlayOneShot(pawn);
 
@@ -54,7 +54,7 @@ namespace AlphaGenes
         {
             if (pocketMap == null)
             {
-                pocketMap = PocketMapUtility.GeneratePocketMap(new IntVec3(10, 1, 10), InternalDefOf.AG_PocketPlane, null, null);              
+                pocketMap = PocketMapUtility.GeneratePocketMap(new IntVec3(Props.x, 1, Props.z), Props.map, null, null);              
             }
             return pocketMap;
            

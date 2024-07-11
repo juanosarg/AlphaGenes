@@ -23,9 +23,9 @@ namespace AlphaGenes
 
             Pawn pawn = this.parent.pawn;
 
-            if (pawn.abilities?.GetAbility(InternalDefOf.AG_PocketPlaneAbility) != null)
+            if (pawn.abilities?.AllAbilitiesForReading?.Where(x => x.def.GetModExtension<AbilityExtension>()?.isPocketPlaneAbility==true)?.First() != null)
             {
-                Ability ability = pawn.abilities?.GetAbility(InternalDefOf.AG_PocketPlaneAbility);
+                Ability ability = pawn.abilities.AllAbilitiesForReading.Where(x => x.def.GetModExtension<AbilityExtension>()?.isPocketPlaneAbility == true).First();
                 CompPocketPlane comp = ability.comps.First() as CompPocketPlane;
                 if(comp.pocketMap != null)
                 {

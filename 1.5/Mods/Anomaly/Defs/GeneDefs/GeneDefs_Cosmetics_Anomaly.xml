@@ -10,6 +10,9 @@
 		<description>Carriers of this gene have two non-functional toughspike claws growing from their shoulders. Unnerving!.</description>
 		<iconPath>UI/Icons/Genes/AG_Toughspikes</iconPath>
 		<biostatCpx>1</biostatCpx>
+		<exclusionTags>
+			<li>AG_Spikes</li>
+		</exclusionTags>
 		<displayCategory>AG_AnomalyCategory</displayCategory>
 		<selectionWeight>0</selectionWeight>
 		<renderNodeProperties>
@@ -97,6 +100,9 @@
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>AG_AnomalyCategory</displayCategory>
 		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>AG_Spikes</li>
+		</exclusionTags>
 		<renderNodeProperties>
 			<li Class="PawnRenderNodeProperties_Spastic">
 				
@@ -208,6 +214,9 @@
 		<description>Carriers of this gene have a non-functional fingerspike growing from their shoulders. Unnerving!.</description>
 		<iconPath>UI/Icons/Genes/AG_Fingerspike</iconPath>
 		<biostatCpx>1</biostatCpx>
+		<exclusionTags>
+			<li>AG_Spikes</li>
+		</exclusionTags>
 		<displayCategory>AG_AnomalyCategory</displayCategory>
 		<selectionWeight>0</selectionWeight>
 		<renderNodeProperties>

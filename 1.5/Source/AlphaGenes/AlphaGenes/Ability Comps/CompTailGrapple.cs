@@ -20,9 +20,9 @@ namespace AlphaGenes
             Pawn pawn = target.Pawn;
             if (pawn != null)
             {
-                if (pawn.BodySize > 2.5)
+                if (pawn.BodySize > Props.maxBodySize)
                 {
-                    Messages.Message("AG_TargetTooBig".Translate(pawn), pawn, MessageTypeDefOf.RejectInput, historical: false);
+                    Messages.Message("AG_TargetTooBig".Translate(pawn.NameShortColored, Props.maxBodySize), pawn, MessageTypeDefOf.RejectInput, historical: false);
 
                 }
                 else { pawn.stances.stunner.StunFor(600, parent.pawn, addBattleLog: false, showMote: true); }

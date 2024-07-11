@@ -53,8 +53,9 @@
 		<description>Carriers will be able to access their own extradimensional space, having a safe haven away from the chaos of the Rim.</description>
 		<iconPath>UI/Icons/Genes/AG_PocketPlane</iconPath>
 		<displayCategory>AG_AnomalyCategory</displayCategory>
-		
-		
+		<exclusionTags>
+			<li>AG_Portals</li>
+		</exclusionTags>
 		<abilities>
 			<li>AG_PocketPlaneAbility</li>
 			<li>AG_DestroyPocketPlane</li>

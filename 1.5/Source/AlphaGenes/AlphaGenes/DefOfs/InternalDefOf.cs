@@ -8,7 +8,7 @@ namespace AlphaGenes
 	[DefOf]
 	public static class InternalDefOf
 	{
-        public static MapGeneratorDef AG_PocketPlane;
+     
 
         public static ThingDef AG_Alphapack;
 		public static ThingDef AG_Mixedpack;
@@ -24,9 +24,7 @@ namespace AlphaGenes
         public static SoundDef Hive_Spawn;
 
         public static AbilityDef AG_MinorSummon;
-        [MayRequireAnomaly]
-        public static AbilityDef AG_PocketPlaneAbility;
-
+     
         public static ThoughtDef AG_PukedRats;
 		public static ThoughtDef AG_Implanted;
 		public static ThoughtDef AG_Implanted_Social;

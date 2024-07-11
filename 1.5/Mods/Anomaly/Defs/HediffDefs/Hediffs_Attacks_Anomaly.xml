@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<HediffDef>
 		<defName>AG_PlaguedClaws_Hands</defName>
 		<label>plagued claw</label>
@@ -28,5 +27,97 @@
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
-	
+	<HediffDef>
+		<defName>AG_GreaterToughspikes</defName>
+		<label>greater toughspikes</label>
+		<description>Four functional toughspike claws growing from the back that can be used in melee attacks.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>greater toughspikes</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>1.2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_GreaterFleshWhip</defName>
+		<label>greater flesh whip</label>
+		<description>Two fleshy, muscled tentacles with blades at the end. These flesh whips make for excellent melee weapons.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>greater flesh whip</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>1.8</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_FleshSpitter</defName>
+		<label>flesh spitter</label>
+		<description>A grotesque, cancerous growth on the shoulder than can spit acid on its own volition.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+				<verbs>
+					<li>
+						<verbClass>Verb_Shoot</verbClass>
+						<label>acid spit</label>
+						<hasStandardCommand>True</hasStandardCommand>
+						<defaultProjectile>Bullet_Shell_AcidSpit</defaultProjectile>
+						<forcedMissRadius>3</forcedMissRadius>
+						<burstShotCount>1</burstShotCount>
+						<warmupTime>1</warmupTime>
+						<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+						<range>21.9</range>
+						<soundCast>SpitterSpit</soundCast>
+					</li>
+				</verbs>
+				<verbProps>
+					<li>
+						<label>acid spit</label>
+						<canBeToggled>true</canBeToggled>
+						<comps>
+							<li Class="MVCF.VerbComps.VerbCompProperties_Cooldown">
+								<compClass>MVCF.VerbComps.VerbComp_Cooldown</compClass>
+								<cooldownTime>50</cooldownTime>
+							</li>
+							<li Class="MVCF.VerbComps.VerbCompProperties_Turret">
+								<compClass>MVCF.VerbComps.VerbComp_Turret</compClass>
+								<invisible>true</invisible>
+								
+							</li>
+						</comps>
+					</li>
+				</verbProps>
+			</li>
+		</comps>
+	</HediffDef>
 </Defs>

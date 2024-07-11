@@ -33,7 +33,7 @@
 	<AG_CantSpawnThere>Can't create temporary node there</AG_CantSpawnThere>
 	<AG_OnlyOnFriendlyMechs>{0} is not a colony mech, this will only work on player owned mechs</AG_OnlyOnFriendlyMechs>
 	<AG_NotOnAndroids>This ability doesn't work on androids</AG_NotOnAndroids>
-	<AG_TargetTooBig>This target is too big for a tail grapple</AG_TargetTooBig>
+	<AG_TargetTooBig>{0} is too big for a grapple (max body size {1})</AG_TargetTooBig>
 	<AG_Hybrid>Hybrid</AG_Hybrid>
 	<AG_PsychicAbsorptionNoMoods>{0} doesn't have any negative memories that can be absorbed</AG_PsychicAbsorptionNoMoods>
 	<AG_NeedToTargetCaster>This ability needs to target its caster</AG_NeedToTargetCaster>
