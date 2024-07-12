@@ -508,4 +508,24 @@
 		<gender>Male</gender>
 	</HeadTypeDef>
 	
+	<!-- Nereid -->
+	
+	<HeadTypeDef Name="AG_NereidBase" ParentName="AverageBase" Abstract="True">
+		<selectionWeight>100000</selectionWeight>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>AG_NereidHead</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_NereidBase">
+		<defName>AG_Female_Nereid</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Nereid/Nereid_head</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_NereidBase">
+		<defName>AG_Male_Nereid</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_Nereid/Nereid_head</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	
 </Defs>

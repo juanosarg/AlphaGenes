@@ -310,5 +310,53 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-
+<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_NereidHead</defName>
+		<label>nereid head</label>
+		<description>Carriers of this gene have a plain, scaled head with bioluminiscent spots.</description>
+		<selectionWeight>0</selectionWeight>
+		<iconPath>UI/Icons/Genes/AG_NereidHead</iconPath>
+		<forcedHeadTypes>
+			<li>AG_Female_Nereid</li>
+			<li>AG_Male_Nereid</li>
+		</forcedHeadTypes>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<color>(255,255,255)</color>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_Detail/Nereid_Detail</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

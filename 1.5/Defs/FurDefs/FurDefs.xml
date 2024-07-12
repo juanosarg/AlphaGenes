@@ -140,4 +140,18 @@
       <Baby>Things/Pawn/Humanlike/Bodies/Naked_Child</Baby>
     </bodyTypeGraphicPaths>
   </FurDef>
+  
+    <FurDef>
+    <defName>AG_NereidBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Bodies/AG_NereidBody/Nereid_male</Male>
+      <Female>Things/Pawn/Humanlike/Bodies/AG_NereidBody/Nereid_female</Female>
+      <Hulk>Things/Pawn/Humanlike/Bodies/AG_NereidBody/Nereid_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Bodies/AG_NereidBody/Nereid_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Bodies/AG_NereidBody/Nereid_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriChildBody</Child>
+      <Baby>Things/Pawn/Humanlike/Bodies/AG_DrakonoriBody/AG_DrakonoriChildBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
 </Defs>
