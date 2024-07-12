@@ -309,6 +309,7 @@
     <Compile Include="Ability Comps\CompAbilityEffect_Stinger.cs" />
     <Compile Include="Ability Comps\CompAbilityEffect_UnstableRegeneration.cs" />
     <Compile Include="Ability Comps\CompAbilityOcularConversion.cs" />
+    <Compile Include="Ability Comps\CompAbsorbFleshbeast.cs" />
     <Compile Include="Ability Comps\CompBandwidthLoop.cs" />
     <Compile Include="Ability Comps\CompDestroyEyes.cs" />
     <Compile Include="Ability Comps\CompDestroyPocketPlane.cs" />
@@ -330,6 +331,7 @@
     <Compile Include="Ability Comps\Properties\CompProperties_AbilityMineralCost.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_AbilityOcularConversion.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_AbilityParasiticStinger.cs" />
+    <Compile Include="Ability Comps\Properties\CompProperties_AbsorbFleshbeast.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_AdaptiveBiology.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_DestroyPocketPlane.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_PocketPlane.cs" />

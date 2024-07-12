@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_FleshSpitter</defName>
+		<label>flesh spitter</label>
+		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder than can spit acid on its own volition.</description>
+		<iconPath>UI/Icons/Genes/AG_FleshSpitterIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>AG_ShoulderCritters</li>
+		</exclusionTags>
+		<statOffsets>
+			<PawnBeauty>-1</PawnBeauty>
+		</statOffsets>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_FleshSpitter/AG_FleshSpitter</texPath>
+				<drawSize>1</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>30</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>90</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_FleshSpitter</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FleshBulb</defName>
+		<label>flesh bulb</label>
+		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder than can launch luminous flesh bulbs that act as disruptor flares.</description>
+		<iconPath>UI/Icons/Genes/AG_FleshBulbIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>AG_ShoulderCritters</li>
+		</exclusionTags>
+		<statOffsets>
+			<PawnBeauty>-1</PawnBeauty>
+		</statOffsets>
+		<abilities>
+			<li>AG_FleshBulb</li>
+		</abilities>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_FleshBulb/AG_FleshBulb</texPath>
+				<drawSize>1</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>30</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>90</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_FleshSack</defName>
+		<label>flesh sack</label>
+		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder than can absorb flesh beasts and empower the carrier for a short while.</description>
+		<iconPath>UI/Icons/Genes/AG_FleshSackIcon</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>AG_ShoulderCritters</li>
+		</exclusionTags>
+		<statOffsets>
+			<PawnBeauty>-1</PawnBeauty>
+		</statOffsets>
+		<abilities>
+			<li>AG_FleshSack</li>
+		</abilities>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_FleshSack/AG_FleshSack</texPath>
+				<drawSize>1</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>30</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>90</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

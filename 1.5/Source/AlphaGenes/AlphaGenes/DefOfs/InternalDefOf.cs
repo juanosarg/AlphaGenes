@@ -125,6 +125,8 @@ namespace AlphaGenes
         public static HediffDef AG_DevouredIntellectual;
         [MayRequireAnomaly]
         public static HediffDef AG_PlaguedClaws;
+        [MayRequireAnomaly]
+        public static HediffDef AG_FleshPower;
 
         public static RulePackDef AG_NamerAlphapack;
 		public static RulePackDef AG_NamerMixedpack;

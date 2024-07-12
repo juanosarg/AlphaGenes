@@ -75,7 +75,7 @@
 			<li>EyeColor</li>
 		</exclusionTags>
 		<customEffectDescriptions>
-			<li>Increases hit points of the eyes by 5.</li>
+			<li>Increases hit points of the eyes by 6.</li>
 		</customEffectDescriptions>
 		<renderNodeProperties>
 			<li Class="PawnRenderNodeProperties_Eye">
@@ -419,7 +419,7 @@
 			<li>WoundHealingRate</li>
 		</exclusionTags>
 		<customEffectDescriptions>
-			<li>Increases hit points of the stomach by 5.</li>
+			<li>Increases hit points of the heart by 5.</li>
 			<li>Wounds will coagulate, but every time a bleeding wound coagulates on its own, there is a 5% chance of a heart attack.</li>
 		</customEffectDescriptions>
 		<modExtensions>
