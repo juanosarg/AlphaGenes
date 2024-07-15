@@ -35,6 +35,7 @@
 		<li>sarg.alphaanimals</li>
 		<li>sarg.alphabiomes</li>
 		<li>vanillaracesexpanded.android</li>
+		<li>vanillaracesexpanded.insector</li>
 	</loadAfter>
 	<packageId>sarg.alphagenes</packageId>
 	<description>Adds new genes and xenotypes to Rimworld.
