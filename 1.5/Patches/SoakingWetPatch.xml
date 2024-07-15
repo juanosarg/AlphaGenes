@@ -10,6 +10,7 @@
 			<value>
 				<nullifyingGenes>
 					<li>AG_ScalyBody</li>
+					<li>AG_WaterStriding</li>
 				</nullifyingGenes>
 			</value>
 		</nomatch>
@@ -17,6 +18,7 @@
 			<xpath>/Defs/ThoughtDef[defName = "SoakingWet"]/nullifyingGenes</xpath>
 			<value>
 				<li>AG_ScalyBody</li>
+				<li>AG_WaterStriding</li>
 			</value>
 		</match>
 	</Operation>
