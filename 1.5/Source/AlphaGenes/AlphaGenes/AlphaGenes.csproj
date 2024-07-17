@@ -36,9 +36,8 @@
     <LangVersion>8</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.3.1.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Lib.Harmony.2.3.1.1\lib\net48\0Harmony.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.3.3\lib\net48\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
@@ -518,6 +517,7 @@
     <Compile Include="ThoughtWorkers\ThoughtWorker_BloodsuckerDistrust.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_EldritchVisage.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_Mood_Volatile.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_Stinky.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_Thalassophobia.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_UnsettlingAppearance.cs" />
     <Compile Include="Utils\Utils.cs" />
@@ -527,6 +527,5 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

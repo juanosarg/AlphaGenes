@@ -486,6 +486,22 @@
 		</modExtensions>
 	</GeneDef>
 	<GeneDef>
+		<defName>AG_Stinky</defName>
+		<label>stinky</label>	
+		<description>Carriers of this gene generate a very unpleasant aroma that will bother other people.</description>
+		<iconPath>UI/Icons/Genes/AG_Stinky</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>399.5</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
 		<defName>AG_AcidImmunity</defName>
 		<label>acid immunity</label>
 		<damageFactors>

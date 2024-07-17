@@ -39,4 +39,16 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AG_Stinky</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>AlphaGenes.ThoughtWorker_Stinky</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>stinky</label>
+				<baseOpinionOffset>-15</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

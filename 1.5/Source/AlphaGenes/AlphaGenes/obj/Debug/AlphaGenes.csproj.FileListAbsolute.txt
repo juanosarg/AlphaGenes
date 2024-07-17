@@ -10,3 +10,4 @@ E:\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.5\Assemblies\AlphaGenes.dll
 E:\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.5\Source\AlphaGenes\AlphaGenes\obj\Debug\AlphaGenes.csproj.AssemblyReference.cache
 E:\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.5\Source\AlphaGenes\AlphaGenes\obj\Debug\AlphaGenes.csproj.CoreCompileInputs.cache
 E:\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.5\Source\AlphaGenes\AlphaGenes\obj\Debug\AlphaGenes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaGenes\1.5\Source\AlphaGenes\AlphaGenes\obj\Debug\AlphaGenes.csproj.CopyComplete

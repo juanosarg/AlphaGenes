@@ -198,4 +198,22 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef ParentName="FertilityBase">
+		<defName>AG_BlackWidow</defName>
+		<label>black widow</label>
+		<description>Female carriers of this gene will cause the person they have intercourse with to perish, while at the same time ensuring a pregnancy.</description>
+		<iconPath>UI/Icons/Genes/AG_BlackWidow</iconPath>
+		<displayOrderInCategory>116</displayOrderInCategory>
+		<geneClass>VanillaGenesExpanded.GeneGendered</geneClass>
+		<biostatMet>0</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<forGenderOnly>Female</forGenderOnly>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>
