@@ -75,6 +75,31 @@
 	</GeneDef>
 	
 	<GeneDef>
+		<defName>AG_WaterRegeneration</defName>
+		<label>water regeneration</label>
+		<exclusionTags>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<description>Carriers of this gene will slowly regenerate health whenever they are on watery terrain.</description>
+		<iconPath>UI/Icons/Genes/AG_WaterRegeneration</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>111.51</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<customEffectDescriptions>
+			<li>A random wound is reduced by 0.1 severity every 750 ticks (aprox 1/4th ingame hour).</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_WaterRegeneration</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
 		<defName>AG_LimbRegeneration</defName>
 		<label>limb regeneration</label>
 		<exclusionTags>

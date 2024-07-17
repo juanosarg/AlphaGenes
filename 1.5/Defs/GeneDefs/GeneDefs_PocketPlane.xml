@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_NereidPocketPlane</defName>
+		<label>nereid pocket plane</label>
+		<description>Carriers will be able to access their own extradimensional space, having a safe haven away from the chaos of the Rim.</description>
+		<iconPath>UI/Icons/Genes/AG_NereidPocketPlane</iconPath>
+		<displayCategory>Miscellaneous</displayCategory>
+		<exclusionTags>
+			<li>AG_Portals</li>
+		</exclusionTags>
+		<abilities>
+			<li>AG_NereidPocketPlane</li>
+			<li>AG_DestroyPocketPlane</li>
+			<li>AG_TeleportItemsPocketPlane</li>
+		</abilities>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_NereidPocketPlane</AbilityDef>
+		</descriptionHyperlinks>
+		
+		<biostatMet>-3</biostatMet>
+		
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

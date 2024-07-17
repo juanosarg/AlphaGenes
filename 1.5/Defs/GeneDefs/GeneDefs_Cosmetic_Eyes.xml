@@ -322,4 +322,26 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_BioluminescentEyes</defName>
+		<label>bioluminescent eyes</label>
+		<displayCategory>Miscellaneous</displayCategory>
+		<description>Carriers of this gene have eyes that glow in the dark due to the presence of a tapetum, a special membrane behind the retina. This allows them to see much better in the dark, but they are less useful in daylight.</description>
+		<iconPath>UI/Icons/Genes/AG_Bioluminescence</iconPath>
+		<displayOrderInCategory>53.5</displayOrderInCategory>
+		<biostatMet>0</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+		</exclusionTags>
+		<ignoreDarkness>true</ignoreDarkness>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

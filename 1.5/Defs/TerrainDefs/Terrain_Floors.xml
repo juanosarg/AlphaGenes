@@ -68,6 +68,23 @@
    
   </TerrainDef>
   
+    <TerrainDef ParentName="AG_FloorBase">
+    <defName>AG_CoralFloor</defName>
+    <label>coral floor</label>
+    <description>Rough coral floor.</description>
+    <texturePath>Terrain/Surfaces/AG_CoralGravel</texturePath>
+  
+    <renderPrecedence>71</renderPrecedence>
+    <statBases>
+     
+      <WorkToBuild>100</WorkToBuild>
+    </statBases>
+    <costList>
+      <Steel>1</Steel>
+    </costList>
+   
+  </TerrainDef>
+  
  
  
 

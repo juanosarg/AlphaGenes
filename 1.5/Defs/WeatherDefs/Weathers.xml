@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+  <WeatherDef>
+    <defName>AG_Underground</defName>
+    <label>underground</label> 
+    <description>There is no weather underground.</description> 
+    <repeatable>true</repeatable>
+    <favorability>Good</favorability>
+	<ambientSounds>
+      <li>AG_Ambient_Underwater</li>
+    </ambientSounds>
+    <perceivePriority>0</perceivePriority>
+    <skyColorsDay>
+      <sky>(0.3, 0.4, 0.4)</sky>
+      <shadow>(0.85, 0.85, 0.85)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>1.25</saturation>
+    </skyColorsDay>
+    <skyColorsDusk>
+      <sky>(0.3, 0.4, 0.4)</sky>
+      <shadow>(0.85, 0.85, 0.85)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>1.25</saturation>
+    </skyColorsDusk>
+    <skyColorsNightEdge>
+      <sky>(0.3, 0.4, 0.4)</sky>
+      <shadow>(0.85, 0.85, 0.85)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>1.25</saturation>
+    </skyColorsNightEdge>
+    <skyColorsNightMid>
+      <sky>(0.3, 0.4, 0.4)</sky>
+      <shadow>(0.85, 0.85, 0.85)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>1.25</saturation>
+    </skyColorsNightMid>
+  </WeatherDef>
+
+  
+  
+  
+</Defs>

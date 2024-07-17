@@ -56,4 +56,8 @@
 		<defName>AG_CustomXenotypeIconPhy</defName>
 		<texPath>UI/Icons/Xenotypes/AG_OcularKin</texPath>
 	</XenotypeIconDef>
+	<XenotypeIconDef>
+		<defName>AG_CustomXenotypeIconNereid</defName>
+		<texPath>UI/Icons/Xenotypes/AG_Nereid</texPath>
+	</XenotypeIconDef>
 </Defs>

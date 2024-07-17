@@ -274,6 +274,34 @@
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>
+		<defName>AG_Nereid</defName>
+		<label>nereid</label>
+		<description>An attempt to create a xenotype of beautiful, harmless and subservient people, during the final synthesis of the genes one of the involved scientists failed to notice that his pet bearded lizard had shed its skin inside of the vat. Upon the first official synthesis, the subject demonstrated impeccable strength and perception, while retaining their otherworldly beauty. Essentially she was as likely to embrace you as much as she would eat your face.</description>
+		<descriptionShort>A xenotype of beautiful draconic people. Usually underestimated by their enemies, as their physical appearance makes them seem less threatening that they really are.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Nereid</iconPath>
+		<inheritable>true</inheritable>
+		
+		<genes>
+			<li>AG_NereidBody</li>
+			<li>AG_NereidHead</li>
+			<li>AG_NereidTail</li>
+			<li>AG_NereidGlowlure</li>
+			<li>AG_NereidFins</li>
+			<li>AG_BioluminescentEyes</li>
+			<li>AG_WaterRegeneration</li>
+			<li>AG_WaterStriding</li>
+			<li>AG_FreezingBreath</li>
+			<li>AG_NereidPocketPlane</li>
+			<li>WoundHealing_Slow</li>
+			<li>PsychicAbility_Dull</li>
+			<li>AG_ToxResist_Vulnerability</li>
+			<li>AG_Skin_PaleBlueFish</li>
+			<li>AG_Skin_BlueFish</li>
+			<li>AG_Skin_DeepBlueFish</li>
+			<li>AptitudeTerrible_Plants</li>
+		</genes>
+	</XenotypeDef>
+	<XenotypeDef>
 		<defName>AG_RandomCustom</defName>
 		<label>random custom</label>
 		<description>This will transform the xenotype of the pawn into one of the custom xenotypes created by the player at random.</description>

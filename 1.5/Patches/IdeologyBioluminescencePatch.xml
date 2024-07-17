@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/GeneDef[defName = "AG_BioluminescentEyes"]</xpath>
+					<value>
+						<statFactors>
+							<ShootingAccuracyOutdoorsLitOffset>0.85</ShootingAccuracyOutdoorsLitOffset>
+							<ShootingAccuracyIndoorsLitOffset>0.85</ShootingAccuracyIndoorsLitOffset>
+						
+						</statFactors>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

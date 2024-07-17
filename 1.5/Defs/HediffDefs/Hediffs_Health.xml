@@ -30,6 +30,21 @@
 		</comps>
 	</HediffDef>
 	<HediffDef>
+		<defName>AG_WaterRegeneration</defName>
+		<label>water regeneration</label>
+		<description>This person will slowly regenerate health whenever they are on watery terrain.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_Regeneration">
+				<rateInTicks>750</rateInTicks>
+				<needsWater>true</needsWater>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
 		<defName>AG_PassiveRegenerator</defName>
 		<label>passive regenerator</label>
 		<description>This person constantly releases an invisible cloud of specialized mechanites that periodically tend to the wounds of nearby people and animals, regenerating them without any need for rest.</description>

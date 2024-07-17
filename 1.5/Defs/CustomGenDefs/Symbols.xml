@@ -256,6 +256,36 @@
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
+<KCSG.SymbolDef>
+  <defName>AG_BlueCoralWall</defName>
+  <thing>AG_BlueCoralWall</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_CoralColumn_North</defName>
+  <thing>AG_CoralColumn</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_DecorativeClam</defName>
+  <thing>AG_DecorativeClam</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_LargeLuminescentColumn_North</defName>
+  <thing>AG_LargeLuminescentColumn</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_LargeCoralColumn_North</defName>
+  <thing>AG_LargeCoralColumn</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_LuminescentColumn_North</defName>
+  <thing>AG_LuminescentColumn</thing>
+</KCSG.SymbolDef>
+
 
 
 

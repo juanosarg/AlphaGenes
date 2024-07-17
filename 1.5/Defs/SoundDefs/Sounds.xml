@@ -395,5 +395,51 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	
+	<!-- ======================== Underwater ======================== -->
+	
+	<SoundDef>
+    <defName>AG_Ambient_Underwater</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>AG_Ambient_Underwater</clipPath>
+          </li>
+        </grains>
+        <volumeRange>4</volumeRange>
+        <paramMappings>
+          <li>
+            <inParam Class="SoundParamSource_AmbientVolume" />
+            <outParam Class="SoundParamTarget_Volume" />
+          </li>
+        </paramMappings>
+        <randomStartPoint>true</randomStartPoint>
+      </li>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>AG_Drip</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>4~8</volumeRange>
+        <pitchRange>0.7~1.3</pitchRange>
+        <sustainLoop>false</sustainLoop>
+        <sustainIntervalRange>5~25</sustainIntervalRange>
+        <startDelayRange>5~10</startDelayRange>
+        <paramMappings>
+          <li>
+            <inParam Class="SoundParamSource_AmbientVolume" />
+            <outParam Class="SoundParamTarget_Volume" />
+          </li>
+        </paramMappings>
+      </li>
+    </subSounds>
+  </SoundDef>
 
 </Defs>

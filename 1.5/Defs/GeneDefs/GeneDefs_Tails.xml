@@ -150,4 +150,53 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+		<GeneDef ParentName="GeneTailBase">
+		<defName>AG_NereidTail</defName>
+		<label>nereid tail</label>
+		<description>Carriers of this gene grow a large fish-like tail.</description>
+		<iconPath>UI/Icons/Genes/AG_NereidTail</iconPath>
+		<displayOrderInCategory>1003.5</displayOrderInCategory>
+		
+		
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_Nereid_tail/Nereid_tail</texPath>
+				<colorType>Skin</colorType>
+				<overrideMeshSize>(1.25, 1.25)</overrideMeshSize>
+				<parentTagDef>Body</parentTagDef>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, 0, -0.15)</offset>
+						<layer>90</layer>
+					</dataNorth>
+					<dataSouth>
+						<offset>(-0, 0, -0.15)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(-0.35, 0, -0.15)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0.35, 0, -0.15)</offset>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

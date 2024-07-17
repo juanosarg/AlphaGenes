@@ -45,7 +45,146 @@
     </comps>
     
   </ThingDef>
+  
+	
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_LuminescentColumn</defName>
+		<label>luminescent column</label>
+		<description>A luminescent column made of coral.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_LuminescentColumn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(193,199,218,0)</glowColor>
+			</li>
+		</comps>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>2</pathCost>
+	</ThingDef>
 
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_LargeLuminescentColumn</defName>
+		<label>large luminescent column</label>
+		<description>A luminescent column made of coral.</description>
+		<size>(1,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_LargeLuminescentColumn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(193,199,218,0)</glowColor>
+			</li>
+		</comps>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>2</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_CoralColumn</defName>
+		<label>coral column</label>
+		<description>A column made of coral.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_CoralColumn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			
+		</graphicData>
+		
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>2</pathCost>
+	</ThingDef>
 
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_LargeCoralColumn</defName>
+		<label>large coral column</label>
+		<description>A column made of coral.</description>
+		<size>(1,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_LargeCoralColumn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>2</pathCost>
+	</ThingDef>
+	
+	<ThingDef ParentName="AG_JunkBuildingBase">
+		<defName>AG_DecorativeClam</defName>
+		<label>large clam</label>
+		<description>It seems to be chilling out.</description>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.2</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_DecorativeClam</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
 
 </Defs>
