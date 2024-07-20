@@ -15,12 +15,11 @@
 				<decayOnHitPoints>2</decayOnHitPoints>
 				<nutritionGained>0.1</nutritionGained>
 				<corpseSound>AG_HelixienCorpseSound</corpseSound>
+				<causeThoughtNearby>true</causeThoughtNearby>
+				<radiusForThought>10</radiusForThought>
+				<thought>AG_CorpseFeeding</thought>
 			</li>
-			<li Class="AnimalBehaviours.HediffCompProperties_ThoughtEffecter">
-				<radius>10</radius>
-				<tickInterval>500</tickInterval>
-				<thoughtDef>AG_CorpseFeeding</thoughtDef>
-			</li>
+			
 		</comps>
 	</HediffDef>
 	<HediffDef>

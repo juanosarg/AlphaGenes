@@ -28,14 +28,18 @@ namespace AlphaGenes
 			Scribe_Collections.Look(ref this.blacklist, nameof(this.blacklist));
             Scribe_Collections.Look(ref this.defnameStrings, nameof(this.defnameStrings));
             Scribe_Values.Look(ref this.Active, nameof(this.Active));
+            CompPostMake();
 
-		}
+        }
 
         public override void CompPostMake()
         {
             base.CompPostMake();
 
-			List<WretchBlacklistDef> allWretchBlacklistedGenes = DefDatabase<WretchBlacklistDef>.AllDefsListForReading;
+            blacklist.Clear();
+            defnameStrings.Clear();
+
+            List<WretchBlacklistDef> allWretchBlacklistedGenes = DefDatabase<WretchBlacklistDef>.AllDefsListForReading;
 			foreach (WretchBlacklistDef individualList in allWretchBlacklistedGenes)
 			{
 				if (!individualList.blackListedGenes.NullOrEmpty())
