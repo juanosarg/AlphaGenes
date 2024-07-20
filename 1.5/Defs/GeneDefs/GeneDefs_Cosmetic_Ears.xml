@@ -228,7 +228,14 @@
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
 				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_fins/Nereid_fins</texPath>
+				
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_fins/Nereid_fins</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_fins/Nereid_fins2</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_fins/Nereid_fins3</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_fins/Nereid_fins4</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_fins/Nereid_fins5</li>
+				</texPaths>
 				<colorType>Skin</colorType>
 				<parentTagDef>Head</parentTagDef>
 				<useSkinShader>true</useSkinShader>

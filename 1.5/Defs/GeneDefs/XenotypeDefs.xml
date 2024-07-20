@@ -276,8 +276,8 @@
 	<XenotypeDef>
 		<defName>AG_Nereid</defName>
 		<label>nereid</label>
-		<description>An attempt to create a xenotype of beautiful, harmless and subservient people, during the final synthesis of the genes one of the involved scientists failed to notice that his pet bearded lizard had shed its skin inside of the vat. Upon the first official synthesis, the subject demonstrated impeccable strength and perception, while retaining their otherworldly beauty. Essentially she was as likely to embrace you as much as she would eat your face.</description>
-		<descriptionShort>A xenotype of beautiful draconic people. Usually underestimated by their enemies, as their physical appearance makes them seem less threatening that they really are.</descriptionShort>
+		<description>Originally created as a xenotype adapted to living in shallow waters, Nereids evolved to thrive in the ocean's abyss. They have large, luminescent eyes, fin-like ears, and webbed hands and feet for efficient swimming, as well as bioluminescent markings on their skin that aid in communication and camouflage.\n\nNereids have a unique ability to access a personal pocket plane, an ocean abyss-themed dimension they can retreat to or use for strategic advantage. It serves as a sanctuary, a place of learning, and a tactical refuge, allowing Nereids to evade threats or ambush predators.</description>
+		<descriptionShort>A xenotype evolved to thrive in the ocean's abyss. They have large, luminescent eyes, fin-like ears, and webbed hands and feet for efficient swimming, Nereids have a unique ability to access a personal pocket plane, an ocean abyss-themed dimension they can retreat to or use for strategic advantage.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/AG_Nereid</iconPath>
 		<inheritable>true</inheritable>
 		

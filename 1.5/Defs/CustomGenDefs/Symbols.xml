@@ -286,7 +286,23 @@
   <thing>AG_LuminescentColumn</thing>
 </KCSG.SymbolDef>
 
+<KCSG.SymbolDef>
+  <defName>AG_AncientLargeRecharger_West</defName>
+  <thing>AG_AncientLargeRecharger</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
 
+<KCSG.SymbolDef>
+  <defName>AG_AncientBasicRecharger_East</defName>
+  <thing>AG_AncientBasicRecharger</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>AG_RuinedHospitalBed_Steel_North</defName>
+  <thing>AG_RuinedHospitalBed</thing>
+  <stuff>Steel</stuff>
+</KCSG.SymbolDef>
 
 
 </Defs>

@@ -339,7 +339,13 @@
 				<parentTagDef>Head</parentTagDef>
 				<color>(255,255,255)</color>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
-				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_Detail/Nereid_Detail</texPath>
+			
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_Detail/Nereid_Detail</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_Detail/Nereid_Detail2</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_Detail/Nereid_Detail3</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_Detail/Nereid_Detail4</li>
+				</texPaths>
 				<visibleFacing>
 					<li>East</li>
 					<li>South</li>

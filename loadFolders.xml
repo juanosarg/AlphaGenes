@@ -27,7 +27,7 @@
 		<li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/MedievalOverhaul</li>
 		<li IfModActive="vanillaracesexpanded.fungoid">1.5/Mods/VanillaRacesExpandedFungoid</li>
 		<li IfModActive="VanillaExpanded.VAEWaste">1.5/Mods/VanillaAnimalsExpandedWaste</li>
-		<li IfModActive="vanillaracesexpanded.insector">1.5/Mods/VanillaRacesExpandedInsector</li>
+		<!--<li IfModActive="vanillaracesexpanded.insector">1.5/Mods/VanillaRacesExpandedInsector</li>-->
 	</v1.5>
 </loadFolders>
 

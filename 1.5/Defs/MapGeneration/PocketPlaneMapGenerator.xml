@@ -22,6 +22,9 @@
 		<genStep Class="KCSG.GenStep_CustomStructureGen">
 			<structureLayoutDefs>
 				<li>AG_NereidPocketPlane_Alpha</li>
+				<li>AG_NereidPocketPlane_Beta</li>
+				<li>AG_NereidPocketPlane_Gamma</li>
+				<li>AG_NereidPocketPlane_Delta</li>
 				
 			</structureLayoutDefs>
 			<filthTypes>

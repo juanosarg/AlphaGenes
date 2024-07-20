@@ -19,6 +19,9 @@
 				<AG_Taukai>0.05</AG_Taukai>
 				<AG_MindDevourer>0.05</AG_MindDevourer>
 				<AG_Wretch>0.025</AG_Wretch>
+				<AG_Efreet>0.0125</AG_Efreet>
+				<AG_Drakonori>0.0125</AG_Drakonori>
+				<AG_Nereid>0.0125</AG_Nereid>
 			</xenotypeChances>
 			
 		</xenotypeSet>
@@ -44,6 +47,9 @@
 				<AG_Taukai>0.05</AG_Taukai>
 				<AG_MindDevourer>0.05</AG_MindDevourer>
 				<AG_Wretch>0.025</AG_Wretch>
+				<AG_Efreet>0.0125</AG_Efreet>
+				<AG_Drakonori>0.0125</AG_Drakonori>
+				<AG_Nereid>0.0125</AG_Nereid>
 			</xenotypeChances>
 			
 		</xenotypeSet>

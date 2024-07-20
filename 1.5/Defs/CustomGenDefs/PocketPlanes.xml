@@ -7,7 +7,7 @@
 			<li>
 				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
 				<li>AG_BlueCoralWall,Filth_Water,Filth_Water,AG_BlueCoralWall,AG_CoralColumn_North,.,AG_BlueCoralWall,.,.,.,AG_DecorativeClam,AG_BlueCoralWall,Filth_Water,AG_LargeLuminescentColumn_North,AG_BlueCoralWall,.,Filth_Water,Filth_Water,AG_CoralColumn_North,AG_BlueCoralWall</li>
-				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,.,AG_LuminescentColumn_North,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_LargeCoralColumn_North,.,AG_BlueCoralWall,.,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,Filth_Sand,Filth_Sand,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,.,AG_LuminescentColumn_North,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_LargeCoralColumn_North,.,AG_BlueCoralWall,.,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,.,AG_BlueCoralWall</li>
 				<li>AG_BlueCoralWall,Filth_Water,.,.,.,Filth_Water,.,.,.,.,.,.,Filth_Sand,.,Filth_Sand,.,.,.,.,AG_BlueCoralWall</li>
 				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,.,Filth_Sand,.,Filth_Water,.,.,.,.,.,AG_CoralColumn_North,.,.,Filth_Water,AG_LuminescentColumn_North,AG_BlueCoralWall,AG_BlueCoralWall</li>
 				<li>AG_BlueCoralWall,.,AG_BlueCoralWall,AG_LuminescentColumn_North,.,.,Filth_Sand,.,.,AG_CoralColumn_North,.,.,.,.,.,Filth_Sand,Filth_Sand,Filth_Sand,AG_BlueCoralWall,AG_BlueCoralWall</li>
@@ -19,7 +19,7 @@
 			<li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,Filth_Water,Filth_Water,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Water,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Sand,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Sand,.,Filth_Sand,.,.</li>
@@ -56,9 +56,180 @@
 		<terrainGrid>
 			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
 			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>sarg.alphagenes</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AG_NereidPocketPlane_Beta</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_BlueCoralWall,.,AG_BlueCoralWall,Filth_Water,.,Filth_Water,.,.,.,.,.,.,Filth_Water,.,AG_CoralColumn_North,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,.,.,.,.,AG_BlueCoralWall,.,AG_DecorativeClam,.,AG_LargeCoralColumn_North,.,.,AG_BlueCoralWall,.,.,.,.,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,.,.,.,.,.,.,.,.,.,.,AG_LargeLuminescentColumn_North,AG_BlueCoralWall,Filth_Water,AG_CoralColumn_North,.,Filth_Water,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,.,.,.,.,.,AG_LuminescentColumn_North,.,.,.,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,.,.,AG_BlueCoralWall,.,.,.,Filth_Water,.,.,.,.,.,AG_BlueCoralWall,AG_CoralColumn_North,.,Filth_Water,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,.,.,.,.,.,.,Filth_Water,Filth_Water,.,.,.,Filth_Water,.,.,.,Filth_Water,AG_LargeLuminescentColumn_North,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,.,.,AG_LuminescentColumn_North,.,.,Filth_Water,.,.,AG_LargeCoralColumn_North,.,AG_DecorativeClam,AG_BlueCoralWall,.,.,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_BlueCoralWall,.,.,.,AG_DecorativeClam,.,Filth_Water,.,.,.,Filth_Water,AG_BlueCoralWall,.,AG_CoralColumn_North,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,Filth_Water,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,AG_CoralFloor,WaterOceanShallow,AG_CoralFloor,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor,Sand,AG_CoralFloor,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,Sand,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,Sand,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,Sand,Sand,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,Sand,Sand,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>sarg.alphagenes</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AG_NereidPocketPlane_Gamma</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,Filth_Water,Filth_Water,.,AG_CoralColumn_North,AG_BlueCoralWall,.,Filth_Water,Filth_Water,AG_LargeCoralColumn_North,Filth_Water,.,AG_BlueCoralWall,.,.,AG_CoralColumn_North,Filth_Water,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_LargeCoralColumn_North,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_LuminescentColumn_North,.,AG_BlueCoralWall,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,AG_BlueCoralWall,AG_DecorativeClam,.,AG_CoralColumn_North,.,.,AG_BlueCoralWall,.,AG_BlueCoralWall,AG_BlueCoralWall,.,Filth_Water,.,Filth_Water,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,.,.,.,Filth_Water,.,Filth_Water,.,Filth_Water,.,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,Filth_Water,.,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,AG_BlueCoralWall,.,.,AG_LuminescentColumn_North,.,AG_DecorativeClam,.,Filth_Water,Filth_Water,AG_LargeCoralColumn_North,.,AG_LargeLuminescentColumn_North,.,.,AG_BlueCoralWall,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,AG_BlueCoralWall,.,AG_BlueCoralWall,.,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,Filth_Water,.,.,.,AG_BlueCoralWall,AG_CoralColumn_North,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,AG_BlueCoralWall,AG_BlueCoralWall,.,.,AG_BlueCoralWall,.,AG_CoralColumn_North,.,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_BlueCoralWall,AG_LuminescentColumn_North,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,.,.,.,.,.,AG_BlueCoralWall,AG_DecorativeClam,.,.,.,.,Filth_Water,.,.,.,.,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Water,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+		</roofGrid>
+		<terrainGrid>
 			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
 			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,Sand,Sand,AG_CoralFloor,Sand,Sand,Sand,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,Sand,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,Sand,Sand,Sand,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor,Sand,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
 			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>sarg.alphagenes</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AG_NereidPocketPlane_Delta</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,AG_CoralColumn_North,.,Filth_Water,.,.,Filth_Water,AG_BlueCoralWall,AG_LuminescentColumn_North,AG_DecorativeClam,.,.,.,.,.,.,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_LargeCoralColumn_North,.,Filth_Water,Filth_Water,AG_LargeLuminescentColumn_North,AG_BlueCoralWall,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,AG_BlueCoralWall,.,.,.,.,.,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,.,AG_CoralColumn_North,.,AG_BlueCoralWall,.,AG_CoralColumn_North,AG_BlueCoralWall,AG_DecorativeClam,Filth_Water,AG_BlueCoralWall,.,.,.,.,.,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,.,.,.,.,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,Filth_Water,.,.,.,.,.,Filth_Water,Filth_Water,.,.,.,.,Filth_Water,.,Filth_Water,AG_CoralColumn_North,AG_LuminescentColumn_North,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_CoralColumn_North,.,AG_LargeCoralColumn_North,.,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_LargeLuminescentColumn_North,.,.,AG_CoralColumn_North,.,.,AG_BlueCoralWall,AG_DecorativeClam,AG_LargeLuminescentColumn_North,.,.,AG_BlueCoralWall,.,.,AG_CoralColumn_North,.,Filth_Water,.,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,.,.,.,.,.,.,AG_BlueCoralWall,.,.,.,Filth_Water,.,.,Filth_Water,.,AG_LuminescentColumn_North,.,Filth_Water,AG_BlueCoralWall</li>
+				<li>AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall,AG_BlueCoralWall</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,Filth_Water,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,Filth_Water,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,Filth_Water,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Water,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+			<li>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,Sand,Sand,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,Sand,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,Sand,Sand,AG_CoralFloor,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,WaterOceanShallow,AG_CoralFloor</li>
+			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,Sand,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
 			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
 			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>
 			<li>AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor,AG_CoralFloor</li>

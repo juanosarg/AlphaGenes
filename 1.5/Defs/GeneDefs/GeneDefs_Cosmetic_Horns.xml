@@ -726,7 +726,11 @@
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
 				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_glowlure/Nereid_glowlure</texPath>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_glowlure/Nereid_glowlure</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_glowlure/Nereid_glowlure2</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_glowlure/Nereid_glowlure3</li>
+				</texPaths>
 				<colorType>Skin</colorType>
 				<useRottenColor>true</useRottenColor>
 				<useSkinShader>true</useSkinShader>
@@ -743,7 +747,6 @@
 				</drawData>
 			</li>
 		</renderNodeProperties>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
