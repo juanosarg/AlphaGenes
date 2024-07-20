@@ -26,7 +26,8 @@ namespace AlphaGenes
             base.CompExposeData();
 			Scribe_Collections.Look(ref this.genes, nameof(this.genes));
 			Scribe_Collections.Look(ref this.blacklist, nameof(this.blacklist));
-			Scribe_Values.Look(ref this.Active, nameof(this.Active));
+            Scribe_Collections.Look(ref this.defnameStrings, nameof(this.defnameStrings));
+            Scribe_Values.Look(ref this.Active, nameof(this.Active));
 
 		}
 
