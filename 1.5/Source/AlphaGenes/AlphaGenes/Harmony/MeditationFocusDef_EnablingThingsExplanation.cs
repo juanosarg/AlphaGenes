@@ -19,7 +19,7 @@ namespace AlphaGenes
                         __result += "\n  - " + "VRE_UnlockedByGeneGau".Translate() + ".";
                     }
 
-                
+                 
             }
 
 
