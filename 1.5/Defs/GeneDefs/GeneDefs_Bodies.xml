@@ -341,7 +341,7 @@
 		<defName>AG_NereidBody</defName>
 		<label>nereid body</label>
 		<labelShortAdj>nereid</labelShortAdj>
-		<description>Carriers of this gene have a scaly appearance in their body, with bioluminiscent spots.</description>
+		<description>Carriers of this gene have a scaly appearance in their body, with bioluminescent spots.</description>
 		<biostatCpx>0</biostatCpx>
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>438</displayOrderInCategory>
