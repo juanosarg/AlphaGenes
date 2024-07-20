@@ -313,7 +313,7 @@
 <GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_NereidHead</defName>
 		<label>nereid head</label>
-		<description>Carriers of this gene have a plain, scaled head with bioluminiscent spots.</description>
+		<description>Carriers of this gene have a plain, scaled head with bioluminescent spots.</description>
 		<selectionWeight>0</selectionWeight>
 		<iconPath>UI/Icons/Genes/AG_NereidHead</iconPath>
 		<forcedHeadTypes>
