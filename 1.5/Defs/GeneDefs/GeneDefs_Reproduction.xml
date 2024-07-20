@@ -199,7 +199,7 @@
 		</modExtensions>
 	</GeneDef>
 	
-	<GeneDef ParentName="FertilityBase">
+	<!--<GeneDef ParentName="FertilityBase">
 		<defName>AG_BlackWidow</defName>
 		<label>black widow</label>
 		<description>Female carriers of this gene will cause the person they have intercourse with to perish, while at the same time ensuring a pregnancy.</description>
@@ -215,5 +215,5 @@
 				<forGenderOnly>Female</forGenderOnly>
 			</li>
 		</modExtensions>
-	</GeneDef>
+	</GeneDef>-->
 </Defs>
