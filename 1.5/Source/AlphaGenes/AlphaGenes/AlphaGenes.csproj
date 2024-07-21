@@ -458,6 +458,7 @@
     <Compile Include="Harmony\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs" />
     <Compile Include="Harmony\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs" />
     <Compile Include="Harmony\WealthWatcher_ForceRecount.cs" />
+    <Compile Include="HediffComps\HediffComp_CorpseDecayer.cs" />
     <Compile Include="HediffComps\HediffComp_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\HediffComp_Exploder.cs" />
     <Compile Include="HediffComps\HediffComp_GiveHediffsInRangeExpanded.cs" />
@@ -472,6 +473,7 @@
     <Compile Include="HediffComps\HediffComp_RandomMutation.cs" />
     <Compile Include="HediffComps\HediffComp_StageByMood.cs" />
     <Compile Include="HediffComps\HediffComp_Teratogenesis.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_CorpseDecayer.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_DeleteAfterTime.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_MeatBurst.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_Exploder.cs" />

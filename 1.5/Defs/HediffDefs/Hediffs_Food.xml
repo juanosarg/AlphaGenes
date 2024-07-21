@@ -9,7 +9,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="AnimalBehaviours.HediffCompProperties_CorpseDecayer">
+			<li Class="AlphaGenes.HediffCompProperties_CorpseDecayer">
 				<radius>5</radius>
 				<tickInterval>500</tickInterval>
 				<decayOnHitPoints>2</decayOnHitPoints>
