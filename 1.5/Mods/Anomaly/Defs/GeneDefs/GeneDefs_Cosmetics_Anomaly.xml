@@ -3,7 +3,7 @@
 	<GeneDef>
 		<defName>AG_TwitchingToughspikes</defName>
 		<label>twitching toughspikes</label>
-		<description>Carriers of this gene have two non-functional toughspike claws growing from their shoulders. Unnerving!.</description>
+		<description>Carriers of this gene have two non-functional toughspike claws growing from their shoulders. Unnerving!</description>
 		<iconPath>UI/Icons/Genes/AG_Toughspikes</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<exclusionTags>
@@ -87,7 +87,7 @@
 	<GeneDef>
 		<defName>AG_TwitchingTrispikes</defName>
 		<label>twitching trispikes</label>
-		<description>Carriers of this gene have three non-functional flesh claws growing from their shoulders. Unnerving!.</description>
+		<description>Carriers of this gene have three non-functional flesh claws growing from their shoulders. Unnerving!</description>
 		<iconPath>UI/Icons/Genes/AG_Trispikes</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<displayCategory>AG_AnomalyCategory</displayCategory>
@@ -198,7 +198,7 @@
 	<GeneDef>
 		<defName>AG_TwitchingFingerspike</defName>
 		<label>twitching fingerspike</label>
-		<description>Carriers of this gene have a non-functional fingerspike growing from their shoulders. Unnerving!.</description>
+		<description>Carriers of this gene have a non-functional fingerspike growing from their shoulders. Unnerving!</description>
 		<iconPath>UI/Icons/Genes/AG_Fingerspike</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<exclusionTags>
