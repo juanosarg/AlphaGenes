@@ -36,8 +36,8 @@ namespace AlphaGenes
         {
             base.CompPostMake();
 
-            blacklist.Clear();
-            defnameStrings.Clear();
+            blacklist?.Clear();
+            defnameStrings?.Clear();
 
             List<WretchBlacklistDef> allWretchBlacklistedGenes = DefDatabase<WretchBlacklistDef>.AllDefsListForReading;
 			foreach (WretchBlacklistDef individualList in allWretchBlacklistedGenes)
