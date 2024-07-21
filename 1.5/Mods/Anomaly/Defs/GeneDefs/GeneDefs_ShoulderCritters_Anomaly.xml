@@ -3,7 +3,7 @@
 	<GeneDef>
 		<defName>AG_FleshSpitter</defName>
 		<label>flesh spitter</label>
-		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder than can spit acid on its own volition.</description>
+		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder thaT can spit acid on its own volition.</description>
 		<iconPath>UI/Icons/Genes/AG_FleshSpitterIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
