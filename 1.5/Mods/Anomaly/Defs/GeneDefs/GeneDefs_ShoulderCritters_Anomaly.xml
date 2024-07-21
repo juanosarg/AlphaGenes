@@ -44,7 +44,7 @@
 	<GeneDef>
 		<defName>AG_FleshBulb</defName>
 		<label>flesh bulb</label>
-		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder than can launch luminous flesh bulbs that act as disruptor flares.</description>
+		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder that can launch luminous flesh bulbs that act as disruptor flares.</description>
 		<iconPath>UI/Icons/Genes/AG_FleshBulbIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
@@ -87,7 +87,7 @@
 	<GeneDef>
 		<defName>AG_FleshSack</defName>
 		<label>flesh sack</label>
-		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder than can absorb flesh beasts and empower the carrier for a short while.</description>
+		<description>Carriers of this gene have a grotesque, cancerous growth on their shoulder that can absorb flesh beasts and empower the carrier for a short while.</description>
 		<iconPath>UI/Icons/Genes/AG_FleshSackIcon</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
