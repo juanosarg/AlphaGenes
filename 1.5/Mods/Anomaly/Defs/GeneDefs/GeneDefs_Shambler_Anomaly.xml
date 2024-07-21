@@ -225,7 +225,7 @@
 	<GeneDef>
 		<defName>AG_Shambler_Plagued</defName>
 		<label>plagued shambler</label>
-		<description>Shamblers carrying this gene will constantly pollute the surrounding terrain, eventually turning the landscape into a desolate wasteland.</description>
+		<description>Shamblers carrying this gene will infect their victims with a shambler plague that will turn them into shamblers upon death.</description>
 		<iconPath>UI/Icons/Genes/AG_Shambler_Plagued</iconPath>
 		<geneClass>VanillaGenesExpanded.Gene_Shambler</geneClass>
 		<biostatCpx>1</biostatCpx>
