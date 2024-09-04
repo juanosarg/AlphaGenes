@@ -450,6 +450,7 @@
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\Pawn_InteractionsTracker_StartSocialFight.cs" />
+    <Compile Include="Harmony\Pawn_Kill.cs" />
     <Compile Include="Harmony\Pawn_MechanitorTracker_CanCommandTo.cs" />
     <Compile Include="Harmony\Pawn_MechanitorTracker_DrawCommandRadius.cs" />
     <Compile Include="Harmony\Pawn_RelationsTracker_PrettinessFactor.cs" />

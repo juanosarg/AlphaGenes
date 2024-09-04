@@ -16,6 +16,8 @@ namespace AlphaGenes
         private new CompProperties_DestroyPocketPlane Props => (CompProperties_DestroyPocketPlane)props;
 
 
+      
+
         public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
         {
 

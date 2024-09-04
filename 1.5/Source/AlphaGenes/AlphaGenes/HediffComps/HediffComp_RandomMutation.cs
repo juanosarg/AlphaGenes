@@ -94,12 +94,12 @@ namespace AlphaGenes
 
             if (!Active && this.parent.pawn.Map!=null) {
 				Active = true;
-				genes.Clear();
+				genes?.Clear();
 				List<string> geneNamesToDisplay = new List<string>();
 				for (int i = 0; i < Props.numberOfGenes; i++)
 				{
 					GeneDef gene = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.exclusionTags?.Contains("AG_OnlyOnCharacterCreation") == false &&
-					x.prerequisite==null && x.biostatArc == 0 && x.modContentPack.PackageId != "vanillaracesexpanded.insector" && !defnameStrings.Any(s => x.defName.Contains(s))
+					x.prerequisite==null && x.biostatArc == 0 && x.modContentPack?.PackageId != "vanillaracesexpanded.insector" && !defnameStrings.Any(s => x.defName.Contains(s))
                     && !blacklist.Contains(x)).RandomElement();
 					genes.Add(gene);
 					geneNamesToDisplay.Add(gene.LabelCap);
