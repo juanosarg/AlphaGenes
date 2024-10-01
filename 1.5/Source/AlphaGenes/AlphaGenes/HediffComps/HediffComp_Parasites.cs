@@ -107,11 +107,10 @@ namespace AlphaGenes
 
                     Find.LetterStack.ReceiveLetter("AG_ParasitesHatchedLabel".Translate(pawn.NameShortColored), "AG_ParasitesHatched".Translate(pawn.NameShortColored), LetterDefOf.PositiveEvent, (TargetInfo)pawn);
 
-                    System.Random rand = new System.Random();
                     List<GeneDef> genesToAdd = new List<GeneDef>();
                     foreach (Gene gene in this.parent.pawn.genes?.GenesListForReading)
                     {
-                        if (rand.NextDouble() > 0.75f)
+                        if (Rand.Value > 0.75f)
                         {
                             genesToAdd.Add(gene.def);
                         }
