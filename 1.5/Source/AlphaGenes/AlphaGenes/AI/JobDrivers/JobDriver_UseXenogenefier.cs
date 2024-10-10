@@ -22,12 +22,21 @@ namespace AlphaGenes
 			useDuration = job.GetTarget(TargetIndex.A).Thing.TryGetComp<CompUsable>().Props.useDuration;
 		}
 
-		public override bool TryMakePreToilReservations(bool errorOnFailed)
-		{
-			return pawn.Reserve(job.targetA, job, 1, -1, null, errorOnFailed) && pawn.Reserve(job.targetB, job, 1, -1, null, errorOnFailed);
-		}
+        public override bool TryMakePreToilReservations(bool errorOnFailed)
+        {
+            if (!pawn.Reserve(job.targetA, job, 1, -1, null, errorOnFailed))
+            {
+                return false;
+            }
+            if (job.targetB.IsValid && !pawn.Reserve(job.targetB, job, 1, -1, null, errorOnFailed))
+            {
+                return false;
+            }
+            return true;
+        }
 
-		protected override IEnumerable<Toil> MakeNewToils()
+
+        protected override IEnumerable<Toil> MakeNewToils()
 		{
 			job.count = 1;
 			this.FailOnIncapable(PawnCapacityDefOf.Manipulation);
@@ -50,6 +59,7 @@ namespace AlphaGenes
 
 			use.initAction = delegate
 			{
+				
 				Pawn actor = use.actor;
 				actor.CurJob.targetA.Thing.TryGetComp<CompTargetEffect_Xenogenefier>().DoEffectOn(actor, job.targetB.Thing);
 

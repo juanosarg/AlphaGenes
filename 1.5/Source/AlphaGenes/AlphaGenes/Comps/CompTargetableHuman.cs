@@ -27,6 +27,7 @@ namespace AlphaGenes
             return new TargetingParameters
             {
                 canTargetPawns = true,
+                canTargetSelf = false,
                 canTargetItems = false,
                 canTargetBuildings = false,
                 mapObjectTargetsMustBeAutoAttackable = false,
