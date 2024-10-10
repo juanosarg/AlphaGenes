@@ -21,7 +21,6 @@ namespace AlphaGenes
 
             if (!pawn.Dead)
             {
-                System.Random rand = new System.Random();
                 float psychicSensitivity = pawn.GetStatValue(StatDefOf.PsychicSensitivity);
                 bool applyShock = false;
 
@@ -39,7 +38,7 @@ namespace AlphaGenes
                 }
                 else
                 {
-                    if(rand.NextDouble()< psychicSensitivity)
+                    if(Rand.Value < psychicSensitivity)
                     {
                         applyShock = true;
                     }

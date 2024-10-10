@@ -9,8 +9,6 @@ namespace AlphaGenes
 {
     public class CompAbilityOcularConversion : CompAbilityEffect
     {
-        private System.Random rand = new System.Random();
-
         new public CompProperties_AbilityOcularConversion Props
         {
             get
@@ -52,21 +50,22 @@ namespace AlphaGenes
                                && (plantTarget.def.defName != "AA_AlienGrass") && (plantTarget.def.defName != "AA_RedLeaves") && (plantTarget.def.defName != "AA_RedPlantsTall") && (plantTarget.def.defName != "Plant_GrassAnima")
                                )
                             {
-                                if (rand.NextDouble() < 0.4)
+                                var value = Rand.Value;
+                                if (value < 0.4)
                                 {
                                     Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named(Props.plantList[1]), plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
                                     Plant thingToDestroy = (Plant)plantTarget;
                                     thing2.Growth = thingToDestroy.Growth;
                                     plantTarget.Destroy();
                                 }
-                                else if (rand.NextDouble() > 0.4 && rand.NextDouble() < 0.7)
+                                else if (value < 0.7)
                                 {
                                     Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named(Props.plantList[2]), plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
                                     Plant thingToDestroy = (Plant)plantTarget;
                                     thing2.Growth = thingToDestroy.Growth;
                                     plantTarget.Destroy();
                                 }
-                                else if (rand.NextDouble() > 0.7)
+                                else
                                 {
                                     Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named(Props.plantList[3]), plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
                                     Plant thingToDestroy = (Plant)plantTarget;

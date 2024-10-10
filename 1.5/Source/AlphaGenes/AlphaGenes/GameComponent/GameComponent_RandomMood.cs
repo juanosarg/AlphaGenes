@@ -56,8 +56,7 @@ namespace AlphaGenes
 
                     if (pawn.HasActiveGene(InternalDefOf.AG_VolatileMood)) {
 
-                        System.Random random = new System.Random(Current.Game.tickManager.TicksAbs + PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.IndexOf(pawn));
-                        int randomMood = random.Next(0, 2);
+                        int randomMood = Rand.RangeSeeded(0, 2, Current.Game.tickManager.TicksAbs + PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.IndexOf(pawn));
                         StaticCollectionsClass.AddColonistAndRandomMood(pawn, randomMood);
 
                     }
