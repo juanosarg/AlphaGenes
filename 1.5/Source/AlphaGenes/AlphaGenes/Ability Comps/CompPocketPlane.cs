@@ -7,6 +7,7 @@ using Verse;
 using Verse.AI;
 using Verse.AI.Group;
 using Verse.Sound;
+using static RimWorld.MechClusterSketch;
 
 namespace AlphaGenes
 {
@@ -33,16 +34,32 @@ namespace AlphaGenes
 
             if (pawn.Map == pocketMap)
             {
-                pawn.DeSpawnOrDeselect();
-                GenSpawn.Spawn(pawn, originLocation, originMap, Rot4.Random);
-                pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
+                
+                if(originMap is null)
+                {
+                    Messages.Message("AG_TrappedForever".Translate(pawn.NameShortColored), pawn, MessageTypeDefOf.RejectInput, historical: false);
+                }
+                else {
+                    pawn.DeSpawnOrDeselect();
+                    GenSpawn.Spawn(pawn, originLocation, originMap, Rot4.Random);
+                    pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
+                }
+                
 
             }
             else
             {
-                pawn.DeSpawnOrDeselect();
-                GenSpawn.Spawn(pawn, pocketMap.Center, pocketMap, Rot4.Random);
-                pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
+                if (!originMap.IsPlayerHome)
+                {
+                    Messages.Message("AG_OnlyPlayerHome".Translate(), pawn, MessageTypeDefOf.RejectInput, historical: false);
+                }
+                else
+                {
+                    pawn.DeSpawnOrDeselect();
+                    GenSpawn.Spawn(pawn, pocketMap.Center, pocketMap, Rot4.Random);
+                    pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
+                }
+               
             }
 
 

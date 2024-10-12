@@ -42,6 +42,8 @@
 	<AG_CantTeleportItemsOutOfPocketPlane>Items cannot be transferred out of a pocket plane.</AG_CantTeleportItemsOutOfPocketPlane>
 	<AG_OnlyOnFleshbeasts>{0} is not a fleshbeast!</AG_OnlyOnFleshbeasts>
 	<AG_FleshbeastTooBig>{0} is too big to be affected by this ability!</AG_FleshbeastTooBig>
+	<AG_TrappedForever>The original location is no longer available! {0} is trapped forever in this pocket plane!</AG_TrappedForever>
+	<AG_OnlyPlayerHome>This ability is only usable in a colony map</AG_OnlyPlayerHome>
 	<!-- Settings -->
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
 	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>
