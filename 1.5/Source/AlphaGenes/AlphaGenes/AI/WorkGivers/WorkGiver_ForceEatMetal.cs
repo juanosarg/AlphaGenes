@@ -21,7 +21,12 @@ namespace AlphaGenes
         {
             return Danger.Deadly;
         }
-
+        public override bool ShouldSkip(Pawn pawn, bool forced = false)
+        {
+            var gene = pawn.genes?.GetFirstGeneOfType<Gene_Resource_Metal>();
+            if (gene == null) { return false; }
+            return base.ShouldSkip(pawn, forced);
+        }
         public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
             if (!forced) { return false; }
