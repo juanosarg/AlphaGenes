@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Name="AG_BaseForsaken" Abstract="True" ParentName="BaseWeapon">
+		<techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>Weapons</li>
+		</thingCategories>
+		<weaponTags>
+			<li>WForsaken</li>
+			<li>Ultratech</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers Inherit="False">
+				<li>AG_ForsakenForge</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			
+		</recipeMaker>
+	</ThingDef>
+	
+	<!-- ===================[Sniper]=========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenSniper</defName>
+		<label>forsaken sniper rifle</label>
+		<description>This sniper rifle is prized by Forsaken explorers for its long range and high accuracy.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenSniper/AG_ForsakenSniper</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags>
+			<li>ForsakenRanged</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		</recipeMaker>
+		<soundInteract>Interact_AssaultRifle</soundInteract>
+		<statBases>
+			<Mass>9</Mass>
+			<WorkToMake>60000</WorkToMake>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.78</AccuracyLong>
+			<RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Gold>2</Gold>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AG_SniperPulse</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>54</range>
+				<soundCast>Shot_SniperRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AG_SniperPulse</defName>
+		<label>forsaken sniper pulse</label>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenSniper/AG_SniperPulse</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>35</damageAmountBase>
+			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<speed>145</speed>
+		</projectile>
+	</ThingDef>
+
+<!-- ===================[Shotgun]=========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenShotgun</defName>
+		<label>forsaken shotgun</label>
+		<description>Forsaken shotgun, great accuracy at short distances and very deadly at close range.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenShotgun/AG_ForsakenShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Shotgun</soundInteract>
+		<weaponTags>
+			<li>ForsakenRanged</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Gunsmithing</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<Mass>5</Mass>
+			<WorkToMake>54500</WorkToMake>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>0.25</AccuracyShort>
+			<AccuracyMedium>0.1</AccuracyMedium>
+			<AccuracyLong>0.1</AccuracyLong>
+			<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>130</Plasteel>
+			<Gold>1</Gold>
+		</costList>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AG_ShotgunPulse</defaultProjectile>
+				<warmupTime>0.95</warmupTime>
+				<range>18</range>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AG_ShotgunPulse</defName>
+		<label>forsaken shotgun pulse</label>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenShotgun/AG_ShotgunPulse</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ====================[Assault Rifle]========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenAssaultRifle</defName>
+		<label>forsaken assault rifle</label>
+		<description>This Forsaken assault rifle has a rather small calibre cartridge and a long reload time, but has a high burst shot count, high armor penetration and decent accuracy.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenAssaultRifle/AG_ForsakenAssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<weaponTags>
+			<li>ForsakenRanged</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<Mass>5</Mass>
+			<WorkToMake>60000</WorkToMake>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.74</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.60</AccuracyLong>
+			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>120</Plasteel>
+			<Gold>1</Gold>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AG_ForsakenAssaultRiflePulse</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>30</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>8</burstShotCount>
+				<soundCast>Shot_ChargeRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AG_ForsakenAssaultRiflePulse</defName>
+		<label>forsaken assault rifle pulse</label>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenAssaultRifle/AG_ForsakenAssaultRiflePulse</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<speed>75</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ====================[Sword]========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenLongBlade</defName>
+		<label>forsaken long blade</label>
+		<description>This Forsaken long sword takes little effort to lift and swing but can deal substantial damage.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenLongBlade/AG_ForsakenLongBlade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags>
+			<li>ForsakenMelee</li>
+		</weaponTags>
+		<statBases>
+			<Mass>3</Mass>
+			<WorkToMake>30000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		
+		<costList>
+			<Plasteel>100</Plasteel>
+			<Gold>1</Gold>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.4</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>.9</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>.9</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<!-- ====================[[Axe]]========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenBattleAxe</defName>
+		<label>forsaken battle axe</label>
+		<description>The traditional Forsaken battle axe deals a lot of damage on impact, at the cost of unwealdy shape and weight.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenBattleAxe/AG_ForsakenBattleAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
+		<weaponTags>
+			<li>ForsakenMelee</li>
+		</weaponTags>
+		<statBases>
+			<Mass>6</Mass>
+			<WorkToMake>22000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>10</equippedAngleOffset>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Plasteel>100</Plasteel>
+			<Gold>4</Gold>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.7</cooldownTime>
+			</li>
+			<li>
+				<label>axe</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>27</power>
+				<cooldownTime>1.9</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>27</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+		</tools>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	<!-- ====================[[Bulk Sword]]========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenBulkSword</defName>
+		<label>forsaken bulk sword</label>
+		<description>A Forsaken equivalent of the gladius, common sidearms among Forsaken infantry. Terrible armor penetration, but easy to handle.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenBulkSword/AG_ForsakenBulkSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+		<uiIconScale>1.1</uiIconScale>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>ForsakenMelee</li>
+		</weaponTags>
+		
+		<statBases>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>3.4</Mass>
+		</statBases>
+		<equippedAngleOffset>-50</equippedAngleOffset>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Gold>3</Gold>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>.4</cooldownTime>
+			</li>
+			<li>
+				<label>axe</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>.35</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>.3</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- ====================[[Forsaken Spear]]========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenSpear</defName>
+		<label>forsaken spear</label>
+		<description>A Forsaken spear. Deals great damage, but can be difficult to handle.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenSpear/AG_ForsakenSpear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<WorkToMake>17000</WorkToMake>
+			<Mass>2.2</Mass>
+		</statBases>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<costList>
+			<Steel>75</Steel>
+			<Gold>1</Gold>
+		</costList>
+		<weaponTags>
+			<li>ForsakenMelee</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>17</power>
+				<armorPenetration>0.50</armorPenetration>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		
+	</ThingDef>
+
+	<!-- ====================[[Forsaken Bow]]========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenBow</defName>
+		<label>forsaken bow</label>
+		<description>This traditional Forsaken bow is very accurate and can deal decent damage. Its sharp edges make it usable in melee combat.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenBow/AG_ForsakenBow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<equippedAngleOffset>10</equippedAngleOffset>
+		<soundInteract>Bow_Recurve</soundInteract>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>1.2</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.78</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.48</AccuracyLong>
+			<RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>ForsakenRanged</li>
+		</weaponTags>
+		<costList>
+			<WoodLog>35</WoodLog>
+			<AG_Ultima>15</AG_Ultima>
+			<Gold>1</Gold>
+		</costList>
+		<equippedStatOffsets/>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AG_ForsakenArrow</defaultProjectile>
+				<warmupTime>1</warmupTime>
+				<range>26</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+				<soundCast>Bow_Large</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>limb</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>Greatbow</researchPrerequisite>
+			
+		</recipeMaker>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AG_ForsakenArrow</defName>
+		<label>forsaken arrow</label>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_ForsakenBow/AG_ForsakenArrow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Cut</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ====================[[[Black Hydra]]]========================== -->
+	<ThingDef ParentName="AG_BaseForsaken">
+		<defName>AG_ForsakenHydra</defName>
+		<label>forsaken black hydra</label>
+		<description>The Forsaken Black Hydra is a special weapon system that draws lightning to the point of fire, due to an ionized electrocloud detonator. Legend says these weapons needed to contain the heart of a hydra to function.</description>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_BlackHydra/AG_BlackHydra</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<MarketValue>1150</MarketValue>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.95</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>7.4</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>RocketswarmLauncher</researchPrerequisite>
+			
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AG_Bullet_HydraBlast</defaultProjectile>
+				<warmupTime>5</warmupTime>
+				<range>46</range>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+			</li>
+		</verbs>
+		
+		<weaponTags>
+			<li>ForsakenRanged</li>
+			<li>WForsaken</li>
+			<li>WForsakenKing</li>
+			<li>Ultratech</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<costList>
+			<Plasteel>150</Plasteel>
+			<AG_Ultima>50</AG_Ultima>
+			<Gold>10</Gold>
+		</costList>
+		
+		
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AG_Bullet_HydraBlast</defName>
+		<label>Hydra Blast</label>
+		<graphicData>
+			<texPath>Things/Item/Weapon/AG_BlackHydra/AG_BigPulse</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<explosionRadius>1</explosionRadius>
+			<damageDef>Bomb</damageDef>
+			<speed>75</speed>
+		</projectile>
+		<thingClass>AlphaGenes.BlackHydraBullet</thingClass>
+	</ThingDef>
+  
+</Defs>

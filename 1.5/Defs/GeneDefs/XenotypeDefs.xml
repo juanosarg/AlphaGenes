@@ -301,6 +301,50 @@
 			<li>AptitudeTerrible_Plants</li>
 		</genes>
 	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>AG_Forsaken</defName>
+		<label>forsaken</label>
+		<description>The legacy of a fallen empire, with a distant and tenuous link to the original genelines of Earth. Other than the fact that they began to awaken over the past century and that they terraformed forsaken crags onto some rimworlds at some point in the past, no one knows much else about what they are, where they are from or fundamentals behind their technology, which seems to bridge the gap between science and magic.</description>
+		<descriptionShort>A distant relative of the original genelines of Earth. There is very little known about them.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/AG_Forsaken</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>AG_NamerPersonForsaken</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>UVSensitivity_Mild</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Headbone_Human</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Body_Hulk</li>
+			<li>Sterile</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_Gray</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_InkBlack</li>
+			<li>Skin_SlateGray</li>
+			<li>Skin_InkBlack</li>
+			<li>DarkVision</li>
+			<li>AG_ForsakenKnowledge</li>
+			<li>AG_ForsakenBlood</li>
+			<li>AG_ForsakenBody</li>
+			<li>AG_ForsakenHead</li>
+			<li>AG_ForsakenEyes</li>
+			<li>AG_ForsakenBodyEmblem</li>
+			<li>AG_ForsakenHeadEmblem</li>
+			<li>AG_ForsakenHornsBull</li>
+			<li>AG_ForsakenHornsSheep</li>
+			<li>AG_ForsakenHornsReptilian</li>
+			<li>AG_ForsakenHornsCrown</li>
+			<li>AG_ForsakenHornsDevil</li>
+			<li>AG_ForsakenHornsGoat</li>
+			<li>AG_ForsakenQuadruple</li>			
+			<li>AG_ExtraordinaryLifespan</li>
+		</genes>
+	</XenotypeDef>
+	
 	<XenotypeDef>
 		<defName>AG_RandomCustom</defName>
 		<label>random custom</label>

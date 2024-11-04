@@ -48,5 +48,22 @@
 		<reportString>using genepack disruptor.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
-	
+	<JobDef>
+		<defName>AG_UseArchoGeneRemover</defName>
+		<driverClass>AlphaGenes.JobDriver_UseArchoGeneRemover</driverClass>
+		<reportString>using archotech gene remover.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>AG_UseArchoEndogenefier</defName>
+		<driverClass>AlphaGenes.JobDriver_UseArchoEndogenefier</driverClass>
+		<reportString>using archotech endogenefier.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>AG_UseArchoXenogenefier</defName>
+		<driverClass>AlphaGenes.JobDriver_UseArchoXenogenefier</driverClass>
+		<reportString>using archotech xenogenefier.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
 </Defs>

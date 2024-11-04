@@ -44,6 +44,14 @@
 	<AG_FleshbeastTooBig>{0} is too big to be affected by this ability!</AG_FleshbeastTooBig>
 	<AG_TrappedForever>The original location is no longer available! {0} is trapped forever in this pocket plane!</AG_TrappedForever>
 	<AG_OnlyPlayerHome>This ability is only usable in a colony map</AG_OnlyPlayerHome>
+	<AG_NeedsForsakenKnowledge>Can only be built by someone with the Forsaken Knowledge gene</AG_NeedsForsakenKnowledge>
+	<AG_NeedsForsakenKnowledgeToWield>Can only be used by someone with the Forsaken Knowledge gene</AG_NeedsForsakenKnowledgeToWield>
+	<AG_ChooseGeneToRemove>Choose gene to remove</AG_ChooseGeneToRemove>
+	<AG_ChooseEndogeneToConvert>Choose endogene to turn into xenogene</AG_ChooseEndogeneToConvert>
+	<AG_ChooseXenogeneToConvert>Choose xenogene to turn into endogene</AG_ChooseXenogeneToConvert>
+	<AG_NoEndogenes>Target lacks endogenes</AG_NoEndogenes>
+	<AG_NoXenogenes>Target lacks xenogenes</AG_NoXenogenes>
+	<AG_NoGenesAtAll>Target lacks any genes</AG_NoGenesAtAll>
 	<!-- Settings -->
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
 	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>

@@ -5,6 +5,7 @@
 		<label>oversized horns</label>
 		<description>These horns can be used in melee attacks.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -31,6 +32,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<isBad>false</isBad>
 		<comps>
@@ -58,6 +60,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<isBad>false</isBad>
 		<comps>
@@ -85,6 +88,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>		
 		<comps>
@@ -115,6 +119,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -141,6 +146,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Large fangs that can be used in melee combat to inject a powerful venom.</description>
 		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<addedPartProps>
 			<solid>true</solid>
@@ -168,6 +174,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Large fangs that can be used in melee combat to inject a powerful acid.</description>
 		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<addedPartProps>
 			<solid>true</solid>

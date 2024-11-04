@@ -60,4 +60,8 @@
 		<defName>AG_CustomXenotypeIconNereid</defName>
 		<texPath>UI/Icons/Xenotypes/AG_Nereid</texPath>
 	</XenotypeIconDef>
+	<XenotypeIconDef>
+		<defName>AG_CustomXenotypeIconForsaken</defName>
+		<texPath>UI/Icons/Xenotypes/AG_Forsaken</texPath>
+	</XenotypeIconDef>
 </Defs>

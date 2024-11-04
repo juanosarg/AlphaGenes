@@ -5,6 +5,7 @@
 		<label>increased command range</label>
 		<description>This person has an increased range when commanding drafted mechanoids.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 		<comps>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
@@ -16,6 +17,7 @@
 		<label>decreased command range</label>
 		<description>This person has a decreased range when commanding drafted mechanoids.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 		<comps>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>

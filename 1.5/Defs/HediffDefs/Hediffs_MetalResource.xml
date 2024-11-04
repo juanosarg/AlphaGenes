@@ -9,6 +9,7 @@
     <hediffClass>AlphaGenes.Hediff_MineralCraving</hediffClass>
     <defaultLabelColor>(0.5, 0.5, 0.5)</defaultLabelColor>
     <initialSeverity>0.01</initialSeverity>
+	<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
     <maxSeverity>1</maxSeverity>
     <everCurableByItem>false</everCurableByItem>
     <stages>
@@ -61,6 +62,7 @@
     <description>Hidden: mineral fueled</description>
     <hediffClass>AlphaGenes.Hediff_MineralFueled</hediffClass>
     <defaultLabelColor>(1, 0.2, 0.2)</defaultLabelColor>
+	<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
     <initialSeverity>0.00</initialSeverity>
     <everCurableByItem>false</everCurableByItem>
     <stages>
@@ -81,6 +83,7 @@
     <description>Their minerals are hardening their skin against attacks by how strong their mineral reserves are.</description>
     <hediffClass>AlphaGenes.Hediff_ReactiveArmour</hediffClass>
     <defaultLabelColor>(1, 0.2, 0.2)</defaultLabelColor>
+	<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
     <initialSeverity>0.00</initialSeverity>
     <everCurableByItem>false</everCurableByItem>
     <stages>
@@ -124,6 +127,7 @@
     <description>Their mineral reserves are being rapidly consumed to work at break neck pace!</description>
     <hediffClass>AlphaGenes.Hediff_MineralOverdrive</hediffClass>
     <defaultLabelColor>(1, 0.2, 0.2)</defaultLabelColor>
+	<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
     <initialSeverity>0.00</initialSeverity>
     <everCurableByItem>false</everCurableByItem>
     <stages>

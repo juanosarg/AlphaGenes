@@ -25,6 +25,7 @@
 		<description>This person is completely blind... until they gain psychic powers. They can direct their inner psychic sight and gain even better insight the more power they acquire.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<initialSeverity>0.01</initialSeverity>
 		<isBad>false</isBad>
@@ -106,6 +107,7 @@
 		<description>This person has psychic powers that depend on their mood. With low moods, and thus higher break risk, they'll have psychic bonuses. With a Catharsis, these bonuses will be even higher (even if the mood is increased during Catharsis).</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<initialSeverity>0.1</initialSeverity>
 		<isBad>false</isBad>

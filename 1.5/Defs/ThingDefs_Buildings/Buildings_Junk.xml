@@ -619,9 +619,18 @@
 		<comps>
 			<li Class="AlphaGenes.CompProperties_RandomItemSpawner">
 				<items>
-					<li>Genepack</li>
-					<li>AG_Alphapack</li>
-					<li>AG_Mixedpack</li>
+					<li>
+						<item>Genepack</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_Alphapack</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_Mixedpack</item>
+						<weight>1</weight>
+					</li>
 				</items>
 			</li>
 		</comps>
@@ -655,14 +664,50 @@
 		<comps>
 			<li Class="AlphaGenes.CompProperties_RandomItemSpawner">
 				<items>
-					<li>AG_GeneRemover</li>
-					<li>AG_Endogenefier</li>
-					<li>AG_Xenogenefier</li>
-					<li>AG_XenotypeNullifier</li>
-					<li>AG_GermlineMutator</li>
-					<li>AG_XenotypeInjector</li>
-					<li>AG_GenepackTweaker</li>
-					<li>AG_GenepackDisruptor</li>
+					<li>
+						<item>AG_GeneRemover</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_Endogenefier</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_Xenogenefier</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_XenotypeNullifier</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_GermlineMutator</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_XenotypeInjector</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_GenepackTweaker</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_GenepackDisruptor</item>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>AG_ArchoGeneRemover</item>
+						<weight>0.25</weight>
+					</li>
+					<li>
+						<item>AG_ArchoEndogenefier</item>
+						<weight>0.25</weight>
+					</li>
+					<li>
+						<item>AG_ArchoXenogenefier</item>
+						<weight>0.25</weight>
+					</li>
 				</items>
 			</li>
 		</comps>

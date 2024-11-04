@@ -5,6 +5,7 @@
 		<label>vicious UV sensitivity</label>
 		<description>This person will be knocked unconscious under direct sunlight.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
@@ -38,6 +39,7 @@
 		<label>minor UV sensitivity</label>
 		<description>This person's eyes will hurt slightly under direct sunlight.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -67,6 +69,7 @@
 		<label>lethal UV sensitivity</label>
 		<description>This person will quickly burn to death under direct sunlight.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>

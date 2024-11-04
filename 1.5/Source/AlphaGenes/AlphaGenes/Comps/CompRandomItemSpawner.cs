@@ -32,7 +32,7 @@ namespace AlphaGenes
 
         public void SpawnItemAndDelete()
         {
-            Thing thing = GenSpawn.Spawn(Props.items.RandomElement(), this.parent.Position, this.parent.Map);
+            Thing thing = GenSpawn.Spawn(Props.items.RandomElementByWeight(x => x.weight).item, this.parent.Position, this.parent.Map);
             thing.stackCount = 1;
             this.parent.Destroy();
 

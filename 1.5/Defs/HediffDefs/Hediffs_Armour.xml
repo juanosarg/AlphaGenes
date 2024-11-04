@@ -6,6 +6,7 @@
 		<description>Several fungal clumps are sprouting from this person's skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<stages>
@@ -30,6 +31,7 @@
 		<label>bark skin</label>
 		<description>Hard, bark-like skin. This confers a small amount of natural armour.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -49,6 +51,7 @@
 		<description>Skin strengthened by a nano-lattice of metallic compounds. This confers a medium amount of natural armour.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<stages>
@@ -66,6 +69,7 @@
 		<label>plasteel skin</label>
 		<description>Skin strengthened by a plasteel nano-lattice. This confers a great amount of natural armour.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>

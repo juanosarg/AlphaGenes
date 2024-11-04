@@ -6,6 +6,7 @@
 		<description>Devoured a brain that was skilled in Shooting. Buff lasts for 2 days</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		
 		<maxSeverity>1.0</maxSeverity>
 		<initialSeverity>0.01</initialSeverity>
 		<isBad>false</isBad>

@@ -5,6 +5,7 @@
 		<label>chemfuel nodules</label>
 		<description>Genetically grown nodules of chemfuel will cause this person to blow up when killed.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -20,6 +21,7 @@
 		<label>acidic blood</label>
 		<description>An unstable, acidic blood will cause this person to blow up in a cloud of caustic acid when killed.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -39,6 +41,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>lung rot strength</label>
 		<description>Special structures in this person's lungs strengthen their bodies when they are affected by lung rot, making piles of corpses... a pleasant prospect..</description>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -78,6 +81,7 @@
 		<description>This colonist had its blood genetically modified to accumulate electrical energy, allowing them to recharge electrical batteries merely by being close to them. This change is permanent, and quite traumatic.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -120,6 +124,7 @@
 		<defName>AG_Electric</defName>
 		<description>A dangerous electric shock. It might have damaged the heart, and the higher the intensity the higher the possibility of a heart attack.</description>
 		<label>electric shock</label>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<isBad>true</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Immunizable">
@@ -208,6 +213,7 @@
 		<defName>AG_Petrification</defName>
 		<description>The victim's skin is hardening and turning into brittle stone. This condition is reversible and will naturally dissipate after a few hours, but if it reaches a severity of 1 it will kill its victim.</description>
 		<label>petrification</label>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<lethalSeverity>1</lethalSeverity>
 		<makesSickThought>true</makesSickThought>
 		<isBad>false</isBad>
@@ -282,6 +288,7 @@
 		<label>insect rally</label>
 		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 		<description>This person is secreting a cloud of pheromonal compounds that are irresistible to all insects. They'll feel re-invigorated and strengthened when close to the carrier.</description>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
@@ -309,6 +316,7 @@
 		<label>insect rally</label>
 		<description>This insect feels strengthened by being immersed in a pheromonal cloud.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
@@ -395,6 +403,7 @@
 		<label>temporary bandwidth</label>
 		<description>This person is receiving a boost to their bandwidth due to the presence of a temporary band node.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 		<comps>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>

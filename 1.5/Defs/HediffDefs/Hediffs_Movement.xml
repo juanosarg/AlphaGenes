@@ -7,6 +7,7 @@
 		<description>Limited flight that allows this colonist to hop and glide small distances over terrain. They will ignore terrain movement costs when moving.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -21,6 +22,7 @@
 		<description>This person moves without movement penalties through water. They will ignore terrain movement costs when moving through watery terrains.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -35,6 +37,7 @@
 		<description>Limited flight that allows this colonist to hover over terrain. They will ignore terrain movement costs when moving. The hydrogen inside the gas bags will cause this person to blow up when killed.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>

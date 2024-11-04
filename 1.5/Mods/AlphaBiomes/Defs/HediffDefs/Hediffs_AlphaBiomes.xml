@@ -11,6 +11,7 @@
 		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of warping space via a psychic pinhole, causing an extradimensional red fog to coalesce around the carrier.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>		
 		<comps>
@@ -27,6 +28,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<isBad>false</isBad>
 		<comps>
 			<li Class="AnimalBehaviours.HediffCompProperties_ChangeWeather">
@@ -46,6 +48,7 @@
 		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of drastically lowering the atmospheric pressure around and increasing acidity of the rain, causing constant acidic rain precipitation.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -61,6 +64,7 @@
 		<label>nightmaker</label>
 		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of almost completely covering the sun, causing constant forsaken night weathers.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>

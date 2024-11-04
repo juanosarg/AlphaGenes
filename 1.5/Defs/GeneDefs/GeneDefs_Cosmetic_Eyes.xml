@@ -344,4 +344,52 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef ParentName="GeneEyeColor">
+		<defName>AG_ForsakenEyes</defName>
+		<label>forsaken eyes</label>
+		<iconPath>UI/Icons/Genes/AG_ForsakenEyes</iconPath>
+		<description>Carriers of this gene have four yellow eyes, with two smaller ones under two larger ones.</description>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenEyes/AG_ForsakenEyes</texPath>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.32</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenEyes/AG_ForsakenEyes</texPath>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.32</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

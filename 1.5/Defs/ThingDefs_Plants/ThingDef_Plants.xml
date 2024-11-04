@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>AG_Septimum</defName>
+		<label>septimum</label>
+		<description>A mid-size crop that yields ultima fibers. The fibers are used in the making of forsaken armor. Only colonists with the Forsaken Knowledge gene will be able to sow this plant.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/AG_Septimum</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<uiIconPath>Things/Plant/AG_Septimum/AG_SeptimumA</uiIconPath>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+		<ingestible/>
+		<plant>
+			
+			<growDays>10</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>AG_Ultima</harvestedThingDef>
+			<harvestYield>5</harvestYield>
+			<sowMinSkill>7</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+			<visualSizeRange>0.3~1.05</visualSizeRange>
+			<wildOrder>2</wildOrder>
+		
+		</plant>
+	</ThingDef>
+
+
+</Defs>

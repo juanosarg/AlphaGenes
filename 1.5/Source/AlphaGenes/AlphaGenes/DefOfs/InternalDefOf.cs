@@ -16,6 +16,24 @@ namespace AlphaGenes
         public static ThingDef AG_Filth_CryoVomitPermanent;
         public static ThingDef AG_Filth_CryoBloodPermanent;
         public static ThingDef AG_Filth_CryoResiduePermanent;
+        public static ThingDef AG_ForsakenForge;
+        public static ThingDef AG_ForsakenSniper;
+        public static ThingDef AG_ForsakenShotgun;
+        public static ThingDef AG_ForsakenAssaultRifle;
+        public static ThingDef AG_ForsakenLongBlade;
+        public static ThingDef AG_ForsakenBattleAxe;
+        public static ThingDef AG_ForsakenBulkSword;
+        public static ThingDef AG_ForsakenSpear;
+        public static ThingDef AG_ForsakenBow;
+        public static ThingDef AG_ForsakenHydra;
+        public static ThingDef AG_Forsaken_Hood;
+        public static ThingDef AG_Forsaken_Hood_Child;
+        public static ThingDef AG_ForsakenCloak;
+        public static ThingDef AG_ForsakenCloak_Child;
+        public static ThingDef AG_ForsakenMarineHelmet;
+        public static ThingDef AG_ForsakenMarineHelmetPsy;
+        public static ThingDef AG_ForsakenMarineArmor;
+        public static ThingDef AG_Septimum;
 
         public static PawnKindDef Rat;
 		public static PawnKindDef Wolf_Timber;
@@ -60,6 +78,7 @@ namespace AlphaGenes
         public static GeneDef AG_Teratophilia;
         public static GeneDef AG_HeatImmunity;
         public static GeneDef AG_Stinky;
+        public static GeneDef AG_ForsakenKnowledge;
 
 
         public static GeneDef AG_MinorAnimalSummon_Randomizer;

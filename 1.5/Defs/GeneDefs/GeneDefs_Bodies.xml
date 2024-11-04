@@ -7,7 +7,6 @@
 			<li>Bodies</li>
 			<li>Body</li>
 		</exclusionTags>
-		
 	</GeneDef>
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_SlimeBody</defName>
@@ -19,7 +18,6 @@
 		<fur>AG_SlimyBody</fur>
 		<skinIsHairColor>false</skinIsHairColor>
 		<tattoosVisible>false</tattoosVisible>
-		
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_Fur</nodeClass>
@@ -88,7 +86,6 @@
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
 		</statOffsets>
 		<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
-		
 		<fur>AG_SlugBody</fur>
 		<skinIsHairColor>false</skinIsHairColor>
 		<tattoosVisible>false</tattoosVisible>
@@ -110,7 +107,6 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	
 	<GeneDef ParentName="AG_BodyBase">
 		<defName>AG_ScalyBody</defName>
 		<label>scaly body</label>
@@ -144,7 +140,6 @@
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>
-		
 		<fur>AG_ScalyBody</fur>
 		<skinIsHairColor>false</skinIsHairColor>
 		<tattoosVisible>false</tattoosVisible>
@@ -190,7 +185,6 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		
 		<fur>AG_RockyBody</fur>
 		<skinIsHairColor>false</skinIsHairColor>
 		<tattoosVisible>false</tattoosVisible>
@@ -234,7 +228,6 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		
 		<fur>AG_TeratoBody</fur>
 		<skinIsHairColor>false</skinIsHairColor>
 		<tattoosVisible>false</tattoosVisible>
@@ -282,7 +275,6 @@
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		
 		<fur>AG_GauntBody</fur>
 		<skinIsHairColor>false</skinIsHairColor>
 		<tattoosVisible>false</tattoosVisible>
@@ -327,13 +319,11 @@
 				<parentTagDef>Body</parentTagDef>
 			</li>
 		</renderNodeProperties>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<useSkinColorForFur>true</useSkinColorForFur>
-				
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -360,13 +350,47 @@
 				<parentTagDef>Body</parentTagDef>
 			</li>
 		</renderNodeProperties>
-		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-			<useSkinAndHairColorsForFur>true</useSkinAndHairColorsForFur>
-				
+				<useSkinAndHairColorsForFur>true</useSkinAndHairColorsForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_ForsakenBody</defName>
+		<label>forsaken body</label>
+		<labelShortAdj>forsaken</labelShortAdj>
+		<description>Carriers of this gene have a body that seems to have deep valleys around their bodies and ribs visible beneath the skin in certain places, yet are otherwise healthy in appearance. This results in a slightly lower weight and a significantly more fragile body.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>490</displayOrderInCategory>
+		<statFactors>
+			<Mass>0.92</Mass>
+			<MeatAmount>0.92</MeatAmount>
+			<IncomingDamageFactor>1.25</IncomingDamageFactor>
+		</statFactors>
+		<iconPath>UI/Icons/Genes/AG_ForsakenBody</iconPath>
+		<fur>AG_ForsakenBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>true</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -396,7 +420,6 @@
 		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>

@@ -7,6 +7,7 @@
 		<label>jelly production</label>
 		<description>The skin of this person constantly exudes and produces globs of insect jelly, which provides some extra food for the colony.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>

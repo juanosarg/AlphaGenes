@@ -7,6 +7,7 @@
 		<description>This person has a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -20,6 +21,7 @@
 		<label>regeneration, minor</label>
 		<description>This person has a faint distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -34,6 +36,7 @@
 		<label>water regeneration</label>
 		<description>This person will slowly regenerate health whenever they are on watery terrain.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -48,6 +51,7 @@
 		<defName>AG_PassiveRegenerator</defName>
 		<label>passive regenerator</label>
 		<description>This person constantly releases an invisible cloud of specialized mechanites that periodically tend to the wounds of nearby people and animals, regenerating them without any need for rest.</description>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -66,6 +70,7 @@
 		<description>This person needs considerably less metabolic energy to stay alive, at the cost of outrageously-reduced stability in their cell-replication machinery, and a very, VERY limited lifespan that can't be expanded in any way.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -81,6 +86,7 @@
 		<description>Forces an unstable mutation on this person. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
@@ -97,6 +103,7 @@
 		<label>unstable mutation, major</label>
 		<description>Forces an uncontrollable and unstable mutation on this person every day. This mutation will activate two new random genes for a whole day. Next day, the genes will deactivate and two new ones will take their place.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -114,6 +121,7 @@
 		<label>unstable mutation, catastrophic</label>
 		<description>Forces an uncontrollable and unstable mutation on this person every day. This mutation will activate ten new random genes for a whole day. Next day, the genes will deactivate and ten new ones will take their place.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -131,6 +139,7 @@
 		<label>near blindness</label>
 		<description>This person has almost completely useless eyes, with close to total blindness.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -152,6 +161,7 @@
 		<label>deafness</label>
 		<description>This person has a complete lack of hearing.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -173,6 +183,7 @@
 		<label>teratogenesis</label>
 		<description>The genes of this person constantly generate tumors all over their body. They are not immune to dead from these tumors.\n\nA new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -190,6 +201,7 @@
 		<label>limb regeneration</label>
 		<description>This person has improved regenerating factors in their DNA, allowing them to slowly regenerate limbs that may even be completely missing. The process is slow, and will prioritize healing existing, but damaged, limbs.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>

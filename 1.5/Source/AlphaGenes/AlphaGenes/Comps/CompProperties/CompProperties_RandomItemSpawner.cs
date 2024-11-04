@@ -11,11 +11,21 @@ namespace AlphaGenes
 
     public class CompProperties_RandomItemSpawner : CompProperties
     {
-        public List<ThingDef> items;
+        public List<WeightedItems> items;
 
         public CompProperties_RandomItemSpawner()
         {
             this.compClass = typeof(CompRandomItemSpawner);
         }
+
+
     }
+
+    public class WeightedItems
+    {
+        public ThingDef item;
+        public float weight;
+
+    }
+
 }

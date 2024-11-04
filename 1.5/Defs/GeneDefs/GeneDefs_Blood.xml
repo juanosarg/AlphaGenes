@@ -415,4 +415,32 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_ForsakenBlood</defName>
+		<label>yellow blood</label>
+		<displayCategory>AG_BloodType</displayCategory>
+		<description>Carriers of this gene have yellow blood.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenBlood</iconPath>
+		<displayOrderInCategory>81</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customBloodThingDef>AG_Filth_YellowBlood</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_ForsakenBloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitForsaken</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsForsaken</customWoundsFromFleshtype>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_Yellow</customBloodSmearThingDef>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

@@ -128,4 +128,20 @@
 			</li>
 		</genericWounds>
 	</FleshTypeDef>
+	<FleshTypeDef>
+		<defName>AG_WoundsForsaken</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>AG_Damage_HitForsaken</damageEffecter>
+		<genericWounds>
+			<li>
+				<texture>Things/Pawn/Humanlike/Wounds/AG_WoundForsakenA</texture>
+			</li>
+			<li>
+				<texture>Things/Pawn/Humanlike/Wounds/AG_WoundForsakenB</texture>
+			</li>
+			<li>
+				<texture>Things/Pawn/Humanlike/Wounds/AG_WoundForsakenC</texture>
+			</li>
+		</genericWounds>
+	</FleshTypeDef>
 </Defs>

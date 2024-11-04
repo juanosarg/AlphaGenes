@@ -7,6 +7,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<isBad>false</isBad>
 		<comps>
@@ -33,6 +34,7 @@
 		<description>Four functional toughspike claws growing from the back that can be used in melee attacks.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<isBad>false</isBad>
@@ -57,6 +59,7 @@
 		<description>Two fleshy, muscled tentacles with blades at the end. These flesh whips make for excellent melee weapons.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<isBad>false</isBad>
@@ -81,6 +84,7 @@
 		<description>A grotesque, cancerous growth on the shoulder than can spit acid on its own volition.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<isBad>false</isBad>

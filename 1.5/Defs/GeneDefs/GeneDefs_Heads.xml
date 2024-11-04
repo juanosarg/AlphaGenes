@@ -166,7 +166,6 @@
 		<label>rocky ridges</label>
 		<description>Carriers of this gene have accumulations of minerals on their head.</description>
 		<iconPath>UI/Icons/Genes/AG_RockyRidges</iconPath>
-		
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -310,7 +309,7 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-<GeneDef ParentName="AG_GeneHeadBase">
+	<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>AG_NereidHead</defName>
 		<label>nereid head</label>
 		<description>Carriers of this gene have a plain, scaled head with bioluminescent spots.</description>
@@ -339,7 +338,6 @@
 				<parentTagDef>Head</parentTagDef>
 				<color>(255,255,255)</color>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			
 				<texPaths>
 					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_Detail/Nereid_Detail</li>
 					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_Detail/Nereid_Detail2</li>
@@ -350,6 +348,43 @@
 					<li>East</li>
 					<li>South</li>
 					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_GeneHeadBase">
+		<defName>AG_ForsakenHead</defName>
+		<label>forsaken head</label>
+		<description>Carriers of this gene have valleys around their skull, yet are otherwise healthy in appearance. This does not have any functional effect.</description>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<iconPath>UI/Icons/Genes/AG_ForsakenHead</iconPath>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/Heads/AG_ForsakenHead/AG_ForsakenHead</li>
+				</texPaths>
+				<useSkinShader>true</useSkinShader>
+				<colorType>Skin</colorType>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+					<li>North</li>
 				</visibleFacing>
 				<drawData>
 					<defaultData>

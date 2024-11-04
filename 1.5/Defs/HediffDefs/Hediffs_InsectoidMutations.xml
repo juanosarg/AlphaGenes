@@ -7,6 +7,7 @@
 		<description>A jointed appendage of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, this leg has much higher resistance to damage.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<addedPartProps>
@@ -34,6 +35,7 @@
 		<label>insectoid arm</label>
 		<labelNoun>an insectoid arm</labelNoun>
 		<description>A jointed appendage of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, this arm has much higher resistance to damage.</description>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -63,6 +65,7 @@
 		<labelNoun>a compound eye</labelNoun>
 		<description>An eye consisting of thousands of individual photoreceptor units, compound eyes have a large field of view and help with detecting fast movement, however its visibility range is significantly reduced. Whilst it’s an extremely painful mutation, this eye has a higher resistance to damage.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<hediffClass>HediffWithComps</hediffClass>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -91,6 +94,7 @@
 		<labelNoun>mandible</labelNoun>
 		<description>A pair of appendages situated on the sides of the mouth, Helping to crush and cut the food. Whilst it’s significantly less comfortable than normal jaw, insectoid mandibles significantly increase eating speed.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<hediffClass>HediffWithComps</hediffClass>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -120,6 +124,7 @@
 		<labelNoun>venom gland</labelNoun>
 		<description>A sack-like gland tucked under the tongue that secretes acid, liquifying and allowing to safely consume even the most dangerous foods. The overstimulation of this gland enables the user to throw a short range acid spitting attack, effective at going through armor.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -164,6 +169,7 @@
 		<labelNoun>pneumatic claw</labelNoun>
 		<description>A powerful pneumatic pincer arm, capable of repeatedly exerting great pressure on the target at the cost of refined motor skills.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -209,6 +215,7 @@
 		<labelNoun>adrenal secretor</labelNoun>
 		<description>An insectoid kidney with a hyperactive adrenal gland. Subjects with this mutation may find newfound pleasure in inflicting pain. However, it does bring the side effect of unwarranted aggression.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<hediffClass>HediffWithComps</hediffClass>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -235,6 +242,7 @@
 		<description>A slender, mobile sensory organ that serves to compliment vision and locational awareness. A subject with this mutation will no longer suffer from darkness penalties, however sensory overload makes it very difficult to socialize.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<addedPartProps>
@@ -257,6 +265,7 @@
 		<description>A highly efficient, although basic stomach alternative. Subjects with this mutation will be able to live longer with less food. Increases nutrition of non-raw food by 10%.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<addedPartProps>
@@ -285,6 +294,7 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<hediffClass>HediffWithComps</hediffClass>
 		<maxSeverity>1.0</maxSeverity>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<isBad>false</isBad>
 		<addedPartProps>
 			<solid>true</solid>
@@ -306,6 +316,7 @@
 		<description>A barely understood heart and artery mutation, causes blood to coagulate into oxygen-rich gel-like material. Upon laceration or even loss of limbs, the gel will cauterize the wound immediately. Unfortunately puts heavy strain on human cardiovascular biology.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<addedPartProps>
@@ -337,6 +348,7 @@
 		<description>An insectoid brain particularly sensitive to residual psychic synapse. A creature with this mutation possesses profound collective thought and psychic sensitivity, however is barely able to form cohesive sentences.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<addedPartProps>
