@@ -1,92 +1,177 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-  <ScenarioDef>
-    <defName>AG_WretchScenario</defName>
-    <label>Wretched Existence</label>
-    <description>There were no lights in the lab, only darkness. No voices, only silence. And, many days, no food...\n\nOne day, this all changed. Sirens blared, explosions buffeted the sturdy concrete walls and, suddenly, freedom, a gust of air, and the nearly forgotten light of the sun. The three of you ran, and never looked back. However, you were forever changed...</description>
-    <scenario>
-      <summary>Three victims of genetic experimentation try to survive in the wild.</summary>
-      <playerFaction>
-        <def>PlayerFaction</def>
-        <factionDef>PlayerColony</factionDef>
-      </playerFaction>
-      <parts>
-
-        <!-- Config pages -->
-        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
-          <def>ConfigurePawnsXenotypes</def>
-          <pawnChoiceCount>8</pawnChoiceCount>
-          <customSummary>Start with three Wretches.</customSummary>
-          <overrideKinds>
-            <li>
-              <xenotype>AG_Wretch</xenotype>
-              <pawnKind>Tribesperson</pawnKind>
-            </li>
-          </overrideKinds>
-          <xenotypeCounts>
-            <li>
-              <xenotype>AG_Wretch</xenotype>
-              <count>3</count>
-			  <requiredAtStart>true</requiredAtStart>
-             
-            </li>
-            
-          </xenotypeCounts>
-        </li>
-
-        <!-- Player starting stuff spawn method-->
-        <li Class="ScenPart_PlayerPawnsArriveMethod">
-          <def>PlayerPawnsArriveMethod</def>
-         <method>Standing</method>
-        </li>
-
-        <!-- Game start dialog -->
-        <li Class="ScenPart_GameStartDialog">
-          <def>GameStartDialog</def>
-          <text>There were no lights in the lab, only darkness. No voices, only silence. And, many days, no food...\n\nOne day, this all changed. Sirens blared, explosions buffeted the sturdy concrete walls and, suddenly, freedom, a gust of air, and the nearly forgotten light of the sun. The three of you ran, and never looked back. However, you were forever changed...</text>
-          <closeSound>GameStartSting</closeSound>
-        </li>
-
-        <!-- Player starting things -->
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Silver</thingDef>
-          <count>200</count>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>MealSurvivalPack</thingDef>
-          <count>20</count>
-        </li>
-       
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>MedicineIndustrial</thingDef>
-          <count>2</count>
-        </li>
-		<li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>MedicineHerbal</thingDef>
-          <count>10</count>
-        </li>
-       
-       <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>MeleeWeapon_Club</thingDef>
-          <stuff>WoodLog</stuff>
-		  <count>3</count>
-        </li>
-
-        <li Class="ScenPart_StartingAnimal">
-          <def>StartingAnimal</def>
-          <count>1</count>
-          <bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
-        </li>
-
-      </parts>
-    </scenario>
-  </ScenarioDef>
-
+	<ScenarioDef>
+		<defName>AG_WretchScenario</defName>
+		<label>Wretched Existence</label>
+		<description>There were no lights in the lab, only darkness. No voices, only silence. And, many days, no food...\n\nOne day, this all changed. Sirens blared, explosions buffeted the sturdy concrete walls and, suddenly, freedom, a gust of air, and the nearly forgotten light of the sun. The three of you ran, and never looked back. However, you were forever changed...</description>
+		<scenario>
+			<summary>Three victims of genetic experimentation try to survive in the wild.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<customSummary>Start with three Wretches.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>AG_Wretch</xenotype>
+							<pawnKind>Tribesperson</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>AG_Wretch</xenotype>
+							<count>3</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>There were no lights in the lab, only darkness. No voices, only silence. And, many days, no food...\n\nOne day, this all changed. Sirens blared, explosions buffeted the sturdy concrete walls and, suddenly, freedom, a gust of air, and the nearly forgotten light of the sun. The three of you ran, and never looked back. However, you were forever changed...</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Club</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+					<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	<ScenarioDef>
+		<defName>AG_ForsakenCrashlanded</defName>
+		<label>Abandoned Ones</label>
+		<description>Exiled and abandoned, you have been sent in cargo pods to another rimworld, now you have to survive on your own.</description>
+		<scenario>
+			<summary>Three Forsaken survivors - exiled and abandoned</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				
+				
+				
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>3</pawnChoiceCount>
+					<xenotypeCounts>
+						<li>
+							<requiredAtStart>true</requiredAtStart>
+							<xenotype>AG_Forsaken</xenotype>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+							<description>adult Forsaken</description>
+							<count>3</count>
+						</li>
+					</xenotypeCounts>
+					<overrideKinds>
+						<li>
+							<xenotype>AG_Forsaken</xenotype>
+							<pawnKind>Colonist</pawnKind>
+						</li>
+					</overrideKinds>
+				</li>
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+					<visible>false</visible>
+				</li>
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AG_ForsakenBow</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AG_ForsakenSpear</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AG_ForsakenBow</thingDef>
+				</li>
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>720</count>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
 </Defs>
