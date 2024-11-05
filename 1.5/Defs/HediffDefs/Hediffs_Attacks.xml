@@ -196,4 +196,33 @@
 			</li>
 		</comps>
 	</HediffDef>
+	<HediffDef>
+		<defName>AG_SlowerAcidFangs</defName>
+		<label>acid fangs</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Large fangs that can be used in melee combat to inject a powerful acid.</description>
+		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>acid fangs</label>
+						<capacities>
+							<li>AG_Acid</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>3</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<chanceFactor>1</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
 </Defs>

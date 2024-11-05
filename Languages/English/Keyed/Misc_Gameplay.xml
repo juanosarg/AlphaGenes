@@ -52,6 +52,9 @@
 	<AG_NoEndogenes>Target lacks endogenes</AG_NoEndogenes>
 	<AG_NoXenogenes>Target lacks xenogenes</AG_NoXenogenes>
 	<AG_NoGenesAtAll>Target lacks any genes</AG_NoGenesAtAll>
+	<AM_OnlyNightlings>This ability only works on Nightlings</AM_OnlyNightlings>
+	<AM_OnlyWildNightlings>This Nightling is not a wild animal</AM_OnlyWildNightlings>
+	<AM_NightlingDead>He's dead, Jim</AM_NightlingDead>
 	<!-- Settings -->
 	<AG_DisableMutationsMessage>Disable unstable mutations message</AG_DisableMutationsMessage>
 	<AG_DisableMutationsMessage_Description>By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages.</AG_DisableMutationsMessage_Description>

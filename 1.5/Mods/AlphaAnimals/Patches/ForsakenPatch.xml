@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/XenotypeDef[defName = "AG_Forsaken"]/genes</xpath>
+		<value>
+			<li>AG_NightlingAffinity</li>
+			
+		</value>
+	</Operation>
+</Patch>

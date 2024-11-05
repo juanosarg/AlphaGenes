@@ -33,6 +33,88 @@
 		
 		</plant>
 	</ThingDef>
+	
+	<ThingDef ParentName="PlantBase">
+		<defName>AG_Gamma</defName>
+		<label>gamma</label>
+		<description>A beautiful alien plant. Often used by Forsaken as a light source. It is ill advised to eat this, as it is extremely toxic. Only colonists with the Forsaken Knowledge gene will be able to sow this plant.</description>
+		<graphicData>
+			<texPath>Things/Plant/AG_Gamma</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<ingestible/>
+		<plant>
+			
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<sowWork>1200</sowWork>
+			<sowTags>
+				<li>Ground</li>
+				<li>Decorative</li>
+			</sowTags>
+			<growMinGlow>0.3</growMinGlow>
+			<topWindExposure>0.2</topWindExposure>
+			<growDays>5</growDays>
+			<lifespanDaysPerGrowDays>8</lifespanDaysPerGrowDays>
+			<visualSizeRange>0.3~1.50</visualSizeRange>
+			<purpose>Beauty</purpose>
+		</plant>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(242,221,37,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<ThingDef ParentName="PlantBase">
+		<defName>AG_DarkGamma</defName>
+		<label>dark gamma</label>
+		<description>A beautiful alien plant. Often used by Forsaken as a darklight source. It is ill advised to eat this, as it is extremely toxic. Only colonists with the Forsaken Knowledge gene will be able to sow this plant.</description>
+		<graphicData>
+			<texPath>Things/Plant/AG_DarkGamma</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<ingestible/>
+		<plant>
+			
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<sowWork>1200</sowWork>
+			<sowTags>
+				<li>Ground</li>
+				<li>Decorative</li>
+			</sowTags>
+			<growMinGlow>0.3</growMinGlow>
+			<topWindExposure>0.2</topWindExposure>
+			<growDays>5</growDays>
+			<lifespanDaysPerGrowDays>8</lifespanDaysPerGrowDays>
+			<visualSizeRange>0.3~1.50</visualSizeRange>
+			<purpose>Beauty</purpose>
+		</plant>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(78, 226, 229, 0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 </Defs>

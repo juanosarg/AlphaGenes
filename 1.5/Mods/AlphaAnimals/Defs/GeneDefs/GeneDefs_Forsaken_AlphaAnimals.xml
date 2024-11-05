@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+<GeneDef>
+		<defName>AG_NightlingAffinity</defName>
+		<label>nightling affinity</label>
+		<description>Carriers of this gene have an innate affinity with Nightlings. They can automatically tame one of them.</description>
+		<iconPath>UI/Icons/Genes/AG_NightlingAffinity</iconPath>
+		<displayCategory>Ability</displayCategory>
+		<abilities>
+			<li>AG_NightlingAffinity</li>
+		</abilities>
+		<prerequisite>AG_ForsakenKnowledge</prerequisite>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_NightlingAffinity</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>0</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

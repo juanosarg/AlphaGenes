@@ -271,6 +271,19 @@
 			<li>This gene will only be active if the carrier is a shambler.</li>
 		</customEffectDescriptions>
 		<displayOrderInCategory>1009</displayOrderInCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_AcidHead/AG_AcidHead</texPath>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
@@ -283,7 +296,7 @@
 				<customBloodSmearThingDef>AG_Filth_BloodSmear_Acid</customBloodSmearThingDef>
 				<hediffsToBodyParts>
 					<li>
-						<hediff>AG_AcidFangs</hediff>
+						<hediff>AG_SlowerAcidFangs</hediff>
 						<bodyparts>
 							<li>Jaw</li>
 						</bodyparts>

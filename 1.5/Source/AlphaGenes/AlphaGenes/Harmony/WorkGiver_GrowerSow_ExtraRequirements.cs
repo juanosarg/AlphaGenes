@@ -12,6 +12,9 @@ namespace AlphaGenes
     internal class AlphaGenes_WorkGiver_GrowerSow_ExtraRequirements_Postfix
     {
 
+        public static HashSet<ThingDef> blockedPlants = new HashSet<ThingDef>() { InternalDefOf.AG_Gamma, InternalDefOf.AG_DarkGamma,
+        InternalDefOf.AG_Septimum };
+
         [HarmonyPostfix]
         private static void PostFix(ref bool __result, IPlantToGrowSettable settable, Pawn pawn)
         {
@@ -29,7 +32,7 @@ namespace AlphaGenes
 
             ThingDef wantedPlantDef = WorkGiver_Grower.CalculateWantedPlantDef(c, pawn.Map);
           
-            if (wantedPlantDef == InternalDefOf.AG_Septimum && !pawn.HasActiveGene(InternalDefOf.AG_ForsakenKnowledge))
+            if (blockedPlants.Contains(wantedPlantDef) && !pawn.HasActiveGene(InternalDefOf.AG_ForsakenKnowledge))
             {
               
                 __result = false;

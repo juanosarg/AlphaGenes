@@ -34,6 +34,8 @@ namespace AlphaGenes
         public static ThingDef AG_ForsakenMarineHelmetPsy;
         public static ThingDef AG_ForsakenMarineArmor;
         public static ThingDef AG_Septimum;
+        public static ThingDef AG_Gamma;
+        public static ThingDef AG_DarkGamma;
 
         public static PawnKindDef Rat;
 		public static PawnKindDef Wolf_Timber;
@@ -187,6 +189,9 @@ namespace AlphaGenes
 
         [MayRequireAnomaly]
         public static ThingDef Bioferrite;
+
+        [MayRequire("sarg.sarg.alphaanimals")]
+        public static ThingDef AA_Nightling;
 
         static InternalDefOf()
 		{

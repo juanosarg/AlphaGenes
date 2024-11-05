@@ -757,10 +757,11 @@
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_ForsakenHornsBull</defName>
 		<label>forsaken bull horns</label>
-		<description>Carriers of this gene grow two huge bull-like horns with yellow tips protruding from the forehead as well as several smaller horns on their chin and atop their head.</description>
+		<description>Carriers of this gene grow two huge bull-like horns with yellow tips protruding from the forehead as well as several smaller horns on their chin and atop their head. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_ForsakenHornsBull</iconPath>
 		<displayOrderInCategory>201</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -780,20 +781,32 @@
 				</drawData>
 			</li>
 		</renderNodeProperties>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
 			</li>
 		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_ForsakenHornsSheep</defName>
 		<label>forsaken sheep horns</label>
-		<description>Carriers of this gene grow two huge sheep-like horns with yellow tips protruding from the forehead.</description>
+		<description>Carriers of this gene grow two huge sheep-like horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_ForsakenHornsSheep</iconPath>
 		<displayOrderInCategory>202</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -813,20 +826,35 @@
 				</drawData>
 			</li>
 		</renderNodeProperties>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
 			</li>
 		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_ForsakenHornsReptilian</defName>
 		<label>forsaken reptilian horns</label>
-		<description>Carriers of this gene grow two reptilian horns with yellow tips protruding from the forehead.</description>
+		<description>Carriers of this gene grow two reptilian horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_ForsakenHornsReptilian</iconPath>
 		<displayOrderInCategory>203</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -850,16 +878,25 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
 			</li>
 		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_ForsakenHornsCrown</defName>
 		<label>forsaken horn crown</label>
-		<description>Carriers of this gene grow four of small horns with yellow tips protruding from the forehead.</description>
+		<description>Carriers of this gene grow four of small horns with yellow tips protruding from the forehead. These are not long enough to be practical in a fight.</description>
 		<iconPath>UI/Icons/Genes/AG_ForsakenHornsCrown</iconPath>
 		<displayOrderInCategory>204</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -889,10 +926,14 @@
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_ForsakenHornsDevil</defName>
 		<label>forsaken devil horns</label>
-		<description>Carriers of this gene grow two devilish horns with yellow tips protruding from the forehead.</description>
+		<description>Carriers of this gene grow two devilish horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_ForsakenHornsDevil</iconPath>
 		<displayOrderInCategory>205</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -916,16 +957,25 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
 			</li>
 		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_ForsakenHornsGoat</defName>
 		<label>forsaken goat horns</label>
-		<description>Carriers of this gene grow two straight goat horns with yellow tips protruding from the forehead.</description>
+		<description>Carriers of this gene grow two straight goat horns with yellow tips protruding from the forehead. These are not long enough to be practical in a fight.</description>
 		<iconPath>UI/Icons/Genes/AG_ForsakenHornsGoat</iconPath>
 		<displayOrderInCategory>206</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -955,10 +1005,14 @@
 	<GeneDef ParentName="GeneHeadboneBase">
 		<defName>AG_ForsakenQuadruple</defName>
 		<label>forsaken quad horns</label>
-		<description>Carriers of this gene grow four twisted horns with yellow tips protruding from the forehead.</description>
+		<description>Carriers of this gene grow four twisted horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
 		<iconPath>UI/Icons/Genes/AG_ForsakenQuadruple</iconPath>
 		<displayOrderInCategory>207</displayOrderInCategory>
 		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
 		<renderNodeProperties>
 			<li>
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -982,6 +1036,14 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
 			</li>
 		</modExtensions>
 	</GeneDef>

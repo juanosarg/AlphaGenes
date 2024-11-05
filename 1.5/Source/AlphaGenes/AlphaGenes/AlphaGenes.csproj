@@ -319,6 +319,7 @@
     <Compile Include="Ability Comps\CompGiveHediff.cs" />
     <Compile Include="Ability Comps\CompInsanityBlast.cs" />
     <Compile Include="Ability Comps\CompMechConversion.cs" />
+    <Compile Include="Ability Comps\CompNightlingAffinity.cs" />
     <Compile Include="Ability Comps\CompPocketPlane.cs" />
     <Compile Include="Ability Comps\CompPsychicAbsorption.cs" />
     <Compile Include="Ability Comps\CompSummonScorpion.cs" />
@@ -334,6 +335,7 @@
     <Compile Include="Ability Comps\Properties\CompProperties_AbsorbFleshbeast.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_AdaptiveBiology.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_DestroyPocketPlane.cs" />
+    <Compile Include="Ability Comps\Properties\CompProperties_NightlingAffinity.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_PocketPlane.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_PsychicAbsorption.cs" />
     <Compile Include="Ability Comps\Properties\CompProperties_TeleportItemsPocketPlane.cs" />
