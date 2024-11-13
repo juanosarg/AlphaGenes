@@ -26,8 +26,10 @@
 				<li>AG_AbandonedBiotechLabTheta</li>
 				<li>AG_AbandonedBiotechLabIota</li>
 				<li>AG_AbandonedBiotechLabKappa</li>
+				<li>AG_AbandonedBiotechLabLambda</li>
+				<li>AG_AbandonedBiotechLabMu</li>
+				<li>AG_AbandonedBiotechLabNu</li>
 			</structureLayoutDefs>
-		
 			<filthTypes>
 				<li>Filth_Dirt</li>
 				<li>Filth_Trash</li>

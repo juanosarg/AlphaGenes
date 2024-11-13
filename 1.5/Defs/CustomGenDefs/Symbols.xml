@@ -160,149 +160,146 @@
 		<defName>AG_AncientBandNode</defName>
 		<thing>AG_AncientBandNode</thing>
 	</KCSG.SymbolDef>
-	
 	<KCSG.SymbolDef>
-  <defName>AG_AncientBasicRecharger_North</defName>
-  <thing>AG_AncientBasicRecharger</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientGeneExtractor_South</defName>
-  <thing>AG_AncientGeneExtractor</thing>
-  <rotation>South</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientVitalsMonitor_North</defName>
-  <thing>AG_AncientVitalsMonitor</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientWastepackAtomizer</defName>
-  <thing>AG_AncientWastepackAtomizer</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientLargeRecharger_North</defName>
-  <thing>AG_AncientLargeRecharger</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientGeneBank_South</defName>
-  <thing>AG_AncientGeneBank</thing>
-  <rotation>South</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientSubcoreRipscanner_South</defName>
-  <thing>AG_AncientSubcoreRipscanner</thing>
-  <rotation>South</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientSubcoreRipscanner_East</defName>
-  <thing>AG_AncientSubcoreRipscanner</thing>
-  <rotation>East</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientSubcoreRipscanner_West</defName>
-  <thing>AG_AncientSubcoreRipscanner</thing>
-  <rotation>West</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientMechGestator_East</defName>
-  <thing>AG_AncientMechGestator</thing>
-  <rotation>East</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientMechGestator_West</defName>
-  <thing>AG_AncientMechGestator</thing>
-  <rotation>West</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientGeneExtractor_North</defName>
-  <thing>AG_AncientGeneExtractor</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientBasicRecharger_West</defName>
-  <thing>AG_AncientBasicRecharger</thing>
-  <rotation>West</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientMechGestator_North</defName>
-  <thing>AG_AncientMechGestator</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientLargeMechGestator_North</defName>
-  <thing>AG_AncientLargeMechGestator</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientGrowthVat_South</defName>
-  <thing>AG_AncientGrowthVat</thing>
-  <rotation>South</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientFaultyLamp_West</defName>
-  <thing>AG_AncientFaultyLamp</thing>
-  <rotation>West</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_BlueCoralWall</defName>
-  <thing>AG_BlueCoralWall</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_CoralColumn_North</defName>
-  <thing>AG_CoralColumn</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_DecorativeClam</defName>
-  <thing>AG_DecorativeClam</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_LargeLuminescentColumn_North</defName>
-  <thing>AG_LargeLuminescentColumn</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_LargeCoralColumn_North</defName>
-  <thing>AG_LargeCoralColumn</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_LuminescentColumn_North</defName>
-  <thing>AG_LuminescentColumn</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientLargeRecharger_West</defName>
-  <thing>AG_AncientLargeRecharger</thing>
-  <rotation>West</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_AncientBasicRecharger_East</defName>
-  <thing>AG_AncientBasicRecharger</thing>
-  <rotation>East</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>AG_RuinedHospitalBed_Steel_North</defName>
-  <thing>AG_RuinedHospitalBed</thing>
-  <stuff>Steel</stuff>
-</KCSG.SymbolDef>
-
-
+		<defName>AG_AncientBasicRecharger_North</defName>
+		<thing>AG_AncientBasicRecharger</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientGeneExtractor_South</defName>
+		<thing>AG_AncientGeneExtractor</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientVitalsMonitor_North</defName>
+		<thing>AG_AncientVitalsMonitor</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientWastepackAtomizer</defName>
+		<thing>AG_AncientWastepackAtomizer</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientLargeRecharger_North</defName>
+		<thing>AG_AncientLargeRecharger</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientGeneBank_South</defName>
+		<thing>AG_AncientGeneBank</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientSubcoreRipscanner_South</defName>
+		<thing>AG_AncientSubcoreRipscanner</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientSubcoreRipscanner_East</defName>
+		<thing>AG_AncientSubcoreRipscanner</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientSubcoreRipscanner_West</defName>
+		<thing>AG_AncientSubcoreRipscanner</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientMechGestator_East</defName>
+		<thing>AG_AncientMechGestator</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientMechGestator_West</defName>
+		<thing>AG_AncientMechGestator</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientGeneExtractor_North</defName>
+		<thing>AG_AncientGeneExtractor</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientBasicRecharger_West</defName>
+		<thing>AG_AncientBasicRecharger</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientMechGestator_North</defName>
+		<thing>AG_AncientMechGestator</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientLargeMechGestator_North</defName>
+		<thing>AG_AncientLargeMechGestator</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientGrowthVat_South</defName>
+		<thing>AG_AncientGrowthVat</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientFaultyLamp_West</defName>
+		<thing>AG_AncientFaultyLamp</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_BlueCoralWall</defName>
+		<thing>AG_BlueCoralWall</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_CoralColumn_North</defName>
+		<thing>AG_CoralColumn</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_DecorativeClam</defName>
+		<thing>AG_DecorativeClam</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_LargeLuminescentColumn_North</defName>
+		<thing>AG_LargeLuminescentColumn</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_LargeCoralColumn_North</defName>
+		<thing>AG_LargeCoralColumn</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_LuminescentColumn_North</defName>
+		<thing>AG_LuminescentColumn</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientLargeRecharger_West</defName>
+		<thing>AG_AncientLargeRecharger</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientBasicRecharger_East</defName>
+		<thing>AG_AncientBasicRecharger</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_RuinedHospitalBed_Steel_North</defName>
+		<thing>AG_RuinedHospitalBed</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Stool_Steel_Morbid_North</defName>
+		<thing>Stool</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Morbid</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientFaultyLamp_South</defName>
+		<thing>AG_AncientFaultyLamp</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Stool_Steel_Morbid_South</defName>
+		<thing>Stool</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Morbid</styleCategory>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Stool_Steel_Morbid_East</defName>
+		<thing>Stool</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Morbid</styleCategory>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>
