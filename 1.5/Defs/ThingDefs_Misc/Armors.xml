@@ -147,7 +147,7 @@
 	</ThingDef>
 	<ThingDef ParentName="AG_ArmorBaseForsaken">
 		<defName>AG_ForsakenCloak</defName>
-		<description>This cloak has been fabricated by Forsaken for all of their hunting needs. It is lightweight and contains an integrated low-charge shield projector.</description>
+		<description>This cloak has been fabricated by Forsaken for all of their hunting needs.</description>
 		<label>forsaken cloak</label>
 		<thingCategories>
 			<li>ApparelMisc</li>
@@ -200,7 +200,7 @@
 	</ThingDef>
 	<ThingDef ParentName="AG_ArmorBaseForsaken">
 		<defName>AG_ForsakenCloak_Child</defName>
-		<description>This cloak has been fabricated by Forsaken for all of their hunting needs. It is lightweight and contains an integrated low-charge shield projector.</description>
+		<description>This cloak has been fabricated by Forsaken for all of their hunting needs.</description>
 		<label>forsaken kid cloak</label>
 		<thingCategories>
 			<li>ApparelMisc</li>
