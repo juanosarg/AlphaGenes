@@ -1,0 +1,1324 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\hediff_shambler_postmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\hediff_shambler_postmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\bodypartdef_getmaxhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\bodypartdef_getmaxhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\harmony\\workgiver_growersow_extrarequirements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\workgiver_growersow_extrarequirements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\harmony\\jobgiver_optimizeapparel_apparelscoregain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\jobgiver_optimizeapparel_apparelscoregain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\equipmentutility_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\equipmentutility_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\harmony\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\harmonyinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\harmonyinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\wealthwatcher_forcerecount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\wealthwatcher_forcerecount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\compnightlingaffinity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\compnightlingaffinity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\properties\\compproperties_nightlingaffinity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\properties\\compproperties_nightlingaffinity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\compmechconversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\compmechconversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\comptargeteffect_chooseandremovegene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\comptargeteffect_chooseandremovegene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\comptargeteffect_xenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\comptargeteffect_xenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\dialogs\\dialog_chooseandremovegene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\dialogs\\dialog_chooseandremovegene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\comptargeteffect_archoendogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\comptargeteffect_archoendogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\comptargeteffect_archoxenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\comptargeteffect_archoxenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\dialogs\\dialog_xenogenetoendogene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\dialogs\\dialog_xenogenetoendogene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\comppocketplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\comppocketplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\dialogs\\dialog_endogenetoxenogene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\dialogs\\dialog_endogenetoxenogene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\compproperties\\compproperties_targeteffect_archoendogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\compproperties\\compproperties_targeteffect_archoendogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\compproperties\\compproperties_targeteffect_archoxenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\compproperties\\compproperties_targeteffect_archoxenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ai\\jobdrivers\\jobdriver_usearchoxenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ai\\jobdrivers\\jobdriver_usearchoxenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ai\\jobdrivers\\jobdriver_usearchoendogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ai\\jobdrivers\\jobdriver_usearchoendogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ai\\jobdrivers\\jobdriver_usearchogeneremover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ai\\jobdrivers\\jobdriver_usearchogeneremover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\compproperties\\compproperties_randomitemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\compproperties\\compproperties_randomitemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\comprandomitemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\comprandomitemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\compproperties\\compproperties_targeteffect_chooseandremovegene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\compproperties\\compproperties_targeteffect_chooseandremovegene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\comptargeteffect_xenotypenullifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\comptargeteffect_xenotypenullifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\projectiles\\blackhydrabullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\projectiles\\blackhydrabullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ai\\workgivers\\workgiver_dobill_forsaken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ai\\workgivers\\workgiver_dobill_forsaken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\thoughtworker_psychicdrone_currentstateinternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\thoughtworker_psychicdrone_currentstateinternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\genconstruct_canconstruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\genconstruct_canconstruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\thoughtworker_ugly_currentsocialstateinternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\thoughtworker_ugly_currentsocialstateinternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\thoughtworker_dark_currentstateinternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\thoughtworker_dark_currentstateinternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\relationsutility_isdisfigured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\relationsutility_isdisfigured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\pawnutility_bodyresourcegrowthspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\pawnutility_bodyresourcegrowthspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\pawngenerator_generatepawnrelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\pawngenerator_generatepawnrelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\pawn_relationstracker_prettinessfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\pawn_relationstracker_prettinessfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\pawn_mechanitortracker_cancommandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\pawn_mechanitortracker_cancommandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\pawn_mechanitortracker_drawcommandradius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\pawn_mechanitortracker_drawcommandradius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\pawn_interactionstracker_startsocialfight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\pawn_interactionstracker_startsocialfight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\pawn_healthtracker_makedowned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\pawn_healthtracker_makedowned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\meditationfocustypeavailabilitycache_pawncanuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\meditationfocustypeavailabilitycache_pawncanuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\meditationfocusdef_enablingthingsexplanation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\meditationfocusdef_enablingthingsexplanation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\jobdriver_vomit_makenewtoils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\jobdriver_vomit_makenewtoils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\jobdriver_repairmech_makenewtoils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\jobdriver_repairmech_makenewtoils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\hediffcomp_pregnanthuman_comptipstringextra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\hediffcomp_pregnanthuman_comptipstringextra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\hediffcomp_disappearspausable_compposttick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\hediffcomp_disappearspausable_compposttick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\haulaiutility_pawncanautomaticallyhaulfast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\haulaiutility_pawncanautomaticallyhaulfast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\genepack_postmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\genepack_postmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\genedefgenerator_impliedgenedefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\genedefgenerator_impliedgenedefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\foodutility_thoughtsfromingesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\foodutility_thoughtsfromingesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\foodutility_nutritionforeater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\foodutility_nutritionforeater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\fireutility_caneverattachfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\fireutility_caneverattachfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\corpse_rotstagechanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\corpse_rotstagechanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ai\\workgivers\\workgiver_forceeatmetal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ai\\workgivers\\workgiver_forceeatmetal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\properties\\compproperties_pocketplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\properties\\compproperties_pocketplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\comptargetablehuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\comptargetablehuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ai\\jobdrivers\\jobdriver_usexenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ai\\jobdrivers\\jobdriver_usexenogenefier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\comps\\comptargeteffect_xenotypeinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\comps\\comptargeteffect_xenotypeinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\pawn_kill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\pawn_kill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\compdestroypocketplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\compdestroypocketplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\hediffcomps\\hediffcomp_randommutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\hediffcomps\\hediffcomp_randommutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\thoughtworkers\\thoughtworker_thalassophobia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\thoughtworkers\\thoughtworker_thalassophobia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\mentalbreakdefs\\mentalbreakworker_thalassophobia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\mentalbreakdefs\\mentalbreakworker_thalassophobia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\staticcollections\\staticcollectionsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\staticcollections\\staticcollectionsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\damageworkers\\damageworker_freezing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\damageworkers\\damageworker_freezing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\hediffcomps\\hediffcomp_meatburst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\hediffcomps\\hediffcomp_meatburst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\hediffcomps\\hediffcomp_corpsedecayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\hediffcomps\\hediffcomp_corpsedecayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\hediffcomps\\properties\\hediffcompproperties_corpsedecayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\hediffcomps\\properties\\hediffcompproperties_corpsedecayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\defs\\genepackblacklistdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\defs\\genepackblacklistdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\compabilityeffect_adaptivebiology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\compabilityeffect_adaptivebiology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\defs\\blacklistedtraitsdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\defs\\blacklistedtraitsdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AlphaGenes||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaExpandedFramework\\Source\\VFECore\\Genes\\DefModExtensions\\GeneExtension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\thoughtworkers\\thoughtworker_stinky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\thoughtworkers\\thoughtworker_stinky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\compabsorbfleshbeast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\compabsorbfleshbeast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\ability comps\\properties\\compproperties_absorbfleshbeast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\properties\\compproperties_absorbfleshbeast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\defs\\wretchblacklistdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\defs\\wretchblacklistdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobGiver_OptimizeApparel_ApparelScoreGain.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:07:25.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Test.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Test.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Test.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:28:35.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkGiver_GrowerSow_ExtraRequirements.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BodyPartDef_GetMaxHealth.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\BodyPartDef_GetMaxHealth.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\BodyPartDef_GetMaxHealth.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\BodyPartDef_GetMaxHealth.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\BodyPartDef_GetMaxHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EquipmentUtility_CanEquip.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hediff_Shambler_PostMake.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Hediff_Shambler_PostMake.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Hediff_Shambler_PostMake.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Hediff_Shambler_PostMake.cs*",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Hediff_Shambler_PostMake.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwDIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InternalDefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\DefOfs\\InternalDefOf.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\DefOfs\\InternalDefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\DefOfs\\InternalDefOf.cs",
+              "RelativeToolTip": "AlphaGenes\\DefOfs\\InternalDefOf.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompMechConversion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompMechConversion.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompMechConversion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompMechConversion.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\CompMechConversion.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAswGsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WealthWatcher_ForceRecount.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\WealthWatcher_ForceRecount.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\WealthWatcher_ForceRecount.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\WealthWatcher_ForceRecount.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\WealthWatcher_ForceRecount.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HarmonyInstance.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HarmonyInstance.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\HarmonyInstance.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HarmonyInstance.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\HarmonyInstance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CompPocketPlane.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompPocketPlane.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompPocketPlane.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompPocketPlane.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\CompPocketPlane.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompTargetEffect_Xenogenefier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_Xenogenefier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_Xenogenefier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_Xenogenefier.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompTargetEffect_Xenogenefier.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompNightlingAffinity.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompNightlingAffinity.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompNightlingAffinity.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompNightlingAffinity.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\CompNightlingAffinity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.482Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompTargetEffect_ArchoEndogenefier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ArchoEndogenefier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_ArchoEndogenefier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ArchoEndogenefier.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompTargetEffect_ArchoEndogenefier.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompProperties_NightlingAffinity.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_NightlingAffinity.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\Properties\\CompProperties_NightlingAffinity.cs",
+              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_NightlingAffinity.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompTargetEffect_ArchoXenogenefier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ArchoXenogenefier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_ArchoXenogenefier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ArchoXenogenefier.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompTargetEffect_ArchoXenogenefier.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dialog_ChooseAndRemoveGene.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_ChooseAndRemoveGene.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Dialogs\\Dialog_ChooseAndRemoveGene.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_ChooseAndRemoveGene.cs",
+              "RelativeToolTip": "AlphaGenes\\Dialogs\\Dialog_ChooseAndRemoveGene.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAFoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dialog_XenogeneToEndogene.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_XenogeneToEndogene.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Dialogs\\Dialog_XenogeneToEndogene.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_XenogeneToEndogene.cs",
+              "RelativeToolTip": "AlphaGenes\\Dialogs\\Dialog_XenogeneToEndogene.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompTargetEffect_ChooseAndRemoveGene.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ChooseAndRemoveGene.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_ChooseAndRemoveGene.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ChooseAndRemoveGene.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompTargetEffect_ChooseAndRemoveGene.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dialog_EndogeneToXenogene.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_EndogeneToXenogene.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Dialogs\\Dialog_EndogeneToXenogene.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_EndogeneToXenogene.cs",
+              "RelativeToolTip": "AlphaGenes\\Dialogs\\Dialog_EndogeneToXenogene.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAFsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompProperties_TargetEffect_ArchoEndogenefier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoEndogenefier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoEndogenefier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoEndogenefier.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoEndogenefier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CompProperties_TargetEffect_ArchoXenogenefier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoXenogenefier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoXenogenefier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoXenogenefier.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoXenogenefier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JobDriver_UseArchoXenogenefier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoXenogenefier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoXenogenefier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoXenogenefier.cs",
+              "RelativeToolTip": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoXenogenefier.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JobDriver_UseArchoEndogenefier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoEndogenefier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoEndogenefier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoEndogenefier.cs",
+              "RelativeToolTip": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoEndogenefier.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CompProperties_RandomItemSpawner.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_RandomItemSpawner.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompProperties\\CompProperties_RandomItemSpawner.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_RandomItemSpawner.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompProperties\\CompProperties_RandomItemSpawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JobDriver_UseArchoGeneRemover.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoGeneRemover.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoGeneRemover.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoGeneRemover.cs",
+              "RelativeToolTip": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoGeneRemover.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADUAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CompRandomItemSpawner.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompRandomItemSpawner.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompRandomItemSpawner.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompRandomItemSpawner.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompRandomItemSpawner.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CompProperties_TargetEffect_ChooseAndRemoveGene.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ChooseAndRemoveGene.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ChooseAndRemoveGene.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ChooseAndRemoveGene.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ChooseAndRemoveGene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BlackHydraBullet.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Projectiles\\BlackHydraBullet.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Projectiles\\BlackHydraBullet.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Projectiles\\BlackHydraBullet.cs",
+              "RelativeToolTip": "AlphaGenes\\Projectiles\\BlackHydraBullet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WorkGiver_DoBill_Forsaken.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\WorkGivers\\WorkGiver_DoBill_Forsaken.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\AI\\WorkGivers\\WorkGiver_DoBill_Forsaken.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\WorkGivers\\WorkGiver_DoBill_Forsaken.cs",
+              "RelativeToolTip": "AlphaGenes\\AI\\WorkGivers\\WorkGiver_DoBill_Forsaken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ThoughtWorker_PsychicDrone_CurrentStateInternal.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CompTargetEffect_XenotypeNullifier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_XenotypeNullifier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_XenotypeNullifier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_XenotypeNullifier.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompTargetEffect_XenotypeNullifier.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ThoughtWorker_Ugly_CurrentSocialStateInternal.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ThoughtWorker_Dark_CurrentStateInternal.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_Dark_CurrentStateInternal.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\ThoughtWorker_Dark_CurrentStateInternal.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_Dark_CurrentStateInternal.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\ThoughtWorker_Dark_CurrentStateInternal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GenConstruct_CanConstruct.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GenConstruct_CanConstruct.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\GenConstruct_CanConstruct.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GenConstruct_CanConstruct.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\GenConstruct_CanConstruct.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswBcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RelationsUtility_IsDisfigured.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\RelationsUtility_IsDisfigured.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\RelationsUtility_IsDisfigured.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\RelationsUtility_IsDisfigured.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\RelationsUtility_IsDisfigured.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Pawn_RelationsTracker_PrettinessFactor.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_RelationsTracker_PrettinessFactor.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_RelationsTracker_PrettinessFactor.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_RelationsTracker_PrettinessFactor.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Pawn_RelationsTracker_PrettinessFactor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Pawn_MechanitorTracker_CanCommandTo.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_MechanitorTracker_CanCommandTo.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_MechanitorTracker_CanCommandTo.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_MechanitorTracker_CanCommandTo.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Pawn_MechanitorTracker_CanCommandTo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Pawn_InteractionsTracker_StartSocialFight.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_InteractionsTracker_StartSocialFight.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_InteractionsTracker_StartSocialFight.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_InteractionsTracker_StartSocialFight.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Pawn_InteractionsTracker_StartSocialFight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MeditationFocusTypeAvailabilityCache_PawnCanUse.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\MeditationFocusTypeAvailabilityCache_PawnCanUse.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\MeditationFocusTypeAvailabilityCache_PawnCanUse.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\MeditationFocusTypeAvailabilityCache_PawnCanUse.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\MeditationFocusTypeAvailabilityCache_PawnCanUse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "JobDriver_Vomit_MakeNewToils.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobDriver_Vomit_MakeNewToils.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\JobDriver_Vomit_MakeNewToils.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobDriver_Vomit_MakeNewToils.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\JobDriver_Vomit_MakeNewToils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PawnGenerator_GeneratePawnRelations.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\PawnGenerator_GeneratePawnRelations.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\PawnGenerator_GeneratePawnRelations.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\PawnGenerator_GeneratePawnRelations.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\PawnGenerator_GeneratePawnRelations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PawnUtility_BodyResourceGrowthSpeed.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\PawnUtility_BodyResourceGrowthSpeed.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\PawnUtility_BodyResourceGrowthSpeed.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\PawnUtility_BodyResourceGrowthSpeed.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\PawnUtility_BodyResourceGrowthSpeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "JobDriver_RepairMech_MakeNewToils.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobDriver_RepairMech_MakeNewToils.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\JobDriver_RepairMech_MakeNewToils.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobDriver_RepairMech_MakeNewToils.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\JobDriver_RepairMech_MakeNewToils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HediffComp_PregnantHuman_CompTipStringExtra.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HediffComp_PregnantHuman_CompTipStringExtra.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\HediffComp_PregnantHuman_CompTipStringExtra.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HediffComp_PregnantHuman_CompTipStringExtra.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\HediffComp_PregnantHuman_CompTipStringExtra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Pawn_MechanitorTracker_DrawCommandRadius.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_MechanitorTracker_DrawCommandRadius.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_MechanitorTracker_DrawCommandRadius.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_MechanitorTracker_DrawCommandRadius.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Pawn_MechanitorTracker_DrawCommandRadius.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "HediffComp_DisappearsPausable_CompPostTick.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HediffComp_DisappearsPausable_CompPostTick.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\HediffComp_DisappearsPausable_CompPostTick.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HediffComp_DisappearsPausable_CompPostTick.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\HediffComp_DisappearsPausable_CompPostTick.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HaulAIUtility_PawnCanAutomaticallyHaulFast.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Pawn_HealthTracker_MakeDowned.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_HealthTracker_MakeDowned.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_HealthTracker_MakeDowned.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_HealthTracker_MakeDowned.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Pawn_HealthTracker_MakeDowned.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GenRecipe_PostProcessProduct.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GenRecipe_PostProcessProduct.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\GenRecipe_PostProcessProduct.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GenRecipe_PostProcessProduct.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\GenRecipe_PostProcessProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MeditationFocusDef_EnablingThingsExplanation.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\MeditationFocusDef_EnablingThingsExplanation.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\MeditationFocusDef_EnablingThingsExplanation.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\MeditationFocusDef_EnablingThingsExplanation.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\MeditationFocusDef_EnablingThingsExplanation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "FoodUtility_NutritionForEater.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FoodUtility_NutritionForEater.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\FoodUtility_NutritionForEater.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FoodUtility_NutritionForEater.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\FoodUtility_NutritionForEater.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FoodUtility_ThoughtsFromIngesting.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FoodUtility_ThoughtsFromIngesting.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\FoodUtility_ThoughtsFromIngesting.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FoodUtility_ThoughtsFromIngesting.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\FoodUtility_ThoughtsFromIngesting.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GeneDefGenerator_ImpliedGeneDefs.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GeneDefGenerator_ImpliedGeneDefs.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\GeneDefGenerator_ImpliedGeneDefs.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GeneDefGenerator_ImpliedGeneDefs.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\GeneDefGenerator_ImpliedGeneDefs.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FireUtility_CanEverAttachFire.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FireUtility_CanEverAttachFire.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\FireUtility_CanEverAttachFire.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FireUtility_CanEverAttachFire.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\FireUtility_CanEverAttachFire.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Genepack_PostMake.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Genepack_PostMake.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Genepack_PostMake.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Genepack_PostMake.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Genepack_PostMake.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwHQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Corpse_RotStageChanged.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Corpse_RotStageChanged.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Corpse_RotStageChanged.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Corpse_RotStageChanged.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Corpse_RotStageChanged.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "JobDriver_UseXenogenefier.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseXenogenefier.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseXenogenefier.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseXenogenefier.cs",
+              "RelativeToolTip": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseXenogenefier.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAswDMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CompTargetableHuman.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetableHuman.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetableHuman.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetableHuman.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompTargetableHuman.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CompProperties_PocketPlane.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_PocketPlane.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\Properties\\CompProperties_PocketPlane.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_PocketPlane.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\Properties\\CompProperties_PocketPlane.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "WorkGiver_ForceEatMetal.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\WorkGivers\\WorkGiver_ForceEatMetal.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\AI\\WorkGivers\\WorkGiver_ForceEatMetal.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\WorkGivers\\WorkGiver_ForceEatMetal.cs",
+              "RelativeToolTip": "AlphaGenes\\AI\\WorkGivers\\WorkGiver_ForceEatMetal.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CompTargetEffect_XenotypeInjector.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_XenotypeInjector.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_XenotypeInjector.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_XenotypeInjector.cs",
+              "RelativeToolTip": "AlphaGenes\\Comps\\CompTargetEffect_XenotypeInjector.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Pawn_Kill.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_Kill.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_Kill.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_Kill.cs",
+              "RelativeToolTip": "AlphaGenes\\Harmony\\Pawn_Kill.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DamageWorker_Freezing.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\DamageWorkers\\DamageWorker_Freezing.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\DamageWorkers\\DamageWorker_Freezing.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\DamageWorkers\\DamageWorker_Freezing.cs",
+              "RelativeToolTip": "AlphaGenes\\DamageWorkers\\DamageWorker_Freezing.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAswCQAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "HediffComp_RandomMutation.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_RandomMutation.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\HediffComp_RandomMutation.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_RandomMutation.cs",
+              "RelativeToolTip": "AlphaGenes\\HediffComps\\HediffComp_RandomMutation.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAGgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CompDestroyPocketPlane.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompDestroyPocketPlane.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompDestroyPocketPlane.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompDestroyPocketPlane.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\CompDestroyPocketPlane.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "StaticCollectionsClass.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\StaticCollections\\StaticCollectionsClass.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\StaticCollections\\StaticCollectionsClass.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\StaticCollections\\StaticCollectionsClass.cs",
+              "RelativeToolTip": "AlphaGenes\\StaticCollections\\StaticCollectionsClass.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAswDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "MentalBreakWorker_Thalassophobia.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\MentalBreakDefs\\MentalBreakWorker_Thalassophobia.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\MentalBreakDefs\\MentalBreakWorker_Thalassophobia.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\MentalBreakDefs\\MentalBreakWorker_Thalassophobia.cs",
+              "RelativeToolTip": "AlphaGenes\\MentalBreakDefs\\MentalBreakWorker_Thalassophobia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ThoughtWorker_Thalassophobia.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Thalassophobia.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Thalassophobia.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Thalassophobia.cs",
+              "RelativeToolTip": "AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Thalassophobia.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "GenePackBlacklistDef.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\GenePackBlacklistDef.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Defs\\GenePackBlacklistDef.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\GenePackBlacklistDef.cs",
+              "RelativeToolTip": "AlphaGenes\\Defs\\GenePackBlacklistDef.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CompAbilityEffect_AdaptiveBiology.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompAbilityEffect_AdaptiveBiology.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompAbilityEffect_AdaptiveBiology.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompAbilityEffect_AdaptiveBiology.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\CompAbilityEffect_AdaptiveBiology.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "BlackListedTraitsDef.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\BlackListedTraitsDef.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Defs\\BlackListedTraitsDef.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\BlackListedTraitsDef.cs",
+              "RelativeToolTip": "AlphaGenes\\Defs\\BlackListedTraitsDef.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "HediffComp_MeatBurst.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_MeatBurst.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\HediffComp_MeatBurst.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_MeatBurst.cs",
+              "RelativeToolTip": "AlphaGenes\\HediffComps\\HediffComp_MeatBurst.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "HediffComp_CorpseDecayer.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_CorpseDecayer.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\HediffComp_CorpseDecayer.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_CorpseDecayer.cs",
+              "RelativeToolTip": "AlphaGenes\\HediffComps\\HediffComp_CorpseDecayer.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAswBMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:10.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "HediffCompProperties_CorpseDecayer.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_CorpseDecayer.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_CorpseDecayer.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_CorpseDecayer.cs",
+              "RelativeToolTip": "AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_CorpseDecayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "AlphaGenes",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AlphaGenes.csproj",
+              "RelativeDocumentMoniker": "AlphaGenes\\AlphaGenes.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AlphaGenes.csproj",
+              "RelativeToolTip": "AlphaGenes\\AlphaGenes.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-20T09:48:02.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "GeneExtension.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaExpandedFramework\\Source\\VFECore\\Genes\\DefModExtensions\\GeneExtension.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\VanillaExpandedFramework\\Source\\VFECore\\Genes\\DefModExtensions\\GeneExtension.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaExpandedFramework\\Source\\VFECore\\Genes\\DefModExtensions\\GeneExtension.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\VanillaExpandedFramework\\Source\\VFECore\\Genes\\DefModExtensions\\GeneExtension.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:11.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ThoughtWorker_Stinky.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Stinky.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Stinky.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Stinky.cs",
+              "RelativeToolTip": "AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Stinky.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:11.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CompAbsorbFleshbeast.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompAbsorbFleshbeast.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompAbsorbFleshbeast.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompAbsorbFleshbeast.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\CompAbsorbFleshbeast.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:11.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "CompProperties_AbsorbFleshbeast.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_AbsorbFleshbeast.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\Properties\\CompProperties_AbsorbFleshbeast.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_AbsorbFleshbeast.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\Properties\\CompProperties_AbsorbFleshbeast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:11.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "WretchBlacklistDef.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\WretchBlacklistDef.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Defs\\WretchBlacklistDef.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\WretchBlacklistDef.cs",
+              "RelativeToolTip": "AlphaGenes\\Defs\\WretchBlacklistDef.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:26:11.041Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

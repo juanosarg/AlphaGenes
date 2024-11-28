@@ -12,6 +12,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>0.6</drawSize>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<MarketValue>2</MarketValue>

@@ -33,9 +33,7 @@
 				<Crafting>12</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
+	
 		<apparel>
 			<tags>
 				<li>Forsaken</li>

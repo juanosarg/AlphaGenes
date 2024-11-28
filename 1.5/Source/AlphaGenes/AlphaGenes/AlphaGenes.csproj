@@ -459,6 +459,7 @@
     <Compile Include="Harmony\JobDriver_Vomit_MakeNewToils.cs" />
     <Compile Include="Harmony\HediffComp_PregnantHuman_CompTipStringExtra.cs" />
     <Compile Include="Harmony\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs" />
+    <Compile Include="Harmony\JobGiver_OptimizeApparel_ApparelScoreGain.cs" />
     <Compile Include="Harmony\MeditationFocusDef_EnablingThingsExplanation.cs" />
     <Compile Include="Harmony\MeditationFocusTypeAvailabilityCache_PawnCanUse.cs" />
     <Compile Include="Harmony\PawnGenerator_GeneratePawnRelations.cs" />
@@ -472,6 +473,7 @@
     <Compile Include="Harmony\Pawn_MechanitorTracker_DrawCommandRadius.cs" />
     <Compile Include="Harmony\Pawn_RelationsTracker_PrettinessFactor.cs" />
     <Compile Include="Harmony\RelationsUtility_IsDisfigured.cs" />
+    <Compile Include="Harmony\Test.cs" />
     <Compile Include="Harmony\ThoughtWorker_Dark_CurrentStateInternal.cs" />
     <Compile Include="Harmony\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs" />
     <Compile Include="Harmony\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs" />
