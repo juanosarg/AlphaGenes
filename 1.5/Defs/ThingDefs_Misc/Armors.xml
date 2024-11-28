@@ -52,7 +52,7 @@
 		<defName>AG_Forsaken_Hood</defName>
 		<label>forsaken hood</label>
 		<thingCategories>
-			<li>Headgear</li>
+			<li>Headgear</li> 
 		</thingCategories>
 		<description>This Forsaken-style hood gives protection, while helping the wearer keep calm and focused.</description>
 		<graphicData>
