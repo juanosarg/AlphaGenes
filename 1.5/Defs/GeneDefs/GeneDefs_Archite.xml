@@ -30,6 +30,9 @@
 		<selectionWeight>0</selectionWeight>
 		<marketValueFactor>2</marketValueFactor>
 		<biostatArc>1</biostatArc>
+		<exclusionTags>
+			<li>Mood</li>
+		</exclusionTags>
 		<symbolPack>
 			<prefixSymbols>
 				<li>

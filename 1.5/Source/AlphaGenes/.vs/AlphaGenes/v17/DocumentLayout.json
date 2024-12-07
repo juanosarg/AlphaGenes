@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\hediff_shambler_postmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\hediff_shambler_postmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\jobgiver_optimizeapparel_apparelscoregain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\jobgiver_optimizeapparel_apparelscoregain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\bodypartdef_getmaxhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\bodypartdef_getmaxhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\harmony\\workgiver_growersow_extrarequirements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\workgiver_growersow_extrarequirements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\harmony\\jobgiver_optimizeapparel_apparelscoregain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\jobgiver_optimizeapparel_apparelscoregain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\equipmentutility_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\equipmentutility_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\harmony\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\harmony\\hediff_shambler_postmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\hediff_shambler_postmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\workgiver_growersow_extrarequirements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\workgiver_growersow_extrarequirements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\alphagenes\\harmony\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\harmony\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -332,17 +332,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "JobGiver_OptimizeApparel_ApparelScoreGain.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
               "RelativeToolTip": "AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T15:07:25.902Z",
               "EditorCaption": ""
@@ -357,12 +357,11 @@
               "RelativeToolTip": "AlphaGenes\\Harmony\\Test.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:28:35.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T14:28:35.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "WorkGiver_GrowerSow_ExtraRequirements.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
@@ -370,8 +369,7 @@
               "RelativeToolTip": "AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
               "ViewState": "AgIAABMAAAAAAAAAAADwvyIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:26:10.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T14:26:10.763Z"
             },
             {
               "$type": "Document",
@@ -388,20 +386,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "EquipmentUtility_CanEquip.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
               "RelativeToolTip": "AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAwAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T14:26:10.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Hediff_Shambler_PostMake.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Hediff_Shambler_PostMake.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Hediff_Shambler_PostMake.cs",
@@ -446,8 +444,7 @@
               "RelativeToolTip": "AlphaGenes\\Harmony\\WealthWatcher_ForceRecount.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:26:10.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T14:26:10.927Z"
             },
             {
               "$type": "Document",
@@ -459,8 +456,7 @@
               "RelativeToolTip": "AlphaGenes\\Harmony\\HarmonyInstance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:26:10.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T14:26:10.97Z"
             },
             {
               "$type": "Document",
@@ -497,10 +493,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T14:26:10.482Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
