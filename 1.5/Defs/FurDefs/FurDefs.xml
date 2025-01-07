@@ -9,8 +9,8 @@
 			<Hulk>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Hulk</Hulk>
 			<Fat>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Fat</Fat>
 			<Thin>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Thin>
-			<Child>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Child>
-			<Baby>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Thin</Baby>
+			<Child>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Child</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/AG_SlugBody/AG_SlugBody_Child</Baby>
 		</bodyTypeGraphicPaths>
 	</FurDef>
 	<FurDef>
@@ -22,8 +22,8 @@
 			<Hulk>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Hulk</Hulk>
 			<Fat>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Fat</Fat>
 			<Thin>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Thin</Thin>
-			<Child>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Thin</Child>
-			<Baby>Things/Pawn/Humanlike/Bodies/AG_ScalyBody/AG_ScalyBody_Thin</Baby>
+			<Child>Things/Pawn/Humanlike/Bodies/Naked_Child</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/Naked_Child</Baby>
 		</bodyTypeGraphicPaths>
 	</FurDef>
 	<FurDef>
@@ -35,8 +35,8 @@
 			<Hulk>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Hulk</Hulk>
 			<Fat>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Fat</Fat>
 			<Thin>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Thin>
-			<Child>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Child>
-			<Baby>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Thin</Baby>
+			<Child>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Child</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/AG_TrueBlack/AG_TrueBlackBody_Child</Baby>
 		</bodyTypeGraphicPaths>
 	</FurDef>
 	<FurDef>
@@ -48,8 +48,8 @@
 			<Hulk>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Hulk</Hulk>
 			<Fat>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Fat</Fat>
 			<Thin>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Thin>
-			<Child>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Child>
-			<Baby>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Thin</Baby>
+			<Child>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Child</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/AG_SilverBody/AG_SilverBody_Child</Baby>
 		</bodyTypeGraphicPaths>
 	</FurDef>
 	<FurDef>
@@ -87,8 +87,8 @@
 			<Hulk>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Hulk</Hulk>
 			<Fat>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Fat</Fat>
 			<Thin>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Thin>
-			<Child>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Child>
-			<Baby>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Thin</Baby>
+			<Child>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Child</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/AG_TeratoBody/AG_TeratoBody_Child</Baby>
 		</bodyTypeGraphicPaths>
 	</FurDef>
 	<FurDef>
@@ -100,8 +100,8 @@
 			<Hulk>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Hulk</Hulk>
 			<Fat>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Fat</Fat>
 			<Thin>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Thin>
-			<Child>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Child>
-			<Baby>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Baby>
+			<Child>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Child</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Child</Baby>
 		</bodyTypeGraphicPaths>
 	</FurDef>
 	<FurDef>
