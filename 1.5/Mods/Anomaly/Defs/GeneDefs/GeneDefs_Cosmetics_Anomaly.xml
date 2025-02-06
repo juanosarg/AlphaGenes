@@ -208,9 +208,9 @@
 		<selectionWeight>0</selectionWeight>
 		<renderNodeProperties>
 			<li Class="PawnRenderNodeProperties_Spastic">
-				<debugLabel>Spike</debugLabel>
+			
 				<texPath>Things/Pawn/Fleshbeast/Fingerspike/Attachments/Fingerspike_TopLimb</texPath>
-				<linkedBodyPartsGroup>MiddleSpike</linkedBodyPartsGroup>
+			
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
 				<rotateFacing>false</rotateFacing>
 				<rotationRange>-18~18</rotationRange>
