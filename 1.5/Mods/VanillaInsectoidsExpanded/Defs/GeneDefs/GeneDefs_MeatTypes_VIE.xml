@@ -20,6 +20,9 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<customMeatThingDef>VFEI2_RoyalInsectJelly</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>VFEI2_RoyalInsectJelly</li>
+				</defsTreatedAsHumanMeat>
 			</li>
 		</modExtensions>
 	</GeneDef>

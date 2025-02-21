@@ -19,6 +19,9 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<customMeatThingDef>Meat_Twisted</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>Meat_Twisted</li>
+				</defsTreatedAsHumanMeat>
 			</li>
 		</modExtensions>
 	</GeneDef>

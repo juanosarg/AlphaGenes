@@ -15,6 +15,9 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<customMeatThingDef>VAEWaste_ToxicMeat</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>VAEWaste_ToxicMeat</li>
+				</defsTreatedAsHumanMeat>
 			</li>
 		</modExtensions>
 	</GeneDef>
