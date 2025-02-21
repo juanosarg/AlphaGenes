@@ -28,6 +28,9 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<customMeatThingDef>InsectJelly</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>InsectJelly</li>
+				</defsTreatedAsHumanMeat>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -47,6 +50,9 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<customMeatThingDef>Chocolate</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>Chocolate</li>
+				</defsTreatedAsHumanMeat>
 			</li>
 		</modExtensions>
 	</GeneDef>

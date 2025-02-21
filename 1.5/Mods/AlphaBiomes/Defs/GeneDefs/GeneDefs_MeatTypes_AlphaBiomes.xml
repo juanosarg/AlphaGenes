@@ -15,6 +15,9 @@
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 				<customMeatThingDef>AB_PsychotropicFungus</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>AB_PsychotropicFungus</li>
+				</defsTreatedAsHumanMeat>
 			</li>
 		</modExtensions>
 	</GeneDef>
