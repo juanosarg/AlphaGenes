@@ -25,6 +25,7 @@
 			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
 		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
 		<stuffProps>
 			<color>(42,42,42)</color>
 			<statFactors>

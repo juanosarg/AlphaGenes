@@ -171,6 +171,8 @@
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
 				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
 				<parentTagDef>Head</parentTagDef>
+				<useSkinShader>false</useSkinShader>
+				<colorType>Hair</colorType>
 				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_RockSpurs/AG_Male_Rock_Average_Normal</texPath>
 				<drawData>
 					<defaultData>

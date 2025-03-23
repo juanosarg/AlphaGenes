@@ -22,6 +22,8 @@
 				<AG_Efreet>0.0125</AG_Efreet>
 				<AG_Drakonori>0.0125</AG_Drakonori>
 				<AG_Nereid>0.0125</AG_Nereid>
+				<AG_Forsaken>0.01</AG_Forsaken>
+				<AG_Fleetkind>0.005</AG_Fleetkind>
 			</xenotypeChances>
 			
 		</xenotypeSet>
@@ -50,6 +52,8 @@
 				<AG_Efreet>0.0125</AG_Efreet>
 				<AG_Drakonori>0.0125</AG_Drakonori>
 				<AG_Nereid>0.0125</AG_Nereid>
+				<AG_Forsaken>0.01</AG_Forsaken>
+				<AG_Fleetkind>0.005</AG_Fleetkind>
 			</xenotypeChances>
 			
 		</xenotypeSet>

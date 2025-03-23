@@ -106,7 +106,7 @@
 			<li>AG_Regeneration</li>
 		</exclusionTags>
 		<customEffectDescriptions>
-			<li>A random limb wound is reduced by 1 severity every day. If the organ has been destroyed it will be restored with 1 hit point.</li>
+			<li>A random limb wound is reduced by 1 severity every day. If the organ has been destroyed it will be restored with 2 hit points, bleeding.</li>
 			<li>This will affect damage to parts that are not internal organs.</li>
 		</customEffectDescriptions>
 		<marketValueFactor>1.25</marketValueFactor>

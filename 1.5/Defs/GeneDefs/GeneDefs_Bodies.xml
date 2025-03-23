@@ -171,7 +171,7 @@
 		<selectionWeight>0</selectionWeight>
 		<displayOrderInCategory>430</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/AG_RockyBody</iconPath>
-		<bodyType>Standard</bodyType>
+		
 		<symbolPack>
 			<prefixSymbols>
 				<li>
@@ -202,7 +202,8 @@
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<dontColourFur>true</dontColourFur>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<furHidesBody>true</furHidesBody>
 			</li>
 		</modExtensions>
 	</GeneDef>

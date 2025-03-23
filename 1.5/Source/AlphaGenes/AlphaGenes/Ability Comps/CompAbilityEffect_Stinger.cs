@@ -108,6 +108,7 @@ namespace AlphaGenes
             }
             else
             {
+                ClearEndogenes(recipient);
                 foreach (Gene endogene in caster.genes.Endogenes)
                 {
                     recipient.genes.AddGene(endogene.def, xenogene: false);
@@ -133,6 +134,14 @@ namespace AlphaGenes
             }
             pawn.health.AddHediff(HediffDefOf.XenogermReplicating);
 
+        }
+
+        public void ClearEndogenes(Pawn pawn)
+        {
+            for (int num = pawn.genes.Endogenes.Count - 1; num >= 0; num--)
+            {
+                pawn.genes.RemoveGene(pawn.genes.Endogenes[num]);
+            }
         }
 
 

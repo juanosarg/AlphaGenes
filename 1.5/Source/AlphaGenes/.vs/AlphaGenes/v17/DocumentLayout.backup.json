@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\hediffcomps\\hediffcomp_limbregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\hediffcomps\\hediffcomp_limbregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\hediffcomps\\properties\\hediffcompproperties_limbregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\hediffcomps\\properties\\hediffcompproperties_limbregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\ability comps\\compabilityeffect_stinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\ability comps\\compabilityeffect_stinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphagenes\\1.5\\source\\alphagenes\\alphagenes\\gene classes\\gene_randomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|AlphaGenes\\AlphaGenes.csproj|solutionrelative:alphagenes\\gene classes\\gene_randomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -336,15 +348,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HediffComp_LimbRegeneration.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_LimbRegeneration.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\HediffComp_LimbRegeneration.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_LimbRegeneration.cs*",
+              "RelativeToolTip": "AlphaGenes\\HediffComps\\HediffComp_LimbRegeneration.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:01:02.134Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "HediffCompProperties_LimbRegeneration.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_LimbRegeneration.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_LimbRegeneration.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_LimbRegeneration.cs",
+              "RelativeToolTip": "AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_LimbRegeneration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:07:26.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompAbilityEffect_Stinger.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompAbilityEffect_Stinger.cs",
+              "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompAbilityEffect_Stinger.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompAbilityEffect_Stinger.cs",
+              "RelativeToolTip": "AlphaGenes\\Ability Comps\\CompAbilityEffect_Stinger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:04:25.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Gene_Randomizer.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Gene Classes\\Gene_Randomizer.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Gene Classes\\Gene_Randomizer.cs",
@@ -357,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "BodyPartDef_GetMaxHealth.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\BodyPartDef_GetMaxHealth.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\BodyPartDef_GetMaxHealth.cs",
@@ -369,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "EquipmentUtility_CanEquip.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\EquipmentUtility_CanEquip.cs",
@@ -381,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Hediff_Shambler_PostMake.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Hediff_Shambler_PostMake.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Hediff_Shambler_PostMake.cs",
@@ -393,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "HarmonyInstance.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HarmonyInstance.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\HarmonyInstance.cs",
@@ -405,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Test.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Test.cs",
@@ -417,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "InternalDefOf.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\DefOfs\\InternalDefOf.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\DefOfs\\InternalDefOf.cs",
@@ -429,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CompRandomItemSpawner.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompRandomItemSpawner.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompRandomItemSpawner.cs",
@@ -441,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ThoughtWorker_Thalassophobia.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Thalassophobia.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Thalassophobia.cs",
@@ -453,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "WorkGiver_GrowerSow_ExtraRequirements.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\WorkGiver_GrowerSow_ExtraRequirements.cs",
@@ -465,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "JobGiver_OptimizeApparel_ApparelScoreGain.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\JobGiver_OptimizeApparel_ApparelScoreGain.cs",
@@ -477,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CompMechConversion.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompMechConversion.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompMechConversion.cs",
@@ -489,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "WealthWatcher_ForceRecount.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\WealthWatcher_ForceRecount.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\WealthWatcher_ForceRecount.cs",
@@ -501,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "CompPocketPlane.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompPocketPlane.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompPocketPlane.cs",
@@ -513,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "CompTargetEffect_Xenogenefier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_Xenogenefier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_Xenogenefier.cs",
@@ -525,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CompNightlingAffinity.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompNightlingAffinity.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompNightlingAffinity.cs",
@@ -537,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "CompTargetEffect_ArchoEndogenefier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ArchoEndogenefier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_ArchoEndogenefier.cs",
@@ -549,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "CompProperties_NightlingAffinity.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_NightlingAffinity.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\Properties\\CompProperties_NightlingAffinity.cs",
@@ -560,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "CompTargetEffect_ArchoXenogenefier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ArchoXenogenefier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_ArchoXenogenefier.cs",
@@ -572,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Dialog_ChooseAndRemoveGene.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_ChooseAndRemoveGene.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Dialogs\\Dialog_ChooseAndRemoveGene.cs",
@@ -584,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Dialog_XenogeneToEndogene.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_XenogeneToEndogene.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Dialogs\\Dialog_XenogeneToEndogene.cs",
@@ -596,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CompTargetEffect_ChooseAndRemoveGene.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_ChooseAndRemoveGene.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_ChooseAndRemoveGene.cs",
@@ -608,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Dialog_EndogeneToXenogene.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Dialogs\\Dialog_EndogeneToXenogene.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Dialogs\\Dialog_EndogeneToXenogene.cs",
@@ -620,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "CompProperties_TargetEffect_ArchoEndogenefier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoEndogenefier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoEndogenefier.cs",
@@ -632,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "CompProperties_TargetEffect_ArchoXenogenefier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoXenogenefier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ArchoXenogenefier.cs",
@@ -644,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "JobDriver_UseArchoXenogenefier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoXenogenefier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoXenogenefier.cs",
@@ -656,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "JobDriver_UseArchoEndogenefier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoEndogenefier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoEndogenefier.cs",
@@ -668,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "CompProperties_RandomItemSpawner.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_RandomItemSpawner.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompProperties\\CompProperties_RandomItemSpawner.cs",
@@ -680,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "JobDriver_UseArchoGeneRemover.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoGeneRemover.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseArchoGeneRemover.cs",
@@ -692,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "CompProperties_TargetEffect_ChooseAndRemoveGene.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ChooseAndRemoveGene.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompProperties\\CompProperties_TargetEffect_ChooseAndRemoveGene.cs",
@@ -704,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "BlackHydraBullet.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Projectiles\\BlackHydraBullet.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Projectiles\\BlackHydraBullet.cs",
@@ -716,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "WorkGiver_DoBill_Forsaken.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\WorkGivers\\WorkGiver_DoBill_Forsaken.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\AI\\WorkGivers\\WorkGiver_DoBill_Forsaken.cs",
@@ -728,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "ThoughtWorker_PsychicDrone_CurrentStateInternal.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\ThoughtWorker_PsychicDrone_CurrentStateInternal.cs",
@@ -740,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "CompTargetEffect_XenotypeNullifier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_XenotypeNullifier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_XenotypeNullifier.cs",
@@ -752,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "ThoughtWorker_Ugly_CurrentSocialStateInternal.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\ThoughtWorker_Ugly_CurrentSocialStateInternal.cs",
@@ -764,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "ThoughtWorker_Dark_CurrentStateInternal.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\ThoughtWorker_Dark_CurrentStateInternal.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\ThoughtWorker_Dark_CurrentStateInternal.cs",
@@ -776,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "GenConstruct_CanConstruct.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GenConstruct_CanConstruct.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\GenConstruct_CanConstruct.cs",
@@ -788,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "RelationsUtility_IsDisfigured.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\RelationsUtility_IsDisfigured.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\RelationsUtility_IsDisfigured.cs",
@@ -800,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "Pawn_RelationsTracker_PrettinessFactor.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_RelationsTracker_PrettinessFactor.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_RelationsTracker_PrettinessFactor.cs",
@@ -812,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "Pawn_MechanitorTracker_CanCommandTo.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_MechanitorTracker_CanCommandTo.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_MechanitorTracker_CanCommandTo.cs",
@@ -824,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "Pawn_InteractionsTracker_StartSocialFight.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_InteractionsTracker_StartSocialFight.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_InteractionsTracker_StartSocialFight.cs",
@@ -836,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "MeditationFocusTypeAvailabilityCache_PawnCanUse.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\MeditationFocusTypeAvailabilityCache_PawnCanUse.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\MeditationFocusTypeAvailabilityCache_PawnCanUse.cs",
@@ -848,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "JobDriver_Vomit_MakeNewToils.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobDriver_Vomit_MakeNewToils.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\JobDriver_Vomit_MakeNewToils.cs",
@@ -860,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "PawnGenerator_GeneratePawnRelations.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\PawnGenerator_GeneratePawnRelations.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\PawnGenerator_GeneratePawnRelations.cs",
@@ -872,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "PawnUtility_BodyResourceGrowthSpeed.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\PawnUtility_BodyResourceGrowthSpeed.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\PawnUtility_BodyResourceGrowthSpeed.cs",
@@ -884,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "JobDriver_RepairMech_MakeNewToils.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\JobDriver_RepairMech_MakeNewToils.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\JobDriver_RepairMech_MakeNewToils.cs",
@@ -896,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "HediffComp_PregnantHuman_CompTipStringExtra.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HediffComp_PregnantHuman_CompTipStringExtra.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\HediffComp_PregnantHuman_CompTipStringExtra.cs",
@@ -908,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "Pawn_MechanitorTracker_DrawCommandRadius.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_MechanitorTracker_DrawCommandRadius.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_MechanitorTracker_DrawCommandRadius.cs",
@@ -920,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "HediffComp_DisappearsPausable_CompPostTick.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HediffComp_DisappearsPausable_CompPostTick.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\HediffComp_DisappearsPausable_CompPostTick.cs",
@@ -932,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "HaulAIUtility_PawnCanAutomaticallyHaulFast.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\HaulAIUtility_PawnCanAutomaticallyHaulFast.cs",
@@ -944,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "Pawn_HealthTracker_MakeDowned.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_HealthTracker_MakeDowned.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_HealthTracker_MakeDowned.cs",
@@ -956,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "GenRecipe_PostProcessProduct.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GenRecipe_PostProcessProduct.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\GenRecipe_PostProcessProduct.cs",
@@ -968,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "MeditationFocusDef_EnablingThingsExplanation.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\MeditationFocusDef_EnablingThingsExplanation.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\MeditationFocusDef_EnablingThingsExplanation.cs",
@@ -980,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "FoodUtility_NutritionForEater.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FoodUtility_NutritionForEater.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\FoodUtility_NutritionForEater.cs",
@@ -992,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "FoodUtility_ThoughtsFromIngesting.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FoodUtility_ThoughtsFromIngesting.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\FoodUtility_ThoughtsFromIngesting.cs",
@@ -1004,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "GeneDefGenerator_ImpliedGeneDefs.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\GeneDefGenerator_ImpliedGeneDefs.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\GeneDefGenerator_ImpliedGeneDefs.cs",
@@ -1016,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "FireUtility_CanEverAttachFire.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\FireUtility_CanEverAttachFire.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\FireUtility_CanEverAttachFire.cs",
@@ -1028,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "Genepack_PostMake.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Genepack_PostMake.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Genepack_PostMake.cs",
@@ -1040,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "Corpse_RotStageChanged.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Corpse_RotStageChanged.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Corpse_RotStageChanged.cs",
@@ -1052,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "JobDriver_UseXenogenefier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\JobDrivers\\JobDriver_UseXenogenefier.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\AI\\JobDrivers\\JobDriver_UseXenogenefier.cs",
@@ -1064,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "CompTargetableHuman.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetableHuman.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetableHuman.cs",
@@ -1076,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "CompProperties_PocketPlane.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_PocketPlane.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\Properties\\CompProperties_PocketPlane.cs",
@@ -1088,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "WorkGiver_ForceEatMetal.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AI\\WorkGivers\\WorkGiver_ForceEatMetal.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\AI\\WorkGivers\\WorkGiver_ForceEatMetal.cs",
@@ -1100,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "CompTargetEffect_XenotypeInjector.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Comps\\CompTargetEffect_XenotypeInjector.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Comps\\CompTargetEffect_XenotypeInjector.cs",
@@ -1112,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 67,
               "Title": "Pawn_Kill.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Harmony\\Pawn_Kill.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Harmony\\Pawn_Kill.cs",
@@ -1124,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 72,
               "Title": "DamageWorker_Freezing.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\DamageWorkers\\DamageWorker_Freezing.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\DamageWorkers\\DamageWorker_Freezing.cs",
@@ -1136,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 69,
               "Title": "HediffComp_RandomMutation.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_RandomMutation.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\HediffComp_RandomMutation.cs",
@@ -1148,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 68,
               "Title": "CompDestroyPocketPlane.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompDestroyPocketPlane.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompDestroyPocketPlane.cs",
@@ -1160,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 71,
               "Title": "StaticCollectionsClass.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\StaticCollections\\StaticCollectionsClass.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\StaticCollections\\StaticCollectionsClass.cs",
@@ -1172,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 70,
               "Title": "MentalBreakWorker_Thalassophobia.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\MentalBreakDefs\\MentalBreakWorker_Thalassophobia.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\MentalBreakDefs\\MentalBreakWorker_Thalassophobia.cs",
@@ -1184,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 76,
               "Title": "GenePackBlacklistDef.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\GenePackBlacklistDef.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Defs\\GenePackBlacklistDef.cs",
@@ -1196,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 77,
               "Title": "CompAbilityEffect_AdaptiveBiology.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompAbilityEffect_AdaptiveBiology.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompAbilityEffect_AdaptiveBiology.cs",
@@ -1208,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 78,
               "Title": "BlackListedTraitsDef.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\BlackListedTraitsDef.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Defs\\BlackListedTraitsDef.cs",
@@ -1220,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 73,
               "Title": "HediffComp_MeatBurst.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_MeatBurst.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\HediffComp_MeatBurst.cs",
@@ -1232,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 74,
               "Title": "HediffComp_CorpseDecayer.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\HediffComp_CorpseDecayer.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\HediffComp_CorpseDecayer.cs",
@@ -1244,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 75,
               "Title": "HediffCompProperties_CorpseDecayer.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_CorpseDecayer.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\HediffComps\\Properties\\HediffCompProperties_CorpseDecayer.cs",
@@ -1256,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 79,
               "Title": "AlphaGenes",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\AlphaGenes.csproj",
               "RelativeDocumentMoniker": "AlphaGenes\\AlphaGenes.csproj",
@@ -1267,7 +1318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 80,
               "Title": "GeneExtension.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaExpandedFramework\\Source\\VFECore\\Genes\\DefModExtensions\\GeneExtension.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\VanillaExpandedFramework\\Source\\VFECore\\Genes\\DefModExtensions\\GeneExtension.cs",
@@ -1279,7 +1330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 81,
               "Title": "ThoughtWorker_Stinky.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Stinky.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\ThoughtWorkers\\ThoughtWorker_Stinky.cs",
@@ -1291,7 +1342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 82,
               "Title": "CompAbsorbFleshbeast.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\CompAbsorbFleshbeast.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\CompAbsorbFleshbeast.cs",
@@ -1303,7 +1354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 83,
               "Title": "CompProperties_AbsorbFleshbeast.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Ability Comps\\Properties\\CompProperties_AbsorbFleshbeast.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Ability Comps\\Properties\\CompProperties_AbsorbFleshbeast.cs",
@@ -1315,7 +1366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 84,
               "Title": "WretchBlacklistDef.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaGenes\\1.5\\Source\\AlphaGenes\\AlphaGenes\\Defs\\WretchBlacklistDef.cs",
               "RelativeDocumentMoniker": "AlphaGenes\\Defs\\WretchBlacklistDef.cs",

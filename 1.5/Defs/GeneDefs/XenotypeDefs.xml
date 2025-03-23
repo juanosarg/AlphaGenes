@@ -97,6 +97,11 @@
 			<li>AG_SlowGestation</li>
 			<li>AG_RockVoice</li>
 			<li>AG_PebbleBlood</li>
+			<li>Hair_Gray</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_MidBlack</li>
+			<li>Skin_SlateGray</li>
+			<li>Skin_InkBlack</li>
 		</genes>
 	</XenotypeDef>
 	<XenotypeDef>

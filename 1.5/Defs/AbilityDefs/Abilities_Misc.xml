@@ -6,6 +6,7 @@
 		<description>Flap wings to jump a short distance.</description>
 		<iconPath>UI/Abilities/AG_WingPoweredJump</iconPath>
 		<cooldownTicksRange>2400</cooldownTicksRange>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 		<verbProperties>
 			<verbClass>Verb_CastAbilityJump</verbClass>
 			<label>flap wings</label>
@@ -28,6 +29,7 @@
 		<defName>AG_UnstableMutation</defName>
 		<label>unstable mutation</label>
 		<description>Forces an unstable mutation on the caster's body. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
 		<cooldownTicksRange>60000</cooldownTicksRange>
 		<comps>
@@ -170,6 +172,7 @@
 		<defName>AG_UnstableRegeneration</defName>
 		<label>unstable regeneration</label>
 		<cooldownTicksRange>10000</cooldownTicksRange>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 		<description>Heals all non-permanent injuries, but ages the user 7 years with each use. If the user ages themselves with this ability beyond their lifespan, they die.</description>
 		<iconPath>UI/Icons/Genes/AG_UnstableRegeneration</iconPath>
 		<aiCanUse>false</aiCanUse>
@@ -182,6 +185,7 @@
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_AdaptiveBiology</defName>
 		<label>adaptive biology</label>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 		<cooldownTicksRange>60000</cooldownTicksRange>
 		<description>Removes a random trait, and adds a new, random one.</description>
 		<iconPath>UI/Icons/Genes/AG_AdaptiveBiology</iconPath>
@@ -195,6 +199,7 @@
 	<AbilityDef ParentName="AG_NoTargetAbilities">
 		<defName>AG_SuperAdaptiveBiology</defName>
 		<label>superadaptive biology</label>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 		<cooldownTicksRange>60000</cooldownTicksRange>
 		<description>Removes five random traits, and adds five new, random ones.</description>
 		<iconPath>UI/Icons/Genes/AG_SuperAdaptiveBiology</iconPath>
@@ -215,6 +220,7 @@
 		<iconPath>UI/Icons/Genes/AG_PsychicAbsorption</iconPath>
 		<aiCanUse>true</aiCanUse>
 		<ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
 		<verbProperties>
@@ -241,6 +247,7 @@
 		<defName>AG_SpeedBurst</defName>
 		<label>speed burst</label>
 		<description>Makes the caster move faster for a short while.</description>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 		<iconPath>UI/Icons/Genes/AG_SpeedBurst</iconPath>
 		<cooldownTicksRange>10000</cooldownTicksRange>
 		<comps>

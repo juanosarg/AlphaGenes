@@ -71,9 +71,9 @@
 		<bodyTypeGraphicPaths>
 			<Male>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Male>
 			<Female>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Female</Female>
-			<Hulk>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Hulk>
-			<Fat>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Fat>
-			<Thin>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Male</Thin>
+			<Hulk>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Hulk</Hulk>
+			<Fat>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Fat</Fat>
+			<Thin>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockyBody_Thin</Thin>
 			<Child>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockChild</Child>
 			<Baby>Things/Pawn/Humanlike/Bodies/AG_RockyBody/AG_RockChild</Baby>
 		</bodyTypeGraphicPaths>
