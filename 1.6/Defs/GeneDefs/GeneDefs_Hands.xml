@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneHandsBase">
+		<defName>AG_ClawedHands</defName>
+		<label>clawed hands</label>
+		<description>Carriers of this gene have clawed hands ending in viciously sharpened nails. This reduces manipulation, but gives them a melee combat bonus.</description>
+		<iconPath>UI/Icons/Genes/AG_ClawedHands</iconPath>
+		<displayOrderInCategory>330</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<postFactor>0.8</postFactor>
+			</li>
+		</capMods>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_ClawedHands</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

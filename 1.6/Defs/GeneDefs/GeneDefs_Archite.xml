@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_Foodless</defName>
+		<label>foodless</label>
+		<description>Carriers of this gene have archites in the blood which will sustain their metabolism without needing to consume food.</description>
+		<iconPath>UI/Icons/Genes/AG_NoDigestion</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<marketValueFactor>2</marketValueFactor>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>7</biostatCpx>
+		<biostatArc>1</biostatArc>
+		<biostatMet>-1</biostatMet>
+		<customEffectDescriptions>
+			<li>Reduces the need to eat to be almost negligible (not entirely zero to avoid weird mod interactions)</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<hediffToWholeBody>AG_NoFood</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Mood_Unfeeling</defName>
+		<label>unfeeling</label>
+		<description>Carriers of this gene have no emotions.</description>
+		<iconPath>UI/Icons/Genes/AG_MoodUnfeeling</iconPath>
+		<biostatCpx>10</biostatCpx>
+		<displayCategory>Archite</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<marketValueFactor>2</marketValueFactor>
+		<biostatArc>1</biostatArc>
+		<exclusionTags>
+			<li>Mood</li>
+		</exclusionTags>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>robot</symbol>
+				</li>
+				<li>
+					<symbol>hard</symbol>
+				</li>
+				<li>
+					<symbol>heartless</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>This gene hasn't been 100% tested and I bet it breaks some things. weeeee!</li>
+		</customEffectDescriptions>
+		<disablesNeeds>
+			<li>Mood</li>
+		</disablesNeeds>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_AsexualFission</defName>
+		<label>asexual fission</label>
+		<description>Carriers of this gene will periodically generate small clumps of organic matter on their backs that gradually develop into full human beings, and separate from their host / parent via a process of strobilation. This will provide an endless source of new colonists, at the risk of flooding the colony with newborns.</description>
+		<iconPath>UI/Icons/Genes/AG_AsexualReproduction</iconPath>
+		<biostatCpx>10</biostatCpx>
+		<displayCategory>Archite</displayCategory>
+		<marketValueFactor>2</marketValueFactor>
+		<selectionWeight>0</selectionWeight>
+		<biostatArc>2</biostatArc>
+		<biostatMet>-2</biostatMet>
+		<statFactors>
+			<Fertility>0</Fertility>
+		</statFactors>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>ace-</symbol>
+				</li>
+				<li>
+					<symbol>sexless</symbol>
+				</li>
+				<li>
+					<symbol>asexual</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>Will produce newborns via asexual fission every 25 days</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<hediffToWholeBody>AG_AsexualFission</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Regeneration</defName>
+		<label>regeneration</label>
+		<exclusionTags>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<description>Carriers of this gene have a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
+		<iconPath>UI/Icons/Genes/AG_Regeneration</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<displayOrderInCategory>112</displayOrderInCategory>
+		<biostatArc>2</biostatArc>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-4</biostatMet>
+		<customEffectDescriptions>
+			<li>A random wound is reduced by 0.1 severity every 300 ticks (5 real world seconds).</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<hediffToWholeBody>AG_Regeneration</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneMaxTempBase">
+		<defName>AG_HeatImmunity</defName>
+		<label>heat immunity</label>
+		<description>Carriers of this gene are almost unaffected by heat. They will also not be bothered by flames, and they can't catch on fire.</description>
+		<iconPath>UI/Icons/Genes/AG_HeatImmunity</iconPath>
+		<displayOrderInCategory>113</displayOrderInCategory>
+		<statOffsets>
+			<ComfyTemperatureMax>232</ComfyTemperatureMax>
+		</statOffsets>
+		<damageFactors>
+			<Flame>0</Flame>
+		</damageFactors>
+		<exclusionTags>
+			<li>FireDamage</li>
+		</exclusionTags>
+		<displayCategory>Archite</displayCategory>
+		<biostatArc>2</biostatArc>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>hot</symbol>
+				</li>
+				<li>
+					<symbol>heat</symbol>
+				</li>
+				<li>
+					<symbol>sun</symbol>
+				</li>
+				<li>
+					<symbol>sweat</symbol>
+				</li>
+				<li>
+					<symbol>bake</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneMinTempBase">
+		<defName>AG_ColdImmunity</defName>
+		<label>cold immunity</label>
+		<description>Carriers of this gene are almost unaffected by cold. They will be simultaneously not bothered by frostbite.</description>
+		<iconPath>UI/Icons/Genes/AG_ColdImmunity</iconPath>
+		<displayOrderInCategory>114</displayOrderInCategory>
+		<statOffsets>
+			<ComfyTemperatureMin>-273</ComfyTemperatureMin>
+		</statOffsets>
+		<damageFactors>
+			<Frostbite>0</Frostbite>
+		</damageFactors>
+		<exclusionTags>
+			<li>MinTemperature</li>
+			<li>AG_Frostbite</li>
+		</exclusionTags>
+		<displayCategory>Archite</displayCategory>
+		<biostatArc>2</biostatArc>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>cold</symbol>
+				</li>
+				<li>
+					<symbol>cool</symbol>
+				</li>
+				<li>
+					<symbol>ice</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_SuperAdaptiveBiology</defName>
+		<label>superadaptive biology</label>
+		
+		<exclusionTags>
+			<li>AG_AdaptiveBiology</li>
+		</exclusionTags>
+		<description>Carriers of this gene can completely change their very own personality, getting rid of old traits and gaining new ones.</description>
+		<iconPath>UI/Icons/Genes/AG_SuperAdaptiveBiology</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<displayOrderInCategory>115</displayOrderInCategory>
+		<biostatArc>2</biostatArc>
+		<biostatCpx>6</biostatCpx>
+		<abilities>
+			<li>AG_SuperAdaptiveBiology</li>
+		</abilities>
+		<customEffectDescriptions>
+			<li>Ability removes five random traits (or all of them if the pawn has fewer than 5), and adds five new, random ones.</li>
+			<li>But my essential modded traits! haha, no, chaos, I say. (except Warcasket traits, those are blacklisted)</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		
+	</GeneDef>
+	
+</Defs>

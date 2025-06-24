@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef ParentName="BaseBullet">
+    <defName>AG_FleshBulb_OnAir</defName>
+    <label>flesh bulb</label>
+    <graphicData>
+      <texPath>UI/Icons/Genes/AG_FleshBulbIcon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_SpawnsThing</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <arcHeightFactor>1.0</arcHeightFactor>
+      <spinRate>3</spinRate>
+      <explosionRadius>7.9</explosionRadius>
+      <landedEffecter>DisruptorFlareLanded</landedEffecter>
+      <spawnsThingDef>AG_FleshBulb</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+
+
+ <ThingDef>
+   <defName>AG_FleshBulb</defName>
+		<label>flesh bulb</label>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>UI/Icons/Genes/AG_FleshBulbIcon</texPath>
+      <shaderType>Transparent</shaderType>
+      <onGroundRandomRotateAngle>360</onGroundRandomRotateAngle>
+    </graphicData>
+    <selectable>false</selectable>
+    <tickerType>Normal</tickerType>
+    <thingClass>ThingWithComps</thingClass>
+    <useHitPoints>false</useHitPoints>
+    <rotatable>false</rotatable>
+    <comps>
+      <li Class="CompProperties_DisruptorFlare">
+        <radius>7.9</radius>
+        <effecterDef>DisruptorFlareAttached</effecterDef>
+        <destroyWarningEffecterDef>DisruptorDestroyWarning</destroyWarningEffecterDef>
+      </li>
+      <li Class="CompProperties_DestroyAfterDelay">
+        <delayTicks>14400</delayTicks>
+        <displayCountdownOnLabel>true</displayCountdownOnLabel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(255,117,108,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+	
+</Defs>

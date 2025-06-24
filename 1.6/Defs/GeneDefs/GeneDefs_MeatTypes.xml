@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<GeneDef Name="AG_MeatTypeBase" Abstract="True">
+		<displayCategory>AG_MeatType</displayCategory>
+
+		<exclusionTags>
+			<li>Flesh</li>
+			<li>Meat</li>
+			<li>AG_Meat</li>
+		</exclusionTags>
+	</GeneDef>
+	
+	
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_JellyFlesh</defName>
+		<label>insect jelly flesh</label>
+		<description>Carriers of this gene have jelly flesh. Consuming insect jelly by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_Jelly</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>InsectJelly</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>InsectJelly</li>
+				</defsTreatedAsHumanMeat>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_ChocolateFlesh</defName>
+		<label>chocolate flesh</label>
+		<description>Carriers of this gene have chocolate instead of meat. Does this make sense? Yes, of course it does. Consuming chocolate by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_Chocolate</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>Chocolate</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>Chocolate</li>
+				</defsTreatedAsHumanMeat>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+			
+</Defs>

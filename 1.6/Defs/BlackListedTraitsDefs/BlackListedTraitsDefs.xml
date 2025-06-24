@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaGenes.BlackListedTraitsDef>
+		<defName>AG_BlackListedTraits</defName>
+		<blackListedTraits>
+			<li>VFEP_WarcasketTrait</li>
+			<li>VFEP_Shellcasket</li>
+			<li>AM_Ahimsa</li>
+			<li>VME_Elder</li>
+		</blackListedTraits>
+	</AlphaGenes.BlackListedTraitsDef>
+</Defs>

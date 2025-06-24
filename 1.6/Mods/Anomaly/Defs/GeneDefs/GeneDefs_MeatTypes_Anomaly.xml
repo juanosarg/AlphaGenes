@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_TwistedFlesh</defName>
+		<label>twisted flesh</label>
+		<description>Carriers of this gene have twisted muscle, bloated with tumorous growths. Consuming such meat by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_Twisted</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>Meat_Twisted</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>Meat_Twisted</li>
+				</defsTreatedAsHumanMeat>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+
+
+
+
+
+
+</Defs>

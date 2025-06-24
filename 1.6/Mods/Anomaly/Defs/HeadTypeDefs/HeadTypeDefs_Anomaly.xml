@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Very gaunt shambler-->
+	
+	<HeadTypeDef Name="AG_VeryGauntShamblerBase" ParentName="AverageBase" Abstract="True">
+		<selectionWeight>100000</selectionWeight>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>AG_Shambler_VeryGaunt</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_VeryGauntShamblerBase">
+		<defName>AG_Female_VeryGauntShambler</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_VeryGaunt/AG_Female_VeryGaunt</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AG_VeryGauntShamblerBase">
+		<defName>AG_Male_VeryGauntShambler</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/AG_VeryGaunt/AG_Male_VeryGaunt</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	
+</Defs>

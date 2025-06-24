@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<SitePartDef>
+		<defName>AG_AbandonedBiotechLab</defName>
+		<label>abandoned biotech lab</label>
+		<description>A recently-discovered abandoned biotech lab.</description>
+		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+		<expandingIconTexture>World/AG_AncientBiotechLab</expandingIconTexture>
+		<tags>
+			<li>AG_AbandonedBiotechLab</li>
+		</tags>
+	</SitePartDef>
+	<GenStepDef>
+		<defName>AG_AbandonedBiotechLab</defName>
+		<linkWithSite>AG_AbandonedBiotechLab</linkWithSite>
+		<order>450</order>
+		<genStep Class="KCSG.GenStep_CustomStructureGen">
+			<structureLayoutDefs>
+				<li>AG_AbandonedBiotechLabAlpha</li>
+				<li>AG_AbandonedBiotechLabBeta</li>
+				<li>AG_AbandonedBiotechLabGamma</li>
+				<li>AG_AbandonedBiotechLabDelta</li>
+				<li>AG_AbandonedBiotechLabEpsilon</li>
+				<li>AG_AbandonedBiotechLabZeta</li>
+				<li>AG_AbandonedBiotechLabEta</li>
+				<li>AG_AbandonedBiotechLabTheta</li>
+				<li>AG_AbandonedBiotechLabIota</li>
+				<li>AG_AbandonedBiotechLabKappa</li>
+				<li>AG_AbandonedBiotechLabLambda</li>
+				<li>AG_AbandonedBiotechLabMu</li>
+				<li>AG_AbandonedBiotechLabNu</li>
+			</structureLayoutDefs>
+			<filthTypes>
+				<li>Filth_Dirt</li>
+				<li>Filth_Trash</li>
+				<li>Filth_RubbleBuilding</li>
+			</filthTypes>
+		</genStep>
+	</GenStepDef>
+</Defs>

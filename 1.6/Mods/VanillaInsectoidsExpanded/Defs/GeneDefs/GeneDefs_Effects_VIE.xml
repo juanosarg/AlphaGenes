@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	
+	<GeneDef>
+		<defName>AG_RoyalJellyProduction</defName>
+		<label>royal jelly production</label>
+		 <displayCategory>AG_SpecialEffectsCategory</displayCategory>
+		<description>The carrier of this gene constantly exudes and produces globs of royal jelly, which provides some extra food for the colony.</description>
+		<iconPath>Things/Item/RoyalJelly/RoyalJelly_c</iconPath>
+	
+		<customEffectDescriptions>
+			<li>Produces 5 units of royal jelly every 5 days</li>	
+			
+		</customEffectDescriptions>
+		
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_RoyalJellyProduction</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+	
+	
+
+
+
+
+</Defs>

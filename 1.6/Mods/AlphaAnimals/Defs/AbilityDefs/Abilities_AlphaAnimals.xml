@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_NightlingAffinity</defName>
+		<label>nightling affinity</label>
+		<description>Instantly tame a nightling. No food needed, no questions asked.</description>
+		<iconPath>UI/Icons/Genes/AG_NightlingAffinity</iconPath>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<hostile>false</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetAnimals>true</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_NightlingAffinity"/>
+		</comps>
+	</AbilityDef>
+
+
+</Defs>

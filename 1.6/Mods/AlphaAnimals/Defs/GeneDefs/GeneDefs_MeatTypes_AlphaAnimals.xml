@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_AerofleetFlesh</defName>
+		<label>aerofleet flesh</label>
+		<description>Carriers of this gene have a chewy, gelatinous and insipid meat, similar in texture to a jellyfish. Consuming such meat by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_Aerofleet</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>AA_AerofleetMeat</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>AA_AerofleetMeat</li>
+				</defsTreatedAsHumanMeat>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_PlantFlesh</defName>
+		<label>plant flesh</label>
+		<description>Carriers of this gene have a strange meat that is part vegetable, part animal. Confusing, to say the least. Consuming such meat by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_Plant</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+	
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>AA_CactusMeat</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>AA_CactusMeat</li>
+				</defsTreatedAsHumanMeat>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_OcularFlesh</defName>
+		<label>ocular flesh</label>
+		<description>Carriers of this gene have a red, chewy, gelatinous and insipid meat, similar in texture to a jellyfish. Consuming such meat by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_Ocular</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>AA_OcularJellyMeat</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>AA_OcularJellyMeat</li>
+				</defsTreatedAsHumanMeat>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

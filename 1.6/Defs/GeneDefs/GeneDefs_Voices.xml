@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_SlugVoice</defName>
+		<label>slug voice</label>
+		<description>Carriers have a gurgling, squishing voice.</description>
+		<iconPath>UI/Icons/Genes/AG_SlugVoice</iconPath>
+		<displayOrderInCategory>131</displayOrderInCategory>
+		<soundCall>AG_Pawn_Slug_Call</soundCall>
+		<soundDeath>AG_Pawn_Slug_Death</soundDeath>
+		<soundWounded>AG_Pawn_Slug_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_RockVoice</defName>
+		<label>rock voice</label>
+		<description>Carriers have a rumbling, metallic voice that sounds like two stones scratching against each other.</description>
+		<iconPath>UI/Icons/Genes/AG_RockVoice</iconPath>
+		<displayOrderInCategory>132</displayOrderInCategory>
+		<soundCall>AG_Pawn_Lapis_Call</soundCall>
+		<soundDeath>AG_Pawn_Lapis_Death</soundDeath>
+		<soundWounded>AG_Pawn_Lapis_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_FrogVoice</defName>
+		<label>frog voice</label>
+		<description>Carriers have a croaking voice similar to that of a frog.</description>
+		<iconPath>UI/Icons/Genes/AG_FrogVoice</iconPath>
+		<displayOrderInCategory>133</displayOrderInCategory>
+		<soundCall>AG_Pawn_Frog_Call</soundCall>
+		<soundDeath>AG_Pawn_Frog_Death</soundDeath>
+		<soundWounded>AG_Pawn_Frog_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_GutturalVoice</defName>
+		<label>guttural voice</label>
+		<description>Carriers have a guttural, harsh voice produced mostly on the throat.</description>
+		<iconPath>UI/Icons/Genes/AG_GutturalVoice</iconPath>
+		<displayOrderInCategory>134</displayOrderInCategory>
+		<soundCall>AG_Pawn_Guttural_Call</soundCall>
+		<soundDeath>AG_Pawn_Guttural_Death</soundDeath>
+		<soundWounded>AG_Pawn_Guttural_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_GrowlingVoice</defName>
+		<label>growling voice</label>
+		<description>Carriers have a growling and snarling voice with fearsome animalistic undertones.</description>
+		<iconPath>UI/Icons/Genes/AG_GrowlingVoice</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<soundCall>AG_Pawn_Growling_Call</soundCall>
+		<soundDeath>AG_Pawn_Growling_Death</soundDeath>
+		<soundWounded>AG_Pawn_Growling_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>AG_HivelingVoice</defName>
+		<label>hiveling voice</label>
+		<description>Carriers have high pitched insectoid voices.</description>
+		<iconPath>UI/Icons/Genes/AG_HivelingVoice</iconPath>
+		<displayOrderInCategory>136</displayOrderInCategory>
+		<soundCall>AG_Pawn_BigInsect_Call</soundCall>
+		<soundDeath>AG_Pawn_BigInsect_Death</soundDeath>
+		<soundWounded>AG_Pawn_BigInsect_Wounded</soundWounded>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+
+	</GeneDef>
+</Defs>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<GeneDef Name="AG_ArmourBase" Abstract="True">
+		<displayCategory>AG_Armour</displayCategory>
+
+		<exclusionTags>
+			<li>AG_Armour</li>
+			<li>Armour</li>
+			<li>Armor</li>
+		</exclusionTags>
+	</GeneDef>
+	<GeneDef  ParentName="AG_ArmourBase">
+		<defName>AG_FungalSkin</defName>
+		<label>fungal skin</label>
+
+		<description>Carriers of this gene have several fungal clumps sprouting from their skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire.</description>
+		<iconPath>UI/Icons/Genes/AG_FungalSkin</iconPath>
+	
+		<customEffectDescriptions>
+			<li>+50% blunt and sharp natural armour. +25% injury healing factor.</li>
+			<li>Fires will cause permanent wounds.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<skinColorOverride>(108, 137, 89)</skinColorOverride>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<suppressedTraits>
+			<li>
+				<def>Pyromaniac</def>
+			</li>
+		</suppressedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fungi</symbol>
+				</li>
+				<li>
+					<symbol>fungal</symbol>
+				</li>
+				<li>
+					<symbol>mushr</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_FungalSkin</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_ArmourBase">
+		<defName>AG_FrailSkin</defName>
+		<label>frail skin</label>
+		<description>Carriers of this gene have very frail and thin skin. This confers a small increase to damage received.</description>
+		<iconPath>UI/Icons/Genes/AG_FrailSkin</iconPath>
+		<statFactors>
+			<IncomingDamageFactor>1.1</IncomingDamageFactor>
+		</statFactors>
+		<displayOrderInCategory>-1</displayOrderInCategory>
+
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>1</biostatMet>
+
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>frail</symbol>
+				</li>
+				<li>
+					<symbol>thinskin</symbol>
+				</li>
+
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_ArmourBase">
+		<defName>AG_ArmourMinor</defName>
+		<label>bark skin</label>
+
+		<description>Carriers of this gene have hard, bark-like skin. This confers a small amount of natural armour.</description>
+		<iconPath>UI/Icons/Genes/AG_ArmourMinor</iconPath>
+	
+		<customEffectDescriptions>
+			<li>+20% blunt and sharp natural armour.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>0</displayOrderInCategory>
+
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>-1</biostatMet>
+
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>bark</symbol>
+				</li>
+
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_ArmourMinor</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_ArmourBase">
+		<defName>AG_ArmourMedium</defName>
+		<label>ferrous skin</label>
+
+		<description>Carriers of this gene have their skin strengthened by a nano-lattice of metallic compounds. This confers a medium amount of natural armour.</description>
+		<iconPath>UI/Icons/Genes/AG_ArmourMedium</iconPath>
+		
+		<customEffectDescriptions>
+			<li>+30% blunt and sharp natural armour.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>10</displayOrderInCategory>
+
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>ferr</symbol>
+				</li>
+				<li>
+					<symbol>metalo</symbol>
+				</li>
+
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_ArmourMedium</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_ArmourBase">
+		<defName>AG_ArmourMajor</defName>
+		<label>plasteel skin</label>
+
+		<description>Carriers of this gene have their skin strengthened by a plasteel nano-lattice. This confers a great amount of natural armour.</description>
+		<iconPath>UI/Icons/Genes/AG_ArmourMajor</iconPath>
+		
+		<customEffectDescriptions>
+			<li>+40% blunt and sharp natural armour.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>20</displayOrderInCategory>
+
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-3</biostatMet>
+
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>adamant</symbol>
+				</li>
+
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_ArmourMajor</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

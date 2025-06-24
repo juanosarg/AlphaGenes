@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_ChemfuelVomit</defName>
+		<label>chemfuel vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene have a chemfuel powered metabolism, and as such will vomit chemfuel. This vomit is flammable.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeChemfuel</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>chempuker</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>chem</symbol>
+				</li>
+				<li>
+					<symbol>explo</symbol>
+				</li>
+				<li>
+					<symbol>boom</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>AG_Filth_Fuel</customVomitThingDef>
+				<customVomitEffect>AG_VomitFuel</customVomitEffect>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_BloodVomit</defName>
+		<label>blood vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene will violently vomit blood instead of normal vomit. This will cause internal bleeding every time they vomit, causing cuts and bruises over their whole body.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeBlood</iconPath>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>bloodpuker</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>bloody</symbol>
+				</li>
+				<li>
+					<symbol>hemo</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>Filth_Blood</customVomitThingDef>
+				<customVomitEffect>AG_VomitBlood</customVomitEffect>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_RatVomit</defName>
+		<label>rat vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene will vomit clumps of mechanites that coalesce into pseudo-organic rats. This is such an incredibly cruel and disgusting thing that it's not clear if it's the result of a genetic experiment gone horribly wrong, or just a macabre prank by a truly unethical geneticist.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeRats</iconPath>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>This is understandably pretty traumatizing...</li>
+		</customEffectDescriptions>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>ratpuker</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>ratty</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>AG_Filth_Rats</customVomitThingDef>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_PukeWater</defName>
+		<label>water vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene will vomit water instead of normal vomit.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeWater</iconPath>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>Filth_Water</customVomitThingDef>
+				<customVomitEffect>AG_VomitWater</customVomitEffect>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_PukeBile</defName>
+		<label>bile vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene will vomit corpse bile instead of normal vomit. This liquid is even more revolting than normal vomit.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeBile</iconPath>
+		<displayOrderInCategory>50</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>Filth_CorpseBile</customVomitThingDef>
+				<customVomitEffect>AG_VomitBile</customVomitEffect>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_PukeCryo</defName>
+		<label>cryo vomit</label>
+		<displayCategory>AG_VomitType</displayCategory>
+		<description>Carriers of this gene will vomit cryogenic fluid instead of normal vomit. This liquid will quickly drop the temperature of its surroundings, making it both useful and incredibly dangerous. Dissipates faster than normal vomit but can't be cleaned.</description>
+		<iconPath>UI/Icons/Genes/AG_PukeCryo</iconPath>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<exclusionTags>
+			<li>AG_VomitType</li>
+			<li>VomitType</li>
+			<li>Vomit</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customVomitThingDef>AG_Filth_CryoVomit</customVomitThingDef>
+				<customVomitEffect>AG_VomitCryo</customVomitEffect>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

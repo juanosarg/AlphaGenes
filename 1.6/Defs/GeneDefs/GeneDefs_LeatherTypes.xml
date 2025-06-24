@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<GeneDef Name="AG_LeatherTypeBase" Abstract="True">
+		<displayCategory>AG_LeatherType</displayCategory>
+
+		<exclusionTags>
+			<li>Leather</li>
+			<li>Leathers</li>
+			<li>AG_Leather</li>
+		</exclusionTags>
+	</GeneDef>
+	
+	
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_PlainLeather</defName>
+		<label>plain leather</label>
+		<description>Carriers of this gene will yield plainleather when butchered. Wearing plainleather apparel by them is classed as wearing human leather apparel.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_Plain</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>Leather_Plain</customLeatherThingDef>
+				<defsTreatedAsHumanLeather>
+					<li>Leather_Plain</li>
+				</defsTreatedAsHumanLeather>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_WoolLeather</defName>
+		<label>wool leather</label>
+		<description>Carriers of this gene will yield wool when butchered. Wearing wool apparel by them is classed as wearing human leather apparel.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_Wool</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>WoolSheep</customLeatherThingDef>
+				<defsTreatedAsHumanLeather>
+					<li>WoolSheep</li>
+				</defsTreatedAsHumanLeather>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_WoodLeather</defName>
+		<label>wood leather</label>
+		<description>Carriers of this gene will yield wood logs when butchered. Wearing wooden apparel by them is classed as wearing human leather apparel.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_Wood</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>WoodLog</customLeatherThingDef>
+				<defsTreatedAsHumanLeather>
+					<li>WoodLog</li>
+				</defsTreatedAsHumanLeather>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_ClothLeather</defName>
+		<label>cloth leather</label>
+		<description>Carriers of this gene will yield cloth when butchered. Wearing cloth apparel by them is classed as wearing human leather apparel.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_Cloth</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>Cloth</customLeatherThingDef>
+				<defsTreatedAsHumanLeather>
+					<li>Cloth</li>
+				</defsTreatedAsHumanLeather>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+			
+</Defs>

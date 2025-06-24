@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_LargerBodySize</defName>
+		<label>larger</label>
+		<description>Carriers of this gene have a larger body size than usual. This has its advantages and disadvantages.</description>
+		<iconPath>UI/Icons/Genes/AG_LargerBodySize</iconPath>
+		<exclusionTags>
+			<li>AG_BodySize</li>
+			<li>BodySize</li>
+		</exclusionTags>
+		
+		<statFactors>
+			<MoveSpeed>0.8</MoveSpeed>
+			<Mass>1.5</Mass>
+			<MeatAmount>1.5</MeatAmount>
+			<LeatherAmount>1.5</LeatherAmount>
+			<MeleeDamageFactor>1.2</MeleeDamageFactor>
+			<MeleeDodgeChance>0.7</MeleeDodgeChance>
+			<WorkSpeedGlobal>0.8</WorkSpeedGlobal>
+			<HuntingStealth>0.8</HuntingStealth>
+			<IncomingDamageFactor>0.8</IncomingDamageFactor>
+			<CarryingCapacity>1.5</CarryingCapacity>
+			<VEF_CosmeticBodySize_Multiplier>1.25</VEF_CosmeticBodySize_Multiplier>
+		</statFactors>
+		<displayCategory>AG_BodySize</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_SmallerBodySize</defName>
+		<label>smaller</label>
+		<description>Carriers of this gene have a smaller body size than usual. This has its advantages and disadvantages.</description>
+		<iconPath>UI/Icons/Genes/AG_SmallerBodySize</iconPath>
+		<exclusionTags>
+			<li>AG_BodySize</li>
+			<li>BodySize</li>
+		</exclusionTags>
+		<statFactors>
+			<MoveSpeed>1.2</MoveSpeed>
+			<Mass>0.75</Mass>
+			<MeatAmount>0.5</MeatAmount>
+			<LeatherAmount>0.5</LeatherAmount>
+			<WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+			<HuntingStealth>1.2</HuntingStealth>
+			<MeleeHitChance>0.6</MeleeHitChance>
+			<MeleeDodgeChance>1.1</MeleeDodgeChance>
+			<CarryingCapacity>0.75</CarryingCapacity>
+			<VEF_CosmeticBodySize_Multiplier>0.75</VEF_CosmeticBodySize_Multiplier>
+		</statFactors>
+		<displayCategory>AG_BodySize</displayCategory>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+	
+</Defs>

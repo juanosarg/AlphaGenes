@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<HediffDef>
+		<defName>AG_Fogger</defName>
+		<label>fogger</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of influencing the humidity levels of the surrounding atmosphere, causing a deep, thick fog to coalesce around.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_ChangeWeather">
+
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_RainMaker</defName>
+		<label>rainmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of drastically lowering the atmospheric pressure around, causing constant precipitation.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<weatherDef>Rain</weatherDef>
+				
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_FoggyRainMaker</defName>
+		<label>foggy rainmaker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of drastically lowering the atmospheric pressure around, causing constant precipitation and a deep, thick fog to coalesce.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<weatherDef>FoggyRain</weatherDef>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_RainyThunderstormMaker</defName>
+		<label>rainy thunderstorm maker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of drastically increasing electrostatic energy and lowering atmospheric pressure, causing a violent rainy thunderstorm to form.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<weatherDef>RainyThunderstorm</weatherDef>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_DryThunderstormMaker</defName>
+		<label>dry thunderstorm maker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of drastically increasing electrostatic energy in the atmosphere, causing a violent dry thunderstorm to form. This does not make the carrier immune to lightning strikes!</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<weatherDef>DryThunderstorm</weatherDef>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_SnowMaker</defName>
+		<label>snow maker</label>
+		<description>A distributed cloud of mechanites is interwoven with the DNA of this person. These mechanites have the ability of drastically lowering temperature in the upper atmosphere, causing snow to fall.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_ChangeWeather">
+				<tickInterval>60000</tickInterval>
+				<isRandomWeathers>true</isRandomWeathers>
+				<randomWeathers>
+					<li>SnowHard</li>
+					<li>SnowGentle</li>
+					
+				</randomWeathers>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	
+	
+</Defs>

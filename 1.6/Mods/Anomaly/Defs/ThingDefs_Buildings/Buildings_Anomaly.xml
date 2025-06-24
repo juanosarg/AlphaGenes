@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AG_GrayWall</defName>
+		<label>gray wall</label>
+		<description>An impassable gray wall. Capable of holding up a roof.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Linked/GrayWall_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/GreyWall_MenuIcon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>135</WorkToBuild>
+			<Flammability>0</Flammability>
+			<MeditationFocusStrength>0.22</MeditationFocusStrength>
+		</statBases>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		  <drawStyleCategory>Walls</drawStyleCategory>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<fertility>0</fertility>
+		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
+			<isInert>true</isInert>
+			<isPlaceOverableWall>true</isPlaceOverableWall>
+			<ai_chillDestination>false</ai_chillDestination>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<damageMultipliers>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+			<li>
+				<damageDef>Thump</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+		</damageMultipliers>
+		<designationHotKey>Misc3</designationHotKey>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<thingClass>Building_Door</thingClass>
+		<defName>AG_GrayDoor</defName>
+		<label>gray door</label>
+		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
+		<graphicData>
+			<texPath>Things/Building/GrayDoor/GrayDoor_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/GrayDoor/GrayDoor_Jammed</uiIconPath>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<category>Building</category>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>850</WorkToBuild>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+			<soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+			<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Door/Door_Blueprint</texPath>
+			</blueprintGraphicData>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable">
+				<allowNonPlayer>true</allowNonPlayer>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
+		</placeWorkers>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AG_GrayStatue</defName>
+		<label>gray statue</label>
+		<description>A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy.</description>
+		<size>(1, 1)</size>
+		<graphicData>
+			<texPath>Things/Building/GrayStatue</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.5, 1.5)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.3, 0.45, 0.3)</volume>
+				<offset>(0, 0, -0.5)</offset>
+			</shadowData>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AG_FloorEtching</defName>
+		<label>floor etching</label>
+		<description>A crude sketch drawn onto the ground.</description>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<passability>Standable</passability>
+		<destroyable>false</destroyable>
+		<useHitPoints>false</useHitPoints>
+		<selectable>true</selectable>
+		<hasTooltip>true</hasTooltip>
+		<drawerType>MapMeshOnly</drawerType>
+		<neverMultiSelect>True</neverMultiSelect>
+		<building>
+			<deconstructible>true</deconstructible>
+			<isInert>true</isInert>
+		</building>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/FloorEtchings</texPath>
+			<shaderType>TransparentBelowSnow</shaderType>
+		</graphicData>
+		<statBases>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase" Name="AG_EndlessPit" Abstract="True">
+		<label>endless pit</label>
+		<description>A smooth-sided hole that extends endlessly downwards.</description>
+		<rotatable>false</rotatable>
+		<fillPercent>1</fillPercent>
+		<drawerType>RealtimeOnly</drawerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Impassable</passability>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<statBases>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="AG_EndlessPit">
+		<defName>AG_EndlessPit2x2c</defName>
+		<size>(2, 2)</size>
+		<graphicData>
+			<texPath>Things/Building/EndlessPit/EndlessPit_Small</texPath>
+			<graphicClass>Graphic_Single_AgeSecs</graphicClass>
+			<shaderType>EndlessPit</shaderType>
+			<drawSize>(2, 2)</drawSize>
+			<shaderParameters>
+				<_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
+			</shaderParameters>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AG_EndlessPit">
+		<defName>AG_EndlessPit3x2c</defName>
+		<size>(3, 2)</size>
+		<rotatable>true</rotatable>
+		<graphicData>
+			<texPath>Things/Building/EndlessPit/EndlessPit_Medium</texPath>
+			<graphicClass>Graphic_Multi_AgeSecs</graphicClass>
+			<shaderType>EndlessPit</shaderType>
+			<drawSize>(3, 2)</drawSize>
+			<shaderParameters>
+				<_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
+			</shaderParameters>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AG_EndlessPit">
+		<defName>AG_EndlessPit3x3c</defName>
+		<size>(3, 3)</size>
+		<graphicData>
+			<texPath>Things/Building/EndlessPit/EndlessPit_Large</texPath>
+			<graphicClass>Graphic_Single_AgeSecs</graphicClass>
+			<shaderType>EndlessPit</shaderType>
+			<drawSize>(3, 3)</drawSize>
+			<shaderParameters>
+				<_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
+			</shaderParameters>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AG_GrayBox</defName>
+		<label>gray box</label>
+		<description>An empty, strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material.</description>
+		<size>(1, 1)</size>
+		<graphicData>
+			<texPath>Things/Building/GrayBox/GrayBox_Open</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1, 1)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(1, 0.45, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+	</ThingDef>
+</Defs>

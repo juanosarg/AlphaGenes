@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_RoxHorns</defName>
+		<label>rox horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large curved horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_RoxHorns</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_RoxHorns/AG_RoxHorns</texPath>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<customEffectDescriptions>
+			<li>Blessed by the Rox.</li>
+		</customEffectDescriptions>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>rox</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>rox</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_RoxPelt</defName>
+		<label>rox pelt</label>
+		<description>Carriers of this gene have a luxurious mat of grey hair covering their upper torso.</description>
+		<iconPath>UI/Icons/Genes/AG_RoxPelt</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>Miscellaneous</displayCategory>
+		<statOffsets>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+		</statOffsets>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>rox</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>rox</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_RoxPelt/AG_RoxPelt</texPath>
+				<drawSize>1.25</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>40</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>90</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_GreyPocketPlane</defName>
+		<label>grey pocket plane</label>
+		<description>Opens a link to an extradimensional space that only the caster can access. If cast inside the pocket plane, it will return the caster to the original map, at the same position it departed when entering the pocket plane.</description>
+		<iconPath>UI/Icons/Genes/AG_PocketPlane</iconPath>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<cooldownTicksRange>1000</cooldownTicksRange>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_PocketPlane">
+				<clamorType>Ability</clamorType>
+				<clamorRadius>10</clamorRadius>
+				<x>10</x>
+				<z>10</z>
+				<map>AG_PocketPlane</map>
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="AlphaGenes.AbilityExtension">
+				<isPocketPlaneAbility>true</isPocketPlaneAbility>
+			</li>
+		</modExtensions>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_TentacleGrapple</defName>
+		<label>tentacle grapple</label>
+		<description>Attack a target with a prehensile tentacle, grappling it and immobilizing it for a short time.</description>
+		<iconPath>UI/Icons/Genes/AG_GreaterFleshWhipIcon</iconPath>
+		<cooldownTicksRange>6000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_TailGrapple</soundCast>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TailGrapple"/>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_FleshBulb</defName>
+		<label>flesh bulb</label>
+		<description>Launch a luminous flesh bulb that acts as a disruptor flare.</description>
+		<iconPath>UI/Icons/Genes/AG_FleshBulbIcon</iconPath>
+		<cooldownTicksRange>12000</cooldownTicksRange>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>10.9</range>
+			<violent>false</violent>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<soundCast>FlareLaunch</soundCast>
+			<explosionRadiusRingColor>(0.8, 0.8, 0.4, 1)</explosionRadiusRingColor>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>AG_FleshBulb_OnAir</projectileDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_FleshSack</defName>
+		<label>absorb fleshbeast</label>
+		
+		<description>Absorb a flesh beast, destroying it and empowering the caster for a short while, as well as healing some of their wounds.</description>
+		<iconPath>UI/Icons/Genes/AG_FleshSackIcon</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>15.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetPawns>true</canTargetPawns>
+				
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbsorbFleshbeast">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+</Defs>

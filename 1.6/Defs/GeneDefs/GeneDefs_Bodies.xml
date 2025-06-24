@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef Name="AG_BodyBase" Abstract="True">
+		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
+		<exclusionTags>
+			<li>AG_Bodies</li>
+			<li>Bodies</li>
+			<li>Body</li>
+		</exclusionTags>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_SlimeBody</defName>
+		<label>slime body</label>
+		<labelShortAdj>slime bodied</labelShortAdj>
+		<description>Carriers of this gene have gelatinous, constantly dripping blue skin.</description>
+		<biostatCpx>1</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<fur>AG_SlimyBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<displayOrderInCategory>400</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_SlimeBodyIcon</iconPath>
+		<iconColor>(157, 188, 200)</iconColor>
+		<skinColorOverride>(157, 188, 200)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>slim</symbol>
+				</li>
+				<li>
+					<symbol>slimy</symbol>
+				</li>
+				<li>
+					<symbol>much</symbol>
+				</li>
+				<li>
+					<symbol>gelat</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_SlugBody</defName>
+		<label>slug body</label>
+		<labelShortAdj>slug-like</labelShortAdj>
+		<description>Carriers of this gene have a thick, slimy tail growing from their tailbone. Their whole body is perpetually soft and moist.</description>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>410</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_SlugBody</iconPath>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>helix</symbol>
+				</li>
+				<li>
+					<symbol>slug</symbol>
+				</li>
+				<li>
+					<symbol>moist</symbol>
+				</li>
+				<li>
+					<symbol>snail</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<statOffsets>
+			<ComfyTemperatureMin>10</ComfyTemperatureMin>
+		</statOffsets>
+		<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
+		<fur>AG_SlugBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_ScalyBody</defName>
+		<label>scaly body</label>
+		<labelShortAdj>scaled</labelShortAdj>
+		<description>Carriers of this gene have wet scales over all their body.</description>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>420</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_ScalyBody</iconPath>
+		<customEffectDescriptions>
+			<li>Can move very fast across shallow water</li>
+		</customEffectDescriptions>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>scaly</symbol>
+				</li>
+				<li>
+					<symbol>rept</symbol>
+				</li>
+				<li>
+					<symbol>herpet</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<conditionalStatAffecters>
+			<li Class="VEF.Genes.ConditionalStatAffecter_Water">
+				<statFactors>
+					<MoveSpeed>2</MoveSpeed>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<fur>AG_ScalyBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<hediffToWholeBody>AG_WaterStriding</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_RockyBody</defName>
+		<label>rocky body</label>
+		<labelShortAdj>rocky</labelShortAdj>
+		<description>Carriers of this gene have a rocky looking skin, with mineral deposits piercing the skin.</description>
+		<biostatCpx>3</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>430</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_RockyBody</iconPath>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>rock</symbol>
+				</li>
+				<li>
+					<symbol>litho</symbol>
+				</li>
+				<li>
+					<symbol>petr</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<fur>AG_RockyBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<furHidesBody>true</furHidesBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_CancerousBody</defName>
+		<label>cancerous body</label>
+		<labelShortAdj>cancerous</labelShortAdj>
+		<description>Carriers of this gene have a lumpy, cancerous looking body with loose skin and pockmarks.</description>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>435</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_TumorousBodyIcon</iconPath>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>terato</symbol>
+				</li>
+				<li>
+					<symbol>canc</symbol>
+				</li>
+				<li>
+					<symbol>tumor</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<fur>AG_TeratoBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<furHidesBody>true</furHidesBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_GauntBody</defName>
+		<label>gaunt body</label>
+		<labelShortAdj>gaunt</labelShortAdj>
+		<description>Carriers of this gene have a pinched, gaunt appearance in their body.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>436</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_GauntBodyIcon</iconPath>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gaunt</symbol>
+				</li>
+				<li>
+					<symbol>zomb</symbol>
+				</li>
+				<li>
+					<symbol>dead</symbol>
+				</li>
+				<li>
+					<symbol>bone</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<fur>AG_GauntBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<furHidesBody>true</furHidesBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_DrakonoriBody</defName>
+		<label>drakonori body</label>
+		<labelShortAdj>drakonori</labelShortAdj>
+		<description>Carriers of this gene have a draconic and scaly appearance in their body.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>437</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_Drakonori_Body</iconPath>
+		<fur>AG_DrakonoriBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_NereidBody</defName>
+		<label>nereid body</label>
+		<labelShortAdj>nereid</labelShortAdj>
+		<description>Carriers of this gene have a scaly appearance in their body, with bioluminescent spots.</description>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>438</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_NereidBody</iconPath>
+		<fur>AG_NereidBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>true</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinAndHairColorsForFur>true</useSkinAndHairColorsForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BodyBase">
+		<defName>AG_ForsakenBody</defName>
+		<label>forsaken body</label>
+		<labelShortAdj>forsaken</labelShortAdj>
+		<description>Carriers of this gene have a body that seems to have deep valleys around their bodies and ribs visible beneath the skin in certain places, yet are otherwise healthy in appearance. This results in a slightly lower weight and a significantly more fragile body.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>490</displayOrderInCategory>
+		<statFactors>
+			<Mass>0.92</Mass>
+			<MeatAmount>0.92</MeatAmount>
+			<IncomingDamageFactor>1.25</IncomingDamageFactor>
+		</statFactors>
+		<iconPath>UI/Icons/Genes/AG_ForsakenBody</iconPath>
+		<fur>AG_ForsakenBody</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>true</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_Fur</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<useSkinColorForFur>true</useSkinColorForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Digitigrade</defName>
+		<label>digitigrade legs</label>
+		<labelShortAdj>digitigrade</labelShortAdj>
+		<description>Carriers of this gene have digitigrade legs, meaning they stand or walk with their toes (metatarsals) touching the ground, and the rest of their foot lifted.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>440</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/AG_Digitigrade</iconPath>
+		<customEffectDescriptions>
+			<li>Carrying capacity on the map reduced to 60%.</li>
+			<li>Carrying capacity while caravaning reduced to 80%.</li>
+		</customEffectDescriptions>
+		<statFactors>
+			<MoveSpeed>1.2</MoveSpeed>
+			<CarryingCapacity>0.6</CarryingCapacity>
+			<VEF_MassCarryCapacity>0.8</VEF_MassCarryCapacity>
+		</statFactors>
+		<exclusionTags>
+			<li>AG_CarryingCapacity</li>
+			<li>CarryingCapacity</li>
+		</exclusionTags>
+		<displayCategory>AG_Cosmetic_Bodies</displayCategory>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

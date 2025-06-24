@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<AlphaGenes.WretchBlacklistDef>
+		<defName>AG_WretchBlacklistDef_Insector</defName>
+		<blackListedDefNameStrings>							
+			<li>AG_GenelineCosmetic_</li>					
+		</blackListedDefNameStrings>							
+	</AlphaGenes.WretchBlacklistDef>
+
+
+
+
+
+
+
+</Defs>

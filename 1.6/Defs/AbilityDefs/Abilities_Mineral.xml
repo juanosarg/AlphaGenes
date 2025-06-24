@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_ReactiveArmourA</defName>
+		<label>reactive armour</label>
+		<abilityClass>AlphaGenes.Ability_ReactiveArmour</abilityClass>
+		<description>Consumes minerals to harden the users body against piercing and sharp attacks.</description>
+		<iconPath>UI/Icons/Genes/AG_ReactiveArmour</iconPath>
+		<cooldownTicksRange>300</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_MineralOverdriveA</defName>
+		<label>mineral overdrive</label>
+		<abilityClass>AlphaGenes.Ability_MineralOverdrive</abilityClass>
+		<description>Drains minerals to increase the work efficiency of the user.</description>
+		<iconPath>UI/Icons/Genes/AG_MineralOverdrive</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_MineralShock</defName>
+		<label>mineral shock</label>
+		<description>Use the stored minerals to shoot a concentrated lump of soil. This will cause blunt trauma in the target.</description>
+		<iconPath>UI/Icons/Genes/AG_MineralShock</iconPath>
+		<cooldownTicksRange>60</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>5.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>AG_Rocks</soundCast>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilityMineralCost">
+				<mineralCost>0.1</mineralCost>
+			</li>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>AG_Rocks</projectileDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+</Defs>

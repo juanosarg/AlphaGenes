@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>AG_Regeneration</defName>
+		<label>regeneration</label>
+		<description>This person has a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_Regeneration">
+				<rateInTicks>300</rateInTicks>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_RegenerationMinor</defName>
+		<label>regeneration, minor</label>
+		<description>This person has a faint distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_Regeneration">
+				<rateInTicks>2500</rateInTicks>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_WaterRegeneration</defName>
+		<label>water regeneration</label>
+		<description>This person will slowly regenerate health whenever they are on watery terrain.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_Regeneration">
+				<rateInTicks>750</rateInTicks>
+				<needsWater>true</needsWater>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_PassiveRegenerator</defName>
+		<label>passive regenerator</label>
+		<description>This person constantly releases an invisible cloud of specialized mechanites that periodically tend to the wounds of nearby people and animals, regenerating them without any need for rest.</description>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_PassiveRegenerator">
+				<radius>5</radius>
+				<needsToBeTamed>true</needsToBeTamed>
+				<tickInterval>1250</tickInterval>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_LethalInstability</defName>
+		<label>lethal instability</label>
+		<description>This person needs considerably less metabolic energy to stay alive, at the cost of outrageously-reduced stability in their cell-replication machinery, and a very, VERY limited lifespan that can't be expanded in any way.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_DieAfterPeriod">
+				<timeToDieInTicks>7200000</timeToDieInTicks>
+				<DescriptionLabel>AG_DeathIn</DescriptionLabel>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_UnstableMutation</defName>
+		<label>unstable mutation</label>
+		<description>Forces an unstable mutation on this person. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="AlphaGenes.HediffCompProperties_RandomMutation"/>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_UnstableMutationMajor</defName>
+		<label>unstable mutation, major</label>
+		<description>Forces an uncontrollable and unstable mutation on this person every day. This mutation will activate two new random genes for a whole day. Next day, the genes will deactivate and two new ones will take their place.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="AlphaGenes.HediffCompProperties_RandomMutation">
+				<numberOfGenes>2</numberOfGenes>
+				<recurrent>true</recurrent>
+				<period>60000</period>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_UnstableMutationCatastrophic</defName>
+		<label>unstable mutation, catastrophic</label>
+		<description>Forces an uncontrollable and unstable mutation on this person every day. This mutation will activate ten new random genes for a whole day. Next day, the genes will deactivate and ten new ones will take their place.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="AlphaGenes.HediffCompProperties_RandomMutation">
+				<numberOfGenes>10</numberOfGenes>
+				<recurrent>true</recurrent>
+				<period>60000</period>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_NearBlindness</defName>
+		<label>near blindness</label>
+		<description>This person has almost completely useless eyes, with close to total blindness.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_Deafness</defName>
+		<label>deafness</label>
+		<description>This person has a complete lack of hearing.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_Teratogenesis</defName>
+		<label>teratogenesis</label>
+		<description>The genes of this person constantly generate tumors all over their body. They are not immune to dead from these tumors.\n\nA new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="AlphaGenes.HediffCompProperties_Teratogenesis">
+				
+				<period>42000~72000</period>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_LimbRegeneration</defName>
+		<label>limb regeneration</label>
+		<description>This person has improved regenerating factors in their DNA, allowing them to slowly regenerate limbs that may even be completely missing. The process is slow, and will prioritize healing existing, but damaged, limbs.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_LimbRegeneration">
+				<rateInTicks>55000~65000</rateInTicks>
+				<healAmount>1</healAmount>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThoughtDef[defName = "EnvironmentDark"]/nullifyingGenes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "EnvironmentDark"]</xpath>
+			<value>
+				<nullifyingGenes>
+					<li>AG_BioluminescentEyes</li>
+				</nullifyingGenes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "EnvironmentDark"]/nullifyingGenes</xpath>
+			<value>
+				<li>AG_BioluminescentEyes</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_AerofleetLeather</defName>
+		<label>aerofleet leather</label>
+		<description>Carriers of this gene will yield aerofleet fur when butchered. Wearing aerofleet fur apparel by them is classed as wearing human leather apparel.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_Aerofleet</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>AA_Leather_Aerofleet</customLeatherThingDef>
+				<defsTreatedAsHumanLeather>
+					<li>AA_Leather_Aerofleet</li>
+				</defsTreatedAsHumanLeather>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_ChitinLeather</defName>
+		<label>chitin leather</label>
+		<description>Carriers of this gene will yield chitin when butchered. Wearing chitin apparel by them is classed as wearing human leather apparel.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_Chitin</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>Leather_Chitin</customLeatherThingDef>
+				<defsTreatedAsHumanLeather>
+					<li>Leather_Chitin</li>
+				</defsTreatedAsHumanLeather>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_BlackChitinLeather</defName>
+		<label>black chitin leather</label>
+		<description>Carriers of this gene will yield black insect chitin when butchered. Wearing black insect chitin apparel by them is classed as wearing human leather apparel.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_BlackChitin</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>Leather_BlackChitin</customLeatherThingDef>
+				<defsTreatedAsHumanLeather>
+					<li>Leather_BlackChitin</li>
+				</defsTreatedAsHumanLeather>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+			
+</Defs>

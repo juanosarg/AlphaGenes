@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RulePackDef>
+		<defName>AG_NamerPersonForsaken</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[firstName] [lastName]</li>
+				<li>firstName->[Forsaken]</li>
+				<li>lastName->[Forsaken]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>Forsaken->Names/Names_Forsakens</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>

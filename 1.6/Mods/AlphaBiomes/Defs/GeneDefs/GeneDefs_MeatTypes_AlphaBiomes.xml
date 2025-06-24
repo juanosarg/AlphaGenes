@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="AG_MeatTypeBase">
+		<defName>AG_MagicMushroomFlesh</defName>
+		<label>magic mushroom flesh</label>
+		<description>Carriers of this gene have psychotropic mushrooms in their flesh. Consuming such fungus by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/AG_Meat_Mushroom</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customMeatThingDef>AB_PsychotropicFungus</customMeatThingDef>
+				<defsTreatedAsHumanMeat>
+					<li>AB_PsychotropicFungus</li>
+				</defsTreatedAsHumanMeat>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

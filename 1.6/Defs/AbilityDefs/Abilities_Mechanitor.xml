@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AbilityDef>
+		<defName>AG_MechConversion</defName>
+		<label>mech IFF scrambler</label>
+		<description>Remotely hacks the IFF sensors of a mechanoid to temporarily swap its allegiance. This will last for a day, after which the mechanoid will revert to its former allegiance and attack indiscriminately.</description>
+		<iconPath>UI/Abilities/AG_MechConversion</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>35.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_MechConversion">
+				
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_BandwidthLoop</defName>
+		<label>bandwidth loop</label>
+		<description>Psychically create a feedback loop in a mech's connection, overloading its bandwidth and causing it to explode, destroying itself. This explosion will damage anything nearby, with the explosion range depending on the mech's bandwidth.</description>
+		<iconPath>UI/Icons/Genes/AG_BandwidthLoop</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>24.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_BandwidthLoop">
+				
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_SummonTempBandwidth</defName>
+		<label>summon band node</label>
+		<description>Summon a temporary band node that will increase the caster's bandwidth by 10 for a whole week.</description>
+		<iconPath>UI/Icons/Genes/AG_SummonTemporaryBandwidth</iconPath>
+		<cooldownTicksRange>4200000</cooldownTicksRange>
+		<aiCanUse>false</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>12.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TempNode">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_SummonMilitor</defName>
+		<label>summon militor</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summon a Militor mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 1 mech bandwidth to use this ability.</description>
+		<iconPath>UI/Icons/Genes/AG_SummonMilitor</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilitySummon">
+				<isMechanoid>true</isMechanoid>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_SummonTesseron</defName>
+		<label>summon tesseron</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summon a Tesseron mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 3 mech bandwidth to use this ability.</description>
+		<iconPath>UI/Icons/Genes/AG_SummonTesseron</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilitySummon">
+				<isMechanoid>true</isMechanoid>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_SummonCentipede</defName>
+		<label>summon centipede</label>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Summon a Centipede Blaster mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 4 mech bandwidth to use this ability.</description>
+		<iconPath>UI/Icons/Genes/AG_SummonCentipede</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AbilitySummon">
+				<isMechanoid>true</isMechanoid>
+			</li>
+		</comps>
+	</AbilityDef>
+</Defs>

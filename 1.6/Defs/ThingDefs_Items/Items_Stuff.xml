@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+ 	<ThingDef ParentName="ResourceBase">
+		<defName>AG_Ultima</defName>
+		<label>ultima fabric</label>
+		<description>Ultima fabric is used in the making of Forsaken armors. Produced by septimum plant, which can only be sown by colonists with the Forsaken Knowledge gene.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_Ultima</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.6</drawSize>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>2</MarketValue>
+			<Mass>0.026</Mass>
+			<Flammability>0.8</Flammability>
+			<DeteriorationRate>0.8</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.25</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<stuffProps>
+			<color>(42,42,42)</color>
+			<statFactors>
+				<Flammability>0.8</Flammability>
+				<MaxHitPoints>1.4</MaxHitPoints>
+				<Beauty>2.5</Beauty>
+			</statFactors>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0.3</commonality>
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+	</ThingDef>
+  
+
+</Defs>

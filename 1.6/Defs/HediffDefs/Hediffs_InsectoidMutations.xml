@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HediffDef>
+		<defName>AG_VFEI_InsectoidLeg</defName>
+		<label>insectoid leg</label>
+		<labelNoun>an insectoid leg</labelNoun>
+		<description>A jointed appendage of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, this leg has much higher resistance to damage.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0125</painOffset>
+				<statOffsets>
+					<MaxHitPoints>30</MaxHitPoints>
+				</statOffsets>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>15</healthPointToAdd>
+			</li>
+		</modExtensions>
+		
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_InsectoidArm</defName>
+		<label>insectoid arm</label>
+		<labelNoun>an insectoid arm</labelNoun>
+		<description>A jointed appendage of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, this arm has much higher resistance to damage.</description>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0125</painOffset>
+				<statOffsets>
+					<MaxHitPoints>30</MaxHitPoints>
+				</statOffsets>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>15</healthPointToAdd>
+			</li>
+		</modExtensions>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_SegmentedEye</defName>
+		<label>compound eye</label>
+		<labelNoun>a compound eye</labelNoun>
+		<description>An eye consisting of thousands of individual photoreceptor units, compound eyes have a large field of view and help with detecting fast movement, however its visibility range is significantly reduced. Whilst it’s an extremely painful mutation, this eye has a higher resistance to damage.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.5</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.00625</painOffset>
+				<statOffsets>
+					<MaxHitPoints>6</MaxHitPoints>
+					<MeleeDodgeChance>0.2</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>3</healthPointToAdd>
+			</li>
+		</modExtensions>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_Mandibles</defName>
+		<label>mandibles</label>
+		<labelNoun>mandible</labelNoun>
+		<description>A pair of appendages situated on the sides of the mouth, Helping to crush and cut the food. Whilst it’s significantly less comfortable than normal jaw, insectoid mandibles significantly increase eating speed.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0125</painOffset>
+				<statOffsets>
+					<MaxHitPoints>4</MaxHitPoints>
+					<EatingSpeed>1.5</EatingSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>4</healthPointToAdd>
+			</li>
+		</modExtensions>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AG_VFEI_VenomGland</defName>
+		<label>venom gland</label>
+		<labelNoun>venom gland</labelNoun>
+		<description>A sack-like gland tucked under the tongue that secretes acid, liquifying and allowing to safely consume even the most dangerous foods. The overstimulation of this gland enables the user to throw a short range acid spitting attack, effective at going through armor.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0125</painOffset>
+				<statOffsets>
+					<MaxHitPoints>4</MaxHitPoints>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>venom gland</label>
+						<capacities>
+							<li>AG_SpittingOnPawn</li>
+						</capacities>
+						<power>2</power>
+						<cooldownTime>4</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+			
+		</comps>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>4</healthPointToAdd>
+			</li>
+		</modExtensions>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_PneumaticClaw</defName>
+		<label>pneumatic claw</label>
+		<labelNoun>pneumatic claw</labelNoun>
+		<description>A powerful pneumatic pincer arm, capable of repeatedly exerting great pressure on the target at the cost of refined motor skills.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0125</painOffset>
+				<statOffsets>
+					<MaxHitPoints>40</MaxHitPoints>
+					<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claw</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>3</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+			
+		</comps>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>20</healthPointToAdd>
+			</li>
+		</modExtensions>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_AdrenalSecretor</defName>
+		<label>adrenal secretor</label>
+		<labelNoun>adrenal secretor</labelNoun>
+		<description>An insectoid kidney with a hyperactive adrenal gland. Subjects with this mutation may find newfound pleasure in inflicting pain. However, it does bring the side effect of unwarranted aggression.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.00675</painOffset>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_RecreationOnDeath" />
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_Antenna</defName>
+		<label>antenna</label>
+		<labelNoun>antenna</labelNoun>
+		<description>A slender, mobile sensory organ that serves to compliment vision and locational awareness. A subject with this mutation will no longer suffer from darkness penalties, however sensory overload makes it very difficult to socialize.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.00675</painOffset>
+				<statOffsets>
+					<PawnBeauty>-1</PawnBeauty>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_PredatorStomach</defName>
+		<label>predator stomach</label>
+		<labelNoun>predator stomach</labelNoun>
+		<description>A highly efficient, although basic stomach alternative. Subjects with this mutation will be able to live longer with less food. Increases nutrition of non-raw food by 10%.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0125</painOffset>
+				<statOffsets>
+					<MaxHitPoints>-5</MaxHitPoints>
+
+				</statOffsets>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>-5</healthPointToAdd>
+			</li>
+		</modExtensions>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_PheromoneSecretor</defName>
+		<label>pheromone secretor</label>
+		<description>Insectoid glands that slowly leak colorless, odorless, but sticky pheromone, notable for inducing a mild euphoria in those nearby.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0125</painOffset>
+				<statOffsets>
+					<SocialImpact>0.25</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_VFEI_VentricularSleeve</defName>
+		<label>ventricular sleeve</label>
+		<labelNoun>ventricular sleeve</labelNoun>
+		<description>A barely understood heart and artery mutation, causes blood to coagulate into oxygen-rich gel-like material. Upon laceration or even loss of limbs, the gel will cauterize the wound immediately. Unfortunately puts heavy strain on human cardiovascular biology.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0675</painOffset>
+				<statOffsets>
+					<MaxHitPoints>5</MaxHitPoints>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_NoBleedHeartAttack" />
+			
+		</comps>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>5</healthPointToAdd>
+			</li>
+		</modExtensions>
+	</HediffDef>
+	<HediffDef>
+		
+		<defName>AG_VFEI_SynapticCerebellum</defName>
+		<label>synaptic cerebellum</label>
+		<description>An insectoid brain particularly sensitive to residual psychic synapse. A creature with this mutation possesses profound collective thought and psychic sensitivity, however is barely able to form cohesive sentences.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>0.0125</painOffset>
+				<statOffsets>
+					<MaxHitPoints>10</MaxHitPoints>
+					<PsychicSensitivity>0.5</PsychicSensitivity>
+					<TradePriceImprovement>-0.1</TradePriceImprovement>
+					<ResearchSpeed>0.33</ResearchSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="AlphaGenes.HealthModifierExtension">
+				<healthPointToAdd>10</healthPointToAdd>
+			</li>
+		</modExtensions>
+	</HediffDef>
+</Defs>

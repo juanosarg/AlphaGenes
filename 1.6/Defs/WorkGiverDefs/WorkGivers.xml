@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<WorkGiverDef>
+		<defName>AG_HaulToAlphaGeneBank</defName>
+		<label>bank alphapack</label>
+		<giverClass>AlphaGenes.WorkGiver_HaulToGeneBank</giverClass>
+		<workType>Hauling</workType>
+		<verb>bank</verb>
+		<gerund>banking</gerund>
+		<priorityInType>111</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>AG_HaulToMixedGeneBank</defName>
+		<label>bank mixedpack</label>
+		<giverClass>AlphaGenes.WorkGiver_HaulToGeneBankMixed</giverClass>
+		<workType>Hauling</workType>
+		<verb>bank</verb>
+		<gerund>banking</gerund>
+		<priorityInType>111</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>AG_AdministerMetal</defName>
+		<label>administer metal</label>
+		<giverClass>AlphaGenes.WorkGiver_AdministerMetal</giverClass>
+		<workType>Doctor</workType>
+		<verb>feed</verb>
+		<gerund>feeding</gerund>
+		<priorityInType>81</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<feedHumanlikesOnly>true</feedHumanlikesOnly>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
+	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>AG_ForceEatMetal</defName>
+		<label>eat metal</label>
+		<giverClass>AlphaGenes.WorkGiver_ForceEatMetal</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>eat</verb>
+		<gerund>eating</gerund>
+		<priorityInType>40</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>AG_Warden_DeliverMetal</defName>
+		<label>deliver metal</label>
+		<giverClass>AlphaGenes.WorkGiver_Warden_DeliverMetal</giverClass>
+		<workType>Warden</workType>
+		<verb>deliver food for</verb>
+		<gerund>delivering food for</gerund>
+		<priorityInType>80</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>AG_DoBillsForsakenForge</defName>
+		<label>works at forsaken forge</label>
+		<giverClass>AlphaGenes.WorkGiver_DoBill_Forsaken</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AG_ForsakenForge</li>
+		</fixedBillGiverDefs>
+		<verb>work at</verb>
+		<gerund>working at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+</Defs>

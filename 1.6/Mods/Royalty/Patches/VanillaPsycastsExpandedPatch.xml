@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Psycasts Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/GeneDef[defName = "AG_InnatePsylink"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]/hediffsToBodyParts</xpath>
+				<value>
+					
+					<li>
+						<hediff>VPE_PsycastAbilityImplant</hediff>
+						<bodyparts>
+							<li>Brain</li>
+							
+						</bodyparts>
+					</li>
+					
+					
+					
+				</value>
+			</li>
+
+
+
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

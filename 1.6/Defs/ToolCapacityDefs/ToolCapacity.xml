@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ToolCapacityDef>
+		<defName>AG_Acid</defName>
+		<label>acid spit</label>
+	</ToolCapacityDef>
+	
+		<ToolCapacityDef>
+		<defName>AG_SpittingOnPawn</defName>
+		<label>spit acid on pawn</label>
+	</ToolCapacityDef>
+	
+</Defs>

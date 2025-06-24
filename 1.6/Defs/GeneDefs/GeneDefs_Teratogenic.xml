@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<GeneDef>
+		<defName>AG_Teratogenesis</defName>
+		<label>teratogenesis</label>
+		
+		
+		<description>Carriers of this gene constantly generate tumors all over their body. They are not immune to death from these tumors.</description>
+		<iconPath>UI/Icons/Genes/AG_Teratogenesis</iconPath>
+		<displayCategory>AG_Teratogenic</displayCategory>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
+		<biostatMet>5</biostatMet>
+		<customEffectDescriptions>
+			<li>A new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body.</li>
+			<li>Starts taking effect when a Taukai becomes an adult.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+			
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Teratogenesis</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_TeratogenicHealing</defName>
+		<label>teratogenic healing</label>		
+		<description>Carriers of this gene can repurpose their tumors to heal them, consuming the cancerous masses in the process.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicHealing</iconPath>
+		<displayCategory>AG_Teratogenic</displayCategory>
+		<abilities>
+			<li>AG_TeratogenicHealing</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_TeratogenicHealing</AbilityDef>
+		</descriptionHyperlinks>
+		<prerequisite>AG_Teratogenesis</prerequisite>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_HealingTouch</defName>
+		<label>healing touch</label>		
+		<description>Carriers of this gene can repurpose their tumors to heal other people, consuming the cancerous masses in the process.</description>
+		<iconPath>UI/Icons/Genes/AG_HealingTouch</iconPath>
+		<displayCategory>AG_Teratogenic</displayCategory>
+		<abilities>
+			<li>AG_HealingTouch</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_HealingTouch</AbilityDef>
+		</descriptionHyperlinks>
+		<prerequisite>AG_Teratogenesis</prerequisite>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_TeratogenicManipulation</defName>
+		<label>teratogenic coordination</label>		
+		<description>Carriers of this gene can repurpose their tumors to provide them a huge boost to their manipulation and dexterity.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicManipulation</iconPath>
+		<displayCategory>AG_Teratogenic</displayCategory>
+		<abilities>
+			<li>AG_TeratogenicManipulation</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_TeratogenicManipulation</AbilityDef>
+		</descriptionHyperlinks>
+		<prerequisite>AG_Teratogenesis</prerequisite>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_TeratogenicSwiftness</defName>
+		<label>teratogenic swiftness</label>		
+		<description>Carriers of this gene can repurpose their tumors to provide them a huge boost to their movement and working speed.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicSwiftness</iconPath>
+		<displayCategory>AG_Teratogenic</displayCategory>
+		<abilities>
+			<li>AG_TeratogenicSwiftness</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_TeratogenicSwiftness</AbilityDef>
+		</descriptionHyperlinks>
+		<prerequisite>AG_Teratogenesis</prerequisite>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_TeratogenicStamina</defName>
+		<label>teratogenic stamina</label>		
+		<description>Carriers of this gene can repurpose their tumors to provide them a huge boost to their immune system, and overall stamina.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicStamina</iconPath>
+		<displayCategory>AG_Teratogenic</displayCategory>
+		<abilities>
+			<li>AG_TeratogenicStamina</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_TeratogenicStamina</AbilityDef>
+		</descriptionHyperlinks>
+		<prerequisite>AG_Teratogenesis</prerequisite>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_TeratogenicBurst</defName>
+		<label>teratogenic touch</label>		
+		<description>Carriers of this gene can transfer their tumors to another person, which is generally as painful and dangerous as it sounds.</description>
+		<iconPath>UI/Icons/Genes/AG_TeratogenicBurst</iconPath>
+		<displayCategory>AG_Teratogenic</displayCategory>
+		<abilities>
+			<li>AG_TeratogenicBurst</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_TeratogenicBurst</AbilityDef>
+		</descriptionHyperlinks>
+		<prerequisite>AG_Teratogenesis</prerequisite>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

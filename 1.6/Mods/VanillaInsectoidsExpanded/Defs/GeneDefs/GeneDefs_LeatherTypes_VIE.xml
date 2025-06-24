@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	<GeneDef ParentName="AG_LeatherTypeBase">
+		<defName>AG_InsectoidChitinLeather</defName>
+		<label>insectoid chitin leather</label>
+		<description>Carriers of this gene will yield insectoid chitin when butchered. Wearing insectoid chitin apparel by them is classed as wearing human leather apparel.</description>
+		<iconPath>UI/Icons/Genes/AG_Leather_InsectChitin</iconPath>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<customLeatherThingDef>VFEI2_Chitin</customLeatherThingDef>
+				<defsTreatedAsHumanLeather>
+					<li>VFEI2_Chitin</li>
+				</defsTreatedAsHumanLeather>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	
+	
+	
+
+
+
+
+</Defs>

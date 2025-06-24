@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_CragAffinity</defName>
+		<label>crag affinity</label>
+		<description>Carriers of this gene feel completely at home in the Forsaken Crags, and will be immune to the oppressive feelings of the preternatural darkness.</description>
+		<iconPath>UI/Icons/Genes/AG_CragAffinity</iconPath>
+		<displayCategory>Miscellaneous</displayCategory>
+		<prerequisite>AG_ForsakenKnowledge</prerequisite>
+		<biostatCpx>1</biostatCpx>
+		
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+</Defs>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenNight"]/nullifyingGenes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenNight"]</xpath>
+			<value>
+				<nullifyingGenes>
+					<li>AG_CragAffinity</li>
+				</nullifyingGenes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenNight"]/nullifyingGenes</xpath>
+			<value>
+				<li>AG_CragAffinity</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenRain"]/nullifyingGenes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenRain"]</xpath>
+			<value>
+				<nullifyingGenes>
+					<li>AG_CragAffinity</li>
+				</nullifyingGenes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenRain"]/nullifyingGenes</xpath>
+			<value>
+				<li>AG_CragAffinity</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenThunderstorm"]/nullifyingGenes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenThunderstorm"]</xpath>
+			<value>
+				<nullifyingGenes>
+					<li>AG_CragAffinity</li>
+				</nullifyingGenes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "AB_ForsakenThunderstorm"]/nullifyingGenes</xpath>
+			<value>
+				<li>AG_CragAffinity</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/XenotypeDef[defName = "AG_Forsaken"]/genes</xpath>
+		<value>
+			<li>AG_CragAffinity</li>
+			
+		</value>
+	</Operation>
+</Patch>

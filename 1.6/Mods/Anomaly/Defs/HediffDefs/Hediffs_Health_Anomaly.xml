@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>AG_PseudoDeadlife</defName>
+		<label>pseudo deadlife</label>
+		<description>This person has a cloud of microscopic archites that induce a state of pseudo deadlife, granting great resilience without outright killing them.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<hungerRateFactor>0.7</hungerRateFactor>
+				<restFallFactor>0.7</restFallFactor>
+				<naturalHealingFactor>0.5</naturalHealingFactor>
+				<painFactor>0</painFactor>
+				<statFactors>
+					<MeleeCooldownFactor>0.75</MeleeCooldownFactor>
+					<PsychicSensitivity>0</PsychicSensitivity>
+				</statFactors>
+				<statOffsets>
+					<ComfyTemperatureMin>-60</ComfyTemperatureMin>
+					<ComfyTemperatureMax>30</ComfyTemperatureMax>
+					<ToxicResistance>1</ToxicResistance>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_Animation">
+				<animation>ShamblerSway</animation>
+				<shamblerParticles>true</shamblerParticles>
+			</li>
+		</comps>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>AlphaGenes.PawnRenderNode_BodyRotten</nodeClass>
+				<overlayLayer>Body</overlayLayer>
+				<baseLayer>1</baseLayer>
+			</li>
+			<li>
+				<nodeClass>AlphaGenes.PawnRenderNode_HeadRotten</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Head</workerClass>
+				<overlayLayer>Head</overlayLayer>
+				<baseLayer>51</baseLayer>
+			</li>
+		</renderNodeProperties>
+	</HediffDef>
+	<HediffDef ParentName="InfectionBase">
+		<defName>AG_PlaguedClaws</defName>
+		<label>shambler plague</label>
+		<labelNoun>a shambler plague</labelNoun>
+		<description>A virulent disease that causes severe debilitation. If a victim dies and it is more than 80% advanced when they die, they will rise as a shambler, spreading the infection further.</description>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<makesSickThought>true</makesSickThought>
+		<lethalSeverity>1</lethalSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>12</baseTendDurationHours>
+				<severityPerDayTended>-0.53</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.84</severityPerDayNotImmune>
+				<immunityPerDaySick>0.6441</immunityPerDaySick>
+				<severityPerDayImmune>-0.70</severityPerDayImmune>
+				<immunityPerDayNotSick>-0.40</immunityPerDayNotSick>
+			</li>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+			</li>
+			<li Class="AlphaGenes.HediffCompProperties_RaiseShambler">
+       
+      </li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.33</minSeverity>
+				<label>major</label>
+				<painOffset>0.08</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.12</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.4</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.85</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_Regeneration_InTheSun</defName>
+		<label>sunlight regeneration</label>
+		<description>This shambler gets healed by sunlight.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_Regeneration">
+				<rateInTicks>1250</rateInTicks>
+				<healAmount>10</healAmount>
+				<healAll>false</healAll>
+				<needsSun>true</needsSun>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_MeatBurst</defName>
+		<label>meat burst</label>
+		<description>This person will explode on death, liberating a small amount of fleshbeasts.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="AlphaGenes.HediffCompProperties_MeatBurst">
+				<divideBloodFilthCountRange>1~2</divideBloodFilthCountRange>
+				<dividePawnCount>3</dividePawnCount>
+				<dividePawnKindOptions>
+					<li>Fingerspike</li>
+				</dividePawnKindOptions>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AG_FleshPower</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>flesh catharsis</label>
+		<description>The exhilaration caused after absorbing a fleshbeast is causing this person to have increased pain tolerance and strength. This will last for about a day.</description>
+	
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+				</statOffsets>
+				<painFactor>0.75</painFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.20</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.01</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>2</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>2</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.10</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

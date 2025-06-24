@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_TwitchingToughspikes</defName>
+		<label>twitching toughspikes</label>
+		<description>Carriers of this gene have two non-functional toughspike claws growing from their shoulders. Unnerving!</description>
+		<iconPath>UI/Icons/Genes/AG_Toughspikes</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<exclusionTags>
+			<li>AG_Spikes</li>
+		</exclusionTags>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Spastic">
+				<texPath>Things/Pawn/Fleshbeast/Toughspike/Attachments/Toughspike_Spike</texPath>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<rotateFacing>false</rotateFacing>
+				<rotationRange>-30~30</rotationRange>
+				<durationTicksRange>10~35</durationTicksRange>
+				<nextSpasmTicksRange>10~50</nextSpasmTicksRange>
+				<drawSize>1.4</drawSize>
+				<baseLayer>10</baseLayer>
+				<useRottenColor>true</useRottenColor>
+				<drawData>
+					<dataNorth>
+						<offset>(-0.25, 0, 0.25)</offset>
+						<rotationOffset>-45</rotationOffset>
+						<layer>100</layer>
+					</dataNorth>
+					<dataEast>
+						<offset>(0, 0, 0.15)</offset>
+						<layer>-5</layer>
+					</dataEast>
+					<dataSouth>
+						<offset>(0.15, 0, 0.3)</offset>
+						<rotationOffset>45</rotationOffset>
+					</dataSouth>
+					<dataWest>
+						<offset>(0, 0, 0.15)</offset>
+						<flip>true</flip>
+						<layer>100</layer>
+					</dataWest>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Spastic">
+				<texPath>Things/Pawn/Fleshbeast/Toughspike/Attachments/Toughspike_Spike</texPath>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<rotateFacing>false</rotateFacing>
+				<rotationRange>-30~30</rotationRange>
+				<durationTicksRange>10~35</durationTicksRange>
+				<nextSpasmTicksRange>10~50</nextSpasmTicksRange>
+				<drawSize>1.4</drawSize>
+				<baseLayer>10</baseLayer>
+				<useRottenColor>true</useRottenColor>
+				<drawData>
+					<dataNorth>
+						<offset>(0.25, 0, 0.25)</offset>
+						<rotationOffset>45</rotationOffset>
+						<flip>true</flip>
+						<layer>100</layer>
+					</dataNorth>
+					<dataEast>
+						<offset>(0, 0, 0.15)</offset>
+						<layer>100</layer>
+					</dataEast>
+					<dataSouth>
+						<offset>(-0.15, 0, 0.3)</offset>
+						<rotationOffset>-45</rotationOffset>
+						<flip>true</flip>
+					</dataSouth>
+					<dataWest>
+						<offset>(0, 0, 0.15)</offset>
+						<layer>-5</layer>
+						<flip>true</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_TwitchingTrispikes</defName>
+		<label>twitching trispikes</label>
+		<description>Carriers of this gene have three non-functional flesh claws growing from their shoulders. Unnerving!</description>
+		<iconPath>UI/Icons/Genes/AG_Trispikes</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>AG_Spikes</li>
+		</exclusionTags>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Spastic">
+				<texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<rotateFacing>false</rotateFacing>
+				<rotationRange>-25~25</rotationRange>
+				<scaleRange>0.9~1.1</scaleRange>
+				<durationTicksRange>15~45</durationTicksRange>
+				<nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+				<drawSize>1.4</drawSize>
+				<baseLayer>10</baseLayer>
+				<useRottenColor>true</useRottenColor>
+				<drawData>
+					<dataNorth>
+						<rotationOffset>-20</rotationOffset>
+						<offset>(-0.25, 0, 0.05)</offset>
+						<layer>100</layer>
+					</dataNorth>
+					<dataEast>
+						<rotationOffset>245</rotationOffset>
+						<layer>-5</layer>
+					</dataEast>
+					<dataSouth>
+						<rotationOffset>35</rotationOffset>
+						<offset>(0.25, 0, 0.05)</offset>
+					</dataSouth>
+					<dataWest>
+						<offset>(0, 0, 0.1)</offset>
+						<flip>true</flip>
+						<layer>100</layer>
+					</dataWest>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Spastic">
+				<texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<rotateFacing>false</rotateFacing>
+				<rotationRange>-25~25</rotationRange>
+				<scaleRange>0.9~1.1</scaleRange>
+				<durationTicksRange>15~45</durationTicksRange>
+				<nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+				<drawSize>1.45</drawSize>
+				<baseLayer>10</baseLayer>
+				<useRottenColor>true</useRottenColor>
+				<drawData>
+					<dataNorth>
+						<rotationOffset>160</rotationOffset>
+						<offset>(0.2, 0, 0.05)</offset>
+						<layer>100</layer>
+					</dataNorth>
+					<dataEast>
+						<offset>(0, 0, 0.1)</offset>
+						<layer>100</layer>
+					</dataEast>
+					<dataSouth>
+						<rotationOffset>180</rotationOffset>
+						<offset>(-0.25, 0, 0)</offset>
+					</dataSouth>
+					<dataWest>
+						<rotationOffset>120</rotationOffset>
+						<layer>-5</layer>
+						<flip>true</flip>
+					</dataWest>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Spastic">
+				<texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Top/Trispike_TopLimb</texPath>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<rotateFacing>false</rotateFacing>
+				<rotationRange>-30~30</rotationRange>
+				<scaleRange>0.95~1.05</scaleRange>
+				<durationTicksRange>10~60</durationTicksRange>
+				<nextSpasmTicksRange>20~60</nextSpasmTicksRange>
+				<drawSize>1.4</drawSize>
+				<baseLayer>10</baseLayer>
+				<useRottenColor>true</useRottenColor>
+				<drawData>
+					<defaultData>
+						<offset>(0, 0, 0.3)</offset>
+					</defaultData>
+					<dataNorth>
+						<rotationOffset>60</rotationOffset>
+						<layer>100</layer>
+					</dataNorth>
+					<dataSouth>
+						<rotationOffset>-60</rotationOffset>
+					</dataSouth>
+					<dataWest>
+						<flip>true</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_TwitchingFingerspike</defName>
+		<label>twitching fingerspike</label>
+		<description>Carriers of this gene have a non-functional fingerspike growing from their shoulders. Unnerving!</description>
+		<iconPath>UI/Icons/Genes/AG_Fingerspike</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<exclusionTags>
+			<li>AG_Spikes</li>
+		</exclusionTags>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Spastic">
+			
+				<texPath>Things/Pawn/Fleshbeast/Fingerspike/Attachments/Fingerspike_TopLimb</texPath>
+			
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<rotateFacing>false</rotateFacing>
+				<rotationRange>-18~18</rotationRange>
+				<durationTicksRange>15~45</durationTicksRange>
+				<nextSpasmTicksRange>5~30</nextSpasmTicksRange>
+				<scaleRange>0.95~1.05</scaleRange>
+				<drawSize>1.4</drawSize>
+				<baseLayer>10</baseLayer>
+				<useRottenColor>true</useRottenColor>
+				<drawData>
+					<dataNorth>
+						<rotationOffset>-15</rotationOffset>
+						<offset>(0, 0, 0.3)</offset>
+					</dataNorth>
+					<dataEast>
+						<offset>(0.25, 0, 0.1)</offset>
+					</dataEast>
+					<dataSouth>
+						<rotationOffset>15</rotationOffset>
+						<offset>(0, 0, -0.2)</offset>
+						<flip>true</flip>
+					</dataSouth>
+					<dataWest>
+						<flip>true</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_TentacleHorns</defName>
+		<label>tentacles and horns</label>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<description>Carriers of this gene grow two large  horns protruding from the forehead, which are not purely cosmetic, as they can be used for offensive purposes, as well as four fleshy tentacles.</description>
+		<iconPath>UI/Icons/Genes/AG_TentacledHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_TentacledHorns/AG_TentacledHorns</texPath>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

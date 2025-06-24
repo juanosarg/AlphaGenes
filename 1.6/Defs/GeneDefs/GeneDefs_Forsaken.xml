@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_ForsakenKnowledge</defName>
+		<label>forsaken knowledge</label>
+		<iconPath>UI/Icons/Genes/AG_ForsakenKnowledge</iconPath>
+		<description>Carriers of this gene have genetic knowledge related to Forsaken techniques and equipment. They will be able to build Forsaken structures and wear Forsaken apparel and armors.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ForsakenBodyEmblem</defName>
+		<label>forsaken body emblem</label>
+		<description>Carriers of this gene have a yellow emblem associated with the forsaken on their midsection. This comes with multiple physical benefits.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<iconPath>UI/Icons/Genes/AG_ForsakenBodyEmblem</iconPath>
+		<displayOrderInCategory>102</displayOrderInCategory>
+		<displayCategory>Miscellaneous</displayCategory>
+		<statFactors>
+			<MoveSpeed>1.2</MoveSpeed>
+			<WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+			<MeleeDamageFactor>1.25</MeleeDamageFactor>
+		</statFactors>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/AG_ForsakenBodyEmblem/AG_ForsakenBodyEmblem</texPath>
+				<colorType>Custom</colorType>
+				<useSkinShader>false</useSkinShader>
+				<overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataSouth>
+						<layer>15</layer>
+					</dataSouth>
+					<dataEast>
+						<layer>15</layer>
+					</dataEast>
+					<dataWest>
+						<layer>15</layer>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ForsakenHeadEmblem</defName>
+		<label>forsaken head emblem</label>
+		<description>Carriers of this gene have a yellow emblem associated with the forsaken on their forehead. This comes with multiple mental benefits.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<displayCategory>Miscellaneous</displayCategory>
+		<statFactors>
+			<ResearchSpeed>1.3</ResearchSpeed>
+			<GlobalLearningFactor>1.10</GlobalLearningFactor>
+			<MeleeDodgeChance>1.2</MeleeDodgeChance>
+		</statFactors>
+		<iconPath>UI/Icons/Genes/AG_ForsakenHeadEmblem</iconPath>
+		<displayOrderInCategory>103</displayOrderInCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenHeadEmblem/AG_ForsakenHeadEmblem</li>
+				</texPaths>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ExtraordinaryLifespan</defName>
+		<label>extraordinary lifespan</label>
+		<description>Carriers of this gene will enjoy an extraordinary lifespan. Children will however take an incredibly long time to grow up.</description>
+		<iconPath>UI/Icons/Genes/AG_ExtraordinaryLifespan</iconPath>
+		<exclusionTags>
+			<li>AG_Aging</li>
+			<li>Aging</li>
+		</exclusionTags>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>502</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<statFactors>
+			<LifespanFactor>8</LifespanFactor>
+		</statFactors>
+		<customEffectDescriptions>
+			<li>Children will take 5 times longer to mature.</li>
+		</customEffectDescriptions>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 0.2)</li>
+				<li>(18, 1)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

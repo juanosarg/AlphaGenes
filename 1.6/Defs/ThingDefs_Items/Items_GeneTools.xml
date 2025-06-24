@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="GeneSetHolderBase">
+		<defName>AG_Alphapack</defName>
+		<label>alphapack</label>
+		<description>A small capsule containing a package of genetic information. To use a genepack, it must be placed in a gene bank near a gene assembler and combined into an implantable xenogerm.\n\nIf not kept in a powered gene bank, this genepack will slowly deteriorate.\n\nAlphapacks only contain combinations of Alpha genes.</description>
+		<thingClass>Genepack</thingClass>
+		<tickerType>Rare</tickerType>
+		<useHitPoints>true</useHitPoints>
+		<stackLimit>1</stackLimit>
+		<canDeteriorateUnspawned>true</canDeteriorateUnspawned>
+		<deteriorateFromEnvironmentalEffects>false</deteriorateFromEnvironmentalEffects>
+		<inspectorTabs>
+			<li>ITab_Genes</li>
+		</inspectorTabs>
+		<graphicData>
+			<texPath>Things/Item/AG_Alphapack</texPath>
+			<graphicClass>Graphic_Genepack</graphicClass>
+			<drawSize>(0.75, 0.75)</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<DeteriorationRate>5</DeteriorationRate>
+		</statBases>
+		<descriptionHyperlinks>
+			<ThingDef>Xenogerm</ThingDef>
+			<ThingDef>GeneAssembler</ThingDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<ThingDef ParentName="GeneSetHolderBase">
+		<defName>AG_Mixedpack</defName>
+		<label>mixedpack</label>
+		<description>A small capsule containing a package of genetic information. To use a genepack, it must be placed in a gene bank near a gene assembler and combined into an implantable xenogerm.\n\nIf not kept in a powered gene bank, this genepack will slowly deteriorate.\n\nMixedpacks contain combinations of Alpha genes and standard genes.</description>
+		<thingClass>Genepack</thingClass>
+		<tickerType>Rare</tickerType>
+		<useHitPoints>true</useHitPoints>
+		<stackLimit>1</stackLimit>
+		<canDeteriorateUnspawned>true</canDeteriorateUnspawned>
+		<deteriorateFromEnvironmentalEffects>false</deteriorateFromEnvironmentalEffects>
+		<inspectorTabs>
+			<li>ITab_Genes</li>
+		</inspectorTabs>
+		<graphicData>
+			<texPath>Things/Item/AG_Mixedpack</texPath>
+			<graphicClass>Graphic_Genepack</graphicClass>
+			<drawSize>(0.75, 0.75)</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<DeteriorationRate>5</DeteriorationRate>
+		</statBases>
+		<descriptionHyperlinks>
+			<ThingDef>Xenogerm</ThingDef>
+			<ThingDef>GeneAssembler</ThingDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<ThingDef ParentName="ResourceBase" Name="AG_GeneToolBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.2</Mass>
+			<DeteriorationRate>2.0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>AG_GeneTools</li>
+		</thingCategories>
+		<techLevel>Ultra</techLevel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_GeneRemover</defName>
+		<label>gene remover</label>
+		<description>A genetic toolkit capable of removing a random gene from a human target. This removal is quite destructive, and will target a gene at random. As a result, the target will drop into a coma for 3 days. Using the remover on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_GeneRemover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGeneRemover</useJob>
+				<useLabel>Use gene remover</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_RemoveGene">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_Endogenefier</defName>
+		<label>endogenefier</label>
+		<description>A genetic toolkit capable of converting a random xenogene from a human target into an endogene. As a result, the target will drop into a coma for 3 days. Using the endogenefier on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_Endogenefier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseEndogenefier</useJob>
+				<useLabel>Use endogenefier</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_Endogenefier">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_Xenogenefier</defName>
+		<label>xenogenefier</label>
+		<description>A genetic toolkit capable of converting a random endogene from a human target into a xenogene. As a result, the target will drop into a coma for 3 days. Using the xenogenefier on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_Xenogenefier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseXenogenefier</useJob>
+				<useLabel>Use xenogenefier</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_Xenogenefier">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_XenotypeNullifier</defName>
+		<label>xenotype nullifier</label>
+		<description>A genetic toolkit capable of forcefully removing all xenotype genes from the target, reverting them to baseline humanity. As a result, the target will drop into a coma for 3 days. Using the nullifier on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_XenotypeNullifier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseXenotypeNullifier</useJob>
+				<useLabel>Use xenotype nullifier</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_XenotypeNullifier">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_XenotypeInjector</defName>
+		<label>xenotype injector</label>
+		<description>A genetic toolkit capable of forcefully removing all genes from the target, both germline and xenogenes, and replacing them with a random xenotype. As a result, the target will drop into a coma for 3 days. Using the injector on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_XenotypeInjector</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseXenotypeInjector</useJob>
+				<useLabel>Use xenotype injector</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_XenotypeInjector">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_GermlineMutator</defName>
+		<label>germline mutator</label>
+		<description>A genetic toolkit capable of causing random genetic mutations on the subject's germline, producing one random endogene. As a result, the target will drop into a coma for 3 days. Using the mutator on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_GermlineMutator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGermlineMutator</useJob>
+				<useLabel>Use germline mutator</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_GermlineMutator">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_GenepackTweaker</defName>
+		<label>genepack tweaker</label>
+		<description>A genetic toolkit capable of acting upon an existing genepack, alphapack or mixedpack, adding a new, random gene to it. The targetted genepack must have 3 or less genes inside it, and this process won't add new archite genes to it.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_GenepackTweaker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGenepackTweaker</useJob>
+				<useLabel>Use genepack tweaker</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableGenepack">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_GenepackTweaker">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_GenepackDisruptor</defName>
+		<label>genepack disruptor</label>
+		<description>A genetic toolkit capable of acting upon an existing genepack, alphapack or mixedpack, deleting a random gene present on it. The targetted genepack must have 2 or more genes inside it.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_GenepackDisruptor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseGenepackDisruptor</useJob>
+				<useLabel>Use genepack disruptor</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableGenepack">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_GenepackDisruptor">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_ArchoGeneRemover</defName>
+		<label>archotech gene remover</label>
+		<description>A genetic toolkit capable of removing a specific gene from a human target. This removal is quite destructive, and as a result, the target will drop into a coma for 3 days. Using the remover on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_ArchoGeneRemover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>500</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseArchoGeneRemover</useJob>
+				<useLabel>Use archotech gene remover</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_ChooseAndRemoveGene">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_ArchoEndogenefier</defName>
+		<label>archotech endogenefier</label>
+		<description>A genetic toolkit capable of converting a specific xenogene from a human target into an endogene. As a result, the target will drop into a coma for 3 days. Using the archotech endogenefier on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_ArchoEndogenefier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>500</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseArchoEndogenefier</useJob>
+				<useLabel>Use archotech endogenefier</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_ArchoEndogenefier">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="AG_GeneToolBase">
+		<defName>AG_ArchoXenogenefier</defName>
+		<label>archotech xenogenefier</label>
+		<description>A genetic toolkit capable of converting a specific endogene from a human target into a xenogene. As a result, the target will drop into a coma for 3 days. Using the archotech xenogenefier on a colonist suffering from the coma will have no effect.</description>
+		<graphicData>
+			<texPath>Things/Item/AG_ArchoXenogenefier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>AG_UseArchoXenogenefier</useJob>
+				<useLabel>Use archotech xenogenefier</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetableHuman">				
+			</li>
+			<li Class="AlphaGenes.CompProperties_TargetEffect_ArchoXenogenefier">
+				
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

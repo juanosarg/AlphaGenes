@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGeneratorDef>
+		<defName>AG_NereidPocketPlane</defName>
+		<label>nereid pocket plane</label>
+		<isUnderground>true</isUnderground>
+		<ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
+		<disableCallAid>true</disableCallAid>
+		<pocketMapProperties>
+			<biome>AG_NereidPocketPlane</biome>
+			<temperature>15</temperature>
+		</pocketMapProperties>
+		<genSteps>
+		    <li>Terrain</li>
+			<li>AG_NereidPocketPlane</li>
+			
+		</genSteps>
+	</MapGeneratorDef>
+	<GenStepDef>
+		<defName>AG_NereidPocketPlane</defName>
+		<order>1000</order>
+		<genStep Class="KCSG.GenStep_CustomStructureGen">
+			<structureLayoutDefs>
+				<li>AG_NereidPocketPlane_Alpha</li>
+				<li>AG_NereidPocketPlane_Beta</li>
+				<li>AG_NereidPocketPlane_Gamma</li>
+				<li>AG_NereidPocketPlane_Delta</li>
+				
+			</structureLayoutDefs>
+			<filthTypes>
+				<li>Filth_Water</li>
+				<li>Filth_Sand</li>
+				
+			</filthTypes>
+		</genStep>
+	</GenStepDef>
+</Defs>

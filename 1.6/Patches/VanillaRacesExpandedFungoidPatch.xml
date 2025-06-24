@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Races Expanded - Fungoid</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/GeneDef[defName="VRE_FungalFlesh"]/displayCategory</xpath>
+					<value>
+						<displayCategory>AG_MeatType</displayCategory>
+					</value>
+				</li>	
+										
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>

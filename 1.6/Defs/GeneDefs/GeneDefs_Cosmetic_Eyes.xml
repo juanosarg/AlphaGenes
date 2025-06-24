@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Eyes -->
+	<GeneDef>
+		<defName>AG_FeraliskEyes</defName>
+		<label>feralisk eyes</label>
+		<iconPath>UI/Icons/Genes/AG_FeraliskEyes</iconPath>
+		<description>Carriers of this gene have four eyes, with correspondingly better vision.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>52</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+			<li>EyeColor</li>
+			<li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+		<capMods>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.2</offset>
+			</li>
+		</capMods>
+		<forcedHeadTypes>
+			<li>AG_Female_Eyeless_Average_Normal</li>
+			<li>AG_Female_Eyeless_Average_Pointy</li>
+			<li>AG_Female_Eyeless_Average_Wide</li>
+			<li>AG_Female_Eyeless_Narrow_Normal</li>
+			<li>AG_Female_Eyeless_Narrow_Pointy</li>
+			<li>AG_Female_Eyeless_Narrow_Wide</li>
+			<li>AG_Male_Eyeless_Average_Normal</li>
+			<li>AG_Male_Eyeless_Average_Pointy</li>
+			<li>AG_Male_Eyeless_Average_Wide</li>
+			<li>AG_Male_Eyeless_Narrow_Normal</li>
+			<li>AG_Male_Eyeless_Narrow_Pointy</li>
+			<li>AG_Male_Eyeless_Narrow_Wide</li>
+		</forcedHeadTypes>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_FeraliskEye/AG_FeraliskEye</texPath>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_FeraliskEye/AG_FeraliskEye</texPath>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ThirdEye</defName>
+		<label>third eye</label>
+		<selectionWeight>0</selectionWeight>
+		<description>Carriers of this gene will grow a third eye in their forehead. This third eye gives increased vision, and due to its, errr, psychic properties it cannot be hurt by... others... and... Look, Biotech parts are not real body parts and can't be harmed in attacks, ok?</description>
+		<iconPath>UI/Icons/Genes/AG_ThirdEyeIcon</iconPath>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_ThirdEye/AG_ThirdEye</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+		</exclusionTags>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<capMods>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.2</offset>
+			</li>
+		</capMods>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_EyeOfShubNiggurath</defName>
+		<label>eye of Shub-Niggurath</label>
+		<selectionWeight>0</selectionWeight>
+		<description>Carriers of this gene will grow a vicious looking, fanged mouth instead of one of their eyes. This mouth is inexplicably capable of sight.</description>
+		<iconPath>UI/Icons/Genes/AG_EyeOfShubNiggurathIcon</iconPath>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_EyeOfShubNiggurath/AG_EyeOfShubNiggurath</texPath>
+				<visibleFacing>
+					<li>East</li>
+					<li>South</li>
+					<li>West</li>
+				</visibleFacing>
+				<drawData>
+					<defaultData>
+						<layer>52</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<biostatMet>0</biostatMet>
+		<biostatCpx>0</biostatCpx>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_NearBlindness</defName>
+		<label>near blindness</label>
+		<iconPath>UI/Icons/Genes/AG_NearBlindness</iconPath>
+		<description>Carriers of this gene have almost completely useless eyes, with close to total blindness</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>51</displayOrderInCategory>
+		<biostatMet>3</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+			<li>EyeColor</li>
+		</exclusionTags>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>blind</symbol>
+				</li>
+				<li>
+					<symbol>blur</symbol>
+				</li>
+				<li>
+					<symbol>squint</symbol>
+				</li>
+				<li>
+					<symbol>peek</symbol>
+				</li>
+				<li>
+					<symbol>cross</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>sighter</symbol>
+				</li>
+				<li>
+					<symbol>peeker</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_male</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_male</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_WhiteEye/AG_WhiteEye_female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_NearBlindness</hediff>
+						<bodyparts>
+							<li>Eye</li>
+							<li>Eye</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_ChameleonVision</defName>
+		<label>chameleon vision</label>
+		<displayCategory>Miscellaneous</displayCategory>
+		<description>Carriers of this gene have protruding eyes that provide a panoramic sight, while also being able to move and focus independently. This allows the carrier to watch an approaching object while simultaneously scanning the rest of their environment.</description>
+		<iconPath>UI/Icons/Genes/AG_ChameleonVision</iconPath>
+		<displayOrderInCategory>53</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+		</exclusionTags>
+		<capMods>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.2</offset>
+			</li>
+		</capMods>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneEyeColor">
+		<defName>AG_DevilEyes</defName>
+		<label>devil eyes</label>
+		<iconPath>UI/Icons/Genes/AG_DevilEyes</iconPath>
+		<description>Carriers of this gene have large, deep yellow eyes.</description>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_male</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_male</texPath>
+				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/AG_DevilEyes/AG_DevilEyes_female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_BioluminescentEyes</defName>
+		<label>bioluminescent eyes</label>
+		<displayCategory>Miscellaneous</displayCategory>
+		<description>Carriers of this gene have eyes that glow in the dark due to the presence of a tapetum, a special membrane behind the retina. This allows them to see much better in the dark, but they are less useful in daylight.</description>
+		<iconPath>UI/Icons/Genes/AG_Bioluminescence</iconPath>
+		<displayOrderInCategory>53.5</displayOrderInCategory>
+		<biostatMet>0</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<exclusionTags>
+			<li>ShootingAccuracy</li>
+		</exclusionTags>
+		<ignoreDarkness>true</ignoreDarkness>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneEyeColor">
+		<defName>AG_ForsakenEyes</defName>
+		<label>forsaken eyes</label>
+		<iconPath>UI/Icons/Genes/AG_ForsakenEyes</iconPath>
+		<description>Carriers of this gene have four yellow eyes, with two smaller ones under two larger ones.</description>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenEyes/AG_ForsakenEyes</texPath>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.32</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenEyes/AG_ForsakenEyes</texPath>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.32</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

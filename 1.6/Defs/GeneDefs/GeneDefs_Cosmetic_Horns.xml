@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Horns -->
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_ChameleonYakHorns</defName>
+		<label>chameleon yak horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two curved horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_YakHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_YakHorns/AG_YakHorns</texPath>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>chameleon yak</symbol>
+				</li>
+				<li>
+					<symbol>yak</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>horn</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_DevilsheepHorns</defName>
+		<label>devilsheep horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two short sheep horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_DevilsheepHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DevilsheepHorns/AG_DevilsheepHorns</texPath>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>devilsheep</symbol>
+				</li>
+				<li>
+					<symbol>sheep</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>horn</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_BullHorns</defName>
+		<label>bull horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large bull horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_BullHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_BullHorns/AG_BullHorns</texPath>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>bull</symbol>
+				</li>
+				<li>
+					<symbol>uro</symbol>
+				</li>
+				<li>
+					<symbol>oxen</symbol>
+				</li>
+				<li>
+					<symbol>longhorn</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>horn</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_AntlerHorns</defName>
+		<label>antlers</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large antlers protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_AntlerHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_AntlerHorns/AG_AntlerHorns</texPath>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>antler</symbol>
+				</li>
+				<li>
+					<symbol>cervid</symbol>
+				</li>
+				<li>
+					<symbol>deer</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>antler</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_RayHoundTentacles</defName>
+		<label>rayhound tentacles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two large rayhound tentacles protruding from the nose.</description>
+		<iconPath>UI/Icons/Genes/AG_RayHoundTentaclesIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_RayHoundTentacles/AG_RayHoundTentacles</texPath>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>tentacle</symbol>
+				</li>
+				<li>
+					<symbol>tenta</symbol>
+				</li>
+				<li>
+					<symbol>c't</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_EldritchHorns</defName>
+		<label>eldritch horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two huge eldritch antlers protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_EldritchHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_EldritchHorns/AG_EldritchHorns</texPath>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>eldr</symbol>
+				</li>
+				<li>
+					<symbol>demon</symbol>
+				</li>
+				<li>
+					<symbol>runic</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_HornCrown</defName>
+		<label>horn crown</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow a huge crown of sharp horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_HornCrownIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_HornCrown/AG_HornCrown</texPath>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>crowned</symbol>
+				</li>
+				<li>
+					<symbol>horned</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_UpperTentacles</defName>
+		<label>upper tentacles</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow several tentacles protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_UpperTentaclesIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_UpperTentacles/AG_UpperTentacles</texPath>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_Stalks</defName>
+		<label>eye stalks</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene have no hair, instead growing non-functional eye stalks on their head.</description>
+		<iconPath>UI/Icons/Genes/AG_StalksIcon</iconPath>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_Stalks/AG_Stalks</texPath>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<selectionWeight>0</selectionWeight>
+		<forcedHair>Bald</forcedHair>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>eye</symbol>
+				</li>
+				<li>
+					<symbol>ocul</symbol>
+				</li>
+				<li>
+					<symbol>orb</symbol>
+				</li>
+				<li>
+					<symbol>optic</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_OrnateEldritchHorns</defName>
+		<label>ornate eldritch horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two huge ornate eldritch horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_OrnateEldritchHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_OrnateEldritchHorns/AG_OrnateEldritchHorns</texPath>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>eldr</symbol>
+				</li>
+				<li>
+					<symbol>demon</symbol>
+				</li>
+				<li>
+					<symbol>runic</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_DemonHorns</defName>
+		<label>demon horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two huge demon horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_DemonHornsIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DemonHorns/AG_DemonHorns</texPath>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>devil</symbol>
+				</li>
+				<li>
+					<symbol>demon</symbol>
+				</li>
+				<li>
+					<symbol>fiend</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_DemonHornsQuadruple</defName>
+		<label>quad demon horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow four huge demon horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_DemonHornsQuadrupleIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DemonHornsQuadruple/AG_DemonHornsQuadruple</texPath>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>devil</symbol>
+				</li>
+				<li>
+					<symbol>demon</symbol>
+				</li>
+				<li>
+					<symbol>fiend</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_TerrorMask</defName>
+		<label>terror mask</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow a terrifying bone mask that covers their entire face.</description>
+		<iconPath>UI/Icons/Genes/AG_TerrorMaskIcon</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_TerrorMask/AG_TerrorMask</texPath>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>devil</symbol>
+				</li>
+				<li>
+					<symbol>demon</symbol>
+				</li>
+				<li>
+					<symbol>fiend</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_Drakonori_Horns</defName>
+		<label>drakonori horns</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow two short draconic horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/AG_Drakonori_Horns</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_DrakonoriHorns/AG_DrakonoriHorns</texPath>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>draco</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_NereidGlowlure</defName>
+		<label>nereid glow lure</label>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<description>Carriers of this gene grow a unique bioluminescent organ that emits light, which attracts prey in the dark depths of the ocean where Nereids originate.</description>
+		<iconPath>UI/Icons/Genes/AG_NereidGlowlure</iconPath>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_glowlure/Nereid_glowlure</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_glowlure/Nereid_glowlure2</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_Nereid_glowlure/Nereid_glowlure3</li>
+				</texPaths>
+				<colorType>Skin</colorType>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>true</useSkinShader>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_ForsakenHornsBull</defName>
+		<label>forsaken bull horns</label>
+		<description>Carriers of this gene grow two huge bull-like horns with yellow tips protruding from the forehead as well as several smaller horns on their chin and atop their head. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenHornsBull</iconPath>
+		<displayOrderInCategory>201</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenHornsBull/AG_ForsakenHornsBull</li>
+				</texPaths>
+				<color>(128, 128, 128)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_ForsakenHornsSheep</defName>
+		<label>forsaken sheep horns</label>
+		<description>Carriers of this gene grow two huge sheep-like horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenHornsSheep</iconPath>
+		<displayOrderInCategory>202</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenHornsSheep/AG_ForsakenHornsSheep</li>
+				</texPaths>
+				<color>(128, 128, 128)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_ForsakenHornsReptilian</defName>
+		<label>forsaken reptilian horns</label>
+		<description>Carriers of this gene grow two reptilian horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenHornsReptilian</iconPath>
+		<displayOrderInCategory>203</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenHornsReptilian/AG_ForsakenHornsReptilian</li>
+				</texPaths>
+				<color>(128, 128, 128)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_ForsakenHornsCrown</defName>
+		<label>forsaken horn crown</label>
+		<description>Carriers of this gene grow four of small horns with yellow tips protruding from the forehead. These are not long enough to be practical in a fight.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenHornsCrown</iconPath>
+		<displayOrderInCategory>204</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenHornsCrown/AG_ForsakenHornsCrown</li>
+				</texPaths>
+				<color>(128, 128, 128)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_ForsakenHornsDevil</defName>
+		<label>forsaken devil horns</label>
+		<description>Carriers of this gene grow two devilish horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenHornsDevil</iconPath>
+		<displayOrderInCategory>205</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenHornsDevil/AG_ForsakenHornsDevil</li>
+				</texPaths>
+				<color>(128, 128, 128)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_ForsakenHornsGoat</defName>
+		<label>forsaken goat horns</label>
+		<description>Carriers of this gene grow two straight goat horns with yellow tips protruding from the forehead. These are not long enough to be practical in a fight.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenHornsGoat</iconPath>
+		<displayOrderInCategory>206</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenHornsGoat/AG_ForsakenHornsGoat</li>
+				</texPaths>
+				<color>(128, 128, 128)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>AG_ForsakenQuadruple</defName>
+		<label>forsaken quad horns</label>
+		<description>Carriers of this gene grow four twisted horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes.</description>
+		<iconPath>UI/Icons/Genes/AG_ForsakenQuadruple</iconPath>
+		<displayOrderInCategory>207</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<displayCategory>AG_Cosmetic_Horns</displayCategory>
+		<customEffectDescriptions>
+			<li>Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack</li>
+		</customEffectDescriptions>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenQuadruple/AG_ForsakenQuadruple</li>
+				</texPaths>
+				<color>(128, 128, 128)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_HornAttack</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

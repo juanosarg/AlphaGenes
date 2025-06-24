@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_Shambler_LightningFast</defName>
+		<label>lightning fast shambler</label>
+		<description>Shamblers carrying this gene will move with great speed.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_LightningFast</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<statFactors>
+			<MoveSpeed>2</MoveSpeed>
+		</statFactors>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1000</displayOrderInCategory>
+		<abilities>
+			<li>AG_SpeedBurst</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>AG_SpeedBurst</AbilityDef>
+			<HediffDef>AG_SpeedBurst</HediffDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Timeless</defName>
+		<label>timeless shambler</label>
+		<description>Shamblers carrying this gene will last much longer than 4-5 days.</description>
+		<iconPath>UI/Icons/Genes/AG_PseudoDeadlife</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+			<li>Time before shambler is destroyed is multiplied by 5, though the counter won't reflect it.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1001</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Toxic</defName>
+		<label>toxic shambler</label>
+		<description>Shamblers carrying this gene will periodically exhale clouds of tox gas.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Toxic</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1002</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_GasProducer</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_ToxGasProducer</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Stinker</defName>
+		<label>stinker shambler</label>
+		<description>Shamblers carrying this gene will periodically exhale clouds of rot stink. Nasty!</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Stinker</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1003</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_GasProducer</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_RotStinkProducer</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_DeadlifeBelcher</defName>
+		<label>deadlife belcher shambler</label>
+		<description>Shamblers carrying this gene will periodically exhale clouds of deadlife dust that will raise nearby corpses as shamblers.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_DeadlifeBelcher</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1004</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_GasProducer</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_DeadlifeProducer</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Polluter</defName>
+		<label>polluter shambler</label>
+		<description>Shamblers carrying this gene will constantly pollute the surrounding terrain, eventually turning the landscape into a desolate wasteland.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Polluter</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1005</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Polluter</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Photosynthetic</defName>
+		<label>photosynthetic shambler</label>
+		<description>Shamblers carrying this gene will be strengthened by sunlight.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Photosynthetic</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+			<li>A random limb wound is reduced by 10 severity every half hour, as long as the shambler is in sunlight.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1006</displayOrderInCategory>
+		<exclusionTags>
+			<li>UVSensitivity</li>
+			<li>AG_Regeneration</li>
+		</exclusionTags>
+		<conditionalStatAffecters>
+			<li Class="ConditionalStatAffecter_InSunlight">
+				<statFactors>
+					<MeleeCooldownFactor>0.75</MeleeCooldownFactor>
+					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MeleeDodgeChance>1.25</MeleeDodgeChance>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Regeneration_InTheSun</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Armoured</defName>
+		<label>armoured shambler</label>
+		<description>Shamblers carrying this gene will be stronger and bigger than usual.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Armoured</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1007</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_BodySize</li>
+			<li>BodySize</li>
+		</exclusionTags>
+		<statFactors>
+			<MoveSpeed>0.8</MoveSpeed>
+			<Mass>1.5</Mass>
+			<MeatAmount>1.5</MeatAmount>
+			<LeatherAmount>1.5</LeatherAmount>
+			<MeleeDamageFactor>1.2</MeleeDamageFactor>
+			<MeleeDodgeChance>0.7</MeleeDodgeChance>
+			<WorkSpeedGlobal>0.8</WorkSpeedGlobal>
+			<IncomingDamageFactor>0.6</IncomingDamageFactor>
+			<VEF_BodySize_Multiplier>1.5</VEF_BodySize_Multiplier>
+		</statFactors>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Plagued</defName>
+		<label>plagued shambler</label>
+		<description>Shamblers carrying this gene will infect their victims with a shambler plague that will turn them into shamblers upon death.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Plagued</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1008</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_PlaguedClaws_Hands</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Acidic</defName>
+		<label>acid shambler</label>
+		<description>Shamblers carrying this gene are extremely acidic and will bleed acid, explode in an acid burst when destroyed and attack with their acid fangs.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_AcidBlood</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<damageFactors>
+			<AcidBurn>0</AcidBurn>
+			<VEF_SecondaryAcidBurn>0</VEF_SecondaryAcidBurn>
+			<AG_AcidSpit>0</AG_AcidSpit>
+		</damageFactors>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1009</displayOrderInCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_AcidHead/AG_AcidHead</texPath>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<customBloodThingDef>AG_Filth_Acid</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/AG_AcidicBloodIcon</customBloodIcon>
+				<customBloodEffect>AG_Damage_HitAcid</customBloodEffect>
+				<customWoundsFromFleshtype>AG_WoundsAcid</customWoundsFromFleshtype>
+				<hediffToWholeBody>AG_AcidicExploder</hediffToWholeBody>
+				<customBloodSmearThingDef>AG_Filth_BloodSmear_Acid</customBloodSmearThingDef>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_SlowerAcidFangs</hediff>
+						<bodyparts>
+							<li>Jaw</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Exploding</defName>
+		<label>exploding shambler</label>
+		<description>Shamblers carrying this gene have chemfuel nodules on their body and will explode when destroyed.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Boom</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1010</displayOrderInCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/AG_BoomNodules/AG_BoomNodules</texPath>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Exploder</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Delicate</defName>
+		<label>rotting shambler</label>
+		<description>Shamblers carrying this gene are more decayed than usual, receiving more incoming damage.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Delicate</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1011</displayOrderInCategory>
+		<statFactors>
+			<IncomingDamageFactor>1.5</IncomingDamageFactor>
+		</statFactors>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Tough</defName>
+		<label>tough shambler</label>
+		<description>Shamblers carrying this gene are more resilient than usual, receiving less incoming damage.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Robust</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1012</displayOrderInCategory>
+		<statFactors>
+			<IncomingDamageFactor>0.75</IncomingDamageFactor>
+		</statFactors>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Tinderskin</defName>
+		<label>tinderskin shambler</label>
+		<description>Shamblers carrying this gene are more flammable than usual.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Flammable</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1013</displayOrderInCategory>
+		<damageFactors>
+			<Flame>4</Flame>
+		</damageFactors>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_HighMelee</defName>
+		<label>aggressive shambler</label>
+		<description>Shamblers carrying this gene are more aggressive than usual, causing more damage in melee combat.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_HighMelee</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1014</displayOrderInCategory>
+		<statFactors>
+			<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		</statFactors>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_LowMelee</defName>
+		<label>weak shambler</label>
+		<description>Shamblers carrying this gene are weaker than usual, causing less damage in melee combat.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_LowMelee</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1015</displayOrderInCategory>
+		<statFactors>
+			<MeleeDamageFactor>0.5</MeleeDamageFactor>
+		</statFactors>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_UVSensitive</defName>
+		<label>UV sensitive shambler</label>
+		<description>Shamblers carrying this gene are affected by sunlight, making them enter a state of torpor.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_UVSensitive</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1017</displayOrderInCategory>
+		<conditionalStatAffecters>
+			<li Class="ConditionalStatAffecter_InSunlight">
+				<statFactors>
+					<MoveSpeed>0.8</MoveSpeed>
+					<MeleeCooldownFactor>1.5</MeleeCooldownFactor>
+					<MeleeDamageFactor>0.75</MeleeDamageFactor>
+					<MeleeDodgeChance>0.5</MeleeDodgeChance>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_VenomFangs</defName>
+		<label>venomous shambler</label>
+		<description>Shamblers carrying this gene have venomous fangs they'll use in melee combat.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_VenomFangs</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1018</displayOrderInCategory>
+		
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>AG_VenomFangs</hediff>
+						<bodyparts>
+							<li>Jaw</li>
+							
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_Shambler_VeryGaunt</defName>
+		<label>gaunt shambler</label>
+		<description>Shamblers carrying this gene have a very gaunt and rotten appearance.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_VeryGaunt</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1019</displayOrderInCategory>
+		<skinColorOverride>(102, 91, 85)</skinColorOverride>
+		<forcedHeadTypes>
+			<li>AG_Female_VeryGauntShambler</li>
+			<li>AG_Male_VeryGauntShambler</li>
+		</forcedHeadTypes>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Shambler_Spiked</defName>
+		<label>spiked shambler</label>
+		<description>Shamblers carrying this gene have a ranged spike attack similar to the Gorehulk.</description>
+		<iconPath>UI/Icons/Genes/AG_Shambler_Spiked</iconPath>
+		<geneClass>VEF.Genes.Gene_Shambler</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>This gene will only be active if the carrier is a shambler.</li>
+		</customEffectDescriptions>
+		<displayOrderInCategory>1020</displayOrderInCategory>
+		<abilities>
+			<li>SpineLaunch_Gorehulk</li>
+		</abilities>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes_Shambler</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes_Shambler</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

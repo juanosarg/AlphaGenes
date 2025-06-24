@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef Name="AG_BeginningSummonBase" Abstract="True">
+		<displayCategory>AG_AnimalAffinity</displayCategory>
+		<exclusionTags>
+			<li>AG_BeginningSummons</li>
+			<li>AG_OnlyOnCharacterCreation</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="AG_BeginningSummonBase">
+		<defName>AG_RatAffinity</defName>
+		<label>rodent affinity</label>
+		<description>Carriers of this gene attract rats, and a tame horde of these critters is constantly surrounding them.</description>
+		<iconPath>UI/Icons/Genes/AG_RatAffinity</iconPath>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Begins play with a small horde of 3 tamed rats.</li>	
+			<li>This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay.</li>			
+		</customEffectDescriptions>		
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>ratty</symbol>
+				</li>
+				<li>
+					<symbol>pest</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<thingSetMaker>AG_Rats</thingSetMaker>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_BeginningSummonBase">
+		<defName>AG_WolfAffinity</defName>
+		<label>lupine affinity</label>
+		<description>Carriers of this gene have a mystical psychic bond with a wolf.</description>
+		<iconPath>UI/Icons/Genes/AG_WolfAffinity</iconPath>
+		<displayOrderInCategory>70</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Begins play with a tamed timber wolf.</li>	
+			<li>This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay.</li>			
+		</customEffectDescriptions>		
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>-2</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>lupi</symbol>
+				</li>
+				<li>
+					<symbol>wolven</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<thingSetMaker>AG_Wolf</thingSetMaker>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="AG_BeginningSummonBase">
+		<defName>AG_JorisAffinity</defName>
+		<label>joris affinity</label>
+		<description>Carriers of this gene have a very strange interest in the politics of Old Earth, and polar bears. You'd think the overlap of those two things would be zero, but here we are.</description>
+		<iconPath>UI/Icons/Genes/AG_JorisAffinity</iconPath>
+		<displayOrderInCategory>80</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Begins play with a tamed polar bear.</li>	
+			<li>This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay.</li>			
+		</customEffectDescriptions>		
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>-3</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>joris</symbol>
+				</li>
+				<li>
+					<symbol>mr.</symbol>
+				</li>
+				<li>
+					<symbol>sam</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<thingSetMaker>AG_PolarBear</thingSetMaker>
+
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

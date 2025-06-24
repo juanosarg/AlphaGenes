@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_DeadlifeProducer</defName>
+		<label>deadlife dust producer</label>
+		<displayCategory>AG_AnomalyCategory</displayCategory>
+		<description>The carrier of this gene will periodically exhale clouds of deadlife dust that will raise nearby corpses as shamblers.</description>
+		<iconPath>UI/Icons/Genes/AG_DeadlifeProducer</iconPath>		
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-4</biostatMet>		
+		<exclusionTags>
+			<li>AG_GasProducer</li>		
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_DeadlifeProducer</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+</Defs>

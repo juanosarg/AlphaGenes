@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<GeneDef Name="AG_GenderBase" Abstract="True">
+		<displayCategory>AG_Gender</displayCategory>
+
+		<exclusionTags>
+			<li>AG_Gender</li>
+			<li>Gender</li>
+			
+		</exclusionTags>
+	</GeneDef>
+	<GeneDef  ParentName="AG_GenderBase">
+		<defName>AG_Male</defName>
+		<label>male</label>
+
+		<description>Carriers of this gene are always biologically male.</description>
+		<iconPath>UI/Icons/Genes/AG_Male</iconPath>
+		
+		
+		<displayOrderInCategory>0</displayOrderInCategory>
+		
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>andro</symbol>
+				</li>
+				<li>
+					<symbol>male</symbol>
+				</li>
+				<li>
+					<symbol>he-</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<forceMale>true</forceMale>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef  ParentName="AG_GenderBase">
+		<defName>AG_Female</defName>
+		<label>female</label>
+
+		<description>Carriers of this gene are always biologically female.</description>
+		<iconPath>UI/Icons/Genes/AG_Female</iconPath>
+		
+		
+		<displayOrderInCategory>0</displayOrderInCategory>
+		
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gyno</symbol>
+				</li>
+				<li>
+					<symbol>female</symbol>
+				</li>
+				<li>
+					<symbol>she-</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<forceFemale>true</forceFemale>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>AG_ArmouredSpeed</defName>
+		<label>armoured speed</label>
+		<description>Carriers of this gene move faster while wearing heavy armor.</description>
+		<iconPath>UI/Icons/Genes/AG_ArmouredSpeed</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>501</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VEF.Genes.ConditionalStatAffecter_Armor">
+				<statOffsets>
+					<MoveSpeed>0.2</MoveSpeed>
+				</statOffsets>
+			</li>
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>AG_SpeedByTemperature</defName>
+		<label>thermal speed</label>
+		<description>Carriers of this gene move fast at high temperatures, at the cost of getting much more tired. Low temperatures will reduce their metabolism, making them slower, but also making them spend less energy staying awake.</description>
+		<iconPath>UI/Icons/Genes/AG_SpeedByTemperature</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>502</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+	
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_SpeedByTemperature</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_WaterStriding</defName>
+		<label>water striding</label>
+		<description>Carriers of this gene move without movement penalties through water. They will ignore terrain movement costs when moving through watery terrains.</description>
+		<iconPath>UI/Icons/Genes/AG_WaterStriding</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>503</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VEF.Genes.ConditionalStatAffecter_Water">
+				<statFactors>
+					<MoveSpeed>2</MoveSpeed>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_WaterStriding</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_LightStriding</defName>
+		<label>light striding</label>
+		<description>Carriers of this gene move much faster when exposed to the light (50% lit or above), and slower in the dark.</description>
+		<iconPath>UI/Icons/Genes/AG_LightStrider</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>504</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VEF.Genes.ConditionalStatAffecter_Darkness">
+				<statFactors>
+					<MoveSpeed>0.5</MoveSpeed>
+				</statFactors>
+			</li>
+			<li Class="VEF.Genes.ConditionalStatAffecter_InLight">
+				<statFactors>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_NightStriding</defName>
+		<label>night striding</label>
+		<description>Carriers of this gene move much faster when under darkness (below 50% lit), and slower in the light.</description>
+		<iconPath>UI/Icons/Genes/AG_NightStrider</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>504</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VEF.Genes.ConditionalStatAffecter_Darkness">
+				<statFactors>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+			<li Class="VEF.Genes.ConditionalStatAffecter_InLight">
+				<statFactors>
+					<MoveSpeed>0.5</MoveSpeed>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_PollutionStriding</defName>
+		<label>pollution striding</label>
+		<description>Carriers of this gene move much faster when traversing polluted terrain.</description>
+		<iconPath>UI/Icons/Genes/AG_PollutionStrider</iconPath>
+		<displayCategory>Movement</displayCategory>
+		<displayOrderInCategory>505</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<conditionalStatAffecters>
+			<li Class="VEF.Genes.ConditionalStatAffecter_InPollution">
+				<statFactors>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+			
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+			
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>AG_Beauty_VeryVeryUgly</defName>
+		<label>repulsive</label>
+		<labelShortAdj>repulsive</labelShortAdj>
+		<description>Carriers of this gene are so unfathomably ugly and grotesque that merely looking at them is enough to make other people nauseous.</description>
+		<iconPath>UI/Icons/Genes/AG_UnfathomablyUgly</iconPath>
+		<displayOrderInCategory>-10</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Any other colonist coming nearby will be subject to a negative mood impact due to sheer disgust.</li>
+		</customEffectDescriptions>
+		<forcedTraits>
+			<li>
+				<def>AG_Beauty</def>
+				<degree>-2</degree>
+			</li>
+		</forcedTraits>
+		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
+		<biostatMet>3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+	
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>grim</symbol>
+				</li>
+				<li>
+					<symbol>macabr</symbol>
+				</li>
+				<li>
+					<symbol>grote</symbol>
+				</li>
+				<li>
+					<symbol>misshappen</symbol>
+				</li>
+				<li>
+					<symbol>monst</symbol>
+				</li>
+				<li>
+					<symbol>ghast</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Disgust</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>AG_Beauty_Angelic</defName>
+		<label>angelic beauty</label>
+		<labelShortAdj>angelic</labelShortAdj>
+		<description>Carriers of this gene possess an unnatural, almost pristine beauty that makes them stand out among others of their kind.</description>
+		<iconPath>UI/Icons/Genes/AG_AngelicBeauty</iconPath>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Any other colonist coming nearby will be subject to a positive mood impact due to basking in their uncanny beauty.</li>
+			<li>Can't be disfigured. Disfigurement doesn't cause beauty to drop, and other people won't think less of them.</li>
+		</customEffectDescriptions>
+		<forcedTraits>
+			<li>
+				<def>AG_Beauty</def>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+
+		<biostatMet>-3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+	
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>angel</symbol>
+				</li>
+				<li>
+					<symbol>saint</symbol>
+				</li>
+				<li>
+					<symbol>holy</symbol>
+				</li>
+				<li>
+					<symbol>star</symbol>
+				</li>
+				<li>
+					<symbol>seraph</symbol>
+				</li>
+				<li>
+					<symbol>divine</symbol>
+				</li>
+
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<hediffToWholeBody>AG_Awe</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>AG_UnsettlingAppearance</defName>
+		<label>unsettling appearance</label>
+		<labelShortAdj>unsettling</labelShortAdj>
+		<description>Going beyond mundane notions of beauty or ugliness, the carrier of this gene has such an unsettling appearance that it inspires a certain sense of unease on other people.</description>
+		<iconPath>UI/Icons/Genes/AG_UnsettlingAppearance</iconPath>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Any person without this gene will get a -60 social penalty towards people who have it.</li>
+		</customEffectDescriptions>
+		
+
+		<biostatMet>2</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>uncanny</symbol>
+				</li>
+				<li>
+					<symbol>disturb</symbol>
+				</li>
+				<li>
+					<symbol>monst</symbol>
+				</li>
+				<li>
+					<symbol>fiend</symbol>
+				</li>
+				<li>
+					<symbol>vile</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>AG_EldritchVisage</defName>
+		<label>eldritch visage</label>
+		<labelShortAdj>eldritch</labelShortAdj>
+		<description>The carrier of this gene has an appearance that terrifies other people to the very core of their being. They will always be despised.</description>
+		<iconPath>UI/Icons/Genes/AG_EldritchVisage</iconPath>
+		<displayOrderInCategory>101</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Any person without this gene will get a -500 social penalty towards people who have it, basically ensuring they'll always be at -100 relationship opinion.</li>
+		</customEffectDescriptions>
+		
+
+		<biostatMet>3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>eldri</symbol>
+				</li>
+				<li>
+					<symbol>terror</symbol>
+				</li>
+				
+
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>AG_Teratophilia</defName>
+		<label>teratophilia</label>
+		
+		<displayCategory>Beauty</displayCategory>
+		<description>The carrier of this gene doesn't care about ugliness, feeling equally attracted to ugly colonists. Beauty is in the eye of the beholder after all (the person looking, not the D&amp;D monster).</description>
+		<iconPath>UI/Icons/Genes/AG_Teratophile</iconPath>
+		<displayOrderInCategory>500</displayOrderInCategory>
+		
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0</selectionWeight>
+		
+		
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

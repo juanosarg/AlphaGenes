@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RulePackDef>
+		<defName>AG_SterilizingBreath_Rules</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>damaged_past->sterilized</li>
+				<li>damaged_past->cleaned</li>
+				<li>destroyed_past->damaged_past</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AG_BansheeScream_Rules</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>damaged_past->stunned</li>
+				<li>damaged_past->screamed</li>
+				<li>damaged_past->blasted</li>
+				<li>destroyed_past->damaged_past</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+		<RulePackDef>
+		<defName>AG_NoxiousBreath_Rules</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>damaged_past->belched</li>
+				<li>damaged_past->vomited</li>
+				<li>damaged_past->puked</li>
+				<li>destroyed_past->damaged_past</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="AG_BeginningSummonBase">
+		<defName>AG_FissionMouseAffinity</defName>
+		<label>fission mouse affinity</label>
+		<description>Carriers of this gene attract fission mice, and a tame horde of these critters is constantly surrounding them.</description>
+		<iconPath>UI/Icons/Genes/AG_FissionMouseAffinity</iconPath>
+		<displayOrderInCategory>90</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Begins play with 3 tamed fission mice.</li>
+			<li>This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fission</symbol>
+				</li>
+				<li>
+					<symbol>pest</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<thingSetMaker>AG_FissionMouse</thingSetMaker>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BeginningSummonBase">
+		<defName>AG_NeedlerollAffinity</defName>
+		<label>needleroll affinity</label>
+		<description>Carriers of this gene attract needlerolls, and a tame horde of these critters is constantly surrounding them.</description>
+		<iconPath>UI/Icons/Genes/AG_NeedlerollAffinity</iconPath>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Begins play with 3 tamed needlerolls.</li>
+			<li>This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>cacti</symbol>
+				</li>
+				<li>
+					<symbol>plant</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<thingSetMaker>AG_Needleroll</thingSetMaker>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BeginningSummonBase">
+		<defName>AG_OcularJellyAffinity</defName>
+		<label>ocular affinity</label>
+		<description>Carriers of this gene have pierced the veil between realities and accessed an extradimensional realm of pure madness.</description>
+		<iconPath>UI/Icons/Genes/AG_OcularJellyAffinity</iconPath>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Begins play with a tamed ocular jelly.</li>
+			<li>This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>-2</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>ocul</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<thingSetMaker>AG_OcularJelly</thingSetMaker>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="AG_BeginningSummonBase">
+		<defName>AG_AveAffinity</defName>
+		<label>ave affinity</label>
+		<description>Carriers of this gene have a mystical psychic bond with a meadow ave.</description>
+		<iconPath>UI/Icons/Genes/AG_AveAffinity</iconPath>
+		<displayOrderInCategory>120</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Begins play with a tamed meadow ave.</li>
+			<li>This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay.</li>
+		</customEffectDescriptions>
+		<selectionWeight>0</selectionWeight>
+		<biostatMet>-2</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>ave</symbol>
+				</li>
+				<li>
+					<symbol>avi</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+				<thingSetMaker>AG_Ave</thingSetMaker>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

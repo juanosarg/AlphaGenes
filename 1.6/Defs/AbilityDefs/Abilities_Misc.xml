@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AbilityDef>
+		<defName>AG_WingPoweredJump</defName>
+		<label>wing-powered jump</label>
+		<description>Flap wings to jump a short distance.</description>
+		<iconPath>UI/Abilities/AG_WingPoweredJump</iconPath>
+		<cooldownTicksRange>2400</cooldownTicksRange>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityJump</verbClass>
+			<label>flap wings</label>
+			<violent>false</violent>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<warmupTime>0.5</warmupTime>
+			<range>6.9</range>
+			<requireLineOfSight>true</requireLineOfSight>
+			<soundCast>AG_WingsFlapping</soundCast>
+			<soundLanding>Longjump_Land</soundLanding>
+			<flyWithCarriedThing>true</flyWithCarriedThing>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_UnstableMutation</defName>
+		<label>unstable mutation</label>
+		<description>Forces an unstable mutation on the caster's body. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate.</description>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<iconPath>UI/Icons/Genes/AG_UnstableMutation</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_GiveHediff">
+				<hediffDef>AG_UnstableMutation</hediffDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_AuraBase">
+		<defName>AG_InsectRally</defName>
+		<label>pack tactics</label>
+		<cooldownTicksRange>30000</cooldownTicksRange>
+		<description>Secretes a cloud of pheromonal compounds that are irresistible to all insects. They'll feel re-invigorated and strengthened when close to the carrier.</description>
+		<iconPath>UI/Icons/Genes/AG_InsectRally</iconPath>
+		<comps>
+			<li Class="CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>AG_InsectRally</hediffDef>
+				<onlyBrain>True</onlyBrain>
+				<onlyApplyToSelf>True</onlyApplyToSelf>
+				<replaceExisting>true</replaceExisting>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	
+	<AbilityDef>
+		<defName>AG_UnstableMind</defName>
+		<label>unstable mind</label>
+		<description>Psychically blast the minds of other people, causing mental instability that makes them more prone to mental breaks, and greatly increases their psychic sensitivity. This effects lasts for three hours and can be used on both hostile and friendly targets.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableMind</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+		<statBases>
+			<Ability_EffectRadius>2.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>15.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>true</canTargetSelf>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_GiveHediff">
+				<hediffDef>AG_UnstableMind</hediffDef>
+				<applyToCaster>false</applyToCaster>
+				<applyToRadius>true</applyToRadius>
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_DevourBrains</defName>
+		<label>devour brains</label>
+		<description>Devour the brain of an incapacitated but living person, absorbing part of their intellect and gaining a buff that depends on the highest skill of the devoured brain. This obviously kills the target.\n\nOnly one "devour" buff can be active at a time. Using the ability before the 2 day timer refreshes the buff and its duration.</description>
+		<iconPath>UI/Icons/Genes/AG_DevourBrains</iconPath>
+		<cooldownTicksRange>1000</cooldownTicksRange>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>1.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_DevourBrain">
+				
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AG_GeneSyphon</defName>
+		<label>gene syphon</label>
+		<description>Forcefully extract a gene from an incapacitated but living person, incorporating it into the caster's xenotype as a xenogene. The gene is chosen at random. This will kill the target.</description>
+		<iconPath>UI/Icons/Genes/AG_GeneSyphon</iconPath>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>1.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_GeneSyphon">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>AG_TailGrapple</defName>
+		<label>tail grapple</label>
+		<description>Attack a target with a prehensile tail, grappling it and immobilizing it for a short time.</description>
+		<iconPath>UI/Abilities/AG_TailGrapple</iconPath>
+		<cooldownTicksRange>6000</cooldownTicksRange>
+		<hostile>true</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>AG_TailGrapple</soundCast>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_TailGrapple"/>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_UnstableRegeneration</defName>
+		<label>unstable regeneration</label>
+		<cooldownTicksRange>10000</cooldownTicksRange>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<description>Heals all non-permanent injuries, but ages the user 7 years with each use. If the user ages themselves with this ability beyond their lifespan, they die.</description>
+		<iconPath>UI/Icons/Genes/AG_UnstableRegeneration</iconPath>
+		<aiCanUse>false</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_UnstableRegeneration">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_AdaptiveBiology</defName>
+		<label>adaptive biology</label>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Removes a random trait, and adds a new, random one.</description>
+		<iconPath>UI/Icons/Genes/AG_AdaptiveBiology</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AdaptiveBiology">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_SuperAdaptiveBiology</defName>
+		<label>superadaptive biology</label>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<cooldownTicksRange>60000</cooldownTicksRange>
+		<description>Removes five random traits, and adds five new, random ones.</description>
+		<iconPath>UI/Icons/Genes/AG_SuperAdaptiveBiology</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_AdaptiveBiology">
+				<numberOfTraits>5</numberOfTraits>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	
+	<AbilityDef>
+		<defName>AG_PsychicAbsorption</defName>
+		<label>psychic absorption</label>
+		<cooldownTicksRange>300</cooldownTicksRange>
+		<description>Caster will absorb a negative memory from a target, capping out at -40.\n\nAbility works on memories, which are thoughts that expire after time. Situational thoughts, such as "being in terrible pain" won't work.</description>
+		<iconPath>UI/Icons/Genes/AG_PsychicAbsorption</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>8.9</range>
+			<warmupTime>0.5</warmupTime>
+			<soundCast>PsychicInsanityLanceCast</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetLocations>false</canTargetLocations>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_PsychicAbsorption">
+				
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AG_NoTargetAbilities">
+		<defName>AG_SpeedBurst</defName>
+		<label>speed burst</label>
+		<description>Makes the caster move faster for a short while.</description>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<iconPath>UI/Icons/Genes/AG_SpeedBurst</iconPath>
+		<cooldownTicksRange>10000</cooldownTicksRange>
+		<comps>
+			<li Class="AlphaGenes.CompProperties_GiveHediff">
+				<hediffDef>AG_SpeedBurst</hediffDef>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	
+</Defs>
