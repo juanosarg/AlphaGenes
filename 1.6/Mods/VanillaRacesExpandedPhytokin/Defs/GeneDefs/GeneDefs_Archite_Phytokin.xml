@@ -20,7 +20,7 @@
 			
 		</customEffectDescriptions>
 		<statOffsets>
-			<PruningSpeed>1</PruningSpeed>		
+			<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">1</PruningSpeed>		
 		</statOffsets>
 		<abilities>
 			<li>VRE_SummonOcularSlinger</li>
