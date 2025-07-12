@@ -21,6 +21,12 @@ namespace AlphaGenes
         [HarmonyPostfix]
         public static IEnumerable<GeneDef> Postfix(IEnumerable<GeneDef> values)
         {
+            if (values.EnumerableNullOrEmpty()) {
+
+                return values;
+            }
+
+            
             List<GeneDef> resultingList = values.ToList();
 
 
