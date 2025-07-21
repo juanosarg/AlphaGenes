@@ -6,6 +6,7 @@
 		<description>A recently-discovered abandoned biotech lab.</description>
 		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
 		<expandingIconTexture>World/AG_AncientBiotechLab</expandingIconTexture>
+		<gravShipsCanLandOn>true</gravShipsCanLandOn>
 		<tags>
 			<li>AG_AbandonedBiotechLab</li>
 		</tags>
