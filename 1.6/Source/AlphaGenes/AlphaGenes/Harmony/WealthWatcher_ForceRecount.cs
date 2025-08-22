@@ -26,14 +26,14 @@ namespace AlphaGenes
             for (var i = 0; i < codes.Count; i++)
             {
                 yield return codes[i];
-                if (i > 0 && codes[i].opcode == OpCodes.Stloc_S && codes[i].operand is LocalBuilder lb && lb.LocalIndex == 5 && 
+                if (i > 0 && codes[i].opcode == OpCodes.Stloc_S && codes[i].operand is LocalBuilder lb && lb.LocalIndex == 6 && 
                     codes[i - 1].opcode == OpCodes.Callvirt)
                 {
-                    yield return new CodeInstruction(OpCodes.Ldloc_S,4);
+                    yield return new CodeInstruction(OpCodes.Ldloc_S,5);
                     yield return new CodeInstruction(OpCodes.Call, check);                 
-                    yield return new CodeInstruction(OpCodes.Ldloc_S, 5);
+                    yield return new CodeInstruction(OpCodes.Ldloc_S, 6);
                     yield return new CodeInstruction(OpCodes.Mul);
-                    yield return new CodeInstruction(OpCodes.Stloc_S, 5);
+                    yield return new CodeInstruction(OpCodes.Stloc_S, 6);
                 }
             }
         }

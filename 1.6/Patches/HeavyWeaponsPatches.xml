@@ -9,9 +9,9 @@
 			<operations>
 				<li Class="PatchOperationConditional">
 					<success>Always</success>
-					<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]</xpath>
 						<value>
 							<supportedGenes>
 								<li>AG_ToughSinews</li>
@@ -19,7 +19,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 						<value>
 							<li>AG_ToughSinews</li>
 						</value>
@@ -27,9 +27,9 @@
 				</li>
 				<li Class="PatchOperationConditional">
 					<success>Always</success>
-					<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]</xpath>
 						<value>
 							<supportedGenes>
 								<li>AG_ToughSinews</li>
@@ -37,7 +37,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 						<value>
 							<li>AG_ToughSinews</li>
 						</value>
@@ -45,9 +45,9 @@
 				</li>
 				<li Class="PatchOperationConditional">
 					<success>Always</success>
-					<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]</xpath>
 						<value>
 							<supportedGenes>
 								<li>AG_ToughSinews</li>
@@ -55,7 +55,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 						<value>
 							<li>AG_ToughSinews</li>
 						</value>
@@ -63,9 +63,9 @@
 				</li>
 				<li Class="PatchOperationConditional">
 					<success>Always</success>
-					<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]</xpath>
 						<value>
 							<supportedGenes>
 								<li>AG_ToughSinews</li>
@@ -73,7 +73,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 						<value>
 							<li>AG_ToughSinews</li>
 						</value>
@@ -81,9 +81,9 @@
 				</li>
 				<li Class="PatchOperationConditional">
 					<success>Always</success>
-					<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]</xpath>
 						<value>
 							<supportedGenes>
 								<li>AG_ToughSinews</li>
@@ -91,7 +91,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 						<value>
 							<li>AG_ToughSinews</li>
 						</value>
@@ -103,9 +103,9 @@
 					</mods>
 					<match Class="PatchOperationConditional">
 						<success>Always</success>
-						<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 						<nomatch Class="PatchOperationAdd">
-							<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+							<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]</xpath>
 							<value>
 								<supportedGenes>
 									<li>AG_ToughSinews</li>
@@ -113,7 +113,7 @@
 							</value>
 						</nomatch>
 						<match Class="PatchOperationAdd">
-							<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+							<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 							<value>
 								<li>AG_ToughSinews</li>
 							</value>
@@ -132,9 +132,9 @@
 			<operations>
 				<li Class="PatchOperationConditional">
 					<success>Always</success>
-					<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]</xpath>
 						<value>
 							<supportedGenes>
 								<li>AG_ToughSinews</li>
@@ -142,7 +142,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<xpath>/Defs/ThingDef[@Name="VFEP_BaseWarcasketGun"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 						<value>
 							<li>AG_ToughSinews</li>
 						</value>
@@ -150,9 +150,9 @@
 				</li>
 				<li Class="PatchOperationConditional">
 					<success>Always</success>
-					<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+					<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]</xpath>
+						<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]</xpath>
 						<value>
 							<supportedGenes>
 								<li>AG_ToughSinews</li>
@@ -160,7 +160,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedGenes</xpath>
+						<xpath>/Defs/ThingDef[@Name="VFEP_BaseMeleeWeapon_Warcasket"]/modExtensions/li[@Class="VEF.Weapons.HeavyWeapon"]/supportedGenes</xpath>
 						<value>
 							<li>AG_ToughSinews</li>
 						</value>
