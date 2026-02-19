@@ -23,8 +23,24 @@ namespace AlphaGenes
             Toil goToPickup = Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.ClosestTouch);
             yield return goToPickup;
             yield return Toils_Ingest.PickupIngestible(TargetIndex.A, Deliveree);
-            yield return Toils_Goto.GotoThing(TargetIndex.B, PathEndMode.ClosestTouch);            
-            yield return JobDriver_ConsumeMetal.ChewMetal(Deliveree,1.5f,TargetIndex.A).FailOnCannotTouch(TargetIndex.B,PathEndMode.Touch);
+            yield return Toils_Goto.GotoThing(TargetIndex.B, PathEndMode.ClosestTouch);
+            //yield return JobDriver_ConsumeMetal.ChewMetal(Deliveree,1.5f,TargetIndex.A).FailOnCannotTouch(TargetIndex.B,PathEndMode.Touch);
+            Toil feed = ToilMaker.MakeToil("FeedMetal");
+            feed.initAction = () =>
+            {
+                GetActor().jobs.curDriver.ticksLeftThisToil = 750;
+            };
+            feed.defaultCompleteMode = ToilCompleteMode.Delay;
+            feed.tickAction = () =>
+            {
+                feed.actor.rotationTracker.FaceTarget(TargetB.Thing);
+            };
+            feed.WithProgressBar(TargetIndex.B, () =>
+            {
+                return 1f - GetActor().jobs.curDriver.ticksLeftThisToil / 750;
+            });
+            yield return feed;
+
             Toil finalize = ToilMaker.MakeToil("AteMetal");
             finalize.initAction = () =>
             {
