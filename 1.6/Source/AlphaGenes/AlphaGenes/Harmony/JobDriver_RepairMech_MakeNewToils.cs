@@ -29,7 +29,7 @@ public static class AlphaGenes_JobDriver_RepairMech_MakeNewToils_Patch
 
 
 [HarmonyPatch(typeof(MechRepairUtility))]
-[HarmonyPatch("RepairTick")]
+[HarmonyPatch("RepairTick", new Type[] {typeof(Pawn)})]
 
 public class AlphaGenes_MechRepairUtility_RepairTick_Patch
 {
