@@ -75,32 +75,17 @@
 				<chanceFactor>0.1</chanceFactor>
 			</li>
 		</tools>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<accuracyTouch>1</accuracyTouch>
-				<accuracyShort>1</accuracyShort>
-				<accuracyMedium>1</accuracyMedium>
-				<accuracyLong>1</accuracyLong>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AG_EyeProjectile</defaultProjectile>
-				<warmupTime>3</warmupTime>
-				<burstShotCount>3</burstShotCount>
-				<minRange>2</minRange>
-				<range>20</range>
-				<soundCast>AG_Throw</soundCast>
-				<muzzleFlashScale>0</muzzleFlashScale>
-				<label>eye</label>
-				<commonality>.8</commonality>
-			</li>
-		</verbs>
+		
 		<comps>
-			<li Class="AlphaGenes.CompProperties_ScorpionCounter">
-				
-			</li>
+			
 			<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
 				<makeNonFleeingToo>true</makeNonFleeingToo>
 			</li>
+			
+			<li Class="VEF.AnimalBehaviours.CompProperties_InitialAbility">
+				<initialAbility>AG_EyeProjectile</initialAbility>
+			</li>
+		
 		</comps>
 		<race>
 			<body>AG_ScorpionLike</body>

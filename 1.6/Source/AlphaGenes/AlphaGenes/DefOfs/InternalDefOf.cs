@@ -40,6 +40,8 @@ namespace AlphaGenes
         public static PawnKindDef Rat;
 		public static PawnKindDef Wolf_Timber;
 		public static PawnKindDef Bear_Polar;
+        [MayRequire("vanillaracesexpanded.phytokin")]
+        public static PawnKindDef AG_OcularSlinger;
 
         public static SoundDef Hive_Spawn;
 
@@ -81,7 +83,8 @@ namespace AlphaGenes
         public static GeneDef AG_HeatImmunity;
         public static GeneDef AG_Stinky;
         public static GeneDef AG_ForsakenKnowledge;
-
+        [MayRequire("vanillaracesexpanded.phytokin")]
+        public static GeneDef AG_OcularAffinity;
 
         public static GeneDef AG_MinorAnimalSummon_Randomizer;
         public static GeneDef AG_AnimalSummon_Randomizer;

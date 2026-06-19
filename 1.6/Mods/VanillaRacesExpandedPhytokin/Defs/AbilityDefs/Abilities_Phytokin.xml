@@ -143,6 +143,38 @@
 		
 	</AbilityDef>
 
+	<AbilityDef>
+		<defName>AG_EyeProjectile</defName>
+		<label>eye</label>
+		<description>It's better not to think too hard about this.</description>
+		<iconPath>Things/Projectile/AG_EyeProjectile</iconPath>
+		<cooldownTicksRange>180</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<writeCombatLog>True</writeCombatLog>
+		<verbProperties>
+			<verbClass>Verb_AbilityShoot</verbClass>
+			<defaultProjectile>AG_EyeProjectile</defaultProjectile>
+			<accuracyTouch>0.9</accuracyTouch>
+			<accuracyShort>0.85</accuracyShort>
+			<accuracyMedium>0.8</accuracyMedium>
+			<accuracyLong>0.75</accuracyLong>
+			<range>20</range>
+			<muzzleFlashScale>0</muzzleFlashScale>
+			<warmupTime>3</warmupTime>
+			<soundCast>AG_Throw</soundCast>
+			<burstShotCount>3</burstShotCount>
+			<commonality>.8</commonality>
+			<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+			<minRange>2</minRange>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+			</targetParams>
+			<ai_IsWeapon>false</ai_IsWeapon>
+		</verbProperties>
+	</AbilityDef>
+
 	
 	
 </Defs>

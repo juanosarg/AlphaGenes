@@ -45,6 +45,8 @@ namespace AlphaGenes
                         if (gene != null)
                         {
                             parent.pawn.genes?.AddGene(gene.def, true);
+                            Messages.Message("AG_GeneSyphoned".Translate(pawn, gene.LabelCap), pawn, MessageTypeDefOf.PositiveEvent, historical: false);
+
                         }
                     }
                     

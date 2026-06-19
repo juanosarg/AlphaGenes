@@ -8,7 +8,7 @@ namespace AlphaGenes
     public class CompScorpionCounter : ThingComp
     {
 
-
+        //Unused now
         public CompProperties_ScorpionCounter Props
         {
             get
@@ -17,7 +17,7 @@ namespace AlphaGenes
             }
         }
 
-
+        /*
 
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
@@ -56,7 +56,7 @@ namespace AlphaGenes
 
             };
         }
-
+        */
 
     }
 }
