@@ -113,7 +113,7 @@ namespace AlphaGenes
         [MayRequireAnomaly]
         public static GeneDef AG_Shambler_Polluter;
         [MayRequire("vanillaracesexpanded.android")]
-        public static AndroidGeneDef VREA_Power;
+        public static GeneDef VREA_Power;
 
         public static XenotypeIconDef AG_CustomXenotypeIcon10;
 
