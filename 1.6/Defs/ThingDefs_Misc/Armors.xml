@@ -75,6 +75,7 @@
 		<equippedStatOffsets>
 			<PsychicSensitivity>-0.2</PsychicSensitivity>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			 <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.65</VacuumResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Synthread>50</Synthread>
@@ -122,6 +123,7 @@
 		<equippedStatOffsets>
 			<PsychicSensitivity>-0.2</PsychicSensitivity>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			 <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.65</VacuumResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Synthread>25</Synthread>
@@ -279,6 +281,7 @@
 			<AimingDelayFactor>-.3</AimingDelayFactor>
 			<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 			<PsychicSensitivity>-0.4</PsychicSensitivity>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.67</VacuumResistance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -334,6 +337,7 @@
 			<PsychicSensitivity>0.4</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.091</PsychicEntropyRecoveryRate>
 			<PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">0.6667</PsychicEntropyMax>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.67</VacuumResistance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -388,6 +392,7 @@
 			<WorkSpeedGlobal>.2</WorkSpeedGlobal>
 			<MoveSpeed>0.2</MoveSpeed>
 			<MeleeDamageFactor>0.25</MeleeDamageFactor>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.3</VacuumResistance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>8</ComponentSpacer>

@@ -1,6 +1,7 @@
 ﻿
 using RimWorld;
 using Verse;
+using VREAndroids;
 
 
 namespace AlphaGenes
@@ -111,7 +112,8 @@ namespace AlphaGenes
         public static GeneDef AG_Shambler_DeadlifeBelcher;
         [MayRequireAnomaly]
         public static GeneDef AG_Shambler_Polluter;
-
+        [MayRequire("vanillaracesexpanded.android")]
+        public static AndroidGeneDef VREA_Power;
 
         public static XenotypeIconDef AG_CustomXenotypeIcon10;
 

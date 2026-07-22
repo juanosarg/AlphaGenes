@@ -7,7 +7,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System;
-using Verse.AI;
+using VREAndroids;
+using VEF.Genes;
 
 namespace AlphaGenes
 {
@@ -168,14 +169,20 @@ namespace AlphaGenes
 				MixedGeneCount geneCount = MixedGeneCountProbabilities.RandomElementByWeight((MixedGeneCount x) => x.chance);
 				for (int i = 0; i < geneCount.architeCount; i++)
 				{
-					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc > 0 && geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out GeneDef result))
+					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc > 0 
+					&& (x.geneClass != typeof(Gene_Astrogene)) 
+					&& !(x is AndroidGeneDef)
+					&& geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out GeneDef result))
 					{
 						geneSet.AddGene(result);
 					}
 				}
 				for (int j = 0; j < geneCount.nonArchiteCount; j++)
 				{
-					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc == 0 && geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out var result1))
+					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc == 0
+                    && (x.geneClass != typeof(Gene_Astrogene))
+                    && !(x is AndroidGeneDef) 
+					&& geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out var result1))
 					{
 						geneSet.AddGene(result1);
 					}

@@ -100,7 +100,14 @@ namespace AlphaGenes
                 }
                 return false;
             }
-
+            if (pawn.HasActiveGene(InternalDefOf.VREA_Power))
+            {
+                if (throwMessages)
+                {
+                    Messages.Message("AG_CannotBeUsedOnAndroids".Translate(pawn), pawn, MessageTypeDefOf.RejectInput, historical: false);
+                }
+                return false;
+            }
 
 
             return base.Valid(target, throwMessages);

@@ -65,8 +65,13 @@ namespace AlphaGenes
                         {
 
                             pawn.health.RestorePart(bodyPartRecord);
-                            int num = (int)pawn.health.hediffSet.GetPartHealth(bodyPartRecord) - 2;
-                            DamageInfo damageInfo = new DamageInfo(DamageDefOf.Cut, (float)num, 999f, -1f, null, bodyPartRecord, null, DamageInfo.SourceCategory.ThingOrUnknown, null, true, true);
+                            float incomingFactor = pawn.GetStatValue(StatDefOf.IncomingDamageFactor);
+
+                            float desiredDamage =
+                                (pawn.health.hediffSet.GetPartHealth(bodyPartRecord) - 2f)
+                                / incomingFactor;
+                           
+                            DamageInfo damageInfo = new DamageInfo(DamageDefOf.Cut, desiredDamage, 999f, -1f, null, bodyPartRecord, null, DamageInfo.SourceCategory.ThingOrUnknown, null, true, true);
                             damageInfo.SetAllowDamagePropagation(false);
                             pawn.TakeDamage(damageInfo);
 
