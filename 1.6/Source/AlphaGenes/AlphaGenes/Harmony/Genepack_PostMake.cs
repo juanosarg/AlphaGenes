@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System;
-using VREAndroids;
 using VEF.Genes;
 
 namespace AlphaGenes
@@ -171,7 +170,7 @@ namespace AlphaGenes
 				{
 					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc > 0 
 					&& (x.geneClass != typeof(Gene_Astrogene)) 
-					&& !(x is AndroidGeneDef)
+					&& !(x.defName.Contains("VREA_"))
 					&& geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out GeneDef result))
 					{
 						geneSet.AddGene(result);
@@ -181,8 +180,8 @@ namespace AlphaGenes
 				{
 					if (DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.biostatArc == 0
                     && (x.geneClass != typeof(Gene_Astrogene))
-                    && !(x is AndroidGeneDef) 
-					&& geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out var result1))
+                    && !(x.defName.Contains("VREA_"))
+                    && geneSet.CanAddGeneDuringGeneration(x)).TryRandomElementByWeight((GeneDef x) => x.selectionWeight, out var result1))
 					{
 						geneSet.AddGene(result1);
 					}

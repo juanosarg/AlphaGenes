@@ -299,10 +299,6 @@
       <HintPath>..\..\..\..\..\VanillaExpandedFramework\1.6\Assemblies\VEF.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="VREAndroids">
-      <HintPath>..\..\..\..\..\VanillaRacesExpanded-Android\1.6\Assemblies\VREAndroids.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ability Comps\CompAbilityEffect_AdaptiveBiology.cs" />

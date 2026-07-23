@@ -1,8 +1,6 @@
 ﻿
 using RimWorld;
 using Verse;
-using VREAndroids;
-
 
 namespace AlphaGenes
 {
