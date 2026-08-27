@@ -33,12 +33,12 @@ namespace AlphaGenes
                         CompPocketPlane comp = ability.comps.First() as CompPocketPlane;
                         if (comp.pocketMap != null)
                         {
-                           
-
-                                PocketMapUtility.DestroyPocketMap(comp.pocketMap);
-                                comp.pocketMap = null;
-                            
-
+                            PocketMapUtility.DestroyPocketMap(comp.pocketMap);
+                            comp.pocketMap = null;
+                        }
+                        if (comp.originMap != null)
+                        {
+                            WorldComponent_PocketPlaneAnchor.Instance?.Release(comp.originMap);
                         }
                     }
                 }

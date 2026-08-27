@@ -37,32 +37,24 @@ namespace AlphaGenes
 
             if (pawn.Map == pocketMap)
             {
-                
-                if(originMap is null)
+                if (originMap is null)
                 {
                     Messages.Message("AG_TrappedForever".Translate(pawn.NameShortColored), pawn, MessageTypeDefOf.RejectInput, historical: false);
                 }
-                else {
+                else
+                {
+                    WorldComponent_PocketPlaneAnchor.Instance?.Release(originMap);
                     pawn.DeSpawnOrDeselect();
                     GenSpawn.Spawn(pawn, originLocation, originMap, Rot4.Random);
                     pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
                 }
-                
-
             }
             else
             {
-                if (!originMap.IsPlayerHome)
-                {
-                    Messages.Message("AG_OnlyPlayerHome".Translate(), pawn, MessageTypeDefOf.RejectInput, historical: false);
-                }
-                else
-                {
-                    pawn.DeSpawnOrDeselect();
-                    GenSpawn.Spawn(pawn, pocketMap.Center, pocketMap, Rot4.Random);
-                    pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
-                }
-               
+                WorldComponent_PocketPlaneAnchor.Instance?.Anchor(originMap);
+                pawn.DeSpawnOrDeselect();
+                GenSpawn.Spawn(pawn, pocketMap.Center, pocketMap, Rot4.Random);
+                pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
             }
 
 
