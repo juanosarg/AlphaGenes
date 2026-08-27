@@ -28,7 +28,10 @@ namespace AlphaGenes
             parent.AddEffecterToMaintain(EffecterDefOf.Skip_Entry.Spawn(target.Thing, pawn.Map), target.Thing.Position, 60);
             SoundDefOf.Psycast_Skip_Entry.PlayOneShot(new TargetInfo(target.Cell, parent.pawn.Map));
             pocketMap = GeneratePocketMap();
-            originMap = StoreOriginalMap();
+            if (pawn.Map != pocketMap)
+            {
+                StoreOriginalMap();
+            }
 
             SoundDefOf.TraversePitGate.PlayOneShot(pawn);
 
@@ -77,16 +80,10 @@ namespace AlphaGenes
            
             
         }
-        public Map StoreOriginalMap()
+        public void StoreOriginalMap()
         {
-           
-            if (originMap == null)
-            {
-                originMap = this.parent.pawn.Map;
-                originLocation = this.parent.pawn.Position;
-            }
-            return originMap;
-
+            originMap = this.parent.pawn.Map;
+            originLocation = this.parent.pawn.Position;
         }
 
         public override void PostExposeData()
