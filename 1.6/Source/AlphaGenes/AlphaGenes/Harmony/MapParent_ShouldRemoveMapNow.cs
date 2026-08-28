@@ -10,6 +10,11 @@ namespace AlphaGenes
     [HarmonyPatch(typeof(Game), "DeinitAndRemoveMap")]
     public static class AlphaGenes_Game_DeinitAndRemoveMap_Patch
     {
+        static AlphaGenes_Game_DeinitAndRemoveMap_Patch()
+        {
+            Log.Message("[AlphaGenes] DeinitAndRemoveMap patch class loaded");
+        }
+
         [HarmonyPrefix]
         public static bool PreventAnchoredMapRemoval(Map map)
         {
@@ -31,6 +36,11 @@ namespace AlphaGenes
     [HarmonyPatch(typeof(Site), "ShouldRemoveMapNow")]
     public static class AlphaGenes_Site_ShouldRemoveMapNow_Patch
     {
+        static AlphaGenes_Site_ShouldRemoveMapNow_Patch()
+        {
+            Log.Message("[AlphaGenes] Site.ShouldRemoveMapNow patch class loaded");
+        }
+
         [HarmonyPostfix]
         public static void PreventAnchoredMapRemoval(MapParent __instance, ref bool __result)
         {
@@ -51,6 +61,11 @@ namespace AlphaGenes
     [HarmonyPatch(typeof(Camp), "ShouldRemoveMapNow")]
     public static class AlphaGenes_Camp_ShouldRemoveMapNow_Patch
     {
+        static AlphaGenes_Camp_ShouldRemoveMapNow_Patch()
+        {
+            Log.Message("[AlphaGenes] Camp.ShouldRemoveMapNow patch class loaded");
+        }
+
         [HarmonyPostfix]
         public static void PreventAnchoredMapRemoval(MapParent __instance, ref bool __result)
         {
