@@ -44,7 +44,6 @@
 	<AG_OnlyOnFleshbeasts>{0} is not a fleshbeast!</AG_OnlyOnFleshbeasts>
 	<AG_FleshbeastTooBig>{0} is too big to be affected by this ability!</AG_FleshbeastTooBig>
 	<AG_TrappedForever>The original location is no longer available! {0} is trapped forever in this pocket plane!</AG_TrappedForever>
-	<AG_OnlyPlayerHome>This ability is only usable in a colony map</AG_OnlyPlayerHome>
 	<AG_NeedsForsakenKnowledge>Can only be built by someone with the Forsaken Knowledge gene</AG_NeedsForsakenKnowledge>
 	<AG_NeedsForsakenKnowledgeToWield>Can only be used by someone with the Forsaken Knowledge gene</AG_NeedsForsakenKnowledgeToWield>
 	<AG_ChooseGeneToRemove>Choose gene to remove</AG_ChooseGeneToRemove>
