@@ -468,7 +468,7 @@
     <Compile Include="Harmony\Genepack_PostMake.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\Pawn_InteractionsTracker_StartSocialFight.cs" />
-    <Compile Include="Harmony\MapParent_ShouldRemoveMapNow.cs" />
+    <Compile Include="Harmony\MapParent_CheckRemoveMapNow.cs" />
     <Compile Include="Harmony\Pawn_Kill.cs" />
     <Compile Include="Harmony\Pawn_MechanitorTracker_CanCommandTo.cs" />
     <Compile Include="Harmony\Pawn_MechanitorTracker_DrawCommandRadius.cs" />
