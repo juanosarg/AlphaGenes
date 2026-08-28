@@ -17,26 +17,13 @@ namespace AlphaGenes
 
         public void Anchor(Map map)
         {
-            if (map == null)
-            {
-                Log.Warning("[AlphaGenes] Anchor called with null map!");
-                return;
-            }
-            if (!anchoredMaps.Contains(map))
-            {
+            if (map != null && !anchoredMaps.Contains(map))
                 anchoredMaps.Add(map);
-                Log.Message($"[AlphaGenes] Anchored map '{map}'. Total anchored: {anchoredMaps.Count}");
-            }
-            else
-            {
-                Log.Message($"[AlphaGenes] Anchor: map '{map}' already anchored.");
-            }
         }
 
         public void Release(Map map)
         {
-            bool removed = anchoredMaps.Remove(map);
-            Log.Message($"[AlphaGenes] Released map '{map}': removed={removed}. Total anchored: {anchoredMaps.Count}");
+            anchoredMaps.Remove(map);
         }
 
         public bool IsAnchored(Map map) => anchoredMaps.Contains(map);
@@ -46,10 +33,7 @@ namespace AlphaGenes
             base.ExposeData();
             Scribe_Collections.Look(ref anchoredMaps, "anchoredMaps", LookMode.Reference);
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
-            {
                 anchoredMaps ??= new List<Map>();
-                Log.Message($"[AlphaGenes] WorldComponent_PocketPlaneAnchor loaded. Anchored maps: {anchoredMaps.Count}");
-            }
         }
     }
 }

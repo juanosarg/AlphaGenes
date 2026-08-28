@@ -51,7 +51,6 @@ namespace AlphaGenes
             }
             else
             {
-                Log.Message($"[AlphaGenes] Pawn '{pawn.Name}' entering pocket plane. Anchoring map '{originMap}'");
                 WorldComponent_PocketPlaneAnchor.Instance?.Anchor(originMap);
                 pawn.DeSpawnOrDeselect();
                 GenSpawn.Spawn(pawn, pocketMap.Center, pocketMap, Rot4.Random);
@@ -67,11 +66,11 @@ namespace AlphaGenes
         {
             if (pocketMap == null)
             {
-                pocketMap = PocketMapUtility.GeneratePocketMap(new IntVec3(Props.x, 1, Props.z), Props.map, null, null);              
+                pocketMap = PocketMapUtility.GeneratePocketMap(new IntVec3(Props.x, 1, Props.z), Props.map, null, null);
             }
             return pocketMap;
-           
-            
+
+
         }
         public void StoreOriginalMap()
         {
