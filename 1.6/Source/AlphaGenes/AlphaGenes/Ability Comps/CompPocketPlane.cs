@@ -28,38 +28,33 @@ namespace AlphaGenes
             parent.AddEffecterToMaintain(EffecterDefOf.Skip_Entry.Spawn(target.Thing, pawn.Map), target.Thing.Position, 60);
             SoundDefOf.Psycast_Skip_Entry.PlayOneShot(new TargetInfo(target.Cell, parent.pawn.Map));
             pocketMap = GeneratePocketMap();
-            originMap = StoreOriginalMap();
+            if (pawn.Map != pocketMap)
+            {
+                StoreOriginalMap();
+            }
 
             SoundDefOf.TraversePitGate.PlayOneShot(pawn);
 
             if (pawn.Map == pocketMap)
             {
-                
-                if(originMap is null)
+                if (originMap is null)
                 {
                     Messages.Message("AG_TrappedForever".Translate(pawn.NameShortColored), pawn, MessageTypeDefOf.RejectInput, historical: false);
                 }
-                else {
+                else
+                {
+                    WorldComponent_PocketPlaneAnchor.Instance?.Release(originMap);
                     pawn.DeSpawnOrDeselect();
                     GenSpawn.Spawn(pawn, originLocation, originMap, Rot4.Random);
                     pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
                 }
-                
-
             }
             else
             {
-                if (!originMap.IsPlayerHome)
-                {
-                    Messages.Message("AG_OnlyPlayerHome".Translate(), pawn, MessageTypeDefOf.RejectInput, historical: false);
-                }
-                else
-                {
-                    pawn.DeSpawnOrDeselect();
-                    GenSpawn.Spawn(pawn, pocketMap.Center, pocketMap, Rot4.Random);
-                    pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
-                }
-               
+                WorldComponent_PocketPlaneAnchor.Instance?.Anchor(originMap);
+                pawn.DeSpawnOrDeselect();
+                GenSpawn.Spawn(pawn, pocketMap.Center, pocketMap, Rot4.Random);
+                pawn.GetLord()?.Notify_PawnLost(pawn, PawnLostCondition.ExitedMap);
             }
 
 
@@ -71,22 +66,16 @@ namespace AlphaGenes
         {
             if (pocketMap == null)
             {
-                pocketMap = PocketMapUtility.GeneratePocketMap(new IntVec3(Props.x, 1, Props.z), Props.map, null, null);              
+                pocketMap = PocketMapUtility.GeneratePocketMap(new IntVec3(Props.x, 1, Props.z), Props.map, null, null);
             }
             return pocketMap;
-           
-            
-        }
-        public Map StoreOriginalMap()
-        {
-           
-            if (originMap == null)
-            {
-                originMap = this.parent.pawn.Map;
-                originLocation = this.parent.pawn.Position;
-            }
-            return originMap;
 
+
+        }
+        public void StoreOriginalMap()
+        {
+            originMap = this.parent.pawn.Map;
+            originLocation = this.parent.pawn.Position;
         }
 
         public override void PostExposeData()
