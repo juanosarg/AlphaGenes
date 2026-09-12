@@ -423,6 +423,7 @@
     <Compile Include="Defs\AnimalGeneTemplateDef.cs" />
     <Compile Include="Defs\BlackListedTraitsDef.cs" />
     <Compile Include="Defs\GenePackBlacklistDef.cs" />
+    <Compile Include="Defs\ShamblerGeneBlacklistsDef.cs" />
     <Compile Include="Defs\WretchBlacklistDef.cs" />
     <Compile Include="Defs\BlackListedAnimalsDef.cs" />
     <Compile Include="Dev Mode\GenerateBiotechLabQuest.cs" />

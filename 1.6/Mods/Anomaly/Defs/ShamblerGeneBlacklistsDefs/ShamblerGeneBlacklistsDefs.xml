@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaGenes.ShamblerGeneBlacklistsDef>
+		<defName>AM_ShamblerGeneBlacklistsDef</defName>
+		<shamblerGenelists>
+			<li>
+				<pawnKindDef>ShamblerSwarmer</pawnKindDef>
+				<geneChance>0.33</geneChance>
+				<genesToAdd>1~3</genesToAdd>
+				<shamblerGeneBlacklist>
+					<li>AG_Shambler_DeadlifeBelcher</li>
+					<li>AG_Shambler_Polluter</li>
+				</shamblerGeneBlacklist>
+			</li>
+			<li>
+				<pawnKindDef>ShamblerSoldier</pawnKindDef>
+				<geneChance>0.33</geneChance>
+				<genesToAdd>1~3</genesToAdd>
+				<shamblerGeneBlacklist>
+					<li>AG_Shambler_DeadlifeBelcher</li>
+					<li>AG_Shambler_Polluter</li>
+				</shamblerGeneBlacklist>
+			</li>
+			
+		</shamblerGenelists>
+		
+	</AlphaGenes.ShamblerGeneBlacklistsDef>
+</Defs>
+
