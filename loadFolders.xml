@@ -34,6 +34,23 @@
 		<li IfModActive="vanillaracesexpanded.insector">1.6/Mods/VanillaRacesExpandedInsector</li>
 		
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="sarg.alphabiomes">1.6/Mods/AlphaBiomes</li>
+		<li IfModActive="sarg.alphaanimals">1.6/Mods/AlphaAnimals</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/Mods/Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Mods/Anomaly</li>
+		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods/VanillaInsectoidsExpanded</li>
+		<li IfModActive="vanillaracesexpanded.phytokin">1.6/Mods/VanillaRacesExpandedPhytokin</li>
+		<li IfModActive="vanillaracesexpanded.sanguophage">1.6/Mods/VanillaRacesExpandedSanguophage</li>
+		<li IfModActive="vanillaracesexpanded.android">1.6/Mods/VanillaRacesExpandedAndroid</li>
+		<li IfModActive="DankPyon.Medieval.Overhaul">1.6/Mods/MedievalOverhaul</li>
+		<li IfModActive="vanillaracesexpanded.fungoid">1.6/Mods/VanillaRacesExpandedFungoid</li>
+		<li IfModActive="VanillaExpanded.VAEWaste">1.6/Mods/VanillaAnimalsExpandedWaste</li>
+		<li IfModActive="vanillaracesexpanded.insector">1.6/Mods/VanillaRacesExpandedInsector</li>
+		
+	</v1.7>
 </loadFolders>
 
 
